@@ -1,8 +1,8 @@
 # sweetscomplete.entity.product.Product test
 
-# include config file
-import config.config
-config.config.set_include_path("../src", True)
+# tell python where to find module source code
+import os,sys
+sys.path.append(os.path.realpath("src"))
 
 import sweetscomplete.entity.product
 
@@ -12,5 +12,5 @@ invent  = sweetscomplete.entity.product.InventoryInfo("items", 1.11, 99)
 product = sweetscomplete.entity.product.Product("test_test","base64encodedTest",main,invent)
 
 print(vars(product))
-print(vars(product.main_product_info))
-print(vars(product.inventory_info))
+print(vars(product.MainProductInfo))
+print(vars(product.InventoryInfo))

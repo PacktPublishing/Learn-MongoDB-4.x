@@ -1,19 +1,19 @@
 # sweetscomplete.entity.customer
 
 class Customer :
-    customerKey            = ""
-    primary_contact_info   = None
-    login_info             = None
-    address                = None
-    secondary_contact_info = None  
-    other_info             = None
+    customerKey          = ""
+    PrimaryContactInfo   = None
+    LoginInfo            = None
+    Address              = None
+    SecondaryContactInfo = None  
+    OtherInfo            = None
     def __init__(self, customerKey, primary_contact_info, login_info, address, secondary_contact_info, other_info) :
-        self.customerKey            = customerKey
-        self.primary_contact_info   = primary_contact_info
-        self.login_info             = login_info
-        self.address                = address
-        self.secondary_contact_info = secondary_contact_info
-        self.other_info             = other_info
+        self.customerKey          = customerKey
+        self.PrimaryContactInfo   = primary_contact_info
+        self.LoginInfo            = login_info
+        self.Address              = address
+        self.SecondaryContactInfo = secondary_contact_info
+        self.OtherInfo            = other_info
 
 class PrimaryContactInfo :
     firstName   = ""
@@ -38,7 +38,7 @@ class Address :
     locality                 = ""
     country                  = ""
     postalCode               = ""
-    geo_spatial_info         = None
+    GeoSpatialInfo           = None
     def __init__(self, streetAddressOfBuilding, buildingName, floor, roomApartmentCondoNumber, 
                  city, stateProvince, locality, country, postalCode, geo_spatial_info) :
         self.streetAddressOfBuilding  = streetAddressOfBuilding
@@ -50,7 +50,7 @@ class Address :
         self.locality                 = locality
         self.country                  = country
         self.postalCode               = postalCode
-        self.geo_spatial_info         = geo_spatial_info
+        self.GeoSpatialInfo           = geo_spatial_info
     
 class GeoSpatialInfo :
     latitude  = 0.00

@@ -1,8 +1,8 @@
 # sweetscomplete.entity.purchase.Purchase test
 
-# include config file
-import config.config
-config.config.set_include_path("../src", True)
+# tell python where to find module source code
+import os,sys
+sys.path.append(os.path.realpath("src"))
 
 from datetime import date
 import random
@@ -19,8 +19,7 @@ customer_info = purch.CustomerInfo(primary, address)
 
 # ProductInfo
 cost         = 1.11
-main         = prod.MainProductInfo(1, "Test", "test", "Test", cost)
-product_info = purch.ProductInfo(main)
+product_info = prod.MainProductInfo(1, "Test", "test", "Test", cost)
 
 # PurchaseInfo
 qty            = 111
@@ -32,10 +31,9 @@ transId        = (dateOfPurchase + str(random.randint(1000, 9999))).replace('-',
 purchase       = purch.Purchase(transId,customer_info,product_info,purch_info)
 
 print(vars(purchase))
-print(vars(purchase.customer_info))
-print(vars(purchase.customer_info.primary_contact_info))
-print(vars(purchase.customer_info.address))
-print(vars(purchase.customer_info.address.geo_spatial_info))
-print(vars(purchase.product_info))
-print(vars(purchase.product_info.main_product_info))
-print(vars(purchase.purchase_info))
+print(vars(purchase.CustomerInfo))
+print(vars(purchase.CustomerInfo.PrimaryContactInfo))
+print(vars(purchase.CustomerInfo.Address))
+print(vars(purchase.CustomerInfo.Address.GeoSpatialInfo))
+print(vars(purchase.MainProductInfo))
+print(vars(purchase.PurchaseInfo))

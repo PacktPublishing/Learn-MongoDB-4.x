@@ -1,8 +1,8 @@
 # sweetscomplete.entity.product.Product test
 
-# include config file
-import config.config
-config.config.set_include_path("../src", True)
+# tell python where to find module source code
+import os,sys
+sys.path.append(os.path.realpath("src"))
 
 import sweetscomplete.entity.common as c
 

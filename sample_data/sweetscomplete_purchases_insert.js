@@ -28,14 +28,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "CHER516",
-            "category": "pie",
-            "title": "Cherry Pie",
-            "description": "Vivamus semper justo sed dictum aliquam. Maecenas eget lectus ultrices, porta eros a, blandit nisi. Phasellus vel velit eget nibh porttitor feugiat id ac massa.",
-            "price": "4.99"
-        }
+    "MainProductInfo": {
+        "skuNumber": "CHER516",
+        "category": "pie",
+        "title": "Cherry Pie",
+        "description": "Vivamus semper justo sed dictum aliquam. Maecenas eget lectus ultrices, porta eros a, blandit nisi. Phasellus vel velit eget nibh porttitor feugiat id ac massa.",
+        "price": "4.99"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2019-01-31 20:17:24",
@@ -75,14 +73,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "GLOW437",
-            "category": "donut",
-            "title": "Glow In The Dark Donut",
-            "description": "Nam gravida libero ac malesuada cursus. Vivamus pharetra sapien at sem ultrices semper.",
-            "price": "0.79"
-        }
+    "MainProductInfo": {
+        "skuNumber": "GLOW437",
+        "category": "donut",
+        "title": "Glow In The Dark Donut",
+        "description": "Nam gravida libero ac malesuada cursus. Vivamus pharetra sapien at sem ultrices semper.",
+        "price": "0.79"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2018-01-19 20:17:24",
@@ -122,14 +118,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "BLAC207",
-            "category": "chocolate",
-            "title": "Black And Tan Truffel",
-            "description": "Nam gravida libero ac malesuada cursus. Ut quis massa sit amet enim faucibus suscipit ac viverra elit. Nullam quis tortor accumsan, sagittis sem in, porttitor orci. Aenean sit amet massa ac dolor interdum varius. Pellentesque vel risus placerat, consequat leo suscipit, dapibus nulla. Vestibulum a sem volutpat, pellentesque eros et, placerat justo.",
-            "price": "3.49"
-        }
+    "MainProductInfo": {
+        "skuNumber": "BLAC207",
+        "category": "chocolate",
+        "title": "Black And Tan Truffel",
+        "description": "Nam gravida libero ac malesuada cursus. Ut quis massa sit amet enim faucibus suscipit ac viverra elit. Nullam quis tortor accumsan, sagittis sem in, porttitor orci. Aenean sit amet massa ac dolor interdum varius. Pellentesque vel risus placerat, consequat leo suscipit, dapibus nulla. Vestibulum a sem volutpat, pellentesque eros et, placerat justo.",
+        "price": "3.49"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2017-04-06 20:17:24",
@@ -173,14 +167,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "TORT167",
-            "category": "cake",
-            "title": "Torta Cake",
-            "description": "Maecenas interdum ex id venenatis luctus. Nam gravida libero ac malesuada cursus.",
-            "price": "12.99"
-        }
+    "MainProductInfo": {
+        "skuNumber": "TORT167",
+        "category": "cake",
+        "title": "Torta Cake",
+        "description": "Maecenas interdum ex id venenatis luctus. Nam gravida libero ac malesuada cursus.",
+        "price": "12.99"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2019-07-17 20:17:24",
@@ -220,14 +212,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "CARR113",
-            "category": "cake",
-            "title": "Carrot Cake",
-            "description": "Nam gravida libero ac malesuada cursus. Vivamus semper justo sed dictum aliquam.",
-            "price": "7.99"
-        }
+    "MainProductInfo": {
+        "skuNumber": "CARR113",
+        "category": "cake",
+        "title": "Carrot Cake",
+        "description": "Nam gravida libero ac malesuada cursus. Vivamus semper justo sed dictum aliquam.",
+        "price": "7.99"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2017-04-23 20:17:24",
@@ -262,14 +252,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "CAKE110",
-            "category": "cake",
-            "title": "Cake With Chocolate Frosting",
-            "description": "In a magna pretium, laoreet neque eget, consectetur justo. Nam gravida libero ac malesuada cursus. Vivamus pharetra sapien at sem ultrices semper. Vivamus semper justo sed dictum aliquam. Ut quis massa sit amet enim faucibus suscipit ac viverra elit. Praesent pretium justo at neque egestas mattis.",
-            "price": "8.99"
-        }
+    "MainProductInfo": {
+        "skuNumber": "CAKE110",
+        "category": "cake",
+        "title": "Cake With Chocolate Frosting",
+        "description": "In a magna pretium, laoreet neque eget, consectetur justo. Nam gravida libero ac malesuada cursus. Vivamus pharetra sapien at sem ultrices semper. Vivamus semper justo sed dictum aliquam. Ut quis massa sit amet enim faucibus suscipit ac viverra elit. Praesent pretium justo at neque egestas mattis.",
+        "price": "8.99"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2017-08-14 20:17:24",
@@ -304,14 +292,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "PUMP555",
-            "category": "pie",
-            "title": "Pumpkin Pie",
-            "description": "Cras sit amet eros congue, rhoncus sem sed, consequat arcu. Vivamus pharetra sapien at sem ultrices semper.",
-            "price": "4.99"
-        }
+    "MainProductInfo": {
+        "skuNumber": "PUMP555",
+        "category": "pie",
+        "title": "Pumpkin Pie",
+        "description": "Cras sit amet eros congue, rhoncus sem sed, consequat arcu. Vivamus pharetra sapien at sem ultrices semper.",
+        "price": "4.99"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2019-01-30 20:17:24",
@@ -351,14 +337,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "LAYE143",
-            "category": "cake",
-            "title": "Layer Cake",
-            "description": "Cras sit amet eros congue, rhoncus sem sed, consequat arcu. Vivamus pharetra sapien at sem ultrices semper. Maecenas eget lectus ultrices, porta eros a, blandit nisi. Aenean sit amet massa ac dolor interdum varius. Praesent bibendum mi et augue lacinia auctor. Vivamus ac magna nec lacus varius pretium et vitae velit.",
-            "price": "2.99"
-        }
+    "MainProductInfo": {
+        "skuNumber": "LAYE143",
+        "category": "cake",
+        "title": "Layer Cake",
+        "description": "Cras sit amet eros congue, rhoncus sem sed, consequat arcu. Vivamus pharetra sapien at sem ultrices semper. Maecenas eget lectus ultrices, porta eros a, blandit nisi. Aenean sit amet massa ac dolor interdum varius. Praesent bibendum mi et augue lacinia auctor. Vivamus ac magna nec lacus varius pretium et vitae velit.",
+        "price": "2.99"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2017-03-25 20:17:24",
@@ -402,14 +386,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "CHOC425",
-            "category": "donut",
-            "title": "Chocolate Covered Donut",
-            "description": "In a magna pretium, laoreet neque eget, consectetur justo. Nam gravida libero ac malesuada cursus. Vivamus pharetra sapien at sem ultrices semper.",
-            "price": "0.67"
-        }
+    "MainProductInfo": {
+        "skuNumber": "CHOC425",
+        "category": "donut",
+        "title": "Chocolate Covered Donut",
+        "description": "In a magna pretium, laoreet neque eget, consectetur justo. Nam gravida libero ac malesuada cursus. Vivamus pharetra sapien at sem ultrices semper.",
+        "price": "0.67"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2018-01-05 20:17:24",
@@ -444,14 +426,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "VALE270",
-            "category": "chocolate",
-            "title": "Valentines Day Chocolate Pack",
-            "description": "Nam gravida libero ac malesuada cursus. Vivamus semper justo sed dictum aliquam.",
-            "price": "19.99"
-        }
+    "MainProductInfo": {
+        "skuNumber": "VALE270",
+        "category": "chocolate",
+        "title": "Valentines Day Chocolate Pack",
+        "description": "Nam gravida libero ac malesuada cursus. Vivamus semper justo sed dictum aliquam.",
+        "price": "19.99"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2019-08-26 20:17:24",
@@ -495,14 +475,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "TORT167",
-            "category": "cake",
-            "title": "Torta Cake",
-            "description": "Maecenas interdum ex id venenatis luctus. Nam gravida libero ac malesuada cursus.",
-            "price": "12.99"
-        }
+    "MainProductInfo": {
+        "skuNumber": "TORT167",
+        "category": "cake",
+        "title": "Torta Cake",
+        "description": "Maecenas interdum ex id venenatis luctus. Nam gravida libero ac malesuada cursus.",
+        "price": "12.99"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2017-08-27 20:17:24",
@@ -546,14 +524,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "MUFF149",
-            "category": "cake",
-            "title": "Muffin",
-            "description": "In a magna pretium, laoreet neque eget, consectetur justo. Vivamus pharetra sapien at sem ultrices semper. Ut quis massa sit amet enim faucibus suscipit ac viverra elit. Maecenas eget lectus ultrices, porta eros a, blandit nisi.",
-            "price": "1.99"
-        }
+    "MainProductInfo": {
+        "skuNumber": "MUFF149",
+        "category": "cake",
+        "title": "Muffin",
+        "description": "In a magna pretium, laoreet neque eget, consectetur justo. Vivamus pharetra sapien at sem ultrices semper. Ut quis massa sit amet enim faucibus suscipit ac viverra elit. Maecenas eget lectus ultrices, porta eros a, blandit nisi.",
+        "price": "1.99"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2016-07-01 20:17:24",
@@ -597,14 +573,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "LAYE143",
-            "category": "cake",
-            "title": "Layer Cake",
-            "description": "Cras sit amet eros congue, rhoncus sem sed, consequat arcu. Vivamus pharetra sapien at sem ultrices semper. Maecenas eget lectus ultrices, porta eros a, blandit nisi. Aenean sit amet massa ac dolor interdum varius. Praesent bibendum mi et augue lacinia auctor. Vivamus ac magna nec lacus varius pretium et vitae velit.",
-            "price": "2.99"
-        }
+    "MainProductInfo": {
+        "skuNumber": "LAYE143",
+        "category": "cake",
+        "title": "Layer Cake",
+        "description": "Cras sit amet eros congue, rhoncus sem sed, consequat arcu. Vivamus pharetra sapien at sem ultrices semper. Maecenas eget lectus ultrices, porta eros a, blandit nisi. Aenean sit amet massa ac dolor interdum varius. Praesent bibendum mi et augue lacinia auctor. Vivamus ac magna nec lacus varius pretium et vitae velit.",
+        "price": "2.99"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2019-06-21 20:17:24",
@@ -644,14 +618,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "CHOC322",
-            "category": "cookie",
-            "title": "Chocolate Chip Cookie",
-            "description": "Cras sit amet eros congue, rhoncus sem sed, consequat arcu. Maecenas interdum ex id venenatis luctus. In a magna pretium, laoreet neque eget, consectetur justo. Nam gravida libero ac malesuada cursus. Vivamus pharetra sapien at sem ultrices semper. Vivamus semper justo sed dictum aliquam.",
-            "price": "0.88"
-        }
+    "MainProductInfo": {
+        "skuNumber": "CHOC322",
+        "category": "cookie",
+        "title": "Chocolate Chip Cookie",
+        "description": "Cras sit amet eros congue, rhoncus sem sed, consequat arcu. Maecenas interdum ex id venenatis luctus. In a magna pretium, laoreet neque eget, consectetur justo. Nam gravida libero ac malesuada cursus. Vivamus pharetra sapien at sem ultrices semper. Vivamus semper justo sed dictum aliquam.",
+        "price": "0.88"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2016-03-25 20:17:24",
@@ -695,14 +667,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "LAYE140",
-            "category": "cake",
-            "title": "Layer Cake Cherry Topping",
-            "description": "Cras sit amet eros congue, rhoncus sem sed, consequat arcu. Maecenas interdum ex id venenatis luctus.",
-            "price": "3.99"
-        }
+    "MainProductInfo": {
+        "skuNumber": "LAYE140",
+        "category": "cake",
+        "title": "Layer Cake Cherry Topping",
+        "description": "Cras sit amet eros congue, rhoncus sem sed, consequat arcu. Maecenas interdum ex id venenatis luctus.",
+        "price": "3.99"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2016-10-18 20:17:24",
@@ -746,14 +716,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "CHOC228",
-            "category": "chocolate",
-            "title": "Chocolate Bar",
-            "description": "Vivamus semper justo sed dictum aliquam. Nullam quis tortor accumsan, sagittis sem in, porttitor orci. Donec ac purus sed justo egestas ultricies.",
-            "price": "2.99"
-        }
+    "MainProductInfo": {
+        "skuNumber": "CHOC228",
+        "category": "chocolate",
+        "title": "Chocolate Bar",
+        "description": "Vivamus semper justo sed dictum aliquam. Nullam quis tortor accumsan, sagittis sem in, porttitor orci. Donec ac purus sed justo egestas ultricies.",
+        "price": "2.99"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2019-07-17 20:17:24",
@@ -797,14 +765,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "CHOC219",
-            "category": "chocolate",
-            "title": "Chocolate Bunny",
-            "description": "Cras sit amet eros congue, rhoncus sem sed, consequat arcu. Vivamus pharetra sapien at sem ultrices semper. Maecenas eget lectus ultrices, porta eros a, blandit nisi. Aenean sit amet massa ac dolor interdum varius. Praesent bibendum mi et augue lacinia auctor. Vivamus ac magna nec lacus varius pretium et vitae velit.",
-            "price": "6.49"
-        }
+    "MainProductInfo": {
+        "skuNumber": "CHOC219",
+        "category": "chocolate",
+        "title": "Chocolate Bunny",
+        "description": "Cras sit amet eros congue, rhoncus sem sed, consequat arcu. Vivamus pharetra sapien at sem ultrices semper. Maecenas eget lectus ultrices, porta eros a, blandit nisi. Aenean sit amet massa ac dolor interdum varius. Praesent bibendum mi et augue lacinia auctor. Vivamus ac magna nec lacus varius pretium et vitae velit.",
+        "price": "6.49"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2017-08-31 20:17:24",
@@ -852,14 +818,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "RASP258",
-            "category": "chocolate",
-            "title": "Raspberry Truffel",
-            "description": "Praesent hendrerit tellus eget nibh lobortis, ut scelerisque mi mattis. In a magna pretium, laoreet neque eget, consectetur justo.",
-            "price": "3.49"
-        }
+    "MainProductInfo": {
+        "skuNumber": "RASP258",
+        "category": "chocolate",
+        "title": "Raspberry Truffel",
+        "description": "Praesent hendrerit tellus eget nibh lobortis, ut scelerisque mi mattis. In a magna pretium, laoreet neque eget, consectetur justo.",
+        "price": "3.49"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2017-09-26 20:17:24",
@@ -899,14 +863,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "PEAN252",
-            "category": "chocolate",
-            "title": "Peanut Truffle",
-            "description": "Nam gravida libero ac malesuada cursus. Vivamus pharetra sapien at sem ultrices semper. Vivamus semper justo sed dictum aliquam.",
-            "price": "3.49"
-        }
+    "MainProductInfo": {
+        "skuNumber": "PEAN252",
+        "category": "chocolate",
+        "title": "Peanut Truffle",
+        "description": "Nam gravida libero ac malesuada cursus. Vivamus pharetra sapien at sem ultrices semper. Vivamus semper justo sed dictum aliquam.",
+        "price": "3.49"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2019-02-08 20:17:24",
@@ -946,14 +908,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "WEDD173",
-            "category": "cake",
-            "title": "Wedding Cake",
-            "description": "Quisque et magna malesuada, fermentum nisl sed, imperdiet nunc. Maecenas interdum ex id venenatis luctus. Vivamus semper justo sed dictum aliquam. Nullam quis tortor accumsan, sagittis sem in, porttitor orci.",
-            "price": "49.99"
-        }
+    "MainProductInfo": {
+        "skuNumber": "WEDD173",
+        "category": "cake",
+        "title": "Wedding Cake",
+        "description": "Quisque et magna malesuada, fermentum nisl sed, imperdiet nunc. Maecenas interdum ex id venenatis luctus. Vivamus semper justo sed dictum aliquam. Nullam quis tortor accumsan, sagittis sem in, porttitor orci.",
+        "price": "49.99"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2017-02-03 20:17:24",
@@ -988,14 +948,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "DOZE434",
-            "category": "donut",
-            "title": "Dozen Donuts",
-            "description": "Nam gravida libero ac malesuada cursus. Vivamus semper justo sed dictum aliquam. Praesent pretium justo at neque egestas mattis. Nullam quis tortor accumsan, sagittis sem in, porttitor orci. Phasellus vel velit eget nibh porttitor feugiat id ac massa. Donec ac purus sed justo egestas ultricies.",
-            "price": "6.99"
-        }
+    "MainProductInfo": {
+        "skuNumber": "DOZE434",
+        "category": "donut",
+        "title": "Dozen Donuts",
+        "description": "Nam gravida libero ac malesuada cursus. Vivamus semper justo sed dictum aliquam. Praesent pretium justo at neque egestas mattis. Nullam quis tortor accumsan, sagittis sem in, porttitor orci. Phasellus vel velit eget nibh porttitor feugiat id ac massa. Donec ac purus sed justo egestas ultricies.",
+        "price": "6.99"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2018-12-05 20:17:24",
@@ -1030,14 +988,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "LAYE143",
-            "category": "cake",
-            "title": "Layer Cake",
-            "description": "Cras sit amet eros congue, rhoncus sem sed, consequat arcu. Vivamus pharetra sapien at sem ultrices semper. Maecenas eget lectus ultrices, porta eros a, blandit nisi. Aenean sit amet massa ac dolor interdum varius. Praesent bibendum mi et augue lacinia auctor. Vivamus ac magna nec lacus varius pretium et vitae velit.",
-            "price": "2.99"
-        }
+    "MainProductInfo": {
+        "skuNumber": "LAYE143",
+        "category": "cake",
+        "title": "Layer Cake",
+        "description": "Cras sit amet eros congue, rhoncus sem sed, consequat arcu. Vivamus pharetra sapien at sem ultrices semper. Maecenas eget lectus ultrices, porta eros a, blandit nisi. Aenean sit amet massa ac dolor interdum varius. Praesent bibendum mi et augue lacinia auctor. Vivamus ac magna nec lacus varius pretium et vitae velit.",
+        "price": "2.99"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2019-01-08 20:17:24",
@@ -1077,14 +1033,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "RASP258",
-            "category": "chocolate",
-            "title": "Raspberry Truffel",
-            "description": "Praesent hendrerit tellus eget nibh lobortis, ut scelerisque mi mattis. In a magna pretium, laoreet neque eget, consectetur justo.",
-            "price": "3.49"
-        }
+    "MainProductInfo": {
+        "skuNumber": "RASP258",
+        "category": "chocolate",
+        "title": "Raspberry Truffel",
+        "description": "Praesent hendrerit tellus eget nibh lobortis, ut scelerisque mi mattis. In a magna pretium, laoreet neque eget, consectetur justo.",
+        "price": "3.49"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2018-08-30 20:17:24",
@@ -1119,14 +1073,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "CHOC322",
-            "category": "cookie",
-            "title": "Chocolate Chip Cookie",
-            "description": "Cras sit amet eros congue, rhoncus sem sed, consequat arcu. Maecenas interdum ex id venenatis luctus. In a magna pretium, laoreet neque eget, consectetur justo. Nam gravida libero ac malesuada cursus. Vivamus pharetra sapien at sem ultrices semper. Vivamus semper justo sed dictum aliquam.",
-            "price": "0.88"
-        }
+    "MainProductInfo": {
+        "skuNumber": "CHOC322",
+        "category": "cookie",
+        "title": "Chocolate Chip Cookie",
+        "description": "Cras sit amet eros congue, rhoncus sem sed, consequat arcu. Maecenas interdum ex id venenatis luctus. In a magna pretium, laoreet neque eget, consectetur justo. Nam gravida libero ac malesuada cursus. Vivamus pharetra sapien at sem ultrices semper. Vivamus semper justo sed dictum aliquam.",
+        "price": "0.88"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2017-12-16 20:17:24",
@@ -1166,14 +1118,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "CHER516",
-            "category": "pie",
-            "title": "Cherry Pie",
-            "description": "Vivamus semper justo sed dictum aliquam. Maecenas eget lectus ultrices, porta eros a, blandit nisi. Phasellus vel velit eget nibh porttitor feugiat id ac massa.",
-            "price": "4.99"
-        }
+    "MainProductInfo": {
+        "skuNumber": "CHER516",
+        "category": "pie",
+        "title": "Cherry Pie",
+        "description": "Vivamus semper justo sed dictum aliquam. Maecenas eget lectus ultrices, porta eros a, blandit nisi. Phasellus vel velit eget nibh porttitor feugiat id ac massa.",
+        "price": "4.99"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2019-02-08 20:17:24",
@@ -1208,14 +1158,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "SCHW361",
-            "category": "cookie",
-            "title": "Schweineoehrchen Cookie",
-            "description": "Vivamus semper justo sed dictum aliquam. Nullam quis tortor accumsan, sagittis sem in, porttitor orci. Donec ac purus sed justo egestas ultricies. Mauris interdum elit nec dolor volutpat, sit amet sollicitudin eros facilisis.",
-            "price": "0.49"
-        }
+    "MainProductInfo": {
+        "skuNumber": "SCHW361",
+        "category": "cookie",
+        "title": "Schweineoehrchen Cookie",
+        "description": "Vivamus semper justo sed dictum aliquam. Nullam quis tortor accumsan, sagittis sem in, porttitor orci. Donec ac purus sed justo egestas ultricies. Mauris interdum elit nec dolor volutpat, sit amet sollicitudin eros facilisis.",
+        "price": "0.49"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2017-01-17 20:17:24",
@@ -1255,14 +1203,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "CAKE110",
-            "category": "cake",
-            "title": "Cake With Chocolate Frosting",
-            "description": "In a magna pretium, laoreet neque eget, consectetur justo. Nam gravida libero ac malesuada cursus. Vivamus pharetra sapien at sem ultrices semper. Vivamus semper justo sed dictum aliquam. Ut quis massa sit amet enim faucibus suscipit ac viverra elit. Praesent pretium justo at neque egestas mattis.",
-            "price": "8.99"
-        }
+    "MainProductInfo": {
+        "skuNumber": "CAKE110",
+        "category": "cake",
+        "title": "Cake With Chocolate Frosting",
+        "description": "In a magna pretium, laoreet neque eget, consectetur justo. Nam gravida libero ac malesuada cursus. Vivamus pharetra sapien at sem ultrices semper. Vivamus semper justo sed dictum aliquam. Ut quis massa sit amet enim faucibus suscipit ac viverra elit. Praesent pretium justo at neque egestas mattis.",
+        "price": "8.99"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2018-06-28 20:17:24",
@@ -1311,7 +1257,7 @@ db.purchases.insertOne(
         }
     },
     "ProductInfo": {
-        "MainProductInfo": null
+            "MainProductInfo": null
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2019-06-30 20:17:24",
@@ -1351,14 +1297,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "LOAF146",
-            "category": "cake",
-            "title": "Loaf Cake",
-            "description": "Donec sed dui hendrerit nulla iaculis vestibulum. Morbi consectetur urna sit amet facilisis gravida. In a magna pretium, laoreet neque eget, consectetur justo.",
-            "price": "3.99"
-        }
+    "MainProductInfo": {
+        "skuNumber": "LOAF146",
+        "category": "cake",
+        "title": "Loaf Cake",
+        "description": "Donec sed dui hendrerit nulla iaculis vestibulum. Morbi consectetur urna sit amet facilisis gravida. In a magna pretium, laoreet neque eget, consectetur justo.",
+        "price": "3.99"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2016-10-09 20:17:24",
@@ -1398,14 +1342,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "LAYE143",
-            "category": "cake",
-            "title": "Layer Cake",
-            "description": "Cras sit amet eros congue, rhoncus sem sed, consequat arcu. Vivamus pharetra sapien at sem ultrices semper. Maecenas eget lectus ultrices, porta eros a, blandit nisi. Aenean sit amet massa ac dolor interdum varius. Praesent bibendum mi et augue lacinia auctor. Vivamus ac magna nec lacus varius pretium et vitae velit.",
-            "price": "2.99"
-        }
+    "MainProductInfo": {
+        "skuNumber": "LAYE143",
+        "category": "cake",
+        "title": "Layer Cake",
+        "description": "Cras sit amet eros congue, rhoncus sem sed, consequat arcu. Vivamus pharetra sapien at sem ultrices semper. Maecenas eget lectus ultrices, porta eros a, blandit nisi. Aenean sit amet massa ac dolor interdum varius. Praesent bibendum mi et augue lacinia auctor. Vivamus ac magna nec lacus varius pretium et vitae velit.",
+        "price": "2.99"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2017-01-31 20:17:24",
@@ -1457,14 +1399,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "LAYE143",
-            "category": "cake",
-            "title": "Layer Cake",
-            "description": "Cras sit amet eros congue, rhoncus sem sed, consequat arcu. Vivamus pharetra sapien at sem ultrices semper. Maecenas eget lectus ultrices, porta eros a, blandit nisi. Aenean sit amet massa ac dolor interdum varius. Praesent bibendum mi et augue lacinia auctor. Vivamus ac magna nec lacus varius pretium et vitae velit.",
-            "price": "2.99"
-        }
+    "MainProductInfo": {
+        "skuNumber": "LAYE143",
+        "category": "cake",
+        "title": "Layer Cake",
+        "description": "Cras sit amet eros congue, rhoncus sem sed, consequat arcu. Vivamus pharetra sapien at sem ultrices semper. Maecenas eget lectus ultrices, porta eros a, blandit nisi. Aenean sit amet massa ac dolor interdum varius. Praesent bibendum mi et augue lacinia auctor. Vivamus ac magna nec lacus varius pretium et vitae velit.",
+        "price": "2.99"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2018-12-26 20:17:24",
@@ -1504,14 +1444,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "LAYE140",
-            "category": "cake",
-            "title": "Layer Cake Cherry Topping",
-            "description": "Cras sit amet eros congue, rhoncus sem sed, consequat arcu. Maecenas interdum ex id venenatis luctus.",
-            "price": "3.99"
-        }
+    "MainProductInfo": {
+        "skuNumber": "LAYE140",
+        "category": "cake",
+        "title": "Layer Cake Cherry Topping",
+        "description": "Cras sit amet eros congue, rhoncus sem sed, consequat arcu. Maecenas interdum ex id venenatis luctus.",
+        "price": "3.99"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2017-08-26 20:17:24",
@@ -1559,14 +1497,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "CHOC219",
-            "category": "chocolate",
-            "title": "Chocolate Bunny",
-            "description": "Cras sit amet eros congue, rhoncus sem sed, consequat arcu. Vivamus pharetra sapien at sem ultrices semper. Maecenas eget lectus ultrices, porta eros a, blandit nisi. Aenean sit amet massa ac dolor interdum varius. Praesent bibendum mi et augue lacinia auctor. Vivamus ac magna nec lacus varius pretium et vitae velit.",
-            "price": "6.49"
-        }
+    "MainProductInfo": {
+        "skuNumber": "CHOC219",
+        "category": "chocolate",
+        "title": "Chocolate Bunny",
+        "description": "Cras sit amet eros congue, rhoncus sem sed, consequat arcu. Vivamus pharetra sapien at sem ultrices semper. Maecenas eget lectus ultrices, porta eros a, blandit nisi. Aenean sit amet massa ac dolor interdum varius. Praesent bibendum mi et augue lacinia auctor. Vivamus ac magna nec lacus varius pretium et vitae velit.",
+        "price": "6.49"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2016-04-25 20:17:24",
@@ -1606,14 +1542,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "TORT167",
-            "category": "cake",
-            "title": "Torta Cake",
-            "description": "Maecenas interdum ex id venenatis luctus. Nam gravida libero ac malesuada cursus.",
-            "price": "12.99"
-        }
+    "MainProductInfo": {
+        "skuNumber": "TORT167",
+        "category": "cake",
+        "title": "Torta Cake",
+        "description": "Maecenas interdum ex id venenatis luctus. Nam gravida libero ac malesuada cursus.",
+        "price": "12.99"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2019-02-12 20:17:24",
@@ -1661,14 +1595,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "LAYE140",
-            "category": "cake",
-            "title": "Layer Cake Cherry Topping",
-            "description": "Cras sit amet eros congue, rhoncus sem sed, consequat arcu. Maecenas interdum ex id venenatis luctus.",
-            "price": "3.99"
-        }
+    "MainProductInfo": {
+        "skuNumber": "LAYE140",
+        "category": "cake",
+        "title": "Layer Cake Cherry Topping",
+        "description": "Cras sit amet eros congue, rhoncus sem sed, consequat arcu. Maecenas interdum ex id venenatis luctus.",
+        "price": "3.99"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2016-08-27 20:17:24",
@@ -1712,14 +1644,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "LAYE143",
-            "category": "cake",
-            "title": "Layer Cake",
-            "description": "Cras sit amet eros congue, rhoncus sem sed, consequat arcu. Vivamus pharetra sapien at sem ultrices semper. Maecenas eget lectus ultrices, porta eros a, blandit nisi. Aenean sit amet massa ac dolor interdum varius. Praesent bibendum mi et augue lacinia auctor. Vivamus ac magna nec lacus varius pretium et vitae velit.",
-            "price": "2.99"
-        }
+    "MainProductInfo": {
+        "skuNumber": "LAYE143",
+        "category": "cake",
+        "title": "Layer Cake",
+        "description": "Cras sit amet eros congue, rhoncus sem sed, consequat arcu. Vivamus pharetra sapien at sem ultrices semper. Maecenas eget lectus ultrices, porta eros a, blandit nisi. Aenean sit amet massa ac dolor interdum varius. Praesent bibendum mi et augue lacinia auctor. Vivamus ac magna nec lacus varius pretium et vitae velit.",
+        "price": "2.99"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2017-12-19 20:17:24",
@@ -1759,14 +1689,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "WEDD173",
-            "category": "cake",
-            "title": "Wedding Cake",
-            "description": "Quisque et magna malesuada, fermentum nisl sed, imperdiet nunc. Maecenas interdum ex id venenatis luctus. Vivamus semper justo sed dictum aliquam. Nullam quis tortor accumsan, sagittis sem in, porttitor orci.",
-            "price": "49.99"
-        }
+    "MainProductInfo": {
+        "skuNumber": "WEDD173",
+        "category": "cake",
+        "title": "Wedding Cake",
+        "description": "Quisque et magna malesuada, fermentum nisl sed, imperdiet nunc. Maecenas interdum ex id venenatis luctus. Vivamus semper justo sed dictum aliquam. Nullam quis tortor accumsan, sagittis sem in, porttitor orci.",
+        "price": "49.99"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2019-07-20 20:17:24",
@@ -1810,14 +1738,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "PEAN252",
-            "category": "chocolate",
-            "title": "Peanut Truffle",
-            "description": "Nam gravida libero ac malesuada cursus. Vivamus pharetra sapien at sem ultrices semper. Vivamus semper justo sed dictum aliquam.",
-            "price": "3.49"
-        }
+    "MainProductInfo": {
+        "skuNumber": "PEAN252",
+        "category": "chocolate",
+        "title": "Peanut Truffle",
+        "description": "Nam gravida libero ac malesuada cursus. Vivamus pharetra sapien at sem ultrices semper. Vivamus semper justo sed dictum aliquam.",
+        "price": "3.49"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2017-06-07 20:17:24",
@@ -1857,14 +1783,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "RASP258",
-            "category": "chocolate",
-            "title": "Raspberry Truffel",
-            "description": "Praesent hendrerit tellus eget nibh lobortis, ut scelerisque mi mattis. In a magna pretium, laoreet neque eget, consectetur justo.",
-            "price": "3.49"
-        }
+    "MainProductInfo": {
+        "skuNumber": "RASP258",
+        "category": "chocolate",
+        "title": "Raspberry Truffel",
+        "description": "Praesent hendrerit tellus eget nibh lobortis, ut scelerisque mi mattis. In a magna pretium, laoreet neque eget, consectetur justo.",
+        "price": "3.49"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2017-03-29 20:17:24",
@@ -1916,14 +1840,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "APPL501",
-            "category": "pie",
-            "title": "Apple Pie",
-            "description": "Praesent hendrerit tellus eget nibh lobortis, ut scelerisque mi mattis. Morbi consectetur urna sit amet facilisis gravida. Cras sit amet eros congue, rhoncus sem sed, consequat arcu. Maecenas interdum ex id venenatis luctus. In a magna pretium, laoreet neque eget, consectetur justo. Nam gravida libero ac malesuada cursus.",
-            "price": "4.99"
-        }
+    "MainProductInfo": {
+        "skuNumber": "APPL501",
+        "category": "pie",
+        "title": "Apple Pie",
+        "description": "Praesent hendrerit tellus eget nibh lobortis, ut scelerisque mi mattis. Morbi consectetur urna sit amet facilisis gravida. Cras sit amet eros congue, rhoncus sem sed, consequat arcu. Maecenas interdum ex id venenatis luctus. In a magna pretium, laoreet neque eget, consectetur justo. Nam gravida libero ac malesuada cursus.",
+        "price": "4.99"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2019-06-02 20:17:24",
@@ -1971,14 +1893,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "PUMP555",
-            "category": "pie",
-            "title": "Pumpkin Pie",
-            "description": "Cras sit amet eros congue, rhoncus sem sed, consequat arcu. Vivamus pharetra sapien at sem ultrices semper.",
-            "price": "4.99"
-        }
+    "MainProductInfo": {
+        "skuNumber": "PUMP555",
+        "category": "pie",
+        "title": "Pumpkin Pie",
+        "description": "Cras sit amet eros congue, rhoncus sem sed, consequat arcu. Vivamus pharetra sapien at sem ultrices semper.",
+        "price": "4.99"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2016-09-18 20:17:24",
@@ -2022,14 +1942,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "CHOC219",
-            "category": "chocolate",
-            "title": "Chocolate Bunny",
-            "description": "Cras sit amet eros congue, rhoncus sem sed, consequat arcu. Vivamus pharetra sapien at sem ultrices semper. Maecenas eget lectus ultrices, porta eros a, blandit nisi. Aenean sit amet massa ac dolor interdum varius. Praesent bibendum mi et augue lacinia auctor. Vivamus ac magna nec lacus varius pretium et vitae velit.",
-            "price": "6.49"
-        }
+    "MainProductInfo": {
+        "skuNumber": "CHOC219",
+        "category": "chocolate",
+        "title": "Chocolate Bunny",
+        "description": "Cras sit amet eros congue, rhoncus sem sed, consequat arcu. Vivamus pharetra sapien at sem ultrices semper. Maecenas eget lectus ultrices, porta eros a, blandit nisi. Aenean sit amet massa ac dolor interdum varius. Praesent bibendum mi et augue lacinia auctor. Vivamus ac magna nec lacus varius pretium et vitae velit.",
+        "price": "6.49"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2016-05-10 20:17:24",
@@ -2073,14 +1991,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "APPL501",
-            "category": "pie",
-            "title": "Apple Pie",
-            "description": "Praesent hendrerit tellus eget nibh lobortis, ut scelerisque mi mattis. Morbi consectetur urna sit amet facilisis gravida. Cras sit amet eros congue, rhoncus sem sed, consequat arcu. Maecenas interdum ex id venenatis luctus. In a magna pretium, laoreet neque eget, consectetur justo. Nam gravida libero ac malesuada cursus.",
-            "price": "4.99"
-        }
+    "MainProductInfo": {
+        "skuNumber": "APPL501",
+        "category": "pie",
+        "title": "Apple Pie",
+        "description": "Praesent hendrerit tellus eget nibh lobortis, ut scelerisque mi mattis. Morbi consectetur urna sit amet facilisis gravida. Cras sit amet eros congue, rhoncus sem sed, consequat arcu. Maecenas interdum ex id venenatis luctus. In a magna pretium, laoreet neque eget, consectetur justo. Nam gravida libero ac malesuada cursus.",
+        "price": "4.99"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2019-05-07 20:17:24",
@@ -2115,14 +2031,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "LOAF146",
-            "category": "cake",
-            "title": "Loaf Cake",
-            "description": "Donec sed dui hendrerit nulla iaculis vestibulum. Morbi consectetur urna sit amet facilisis gravida. In a magna pretium, laoreet neque eget, consectetur justo.",
-            "price": "3.99"
-        }
+    "MainProductInfo": {
+        "skuNumber": "LOAF146",
+        "category": "cake",
+        "title": "Loaf Cake",
+        "description": "Donec sed dui hendrerit nulla iaculis vestibulum. Morbi consectetur urna sit amet facilisis gravida. In a magna pretium, laoreet neque eget, consectetur justo.",
+        "price": "3.99"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2016-08-19 20:17:24",
@@ -2157,14 +2071,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "MUFF149",
-            "category": "cake",
-            "title": "Muffin",
-            "description": "In a magna pretium, laoreet neque eget, consectetur justo. Vivamus pharetra sapien at sem ultrices semper. Ut quis massa sit amet enim faucibus suscipit ac viverra elit. Maecenas eget lectus ultrices, porta eros a, blandit nisi.",
-            "price": "1.99"
-        }
+    "MainProductInfo": {
+        "skuNumber": "MUFF149",
+        "category": "cake",
+        "title": "Muffin",
+        "description": "In a magna pretium, laoreet neque eget, consectetur justo. Vivamus pharetra sapien at sem ultrices semper. Ut quis massa sit amet enim faucibus suscipit ac viverra elit. Maecenas eget lectus ultrices, porta eros a, blandit nisi.",
+        "price": "1.99"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2016-08-10 20:17:24",
@@ -2199,14 +2111,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "SCHW361",
-            "category": "cookie",
-            "title": "Schweineoehrchen Cookie",
-            "description": "Vivamus semper justo sed dictum aliquam. Nullam quis tortor accumsan, sagittis sem in, porttitor orci. Donec ac purus sed justo egestas ultricies. Mauris interdum elit nec dolor volutpat, sit amet sollicitudin eros facilisis.",
-            "price": "0.49"
-        }
+    "MainProductInfo": {
+        "skuNumber": "SCHW361",
+        "category": "cookie",
+        "title": "Schweineoehrchen Cookie",
+        "description": "Vivamus semper justo sed dictum aliquam. Nullam quis tortor accumsan, sagittis sem in, porttitor orci. Donec ac purus sed justo egestas ultricies. Mauris interdum elit nec dolor volutpat, sit amet sollicitudin eros facilisis.",
+        "price": "0.49"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2019-02-02 20:17:24",
@@ -2254,14 +2164,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "LAYE140",
-            "category": "cake",
-            "title": "Layer Cake Cherry Topping",
-            "description": "Cras sit amet eros congue, rhoncus sem sed, consequat arcu. Maecenas interdum ex id venenatis luctus.",
-            "price": "3.99"
-        }
+    "MainProductInfo": {
+        "skuNumber": "LAYE140",
+        "category": "cake",
+        "title": "Layer Cake Cherry Topping",
+        "description": "Cras sit amet eros congue, rhoncus sem sed, consequat arcu. Maecenas interdum ex id venenatis luctus.",
+        "price": "3.99"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2018-11-12 20:17:24",
@@ -2309,14 +2217,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "DOZE434",
-            "category": "donut",
-            "title": "Dozen Donuts",
-            "description": "Nam gravida libero ac malesuada cursus. Vivamus semper justo sed dictum aliquam. Praesent pretium justo at neque egestas mattis. Nullam quis tortor accumsan, sagittis sem in, porttitor orci. Phasellus vel velit eget nibh porttitor feugiat id ac massa. Donec ac purus sed justo egestas ultricies.",
-            "price": "6.99"
-        }
+    "MainProductInfo": {
+        "skuNumber": "DOZE434",
+        "category": "donut",
+        "title": "Dozen Donuts",
+        "description": "Nam gravida libero ac malesuada cursus. Vivamus semper justo sed dictum aliquam. Praesent pretium justo at neque egestas mattis. Nullam quis tortor accumsan, sagittis sem in, porttitor orci. Phasellus vel velit eget nibh porttitor feugiat id ac massa. Donec ac purus sed justo egestas ultricies.",
+        "price": "6.99"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2017-03-27 20:17:24",
@@ -2360,14 +2266,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "MUFF149",
-            "category": "cake",
-            "title": "Muffin",
-            "description": "In a magna pretium, laoreet neque eget, consectetur justo. Vivamus pharetra sapien at sem ultrices semper. Ut quis massa sit amet enim faucibus suscipit ac viverra elit. Maecenas eget lectus ultrices, porta eros a, blandit nisi.",
-            "price": "1.99"
-        }
+    "MainProductInfo": {
+        "skuNumber": "MUFF149",
+        "category": "cake",
+        "title": "Muffin",
+        "description": "In a magna pretium, laoreet neque eget, consectetur justo. Vivamus pharetra sapien at sem ultrices semper. Ut quis massa sit amet enim faucibus suscipit ac viverra elit. Maecenas eget lectus ultrices, porta eros a, blandit nisi.",
+        "price": "1.99"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2019-10-12 20:17:24",
@@ -2407,14 +2311,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "GLOW437",
-            "category": "donut",
-            "title": "Glow In The Dark Donut",
-            "description": "Nam gravida libero ac malesuada cursus. Vivamus pharetra sapien at sem ultrices semper.",
-            "price": "0.79"
-        }
+    "MainProductInfo": {
+        "skuNumber": "GLOW437",
+        "category": "donut",
+        "title": "Glow In The Dark Donut",
+        "description": "Nam gravida libero ac malesuada cursus. Vivamus pharetra sapien at sem ultrices semper.",
+        "price": "0.79"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2017-10-19 20:17:24",
@@ -2458,14 +2360,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "CAKE110",
-            "category": "cake",
-            "title": "Cake With Chocolate Frosting",
-            "description": "In a magna pretium, laoreet neque eget, consectetur justo. Nam gravida libero ac malesuada cursus. Vivamus pharetra sapien at sem ultrices semper. Vivamus semper justo sed dictum aliquam. Ut quis massa sit amet enim faucibus suscipit ac viverra elit. Praesent pretium justo at neque egestas mattis.",
-            "price": "8.99"
-        }
+    "MainProductInfo": {
+        "skuNumber": "CAKE110",
+        "category": "cake",
+        "title": "Cake With Chocolate Frosting",
+        "description": "In a magna pretium, laoreet neque eget, consectetur justo. Nam gravida libero ac malesuada cursus. Vivamus pharetra sapien at sem ultrices semper. Vivamus semper justo sed dictum aliquam. Ut quis massa sit amet enim faucibus suscipit ac viverra elit. Praesent pretium justo at neque egestas mattis.",
+        "price": "8.99"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2018-02-07 20:17:24",
@@ -2509,14 +2409,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "TORT167",
-            "category": "cake",
-            "title": "Torta Cake",
-            "description": "Maecenas interdum ex id venenatis luctus. Nam gravida libero ac malesuada cursus.",
-            "price": "12.99"
-        }
+    "MainProductInfo": {
+        "skuNumber": "TORT167",
+        "category": "cake",
+        "title": "Torta Cake",
+        "description": "Maecenas interdum ex id venenatis luctus. Nam gravida libero ac malesuada cursus.",
+        "price": "12.99"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2019-01-17 20:17:24",
@@ -2560,14 +2458,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "LAYE143",
-            "category": "cake",
-            "title": "Layer Cake",
-            "description": "Cras sit amet eros congue, rhoncus sem sed, consequat arcu. Vivamus pharetra sapien at sem ultrices semper. Maecenas eget lectus ultrices, porta eros a, blandit nisi. Aenean sit amet massa ac dolor interdum varius. Praesent bibendum mi et augue lacinia auctor. Vivamus ac magna nec lacus varius pretium et vitae velit.",
-            "price": "2.99"
-        }
+    "MainProductInfo": {
+        "skuNumber": "LAYE143",
+        "category": "cake",
+        "title": "Layer Cake",
+        "description": "Cras sit amet eros congue, rhoncus sem sed, consequat arcu. Vivamus pharetra sapien at sem ultrices semper. Maecenas eget lectus ultrices, porta eros a, blandit nisi. Aenean sit amet massa ac dolor interdum varius. Praesent bibendum mi et augue lacinia auctor. Vivamus ac magna nec lacus varius pretium et vitae velit.",
+        "price": "2.99"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2017-11-16 20:17:24",
@@ -2608,7 +2504,7 @@ db.purchases.insertOne(
         }
     },
     "ProductInfo": {
-        "MainProductInfo": null
+            "MainProductInfo": null
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2018-01-23 20:17:24",
@@ -2652,14 +2548,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "CHOC219",
-            "category": "chocolate",
-            "title": "Chocolate Bunny",
-            "description": "Cras sit amet eros congue, rhoncus sem sed, consequat arcu. Vivamus pharetra sapien at sem ultrices semper. Maecenas eget lectus ultrices, porta eros a, blandit nisi. Aenean sit amet massa ac dolor interdum varius. Praesent bibendum mi et augue lacinia auctor. Vivamus ac magna nec lacus varius pretium et vitae velit.",
-            "price": "6.49"
-        }
+    "MainProductInfo": {
+        "skuNumber": "CHOC219",
+        "category": "chocolate",
+        "title": "Chocolate Bunny",
+        "description": "Cras sit amet eros congue, rhoncus sem sed, consequat arcu. Vivamus pharetra sapien at sem ultrices semper. Maecenas eget lectus ultrices, porta eros a, blandit nisi. Aenean sit amet massa ac dolor interdum varius. Praesent bibendum mi et augue lacinia auctor. Vivamus ac magna nec lacus varius pretium et vitae velit.",
+        "price": "6.49"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2019-02-28 20:17:24",
@@ -2699,14 +2593,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "APPL501",
-            "category": "pie",
-            "title": "Apple Pie",
-            "description": "Praesent hendrerit tellus eget nibh lobortis, ut scelerisque mi mattis. Morbi consectetur urna sit amet facilisis gravida. Cras sit amet eros congue, rhoncus sem sed, consequat arcu. Maecenas interdum ex id venenatis luctus. In a magna pretium, laoreet neque eget, consectetur justo. Nam gravida libero ac malesuada cursus.",
-            "price": "4.99"
-        }
+    "MainProductInfo": {
+        "skuNumber": "APPL501",
+        "category": "pie",
+        "title": "Apple Pie",
+        "description": "Praesent hendrerit tellus eget nibh lobortis, ut scelerisque mi mattis. Morbi consectetur urna sit amet facilisis gravida. Cras sit amet eros congue, rhoncus sem sed, consequat arcu. Maecenas interdum ex id venenatis luctus. In a magna pretium, laoreet neque eget, consectetur justo. Nam gravida libero ac malesuada cursus.",
+        "price": "4.99"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2016-06-15 20:17:24",
@@ -2754,14 +2646,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "VALE270",
-            "category": "chocolate",
-            "title": "Valentines Day Chocolate Pack",
-            "description": "Nam gravida libero ac malesuada cursus. Vivamus semper justo sed dictum aliquam.",
-            "price": "19.99"
-        }
+    "MainProductInfo": {
+        "skuNumber": "VALE270",
+        "category": "chocolate",
+        "title": "Valentines Day Chocolate Pack",
+        "description": "Nam gravida libero ac malesuada cursus. Vivamus semper justo sed dictum aliquam.",
+        "price": "19.99"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2016-06-13 20:17:24",
@@ -2805,14 +2695,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "WEDD173",
-            "category": "cake",
-            "title": "Wedding Cake",
-            "description": "Quisque et magna malesuada, fermentum nisl sed, imperdiet nunc. Maecenas interdum ex id venenatis luctus. Vivamus semper justo sed dictum aliquam. Nullam quis tortor accumsan, sagittis sem in, porttitor orci.",
-            "price": "49.99"
-        }
+    "MainProductInfo": {
+        "skuNumber": "WEDD173",
+        "category": "cake",
+        "title": "Wedding Cake",
+        "description": "Quisque et magna malesuada, fermentum nisl sed, imperdiet nunc. Maecenas interdum ex id venenatis luctus. Vivamus semper justo sed dictum aliquam. Nullam quis tortor accumsan, sagittis sem in, porttitor orci.",
+        "price": "49.99"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2019-08-21 20:17:24",
@@ -2852,14 +2740,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "APPL501",
-            "category": "pie",
-            "title": "Apple Pie",
-            "description": "Praesent hendrerit tellus eget nibh lobortis, ut scelerisque mi mattis. Morbi consectetur urna sit amet facilisis gravida. Cras sit amet eros congue, rhoncus sem sed, consequat arcu. Maecenas interdum ex id venenatis luctus. In a magna pretium, laoreet neque eget, consectetur justo. Nam gravida libero ac malesuada cursus.",
-            "price": "4.99"
-        }
+    "MainProductInfo": {
+        "skuNumber": "APPL501",
+        "category": "pie",
+        "title": "Apple Pie",
+        "description": "Praesent hendrerit tellus eget nibh lobortis, ut scelerisque mi mattis. Morbi consectetur urna sit amet facilisis gravida. Cras sit amet eros congue, rhoncus sem sed, consequat arcu. Maecenas interdum ex id venenatis luctus. In a magna pretium, laoreet neque eget, consectetur justo. Nam gravida libero ac malesuada cursus.",
+        "price": "4.99"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2018-03-10 20:17:24",
@@ -2899,14 +2785,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "BLAC207",
-            "category": "chocolate",
-            "title": "Black And Tan Truffel",
-            "description": "Nam gravida libero ac malesuada cursus. Ut quis massa sit amet enim faucibus suscipit ac viverra elit. Nullam quis tortor accumsan, sagittis sem in, porttitor orci. Aenean sit amet massa ac dolor interdum varius. Pellentesque vel risus placerat, consequat leo suscipit, dapibus nulla. Vestibulum a sem volutpat, pellentesque eros et, placerat justo.",
-            "price": "3.49"
-        }
+    "MainProductInfo": {
+        "skuNumber": "BLAC207",
+        "category": "chocolate",
+        "title": "Black And Tan Truffel",
+        "description": "Nam gravida libero ac malesuada cursus. Ut quis massa sit amet enim faucibus suscipit ac viverra elit. Nullam quis tortor accumsan, sagittis sem in, porttitor orci. Aenean sit amet massa ac dolor interdum varius. Pellentesque vel risus placerat, consequat leo suscipit, dapibus nulla. Vestibulum a sem volutpat, pellentesque eros et, placerat justo.",
+        "price": "3.49"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2017-07-01 20:17:24",
@@ -2946,14 +2830,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "CAKE110",
-            "category": "cake",
-            "title": "Cake With Chocolate Frosting",
-            "description": "In a magna pretium, laoreet neque eget, consectetur justo. Nam gravida libero ac malesuada cursus. Vivamus pharetra sapien at sem ultrices semper. Vivamus semper justo sed dictum aliquam. Ut quis massa sit amet enim faucibus suscipit ac viverra elit. Praesent pretium justo at neque egestas mattis.",
-            "price": "8.99"
-        }
+    "MainProductInfo": {
+        "skuNumber": "CAKE110",
+        "category": "cake",
+        "title": "Cake With Chocolate Frosting",
+        "description": "In a magna pretium, laoreet neque eget, consectetur justo. Nam gravida libero ac malesuada cursus. Vivamus pharetra sapien at sem ultrices semper. Vivamus semper justo sed dictum aliquam. Ut quis massa sit amet enim faucibus suscipit ac viverra elit. Praesent pretium justo at neque egestas mattis.",
+        "price": "8.99"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2019-09-27 20:17:24",
@@ -2993,14 +2875,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "WEDD173",
-            "category": "cake",
-            "title": "Wedding Cake",
-            "description": "Quisque et magna malesuada, fermentum nisl sed, imperdiet nunc. Maecenas interdum ex id venenatis luctus. Vivamus semper justo sed dictum aliquam. Nullam quis tortor accumsan, sagittis sem in, porttitor orci.",
-            "price": "49.99"
-        }
+    "MainProductInfo": {
+        "skuNumber": "WEDD173",
+        "category": "cake",
+        "title": "Wedding Cake",
+        "description": "Quisque et magna malesuada, fermentum nisl sed, imperdiet nunc. Maecenas interdum ex id venenatis luctus. Vivamus semper justo sed dictum aliquam. Nullam quis tortor accumsan, sagittis sem in, porttitor orci.",
+        "price": "49.99"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2018-10-06 20:17:24",
@@ -3052,14 +2932,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "STAR464",
-            "category": "donut",
-            "title": "Star And Sprinkles Donut",
-            "description": "Nam gravida libero ac malesuada cursus. Vivamus pharetra sapien at sem ultrices semper.",
-            "price": "0.59"
-        }
+    "MainProductInfo": {
+        "skuNumber": "STAR464",
+        "category": "donut",
+        "title": "Star And Sprinkles Donut",
+        "description": "Nam gravida libero ac malesuada cursus. Vivamus pharetra sapien at sem ultrices semper.",
+        "price": "0.59"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2018-10-25 20:17:24",
@@ -3103,14 +2981,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "CHOC228",
-            "category": "chocolate",
-            "title": "Chocolate Bar",
-            "description": "Vivamus semper justo sed dictum aliquam. Nullam quis tortor accumsan, sagittis sem in, porttitor orci. Donec ac purus sed justo egestas ultricies.",
-            "price": "2.99"
-        }
+    "MainProductInfo": {
+        "skuNumber": "CHOC228",
+        "category": "chocolate",
+        "title": "Chocolate Bar",
+        "description": "Vivamus semper justo sed dictum aliquam. Nullam quis tortor accumsan, sagittis sem in, porttitor orci. Donec ac purus sed justo egestas ultricies.",
+        "price": "2.99"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2019-04-01 20:17:24",
@@ -3145,14 +3021,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "CARR113",
-            "category": "cake",
-            "title": "Carrot Cake",
-            "description": "Nam gravida libero ac malesuada cursus. Vivamus semper justo sed dictum aliquam.",
-            "price": "7.99"
-        }
+    "MainProductInfo": {
+        "skuNumber": "CARR113",
+        "category": "cake",
+        "title": "Carrot Cake",
+        "description": "Nam gravida libero ac malesuada cursus. Vivamus semper justo sed dictum aliquam.",
+        "price": "7.99"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2017-05-25 20:17:24",
@@ -3200,14 +3074,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "TORT167",
-            "category": "cake",
-            "title": "Torta Cake",
-            "description": "Maecenas interdum ex id venenatis luctus. Nam gravida libero ac malesuada cursus.",
-            "price": "12.99"
-        }
+    "MainProductInfo": {
+        "skuNumber": "TORT167",
+        "category": "cake",
+        "title": "Torta Cake",
+        "description": "Maecenas interdum ex id venenatis luctus. Nam gravida libero ac malesuada cursus.",
+        "price": "12.99"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2017-01-22 20:17:24",
@@ -3247,14 +3119,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "CARR113",
-            "category": "cake",
-            "title": "Carrot Cake",
-            "description": "Nam gravida libero ac malesuada cursus. Vivamus semper justo sed dictum aliquam.",
-            "price": "7.99"
-        }
+    "MainProductInfo": {
+        "skuNumber": "CARR113",
+        "category": "cake",
+        "title": "Carrot Cake",
+        "description": "Nam gravida libero ac malesuada cursus. Vivamus semper justo sed dictum aliquam.",
+        "price": "7.99"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2018-12-22 20:17:24",
@@ -3298,14 +3168,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "GLOW437",
-            "category": "donut",
-            "title": "Glow In The Dark Donut",
-            "description": "Nam gravida libero ac malesuada cursus. Vivamus pharetra sapien at sem ultrices semper.",
-            "price": "0.79"
-        }
+    "MainProductInfo": {
+        "skuNumber": "GLOW437",
+        "category": "donut",
+        "title": "Glow In The Dark Donut",
+        "description": "Nam gravida libero ac malesuada cursus. Vivamus pharetra sapien at sem ultrices semper.",
+        "price": "0.79"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2017-08-16 20:17:24",
@@ -3353,14 +3221,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "CHOC322",
-            "category": "cookie",
-            "title": "Chocolate Chip Cookie",
-            "description": "Cras sit amet eros congue, rhoncus sem sed, consequat arcu. Maecenas interdum ex id venenatis luctus. In a magna pretium, laoreet neque eget, consectetur justo. Nam gravida libero ac malesuada cursus. Vivamus pharetra sapien at sem ultrices semper. Vivamus semper justo sed dictum aliquam.",
-            "price": "0.88"
-        }
+    "MainProductInfo": {
+        "skuNumber": "CHOC322",
+        "category": "cookie",
+        "title": "Chocolate Chip Cookie",
+        "description": "Cras sit amet eros congue, rhoncus sem sed, consequat arcu. Maecenas interdum ex id venenatis luctus. In a magna pretium, laoreet neque eget, consectetur justo. Nam gravida libero ac malesuada cursus. Vivamus pharetra sapien at sem ultrices semper. Vivamus semper justo sed dictum aliquam.",
+        "price": "0.88"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2017-06-18 20:17:24",
@@ -3400,14 +3266,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "CHOC425",
-            "category": "donut",
-            "title": "Chocolate Covered Donut",
-            "description": "In a magna pretium, laoreet neque eget, consectetur justo. Nam gravida libero ac malesuada cursus. Vivamus pharetra sapien at sem ultrices semper.",
-            "price": "0.67"
-        }
+    "MainProductInfo": {
+        "skuNumber": "CHOC425",
+        "category": "donut",
+        "title": "Chocolate Covered Donut",
+        "description": "In a magna pretium, laoreet neque eget, consectetur justo. Nam gravida libero ac malesuada cursus. Vivamus pharetra sapien at sem ultrices semper.",
+        "price": "0.67"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2019-02-04 20:17:24",
@@ -3451,14 +3315,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "CARR113",
-            "category": "cake",
-            "title": "Carrot Cake",
-            "description": "Nam gravida libero ac malesuada cursus. Vivamus semper justo sed dictum aliquam.",
-            "price": "7.99"
-        }
+    "MainProductInfo": {
+        "skuNumber": "CARR113",
+        "category": "cake",
+        "title": "Carrot Cake",
+        "description": "Nam gravida libero ac malesuada cursus. Vivamus semper justo sed dictum aliquam.",
+        "price": "7.99"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2017-06-05 20:17:24",
@@ -3498,14 +3360,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "LAYE143",
-            "category": "cake",
-            "title": "Layer Cake",
-            "description": "Cras sit amet eros congue, rhoncus sem sed, consequat arcu. Vivamus pharetra sapien at sem ultrices semper. Maecenas eget lectus ultrices, porta eros a, blandit nisi. Aenean sit amet massa ac dolor interdum varius. Praesent bibendum mi et augue lacinia auctor. Vivamus ac magna nec lacus varius pretium et vitae velit.",
-            "price": "2.99"
-        }
+    "MainProductInfo": {
+        "skuNumber": "LAYE143",
+        "category": "cake",
+        "title": "Layer Cake",
+        "description": "Cras sit amet eros congue, rhoncus sem sed, consequat arcu. Vivamus pharetra sapien at sem ultrices semper. Maecenas eget lectus ultrices, porta eros a, blandit nisi. Aenean sit amet massa ac dolor interdum varius. Praesent bibendum mi et augue lacinia auctor. Vivamus ac magna nec lacus varius pretium et vitae velit.",
+        "price": "2.99"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2018-03-18 20:17:24",
@@ -3549,14 +3409,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "DOUB231",
-            "category": "chocolate",
-            "title": "Double Chocolate Truffel",
-            "description": "Vivamus pharetra sapien at sem ultrices semper. Maecenas eget lectus ultrices, porta eros a, blandit nisi. Aenean sit amet massa ac dolor interdum varius. Praesent bibendum mi et augue lacinia auctor.",
-            "price": "3.49"
-        }
+    "MainProductInfo": {
+        "skuNumber": "DOUB231",
+        "category": "chocolate",
+        "title": "Double Chocolate Truffel",
+        "description": "Vivamus pharetra sapien at sem ultrices semper. Maecenas eget lectus ultrices, porta eros a, blandit nisi. Aenean sit amet massa ac dolor interdum varius. Praesent bibendum mi et augue lacinia auctor.",
+        "price": "3.49"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2019-10-05 20:17:24",
@@ -3600,14 +3458,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "CHOC219",
-            "category": "chocolate",
-            "title": "Chocolate Bunny",
-            "description": "Cras sit amet eros congue, rhoncus sem sed, consequat arcu. Vivamus pharetra sapien at sem ultrices semper. Maecenas eget lectus ultrices, porta eros a, blandit nisi. Aenean sit amet massa ac dolor interdum varius. Praesent bibendum mi et augue lacinia auctor. Vivamus ac magna nec lacus varius pretium et vitae velit.",
-            "price": "6.49"
-        }
+    "MainProductInfo": {
+        "skuNumber": "CHOC219",
+        "category": "chocolate",
+        "title": "Chocolate Bunny",
+        "description": "Cras sit amet eros congue, rhoncus sem sed, consequat arcu. Vivamus pharetra sapien at sem ultrices semper. Maecenas eget lectus ultrices, porta eros a, blandit nisi. Aenean sit amet massa ac dolor interdum varius. Praesent bibendum mi et augue lacinia auctor. Vivamus ac magna nec lacus varius pretium et vitae velit.",
+        "price": "6.49"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2016-07-18 20:17:24",
@@ -3651,14 +3507,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "WEDD173",
-            "category": "cake",
-            "title": "Wedding Cake",
-            "description": "Quisque et magna malesuada, fermentum nisl sed, imperdiet nunc. Maecenas interdum ex id venenatis luctus. Vivamus semper justo sed dictum aliquam. Nullam quis tortor accumsan, sagittis sem in, porttitor orci.",
-            "price": "49.99"
-        }
+    "MainProductInfo": {
+        "skuNumber": "WEDD173",
+        "category": "cake",
+        "title": "Wedding Cake",
+        "description": "Quisque et magna malesuada, fermentum nisl sed, imperdiet nunc. Maecenas interdum ex id venenatis luctus. Vivamus semper justo sed dictum aliquam. Nullam quis tortor accumsan, sagittis sem in, porttitor orci.",
+        "price": "49.99"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2017-01-10 20:17:24",
@@ -3698,14 +3552,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "WHIT276",
-            "category": "chocolate",
-            "title": "White Chocolate Truffel",
-            "description": "Cras sit amet eros congue, rhoncus sem sed, consequat arcu. In a magna pretium, laoreet neque eget, consectetur justo. Vivamus pharetra sapien at sem ultrices semper. Ut quis massa sit amet enim faucibus suscipit ac viverra elit.",
-            "price": "3.49"
-        }
+    "MainProductInfo": {
+        "skuNumber": "WHIT276",
+        "category": "chocolate",
+        "title": "White Chocolate Truffel",
+        "description": "Cras sit amet eros congue, rhoncus sem sed, consequat arcu. In a magna pretium, laoreet neque eget, consectetur justo. Vivamus pharetra sapien at sem ultrices semper. Ut quis massa sit amet enim faucibus suscipit ac viverra elit.",
+        "price": "3.49"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2019-03-09 20:17:24",
@@ -3749,14 +3601,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "DOZE434",
-            "category": "donut",
-            "title": "Dozen Donuts",
-            "description": "Nam gravida libero ac malesuada cursus. Vivamus semper justo sed dictum aliquam. Praesent pretium justo at neque egestas mattis. Nullam quis tortor accumsan, sagittis sem in, porttitor orci. Phasellus vel velit eget nibh porttitor feugiat id ac massa. Donec ac purus sed justo egestas ultricies.",
-            "price": "6.99"
-        }
+    "MainProductInfo": {
+        "skuNumber": "DOZE434",
+        "category": "donut",
+        "title": "Dozen Donuts",
+        "description": "Nam gravida libero ac malesuada cursus. Vivamus semper justo sed dictum aliquam. Praesent pretium justo at neque egestas mattis. Nullam quis tortor accumsan, sagittis sem in, porttitor orci. Phasellus vel velit eget nibh porttitor feugiat id ac massa. Donec ac purus sed justo egestas ultricies.",
+        "price": "6.99"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2018-07-26 20:17:24",
@@ -3791,14 +3641,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "LAYE143",
-            "category": "cake",
-            "title": "Layer Cake",
-            "description": "Cras sit amet eros congue, rhoncus sem sed, consequat arcu. Vivamus pharetra sapien at sem ultrices semper. Maecenas eget lectus ultrices, porta eros a, blandit nisi. Aenean sit amet massa ac dolor interdum varius. Praesent bibendum mi et augue lacinia auctor. Vivamus ac magna nec lacus varius pretium et vitae velit.",
-            "price": "2.99"
-        }
+    "MainProductInfo": {
+        "skuNumber": "LAYE143",
+        "category": "cake",
+        "title": "Layer Cake",
+        "description": "Cras sit amet eros congue, rhoncus sem sed, consequat arcu. Vivamus pharetra sapien at sem ultrices semper. Maecenas eget lectus ultrices, porta eros a, blandit nisi. Aenean sit amet massa ac dolor interdum varius. Praesent bibendum mi et augue lacinia auctor. Vivamus ac magna nec lacus varius pretium et vitae velit.",
+        "price": "2.99"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2016-07-03 20:17:24",
@@ -3838,14 +3686,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "LAYE140",
-            "category": "cake",
-            "title": "Layer Cake Cherry Topping",
-            "description": "Cras sit amet eros congue, rhoncus sem sed, consequat arcu. Maecenas interdum ex id venenatis luctus.",
-            "price": "3.99"
-        }
+    "MainProductInfo": {
+        "skuNumber": "LAYE140",
+        "category": "cake",
+        "title": "Layer Cake Cherry Topping",
+        "description": "Cras sit amet eros congue, rhoncus sem sed, consequat arcu. Maecenas interdum ex id venenatis luctus.",
+        "price": "3.99"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2019-02-20 20:17:24",
@@ -3880,14 +3726,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "WEDD173",
-            "category": "cake",
-            "title": "Wedding Cake",
-            "description": "Quisque et magna malesuada, fermentum nisl sed, imperdiet nunc. Maecenas interdum ex id venenatis luctus. Vivamus semper justo sed dictum aliquam. Nullam quis tortor accumsan, sagittis sem in, porttitor orci.",
-            "price": "49.99"
-        }
+    "MainProductInfo": {
+        "skuNumber": "WEDD173",
+        "category": "cake",
+        "title": "Wedding Cake",
+        "description": "Quisque et magna malesuada, fermentum nisl sed, imperdiet nunc. Maecenas interdum ex id venenatis luctus. Vivamus semper justo sed dictum aliquam. Nullam quis tortor accumsan, sagittis sem in, porttitor orci.",
+        "price": "49.99"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2017-10-02 20:17:24",
@@ -3927,14 +3771,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "LAYE143",
-            "category": "cake",
-            "title": "Layer Cake",
-            "description": "Cras sit amet eros congue, rhoncus sem sed, consequat arcu. Vivamus pharetra sapien at sem ultrices semper. Maecenas eget lectus ultrices, porta eros a, blandit nisi. Aenean sit amet massa ac dolor interdum varius. Praesent bibendum mi et augue lacinia auctor. Vivamus ac magna nec lacus varius pretium et vitae velit.",
-            "price": "2.99"
-        }
+    "MainProductInfo": {
+        "skuNumber": "LAYE143",
+        "category": "cake",
+        "title": "Layer Cake",
+        "description": "Cras sit amet eros congue, rhoncus sem sed, consequat arcu. Vivamus pharetra sapien at sem ultrices semper. Maecenas eget lectus ultrices, porta eros a, blandit nisi. Aenean sit amet massa ac dolor interdum varius. Praesent bibendum mi et augue lacinia auctor. Vivamus ac magna nec lacus varius pretium et vitae velit.",
+        "price": "2.99"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2018-10-03 20:17:24",
@@ -3974,14 +3816,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "PEAN252",
-            "category": "chocolate",
-            "title": "Peanut Truffle",
-            "description": "Nam gravida libero ac malesuada cursus. Vivamus pharetra sapien at sem ultrices semper. Vivamus semper justo sed dictum aliquam.",
-            "price": "3.49"
-        }
+    "MainProductInfo": {
+        "skuNumber": "PEAN252",
+        "category": "chocolate",
+        "title": "Peanut Truffle",
+        "description": "Nam gravida libero ac malesuada cursus. Vivamus pharetra sapien at sem ultrices semper. Vivamus semper justo sed dictum aliquam.",
+        "price": "3.49"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2019-08-21 20:17:24",
@@ -4025,14 +3865,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "MUFF149",
-            "category": "cake",
-            "title": "Muffin",
-            "description": "In a magna pretium, laoreet neque eget, consectetur justo. Vivamus pharetra sapien at sem ultrices semper. Ut quis massa sit amet enim faucibus suscipit ac viverra elit. Maecenas eget lectus ultrices, porta eros a, blandit nisi.",
-            "price": "1.99"
-        }
+    "MainProductInfo": {
+        "skuNumber": "MUFF149",
+        "category": "cake",
+        "title": "Muffin",
+        "description": "In a magna pretium, laoreet neque eget, consectetur justo. Vivamus pharetra sapien at sem ultrices semper. Ut quis massa sit amet enim faucibus suscipit ac viverra elit. Maecenas eget lectus ultrices, porta eros a, blandit nisi.",
+        "price": "1.99"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2018-08-23 20:17:24",
@@ -4067,14 +3905,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "DOZE434",
-            "category": "donut",
-            "title": "Dozen Donuts",
-            "description": "Nam gravida libero ac malesuada cursus. Vivamus semper justo sed dictum aliquam. Praesent pretium justo at neque egestas mattis. Nullam quis tortor accumsan, sagittis sem in, porttitor orci. Phasellus vel velit eget nibh porttitor feugiat id ac massa. Donec ac purus sed justo egestas ultricies.",
-            "price": "6.99"
-        }
+    "MainProductInfo": {
+        "skuNumber": "DOZE434",
+        "category": "donut",
+        "title": "Dozen Donuts",
+        "description": "Nam gravida libero ac malesuada cursus. Vivamus semper justo sed dictum aliquam. Praesent pretium justo at neque egestas mattis. Nullam quis tortor accumsan, sagittis sem in, porttitor orci. Phasellus vel velit eget nibh porttitor feugiat id ac massa. Donec ac purus sed justo egestas ultricies.",
+        "price": "6.99"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2016-12-13 20:17:24",
@@ -4122,14 +3958,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "CAKE110",
-            "category": "cake",
-            "title": "Cake With Chocolate Frosting",
-            "description": "In a magna pretium, laoreet neque eget, consectetur justo. Nam gravida libero ac malesuada cursus. Vivamus pharetra sapien at sem ultrices semper. Vivamus semper justo sed dictum aliquam. Ut quis massa sit amet enim faucibus suscipit ac viverra elit. Praesent pretium justo at neque egestas mattis.",
-            "price": "8.99"
-        }
+    "MainProductInfo": {
+        "skuNumber": "CAKE110",
+        "category": "cake",
+        "title": "Cake With Chocolate Frosting",
+        "description": "In a magna pretium, laoreet neque eget, consectetur justo. Nam gravida libero ac malesuada cursus. Vivamus pharetra sapien at sem ultrices semper. Vivamus semper justo sed dictum aliquam. Ut quis massa sit amet enim faucibus suscipit ac viverra elit. Praesent pretium justo at neque egestas mattis.",
+        "price": "8.99"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2019-05-15 20:17:24",
@@ -4169,14 +4003,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "TORT167",
-            "category": "cake",
-            "title": "Torta Cake",
-            "description": "Maecenas interdum ex id venenatis luctus. Nam gravida libero ac malesuada cursus.",
-            "price": "12.99"
-        }
+    "MainProductInfo": {
+        "skuNumber": "TORT167",
+        "category": "cake",
+        "title": "Torta Cake",
+        "description": "Maecenas interdum ex id venenatis luctus. Nam gravida libero ac malesuada cursus.",
+        "price": "12.99"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2017-03-14 20:17:24",
@@ -4211,14 +4043,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "GLOW437",
-            "category": "donut",
-            "title": "Glow In The Dark Donut",
-            "description": "Nam gravida libero ac malesuada cursus. Vivamus pharetra sapien at sem ultrices semper.",
-            "price": "0.79"
-        }
+    "MainProductInfo": {
+        "skuNumber": "GLOW437",
+        "category": "donut",
+        "title": "Glow In The Dark Donut",
+        "description": "Nam gravida libero ac malesuada cursus. Vivamus pharetra sapien at sem ultrices semper.",
+        "price": "0.79"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2018-09-22 20:17:24",
@@ -4258,14 +4088,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "WEDD173",
-            "category": "cake",
-            "title": "Wedding Cake",
-            "description": "Quisque et magna malesuada, fermentum nisl sed, imperdiet nunc. Maecenas interdum ex id venenatis luctus. Vivamus semper justo sed dictum aliquam. Nullam quis tortor accumsan, sagittis sem in, porttitor orci.",
-            "price": "49.99"
-        }
+    "MainProductInfo": {
+        "skuNumber": "WEDD173",
+        "category": "cake",
+        "title": "Wedding Cake",
+        "description": "Quisque et magna malesuada, fermentum nisl sed, imperdiet nunc. Maecenas interdum ex id venenatis luctus. Vivamus semper justo sed dictum aliquam. Nullam quis tortor accumsan, sagittis sem in, porttitor orci.",
+        "price": "49.99"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2018-12-22 20:17:24",
@@ -4305,14 +4133,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "CHOC228",
-            "category": "chocolate",
-            "title": "Chocolate Bar",
-            "description": "Vivamus semper justo sed dictum aliquam. Nullam quis tortor accumsan, sagittis sem in, porttitor orci. Donec ac purus sed justo egestas ultricies.",
-            "price": "2.99"
-        }
+    "MainProductInfo": {
+        "skuNumber": "CHOC228",
+        "category": "chocolate",
+        "title": "Chocolate Bar",
+        "description": "Vivamus semper justo sed dictum aliquam. Nullam quis tortor accumsan, sagittis sem in, porttitor orci. Donec ac purus sed justo egestas ultricies.",
+        "price": "2.99"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2017-11-18 20:17:24",
@@ -4352,14 +4178,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "TORT167",
-            "category": "cake",
-            "title": "Torta Cake",
-            "description": "Maecenas interdum ex id venenatis luctus. Nam gravida libero ac malesuada cursus.",
-            "price": "12.99"
-        }
+    "MainProductInfo": {
+        "skuNumber": "TORT167",
+        "category": "cake",
+        "title": "Torta Cake",
+        "description": "Maecenas interdum ex id venenatis luctus. Nam gravida libero ac malesuada cursus.",
+        "price": "12.99"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2018-01-31 20:17:24",
@@ -4399,14 +4223,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "DOUB231",
-            "category": "chocolate",
-            "title": "Double Chocolate Truffel",
-            "description": "Vivamus pharetra sapien at sem ultrices semper. Maecenas eget lectus ultrices, porta eros a, blandit nisi. Aenean sit amet massa ac dolor interdum varius. Praesent bibendum mi et augue lacinia auctor.",
-            "price": "3.49"
-        }
+    "MainProductInfo": {
+        "skuNumber": "DOUB231",
+        "category": "chocolate",
+        "title": "Double Chocolate Truffel",
+        "description": "Vivamus pharetra sapien at sem ultrices semper. Maecenas eget lectus ultrices, porta eros a, blandit nisi. Aenean sit amet massa ac dolor interdum varius. Praesent bibendum mi et augue lacinia auctor.",
+        "price": "3.49"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2019-08-13 20:17:24",
@@ -4441,14 +4263,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "WHIT276",
-            "category": "chocolate",
-            "title": "White Chocolate Truffel",
-            "description": "Cras sit amet eros congue, rhoncus sem sed, consequat arcu. In a magna pretium, laoreet neque eget, consectetur justo. Vivamus pharetra sapien at sem ultrices semper. Ut quis massa sit amet enim faucibus suscipit ac viverra elit.",
-            "price": "3.49"
-        }
+    "MainProductInfo": {
+        "skuNumber": "WHIT276",
+        "category": "chocolate",
+        "title": "White Chocolate Truffel",
+        "description": "Cras sit amet eros congue, rhoncus sem sed, consequat arcu. In a magna pretium, laoreet neque eget, consectetur justo. Vivamus pharetra sapien at sem ultrices semper. Ut quis massa sit amet enim faucibus suscipit ac viverra elit.",
+        "price": "3.49"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2016-07-18 20:17:24",
@@ -4488,14 +4308,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "LAYE140",
-            "category": "cake",
-            "title": "Layer Cake Cherry Topping",
-            "description": "Cras sit amet eros congue, rhoncus sem sed, consequat arcu. Maecenas interdum ex id venenatis luctus.",
-            "price": "3.99"
-        }
+    "MainProductInfo": {
+        "skuNumber": "LAYE140",
+        "category": "cake",
+        "title": "Layer Cake Cherry Topping",
+        "description": "Cras sit amet eros congue, rhoncus sem sed, consequat arcu. Maecenas interdum ex id venenatis luctus.",
+        "price": "3.99"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2018-06-15 20:17:24",
@@ -4530,14 +4348,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "GLOW437",
-            "category": "donut",
-            "title": "Glow In The Dark Donut",
-            "description": "Nam gravida libero ac malesuada cursus. Vivamus pharetra sapien at sem ultrices semper.",
-            "price": "0.79"
-        }
+    "MainProductInfo": {
+        "skuNumber": "GLOW437",
+        "category": "donut",
+        "title": "Glow In The Dark Donut",
+        "description": "Nam gravida libero ac malesuada cursus. Vivamus pharetra sapien at sem ultrices semper.",
+        "price": "0.79"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2019-05-10 20:17:24",
@@ -4577,14 +4393,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "PUMP555",
-            "category": "pie",
-            "title": "Pumpkin Pie",
-            "description": "Cras sit amet eros congue, rhoncus sem sed, consequat arcu. Vivamus pharetra sapien at sem ultrices semper.",
-            "price": "4.99"
-        }
+    "MainProductInfo": {
+        "skuNumber": "PUMP555",
+        "category": "pie",
+        "title": "Pumpkin Pie",
+        "description": "Cras sit amet eros congue, rhoncus sem sed, consequat arcu. Vivamus pharetra sapien at sem ultrices semper.",
+        "price": "4.99"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2016-09-17 20:17:24",
@@ -4624,14 +4438,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "DOUB231",
-            "category": "chocolate",
-            "title": "Double Chocolate Truffel",
-            "description": "Vivamus pharetra sapien at sem ultrices semper. Maecenas eget lectus ultrices, porta eros a, blandit nisi. Aenean sit amet massa ac dolor interdum varius. Praesent bibendum mi et augue lacinia auctor.",
-            "price": "3.49"
-        }
+    "MainProductInfo": {
+        "skuNumber": "DOUB231",
+        "category": "chocolate",
+        "title": "Double Chocolate Truffel",
+        "description": "Vivamus pharetra sapien at sem ultrices semper. Maecenas eget lectus ultrices, porta eros a, blandit nisi. Aenean sit amet massa ac dolor interdum varius. Praesent bibendum mi et augue lacinia auctor.",
+        "price": "3.49"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2016-07-30 20:17:24",
@@ -4671,14 +4483,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "LAYE143",
-            "category": "cake",
-            "title": "Layer Cake",
-            "description": "Cras sit amet eros congue, rhoncus sem sed, consequat arcu. Vivamus pharetra sapien at sem ultrices semper. Maecenas eget lectus ultrices, porta eros a, blandit nisi. Aenean sit amet massa ac dolor interdum varius. Praesent bibendum mi et augue lacinia auctor. Vivamus ac magna nec lacus varius pretium et vitae velit.",
-            "price": "2.99"
-        }
+    "MainProductInfo": {
+        "skuNumber": "LAYE143",
+        "category": "cake",
+        "title": "Layer Cake",
+        "description": "Cras sit amet eros congue, rhoncus sem sed, consequat arcu. Vivamus pharetra sapien at sem ultrices semper. Maecenas eget lectus ultrices, porta eros a, blandit nisi. Aenean sit amet massa ac dolor interdum varius. Praesent bibendum mi et augue lacinia auctor. Vivamus ac magna nec lacus varius pretium et vitae velit.",
+        "price": "2.99"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2019-02-03 20:17:24",
@@ -4718,14 +4528,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "SCHW361",
-            "category": "cookie",
-            "title": "Schweineoehrchen Cookie",
-            "description": "Vivamus semper justo sed dictum aliquam. Nullam quis tortor accumsan, sagittis sem in, porttitor orci. Donec ac purus sed justo egestas ultricies. Mauris interdum elit nec dolor volutpat, sit amet sollicitudin eros facilisis.",
-            "price": "0.49"
-        }
+    "MainProductInfo": {
+        "skuNumber": "SCHW361",
+        "category": "cookie",
+        "title": "Schweineoehrchen Cookie",
+        "description": "Vivamus semper justo sed dictum aliquam. Nullam quis tortor accumsan, sagittis sem in, porttitor orci. Donec ac purus sed justo egestas ultricies. Mauris interdum elit nec dolor volutpat, sit amet sollicitudin eros facilisis.",
+        "price": "0.49"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2017-10-11 20:17:24",
@@ -4769,14 +4577,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "LAYE143",
-            "category": "cake",
-            "title": "Layer Cake",
-            "description": "Cras sit amet eros congue, rhoncus sem sed, consequat arcu. Vivamus pharetra sapien at sem ultrices semper. Maecenas eget lectus ultrices, porta eros a, blandit nisi. Aenean sit amet massa ac dolor interdum varius. Praesent bibendum mi et augue lacinia auctor. Vivamus ac magna nec lacus varius pretium et vitae velit.",
-            "price": "2.99"
-        }
+    "MainProductInfo": {
+        "skuNumber": "LAYE143",
+        "category": "cake",
+        "title": "Layer Cake",
+        "description": "Cras sit amet eros congue, rhoncus sem sed, consequat arcu. Vivamus pharetra sapien at sem ultrices semper. Maecenas eget lectus ultrices, porta eros a, blandit nisi. Aenean sit amet massa ac dolor interdum varius. Praesent bibendum mi et augue lacinia auctor. Vivamus ac magna nec lacus varius pretium et vitae velit.",
+        "price": "2.99"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2017-05-23 20:17:24",
@@ -4820,14 +4626,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "WEDD173",
-            "category": "cake",
-            "title": "Wedding Cake",
-            "description": "Quisque et magna malesuada, fermentum nisl sed, imperdiet nunc. Maecenas interdum ex id venenatis luctus. Vivamus semper justo sed dictum aliquam. Nullam quis tortor accumsan, sagittis sem in, porttitor orci.",
-            "price": "49.99"
-        }
+    "MainProductInfo": {
+        "skuNumber": "WEDD173",
+        "category": "cake",
+        "title": "Wedding Cake",
+        "description": "Quisque et magna malesuada, fermentum nisl sed, imperdiet nunc. Maecenas interdum ex id venenatis luctus. Vivamus semper justo sed dictum aliquam. Nullam quis tortor accumsan, sagittis sem in, porttitor orci.",
+        "price": "49.99"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2019-05-15 20:17:24",
@@ -4879,14 +4683,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "DOZE434",
-            "category": "donut",
-            "title": "Dozen Donuts",
-            "description": "Nam gravida libero ac malesuada cursus. Vivamus semper justo sed dictum aliquam. Praesent pretium justo at neque egestas mattis. Nullam quis tortor accumsan, sagittis sem in, porttitor orci. Phasellus vel velit eget nibh porttitor feugiat id ac massa. Donec ac purus sed justo egestas ultricies.",
-            "price": "6.99"
-        }
+    "MainProductInfo": {
+        "skuNumber": "DOZE434",
+        "category": "donut",
+        "title": "Dozen Donuts",
+        "description": "Nam gravida libero ac malesuada cursus. Vivamus semper justo sed dictum aliquam. Praesent pretium justo at neque egestas mattis. Nullam quis tortor accumsan, sagittis sem in, porttitor orci. Phasellus vel velit eget nibh porttitor feugiat id ac massa. Donec ac purus sed justo egestas ultricies.",
+        "price": "6.99"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2016-09-01 20:17:24",
@@ -4921,14 +4723,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "CHOC228",
-            "category": "chocolate",
-            "title": "Chocolate Bar",
-            "description": "Vivamus semper justo sed dictum aliquam. Nullam quis tortor accumsan, sagittis sem in, porttitor orci. Donec ac purus sed justo egestas ultricies.",
-            "price": "2.99"
-        }
+    "MainProductInfo": {
+        "skuNumber": "CHOC228",
+        "category": "chocolate",
+        "title": "Chocolate Bar",
+        "description": "Vivamus semper justo sed dictum aliquam. Nullam quis tortor accumsan, sagittis sem in, porttitor orci. Donec ac purus sed justo egestas ultricies.",
+        "price": "2.99"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2016-04-01 20:17:24",
@@ -4972,14 +4772,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "CAKE110",
-            "category": "cake",
-            "title": "Cake With Chocolate Frosting",
-            "description": "In a magna pretium, laoreet neque eget, consectetur justo. Nam gravida libero ac malesuada cursus. Vivamus pharetra sapien at sem ultrices semper. Vivamus semper justo sed dictum aliquam. Ut quis massa sit amet enim faucibus suscipit ac viverra elit. Praesent pretium justo at neque egestas mattis.",
-            "price": "8.99"
-        }
+    "MainProductInfo": {
+        "skuNumber": "CAKE110",
+        "category": "cake",
+        "title": "Cake With Chocolate Frosting",
+        "description": "In a magna pretium, laoreet neque eget, consectetur justo. Nam gravida libero ac malesuada cursus. Vivamus pharetra sapien at sem ultrices semper. Vivamus semper justo sed dictum aliquam. Ut quis massa sit amet enim faucibus suscipit ac viverra elit. Praesent pretium justo at neque egestas mattis.",
+        "price": "8.99"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2019-04-04 20:17:24",
@@ -5027,14 +4825,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "VALE270",
-            "category": "chocolate",
-            "title": "Valentines Day Chocolate Pack",
-            "description": "Nam gravida libero ac malesuada cursus. Vivamus semper justo sed dictum aliquam.",
-            "price": "19.99"
-        }
+    "MainProductInfo": {
+        "skuNumber": "VALE270",
+        "category": "chocolate",
+        "title": "Valentines Day Chocolate Pack",
+        "description": "Nam gravida libero ac malesuada cursus. Vivamus semper justo sed dictum aliquam.",
+        "price": "19.99"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2018-08-21 20:17:24",
@@ -5074,14 +4870,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "VALE270",
-            "category": "chocolate",
-            "title": "Valentines Day Chocolate Pack",
-            "description": "Nam gravida libero ac malesuada cursus. Vivamus semper justo sed dictum aliquam.",
-            "price": "19.99"
-        }
+    "MainProductInfo": {
+        "skuNumber": "VALE270",
+        "category": "chocolate",
+        "title": "Valentines Day Chocolate Pack",
+        "description": "Nam gravida libero ac malesuada cursus. Vivamus semper justo sed dictum aliquam.",
+        "price": "19.99"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2016-09-05 20:17:24",
@@ -5129,14 +4923,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "PEAN252",
-            "category": "chocolate",
-            "title": "Peanut Truffle",
-            "description": "Nam gravida libero ac malesuada cursus. Vivamus pharetra sapien at sem ultrices semper. Vivamus semper justo sed dictum aliquam.",
-            "price": "3.49"
-        }
+    "MainProductInfo": {
+        "skuNumber": "PEAN252",
+        "category": "chocolate",
+        "title": "Peanut Truffle",
+        "description": "Nam gravida libero ac malesuada cursus. Vivamus pharetra sapien at sem ultrices semper. Vivamus semper justo sed dictum aliquam.",
+        "price": "3.49"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2019-04-15 20:17:24",
@@ -5180,14 +4972,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "RASP258",
-            "category": "chocolate",
-            "title": "Raspberry Truffel",
-            "description": "Praesent hendrerit tellus eget nibh lobortis, ut scelerisque mi mattis. In a magna pretium, laoreet neque eget, consectetur justo.",
-            "price": "3.49"
-        }
+    "MainProductInfo": {
+        "skuNumber": "RASP258",
+        "category": "chocolate",
+        "title": "Raspberry Truffel",
+        "description": "Praesent hendrerit tellus eget nibh lobortis, ut scelerisque mi mattis. In a magna pretium, laoreet neque eget, consectetur justo.",
+        "price": "3.49"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2017-09-18 20:17:24",
@@ -5227,14 +5017,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "DOZE434",
-            "category": "donut",
-            "title": "Dozen Donuts",
-            "description": "Nam gravida libero ac malesuada cursus. Vivamus semper justo sed dictum aliquam. Praesent pretium justo at neque egestas mattis. Nullam quis tortor accumsan, sagittis sem in, porttitor orci. Phasellus vel velit eget nibh porttitor feugiat id ac massa. Donec ac purus sed justo egestas ultricies.",
-            "price": "6.99"
-        }
+    "MainProductInfo": {
+        "skuNumber": "DOZE434",
+        "category": "donut",
+        "title": "Dozen Donuts",
+        "description": "Nam gravida libero ac malesuada cursus. Vivamus semper justo sed dictum aliquam. Praesent pretium justo at neque egestas mattis. Nullam quis tortor accumsan, sagittis sem in, porttitor orci. Phasellus vel velit eget nibh porttitor feugiat id ac massa. Donec ac purus sed justo egestas ultricies.",
+        "price": "6.99"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2016-08-26 20:17:24",
@@ -5278,14 +5066,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "LAYE140",
-            "category": "cake",
-            "title": "Layer Cake Cherry Topping",
-            "description": "Cras sit amet eros congue, rhoncus sem sed, consequat arcu. Maecenas interdum ex id venenatis luctus.",
-            "price": "3.99"
-        }
+    "MainProductInfo": {
+        "skuNumber": "LAYE140",
+        "category": "cake",
+        "title": "Layer Cake Cherry Topping",
+        "description": "Cras sit amet eros congue, rhoncus sem sed, consequat arcu. Maecenas interdum ex id venenatis luctus.",
+        "price": "3.99"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2019-09-14 20:17:24",
@@ -5325,14 +5111,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "LAYE143",
-            "category": "cake",
-            "title": "Layer Cake",
-            "description": "Cras sit amet eros congue, rhoncus sem sed, consequat arcu. Vivamus pharetra sapien at sem ultrices semper. Maecenas eget lectus ultrices, porta eros a, blandit nisi. Aenean sit amet massa ac dolor interdum varius. Praesent bibendum mi et augue lacinia auctor. Vivamus ac magna nec lacus varius pretium et vitae velit.",
-            "price": "2.99"
-        }
+    "MainProductInfo": {
+        "skuNumber": "LAYE143",
+        "category": "cake",
+        "title": "Layer Cake",
+        "description": "Cras sit amet eros congue, rhoncus sem sed, consequat arcu. Vivamus pharetra sapien at sem ultrices semper. Maecenas eget lectus ultrices, porta eros a, blandit nisi. Aenean sit amet massa ac dolor interdum varius. Praesent bibendum mi et augue lacinia auctor. Vivamus ac magna nec lacus varius pretium et vitae velit.",
+        "price": "2.99"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2017-03-30 20:17:24",
@@ -5380,14 +5164,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "LOAF146",
-            "category": "cake",
-            "title": "Loaf Cake",
-            "description": "Donec sed dui hendrerit nulla iaculis vestibulum. Morbi consectetur urna sit amet facilisis gravida. In a magna pretium, laoreet neque eget, consectetur justo.",
-            "price": "3.99"
-        }
+    "MainProductInfo": {
+        "skuNumber": "LOAF146",
+        "category": "cake",
+        "title": "Loaf Cake",
+        "description": "Donec sed dui hendrerit nulla iaculis vestibulum. Morbi consectetur urna sit amet facilisis gravida. In a magna pretium, laoreet neque eget, consectetur justo.",
+        "price": "3.99"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2017-05-20 20:17:24",
@@ -5435,14 +5217,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "APPL501",
-            "category": "pie",
-            "title": "Apple Pie",
-            "description": "Praesent hendrerit tellus eget nibh lobortis, ut scelerisque mi mattis. Morbi consectetur urna sit amet facilisis gravida. Cras sit amet eros congue, rhoncus sem sed, consequat arcu. Maecenas interdum ex id venenatis luctus. In a magna pretium, laoreet neque eget, consectetur justo. Nam gravida libero ac malesuada cursus.",
-            "price": "4.99"
-        }
+    "MainProductInfo": {
+        "skuNumber": "APPL501",
+        "category": "pie",
+        "title": "Apple Pie",
+        "description": "Praesent hendrerit tellus eget nibh lobortis, ut scelerisque mi mattis. Morbi consectetur urna sit amet facilisis gravida. Cras sit amet eros congue, rhoncus sem sed, consequat arcu. Maecenas interdum ex id venenatis luctus. In a magna pretium, laoreet neque eget, consectetur justo. Nam gravida libero ac malesuada cursus.",
+        "price": "4.99"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2019-04-11 20:17:24",
@@ -5482,14 +5262,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "CHOC228",
-            "category": "chocolate",
-            "title": "Chocolate Bar",
-            "description": "Vivamus semper justo sed dictum aliquam. Nullam quis tortor accumsan, sagittis sem in, porttitor orci. Donec ac purus sed justo egestas ultricies.",
-            "price": "2.99"
-        }
+    "MainProductInfo": {
+        "skuNumber": "CHOC228",
+        "category": "chocolate",
+        "title": "Chocolate Bar",
+        "description": "Vivamus semper justo sed dictum aliquam. Nullam quis tortor accumsan, sagittis sem in, porttitor orci. Donec ac purus sed justo egestas ultricies.",
+        "price": "2.99"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2018-03-15 20:17:24",
@@ -5541,14 +5319,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "VALE270",
-            "category": "chocolate",
-            "title": "Valentines Day Chocolate Pack",
-            "description": "Nam gravida libero ac malesuada cursus. Vivamus semper justo sed dictum aliquam.",
-            "price": "19.99"
-        }
+    "MainProductInfo": {
+        "skuNumber": "VALE270",
+        "category": "chocolate",
+        "title": "Valentines Day Chocolate Pack",
+        "description": "Nam gravida libero ac malesuada cursus. Vivamus semper justo sed dictum aliquam.",
+        "price": "19.99"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2017-03-24 20:17:24",
@@ -5592,14 +5368,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "APPL501",
-            "category": "pie",
-            "title": "Apple Pie",
-            "description": "Praesent hendrerit tellus eget nibh lobortis, ut scelerisque mi mattis. Morbi consectetur urna sit amet facilisis gravida. Cras sit amet eros congue, rhoncus sem sed, consequat arcu. Maecenas interdum ex id venenatis luctus. In a magna pretium, laoreet neque eget, consectetur justo. Nam gravida libero ac malesuada cursus.",
-            "price": "4.99"
-        }
+    "MainProductInfo": {
+        "skuNumber": "APPL501",
+        "category": "pie",
+        "title": "Apple Pie",
+        "description": "Praesent hendrerit tellus eget nibh lobortis, ut scelerisque mi mattis. Morbi consectetur urna sit amet facilisis gravida. Cras sit amet eros congue, rhoncus sem sed, consequat arcu. Maecenas interdum ex id venenatis luctus. In a magna pretium, laoreet neque eget, consectetur justo. Nam gravida libero ac malesuada cursus.",
+        "price": "4.99"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2019-10-12 20:17:24",
@@ -5643,14 +5417,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "DOZE434",
-            "category": "donut",
-            "title": "Dozen Donuts",
-            "description": "Nam gravida libero ac malesuada cursus. Vivamus semper justo sed dictum aliquam. Praesent pretium justo at neque egestas mattis. Nullam quis tortor accumsan, sagittis sem in, porttitor orci. Phasellus vel velit eget nibh porttitor feugiat id ac massa. Donec ac purus sed justo egestas ultricies.",
-            "price": "6.99"
-        }
+    "MainProductInfo": {
+        "skuNumber": "DOZE434",
+        "category": "donut",
+        "title": "Dozen Donuts",
+        "description": "Nam gravida libero ac malesuada cursus. Vivamus semper justo sed dictum aliquam. Praesent pretium justo at neque egestas mattis. Nullam quis tortor accumsan, sagittis sem in, porttitor orci. Phasellus vel velit eget nibh porttitor feugiat id ac massa. Donec ac purus sed justo egestas ultricies.",
+        "price": "6.99"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2018-01-10 20:17:24",
@@ -5702,14 +5474,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "PUMP555",
-            "category": "pie",
-            "title": "Pumpkin Pie",
-            "description": "Cras sit amet eros congue, rhoncus sem sed, consequat arcu. Vivamus pharetra sapien at sem ultrices semper.",
-            "price": "4.99"
-        }
+    "MainProductInfo": {
+        "skuNumber": "PUMP555",
+        "category": "pie",
+        "title": "Pumpkin Pie",
+        "description": "Cras sit amet eros congue, rhoncus sem sed, consequat arcu. Vivamus pharetra sapien at sem ultrices semper.",
+        "price": "4.99"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2018-05-05 20:17:24",
@@ -5749,14 +5519,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "DOUB231",
-            "category": "chocolate",
-            "title": "Double Chocolate Truffel",
-            "description": "Vivamus pharetra sapien at sem ultrices semper. Maecenas eget lectus ultrices, porta eros a, blandit nisi. Aenean sit amet massa ac dolor interdum varius. Praesent bibendum mi et augue lacinia auctor.",
-            "price": "3.49"
-        }
+    "MainProductInfo": {
+        "skuNumber": "DOUB231",
+        "category": "chocolate",
+        "title": "Double Chocolate Truffel",
+        "description": "Vivamus pharetra sapien at sem ultrices semper. Maecenas eget lectus ultrices, porta eros a, blandit nisi. Aenean sit amet massa ac dolor interdum varius. Praesent bibendum mi et augue lacinia auctor.",
+        "price": "3.49"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2019-10-12 20:17:24",
@@ -5796,14 +5564,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "DOUB231",
-            "category": "chocolate",
-            "title": "Double Chocolate Truffel",
-            "description": "Vivamus pharetra sapien at sem ultrices semper. Maecenas eget lectus ultrices, porta eros a, blandit nisi. Aenean sit amet massa ac dolor interdum varius. Praesent bibendum mi et augue lacinia auctor.",
-            "price": "3.49"
-        }
+    "MainProductInfo": {
+        "skuNumber": "DOUB231",
+        "category": "chocolate",
+        "title": "Double Chocolate Truffel",
+        "description": "Vivamus pharetra sapien at sem ultrices semper. Maecenas eget lectus ultrices, porta eros a, blandit nisi. Aenean sit amet massa ac dolor interdum varius. Praesent bibendum mi et augue lacinia auctor.",
+        "price": "3.49"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2017-05-24 20:17:24",
@@ -5843,14 +5609,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "VALE270",
-            "category": "chocolate",
-            "title": "Valentines Day Chocolate Pack",
-            "description": "Nam gravida libero ac malesuada cursus. Vivamus semper justo sed dictum aliquam.",
-            "price": "19.99"
-        }
+    "MainProductInfo": {
+        "skuNumber": "VALE270",
+        "category": "chocolate",
+        "title": "Valentines Day Chocolate Pack",
+        "description": "Nam gravida libero ac malesuada cursus. Vivamus semper justo sed dictum aliquam.",
+        "price": "19.99"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2017-05-23 20:17:24",
@@ -5890,14 +5654,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "BLAC207",
-            "category": "chocolate",
-            "title": "Black And Tan Truffel",
-            "description": "Nam gravida libero ac malesuada cursus. Ut quis massa sit amet enim faucibus suscipit ac viverra elit. Nullam quis tortor accumsan, sagittis sem in, porttitor orci. Aenean sit amet massa ac dolor interdum varius. Pellentesque vel risus placerat, consequat leo suscipit, dapibus nulla. Vestibulum a sem volutpat, pellentesque eros et, placerat justo.",
-            "price": "3.49"
-        }
+    "MainProductInfo": {
+        "skuNumber": "BLAC207",
+        "category": "chocolate",
+        "title": "Black And Tan Truffel",
+        "description": "Nam gravida libero ac malesuada cursus. Ut quis massa sit amet enim faucibus suscipit ac viverra elit. Nullam quis tortor accumsan, sagittis sem in, porttitor orci. Aenean sit amet massa ac dolor interdum varius. Pellentesque vel risus placerat, consequat leo suscipit, dapibus nulla. Vestibulum a sem volutpat, pellentesque eros et, placerat justo.",
+        "price": "3.49"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2019-07-03 20:17:24",
@@ -5945,14 +5707,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "CHOC425",
-            "category": "donut",
-            "title": "Chocolate Covered Donut",
-            "description": "In a magna pretium, laoreet neque eget, consectetur justo. Nam gravida libero ac malesuada cursus. Vivamus pharetra sapien at sem ultrices semper.",
-            "price": "0.67"
-        }
+    "MainProductInfo": {
+        "skuNumber": "CHOC425",
+        "category": "donut",
+        "title": "Chocolate Covered Donut",
+        "description": "In a magna pretium, laoreet neque eget, consectetur justo. Nam gravida libero ac malesuada cursus. Vivamus pharetra sapien at sem ultrices semper.",
+        "price": "0.67"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2018-09-27 20:17:24",
@@ -5996,14 +5756,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "WHIT276",
-            "category": "chocolate",
-            "title": "White Chocolate Truffel",
-            "description": "Cras sit amet eros congue, rhoncus sem sed, consequat arcu. In a magna pretium, laoreet neque eget, consectetur justo. Vivamus pharetra sapien at sem ultrices semper. Ut quis massa sit amet enim faucibus suscipit ac viverra elit.",
-            "price": "3.49"
-        }
+    "MainProductInfo": {
+        "skuNumber": "WHIT276",
+        "category": "chocolate",
+        "title": "White Chocolate Truffel",
+        "description": "Cras sit amet eros congue, rhoncus sem sed, consequat arcu. In a magna pretium, laoreet neque eget, consectetur justo. Vivamus pharetra sapien at sem ultrices semper. Ut quis massa sit amet enim faucibus suscipit ac viverra elit.",
+        "price": "3.49"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2018-10-08 20:17:24",
@@ -6043,14 +5801,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "RASP258",
-            "category": "chocolate",
-            "title": "Raspberry Truffel",
-            "description": "Praesent hendrerit tellus eget nibh lobortis, ut scelerisque mi mattis. In a magna pretium, laoreet neque eget, consectetur justo.",
-            "price": "3.49"
-        }
+    "MainProductInfo": {
+        "skuNumber": "RASP258",
+        "category": "chocolate",
+        "title": "Raspberry Truffel",
+        "description": "Praesent hendrerit tellus eget nibh lobortis, ut scelerisque mi mattis. In a magna pretium, laoreet neque eget, consectetur justo.",
+        "price": "3.49"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2019-06-25 20:17:24",
@@ -6090,14 +5846,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "LAYE140",
-            "category": "cake",
-            "title": "Layer Cake Cherry Topping",
-            "description": "Cras sit amet eros congue, rhoncus sem sed, consequat arcu. Maecenas interdum ex id venenatis luctus.",
-            "price": "3.99"
-        }
+    "MainProductInfo": {
+        "skuNumber": "LAYE140",
+        "category": "cake",
+        "title": "Layer Cake Cherry Topping",
+        "description": "Cras sit amet eros congue, rhoncus sem sed, consequat arcu. Maecenas interdum ex id venenatis luctus.",
+        "price": "3.99"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2018-02-21 20:17:24",
@@ -6137,14 +5891,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "CHER516",
-            "category": "pie",
-            "title": "Cherry Pie",
-            "description": "Vivamus semper justo sed dictum aliquam. Maecenas eget lectus ultrices, porta eros a, blandit nisi. Phasellus vel velit eget nibh porttitor feugiat id ac massa.",
-            "price": "4.99"
-        }
+    "MainProductInfo": {
+        "skuNumber": "CHER516",
+        "category": "pie",
+        "title": "Cherry Pie",
+        "description": "Vivamus semper justo sed dictum aliquam. Maecenas eget lectus ultrices, porta eros a, blandit nisi. Phasellus vel velit eget nibh porttitor feugiat id ac massa.",
+        "price": "4.99"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2017-08-19 20:17:24",
@@ -6179,14 +5931,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "CHOC219",
-            "category": "chocolate",
-            "title": "Chocolate Bunny",
-            "description": "Cras sit amet eros congue, rhoncus sem sed, consequat arcu. Vivamus pharetra sapien at sem ultrices semper. Maecenas eget lectus ultrices, porta eros a, blandit nisi. Aenean sit amet massa ac dolor interdum varius. Praesent bibendum mi et augue lacinia auctor. Vivamus ac magna nec lacus varius pretium et vitae velit.",
-            "price": "6.49"
-        }
+    "MainProductInfo": {
+        "skuNumber": "CHOC219",
+        "category": "chocolate",
+        "title": "Chocolate Bunny",
+        "description": "Cras sit amet eros congue, rhoncus sem sed, consequat arcu. Vivamus pharetra sapien at sem ultrices semper. Maecenas eget lectus ultrices, porta eros a, blandit nisi. Aenean sit amet massa ac dolor interdum varius. Praesent bibendum mi et augue lacinia auctor. Vivamus ac magna nec lacus varius pretium et vitae velit.",
+        "price": "6.49"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2019-07-22 20:17:24",
@@ -6230,14 +5980,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "DOUB231",
-            "category": "chocolate",
-            "title": "Double Chocolate Truffel",
-            "description": "Vivamus pharetra sapien at sem ultrices semper. Maecenas eget lectus ultrices, porta eros a, blandit nisi. Aenean sit amet massa ac dolor interdum varius. Praesent bibendum mi et augue lacinia auctor.",
-            "price": "3.49"
-        }
+    "MainProductInfo": {
+        "skuNumber": "DOUB231",
+        "category": "chocolate",
+        "title": "Double Chocolate Truffel",
+        "description": "Vivamus pharetra sapien at sem ultrices semper. Maecenas eget lectus ultrices, porta eros a, blandit nisi. Aenean sit amet massa ac dolor interdum varius. Praesent bibendum mi et augue lacinia auctor.",
+        "price": "3.49"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2016-08-24 20:17:24",
@@ -6272,14 +6020,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "WHIT276",
-            "category": "chocolate",
-            "title": "White Chocolate Truffel",
-            "description": "Cras sit amet eros congue, rhoncus sem sed, consequat arcu. In a magna pretium, laoreet neque eget, consectetur justo. Vivamus pharetra sapien at sem ultrices semper. Ut quis massa sit amet enim faucibus suscipit ac viverra elit.",
-            "price": "3.49"
-        }
+    "MainProductInfo": {
+        "skuNumber": "WHIT276",
+        "category": "chocolate",
+        "title": "White Chocolate Truffel",
+        "description": "Cras sit amet eros congue, rhoncus sem sed, consequat arcu. In a magna pretium, laoreet neque eget, consectetur justo. Vivamus pharetra sapien at sem ultrices semper. Ut quis massa sit amet enim faucibus suscipit ac viverra elit.",
+        "price": "3.49"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2016-05-16 20:17:24",
@@ -6323,14 +6069,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "VALE270",
-            "category": "chocolate",
-            "title": "Valentines Day Chocolate Pack",
-            "description": "Nam gravida libero ac malesuada cursus. Vivamus semper justo sed dictum aliquam.",
-            "price": "19.99"
-        }
+    "MainProductInfo": {
+        "skuNumber": "VALE270",
+        "category": "chocolate",
+        "title": "Valentines Day Chocolate Pack",
+        "description": "Nam gravida libero ac malesuada cursus. Vivamus semper justo sed dictum aliquam.",
+        "price": "19.99"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2019-03-26 20:17:24",
@@ -6365,14 +6109,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "MUFF149",
-            "category": "cake",
-            "title": "Muffin",
-            "description": "In a magna pretium, laoreet neque eget, consectetur justo. Vivamus pharetra sapien at sem ultrices semper. Ut quis massa sit amet enim faucibus suscipit ac viverra elit. Maecenas eget lectus ultrices, porta eros a, blandit nisi.",
-            "price": "1.99"
-        }
+    "MainProductInfo": {
+        "skuNumber": "MUFF149",
+        "category": "cake",
+        "title": "Muffin",
+        "description": "In a magna pretium, laoreet neque eget, consectetur justo. Vivamus pharetra sapien at sem ultrices semper. Ut quis massa sit amet enim faucibus suscipit ac viverra elit. Maecenas eget lectus ultrices, porta eros a, blandit nisi.",
+        "price": "1.99"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2017-07-26 20:17:24",
@@ -6416,14 +6158,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "RASP258",
-            "category": "chocolate",
-            "title": "Raspberry Truffel",
-            "description": "Praesent hendrerit tellus eget nibh lobortis, ut scelerisque mi mattis. In a magna pretium, laoreet neque eget, consectetur justo.",
-            "price": "3.49"
-        }
+    "MainProductInfo": {
+        "skuNumber": "RASP258",
+        "category": "chocolate",
+        "title": "Raspberry Truffel",
+        "description": "Praesent hendrerit tellus eget nibh lobortis, ut scelerisque mi mattis. In a magna pretium, laoreet neque eget, consectetur justo.",
+        "price": "3.49"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2016-05-03 20:17:24",
@@ -6467,14 +6207,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "BLAC207",
-            "category": "chocolate",
-            "title": "Black And Tan Truffel",
-            "description": "Nam gravida libero ac malesuada cursus. Ut quis massa sit amet enim faucibus suscipit ac viverra elit. Nullam quis tortor accumsan, sagittis sem in, porttitor orci. Aenean sit amet massa ac dolor interdum varius. Pellentesque vel risus placerat, consequat leo suscipit, dapibus nulla. Vestibulum a sem volutpat, pellentesque eros et, placerat justo.",
-            "price": "3.49"
-        }
+    "MainProductInfo": {
+        "skuNumber": "BLAC207",
+        "category": "chocolate",
+        "title": "Black And Tan Truffel",
+        "description": "Nam gravida libero ac malesuada cursus. Ut quis massa sit amet enim faucibus suscipit ac viverra elit. Nullam quis tortor accumsan, sagittis sem in, porttitor orci. Aenean sit amet massa ac dolor interdum varius. Pellentesque vel risus placerat, consequat leo suscipit, dapibus nulla. Vestibulum a sem volutpat, pellentesque eros et, placerat justo.",
+        "price": "3.49"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2019-08-06 20:17:24",
@@ -6514,14 +6252,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "CAKE110",
-            "category": "cake",
-            "title": "Cake With Chocolate Frosting",
-            "description": "In a magna pretium, laoreet neque eget, consectetur justo. Nam gravida libero ac malesuada cursus. Vivamus pharetra sapien at sem ultrices semper. Vivamus semper justo sed dictum aliquam. Ut quis massa sit amet enim faucibus suscipit ac viverra elit. Praesent pretium justo at neque egestas mattis.",
-            "price": "8.99"
-        }
+    "MainProductInfo": {
+        "skuNumber": "CAKE110",
+        "category": "cake",
+        "title": "Cake With Chocolate Frosting",
+        "description": "In a magna pretium, laoreet neque eget, consectetur justo. Nam gravida libero ac malesuada cursus. Vivamus pharetra sapien at sem ultrices semper. Vivamus semper justo sed dictum aliquam. Ut quis massa sit amet enim faucibus suscipit ac viverra elit. Praesent pretium justo at neque egestas mattis.",
+        "price": "8.99"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2017-03-07 20:17:24",
@@ -6561,14 +6297,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "BLAC207",
-            "category": "chocolate",
-            "title": "Black And Tan Truffel",
-            "description": "Nam gravida libero ac malesuada cursus. Ut quis massa sit amet enim faucibus suscipit ac viverra elit. Nullam quis tortor accumsan, sagittis sem in, porttitor orci. Aenean sit amet massa ac dolor interdum varius. Pellentesque vel risus placerat, consequat leo suscipit, dapibus nulla. Vestibulum a sem volutpat, pellentesque eros et, placerat justo.",
-            "price": "3.49"
-        }
+    "MainProductInfo": {
+        "skuNumber": "BLAC207",
+        "category": "chocolate",
+        "title": "Black And Tan Truffel",
+        "description": "Nam gravida libero ac malesuada cursus. Ut quis massa sit amet enim faucibus suscipit ac viverra elit. Nullam quis tortor accumsan, sagittis sem in, porttitor orci. Aenean sit amet massa ac dolor interdum varius. Pellentesque vel risus placerat, consequat leo suscipit, dapibus nulla. Vestibulum a sem volutpat, pellentesque eros et, placerat justo.",
+        "price": "3.49"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2017-05-09 20:17:24",
@@ -6608,14 +6342,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "BIRT104",
-            "category": "cake",
-            "title": "Birthday Cake",
-            "description": "Nam gravida libero ac malesuada cursus. Ut quis massa sit amet enim faucibus suscipit ac viverra elit. Nullam quis tortor accumsan, sagittis sem in, porttitor orci. Aenean sit amet massa ac dolor interdum varius. Pellentesque vel risus placerat, consequat leo suscipit, dapibus nulla.",
-            "price": "9.99"
-        }
+    "MainProductInfo": {
+        "skuNumber": "BIRT104",
+        "category": "cake",
+        "title": "Birthday Cake",
+        "description": "Nam gravida libero ac malesuada cursus. Ut quis massa sit amet enim faucibus suscipit ac viverra elit. Nullam quis tortor accumsan, sagittis sem in, porttitor orci. Aenean sit amet massa ac dolor interdum varius. Pellentesque vel risus placerat, consequat leo suscipit, dapibus nulla.",
+        "price": "9.99"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2019-06-04 20:17:24",
@@ -6663,14 +6395,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "SCHW361",
-            "category": "cookie",
-            "title": "Schweineoehrchen Cookie",
-            "description": "Vivamus semper justo sed dictum aliquam. Nullam quis tortor accumsan, sagittis sem in, porttitor orci. Donec ac purus sed justo egestas ultricies. Mauris interdum elit nec dolor volutpat, sit amet sollicitudin eros facilisis.",
-            "price": "0.49"
-        }
+    "MainProductInfo": {
+        "skuNumber": "SCHW361",
+        "category": "cookie",
+        "title": "Schweineoehrchen Cookie",
+        "description": "Vivamus semper justo sed dictum aliquam. Nullam quis tortor accumsan, sagittis sem in, porttitor orci. Donec ac purus sed justo egestas ultricies. Mauris interdum elit nec dolor volutpat, sit amet sollicitudin eros facilisis.",
+        "price": "0.49"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2018-09-13 20:17:24",
@@ -6710,14 +6440,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "DOZE434",
-            "category": "donut",
-            "title": "Dozen Donuts",
-            "description": "Nam gravida libero ac malesuada cursus. Vivamus semper justo sed dictum aliquam. Praesent pretium justo at neque egestas mattis. Nullam quis tortor accumsan, sagittis sem in, porttitor orci. Phasellus vel velit eget nibh porttitor feugiat id ac massa. Donec ac purus sed justo egestas ultricies.",
-            "price": "6.99"
-        }
+    "MainProductInfo": {
+        "skuNumber": "DOZE434",
+        "category": "donut",
+        "title": "Dozen Donuts",
+        "description": "Nam gravida libero ac malesuada cursus. Vivamus semper justo sed dictum aliquam. Praesent pretium justo at neque egestas mattis. Nullam quis tortor accumsan, sagittis sem in, porttitor orci. Phasellus vel velit eget nibh porttitor feugiat id ac massa. Donec ac purus sed justo egestas ultricies.",
+        "price": "6.99"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2018-06-20 20:17:24",
@@ -6757,14 +6485,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "CHER516",
-            "category": "pie",
-            "title": "Cherry Pie",
-            "description": "Vivamus semper justo sed dictum aliquam. Maecenas eget lectus ultrices, porta eros a, blandit nisi. Phasellus vel velit eget nibh porttitor feugiat id ac massa.",
-            "price": "4.99"
-        }
+    "MainProductInfo": {
+        "skuNumber": "CHER516",
+        "category": "pie",
+        "title": "Cherry Pie",
+        "description": "Vivamus semper justo sed dictum aliquam. Maecenas eget lectus ultrices, porta eros a, blandit nisi. Phasellus vel velit eget nibh porttitor feugiat id ac massa.",
+        "price": "4.99"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2019-05-06 20:17:24",
@@ -6799,14 +6525,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "STAR464",
-            "category": "donut",
-            "title": "Star And Sprinkles Donut",
-            "description": "Nam gravida libero ac malesuada cursus. Vivamus pharetra sapien at sem ultrices semper.",
-            "price": "0.59"
-        }
+    "MainProductInfo": {
+        "skuNumber": "STAR464",
+        "category": "donut",
+        "title": "Star And Sprinkles Donut",
+        "description": "Nam gravida libero ac malesuada cursus. Vivamus pharetra sapien at sem ultrices semper.",
+        "price": "0.59"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2017-08-29 20:17:24",
@@ -6850,14 +6574,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "CHOC219",
-            "category": "chocolate",
-            "title": "Chocolate Bunny",
-            "description": "Cras sit amet eros congue, rhoncus sem sed, consequat arcu. Vivamus pharetra sapien at sem ultrices semper. Maecenas eget lectus ultrices, porta eros a, blandit nisi. Aenean sit amet massa ac dolor interdum varius. Praesent bibendum mi et augue lacinia auctor. Vivamus ac magna nec lacus varius pretium et vitae velit.",
-            "price": "6.49"
-        }
+    "MainProductInfo": {
+        "skuNumber": "CHOC219",
+        "category": "chocolate",
+        "title": "Chocolate Bunny",
+        "description": "Cras sit amet eros congue, rhoncus sem sed, consequat arcu. Vivamus pharetra sapien at sem ultrices semper. Maecenas eget lectus ultrices, porta eros a, blandit nisi. Aenean sit amet massa ac dolor interdum varius. Praesent bibendum mi et augue lacinia auctor. Vivamus ac magna nec lacus varius pretium et vitae velit.",
+        "price": "6.49"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2016-12-10 20:17:24",
@@ -6892,14 +6614,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "STAR464",
-            "category": "donut",
-            "title": "Star And Sprinkles Donut",
-            "description": "Nam gravida libero ac malesuada cursus. Vivamus pharetra sapien at sem ultrices semper.",
-            "price": "0.59"
-        }
+    "MainProductInfo": {
+        "skuNumber": "STAR464",
+        "category": "donut",
+        "title": "Star And Sprinkles Donut",
+        "description": "Nam gravida libero ac malesuada cursus. Vivamus pharetra sapien at sem ultrices semper.",
+        "price": "0.59"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2019-04-16 20:17:24",
@@ -6947,14 +6667,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "CHER516",
-            "category": "pie",
-            "title": "Cherry Pie",
-            "description": "Vivamus semper justo sed dictum aliquam. Maecenas eget lectus ultrices, porta eros a, blandit nisi. Phasellus vel velit eget nibh porttitor feugiat id ac massa.",
-            "price": "4.99"
-        }
+    "MainProductInfo": {
+        "skuNumber": "CHER516",
+        "category": "pie",
+        "title": "Cherry Pie",
+        "description": "Vivamus semper justo sed dictum aliquam. Maecenas eget lectus ultrices, porta eros a, blandit nisi. Phasellus vel velit eget nibh porttitor feugiat id ac massa.",
+        "price": "4.99"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2017-06-20 20:17:24",
@@ -7006,14 +6724,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "LAYE140",
-            "category": "cake",
-            "title": "Layer Cake Cherry Topping",
-            "description": "Cras sit amet eros congue, rhoncus sem sed, consequat arcu. Maecenas interdum ex id venenatis luctus.",
-            "price": "3.99"
-        }
+    "MainProductInfo": {
+        "skuNumber": "LAYE140",
+        "category": "cake",
+        "title": "Layer Cake Cherry Topping",
+        "description": "Cras sit amet eros congue, rhoncus sem sed, consequat arcu. Maecenas interdum ex id venenatis luctus.",
+        "price": "3.99"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2018-11-18 20:17:24",
@@ -7057,14 +6773,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "SCHW361",
-            "category": "cookie",
-            "title": "Schweineoehrchen Cookie",
-            "description": "Vivamus semper justo sed dictum aliquam. Nullam quis tortor accumsan, sagittis sem in, porttitor orci. Donec ac purus sed justo egestas ultricies. Mauris interdum elit nec dolor volutpat, sit amet sollicitudin eros facilisis.",
-            "price": "0.49"
-        }
+    "MainProductInfo": {
+        "skuNumber": "SCHW361",
+        "category": "cookie",
+        "title": "Schweineoehrchen Cookie",
+        "description": "Vivamus semper justo sed dictum aliquam. Nullam quis tortor accumsan, sagittis sem in, porttitor orci. Donec ac purus sed justo egestas ultricies. Mauris interdum elit nec dolor volutpat, sit amet sollicitudin eros facilisis.",
+        "price": "0.49"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2019-01-03 20:17:24",
@@ -7104,14 +6818,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "DOUB231",
-            "category": "chocolate",
-            "title": "Double Chocolate Truffel",
-            "description": "Vivamus pharetra sapien at sem ultrices semper. Maecenas eget lectus ultrices, porta eros a, blandit nisi. Aenean sit amet massa ac dolor interdum varius. Praesent bibendum mi et augue lacinia auctor.",
-            "price": "3.49"
-        }
+    "MainProductInfo": {
+        "skuNumber": "DOUB231",
+        "category": "chocolate",
+        "title": "Double Chocolate Truffel",
+        "description": "Vivamus pharetra sapien at sem ultrices semper. Maecenas eget lectus ultrices, porta eros a, blandit nisi. Aenean sit amet massa ac dolor interdum varius. Praesent bibendum mi et augue lacinia auctor.",
+        "price": "3.49"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2018-08-19 20:17:24",
@@ -7155,14 +6867,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "SCHW361",
-            "category": "cookie",
-            "title": "Schweineoehrchen Cookie",
-            "description": "Vivamus semper justo sed dictum aliquam. Nullam quis tortor accumsan, sagittis sem in, porttitor orci. Donec ac purus sed justo egestas ultricies. Mauris interdum elit nec dolor volutpat, sit amet sollicitudin eros facilisis.",
-            "price": "0.49"
-        }
+    "MainProductInfo": {
+        "skuNumber": "SCHW361",
+        "category": "cookie",
+        "title": "Schweineoehrchen Cookie",
+        "description": "Vivamus semper justo sed dictum aliquam. Nullam quis tortor accumsan, sagittis sem in, porttitor orci. Donec ac purus sed justo egestas ultricies. Mauris interdum elit nec dolor volutpat, sit amet sollicitudin eros facilisis.",
+        "price": "0.49"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2017-07-12 20:17:24",
@@ -7197,14 +6907,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "SCHW361",
-            "category": "cookie",
-            "title": "Schweineoehrchen Cookie",
-            "description": "Vivamus semper justo sed dictum aliquam. Nullam quis tortor accumsan, sagittis sem in, porttitor orci. Donec ac purus sed justo egestas ultricies. Mauris interdum elit nec dolor volutpat, sit amet sollicitudin eros facilisis.",
-            "price": "0.49"
-        }
+    "MainProductInfo": {
+        "skuNumber": "SCHW361",
+        "category": "cookie",
+        "title": "Schweineoehrchen Cookie",
+        "description": "Vivamus semper justo sed dictum aliquam. Nullam quis tortor accumsan, sagittis sem in, porttitor orci. Donec ac purus sed justo egestas ultricies. Mauris interdum elit nec dolor volutpat, sit amet sollicitudin eros facilisis.",
+        "price": "0.49"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2019-03-18 20:17:24",
@@ -7244,14 +6952,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "STAR464",
-            "category": "donut",
-            "title": "Star And Sprinkles Donut",
-            "description": "Nam gravida libero ac malesuada cursus. Vivamus pharetra sapien at sem ultrices semper.",
-            "price": "0.59"
-        }
+    "MainProductInfo": {
+        "skuNumber": "STAR464",
+        "category": "donut",
+        "title": "Star And Sprinkles Donut",
+        "description": "Nam gravida libero ac malesuada cursus. Vivamus pharetra sapien at sem ultrices semper.",
+        "price": "0.59"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2016-06-16 20:17:24",
@@ -7291,14 +6997,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "CHOC228",
-            "category": "chocolate",
-            "title": "Chocolate Bar",
-            "description": "Vivamus semper justo sed dictum aliquam. Nullam quis tortor accumsan, sagittis sem in, porttitor orci. Donec ac purus sed justo egestas ultricies.",
-            "price": "2.99"
-        }
+    "MainProductInfo": {
+        "skuNumber": "CHOC228",
+        "category": "chocolate",
+        "title": "Chocolate Bar",
+        "description": "Vivamus semper justo sed dictum aliquam. Nullam quis tortor accumsan, sagittis sem in, porttitor orci. Donec ac purus sed justo egestas ultricies.",
+        "price": "2.99"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2017-02-13 20:17:24",
@@ -7338,14 +7042,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "GLOW437",
-            "category": "donut",
-            "title": "Glow In The Dark Donut",
-            "description": "Nam gravida libero ac malesuada cursus. Vivamus pharetra sapien at sem ultrices semper.",
-            "price": "0.79"
-        }
+    "MainProductInfo": {
+        "skuNumber": "GLOW437",
+        "category": "donut",
+        "title": "Glow In The Dark Donut",
+        "description": "Nam gravida libero ac malesuada cursus. Vivamus pharetra sapien at sem ultrices semper.",
+        "price": "0.79"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2019-07-21 20:17:24",
@@ -7389,14 +7091,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "WHIT276",
-            "category": "chocolate",
-            "title": "White Chocolate Truffel",
-            "description": "Cras sit amet eros congue, rhoncus sem sed, consequat arcu. In a magna pretium, laoreet neque eget, consectetur justo. Vivamus pharetra sapien at sem ultrices semper. Ut quis massa sit amet enim faucibus suscipit ac viverra elit.",
-            "price": "3.49"
-        }
+    "MainProductInfo": {
+        "skuNumber": "WHIT276",
+        "category": "chocolate",
+        "title": "White Chocolate Truffel",
+        "description": "Cras sit amet eros congue, rhoncus sem sed, consequat arcu. In a magna pretium, laoreet neque eget, consectetur justo. Vivamus pharetra sapien at sem ultrices semper. Ut quis massa sit amet enim faucibus suscipit ac viverra elit.",
+        "price": "3.49"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2016-12-19 20:17:24",
@@ -7445,7 +7145,7 @@ db.purchases.insertOne(
         }
     },
     "ProductInfo": {
-        "MainProductInfo": null
+            "MainProductInfo": null
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2018-11-17 20:17:24",
@@ -7486,7 +7186,7 @@ db.purchases.insertOne(
         }
     },
     "ProductInfo": {
-        "MainProductInfo": null
+            "MainProductInfo": null
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2019-02-13 20:17:24",
@@ -7526,14 +7226,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "RASP258",
-            "category": "chocolate",
-            "title": "Raspberry Truffel",
-            "description": "Praesent hendrerit tellus eget nibh lobortis, ut scelerisque mi mattis. In a magna pretium, laoreet neque eget, consectetur justo.",
-            "price": "3.49"
-        }
+    "MainProductInfo": {
+        "skuNumber": "RASP258",
+        "category": "chocolate",
+        "title": "Raspberry Truffel",
+        "description": "Praesent hendrerit tellus eget nibh lobortis, ut scelerisque mi mattis. In a magna pretium, laoreet neque eget, consectetur justo.",
+        "price": "3.49"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2016-06-11 20:17:24",
@@ -7577,14 +7275,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "CHOC322",
-            "category": "cookie",
-            "title": "Chocolate Chip Cookie",
-            "description": "Cras sit amet eros congue, rhoncus sem sed, consequat arcu. Maecenas interdum ex id venenatis luctus. In a magna pretium, laoreet neque eget, consectetur justo. Nam gravida libero ac malesuada cursus. Vivamus pharetra sapien at sem ultrices semper. Vivamus semper justo sed dictum aliquam.",
-            "price": "0.88"
-        }
+    "MainProductInfo": {
+        "skuNumber": "CHOC322",
+        "category": "cookie",
+        "title": "Chocolate Chip Cookie",
+        "description": "Cras sit amet eros congue, rhoncus sem sed, consequat arcu. Maecenas interdum ex id venenatis luctus. In a magna pretium, laoreet neque eget, consectetur justo. Nam gravida libero ac malesuada cursus. Vivamus pharetra sapien at sem ultrices semper. Vivamus semper justo sed dictum aliquam.",
+        "price": "0.88"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2016-05-30 20:17:24",
@@ -7632,14 +7328,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "CHOC322",
-            "category": "cookie",
-            "title": "Chocolate Chip Cookie",
-            "description": "Cras sit amet eros congue, rhoncus sem sed, consequat arcu. Maecenas interdum ex id venenatis luctus. In a magna pretium, laoreet neque eget, consectetur justo. Nam gravida libero ac malesuada cursus. Vivamus pharetra sapien at sem ultrices semper. Vivamus semper justo sed dictum aliquam.",
-            "price": "0.88"
-        }
+    "MainProductInfo": {
+        "skuNumber": "CHOC322",
+        "category": "cookie",
+        "title": "Chocolate Chip Cookie",
+        "description": "Cras sit amet eros congue, rhoncus sem sed, consequat arcu. Maecenas interdum ex id venenatis luctus. In a magna pretium, laoreet neque eget, consectetur justo. Nam gravida libero ac malesuada cursus. Vivamus pharetra sapien at sem ultrices semper. Vivamus semper justo sed dictum aliquam.",
+        "price": "0.88"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2019-03-06 20:17:24",
@@ -7683,14 +7377,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "BIRT104",
-            "category": "cake",
-            "title": "Birthday Cake",
-            "description": "Nam gravida libero ac malesuada cursus. Ut quis massa sit amet enim faucibus suscipit ac viverra elit. Nullam quis tortor accumsan, sagittis sem in, porttitor orci. Aenean sit amet massa ac dolor interdum varius. Pellentesque vel risus placerat, consequat leo suscipit, dapibus nulla.",
-            "price": "9.99"
-        }
+    "MainProductInfo": {
+        "skuNumber": "BIRT104",
+        "category": "cake",
+        "title": "Birthday Cake",
+        "description": "Nam gravida libero ac malesuada cursus. Ut quis massa sit amet enim faucibus suscipit ac viverra elit. Nullam quis tortor accumsan, sagittis sem in, porttitor orci. Aenean sit amet massa ac dolor interdum varius. Pellentesque vel risus placerat, consequat leo suscipit, dapibus nulla.",
+        "price": "9.99"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2017-12-07 20:17:24",
@@ -7734,14 +7426,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "VALE270",
-            "category": "chocolate",
-            "title": "Valentines Day Chocolate Pack",
-            "description": "Nam gravida libero ac malesuada cursus. Vivamus semper justo sed dictum aliquam.",
-            "price": "19.99"
-        }
+    "MainProductInfo": {
+        "skuNumber": "VALE270",
+        "category": "chocolate",
+        "title": "Valentines Day Chocolate Pack",
+        "description": "Nam gravida libero ac malesuada cursus. Vivamus semper justo sed dictum aliquam.",
+        "price": "19.99"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2017-07-14 20:17:24",
@@ -7785,14 +7475,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "CAKE110",
-            "category": "cake",
-            "title": "Cake With Chocolate Frosting",
-            "description": "In a magna pretium, laoreet neque eget, consectetur justo. Nam gravida libero ac malesuada cursus. Vivamus pharetra sapien at sem ultrices semper. Vivamus semper justo sed dictum aliquam. Ut quis massa sit amet enim faucibus suscipit ac viverra elit. Praesent pretium justo at neque egestas mattis.",
-            "price": "8.99"
-        }
+    "MainProductInfo": {
+        "skuNumber": "CAKE110",
+        "category": "cake",
+        "title": "Cake With Chocolate Frosting",
+        "description": "In a magna pretium, laoreet neque eget, consectetur justo. Nam gravida libero ac malesuada cursus. Vivamus pharetra sapien at sem ultrices semper. Vivamus semper justo sed dictum aliquam. Ut quis massa sit amet enim faucibus suscipit ac viverra elit. Praesent pretium justo at neque egestas mattis.",
+        "price": "8.99"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2019-01-06 20:17:24",
@@ -7841,7 +7529,7 @@ db.purchases.insertOne(
         }
     },
     "ProductInfo": {
-        "MainProductInfo": null
+            "MainProductInfo": null
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2017-11-09 20:17:24",
@@ -7889,14 +7577,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "CAKE110",
-            "category": "cake",
-            "title": "Cake With Chocolate Frosting",
-            "description": "In a magna pretium, laoreet neque eget, consectetur justo. Nam gravida libero ac malesuada cursus. Vivamus pharetra sapien at sem ultrices semper. Vivamus semper justo sed dictum aliquam. Ut quis massa sit amet enim faucibus suscipit ac viverra elit. Praesent pretium justo at neque egestas mattis.",
-            "price": "8.99"
-        }
+    "MainProductInfo": {
+        "skuNumber": "CAKE110",
+        "category": "cake",
+        "title": "Cake With Chocolate Frosting",
+        "description": "In a magna pretium, laoreet neque eget, consectetur justo. Nam gravida libero ac malesuada cursus. Vivamus pharetra sapien at sem ultrices semper. Vivamus semper justo sed dictum aliquam. Ut quis massa sit amet enim faucibus suscipit ac viverra elit. Praesent pretium justo at neque egestas mattis.",
+        "price": "8.99"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2016-06-24 20:17:24",
@@ -7936,14 +7622,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "BLAC207",
-            "category": "chocolate",
-            "title": "Black And Tan Truffel",
-            "description": "Nam gravida libero ac malesuada cursus. Ut quis massa sit amet enim faucibus suscipit ac viverra elit. Nullam quis tortor accumsan, sagittis sem in, porttitor orci. Aenean sit amet massa ac dolor interdum varius. Pellentesque vel risus placerat, consequat leo suscipit, dapibus nulla. Vestibulum a sem volutpat, pellentesque eros et, placerat justo.",
-            "price": "3.49"
-        }
+    "MainProductInfo": {
+        "skuNumber": "BLAC207",
+        "category": "chocolate",
+        "title": "Black And Tan Truffel",
+        "description": "Nam gravida libero ac malesuada cursus. Ut quis massa sit amet enim faucibus suscipit ac viverra elit. Nullam quis tortor accumsan, sagittis sem in, porttitor orci. Aenean sit amet massa ac dolor interdum varius. Pellentesque vel risus placerat, consequat leo suscipit, dapibus nulla. Vestibulum a sem volutpat, pellentesque eros et, placerat justo.",
+        "price": "3.49"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2019-10-02 20:17:24",
@@ -7978,14 +7662,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "LAYE143",
-            "category": "cake",
-            "title": "Layer Cake",
-            "description": "Cras sit amet eros congue, rhoncus sem sed, consequat arcu. Vivamus pharetra sapien at sem ultrices semper. Maecenas eget lectus ultrices, porta eros a, blandit nisi. Aenean sit amet massa ac dolor interdum varius. Praesent bibendum mi et augue lacinia auctor. Vivamus ac magna nec lacus varius pretium et vitae velit.",
-            "price": "2.99"
-        }
+    "MainProductInfo": {
+        "skuNumber": "LAYE143",
+        "category": "cake",
+        "title": "Layer Cake",
+        "description": "Cras sit amet eros congue, rhoncus sem sed, consequat arcu. Vivamus pharetra sapien at sem ultrices semper. Maecenas eget lectus ultrices, porta eros a, blandit nisi. Aenean sit amet massa ac dolor interdum varius. Praesent bibendum mi et augue lacinia auctor. Vivamus ac magna nec lacus varius pretium et vitae velit.",
+        "price": "2.99"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2017-12-08 20:17:24",
@@ -8029,14 +7711,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "CARR113",
-            "category": "cake",
-            "title": "Carrot Cake",
-            "description": "Nam gravida libero ac malesuada cursus. Vivamus semper justo sed dictum aliquam.",
-            "price": "7.99"
-        }
+    "MainProductInfo": {
+        "skuNumber": "CARR113",
+        "category": "cake",
+        "title": "Carrot Cake",
+        "description": "Nam gravida libero ac malesuada cursus. Vivamus semper justo sed dictum aliquam.",
+        "price": "7.99"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2016-07-04 20:17:24",
@@ -8080,14 +7760,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "WEDD173",
-            "category": "cake",
-            "title": "Wedding Cake",
-            "description": "Quisque et magna malesuada, fermentum nisl sed, imperdiet nunc. Maecenas interdum ex id venenatis luctus. Vivamus semper justo sed dictum aliquam. Nullam quis tortor accumsan, sagittis sem in, porttitor orci.",
-            "price": "49.99"
-        }
+    "MainProductInfo": {
+        "skuNumber": "WEDD173",
+        "category": "cake",
+        "title": "Wedding Cake",
+        "description": "Quisque et magna malesuada, fermentum nisl sed, imperdiet nunc. Maecenas interdum ex id venenatis luctus. Vivamus semper justo sed dictum aliquam. Nullam quis tortor accumsan, sagittis sem in, porttitor orci.",
+        "price": "49.99"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2018-12-29 20:17:24",
@@ -8131,14 +7809,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "PUMP555",
-            "category": "pie",
-            "title": "Pumpkin Pie",
-            "description": "Cras sit amet eros congue, rhoncus sem sed, consequat arcu. Vivamus pharetra sapien at sem ultrices semper.",
-            "price": "4.99"
-        }
+    "MainProductInfo": {
+        "skuNumber": "PUMP555",
+        "category": "pie",
+        "title": "Pumpkin Pie",
+        "description": "Cras sit amet eros congue, rhoncus sem sed, consequat arcu. Vivamus pharetra sapien at sem ultrices semper.",
+        "price": "4.99"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2016-10-12 20:17:24",
@@ -8186,14 +7862,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "CHER516",
-            "category": "pie",
-            "title": "Cherry Pie",
-            "description": "Vivamus semper justo sed dictum aliquam. Maecenas eget lectus ultrices, porta eros a, blandit nisi. Phasellus vel velit eget nibh porttitor feugiat id ac massa.",
-            "price": "4.99"
-        }
+    "MainProductInfo": {
+        "skuNumber": "CHER516",
+        "category": "pie",
+        "title": "Cherry Pie",
+        "description": "Vivamus semper justo sed dictum aliquam. Maecenas eget lectus ultrices, porta eros a, blandit nisi. Phasellus vel velit eget nibh porttitor feugiat id ac massa.",
+        "price": "4.99"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2017-11-20 20:17:24",
@@ -8237,14 +7911,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "CHOC425",
-            "category": "donut",
-            "title": "Chocolate Covered Donut",
-            "description": "In a magna pretium, laoreet neque eget, consectetur justo. Nam gravida libero ac malesuada cursus. Vivamus pharetra sapien at sem ultrices semper.",
-            "price": "0.67"
-        }
+    "MainProductInfo": {
+        "skuNumber": "CHOC425",
+        "category": "donut",
+        "title": "Chocolate Covered Donut",
+        "description": "In a magna pretium, laoreet neque eget, consectetur justo. Nam gravida libero ac malesuada cursus. Vivamus pharetra sapien at sem ultrices semper.",
+        "price": "0.67"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2019-01-14 20:17:24",
@@ -8293,7 +7965,7 @@ db.purchases.insertOne(
         }
     },
     "ProductInfo": {
-        "MainProductInfo": null
+            "MainProductInfo": null
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2017-11-25 20:17:24",
@@ -8333,14 +8005,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "CAKE110",
-            "category": "cake",
-            "title": "Cake With Chocolate Frosting",
-            "description": "In a magna pretium, laoreet neque eget, consectetur justo. Nam gravida libero ac malesuada cursus. Vivamus pharetra sapien at sem ultrices semper. Vivamus semper justo sed dictum aliquam. Ut quis massa sit amet enim faucibus suscipit ac viverra elit. Praesent pretium justo at neque egestas mattis.",
-            "price": "8.99"
-        }
+    "MainProductInfo": {
+        "skuNumber": "CAKE110",
+        "category": "cake",
+        "title": "Cake With Chocolate Frosting",
+        "description": "In a magna pretium, laoreet neque eget, consectetur justo. Nam gravida libero ac malesuada cursus. Vivamus pharetra sapien at sem ultrices semper. Vivamus semper justo sed dictum aliquam. Ut quis massa sit amet enim faucibus suscipit ac viverra elit. Praesent pretium justo at neque egestas mattis.",
+        "price": "8.99"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2018-03-04 20:17:24",
@@ -8392,14 +8062,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "LOAF146",
-            "category": "cake",
-            "title": "Loaf Cake",
-            "description": "Donec sed dui hendrerit nulla iaculis vestibulum. Morbi consectetur urna sit amet facilisis gravida. In a magna pretium, laoreet neque eget, consectetur justo.",
-            "price": "3.99"
-        }
+    "MainProductInfo": {
+        "skuNumber": "LOAF146",
+        "category": "cake",
+        "title": "Loaf Cake",
+        "description": "Donec sed dui hendrerit nulla iaculis vestibulum. Morbi consectetur urna sit amet facilisis gravida. In a magna pretium, laoreet neque eget, consectetur justo.",
+        "price": "3.99"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2019-01-10 20:17:24",
@@ -8434,14 +8102,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "WEDD173",
-            "category": "cake",
-            "title": "Wedding Cake",
-            "description": "Quisque et magna malesuada, fermentum nisl sed, imperdiet nunc. Maecenas interdum ex id venenatis luctus. Vivamus semper justo sed dictum aliquam. Nullam quis tortor accumsan, sagittis sem in, porttitor orci.",
-            "price": "49.99"
-        }
+    "MainProductInfo": {
+        "skuNumber": "WEDD173",
+        "category": "cake",
+        "title": "Wedding Cake",
+        "description": "Quisque et magna malesuada, fermentum nisl sed, imperdiet nunc. Maecenas interdum ex id venenatis luctus. Vivamus semper justo sed dictum aliquam. Nullam quis tortor accumsan, sagittis sem in, porttitor orci.",
+        "price": "49.99"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2016-12-28 20:17:24",
@@ -8485,14 +8151,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "APPL501",
-            "category": "pie",
-            "title": "Apple Pie",
-            "description": "Praesent hendrerit tellus eget nibh lobortis, ut scelerisque mi mattis. Morbi consectetur urna sit amet facilisis gravida. Cras sit amet eros congue, rhoncus sem sed, consequat arcu. Maecenas interdum ex id venenatis luctus. In a magna pretium, laoreet neque eget, consectetur justo. Nam gravida libero ac malesuada cursus.",
-            "price": "4.99"
-        }
+    "MainProductInfo": {
+        "skuNumber": "APPL501",
+        "category": "pie",
+        "title": "Apple Pie",
+        "description": "Praesent hendrerit tellus eget nibh lobortis, ut scelerisque mi mattis. Morbi consectetur urna sit amet facilisis gravida. Cras sit amet eros congue, rhoncus sem sed, consequat arcu. Maecenas interdum ex id venenatis luctus. In a magna pretium, laoreet neque eget, consectetur justo. Nam gravida libero ac malesuada cursus.",
+        "price": "4.99"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2018-06-12 20:17:24",
@@ -8540,14 +8204,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "SCHW361",
-            "category": "cookie",
-            "title": "Schweineoehrchen Cookie",
-            "description": "Vivamus semper justo sed dictum aliquam. Nullam quis tortor accumsan, sagittis sem in, porttitor orci. Donec ac purus sed justo egestas ultricies. Mauris interdum elit nec dolor volutpat, sit amet sollicitudin eros facilisis.",
-            "price": "0.49"
-        }
+    "MainProductInfo": {
+        "skuNumber": "SCHW361",
+        "category": "cookie",
+        "title": "Schweineoehrchen Cookie",
+        "description": "Vivamus semper justo sed dictum aliquam. Nullam quis tortor accumsan, sagittis sem in, porttitor orci. Donec ac purus sed justo egestas ultricies. Mauris interdum elit nec dolor volutpat, sit amet sollicitudin eros facilisis.",
+        "price": "0.49"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2019-02-23 20:17:24",
@@ -8587,14 +8249,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "SCHW361",
-            "category": "cookie",
-            "title": "Schweineoehrchen Cookie",
-            "description": "Vivamus semper justo sed dictum aliquam. Nullam quis tortor accumsan, sagittis sem in, porttitor orci. Donec ac purus sed justo egestas ultricies. Mauris interdum elit nec dolor volutpat, sit amet sollicitudin eros facilisis.",
-            "price": "0.49"
-        }
+    "MainProductInfo": {
+        "skuNumber": "SCHW361",
+        "category": "cookie",
+        "title": "Schweineoehrchen Cookie",
+        "description": "Vivamus semper justo sed dictum aliquam. Nullam quis tortor accumsan, sagittis sem in, porttitor orci. Donec ac purus sed justo egestas ultricies. Mauris interdum elit nec dolor volutpat, sit amet sollicitudin eros facilisis.",
+        "price": "0.49"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2017-02-19 20:17:24",
@@ -8629,14 +8289,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "BIRT104",
-            "category": "cake",
-            "title": "Birthday Cake",
-            "description": "Nam gravida libero ac malesuada cursus. Ut quis massa sit amet enim faucibus suscipit ac viverra elit. Nullam quis tortor accumsan, sagittis sem in, porttitor orci. Aenean sit amet massa ac dolor interdum varius. Pellentesque vel risus placerat, consequat leo suscipit, dapibus nulla.",
-            "price": "9.99"
-        }
+    "MainProductInfo": {
+        "skuNumber": "BIRT104",
+        "category": "cake",
+        "title": "Birthday Cake",
+        "description": "Nam gravida libero ac malesuada cursus. Ut quis massa sit amet enim faucibus suscipit ac viverra elit. Nullam quis tortor accumsan, sagittis sem in, porttitor orci. Aenean sit amet massa ac dolor interdum varius. Pellentesque vel risus placerat, consequat leo suscipit, dapibus nulla.",
+        "price": "9.99"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2018-08-21 20:17:24",
@@ -8676,14 +8334,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "PEAN252",
-            "category": "chocolate",
-            "title": "Peanut Truffle",
-            "description": "Nam gravida libero ac malesuada cursus. Vivamus pharetra sapien at sem ultrices semper. Vivamus semper justo sed dictum aliquam.",
-            "price": "3.49"
-        }
+    "MainProductInfo": {
+        "skuNumber": "PEAN252",
+        "category": "chocolate",
+        "title": "Peanut Truffle",
+        "description": "Nam gravida libero ac malesuada cursus. Vivamus pharetra sapien at sem ultrices semper. Vivamus semper justo sed dictum aliquam.",
+        "price": "3.49"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2019-05-10 20:17:24",
@@ -8723,14 +8379,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "APPL501",
-            "category": "pie",
-            "title": "Apple Pie",
-            "description": "Praesent hendrerit tellus eget nibh lobortis, ut scelerisque mi mattis. Morbi consectetur urna sit amet facilisis gravida. Cras sit amet eros congue, rhoncus sem sed, consequat arcu. Maecenas interdum ex id venenatis luctus. In a magna pretium, laoreet neque eget, consectetur justo. Nam gravida libero ac malesuada cursus.",
-            "price": "4.99"
-        }
+    "MainProductInfo": {
+        "skuNumber": "APPL501",
+        "category": "pie",
+        "title": "Apple Pie",
+        "description": "Praesent hendrerit tellus eget nibh lobortis, ut scelerisque mi mattis. Morbi consectetur urna sit amet facilisis gravida. Cras sit amet eros congue, rhoncus sem sed, consequat arcu. Maecenas interdum ex id venenatis luctus. In a magna pretium, laoreet neque eget, consectetur justo. Nam gravida libero ac malesuada cursus.",
+        "price": "4.99"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2018-04-08 20:17:24",
@@ -8774,14 +8428,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "MUFF149",
-            "category": "cake",
-            "title": "Muffin",
-            "description": "In a magna pretium, laoreet neque eget, consectetur justo. Vivamus pharetra sapien at sem ultrices semper. Ut quis massa sit amet enim faucibus suscipit ac viverra elit. Maecenas eget lectus ultrices, porta eros a, blandit nisi.",
-            "price": "1.99"
-        }
+    "MainProductInfo": {
+        "skuNumber": "MUFF149",
+        "category": "cake",
+        "title": "Muffin",
+        "description": "In a magna pretium, laoreet neque eget, consectetur justo. Vivamus pharetra sapien at sem ultrices semper. Ut quis massa sit amet enim faucibus suscipit ac viverra elit. Maecenas eget lectus ultrices, porta eros a, blandit nisi.",
+        "price": "1.99"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2018-09-25 20:17:24",
@@ -8829,14 +8481,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "TORT167",
-            "category": "cake",
-            "title": "Torta Cake",
-            "description": "Maecenas interdum ex id venenatis luctus. Nam gravida libero ac malesuada cursus.",
-            "price": "12.99"
-        }
+    "MainProductInfo": {
+        "skuNumber": "TORT167",
+        "category": "cake",
+        "title": "Torta Cake",
+        "description": "Maecenas interdum ex id venenatis luctus. Nam gravida libero ac malesuada cursus.",
+        "price": "12.99"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2019-08-05 20:17:24",
@@ -8871,14 +8521,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "PEAN252",
-            "category": "chocolate",
-            "title": "Peanut Truffle",
-            "description": "Nam gravida libero ac malesuada cursus. Vivamus pharetra sapien at sem ultrices semper. Vivamus semper justo sed dictum aliquam.",
-            "price": "3.49"
-        }
+    "MainProductInfo": {
+        "skuNumber": "PEAN252",
+        "category": "chocolate",
+        "title": "Peanut Truffle",
+        "description": "Nam gravida libero ac malesuada cursus. Vivamus pharetra sapien at sem ultrices semper. Vivamus semper justo sed dictum aliquam.",
+        "price": "3.49"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2017-09-14 20:17:24",
@@ -8913,14 +8561,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "WEDD173",
-            "category": "cake",
-            "title": "Wedding Cake",
-            "description": "Quisque et magna malesuada, fermentum nisl sed, imperdiet nunc. Maecenas interdum ex id venenatis luctus. Vivamus semper justo sed dictum aliquam. Nullam quis tortor accumsan, sagittis sem in, porttitor orci.",
-            "price": "49.99"
-        }
+    "MainProductInfo": {
+        "skuNumber": "WEDD173",
+        "category": "cake",
+        "title": "Wedding Cake",
+        "description": "Quisque et magna malesuada, fermentum nisl sed, imperdiet nunc. Maecenas interdum ex id venenatis luctus. Vivamus semper justo sed dictum aliquam. Nullam quis tortor accumsan, sagittis sem in, porttitor orci.",
+        "price": "49.99"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2016-11-10 20:17:24",
@@ -8960,14 +8606,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "LAYE140",
-            "category": "cake",
-            "title": "Layer Cake Cherry Topping",
-            "description": "Cras sit amet eros congue, rhoncus sem sed, consequat arcu. Maecenas interdum ex id venenatis luctus.",
-            "price": "3.99"
-        }
+    "MainProductInfo": {
+        "skuNumber": "LAYE140",
+        "category": "cake",
+        "title": "Layer Cake Cherry Topping",
+        "description": "Cras sit amet eros congue, rhoncus sem sed, consequat arcu. Maecenas interdum ex id venenatis luctus.",
+        "price": "3.99"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2019-09-20 20:17:24",
@@ -9003,7 +8647,7 @@ db.purchases.insertOne(
         }
     },
     "ProductInfo": {
-        "MainProductInfo": null
+            "MainProductInfo": null
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2017-07-30 20:17:24",
@@ -9043,14 +8687,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "CHOC228",
-            "category": "chocolate",
-            "title": "Chocolate Bar",
-            "description": "Vivamus semper justo sed dictum aliquam. Nullam quis tortor accumsan, sagittis sem in, porttitor orci. Donec ac purus sed justo egestas ultricies.",
-            "price": "2.99"
-        }
+    "MainProductInfo": {
+        "skuNumber": "CHOC228",
+        "category": "chocolate",
+        "title": "Chocolate Bar",
+        "description": "Vivamus semper justo sed dictum aliquam. Nullam quis tortor accumsan, sagittis sem in, porttitor orci. Donec ac purus sed justo egestas ultricies.",
+        "price": "2.99"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2016-07-10 20:17:24",
@@ -9090,14 +8732,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "TORT167",
-            "category": "cake",
-            "title": "Torta Cake",
-            "description": "Maecenas interdum ex id venenatis luctus. Nam gravida libero ac malesuada cursus.",
-            "price": "12.99"
-        }
+    "MainProductInfo": {
+        "skuNumber": "TORT167",
+        "category": "cake",
+        "title": "Torta Cake",
+        "description": "Maecenas interdum ex id venenatis luctus. Nam gravida libero ac malesuada cursus.",
+        "price": "12.99"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2019-10-06 20:17:24",
@@ -9137,14 +8777,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "CHOC322",
-            "category": "cookie",
-            "title": "Chocolate Chip Cookie",
-            "description": "Cras sit amet eros congue, rhoncus sem sed, consequat arcu. Maecenas interdum ex id venenatis luctus. In a magna pretium, laoreet neque eget, consectetur justo. Nam gravida libero ac malesuada cursus. Vivamus pharetra sapien at sem ultrices semper. Vivamus semper justo sed dictum aliquam.",
-            "price": "0.88"
-        }
+    "MainProductInfo": {
+        "skuNumber": "CHOC322",
+        "category": "cookie",
+        "title": "Chocolate Chip Cookie",
+        "description": "Cras sit amet eros congue, rhoncus sem sed, consequat arcu. Maecenas interdum ex id venenatis luctus. In a magna pretium, laoreet neque eget, consectetur justo. Nam gravida libero ac malesuada cursus. Vivamus pharetra sapien at sem ultrices semper. Vivamus semper justo sed dictum aliquam.",
+        "price": "0.88"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2017-08-11 20:17:24",
@@ -9184,14 +8822,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "TORT167",
-            "category": "cake",
-            "title": "Torta Cake",
-            "description": "Maecenas interdum ex id venenatis luctus. Nam gravida libero ac malesuada cursus.",
-            "price": "12.99"
-        }
+    "MainProductInfo": {
+        "skuNumber": "TORT167",
+        "category": "cake",
+        "title": "Torta Cake",
+        "description": "Maecenas interdum ex id venenatis luctus. Nam gravida libero ac malesuada cursus.",
+        "price": "12.99"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2018-06-23 20:17:24",
@@ -9231,14 +8867,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "LAYE140",
-            "category": "cake",
-            "title": "Layer Cake Cherry Topping",
-            "description": "Cras sit amet eros congue, rhoncus sem sed, consequat arcu. Maecenas interdum ex id venenatis luctus.",
-            "price": "3.99"
-        }
+    "MainProductInfo": {
+        "skuNumber": "LAYE140",
+        "category": "cake",
+        "title": "Layer Cake Cherry Topping",
+        "description": "Cras sit amet eros congue, rhoncus sem sed, consequat arcu. Maecenas interdum ex id venenatis luctus.",
+        "price": "3.99"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2019-03-26 20:17:24",
@@ -9286,14 +8920,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "DOZE434",
-            "category": "donut",
-            "title": "Dozen Donuts",
-            "description": "Nam gravida libero ac malesuada cursus. Vivamus semper justo sed dictum aliquam. Praesent pretium justo at neque egestas mattis. Nullam quis tortor accumsan, sagittis sem in, porttitor orci. Phasellus vel velit eget nibh porttitor feugiat id ac massa. Donec ac purus sed justo egestas ultricies.",
-            "price": "6.99"
-        }
+    "MainProductInfo": {
+        "skuNumber": "DOZE434",
+        "category": "donut",
+        "title": "Dozen Donuts",
+        "description": "Nam gravida libero ac malesuada cursus. Vivamus semper justo sed dictum aliquam. Praesent pretium justo at neque egestas mattis. Nullam quis tortor accumsan, sagittis sem in, porttitor orci. Phasellus vel velit eget nibh porttitor feugiat id ac massa. Donec ac purus sed justo egestas ultricies.",
+        "price": "6.99"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2016-06-19 20:17:24",
@@ -9333,14 +8965,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "BLAC207",
-            "category": "chocolate",
-            "title": "Black And Tan Truffel",
-            "description": "Nam gravida libero ac malesuada cursus. Ut quis massa sit amet enim faucibus suscipit ac viverra elit. Nullam quis tortor accumsan, sagittis sem in, porttitor orci. Aenean sit amet massa ac dolor interdum varius. Pellentesque vel risus placerat, consequat leo suscipit, dapibus nulla. Vestibulum a sem volutpat, pellentesque eros et, placerat justo.",
-            "price": "3.49"
-        }
+    "MainProductInfo": {
+        "skuNumber": "BLAC207",
+        "category": "chocolate",
+        "title": "Black And Tan Truffel",
+        "description": "Nam gravida libero ac malesuada cursus. Ut quis massa sit amet enim faucibus suscipit ac viverra elit. Nullam quis tortor accumsan, sagittis sem in, porttitor orci. Aenean sit amet massa ac dolor interdum varius. Pellentesque vel risus placerat, consequat leo suscipit, dapibus nulla. Vestibulum a sem volutpat, pellentesque eros et, placerat justo.",
+        "price": "3.49"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2018-11-23 20:17:24",
@@ -9380,14 +9010,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "CHOC228",
-            "category": "chocolate",
-            "title": "Chocolate Bar",
-            "description": "Vivamus semper justo sed dictum aliquam. Nullam quis tortor accumsan, sagittis sem in, porttitor orci. Donec ac purus sed justo egestas ultricies.",
-            "price": "2.99"
-        }
+    "MainProductInfo": {
+        "skuNumber": "CHOC228",
+        "category": "chocolate",
+        "title": "Chocolate Bar",
+        "description": "Vivamus semper justo sed dictum aliquam. Nullam quis tortor accumsan, sagittis sem in, porttitor orci. Donec ac purus sed justo egestas ultricies.",
+        "price": "2.99"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2019-08-09 20:17:24",
@@ -9431,14 +9059,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "VALE270",
-            "category": "chocolate",
-            "title": "Valentines Day Chocolate Pack",
-            "description": "Nam gravida libero ac malesuada cursus. Vivamus semper justo sed dictum aliquam.",
-            "price": "19.99"
-        }
+    "MainProductInfo": {
+        "skuNumber": "VALE270",
+        "category": "chocolate",
+        "title": "Valentines Day Chocolate Pack",
+        "description": "Nam gravida libero ac malesuada cursus. Vivamus semper justo sed dictum aliquam.",
+        "price": "19.99"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2018-04-25 20:17:24",
@@ -9482,14 +9108,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "VALE270",
-            "category": "chocolate",
-            "title": "Valentines Day Chocolate Pack",
-            "description": "Nam gravida libero ac malesuada cursus. Vivamus semper justo sed dictum aliquam.",
-            "price": "19.99"
-        }
+    "MainProductInfo": {
+        "skuNumber": "VALE270",
+        "category": "chocolate",
+        "title": "Valentines Day Chocolate Pack",
+        "description": "Nam gravida libero ac malesuada cursus. Vivamus semper justo sed dictum aliquam.",
+        "price": "19.99"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2017-02-06 20:17:24",
@@ -9529,14 +9153,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "BIRT104",
-            "category": "cake",
-            "title": "Birthday Cake",
-            "description": "Nam gravida libero ac malesuada cursus. Ut quis massa sit amet enim faucibus suscipit ac viverra elit. Nullam quis tortor accumsan, sagittis sem in, porttitor orci. Aenean sit amet massa ac dolor interdum varius. Pellentesque vel risus placerat, consequat leo suscipit, dapibus nulla.",
-            "price": "9.99"
-        }
+    "MainProductInfo": {
+        "skuNumber": "BIRT104",
+        "category": "cake",
+        "title": "Birthday Cake",
+        "description": "Nam gravida libero ac malesuada cursus. Ut quis massa sit amet enim faucibus suscipit ac viverra elit. Nullam quis tortor accumsan, sagittis sem in, porttitor orci. Aenean sit amet massa ac dolor interdum varius. Pellentesque vel risus placerat, consequat leo suscipit, dapibus nulla.",
+        "price": "9.99"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2019-10-07 20:17:24",
@@ -9580,14 +9202,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "WEDD173",
-            "category": "cake",
-            "title": "Wedding Cake",
-            "description": "Quisque et magna malesuada, fermentum nisl sed, imperdiet nunc. Maecenas interdum ex id venenatis luctus. Vivamus semper justo sed dictum aliquam. Nullam quis tortor accumsan, sagittis sem in, porttitor orci.",
-            "price": "49.99"
-        }
+    "MainProductInfo": {
+        "skuNumber": "WEDD173",
+        "category": "cake",
+        "title": "Wedding Cake",
+        "description": "Quisque et magna malesuada, fermentum nisl sed, imperdiet nunc. Maecenas interdum ex id venenatis luctus. Vivamus semper justo sed dictum aliquam. Nullam quis tortor accumsan, sagittis sem in, porttitor orci.",
+        "price": "49.99"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2016-10-30 20:17:24",
@@ -9631,14 +9251,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "VALE270",
-            "category": "chocolate",
-            "title": "Valentines Day Chocolate Pack",
-            "description": "Nam gravida libero ac malesuada cursus. Vivamus semper justo sed dictum aliquam.",
-            "price": "19.99"
-        }
+    "MainProductInfo": {
+        "skuNumber": "VALE270",
+        "category": "chocolate",
+        "title": "Valentines Day Chocolate Pack",
+        "description": "Nam gravida libero ac malesuada cursus. Vivamus semper justo sed dictum aliquam.",
+        "price": "19.99"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2018-10-28 20:17:24",
@@ -9673,14 +9291,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "WHIT276",
-            "category": "chocolate",
-            "title": "White Chocolate Truffel",
-            "description": "Cras sit amet eros congue, rhoncus sem sed, consequat arcu. In a magna pretium, laoreet neque eget, consectetur justo. Vivamus pharetra sapien at sem ultrices semper. Ut quis massa sit amet enim faucibus suscipit ac viverra elit.",
-            "price": "3.49"
-        }
+    "MainProductInfo": {
+        "skuNumber": "WHIT276",
+        "category": "chocolate",
+        "title": "White Chocolate Truffel",
+        "description": "Cras sit amet eros congue, rhoncus sem sed, consequat arcu. In a magna pretium, laoreet neque eget, consectetur justo. Vivamus pharetra sapien at sem ultrices semper. Ut quis massa sit amet enim faucibus suscipit ac viverra elit.",
+        "price": "3.49"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2019-02-20 20:17:24",
@@ -9720,14 +9336,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "LAYE143",
-            "category": "cake",
-            "title": "Layer Cake",
-            "description": "Cras sit amet eros congue, rhoncus sem sed, consequat arcu. Vivamus pharetra sapien at sem ultrices semper. Maecenas eget lectus ultrices, porta eros a, blandit nisi. Aenean sit amet massa ac dolor interdum varius. Praesent bibendum mi et augue lacinia auctor. Vivamus ac magna nec lacus varius pretium et vitae velit.",
-            "price": "2.99"
-        }
+    "MainProductInfo": {
+        "skuNumber": "LAYE143",
+        "category": "cake",
+        "title": "Layer Cake",
+        "description": "Cras sit amet eros congue, rhoncus sem sed, consequat arcu. Vivamus pharetra sapien at sem ultrices semper. Maecenas eget lectus ultrices, porta eros a, blandit nisi. Aenean sit amet massa ac dolor interdum varius. Praesent bibendum mi et augue lacinia auctor. Vivamus ac magna nec lacus varius pretium et vitae velit.",
+        "price": "2.99"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2017-03-16 20:17:24",
@@ -9775,14 +9389,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "VALE270",
-            "category": "chocolate",
-            "title": "Valentines Day Chocolate Pack",
-            "description": "Nam gravida libero ac malesuada cursus. Vivamus semper justo sed dictum aliquam.",
-            "price": "19.99"
-        }
+    "MainProductInfo": {
+        "skuNumber": "VALE270",
+        "category": "chocolate",
+        "title": "Valentines Day Chocolate Pack",
+        "description": "Nam gravida libero ac malesuada cursus. Vivamus semper justo sed dictum aliquam.",
+        "price": "19.99"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2018-12-09 20:17:24",
@@ -9817,14 +9429,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "CHOC219",
-            "category": "chocolate",
-            "title": "Chocolate Bunny",
-            "description": "Cras sit amet eros congue, rhoncus sem sed, consequat arcu. Vivamus pharetra sapien at sem ultrices semper. Maecenas eget lectus ultrices, porta eros a, blandit nisi. Aenean sit amet massa ac dolor interdum varius. Praesent bibendum mi et augue lacinia auctor. Vivamus ac magna nec lacus varius pretium et vitae velit.",
-            "price": "6.49"
-        }
+    "MainProductInfo": {
+        "skuNumber": "CHOC219",
+        "category": "chocolate",
+        "title": "Chocolate Bunny",
+        "description": "Cras sit amet eros congue, rhoncus sem sed, consequat arcu. Vivamus pharetra sapien at sem ultrices semper. Maecenas eget lectus ultrices, porta eros a, blandit nisi. Aenean sit amet massa ac dolor interdum varius. Praesent bibendum mi et augue lacinia auctor. Vivamus ac magna nec lacus varius pretium et vitae velit.",
+        "price": "6.49"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2019-03-07 20:17:24",
@@ -9868,14 +9478,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "GLOW437",
-            "category": "donut",
-            "title": "Glow In The Dark Donut",
-            "description": "Nam gravida libero ac malesuada cursus. Vivamus pharetra sapien at sem ultrices semper.",
-            "price": "0.79"
-        }
+    "MainProductInfo": {
+        "skuNumber": "GLOW437",
+        "category": "donut",
+        "title": "Glow In The Dark Donut",
+        "description": "Nam gravida libero ac malesuada cursus. Vivamus pharetra sapien at sem ultrices semper.",
+        "price": "0.79"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2017-01-15 20:17:24",
@@ -9915,14 +9523,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "PEAN252",
-            "category": "chocolate",
-            "title": "Peanut Truffle",
-            "description": "Nam gravida libero ac malesuada cursus. Vivamus pharetra sapien at sem ultrices semper. Vivamus semper justo sed dictum aliquam.",
-            "price": "3.49"
-        }
+    "MainProductInfo": {
+        "skuNumber": "PEAN252",
+        "category": "chocolate",
+        "title": "Peanut Truffle",
+        "description": "Nam gravida libero ac malesuada cursus. Vivamus pharetra sapien at sem ultrices semper. Vivamus semper justo sed dictum aliquam.",
+        "price": "3.49"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2018-05-03 20:17:24",
@@ -9974,14 +9580,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "DOUB231",
-            "category": "chocolate",
-            "title": "Double Chocolate Truffel",
-            "description": "Vivamus pharetra sapien at sem ultrices semper. Maecenas eget lectus ultrices, porta eros a, blandit nisi. Aenean sit amet massa ac dolor interdum varius. Praesent bibendum mi et augue lacinia auctor.",
-            "price": "3.49"
-        }
+    "MainProductInfo": {
+        "skuNumber": "DOUB231",
+        "category": "chocolate",
+        "title": "Double Chocolate Truffel",
+        "description": "Vivamus pharetra sapien at sem ultrices semper. Maecenas eget lectus ultrices, porta eros a, blandit nisi. Aenean sit amet massa ac dolor interdum varius. Praesent bibendum mi et augue lacinia auctor.",
+        "price": "3.49"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2019-06-26 20:17:24",
@@ -10025,14 +9629,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "PEAN252",
-            "category": "chocolate",
-            "title": "Peanut Truffle",
-            "description": "Nam gravida libero ac malesuada cursus. Vivamus pharetra sapien at sem ultrices semper. Vivamus semper justo sed dictum aliquam.",
-            "price": "3.49"
-        }
+    "MainProductInfo": {
+        "skuNumber": "PEAN252",
+        "category": "chocolate",
+        "title": "Peanut Truffle",
+        "description": "Nam gravida libero ac malesuada cursus. Vivamus pharetra sapien at sem ultrices semper. Vivamus semper justo sed dictum aliquam.",
+        "price": "3.49"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2016-06-22 20:17:24",
@@ -10080,14 +9682,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "CHOC228",
-            "category": "chocolate",
-            "title": "Chocolate Bar",
-            "description": "Vivamus semper justo sed dictum aliquam. Nullam quis tortor accumsan, sagittis sem in, porttitor orci. Donec ac purus sed justo egestas ultricies.",
-            "price": "2.99"
-        }
+    "MainProductInfo": {
+        "skuNumber": "CHOC228",
+        "category": "chocolate",
+        "title": "Chocolate Bar",
+        "description": "Vivamus semper justo sed dictum aliquam. Nullam quis tortor accumsan, sagittis sem in, porttitor orci. Donec ac purus sed justo egestas ultricies.",
+        "price": "2.99"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2018-12-07 20:17:24",
@@ -10131,14 +9731,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "MUFF149",
-            "category": "cake",
-            "title": "Muffin",
-            "description": "In a magna pretium, laoreet neque eget, consectetur justo. Vivamus pharetra sapien at sem ultrices semper. Ut quis massa sit amet enim faucibus suscipit ac viverra elit. Maecenas eget lectus ultrices, porta eros a, blandit nisi.",
-            "price": "1.99"
-        }
+    "MainProductInfo": {
+        "skuNumber": "MUFF149",
+        "category": "cake",
+        "title": "Muffin",
+        "description": "In a magna pretium, laoreet neque eget, consectetur justo. Vivamus pharetra sapien at sem ultrices semper. Ut quis massa sit amet enim faucibus suscipit ac viverra elit. Maecenas eget lectus ultrices, porta eros a, blandit nisi.",
+        "price": "1.99"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2019-02-28 20:17:24",
@@ -10178,14 +9776,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "CHOC322",
-            "category": "cookie",
-            "title": "Chocolate Chip Cookie",
-            "description": "Cras sit amet eros congue, rhoncus sem sed, consequat arcu. Maecenas interdum ex id venenatis luctus. In a magna pretium, laoreet neque eget, consectetur justo. Nam gravida libero ac malesuada cursus. Vivamus pharetra sapien at sem ultrices semper. Vivamus semper justo sed dictum aliquam.",
-            "price": "0.88"
-        }
+    "MainProductInfo": {
+        "skuNumber": "CHOC322",
+        "category": "cookie",
+        "title": "Chocolate Chip Cookie",
+        "description": "Cras sit amet eros congue, rhoncus sem sed, consequat arcu. Maecenas interdum ex id venenatis luctus. In a magna pretium, laoreet neque eget, consectetur justo. Nam gravida libero ac malesuada cursus. Vivamus pharetra sapien at sem ultrices semper. Vivamus semper justo sed dictum aliquam.",
+        "price": "0.88"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2017-03-18 20:17:24",
@@ -10229,14 +9825,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "CHER516",
-            "category": "pie",
-            "title": "Cherry Pie",
-            "description": "Vivamus semper justo sed dictum aliquam. Maecenas eget lectus ultrices, porta eros a, blandit nisi. Phasellus vel velit eget nibh porttitor feugiat id ac massa.",
-            "price": "4.99"
-        }
+    "MainProductInfo": {
+        "skuNumber": "CHER516",
+        "category": "pie",
+        "title": "Cherry Pie",
+        "description": "Vivamus semper justo sed dictum aliquam. Maecenas eget lectus ultrices, porta eros a, blandit nisi. Phasellus vel velit eget nibh porttitor feugiat id ac massa.",
+        "price": "4.99"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2017-09-27 20:17:24",
@@ -10251,14 +9845,12 @@ db.purchases.insertOne(
         "PrimaryContactInfo": null,
         "Address": null
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "DOUB231",
-            "category": "chocolate",
-            "title": "Double Chocolate Truffel",
-            "description": "Vivamus pharetra sapien at sem ultrices semper. Maecenas eget lectus ultrices, porta eros a, blandit nisi. Aenean sit amet massa ac dolor interdum varius. Praesent bibendum mi et augue lacinia auctor.",
-            "price": "3.49"
-        }
+    "MainProductInfo": {
+        "skuNumber": "DOUB231",
+        "category": "chocolate",
+        "title": "Double Chocolate Truffel",
+        "description": "Vivamus pharetra sapien at sem ultrices semper. Maecenas eget lectus ultrices, porta eros a, blandit nisi. Aenean sit amet massa ac dolor interdum varius. Praesent bibendum mi et augue lacinia auctor.",
+        "price": "3.49"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2019-03-18 20:17:24",
@@ -10306,14 +9898,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "CARR113",
-            "category": "cake",
-            "title": "Carrot Cake",
-            "description": "Nam gravida libero ac malesuada cursus. Vivamus semper justo sed dictum aliquam.",
-            "price": "7.99"
-        }
+    "MainProductInfo": {
+        "skuNumber": "CARR113",
+        "category": "cake",
+        "title": "Carrot Cake",
+        "description": "Nam gravida libero ac malesuada cursus. Vivamus semper justo sed dictum aliquam.",
+        "price": "7.99"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2016-11-06 20:17:24",
@@ -10357,14 +9947,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "CHOC228",
-            "category": "chocolate",
-            "title": "Chocolate Bar",
-            "description": "Vivamus semper justo sed dictum aliquam. Nullam quis tortor accumsan, sagittis sem in, porttitor orci. Donec ac purus sed justo egestas ultricies.",
-            "price": "2.99"
-        }
+    "MainProductInfo": {
+        "skuNumber": "CHOC228",
+        "category": "chocolate",
+        "title": "Chocolate Bar",
+        "description": "Vivamus semper justo sed dictum aliquam. Nullam quis tortor accumsan, sagittis sem in, porttitor orci. Donec ac purus sed justo egestas ultricies.",
+        "price": "2.99"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2018-09-21 20:17:24",
@@ -10404,14 +9992,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "CARR113",
-            "category": "cake",
-            "title": "Carrot Cake",
-            "description": "Nam gravida libero ac malesuada cursus. Vivamus semper justo sed dictum aliquam.",
-            "price": "7.99"
-        }
+    "MainProductInfo": {
+        "skuNumber": "CARR113",
+        "category": "cake",
+        "title": "Carrot Cake",
+        "description": "Nam gravida libero ac malesuada cursus. Vivamus semper justo sed dictum aliquam.",
+        "price": "7.99"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2019-02-17 20:17:24",
@@ -10455,14 +10041,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "RASP258",
-            "category": "chocolate",
-            "title": "Raspberry Truffel",
-            "description": "Praesent hendrerit tellus eget nibh lobortis, ut scelerisque mi mattis. In a magna pretium, laoreet neque eget, consectetur justo.",
-            "price": "3.49"
-        }
+    "MainProductInfo": {
+        "skuNumber": "RASP258",
+        "category": "chocolate",
+        "title": "Raspberry Truffel",
+        "description": "Praesent hendrerit tellus eget nibh lobortis, ut scelerisque mi mattis. In a magna pretium, laoreet neque eget, consectetur justo.",
+        "price": "3.49"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2017-12-22 20:17:24",
@@ -10502,14 +10086,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "MUFF149",
-            "category": "cake",
-            "title": "Muffin",
-            "description": "In a magna pretium, laoreet neque eget, consectetur justo. Vivamus pharetra sapien at sem ultrices semper. Ut quis massa sit amet enim faucibus suscipit ac viverra elit. Maecenas eget lectus ultrices, porta eros a, blandit nisi.",
-            "price": "1.99"
-        }
+    "MainProductInfo": {
+        "skuNumber": "MUFF149",
+        "category": "cake",
+        "title": "Muffin",
+        "description": "In a magna pretium, laoreet neque eget, consectetur justo. Vivamus pharetra sapien at sem ultrices semper. Ut quis massa sit amet enim faucibus suscipit ac viverra elit. Maecenas eget lectus ultrices, porta eros a, blandit nisi.",
+        "price": "1.99"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2018-02-25 20:17:24",
@@ -10553,14 +10135,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "MUFF149",
-            "category": "cake",
-            "title": "Muffin",
-            "description": "In a magna pretium, laoreet neque eget, consectetur justo. Vivamus pharetra sapien at sem ultrices semper. Ut quis massa sit amet enim faucibus suscipit ac viverra elit. Maecenas eget lectus ultrices, porta eros a, blandit nisi.",
-            "price": "1.99"
-        }
+    "MainProductInfo": {
+        "skuNumber": "MUFF149",
+        "category": "cake",
+        "title": "Muffin",
+        "description": "In a magna pretium, laoreet neque eget, consectetur justo. Vivamus pharetra sapien at sem ultrices semper. Ut quis massa sit amet enim faucibus suscipit ac viverra elit. Maecenas eget lectus ultrices, porta eros a, blandit nisi.",
+        "price": "1.99"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2019-02-12 20:17:24",
@@ -10608,14 +10188,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "STAR464",
-            "category": "donut",
-            "title": "Star And Sprinkles Donut",
-            "description": "Nam gravida libero ac malesuada cursus. Vivamus pharetra sapien at sem ultrices semper.",
-            "price": "0.59"
-        }
+    "MainProductInfo": {
+        "skuNumber": "STAR464",
+        "category": "donut",
+        "title": "Star And Sprinkles Donut",
+        "description": "Nam gravida libero ac malesuada cursus. Vivamus pharetra sapien at sem ultrices semper.",
+        "price": "0.59"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2018-06-17 20:17:24",
@@ -10655,14 +10233,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "CHOC322",
-            "category": "cookie",
-            "title": "Chocolate Chip Cookie",
-            "description": "Cras sit amet eros congue, rhoncus sem sed, consequat arcu. Maecenas interdum ex id venenatis luctus. In a magna pretium, laoreet neque eget, consectetur justo. Nam gravida libero ac malesuada cursus. Vivamus pharetra sapien at sem ultrices semper. Vivamus semper justo sed dictum aliquam.",
-            "price": "0.88"
-        }
+    "MainProductInfo": {
+        "skuNumber": "CHOC322",
+        "category": "cookie",
+        "title": "Chocolate Chip Cookie",
+        "description": "Cras sit amet eros congue, rhoncus sem sed, consequat arcu. Maecenas interdum ex id venenatis luctus. In a magna pretium, laoreet neque eget, consectetur justo. Nam gravida libero ac malesuada cursus. Vivamus pharetra sapien at sem ultrices semper. Vivamus semper justo sed dictum aliquam.",
+        "price": "0.88"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2018-11-29 20:17:24",
@@ -10697,14 +10273,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "APPL501",
-            "category": "pie",
-            "title": "Apple Pie",
-            "description": "Praesent hendrerit tellus eget nibh lobortis, ut scelerisque mi mattis. Morbi consectetur urna sit amet facilisis gravida. Cras sit amet eros congue, rhoncus sem sed, consequat arcu. Maecenas interdum ex id venenatis luctus. In a magna pretium, laoreet neque eget, consectetur justo. Nam gravida libero ac malesuada cursus.",
-            "price": "4.99"
-        }
+    "MainProductInfo": {
+        "skuNumber": "APPL501",
+        "category": "pie",
+        "title": "Apple Pie",
+        "description": "Praesent hendrerit tellus eget nibh lobortis, ut scelerisque mi mattis. Morbi consectetur urna sit amet facilisis gravida. Cras sit amet eros congue, rhoncus sem sed, consequat arcu. Maecenas interdum ex id venenatis luctus. In a magna pretium, laoreet neque eget, consectetur justo. Nam gravida libero ac malesuada cursus.",
+        "price": "4.99"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2019-08-07 20:17:24",
@@ -10756,14 +10330,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "CAKE110",
-            "category": "cake",
-            "title": "Cake With Chocolate Frosting",
-            "description": "In a magna pretium, laoreet neque eget, consectetur justo. Nam gravida libero ac malesuada cursus. Vivamus pharetra sapien at sem ultrices semper. Vivamus semper justo sed dictum aliquam. Ut quis massa sit amet enim faucibus suscipit ac viverra elit. Praesent pretium justo at neque egestas mattis.",
-            "price": "8.99"
-        }
+    "MainProductInfo": {
+        "skuNumber": "CAKE110",
+        "category": "cake",
+        "title": "Cake With Chocolate Frosting",
+        "description": "In a magna pretium, laoreet neque eget, consectetur justo. Nam gravida libero ac malesuada cursus. Vivamus pharetra sapien at sem ultrices semper. Vivamus semper justo sed dictum aliquam. Ut quis massa sit amet enim faucibus suscipit ac viverra elit. Praesent pretium justo at neque egestas mattis.",
+        "price": "8.99"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2018-11-14 20:17:24",
@@ -10808,7 +10380,7 @@ db.purchases.insertOne(
         }
     },
     "ProductInfo": {
-        "MainProductInfo": null
+            "MainProductInfo": null
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2018-10-08 20:17:24",
@@ -10848,14 +10420,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "MUFF149",
-            "category": "cake",
-            "title": "Muffin",
-            "description": "In a magna pretium, laoreet neque eget, consectetur justo. Vivamus pharetra sapien at sem ultrices semper. Ut quis massa sit amet enim faucibus suscipit ac viverra elit. Maecenas eget lectus ultrices, porta eros a, blandit nisi.",
-            "price": "1.99"
-        }
+    "MainProductInfo": {
+        "skuNumber": "MUFF149",
+        "category": "cake",
+        "title": "Muffin",
+        "description": "In a magna pretium, laoreet neque eget, consectetur justo. Vivamus pharetra sapien at sem ultrices semper. Ut quis massa sit amet enim faucibus suscipit ac viverra elit. Maecenas eget lectus ultrices, porta eros a, blandit nisi.",
+        "price": "1.99"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2019-03-10 20:17:24",
@@ -10899,14 +10469,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "WHIT276",
-            "category": "chocolate",
-            "title": "White Chocolate Truffel",
-            "description": "Cras sit amet eros congue, rhoncus sem sed, consequat arcu. In a magna pretium, laoreet neque eget, consectetur justo. Vivamus pharetra sapien at sem ultrices semper. Ut quis massa sit amet enim faucibus suscipit ac viverra elit.",
-            "price": "3.49"
-        }
+    "MainProductInfo": {
+        "skuNumber": "WHIT276",
+        "category": "chocolate",
+        "title": "White Chocolate Truffel",
+        "description": "Cras sit amet eros congue, rhoncus sem sed, consequat arcu. In a magna pretium, laoreet neque eget, consectetur justo. Vivamus pharetra sapien at sem ultrices semper. Ut quis massa sit amet enim faucibus suscipit ac viverra elit.",
+        "price": "3.49"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2018-10-05 20:17:24",
@@ -10954,14 +10522,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "SCHW361",
-            "category": "cookie",
-            "title": "Schweineoehrchen Cookie",
-            "description": "Vivamus semper justo sed dictum aliquam. Nullam quis tortor accumsan, sagittis sem in, porttitor orci. Donec ac purus sed justo egestas ultricies. Mauris interdum elit nec dolor volutpat, sit amet sollicitudin eros facilisis.",
-            "price": "0.49"
-        }
+    "MainProductInfo": {
+        "skuNumber": "SCHW361",
+        "category": "cookie",
+        "title": "Schweineoehrchen Cookie",
+        "description": "Vivamus semper justo sed dictum aliquam. Nullam quis tortor accumsan, sagittis sem in, porttitor orci. Donec ac purus sed justo egestas ultricies. Mauris interdum elit nec dolor volutpat, sit amet sollicitudin eros facilisis.",
+        "price": "0.49"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2018-04-24 20:17:24",
@@ -10996,14 +10562,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "BLAC207",
-            "category": "chocolate",
-            "title": "Black And Tan Truffel",
-            "description": "Nam gravida libero ac malesuada cursus. Ut quis massa sit amet enim faucibus suscipit ac viverra elit. Nullam quis tortor accumsan, sagittis sem in, porttitor orci. Aenean sit amet massa ac dolor interdum varius. Pellentesque vel risus placerat, consequat leo suscipit, dapibus nulla. Vestibulum a sem volutpat, pellentesque eros et, placerat justo.",
-            "price": "3.49"
-        }
+    "MainProductInfo": {
+        "skuNumber": "BLAC207",
+        "category": "chocolate",
+        "title": "Black And Tan Truffel",
+        "description": "Nam gravida libero ac malesuada cursus. Ut quis massa sit amet enim faucibus suscipit ac viverra elit. Nullam quis tortor accumsan, sagittis sem in, porttitor orci. Aenean sit amet massa ac dolor interdum varius. Pellentesque vel risus placerat, consequat leo suscipit, dapibus nulla. Vestibulum a sem volutpat, pellentesque eros et, placerat justo.",
+        "price": "3.49"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2019-09-10 20:17:24",
@@ -11043,14 +10607,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "TORT167",
-            "category": "cake",
-            "title": "Torta Cake",
-            "description": "Maecenas interdum ex id venenatis luctus. Nam gravida libero ac malesuada cursus.",
-            "price": "12.99"
-        }
+    "MainProductInfo": {
+        "skuNumber": "TORT167",
+        "category": "cake",
+        "title": "Torta Cake",
+        "description": "Maecenas interdum ex id venenatis luctus. Nam gravida libero ac malesuada cursus.",
+        "price": "12.99"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2017-10-14 20:17:24",
@@ -11090,14 +10652,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "WEDD173",
-            "category": "cake",
-            "title": "Wedding Cake",
-            "description": "Quisque et magna malesuada, fermentum nisl sed, imperdiet nunc. Maecenas interdum ex id venenatis luctus. Vivamus semper justo sed dictum aliquam. Nullam quis tortor accumsan, sagittis sem in, porttitor orci.",
-            "price": "49.99"
-        }
+    "MainProductInfo": {
+        "skuNumber": "WEDD173",
+        "category": "cake",
+        "title": "Wedding Cake",
+        "description": "Quisque et magna malesuada, fermentum nisl sed, imperdiet nunc. Maecenas interdum ex id venenatis luctus. Vivamus semper justo sed dictum aliquam. Nullam quis tortor accumsan, sagittis sem in, porttitor orci.",
+        "price": "49.99"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2018-09-19 20:17:24",
@@ -11137,14 +10697,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "GLOW437",
-            "category": "donut",
-            "title": "Glow In The Dark Donut",
-            "description": "Nam gravida libero ac malesuada cursus. Vivamus pharetra sapien at sem ultrices semper.",
-            "price": "0.79"
-        }
+    "MainProductInfo": {
+        "skuNumber": "GLOW437",
+        "category": "donut",
+        "title": "Glow In The Dark Donut",
+        "description": "Nam gravida libero ac malesuada cursus. Vivamus pharetra sapien at sem ultrices semper.",
+        "price": "0.79"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2019-05-07 20:17:24",
@@ -11184,14 +10742,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "GLOW437",
-            "category": "donut",
-            "title": "Glow In The Dark Donut",
-            "description": "Nam gravida libero ac malesuada cursus. Vivamus pharetra sapien at sem ultrices semper.",
-            "price": "0.79"
-        }
+    "MainProductInfo": {
+        "skuNumber": "GLOW437",
+        "category": "donut",
+        "title": "Glow In The Dark Donut",
+        "description": "Nam gravida libero ac malesuada cursus. Vivamus pharetra sapien at sem ultrices semper.",
+        "price": "0.79"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2016-05-06 20:17:24",
@@ -11231,14 +10787,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "APPL501",
-            "category": "pie",
-            "title": "Apple Pie",
-            "description": "Praesent hendrerit tellus eget nibh lobortis, ut scelerisque mi mattis. Morbi consectetur urna sit amet facilisis gravida. Cras sit amet eros congue, rhoncus sem sed, consequat arcu. Maecenas interdum ex id venenatis luctus. In a magna pretium, laoreet neque eget, consectetur justo. Nam gravida libero ac malesuada cursus.",
-            "price": "4.99"
-        }
+    "MainProductInfo": {
+        "skuNumber": "APPL501",
+        "category": "pie",
+        "title": "Apple Pie",
+        "description": "Praesent hendrerit tellus eget nibh lobortis, ut scelerisque mi mattis. Morbi consectetur urna sit amet facilisis gravida. Cras sit amet eros congue, rhoncus sem sed, consequat arcu. Maecenas interdum ex id venenatis luctus. In a magna pretium, laoreet neque eget, consectetur justo. Nam gravida libero ac malesuada cursus.",
+        "price": "4.99"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2017-04-18 20:17:24",
@@ -11282,14 +10836,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "CARR113",
-            "category": "cake",
-            "title": "Carrot Cake",
-            "description": "Nam gravida libero ac malesuada cursus. Vivamus semper justo sed dictum aliquam.",
-            "price": "7.99"
-        }
+    "MainProductInfo": {
+        "skuNumber": "CARR113",
+        "category": "cake",
+        "title": "Carrot Cake",
+        "description": "Nam gravida libero ac malesuada cursus. Vivamus semper justo sed dictum aliquam.",
+        "price": "7.99"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2019-04-19 20:17:24",
@@ -11324,14 +10876,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "WHIT276",
-            "category": "chocolate",
-            "title": "White Chocolate Truffel",
-            "description": "Cras sit amet eros congue, rhoncus sem sed, consequat arcu. In a magna pretium, laoreet neque eget, consectetur justo. Vivamus pharetra sapien at sem ultrices semper. Ut quis massa sit amet enim faucibus suscipit ac viverra elit.",
-            "price": "3.49"
-        }
+    "MainProductInfo": {
+        "skuNumber": "WHIT276",
+        "category": "chocolate",
+        "title": "White Chocolate Truffel",
+        "description": "Cras sit amet eros congue, rhoncus sem sed, consequat arcu. In a magna pretium, laoreet neque eget, consectetur justo. Vivamus pharetra sapien at sem ultrices semper. Ut quis massa sit amet enim faucibus suscipit ac viverra elit.",
+        "price": "3.49"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2018-02-25 20:17:24",
@@ -11375,14 +10925,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "PUMP555",
-            "category": "pie",
-            "title": "Pumpkin Pie",
-            "description": "Cras sit amet eros congue, rhoncus sem sed, consequat arcu. Vivamus pharetra sapien at sem ultrices semper.",
-            "price": "4.99"
-        }
+    "MainProductInfo": {
+        "skuNumber": "PUMP555",
+        "category": "pie",
+        "title": "Pumpkin Pie",
+        "description": "Cras sit amet eros congue, rhoncus sem sed, consequat arcu. Vivamus pharetra sapien at sem ultrices semper.",
+        "price": "4.99"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2017-10-27 20:17:24",
@@ -11422,14 +10970,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "CHOC425",
-            "category": "donut",
-            "title": "Chocolate Covered Donut",
-            "description": "In a magna pretium, laoreet neque eget, consectetur justo. Nam gravida libero ac malesuada cursus. Vivamus pharetra sapien at sem ultrices semper.",
-            "price": "0.67"
-        }
+    "MainProductInfo": {
+        "skuNumber": "CHOC425",
+        "category": "donut",
+        "title": "Chocolate Covered Donut",
+        "description": "In a magna pretium, laoreet neque eget, consectetur justo. Nam gravida libero ac malesuada cursus. Vivamus pharetra sapien at sem ultrices semper.",
+        "price": "0.67"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2019-04-09 20:17:24",
@@ -11469,14 +11015,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "BLAC207",
-            "category": "chocolate",
-            "title": "Black And Tan Truffel",
-            "description": "Nam gravida libero ac malesuada cursus. Ut quis massa sit amet enim faucibus suscipit ac viverra elit. Nullam quis tortor accumsan, sagittis sem in, porttitor orci. Aenean sit amet massa ac dolor interdum varius. Pellentesque vel risus placerat, consequat leo suscipit, dapibus nulla. Vestibulum a sem volutpat, pellentesque eros et, placerat justo.",
-            "price": "3.49"
-        }
+    "MainProductInfo": {
+        "skuNumber": "BLAC207",
+        "category": "chocolate",
+        "title": "Black And Tan Truffel",
+        "description": "Nam gravida libero ac malesuada cursus. Ut quis massa sit amet enim faucibus suscipit ac viverra elit. Nullam quis tortor accumsan, sagittis sem in, porttitor orci. Aenean sit amet massa ac dolor interdum varius. Pellentesque vel risus placerat, consequat leo suscipit, dapibus nulla. Vestibulum a sem volutpat, pellentesque eros et, placerat justo.",
+        "price": "3.49"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2018-05-24 20:17:24",
@@ -11516,14 +11060,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "CHOC322",
-            "category": "cookie",
-            "title": "Chocolate Chip Cookie",
-            "description": "Cras sit amet eros congue, rhoncus sem sed, consequat arcu. Maecenas interdum ex id venenatis luctus. In a magna pretium, laoreet neque eget, consectetur justo. Nam gravida libero ac malesuada cursus. Vivamus pharetra sapien at sem ultrices semper. Vivamus semper justo sed dictum aliquam.",
-            "price": "0.88"
-        }
+    "MainProductInfo": {
+        "skuNumber": "CHOC322",
+        "category": "cookie",
+        "title": "Chocolate Chip Cookie",
+        "description": "Cras sit amet eros congue, rhoncus sem sed, consequat arcu. Maecenas interdum ex id venenatis luctus. In a magna pretium, laoreet neque eget, consectetur justo. Nam gravida libero ac malesuada cursus. Vivamus pharetra sapien at sem ultrices semper. Vivamus semper justo sed dictum aliquam.",
+        "price": "0.88"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2016-07-22 20:17:24",
@@ -11567,14 +11109,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "APPL501",
-            "category": "pie",
-            "title": "Apple Pie",
-            "description": "Praesent hendrerit tellus eget nibh lobortis, ut scelerisque mi mattis. Morbi consectetur urna sit amet facilisis gravida. Cras sit amet eros congue, rhoncus sem sed, consequat arcu. Maecenas interdum ex id venenatis luctus. In a magna pretium, laoreet neque eget, consectetur justo. Nam gravida libero ac malesuada cursus.",
-            "price": "4.99"
-        }
+    "MainProductInfo": {
+        "skuNumber": "APPL501",
+        "category": "pie",
+        "title": "Apple Pie",
+        "description": "Praesent hendrerit tellus eget nibh lobortis, ut scelerisque mi mattis. Morbi consectetur urna sit amet facilisis gravida. Cras sit amet eros congue, rhoncus sem sed, consequat arcu. Maecenas interdum ex id venenatis luctus. In a magna pretium, laoreet neque eget, consectetur justo. Nam gravida libero ac malesuada cursus.",
+        "price": "4.99"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2019-08-05 20:17:24",
@@ -11614,14 +11154,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "BLAC207",
-            "category": "chocolate",
-            "title": "Black And Tan Truffel",
-            "description": "Nam gravida libero ac malesuada cursus. Ut quis massa sit amet enim faucibus suscipit ac viverra elit. Nullam quis tortor accumsan, sagittis sem in, porttitor orci. Aenean sit amet massa ac dolor interdum varius. Pellentesque vel risus placerat, consequat leo suscipit, dapibus nulla. Vestibulum a sem volutpat, pellentesque eros et, placerat justo.",
-            "price": "3.49"
-        }
+    "MainProductInfo": {
+        "skuNumber": "BLAC207",
+        "category": "chocolate",
+        "title": "Black And Tan Truffel",
+        "description": "Nam gravida libero ac malesuada cursus. Ut quis massa sit amet enim faucibus suscipit ac viverra elit. Nullam quis tortor accumsan, sagittis sem in, porttitor orci. Aenean sit amet massa ac dolor interdum varius. Pellentesque vel risus placerat, consequat leo suscipit, dapibus nulla. Vestibulum a sem volutpat, pellentesque eros et, placerat justo.",
+        "price": "3.49"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2018-09-02 20:17:24",
@@ -11656,14 +11194,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "CHOC219",
-            "category": "chocolate",
-            "title": "Chocolate Bunny",
-            "description": "Cras sit amet eros congue, rhoncus sem sed, consequat arcu. Vivamus pharetra sapien at sem ultrices semper. Maecenas eget lectus ultrices, porta eros a, blandit nisi. Aenean sit amet massa ac dolor interdum varius. Praesent bibendum mi et augue lacinia auctor. Vivamus ac magna nec lacus varius pretium et vitae velit.",
-            "price": "6.49"
-        }
+    "MainProductInfo": {
+        "skuNumber": "CHOC219",
+        "category": "chocolate",
+        "title": "Chocolate Bunny",
+        "description": "Cras sit amet eros congue, rhoncus sem sed, consequat arcu. Vivamus pharetra sapien at sem ultrices semper. Maecenas eget lectus ultrices, porta eros a, blandit nisi. Aenean sit amet massa ac dolor interdum varius. Praesent bibendum mi et augue lacinia auctor. Vivamus ac magna nec lacus varius pretium et vitae velit.",
+        "price": "6.49"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2017-11-29 20:17:24",
@@ -11698,14 +11234,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "CHOC322",
-            "category": "cookie",
-            "title": "Chocolate Chip Cookie",
-            "description": "Cras sit amet eros congue, rhoncus sem sed, consequat arcu. Maecenas interdum ex id venenatis luctus. In a magna pretium, laoreet neque eget, consectetur justo. Nam gravida libero ac malesuada cursus. Vivamus pharetra sapien at sem ultrices semper. Vivamus semper justo sed dictum aliquam.",
-            "price": "0.88"
-        }
+    "MainProductInfo": {
+        "skuNumber": "CHOC322",
+        "category": "cookie",
+        "title": "Chocolate Chip Cookie",
+        "description": "Cras sit amet eros congue, rhoncus sem sed, consequat arcu. Maecenas interdum ex id venenatis luctus. In a magna pretium, laoreet neque eget, consectetur justo. Nam gravida libero ac malesuada cursus. Vivamus pharetra sapien at sem ultrices semper. Vivamus semper justo sed dictum aliquam.",
+        "price": "0.88"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2019-03-24 20:17:24",
@@ -11753,14 +11287,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "WHIT276",
-            "category": "chocolate",
-            "title": "White Chocolate Truffel",
-            "description": "Cras sit amet eros congue, rhoncus sem sed, consequat arcu. In a magna pretium, laoreet neque eget, consectetur justo. Vivamus pharetra sapien at sem ultrices semper. Ut quis massa sit amet enim faucibus suscipit ac viverra elit.",
-            "price": "3.49"
-        }
+    "MainProductInfo": {
+        "skuNumber": "WHIT276",
+        "category": "chocolate",
+        "title": "White Chocolate Truffel",
+        "description": "Cras sit amet eros congue, rhoncus sem sed, consequat arcu. In a magna pretium, laoreet neque eget, consectetur justo. Vivamus pharetra sapien at sem ultrices semper. Ut quis massa sit amet enim faucibus suscipit ac viverra elit.",
+        "price": "3.49"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2018-05-07 20:17:24",
@@ -11804,14 +11336,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "DOUB231",
-            "category": "chocolate",
-            "title": "Double Chocolate Truffel",
-            "description": "Vivamus pharetra sapien at sem ultrices semper. Maecenas eget lectus ultrices, porta eros a, blandit nisi. Aenean sit amet massa ac dolor interdum varius. Praesent bibendum mi et augue lacinia auctor.",
-            "price": "3.49"
-        }
+    "MainProductInfo": {
+        "skuNumber": "DOUB231",
+        "category": "chocolate",
+        "title": "Double Chocolate Truffel",
+        "description": "Vivamus pharetra sapien at sem ultrices semper. Maecenas eget lectus ultrices, porta eros a, blandit nisi. Aenean sit amet massa ac dolor interdum varius. Praesent bibendum mi et augue lacinia auctor.",
+        "price": "3.49"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2018-04-20 20:17:24",
@@ -11851,14 +11381,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "PUMP555",
-            "category": "pie",
-            "title": "Pumpkin Pie",
-            "description": "Cras sit amet eros congue, rhoncus sem sed, consequat arcu. Vivamus pharetra sapien at sem ultrices semper.",
-            "price": "4.99"
-        }
+    "MainProductInfo": {
+        "skuNumber": "PUMP555",
+        "category": "pie",
+        "title": "Pumpkin Pie",
+        "description": "Cras sit amet eros congue, rhoncus sem sed, consequat arcu. Vivamus pharetra sapien at sem ultrices semper.",
+        "price": "4.99"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2018-12-31 20:17:24",
@@ -11898,14 +11426,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "CHOC425",
-            "category": "donut",
-            "title": "Chocolate Covered Donut",
-            "description": "In a magna pretium, laoreet neque eget, consectetur justo. Nam gravida libero ac malesuada cursus. Vivamus pharetra sapien at sem ultrices semper.",
-            "price": "0.67"
-        }
+    "MainProductInfo": {
+        "skuNumber": "CHOC425",
+        "category": "donut",
+        "title": "Chocolate Covered Donut",
+        "description": "In a magna pretium, laoreet neque eget, consectetur justo. Nam gravida libero ac malesuada cursus. Vivamus pharetra sapien at sem ultrices semper.",
+        "price": "0.67"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2016-09-22 20:17:24",
@@ -11949,14 +11475,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "SCHW361",
-            "category": "cookie",
-            "title": "Schweineoehrchen Cookie",
-            "description": "Vivamus semper justo sed dictum aliquam. Nullam quis tortor accumsan, sagittis sem in, porttitor orci. Donec ac purus sed justo egestas ultricies. Mauris interdum elit nec dolor volutpat, sit amet sollicitudin eros facilisis.",
-            "price": "0.49"
-        }
+    "MainProductInfo": {
+        "skuNumber": "SCHW361",
+        "category": "cookie",
+        "title": "Schweineoehrchen Cookie",
+        "description": "Vivamus semper justo sed dictum aliquam. Nullam quis tortor accumsan, sagittis sem in, porttitor orci. Donec ac purus sed justo egestas ultricies. Mauris interdum elit nec dolor volutpat, sit amet sollicitudin eros facilisis.",
+        "price": "0.49"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2018-10-17 20:17:24",
@@ -11996,14 +11520,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "DOUB231",
-            "category": "chocolate",
-            "title": "Double Chocolate Truffel",
-            "description": "Vivamus pharetra sapien at sem ultrices semper. Maecenas eget lectus ultrices, porta eros a, blandit nisi. Aenean sit amet massa ac dolor interdum varius. Praesent bibendum mi et augue lacinia auctor.",
-            "price": "3.49"
-        }
+    "MainProductInfo": {
+        "skuNumber": "DOUB231",
+        "category": "chocolate",
+        "title": "Double Chocolate Truffel",
+        "description": "Vivamus pharetra sapien at sem ultrices semper. Maecenas eget lectus ultrices, porta eros a, blandit nisi. Aenean sit amet massa ac dolor interdum varius. Praesent bibendum mi et augue lacinia auctor.",
+        "price": "3.49"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2019-10-14 20:17:24",
@@ -12047,14 +11569,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "MUFF149",
-            "category": "cake",
-            "title": "Muffin",
-            "description": "In a magna pretium, laoreet neque eget, consectetur justo. Vivamus pharetra sapien at sem ultrices semper. Ut quis massa sit amet enim faucibus suscipit ac viverra elit. Maecenas eget lectus ultrices, porta eros a, blandit nisi.",
-            "price": "1.99"
-        }
+    "MainProductInfo": {
+        "skuNumber": "MUFF149",
+        "category": "cake",
+        "title": "Muffin",
+        "description": "In a magna pretium, laoreet neque eget, consectetur justo. Vivamus pharetra sapien at sem ultrices semper. Ut quis massa sit amet enim faucibus suscipit ac viverra elit. Maecenas eget lectus ultrices, porta eros a, blandit nisi.",
+        "price": "1.99"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2017-09-15 20:17:24",
@@ -12094,14 +11614,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "CARR113",
-            "category": "cake",
-            "title": "Carrot Cake",
-            "description": "Nam gravida libero ac malesuada cursus. Vivamus semper justo sed dictum aliquam.",
-            "price": "7.99"
-        }
+    "MainProductInfo": {
+        "skuNumber": "CARR113",
+        "category": "cake",
+        "title": "Carrot Cake",
+        "description": "Nam gravida libero ac malesuada cursus. Vivamus semper justo sed dictum aliquam.",
+        "price": "7.99"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2018-05-27 20:17:24",
@@ -12149,14 +11667,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "CHOC425",
-            "category": "donut",
-            "title": "Chocolate Covered Donut",
-            "description": "In a magna pretium, laoreet neque eget, consectetur justo. Nam gravida libero ac malesuada cursus. Vivamus pharetra sapien at sem ultrices semper.",
-            "price": "0.67"
-        }
+    "MainProductInfo": {
+        "skuNumber": "CHOC425",
+        "category": "donut",
+        "title": "Chocolate Covered Donut",
+        "description": "In a magna pretium, laoreet neque eget, consectetur justo. Nam gravida libero ac malesuada cursus. Vivamus pharetra sapien at sem ultrices semper.",
+        "price": "0.67"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2019-05-22 20:17:24",
@@ -12204,14 +11720,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "VALE270",
-            "category": "chocolate",
-            "title": "Valentines Day Chocolate Pack",
-            "description": "Nam gravida libero ac malesuada cursus. Vivamus semper justo sed dictum aliquam.",
-            "price": "19.99"
-        }
+    "MainProductInfo": {
+        "skuNumber": "VALE270",
+        "category": "chocolate",
+        "title": "Valentines Day Chocolate Pack",
+        "description": "Nam gravida libero ac malesuada cursus. Vivamus semper justo sed dictum aliquam.",
+        "price": "19.99"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2016-04-30 20:17:24",
@@ -12251,14 +11765,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "CHOC219",
-            "category": "chocolate",
-            "title": "Chocolate Bunny",
-            "description": "Cras sit amet eros congue, rhoncus sem sed, consequat arcu. Vivamus pharetra sapien at sem ultrices semper. Maecenas eget lectus ultrices, porta eros a, blandit nisi. Aenean sit amet massa ac dolor interdum varius. Praesent bibendum mi et augue lacinia auctor. Vivamus ac magna nec lacus varius pretium et vitae velit.",
-            "price": "6.49"
-        }
+    "MainProductInfo": {
+        "skuNumber": "CHOC219",
+        "category": "chocolate",
+        "title": "Chocolate Bunny",
+        "description": "Cras sit amet eros congue, rhoncus sem sed, consequat arcu. Vivamus pharetra sapien at sem ultrices semper. Maecenas eget lectus ultrices, porta eros a, blandit nisi. Aenean sit amet massa ac dolor interdum varius. Praesent bibendum mi et augue lacinia auctor. Vivamus ac magna nec lacus varius pretium et vitae velit.",
+        "price": "6.49"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2018-11-04 20:17:24",
@@ -12298,14 +11810,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "STAR464",
-            "category": "donut",
-            "title": "Star And Sprinkles Donut",
-            "description": "Nam gravida libero ac malesuada cursus. Vivamus pharetra sapien at sem ultrices semper.",
-            "price": "0.59"
-        }
+    "MainProductInfo": {
+        "skuNumber": "STAR464",
+        "category": "donut",
+        "title": "Star And Sprinkles Donut",
+        "description": "Nam gravida libero ac malesuada cursus. Vivamus pharetra sapien at sem ultrices semper.",
+        "price": "0.59"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2019-03-26 20:17:24",
@@ -12349,14 +11859,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "BLAC207",
-            "category": "chocolate",
-            "title": "Black And Tan Truffel",
-            "description": "Nam gravida libero ac malesuada cursus. Ut quis massa sit amet enim faucibus suscipit ac viverra elit. Nullam quis tortor accumsan, sagittis sem in, porttitor orci. Aenean sit amet massa ac dolor interdum varius. Pellentesque vel risus placerat, consequat leo suscipit, dapibus nulla. Vestibulum a sem volutpat, pellentesque eros et, placerat justo.",
-            "price": "3.49"
-        }
+    "MainProductInfo": {
+        "skuNumber": "BLAC207",
+        "category": "chocolate",
+        "title": "Black And Tan Truffel",
+        "description": "Nam gravida libero ac malesuada cursus. Ut quis massa sit amet enim faucibus suscipit ac viverra elit. Nullam quis tortor accumsan, sagittis sem in, porttitor orci. Aenean sit amet massa ac dolor interdum varius. Pellentesque vel risus placerat, consequat leo suscipit, dapibus nulla. Vestibulum a sem volutpat, pellentesque eros et, placerat justo.",
+        "price": "3.49"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2018-10-14 20:17:24",
@@ -12408,14 +11916,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "DOZE434",
-            "category": "donut",
-            "title": "Dozen Donuts",
-            "description": "Nam gravida libero ac malesuada cursus. Vivamus semper justo sed dictum aliquam. Praesent pretium justo at neque egestas mattis. Nullam quis tortor accumsan, sagittis sem in, porttitor orci. Phasellus vel velit eget nibh porttitor feugiat id ac massa. Donec ac purus sed justo egestas ultricies.",
-            "price": "6.99"
-        }
+    "MainProductInfo": {
+        "skuNumber": "DOZE434",
+        "category": "donut",
+        "title": "Dozen Donuts",
+        "description": "Nam gravida libero ac malesuada cursus. Vivamus semper justo sed dictum aliquam. Praesent pretium justo at neque egestas mattis. Nullam quis tortor accumsan, sagittis sem in, porttitor orci. Phasellus vel velit eget nibh porttitor feugiat id ac massa. Donec ac purus sed justo egestas ultricies.",
+        "price": "6.99"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2017-04-15 20:17:24",
@@ -12455,14 +11961,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "SCHW361",
-            "category": "cookie",
-            "title": "Schweineoehrchen Cookie",
-            "description": "Vivamus semper justo sed dictum aliquam. Nullam quis tortor accumsan, sagittis sem in, porttitor orci. Donec ac purus sed justo egestas ultricies. Mauris interdum elit nec dolor volutpat, sit amet sollicitudin eros facilisis.",
-            "price": "0.49"
-        }
+    "MainProductInfo": {
+        "skuNumber": "SCHW361",
+        "category": "cookie",
+        "title": "Schweineoehrchen Cookie",
+        "description": "Vivamus semper justo sed dictum aliquam. Nullam quis tortor accumsan, sagittis sem in, porttitor orci. Donec ac purus sed justo egestas ultricies. Mauris interdum elit nec dolor volutpat, sit amet sollicitudin eros facilisis.",
+        "price": "0.49"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2019-08-08 20:17:24",
@@ -12506,14 +12010,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "SCHW361",
-            "category": "cookie",
-            "title": "Schweineoehrchen Cookie",
-            "description": "Vivamus semper justo sed dictum aliquam. Nullam quis tortor accumsan, sagittis sem in, porttitor orci. Donec ac purus sed justo egestas ultricies. Mauris interdum elit nec dolor volutpat, sit amet sollicitudin eros facilisis.",
-            "price": "0.49"
-        }
+    "MainProductInfo": {
+        "skuNumber": "SCHW361",
+        "category": "cookie",
+        "title": "Schweineoehrchen Cookie",
+        "description": "Vivamus semper justo sed dictum aliquam. Nullam quis tortor accumsan, sagittis sem in, porttitor orci. Donec ac purus sed justo egestas ultricies. Mauris interdum elit nec dolor volutpat, sit amet sollicitudin eros facilisis.",
+        "price": "0.49"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2017-07-21 20:17:24",
@@ -12553,14 +12055,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "DOUB231",
-            "category": "chocolate",
-            "title": "Double Chocolate Truffel",
-            "description": "Vivamus pharetra sapien at sem ultrices semper. Maecenas eget lectus ultrices, porta eros a, blandit nisi. Aenean sit amet massa ac dolor interdum varius. Praesent bibendum mi et augue lacinia auctor.",
-            "price": "3.49"
-        }
+    "MainProductInfo": {
+        "skuNumber": "DOUB231",
+        "category": "chocolate",
+        "title": "Double Chocolate Truffel",
+        "description": "Vivamus pharetra sapien at sem ultrices semper. Maecenas eget lectus ultrices, porta eros a, blandit nisi. Aenean sit amet massa ac dolor interdum varius. Praesent bibendum mi et augue lacinia auctor.",
+        "price": "3.49"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2016-07-01 20:17:24",
@@ -12600,14 +12100,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "WEDD173",
-            "category": "cake",
-            "title": "Wedding Cake",
-            "description": "Quisque et magna malesuada, fermentum nisl sed, imperdiet nunc. Maecenas interdum ex id venenatis luctus. Vivamus semper justo sed dictum aliquam. Nullam quis tortor accumsan, sagittis sem in, porttitor orci.",
-            "price": "49.99"
-        }
+    "MainProductInfo": {
+        "skuNumber": "WEDD173",
+        "category": "cake",
+        "title": "Wedding Cake",
+        "description": "Quisque et magna malesuada, fermentum nisl sed, imperdiet nunc. Maecenas interdum ex id venenatis luctus. Vivamus semper justo sed dictum aliquam. Nullam quis tortor accumsan, sagittis sem in, porttitor orci.",
+        "price": "49.99"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2019-09-13 20:17:24",
@@ -12655,14 +12153,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "APPL501",
-            "category": "pie",
-            "title": "Apple Pie",
-            "description": "Praesent hendrerit tellus eget nibh lobortis, ut scelerisque mi mattis. Morbi consectetur urna sit amet facilisis gravida. Cras sit amet eros congue, rhoncus sem sed, consequat arcu. Maecenas interdum ex id venenatis luctus. In a magna pretium, laoreet neque eget, consectetur justo. Nam gravida libero ac malesuada cursus.",
-            "price": "4.99"
-        }
+    "MainProductInfo": {
+        "skuNumber": "APPL501",
+        "category": "pie",
+        "title": "Apple Pie",
+        "description": "Praesent hendrerit tellus eget nibh lobortis, ut scelerisque mi mattis. Morbi consectetur urna sit amet facilisis gravida. Cras sit amet eros congue, rhoncus sem sed, consequat arcu. Maecenas interdum ex id venenatis luctus. In a magna pretium, laoreet neque eget, consectetur justo. Nam gravida libero ac malesuada cursus.",
+        "price": "4.99"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2017-11-18 20:17:24",
@@ -12706,14 +12202,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "SCHW361",
-            "category": "cookie",
-            "title": "Schweineoehrchen Cookie",
-            "description": "Vivamus semper justo sed dictum aliquam. Nullam quis tortor accumsan, sagittis sem in, porttitor orci. Donec ac purus sed justo egestas ultricies. Mauris interdum elit nec dolor volutpat, sit amet sollicitudin eros facilisis.",
-            "price": "0.49"
-        }
+    "MainProductInfo": {
+        "skuNumber": "SCHW361",
+        "category": "cookie",
+        "title": "Schweineoehrchen Cookie",
+        "description": "Vivamus semper justo sed dictum aliquam. Nullam quis tortor accumsan, sagittis sem in, porttitor orci. Donec ac purus sed justo egestas ultricies. Mauris interdum elit nec dolor volutpat, sit amet sollicitudin eros facilisis.",
+        "price": "0.49"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2016-07-02 20:17:24",
@@ -12748,14 +12242,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "CHOC228",
-            "category": "chocolate",
-            "title": "Chocolate Bar",
-            "description": "Vivamus semper justo sed dictum aliquam. Nullam quis tortor accumsan, sagittis sem in, porttitor orci. Donec ac purus sed justo egestas ultricies.",
-            "price": "2.99"
-        }
+    "MainProductInfo": {
+        "skuNumber": "CHOC228",
+        "category": "chocolate",
+        "title": "Chocolate Bar",
+        "description": "Vivamus semper justo sed dictum aliquam. Nullam quis tortor accumsan, sagittis sem in, porttitor orci. Donec ac purus sed justo egestas ultricies.",
+        "price": "2.99"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2019-06-18 20:17:24",
@@ -12799,14 +12291,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "LAYE143",
-            "category": "cake",
-            "title": "Layer Cake",
-            "description": "Cras sit amet eros congue, rhoncus sem sed, consequat arcu. Vivamus pharetra sapien at sem ultrices semper. Maecenas eget lectus ultrices, porta eros a, blandit nisi. Aenean sit amet massa ac dolor interdum varius. Praesent bibendum mi et augue lacinia auctor. Vivamus ac magna nec lacus varius pretium et vitae velit.",
-            "price": "2.99"
-        }
+    "MainProductInfo": {
+        "skuNumber": "LAYE143",
+        "category": "cake",
+        "title": "Layer Cake",
+        "description": "Cras sit amet eros congue, rhoncus sem sed, consequat arcu. Vivamus pharetra sapien at sem ultrices semper. Maecenas eget lectus ultrices, porta eros a, blandit nisi. Aenean sit amet massa ac dolor interdum varius. Praesent bibendum mi et augue lacinia auctor. Vivamus ac magna nec lacus varius pretium et vitae velit.",
+        "price": "2.99"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2018-02-22 20:17:24",
@@ -12850,14 +12340,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "LOAF146",
-            "category": "cake",
-            "title": "Loaf Cake",
-            "description": "Donec sed dui hendrerit nulla iaculis vestibulum. Morbi consectetur urna sit amet facilisis gravida. In a magna pretium, laoreet neque eget, consectetur justo.",
-            "price": "3.99"
-        }
+    "MainProductInfo": {
+        "skuNumber": "LOAF146",
+        "category": "cake",
+        "title": "Loaf Cake",
+        "description": "Donec sed dui hendrerit nulla iaculis vestibulum. Morbi consectetur urna sit amet facilisis gravida. In a magna pretium, laoreet neque eget, consectetur justo.",
+        "price": "3.99"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2017-04-01 20:17:24",
@@ -12892,14 +12380,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "MUFF149",
-            "category": "cake",
-            "title": "Muffin",
-            "description": "In a magna pretium, laoreet neque eget, consectetur justo. Vivamus pharetra sapien at sem ultrices semper. Ut quis massa sit amet enim faucibus suscipit ac viverra elit. Maecenas eget lectus ultrices, porta eros a, blandit nisi.",
-            "price": "1.99"
-        }
+    "MainProductInfo": {
+        "skuNumber": "MUFF149",
+        "category": "cake",
+        "title": "Muffin",
+        "description": "In a magna pretium, laoreet neque eget, consectetur justo. Vivamus pharetra sapien at sem ultrices semper. Ut quis massa sit amet enim faucibus suscipit ac viverra elit. Maecenas eget lectus ultrices, porta eros a, blandit nisi.",
+        "price": "1.99"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2019-04-17 20:17:24",
@@ -12939,14 +12425,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "BLAC207",
-            "category": "chocolate",
-            "title": "Black And Tan Truffel",
-            "description": "Nam gravida libero ac malesuada cursus. Ut quis massa sit amet enim faucibus suscipit ac viverra elit. Nullam quis tortor accumsan, sagittis sem in, porttitor orci. Aenean sit amet massa ac dolor interdum varius. Pellentesque vel risus placerat, consequat leo suscipit, dapibus nulla. Vestibulum a sem volutpat, pellentesque eros et, placerat justo.",
-            "price": "3.49"
-        }
+    "MainProductInfo": {
+        "skuNumber": "BLAC207",
+        "category": "chocolate",
+        "title": "Black And Tan Truffel",
+        "description": "Nam gravida libero ac malesuada cursus. Ut quis massa sit amet enim faucibus suscipit ac viverra elit. Nullam quis tortor accumsan, sagittis sem in, porttitor orci. Aenean sit amet massa ac dolor interdum varius. Pellentesque vel risus placerat, consequat leo suscipit, dapibus nulla. Vestibulum a sem volutpat, pellentesque eros et, placerat justo.",
+        "price": "3.49"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2016-09-21 20:17:24",
@@ -12986,14 +12470,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "MUFF149",
-            "category": "cake",
-            "title": "Muffin",
-            "description": "In a magna pretium, laoreet neque eget, consectetur justo. Vivamus pharetra sapien at sem ultrices semper. Ut quis massa sit amet enim faucibus suscipit ac viverra elit. Maecenas eget lectus ultrices, porta eros a, blandit nisi.",
-            "price": "1.99"
-        }
+    "MainProductInfo": {
+        "skuNumber": "MUFF149",
+        "category": "cake",
+        "title": "Muffin",
+        "description": "In a magna pretium, laoreet neque eget, consectetur justo. Vivamus pharetra sapien at sem ultrices semper. Ut quis massa sit amet enim faucibus suscipit ac viverra elit. Maecenas eget lectus ultrices, porta eros a, blandit nisi.",
+        "price": "1.99"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2017-08-30 20:17:24",
@@ -13046,7 +12528,7 @@ db.purchases.insertOne(
         }
     },
     "ProductInfo": {
-        "MainProductInfo": null
+            "MainProductInfo": null
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2019-09-10 20:17:24",
@@ -13081,14 +12563,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "BLAC207",
-            "category": "chocolate",
-            "title": "Black And Tan Truffel",
-            "description": "Nam gravida libero ac malesuada cursus. Ut quis massa sit amet enim faucibus suscipit ac viverra elit. Nullam quis tortor accumsan, sagittis sem in, porttitor orci. Aenean sit amet massa ac dolor interdum varius. Pellentesque vel risus placerat, consequat leo suscipit, dapibus nulla. Vestibulum a sem volutpat, pellentesque eros et, placerat justo.",
-            "price": "3.49"
-        }
+    "MainProductInfo": {
+        "skuNumber": "BLAC207",
+        "category": "chocolate",
+        "title": "Black And Tan Truffel",
+        "description": "Nam gravida libero ac malesuada cursus. Ut quis massa sit amet enim faucibus suscipit ac viverra elit. Nullam quis tortor accumsan, sagittis sem in, porttitor orci. Aenean sit amet massa ac dolor interdum varius. Pellentesque vel risus placerat, consequat leo suscipit, dapibus nulla. Vestibulum a sem volutpat, pellentesque eros et, placerat justo.",
+        "price": "3.49"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2016-08-06 20:17:24",
@@ -13128,14 +12608,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "BIRT104",
-            "category": "cake",
-            "title": "Birthday Cake",
-            "description": "Nam gravida libero ac malesuada cursus. Ut quis massa sit amet enim faucibus suscipit ac viverra elit. Nullam quis tortor accumsan, sagittis sem in, porttitor orci. Aenean sit amet massa ac dolor interdum varius. Pellentesque vel risus placerat, consequat leo suscipit, dapibus nulla.",
-            "price": "9.99"
-        }
+    "MainProductInfo": {
+        "skuNumber": "BIRT104",
+        "category": "cake",
+        "title": "Birthday Cake",
+        "description": "Nam gravida libero ac malesuada cursus. Ut quis massa sit amet enim faucibus suscipit ac viverra elit. Nullam quis tortor accumsan, sagittis sem in, porttitor orci. Aenean sit amet massa ac dolor interdum varius. Pellentesque vel risus placerat, consequat leo suscipit, dapibus nulla.",
+        "price": "9.99"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2016-05-28 20:17:24",
@@ -13179,14 +12657,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "STAR464",
-            "category": "donut",
-            "title": "Star And Sprinkles Donut",
-            "description": "Nam gravida libero ac malesuada cursus. Vivamus pharetra sapien at sem ultrices semper.",
-            "price": "0.59"
-        }
+    "MainProductInfo": {
+        "skuNumber": "STAR464",
+        "category": "donut",
+        "title": "Star And Sprinkles Donut",
+        "description": "Nam gravida libero ac malesuada cursus. Vivamus pharetra sapien at sem ultrices semper.",
+        "price": "0.59"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2019-05-31 20:17:24",
@@ -13226,14 +12702,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "APPL501",
-            "category": "pie",
-            "title": "Apple Pie",
-            "description": "Praesent hendrerit tellus eget nibh lobortis, ut scelerisque mi mattis. Morbi consectetur urna sit amet facilisis gravida. Cras sit amet eros congue, rhoncus sem sed, consequat arcu. Maecenas interdum ex id venenatis luctus. In a magna pretium, laoreet neque eget, consectetur justo. Nam gravida libero ac malesuada cursus.",
-            "price": "4.99"
-        }
+    "MainProductInfo": {
+        "skuNumber": "APPL501",
+        "category": "pie",
+        "title": "Apple Pie",
+        "description": "Praesent hendrerit tellus eget nibh lobortis, ut scelerisque mi mattis. Morbi consectetur urna sit amet facilisis gravida. Cras sit amet eros congue, rhoncus sem sed, consequat arcu. Maecenas interdum ex id venenatis luctus. In a magna pretium, laoreet neque eget, consectetur justo. Nam gravida libero ac malesuada cursus.",
+        "price": "4.99"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2017-11-16 20:17:24",
@@ -13277,14 +12751,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "LAYE140",
-            "category": "cake",
-            "title": "Layer Cake Cherry Topping",
-            "description": "Cras sit amet eros congue, rhoncus sem sed, consequat arcu. Maecenas interdum ex id venenatis luctus.",
-            "price": "3.99"
-        }
+    "MainProductInfo": {
+        "skuNumber": "LAYE140",
+        "category": "cake",
+        "title": "Layer Cake Cherry Topping",
+        "description": "Cras sit amet eros congue, rhoncus sem sed, consequat arcu. Maecenas interdum ex id venenatis luctus.",
+        "price": "3.99"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2018-04-01 20:17:24",
@@ -13319,14 +12791,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "WHIT276",
-            "category": "chocolate",
-            "title": "White Chocolate Truffel",
-            "description": "Cras sit amet eros congue, rhoncus sem sed, consequat arcu. In a magna pretium, laoreet neque eget, consectetur justo. Vivamus pharetra sapien at sem ultrices semper. Ut quis massa sit amet enim faucibus suscipit ac viverra elit.",
-            "price": "3.49"
-        }
+    "MainProductInfo": {
+        "skuNumber": "WHIT276",
+        "category": "chocolate",
+        "title": "White Chocolate Truffel",
+        "description": "Cras sit amet eros congue, rhoncus sem sed, consequat arcu. In a magna pretium, laoreet neque eget, consectetur justo. Vivamus pharetra sapien at sem ultrices semper. Ut quis massa sit amet enim faucibus suscipit ac viverra elit.",
+        "price": "3.49"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2019-04-09 20:17:24",
@@ -13366,14 +12836,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "RASP258",
-            "category": "chocolate",
-            "title": "Raspberry Truffel",
-            "description": "Praesent hendrerit tellus eget nibh lobortis, ut scelerisque mi mattis. In a magna pretium, laoreet neque eget, consectetur justo.",
-            "price": "3.49"
-        }
+    "MainProductInfo": {
+        "skuNumber": "RASP258",
+        "category": "chocolate",
+        "title": "Raspberry Truffel",
+        "description": "Praesent hendrerit tellus eget nibh lobortis, ut scelerisque mi mattis. In a magna pretium, laoreet neque eget, consectetur justo.",
+        "price": "3.49"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2018-01-10 20:17:24",
@@ -13425,14 +12893,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "DOZE434",
-            "category": "donut",
-            "title": "Dozen Donuts",
-            "description": "Nam gravida libero ac malesuada cursus. Vivamus semper justo sed dictum aliquam. Praesent pretium justo at neque egestas mattis. Nullam quis tortor accumsan, sagittis sem in, porttitor orci. Phasellus vel velit eget nibh porttitor feugiat id ac massa. Donec ac purus sed justo egestas ultricies.",
-            "price": "6.99"
-        }
+    "MainProductInfo": {
+        "skuNumber": "DOZE434",
+        "category": "donut",
+        "title": "Dozen Donuts",
+        "description": "Nam gravida libero ac malesuada cursus. Vivamus semper justo sed dictum aliquam. Praesent pretium justo at neque egestas mattis. Nullam quis tortor accumsan, sagittis sem in, porttitor orci. Phasellus vel velit eget nibh porttitor feugiat id ac massa. Donec ac purus sed justo egestas ultricies.",
+        "price": "6.99"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2018-11-03 20:17:24",
@@ -13467,14 +12933,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "BIRT104",
-            "category": "cake",
-            "title": "Birthday Cake",
-            "description": "Nam gravida libero ac malesuada cursus. Ut quis massa sit amet enim faucibus suscipit ac viverra elit. Nullam quis tortor accumsan, sagittis sem in, porttitor orci. Aenean sit amet massa ac dolor interdum varius. Pellentesque vel risus placerat, consequat leo suscipit, dapibus nulla.",
-            "price": "9.99"
-        }
+    "MainProductInfo": {
+        "skuNumber": "BIRT104",
+        "category": "cake",
+        "title": "Birthday Cake",
+        "description": "Nam gravida libero ac malesuada cursus. Ut quis massa sit amet enim faucibus suscipit ac viverra elit. Nullam quis tortor accumsan, sagittis sem in, porttitor orci. Aenean sit amet massa ac dolor interdum varius. Pellentesque vel risus placerat, consequat leo suscipit, dapibus nulla.",
+        "price": "9.99"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2019-04-25 20:17:24",
@@ -13522,14 +12986,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "CHOC322",
-            "category": "cookie",
-            "title": "Chocolate Chip Cookie",
-            "description": "Cras sit amet eros congue, rhoncus sem sed, consequat arcu. Maecenas interdum ex id venenatis luctus. In a magna pretium, laoreet neque eget, consectetur justo. Nam gravida libero ac malesuada cursus. Vivamus pharetra sapien at sem ultrices semper. Vivamus semper justo sed dictum aliquam.",
-            "price": "0.88"
-        }
+    "MainProductInfo": {
+        "skuNumber": "CHOC322",
+        "category": "cookie",
+        "title": "Chocolate Chip Cookie",
+        "description": "Cras sit amet eros congue, rhoncus sem sed, consequat arcu. Maecenas interdum ex id venenatis luctus. In a magna pretium, laoreet neque eget, consectetur justo. Nam gravida libero ac malesuada cursus. Vivamus pharetra sapien at sem ultrices semper. Vivamus semper justo sed dictum aliquam.",
+        "price": "0.88"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2016-10-25 20:17:24",
@@ -13573,14 +13035,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "CAKE110",
-            "category": "cake",
-            "title": "Cake With Chocolate Frosting",
-            "description": "In a magna pretium, laoreet neque eget, consectetur justo. Nam gravida libero ac malesuada cursus. Vivamus pharetra sapien at sem ultrices semper. Vivamus semper justo sed dictum aliquam. Ut quis massa sit amet enim faucibus suscipit ac viverra elit. Praesent pretium justo at neque egestas mattis.",
-            "price": "8.99"
-        }
+    "MainProductInfo": {
+        "skuNumber": "CAKE110",
+        "category": "cake",
+        "title": "Cake With Chocolate Frosting",
+        "description": "In a magna pretium, laoreet neque eget, consectetur justo. Nam gravida libero ac malesuada cursus. Vivamus pharetra sapien at sem ultrices semper. Vivamus semper justo sed dictum aliquam. Ut quis massa sit amet enim faucibus suscipit ac viverra elit. Praesent pretium justo at neque egestas mattis.",
+        "price": "8.99"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2017-04-06 20:17:24",
@@ -13615,14 +13075,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "CHOC219",
-            "category": "chocolate",
-            "title": "Chocolate Bunny",
-            "description": "Cras sit amet eros congue, rhoncus sem sed, consequat arcu. Vivamus pharetra sapien at sem ultrices semper. Maecenas eget lectus ultrices, porta eros a, blandit nisi. Aenean sit amet massa ac dolor interdum varius. Praesent bibendum mi et augue lacinia auctor. Vivamus ac magna nec lacus varius pretium et vitae velit.",
-            "price": "6.49"
-        }
+    "MainProductInfo": {
+        "skuNumber": "CHOC219",
+        "category": "chocolate",
+        "title": "Chocolate Bunny",
+        "description": "Cras sit amet eros congue, rhoncus sem sed, consequat arcu. Vivamus pharetra sapien at sem ultrices semper. Maecenas eget lectus ultrices, porta eros a, blandit nisi. Aenean sit amet massa ac dolor interdum varius. Praesent bibendum mi et augue lacinia auctor. Vivamus ac magna nec lacus varius pretium et vitae velit.",
+        "price": "6.49"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2019-02-08 20:17:24",
@@ -13662,14 +13120,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "CHOC322",
-            "category": "cookie",
-            "title": "Chocolate Chip Cookie",
-            "description": "Cras sit amet eros congue, rhoncus sem sed, consequat arcu. Maecenas interdum ex id venenatis luctus. In a magna pretium, laoreet neque eget, consectetur justo. Nam gravida libero ac malesuada cursus. Vivamus pharetra sapien at sem ultrices semper. Vivamus semper justo sed dictum aliquam.",
-            "price": "0.88"
-        }
+    "MainProductInfo": {
+        "skuNumber": "CHOC322",
+        "category": "cookie",
+        "title": "Chocolate Chip Cookie",
+        "description": "Cras sit amet eros congue, rhoncus sem sed, consequat arcu. Maecenas interdum ex id venenatis luctus. In a magna pretium, laoreet neque eget, consectetur justo. Nam gravida libero ac malesuada cursus. Vivamus pharetra sapien at sem ultrices semper. Vivamus semper justo sed dictum aliquam.",
+        "price": "0.88"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2018-11-29 20:17:24",
@@ -13713,14 +13169,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "CHOC219",
-            "category": "chocolate",
-            "title": "Chocolate Bunny",
-            "description": "Cras sit amet eros congue, rhoncus sem sed, consequat arcu. Vivamus pharetra sapien at sem ultrices semper. Maecenas eget lectus ultrices, porta eros a, blandit nisi. Aenean sit amet massa ac dolor interdum varius. Praesent bibendum mi et augue lacinia auctor. Vivamus ac magna nec lacus varius pretium et vitae velit.",
-            "price": "6.49"
-        }
+    "MainProductInfo": {
+        "skuNumber": "CHOC219",
+        "category": "chocolate",
+        "title": "Chocolate Bunny",
+        "description": "Cras sit amet eros congue, rhoncus sem sed, consequat arcu. Vivamus pharetra sapien at sem ultrices semper. Maecenas eget lectus ultrices, porta eros a, blandit nisi. Aenean sit amet massa ac dolor interdum varius. Praesent bibendum mi et augue lacinia auctor. Vivamus ac magna nec lacus varius pretium et vitae velit.",
+        "price": "6.49"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2018-05-07 20:17:24",
@@ -13760,14 +13214,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "CARR113",
-            "category": "cake",
-            "title": "Carrot Cake",
-            "description": "Nam gravida libero ac malesuada cursus. Vivamus semper justo sed dictum aliquam.",
-            "price": "7.99"
-        }
+    "MainProductInfo": {
+        "skuNumber": "CARR113",
+        "category": "cake",
+        "title": "Carrot Cake",
+        "description": "Nam gravida libero ac malesuada cursus. Vivamus semper justo sed dictum aliquam.",
+        "price": "7.99"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2019-07-17 20:17:24",
@@ -13802,14 +13254,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "APPL501",
-            "category": "pie",
-            "title": "Apple Pie",
-            "description": "Praesent hendrerit tellus eget nibh lobortis, ut scelerisque mi mattis. Morbi consectetur urna sit amet facilisis gravida. Cras sit amet eros congue, rhoncus sem sed, consequat arcu. Maecenas interdum ex id venenatis luctus. In a magna pretium, laoreet neque eget, consectetur justo. Nam gravida libero ac malesuada cursus.",
-            "price": "4.99"
-        }
+    "MainProductInfo": {
+        "skuNumber": "APPL501",
+        "category": "pie",
+        "title": "Apple Pie",
+        "description": "Praesent hendrerit tellus eget nibh lobortis, ut scelerisque mi mattis. Morbi consectetur urna sit amet facilisis gravida. Cras sit amet eros congue, rhoncus sem sed, consequat arcu. Maecenas interdum ex id venenatis luctus. In a magna pretium, laoreet neque eget, consectetur justo. Nam gravida libero ac malesuada cursus.",
+        "price": "4.99"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2017-11-04 20:17:24",
@@ -13861,14 +13311,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "DOUB231",
-            "category": "chocolate",
-            "title": "Double Chocolate Truffel",
-            "description": "Vivamus pharetra sapien at sem ultrices semper. Maecenas eget lectus ultrices, porta eros a, blandit nisi. Aenean sit amet massa ac dolor interdum varius. Praesent bibendum mi et augue lacinia auctor.",
-            "price": "3.49"
-        }
+    "MainProductInfo": {
+        "skuNumber": "DOUB231",
+        "category": "chocolate",
+        "title": "Double Chocolate Truffel",
+        "description": "Vivamus pharetra sapien at sem ultrices semper. Maecenas eget lectus ultrices, porta eros a, blandit nisi. Aenean sit amet massa ac dolor interdum varius. Praesent bibendum mi et augue lacinia auctor.",
+        "price": "3.49"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2018-08-08 20:17:24",
@@ -13908,14 +13356,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "BIRT104",
-            "category": "cake",
-            "title": "Birthday Cake",
-            "description": "Nam gravida libero ac malesuada cursus. Ut quis massa sit amet enim faucibus suscipit ac viverra elit. Nullam quis tortor accumsan, sagittis sem in, porttitor orci. Aenean sit amet massa ac dolor interdum varius. Pellentesque vel risus placerat, consequat leo suscipit, dapibus nulla.",
-            "price": "9.99"
-        }
+    "MainProductInfo": {
+        "skuNumber": "BIRT104",
+        "category": "cake",
+        "title": "Birthday Cake",
+        "description": "Nam gravida libero ac malesuada cursus. Ut quis massa sit amet enim faucibus suscipit ac viverra elit. Nullam quis tortor accumsan, sagittis sem in, porttitor orci. Aenean sit amet massa ac dolor interdum varius. Pellentesque vel risus placerat, consequat leo suscipit, dapibus nulla.",
+        "price": "9.99"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2019-05-12 20:17:24",
@@ -13951,7 +13397,7 @@ db.purchases.insertOne(
         }
     },
     "ProductInfo": {
-        "MainProductInfo": null
+            "MainProductInfo": null
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2017-09-19 20:17:24",
@@ -13991,14 +13437,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "CHOC219",
-            "category": "chocolate",
-            "title": "Chocolate Bunny",
-            "description": "Cras sit amet eros congue, rhoncus sem sed, consequat arcu. Vivamus pharetra sapien at sem ultrices semper. Maecenas eget lectus ultrices, porta eros a, blandit nisi. Aenean sit amet massa ac dolor interdum varius. Praesent bibendum mi et augue lacinia auctor. Vivamus ac magna nec lacus varius pretium et vitae velit.",
-            "price": "6.49"
-        }
+    "MainProductInfo": {
+        "skuNumber": "CHOC219",
+        "category": "chocolate",
+        "title": "Chocolate Bunny",
+        "description": "Cras sit amet eros congue, rhoncus sem sed, consequat arcu. Vivamus pharetra sapien at sem ultrices semper. Maecenas eget lectus ultrices, porta eros a, blandit nisi. Aenean sit amet massa ac dolor interdum varius. Praesent bibendum mi et augue lacinia auctor. Vivamus ac magna nec lacus varius pretium et vitae velit.",
+        "price": "6.49"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2016-07-05 20:17:24",
@@ -14038,14 +13482,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "CARR113",
-            "category": "cake",
-            "title": "Carrot Cake",
-            "description": "Nam gravida libero ac malesuada cursus. Vivamus semper justo sed dictum aliquam.",
-            "price": "7.99"
-        }
+    "MainProductInfo": {
+        "skuNumber": "CARR113",
+        "category": "cake",
+        "title": "Carrot Cake",
+        "description": "Nam gravida libero ac malesuada cursus. Vivamus semper justo sed dictum aliquam.",
+        "price": "7.99"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2019-07-09 20:17:24",
@@ -14080,14 +13522,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "MUFF149",
-            "category": "cake",
-            "title": "Muffin",
-            "description": "In a magna pretium, laoreet neque eget, consectetur justo. Vivamus pharetra sapien at sem ultrices semper. Ut quis massa sit amet enim faucibus suscipit ac viverra elit. Maecenas eget lectus ultrices, porta eros a, blandit nisi.",
-            "price": "1.99"
-        }
+    "MainProductInfo": {
+        "skuNumber": "MUFF149",
+        "category": "cake",
+        "title": "Muffin",
+        "description": "In a magna pretium, laoreet neque eget, consectetur justo. Vivamus pharetra sapien at sem ultrices semper. Ut quis massa sit amet enim faucibus suscipit ac viverra elit. Maecenas eget lectus ultrices, porta eros a, blandit nisi.",
+        "price": "1.99"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2017-11-08 20:17:24",
@@ -14123,7 +13563,7 @@ db.purchases.insertOne(
         }
     },
     "ProductInfo": {
-        "MainProductInfo": null
+            "MainProductInfo": null
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2018-07-14 20:17:24",
@@ -14175,14 +13615,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "CHOC322",
-            "category": "cookie",
-            "title": "Chocolate Chip Cookie",
-            "description": "Cras sit amet eros congue, rhoncus sem sed, consequat arcu. Maecenas interdum ex id venenatis luctus. In a magna pretium, laoreet neque eget, consectetur justo. Nam gravida libero ac malesuada cursus. Vivamus pharetra sapien at sem ultrices semper. Vivamus semper justo sed dictum aliquam.",
-            "price": "0.88"
-        }
+    "MainProductInfo": {
+        "skuNumber": "CHOC322",
+        "category": "cookie",
+        "title": "Chocolate Chip Cookie",
+        "description": "Cras sit amet eros congue, rhoncus sem sed, consequat arcu. Maecenas interdum ex id venenatis luctus. In a magna pretium, laoreet neque eget, consectetur justo. Nam gravida libero ac malesuada cursus. Vivamus pharetra sapien at sem ultrices semper. Vivamus semper justo sed dictum aliquam.",
+        "price": "0.88"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2019-05-02 20:17:24",
@@ -14222,14 +13660,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "BIRT104",
-            "category": "cake",
-            "title": "Birthday Cake",
-            "description": "Nam gravida libero ac malesuada cursus. Ut quis massa sit amet enim faucibus suscipit ac viverra elit. Nullam quis tortor accumsan, sagittis sem in, porttitor orci. Aenean sit amet massa ac dolor interdum varius. Pellentesque vel risus placerat, consequat leo suscipit, dapibus nulla.",
-            "price": "9.99"
-        }
+    "MainProductInfo": {
+        "skuNumber": "BIRT104",
+        "category": "cake",
+        "title": "Birthday Cake",
+        "description": "Nam gravida libero ac malesuada cursus. Ut quis massa sit amet enim faucibus suscipit ac viverra elit. Nullam quis tortor accumsan, sagittis sem in, porttitor orci. Aenean sit amet massa ac dolor interdum varius. Pellentesque vel risus placerat, consequat leo suscipit, dapibus nulla.",
+        "price": "9.99"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2017-11-22 20:17:24",
@@ -14264,14 +13700,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "TORT167",
-            "category": "cake",
-            "title": "Torta Cake",
-            "description": "Maecenas interdum ex id venenatis luctus. Nam gravida libero ac malesuada cursus.",
-            "price": "12.99"
-        }
+    "MainProductInfo": {
+        "skuNumber": "TORT167",
+        "category": "cake",
+        "title": "Torta Cake",
+        "description": "Maecenas interdum ex id venenatis luctus. Nam gravida libero ac malesuada cursus.",
+        "price": "12.99"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2017-02-25 20:17:24",
@@ -14315,14 +13749,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "PEAN252",
-            "category": "chocolate",
-            "title": "Peanut Truffle",
-            "description": "Nam gravida libero ac malesuada cursus. Vivamus pharetra sapien at sem ultrices semper. Vivamus semper justo sed dictum aliquam.",
-            "price": "3.49"
-        }
+    "MainProductInfo": {
+        "skuNumber": "PEAN252",
+        "category": "chocolate",
+        "title": "Peanut Truffle",
+        "description": "Nam gravida libero ac malesuada cursus. Vivamus pharetra sapien at sem ultrices semper. Vivamus semper justo sed dictum aliquam.",
+        "price": "3.49"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2019-09-12 20:17:24",
@@ -14362,14 +13794,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "CHOC322",
-            "category": "cookie",
-            "title": "Chocolate Chip Cookie",
-            "description": "Cras sit amet eros congue, rhoncus sem sed, consequat arcu. Maecenas interdum ex id venenatis luctus. In a magna pretium, laoreet neque eget, consectetur justo. Nam gravida libero ac malesuada cursus. Vivamus pharetra sapien at sem ultrices semper. Vivamus semper justo sed dictum aliquam.",
-            "price": "0.88"
-        }
+    "MainProductInfo": {
+        "skuNumber": "CHOC322",
+        "category": "cookie",
+        "title": "Chocolate Chip Cookie",
+        "description": "Cras sit amet eros congue, rhoncus sem sed, consequat arcu. Maecenas interdum ex id venenatis luctus. In a magna pretium, laoreet neque eget, consectetur justo. Nam gravida libero ac malesuada cursus. Vivamus pharetra sapien at sem ultrices semper. Vivamus semper justo sed dictum aliquam.",
+        "price": "0.88"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2018-08-22 20:17:24",
@@ -14413,14 +13843,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "CHOC228",
-            "category": "chocolate",
-            "title": "Chocolate Bar",
-            "description": "Vivamus semper justo sed dictum aliquam. Nullam quis tortor accumsan, sagittis sem in, porttitor orci. Donec ac purus sed justo egestas ultricies.",
-            "price": "2.99"
-        }
+    "MainProductInfo": {
+        "skuNumber": "CHOC228",
+        "category": "chocolate",
+        "title": "Chocolate Bar",
+        "description": "Vivamus semper justo sed dictum aliquam. Nullam quis tortor accumsan, sagittis sem in, porttitor orci. Donec ac purus sed justo egestas ultricies.",
+        "price": "2.99"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2017-02-06 20:17:24",
@@ -14455,14 +13883,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "CHOC322",
-            "category": "cookie",
-            "title": "Chocolate Chip Cookie",
-            "description": "Cras sit amet eros congue, rhoncus sem sed, consequat arcu. Maecenas interdum ex id venenatis luctus. In a magna pretium, laoreet neque eget, consectetur justo. Nam gravida libero ac malesuada cursus. Vivamus pharetra sapien at sem ultrices semper. Vivamus semper justo sed dictum aliquam.",
-            "price": "0.88"
-        }
+    "MainProductInfo": {
+        "skuNumber": "CHOC322",
+        "category": "cookie",
+        "title": "Chocolate Chip Cookie",
+        "description": "Cras sit amet eros congue, rhoncus sem sed, consequat arcu. Maecenas interdum ex id venenatis luctus. In a magna pretium, laoreet neque eget, consectetur justo. Nam gravida libero ac malesuada cursus. Vivamus pharetra sapien at sem ultrices semper. Vivamus semper justo sed dictum aliquam.",
+        "price": "0.88"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2019-05-03 20:17:24",
@@ -14497,14 +13923,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "SCHW361",
-            "category": "cookie",
-            "title": "Schweineoehrchen Cookie",
-            "description": "Vivamus semper justo sed dictum aliquam. Nullam quis tortor accumsan, sagittis sem in, porttitor orci. Donec ac purus sed justo egestas ultricies. Mauris interdum elit nec dolor volutpat, sit amet sollicitudin eros facilisis.",
-            "price": "0.49"
-        }
+    "MainProductInfo": {
+        "skuNumber": "SCHW361",
+        "category": "cookie",
+        "title": "Schweineoehrchen Cookie",
+        "description": "Vivamus semper justo sed dictum aliquam. Nullam quis tortor accumsan, sagittis sem in, porttitor orci. Donec ac purus sed justo egestas ultricies. Mauris interdum elit nec dolor volutpat, sit amet sollicitudin eros facilisis.",
+        "price": "0.49"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2017-09-20 20:17:24",
@@ -14544,14 +13968,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "TORT167",
-            "category": "cake",
-            "title": "Torta Cake",
-            "description": "Maecenas interdum ex id venenatis luctus. Nam gravida libero ac malesuada cursus.",
-            "price": "12.99"
-        }
+    "MainProductInfo": {
+        "skuNumber": "TORT167",
+        "category": "cake",
+        "title": "Torta Cake",
+        "description": "Maecenas interdum ex id venenatis luctus. Nam gravida libero ac malesuada cursus.",
+        "price": "12.99"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2016-09-17 20:17:24",
@@ -14595,14 +14017,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "APPL501",
-            "category": "pie",
-            "title": "Apple Pie",
-            "description": "Praesent hendrerit tellus eget nibh lobortis, ut scelerisque mi mattis. Morbi consectetur urna sit amet facilisis gravida. Cras sit amet eros congue, rhoncus sem sed, consequat arcu. Maecenas interdum ex id venenatis luctus. In a magna pretium, laoreet neque eget, consectetur justo. Nam gravida libero ac malesuada cursus.",
-            "price": "4.99"
-        }
+    "MainProductInfo": {
+        "skuNumber": "APPL501",
+        "category": "pie",
+        "title": "Apple Pie",
+        "description": "Praesent hendrerit tellus eget nibh lobortis, ut scelerisque mi mattis. Morbi consectetur urna sit amet facilisis gravida. Cras sit amet eros congue, rhoncus sem sed, consequat arcu. Maecenas interdum ex id venenatis luctus. In a magna pretium, laoreet neque eget, consectetur justo. Nam gravida libero ac malesuada cursus.",
+        "price": "4.99"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2019-03-19 20:17:24",
@@ -14650,14 +14070,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "STAR464",
-            "category": "donut",
-            "title": "Star And Sprinkles Donut",
-            "description": "Nam gravida libero ac malesuada cursus. Vivamus pharetra sapien at sem ultrices semper.",
-            "price": "0.59"
-        }
+    "MainProductInfo": {
+        "skuNumber": "STAR464",
+        "category": "donut",
+        "title": "Star And Sprinkles Donut",
+        "description": "Nam gravida libero ac malesuada cursus. Vivamus pharetra sapien at sem ultrices semper.",
+        "price": "0.59"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2017-05-14 20:17:24",
@@ -14697,14 +14115,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "STAR464",
-            "category": "donut",
-            "title": "Star And Sprinkles Donut",
-            "description": "Nam gravida libero ac malesuada cursus. Vivamus pharetra sapien at sem ultrices semper.",
-            "price": "0.59"
-        }
+    "MainProductInfo": {
+        "skuNumber": "STAR464",
+        "category": "donut",
+        "title": "Star And Sprinkles Donut",
+        "description": "Nam gravida libero ac malesuada cursus. Vivamus pharetra sapien at sem ultrices semper.",
+        "price": "0.59"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2018-11-22 20:17:24",
@@ -14739,14 +14155,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "CHOC219",
-            "category": "chocolate",
-            "title": "Chocolate Bunny",
-            "description": "Cras sit amet eros congue, rhoncus sem sed, consequat arcu. Vivamus pharetra sapien at sem ultrices semper. Maecenas eget lectus ultrices, porta eros a, blandit nisi. Aenean sit amet massa ac dolor interdum varius. Praesent bibendum mi et augue lacinia auctor. Vivamus ac magna nec lacus varius pretium et vitae velit.",
-            "price": "6.49"
-        }
+    "MainProductInfo": {
+        "skuNumber": "CHOC219",
+        "category": "chocolate",
+        "title": "Chocolate Bunny",
+        "description": "Cras sit amet eros congue, rhoncus sem sed, consequat arcu. Vivamus pharetra sapien at sem ultrices semper. Maecenas eget lectus ultrices, porta eros a, blandit nisi. Aenean sit amet massa ac dolor interdum varius. Praesent bibendum mi et augue lacinia auctor. Vivamus ac magna nec lacus varius pretium et vitae velit.",
+        "price": "6.49"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2019-04-26 20:17:24",
@@ -14794,14 +14208,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "CHOC322",
-            "category": "cookie",
-            "title": "Chocolate Chip Cookie",
-            "description": "Cras sit amet eros congue, rhoncus sem sed, consequat arcu. Maecenas interdum ex id venenatis luctus. In a magna pretium, laoreet neque eget, consectetur justo. Nam gravida libero ac malesuada cursus. Vivamus pharetra sapien at sem ultrices semper. Vivamus semper justo sed dictum aliquam.",
-            "price": "0.88"
-        }
+    "MainProductInfo": {
+        "skuNumber": "CHOC322",
+        "category": "cookie",
+        "title": "Chocolate Chip Cookie",
+        "description": "Cras sit amet eros congue, rhoncus sem sed, consequat arcu. Maecenas interdum ex id venenatis luctus. In a magna pretium, laoreet neque eget, consectetur justo. Nam gravida libero ac malesuada cursus. Vivamus pharetra sapien at sem ultrices semper. Vivamus semper justo sed dictum aliquam.",
+        "price": "0.88"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2018-03-30 20:17:24",
@@ -14836,14 +14248,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "SCHW361",
-            "category": "cookie",
-            "title": "Schweineoehrchen Cookie",
-            "description": "Vivamus semper justo sed dictum aliquam. Nullam quis tortor accumsan, sagittis sem in, porttitor orci. Donec ac purus sed justo egestas ultricies. Mauris interdum elit nec dolor volutpat, sit amet sollicitudin eros facilisis.",
-            "price": "0.49"
-        }
+    "MainProductInfo": {
+        "skuNumber": "SCHW361",
+        "category": "cookie",
+        "title": "Schweineoehrchen Cookie",
+        "description": "Vivamus semper justo sed dictum aliquam. Nullam quis tortor accumsan, sagittis sem in, porttitor orci. Donec ac purus sed justo egestas ultricies. Mauris interdum elit nec dolor volutpat, sit amet sollicitudin eros facilisis.",
+        "price": "0.49"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2016-11-29 20:17:24",
@@ -14883,14 +14293,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "WHIT276",
-            "category": "chocolate",
-            "title": "White Chocolate Truffel",
-            "description": "Cras sit amet eros congue, rhoncus sem sed, consequat arcu. In a magna pretium, laoreet neque eget, consectetur justo. Vivamus pharetra sapien at sem ultrices semper. Ut quis massa sit amet enim faucibus suscipit ac viverra elit.",
-            "price": "3.49"
-        }
+    "MainProductInfo": {
+        "skuNumber": "WHIT276",
+        "category": "chocolate",
+        "title": "White Chocolate Truffel",
+        "description": "Cras sit amet eros congue, rhoncus sem sed, consequat arcu. In a magna pretium, laoreet neque eget, consectetur justo. Vivamus pharetra sapien at sem ultrices semper. Ut quis massa sit amet enim faucibus suscipit ac viverra elit.",
+        "price": "3.49"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2019-03-02 20:17:24",
@@ -14934,14 +14342,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "TORT167",
-            "category": "cake",
-            "title": "Torta Cake",
-            "description": "Maecenas interdum ex id venenatis luctus. Nam gravida libero ac malesuada cursus.",
-            "price": "12.99"
-        }
+    "MainProductInfo": {
+        "skuNumber": "TORT167",
+        "category": "cake",
+        "title": "Torta Cake",
+        "description": "Maecenas interdum ex id venenatis luctus. Nam gravida libero ac malesuada cursus.",
+        "price": "12.99"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2018-08-22 20:17:24",
@@ -14989,14 +14395,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "VALE270",
-            "category": "chocolate",
-            "title": "Valentines Day Chocolate Pack",
-            "description": "Nam gravida libero ac malesuada cursus. Vivamus semper justo sed dictum aliquam.",
-            "price": "19.99"
-        }
+    "MainProductInfo": {
+        "skuNumber": "VALE270",
+        "category": "chocolate",
+        "title": "Valentines Day Chocolate Pack",
+        "description": "Nam gravida libero ac malesuada cursus. Vivamus semper justo sed dictum aliquam.",
+        "price": "19.99"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2016-08-16 20:17:24",
@@ -15036,14 +14440,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "CHER516",
-            "category": "pie",
-            "title": "Cherry Pie",
-            "description": "Vivamus semper justo sed dictum aliquam. Maecenas eget lectus ultrices, porta eros a, blandit nisi. Phasellus vel velit eget nibh porttitor feugiat id ac massa.",
-            "price": "4.99"
-        }
+    "MainProductInfo": {
+        "skuNumber": "CHER516",
+        "category": "pie",
+        "title": "Cherry Pie",
+        "description": "Vivamus semper justo sed dictum aliquam. Maecenas eget lectus ultrices, porta eros a, blandit nisi. Phasellus vel velit eget nibh porttitor feugiat id ac massa.",
+        "price": "4.99"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2019-09-07 20:17:24",
@@ -15087,14 +14489,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "DOUB231",
-            "category": "chocolate",
-            "title": "Double Chocolate Truffel",
-            "description": "Vivamus pharetra sapien at sem ultrices semper. Maecenas eget lectus ultrices, porta eros a, blandit nisi. Aenean sit amet massa ac dolor interdum varius. Praesent bibendum mi et augue lacinia auctor.",
-            "price": "3.49"
-        }
+    "MainProductInfo": {
+        "skuNumber": "DOUB231",
+        "category": "chocolate",
+        "title": "Double Chocolate Truffel",
+        "description": "Vivamus pharetra sapien at sem ultrices semper. Maecenas eget lectus ultrices, porta eros a, blandit nisi. Aenean sit amet massa ac dolor interdum varius. Praesent bibendum mi et augue lacinia auctor.",
+        "price": "3.49"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2017-12-20 20:17:24",
@@ -15134,14 +14534,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "CARR113",
-            "category": "cake",
-            "title": "Carrot Cake",
-            "description": "Nam gravida libero ac malesuada cursus. Vivamus semper justo sed dictum aliquam.",
-            "price": "7.99"
-        }
+    "MainProductInfo": {
+        "skuNumber": "CARR113",
+        "category": "cake",
+        "title": "Carrot Cake",
+        "description": "Nam gravida libero ac malesuada cursus. Vivamus semper justo sed dictum aliquam.",
+        "price": "7.99"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2017-03-24 20:17:24",
@@ -15176,14 +14574,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "WHIT276",
-            "category": "chocolate",
-            "title": "White Chocolate Truffel",
-            "description": "Cras sit amet eros congue, rhoncus sem sed, consequat arcu. In a magna pretium, laoreet neque eget, consectetur justo. Vivamus pharetra sapien at sem ultrices semper. Ut quis massa sit amet enim faucibus suscipit ac viverra elit.",
-            "price": "3.49"
-        }
+    "MainProductInfo": {
+        "skuNumber": "WHIT276",
+        "category": "chocolate",
+        "title": "White Chocolate Truffel",
+        "description": "Cras sit amet eros congue, rhoncus sem sed, consequat arcu. In a magna pretium, laoreet neque eget, consectetur justo. Vivamus pharetra sapien at sem ultrices semper. Ut quis massa sit amet enim faucibus suscipit ac viverra elit.",
+        "price": "3.49"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2018-12-31 20:17:24",
@@ -15227,14 +14623,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "LOAF146",
-            "category": "cake",
-            "title": "Loaf Cake",
-            "description": "Donec sed dui hendrerit nulla iaculis vestibulum. Morbi consectetur urna sit amet facilisis gravida. In a magna pretium, laoreet neque eget, consectetur justo.",
-            "price": "3.99"
-        }
+    "MainProductInfo": {
+        "skuNumber": "LOAF146",
+        "category": "cake",
+        "title": "Loaf Cake",
+        "description": "Donec sed dui hendrerit nulla iaculis vestibulum. Morbi consectetur urna sit amet facilisis gravida. In a magna pretium, laoreet neque eget, consectetur justo.",
+        "price": "3.99"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2018-01-25 20:17:24",
@@ -15274,14 +14668,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "WEDD173",
-            "category": "cake",
-            "title": "Wedding Cake",
-            "description": "Quisque et magna malesuada, fermentum nisl sed, imperdiet nunc. Maecenas interdum ex id venenatis luctus. Vivamus semper justo sed dictum aliquam. Nullam quis tortor accumsan, sagittis sem in, porttitor orci.",
-            "price": "49.99"
-        }
+    "MainProductInfo": {
+        "skuNumber": "WEDD173",
+        "category": "cake",
+        "title": "Wedding Cake",
+        "description": "Quisque et magna malesuada, fermentum nisl sed, imperdiet nunc. Maecenas interdum ex id venenatis luctus. Vivamus semper justo sed dictum aliquam. Nullam quis tortor accumsan, sagittis sem in, porttitor orci.",
+        "price": "49.99"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2016-09-28 20:17:24",
@@ -15321,14 +14713,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "PEAN252",
-            "category": "chocolate",
-            "title": "Peanut Truffle",
-            "description": "Nam gravida libero ac malesuada cursus. Vivamus pharetra sapien at sem ultrices semper. Vivamus semper justo sed dictum aliquam.",
-            "price": "3.49"
-        }
+    "MainProductInfo": {
+        "skuNumber": "PEAN252",
+        "category": "chocolate",
+        "title": "Peanut Truffle",
+        "description": "Nam gravida libero ac malesuada cursus. Vivamus pharetra sapien at sem ultrices semper. Vivamus semper justo sed dictum aliquam.",
+        "price": "3.49"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2019-02-15 20:17:24",
@@ -15376,14 +14766,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "CARR113",
-            "category": "cake",
-            "title": "Carrot Cake",
-            "description": "Nam gravida libero ac malesuada cursus. Vivamus semper justo sed dictum aliquam.",
-            "price": "7.99"
-        }
+    "MainProductInfo": {
+        "skuNumber": "CARR113",
+        "category": "cake",
+        "title": "Carrot Cake",
+        "description": "Nam gravida libero ac malesuada cursus. Vivamus semper justo sed dictum aliquam.",
+        "price": "7.99"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2016-12-27 20:17:24",
@@ -15418,14 +14806,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "CHER516",
-            "category": "pie",
-            "title": "Cherry Pie",
-            "description": "Vivamus semper justo sed dictum aliquam. Maecenas eget lectus ultrices, porta eros a, blandit nisi. Phasellus vel velit eget nibh porttitor feugiat id ac massa.",
-            "price": "4.99"
-        }
+    "MainProductInfo": {
+        "skuNumber": "CHER516",
+        "category": "pie",
+        "title": "Cherry Pie",
+        "description": "Vivamus semper justo sed dictum aliquam. Maecenas eget lectus ultrices, porta eros a, blandit nisi. Phasellus vel velit eget nibh porttitor feugiat id ac massa.",
+        "price": "4.99"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2017-02-13 20:17:24",
@@ -15469,14 +14855,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "GLOW437",
-            "category": "donut",
-            "title": "Glow In The Dark Donut",
-            "description": "Nam gravida libero ac malesuada cursus. Vivamus pharetra sapien at sem ultrices semper.",
-            "price": "0.79"
-        }
+    "MainProductInfo": {
+        "skuNumber": "GLOW437",
+        "category": "donut",
+        "title": "Glow In The Dark Donut",
+        "description": "Nam gravida libero ac malesuada cursus. Vivamus pharetra sapien at sem ultrices semper.",
+        "price": "0.79"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2019-05-15 20:17:24",
@@ -15520,14 +14904,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "DOUB231",
-            "category": "chocolate",
-            "title": "Double Chocolate Truffel",
-            "description": "Vivamus pharetra sapien at sem ultrices semper. Maecenas eget lectus ultrices, porta eros a, blandit nisi. Aenean sit amet massa ac dolor interdum varius. Praesent bibendum mi et augue lacinia auctor.",
-            "price": "3.49"
-        }
+    "MainProductInfo": {
+        "skuNumber": "DOUB231",
+        "category": "chocolate",
+        "title": "Double Chocolate Truffel",
+        "description": "Vivamus pharetra sapien at sem ultrices semper. Maecenas eget lectus ultrices, porta eros a, blandit nisi. Aenean sit amet massa ac dolor interdum varius. Praesent bibendum mi et augue lacinia auctor.",
+        "price": "3.49"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2017-11-25 20:17:24",
@@ -15571,14 +14953,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "CHOC219",
-            "category": "chocolate",
-            "title": "Chocolate Bunny",
-            "description": "Cras sit amet eros congue, rhoncus sem sed, consequat arcu. Vivamus pharetra sapien at sem ultrices semper. Maecenas eget lectus ultrices, porta eros a, blandit nisi. Aenean sit amet massa ac dolor interdum varius. Praesent bibendum mi et augue lacinia auctor. Vivamus ac magna nec lacus varius pretium et vitae velit.",
-            "price": "6.49"
-        }
+    "MainProductInfo": {
+        "skuNumber": "CHOC219",
+        "category": "chocolate",
+        "title": "Chocolate Bunny",
+        "description": "Cras sit amet eros congue, rhoncus sem sed, consequat arcu. Vivamus pharetra sapien at sem ultrices semper. Maecenas eget lectus ultrices, porta eros a, blandit nisi. Aenean sit amet massa ac dolor interdum varius. Praesent bibendum mi et augue lacinia auctor. Vivamus ac magna nec lacus varius pretium et vitae velit.",
+        "price": "6.49"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2016-05-02 20:17:24",
@@ -15618,14 +14998,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "CHOC322",
-            "category": "cookie",
-            "title": "Chocolate Chip Cookie",
-            "description": "Cras sit amet eros congue, rhoncus sem sed, consequat arcu. Maecenas interdum ex id venenatis luctus. In a magna pretium, laoreet neque eget, consectetur justo. Nam gravida libero ac malesuada cursus. Vivamus pharetra sapien at sem ultrices semper. Vivamus semper justo sed dictum aliquam.",
-            "price": "0.88"
-        }
+    "MainProductInfo": {
+        "skuNumber": "CHOC322",
+        "category": "cookie",
+        "title": "Chocolate Chip Cookie",
+        "description": "Cras sit amet eros congue, rhoncus sem sed, consequat arcu. Maecenas interdum ex id venenatis luctus. In a magna pretium, laoreet neque eget, consectetur justo. Nam gravida libero ac malesuada cursus. Vivamus pharetra sapien at sem ultrices semper. Vivamus semper justo sed dictum aliquam.",
+        "price": "0.88"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2019-06-01 20:17:24",
@@ -15665,14 +15043,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "LAYE140",
-            "category": "cake",
-            "title": "Layer Cake Cherry Topping",
-            "description": "Cras sit amet eros congue, rhoncus sem sed, consequat arcu. Maecenas interdum ex id venenatis luctus.",
-            "price": "3.99"
-        }
+    "MainProductInfo": {
+        "skuNumber": "LAYE140",
+        "category": "cake",
+        "title": "Layer Cake Cherry Topping",
+        "description": "Cras sit amet eros congue, rhoncus sem sed, consequat arcu. Maecenas interdum ex id venenatis luctus.",
+        "price": "3.99"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2018-05-22 20:17:24",
@@ -15712,14 +15088,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "CHOC219",
-            "category": "chocolate",
-            "title": "Chocolate Bunny",
-            "description": "Cras sit amet eros congue, rhoncus sem sed, consequat arcu. Vivamus pharetra sapien at sem ultrices semper. Maecenas eget lectus ultrices, porta eros a, blandit nisi. Aenean sit amet massa ac dolor interdum varius. Praesent bibendum mi et augue lacinia auctor. Vivamus ac magna nec lacus varius pretium et vitae velit.",
-            "price": "6.49"
-        }
+    "MainProductInfo": {
+        "skuNumber": "CHOC219",
+        "category": "chocolate",
+        "title": "Chocolate Bunny",
+        "description": "Cras sit amet eros congue, rhoncus sem sed, consequat arcu. Vivamus pharetra sapien at sem ultrices semper. Maecenas eget lectus ultrices, porta eros a, blandit nisi. Aenean sit amet massa ac dolor interdum varius. Praesent bibendum mi et augue lacinia auctor. Vivamus ac magna nec lacus varius pretium et vitae velit.",
+        "price": "6.49"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2017-01-16 20:17:24",
@@ -15763,14 +15137,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "BIRT104",
-            "category": "cake",
-            "title": "Birthday Cake",
-            "description": "Nam gravida libero ac malesuada cursus. Ut quis massa sit amet enim faucibus suscipit ac viverra elit. Nullam quis tortor accumsan, sagittis sem in, porttitor orci. Aenean sit amet massa ac dolor interdum varius. Pellentesque vel risus placerat, consequat leo suscipit, dapibus nulla.",
-            "price": "9.99"
-        }
+    "MainProductInfo": {
+        "skuNumber": "BIRT104",
+        "category": "cake",
+        "title": "Birthday Cake",
+        "description": "Nam gravida libero ac malesuada cursus. Ut quis massa sit amet enim faucibus suscipit ac viverra elit. Nullam quis tortor accumsan, sagittis sem in, porttitor orci. Aenean sit amet massa ac dolor interdum varius. Pellentesque vel risus placerat, consequat leo suscipit, dapibus nulla.",
+        "price": "9.99"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2019-01-04 20:17:24",
@@ -15810,14 +15182,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "BIRT104",
-            "category": "cake",
-            "title": "Birthday Cake",
-            "description": "Nam gravida libero ac malesuada cursus. Ut quis massa sit amet enim faucibus suscipit ac viverra elit. Nullam quis tortor accumsan, sagittis sem in, porttitor orci. Aenean sit amet massa ac dolor interdum varius. Pellentesque vel risus placerat, consequat leo suscipit, dapibus nulla.",
-            "price": "9.99"
-        }
+    "MainProductInfo": {
+        "skuNumber": "BIRT104",
+        "category": "cake",
+        "title": "Birthday Cake",
+        "description": "Nam gravida libero ac malesuada cursus. Ut quis massa sit amet enim faucibus suscipit ac viverra elit. Nullam quis tortor accumsan, sagittis sem in, porttitor orci. Aenean sit amet massa ac dolor interdum varius. Pellentesque vel risus placerat, consequat leo suscipit, dapibus nulla.",
+        "price": "9.99"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2016-12-13 20:17:24",
@@ -15861,14 +15231,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "CHER516",
-            "category": "pie",
-            "title": "Cherry Pie",
-            "description": "Vivamus semper justo sed dictum aliquam. Maecenas eget lectus ultrices, porta eros a, blandit nisi. Phasellus vel velit eget nibh porttitor feugiat id ac massa.",
-            "price": "4.99"
-        }
+    "MainProductInfo": {
+        "skuNumber": "CHER516",
+        "category": "pie",
+        "title": "Cherry Pie",
+        "description": "Vivamus semper justo sed dictum aliquam. Maecenas eget lectus ultrices, porta eros a, blandit nisi. Phasellus vel velit eget nibh porttitor feugiat id ac massa.",
+        "price": "4.99"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2018-08-15 20:17:24",
@@ -15912,14 +15280,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "CHOC425",
-            "category": "donut",
-            "title": "Chocolate Covered Donut",
-            "description": "In a magna pretium, laoreet neque eget, consectetur justo. Nam gravida libero ac malesuada cursus. Vivamus pharetra sapien at sem ultrices semper.",
-            "price": "0.67"
-        }
+    "MainProductInfo": {
+        "skuNumber": "CHOC425",
+        "category": "donut",
+        "title": "Chocolate Covered Donut",
+        "description": "In a magna pretium, laoreet neque eget, consectetur justo. Nam gravida libero ac malesuada cursus. Vivamus pharetra sapien at sem ultrices semper.",
+        "price": "0.67"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2019-04-12 20:17:24",
@@ -15954,14 +15320,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "SCHW361",
-            "category": "cookie",
-            "title": "Schweineoehrchen Cookie",
-            "description": "Vivamus semper justo sed dictum aliquam. Nullam quis tortor accumsan, sagittis sem in, porttitor orci. Donec ac purus sed justo egestas ultricies. Mauris interdum elit nec dolor volutpat, sit amet sollicitudin eros facilisis.",
-            "price": "0.49"
-        }
+    "MainProductInfo": {
+        "skuNumber": "SCHW361",
+        "category": "cookie",
+        "title": "Schweineoehrchen Cookie",
+        "description": "Vivamus semper justo sed dictum aliquam. Nullam quis tortor accumsan, sagittis sem in, porttitor orci. Donec ac purus sed justo egestas ultricies. Mauris interdum elit nec dolor volutpat, sit amet sollicitudin eros facilisis.",
+        "price": "0.49"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2017-07-30 20:17:24",
@@ -16018,7 +15382,7 @@ db.purchases.insertOne(
         }
     },
     "ProductInfo": {
-        "MainProductInfo": null
+            "MainProductInfo": null
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2018-06-10 20:17:24",
@@ -16058,14 +15422,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "MUFF149",
-            "category": "cake",
-            "title": "Muffin",
-            "description": "In a magna pretium, laoreet neque eget, consectetur justo. Vivamus pharetra sapien at sem ultrices semper. Ut quis massa sit amet enim faucibus suscipit ac viverra elit. Maecenas eget lectus ultrices, porta eros a, blandit nisi.",
-            "price": "1.99"
-        }
+    "MainProductInfo": {
+        "skuNumber": "MUFF149",
+        "category": "cake",
+        "title": "Muffin",
+        "description": "In a magna pretium, laoreet neque eget, consectetur justo. Vivamus pharetra sapien at sem ultrices semper. Ut quis massa sit amet enim faucibus suscipit ac viverra elit. Maecenas eget lectus ultrices, porta eros a, blandit nisi.",
+        "price": "1.99"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2019-09-28 20:17:24",
@@ -16109,14 +15471,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "PEAN252",
-            "category": "chocolate",
-            "title": "Peanut Truffle",
-            "description": "Nam gravida libero ac malesuada cursus. Vivamus pharetra sapien at sem ultrices semper. Vivamus semper justo sed dictum aliquam.",
-            "price": "3.49"
-        }
+    "MainProductInfo": {
+        "skuNumber": "PEAN252",
+        "category": "chocolate",
+        "title": "Peanut Truffle",
+        "description": "Nam gravida libero ac malesuada cursus. Vivamus pharetra sapien at sem ultrices semper. Vivamus semper justo sed dictum aliquam.",
+        "price": "3.49"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2016-07-04 20:17:24",
@@ -16156,14 +15516,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "DOUB231",
-            "category": "chocolate",
-            "title": "Double Chocolate Truffel",
-            "description": "Vivamus pharetra sapien at sem ultrices semper. Maecenas eget lectus ultrices, porta eros a, blandit nisi. Aenean sit amet massa ac dolor interdum varius. Praesent bibendum mi et augue lacinia auctor.",
-            "price": "3.49"
-        }
+    "MainProductInfo": {
+        "skuNumber": "DOUB231",
+        "category": "chocolate",
+        "title": "Double Chocolate Truffel",
+        "description": "Vivamus pharetra sapien at sem ultrices semper. Maecenas eget lectus ultrices, porta eros a, blandit nisi. Aenean sit amet massa ac dolor interdum varius. Praesent bibendum mi et augue lacinia auctor.",
+        "price": "3.49"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2018-06-28 20:17:24",
@@ -16203,14 +15561,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "WEDD173",
-            "category": "cake",
-            "title": "Wedding Cake",
-            "description": "Quisque et magna malesuada, fermentum nisl sed, imperdiet nunc. Maecenas interdum ex id venenatis luctus. Vivamus semper justo sed dictum aliquam. Nullam quis tortor accumsan, sagittis sem in, porttitor orci.",
-            "price": "49.99"
-        }
+    "MainProductInfo": {
+        "skuNumber": "WEDD173",
+        "category": "cake",
+        "title": "Wedding Cake",
+        "description": "Quisque et magna malesuada, fermentum nisl sed, imperdiet nunc. Maecenas interdum ex id venenatis luctus. Vivamus semper justo sed dictum aliquam. Nullam quis tortor accumsan, sagittis sem in, porttitor orci.",
+        "price": "49.99"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2019-06-18 20:17:24",
@@ -16250,14 +15606,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "SCHW361",
-            "category": "cookie",
-            "title": "Schweineoehrchen Cookie",
-            "description": "Vivamus semper justo sed dictum aliquam. Nullam quis tortor accumsan, sagittis sem in, porttitor orci. Donec ac purus sed justo egestas ultricies. Mauris interdum elit nec dolor volutpat, sit amet sollicitudin eros facilisis.",
-            "price": "0.49"
-        }
+    "MainProductInfo": {
+        "skuNumber": "SCHW361",
+        "category": "cookie",
+        "title": "Schweineoehrchen Cookie",
+        "description": "Vivamus semper justo sed dictum aliquam. Nullam quis tortor accumsan, sagittis sem in, porttitor orci. Donec ac purus sed justo egestas ultricies. Mauris interdum elit nec dolor volutpat, sit amet sollicitudin eros facilisis.",
+        "price": "0.49"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2017-11-16 20:17:24",
@@ -16292,14 +15646,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "APPL501",
-            "category": "pie",
-            "title": "Apple Pie",
-            "description": "Praesent hendrerit tellus eget nibh lobortis, ut scelerisque mi mattis. Morbi consectetur urna sit amet facilisis gravida. Cras sit amet eros congue, rhoncus sem sed, consequat arcu. Maecenas interdum ex id venenatis luctus. In a magna pretium, laoreet neque eget, consectetur justo. Nam gravida libero ac malesuada cursus.",
-            "price": "4.99"
-        }
+    "MainProductInfo": {
+        "skuNumber": "APPL501",
+        "category": "pie",
+        "title": "Apple Pie",
+        "description": "Praesent hendrerit tellus eget nibh lobortis, ut scelerisque mi mattis. Morbi consectetur urna sit amet facilisis gravida. Cras sit amet eros congue, rhoncus sem sed, consequat arcu. Maecenas interdum ex id venenatis luctus. In a magna pretium, laoreet neque eget, consectetur justo. Nam gravida libero ac malesuada cursus.",
+        "price": "4.99"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2017-07-22 20:17:24",
@@ -16335,7 +15687,7 @@ db.purchases.insertOne(
         }
     },
     "ProductInfo": {
-        "MainProductInfo": null
+            "MainProductInfo": null
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2019-03-07 20:17:24",
@@ -16383,14 +15735,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "CHER516",
-            "category": "pie",
-            "title": "Cherry Pie",
-            "description": "Vivamus semper justo sed dictum aliquam. Maecenas eget lectus ultrices, porta eros a, blandit nisi. Phasellus vel velit eget nibh porttitor feugiat id ac massa.",
-            "price": "4.99"
-        }
+    "MainProductInfo": {
+        "skuNumber": "CHER516",
+        "category": "pie",
+        "title": "Cherry Pie",
+        "description": "Vivamus semper justo sed dictum aliquam. Maecenas eget lectus ultrices, porta eros a, blandit nisi. Phasellus vel velit eget nibh porttitor feugiat id ac massa.",
+        "price": "4.99"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2018-08-09 20:17:24",
@@ -16430,14 +15780,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "BLAC207",
-            "category": "chocolate",
-            "title": "Black And Tan Truffel",
-            "description": "Nam gravida libero ac malesuada cursus. Ut quis massa sit amet enim faucibus suscipit ac viverra elit. Nullam quis tortor accumsan, sagittis sem in, porttitor orci. Aenean sit amet massa ac dolor interdum varius. Pellentesque vel risus placerat, consequat leo suscipit, dapibus nulla. Vestibulum a sem volutpat, pellentesque eros et, placerat justo.",
-            "price": "3.49"
-        }
+    "MainProductInfo": {
+        "skuNumber": "BLAC207",
+        "category": "chocolate",
+        "title": "Black And Tan Truffel",
+        "description": "Nam gravida libero ac malesuada cursus. Ut quis massa sit amet enim faucibus suscipit ac viverra elit. Nullam quis tortor accumsan, sagittis sem in, porttitor orci. Aenean sit amet massa ac dolor interdum varius. Pellentesque vel risus placerat, consequat leo suscipit, dapibus nulla. Vestibulum a sem volutpat, pellentesque eros et, placerat justo.",
+        "price": "3.49"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2017-10-27 20:17:24",
@@ -16472,14 +15820,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "GLOW437",
-            "category": "donut",
-            "title": "Glow In The Dark Donut",
-            "description": "Nam gravida libero ac malesuada cursus. Vivamus pharetra sapien at sem ultrices semper.",
-            "price": "0.79"
-        }
+    "MainProductInfo": {
+        "skuNumber": "GLOW437",
+        "category": "donut",
+        "title": "Glow In The Dark Donut",
+        "description": "Nam gravida libero ac malesuada cursus. Vivamus pharetra sapien at sem ultrices semper.",
+        "price": "0.79"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2019-03-06 20:17:24",
@@ -16523,14 +15869,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "APPL501",
-            "category": "pie",
-            "title": "Apple Pie",
-            "description": "Praesent hendrerit tellus eget nibh lobortis, ut scelerisque mi mattis. Morbi consectetur urna sit amet facilisis gravida. Cras sit amet eros congue, rhoncus sem sed, consequat arcu. Maecenas interdum ex id venenatis luctus. In a magna pretium, laoreet neque eget, consectetur justo. Nam gravida libero ac malesuada cursus.",
-            "price": "4.99"
-        }
+    "MainProductInfo": {
+        "skuNumber": "APPL501",
+        "category": "pie",
+        "title": "Apple Pie",
+        "description": "Praesent hendrerit tellus eget nibh lobortis, ut scelerisque mi mattis. Morbi consectetur urna sit amet facilisis gravida. Cras sit amet eros congue, rhoncus sem sed, consequat arcu. Maecenas interdum ex id venenatis luctus. In a magna pretium, laoreet neque eget, consectetur justo. Nam gravida libero ac malesuada cursus.",
+        "price": "4.99"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2016-07-31 20:17:24",
@@ -16574,14 +15918,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "LAYE140",
-            "category": "cake",
-            "title": "Layer Cake Cherry Topping",
-            "description": "Cras sit amet eros congue, rhoncus sem sed, consequat arcu. Maecenas interdum ex id venenatis luctus.",
-            "price": "3.99"
-        }
+    "MainProductInfo": {
+        "skuNumber": "LAYE140",
+        "category": "cake",
+        "title": "Layer Cake Cherry Topping",
+        "description": "Cras sit amet eros congue, rhoncus sem sed, consequat arcu. Maecenas interdum ex id venenatis luctus.",
+        "price": "3.99"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2018-07-03 20:17:24",
@@ -16616,14 +15958,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "MUFF149",
-            "category": "cake",
-            "title": "Muffin",
-            "description": "In a magna pretium, laoreet neque eget, consectetur justo. Vivamus pharetra sapien at sem ultrices semper. Ut quis massa sit amet enim faucibus suscipit ac viverra elit. Maecenas eget lectus ultrices, porta eros a, blandit nisi.",
-            "price": "1.99"
-        }
+    "MainProductInfo": {
+        "skuNumber": "MUFF149",
+        "category": "cake",
+        "title": "Muffin",
+        "description": "In a magna pretium, laoreet neque eget, consectetur justo. Vivamus pharetra sapien at sem ultrices semper. Ut quis massa sit amet enim faucibus suscipit ac viverra elit. Maecenas eget lectus ultrices, porta eros a, blandit nisi.",
+        "price": "1.99"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2018-12-23 20:17:24",
@@ -16658,14 +15998,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "BLAC207",
-            "category": "chocolate",
-            "title": "Black And Tan Truffel",
-            "description": "Nam gravida libero ac malesuada cursus. Ut quis massa sit amet enim faucibus suscipit ac viverra elit. Nullam quis tortor accumsan, sagittis sem in, porttitor orci. Aenean sit amet massa ac dolor interdum varius. Pellentesque vel risus placerat, consequat leo suscipit, dapibus nulla. Vestibulum a sem volutpat, pellentesque eros et, placerat justo.",
-            "price": "3.49"
-        }
+    "MainProductInfo": {
+        "skuNumber": "BLAC207",
+        "category": "chocolate",
+        "title": "Black And Tan Truffel",
+        "description": "Nam gravida libero ac malesuada cursus. Ut quis massa sit amet enim faucibus suscipit ac viverra elit. Nullam quis tortor accumsan, sagittis sem in, porttitor orci. Aenean sit amet massa ac dolor interdum varius. Pellentesque vel risus placerat, consequat leo suscipit, dapibus nulla. Vestibulum a sem volutpat, pellentesque eros et, placerat justo.",
+        "price": "3.49"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2018-03-15 20:17:24",
@@ -16709,14 +16047,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "RASP258",
-            "category": "chocolate",
-            "title": "Raspberry Truffel",
-            "description": "Praesent hendrerit tellus eget nibh lobortis, ut scelerisque mi mattis. In a magna pretium, laoreet neque eget, consectetur justo.",
-            "price": "3.49"
-        }
+    "MainProductInfo": {
+        "skuNumber": "RASP258",
+        "category": "chocolate",
+        "title": "Raspberry Truffel",
+        "description": "Praesent hendrerit tellus eget nibh lobortis, ut scelerisque mi mattis. In a magna pretium, laoreet neque eget, consectetur justo.",
+        "price": "3.49"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2017-04-21 20:17:24",
@@ -16760,14 +16096,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "CARR113",
-            "category": "cake",
-            "title": "Carrot Cake",
-            "description": "Nam gravida libero ac malesuada cursus. Vivamus semper justo sed dictum aliquam.",
-            "price": "7.99"
-        }
+    "MainProductInfo": {
+        "skuNumber": "CARR113",
+        "category": "cake",
+        "title": "Carrot Cake",
+        "description": "Nam gravida libero ac malesuada cursus. Vivamus semper justo sed dictum aliquam.",
+        "price": "7.99"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2019-02-06 20:17:24",
@@ -16802,14 +16136,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "DOZE434",
-            "category": "donut",
-            "title": "Dozen Donuts",
-            "description": "Nam gravida libero ac malesuada cursus. Vivamus semper justo sed dictum aliquam. Praesent pretium justo at neque egestas mattis. Nullam quis tortor accumsan, sagittis sem in, porttitor orci. Phasellus vel velit eget nibh porttitor feugiat id ac massa. Donec ac purus sed justo egestas ultricies.",
-            "price": "6.99"
-        }
+    "MainProductInfo": {
+        "skuNumber": "DOZE434",
+        "category": "donut",
+        "title": "Dozen Donuts",
+        "description": "Nam gravida libero ac malesuada cursus. Vivamus semper justo sed dictum aliquam. Praesent pretium justo at neque egestas mattis. Nullam quis tortor accumsan, sagittis sem in, porttitor orci. Phasellus vel velit eget nibh porttitor feugiat id ac massa. Donec ac purus sed justo egestas ultricies.",
+        "price": "6.99"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2018-01-30 20:17:24",
@@ -16849,14 +16181,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "DOZE434",
-            "category": "donut",
-            "title": "Dozen Donuts",
-            "description": "Nam gravida libero ac malesuada cursus. Vivamus semper justo sed dictum aliquam. Praesent pretium justo at neque egestas mattis. Nullam quis tortor accumsan, sagittis sem in, porttitor orci. Phasellus vel velit eget nibh porttitor feugiat id ac massa. Donec ac purus sed justo egestas ultricies.",
-            "price": "6.99"
-        }
+    "MainProductInfo": {
+        "skuNumber": "DOZE434",
+        "category": "donut",
+        "title": "Dozen Donuts",
+        "description": "Nam gravida libero ac malesuada cursus. Vivamus semper justo sed dictum aliquam. Praesent pretium justo at neque egestas mattis. Nullam quis tortor accumsan, sagittis sem in, porttitor orci. Phasellus vel velit eget nibh porttitor feugiat id ac massa. Donec ac purus sed justo egestas ultricies.",
+        "price": "6.99"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2016-06-18 20:17:24",
@@ -16900,14 +16230,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "LOAF146",
-            "category": "cake",
-            "title": "Loaf Cake",
-            "description": "Donec sed dui hendrerit nulla iaculis vestibulum. Morbi consectetur urna sit amet facilisis gravida. In a magna pretium, laoreet neque eget, consectetur justo.",
-            "price": "3.99"
-        }
+    "MainProductInfo": {
+        "skuNumber": "LOAF146",
+        "category": "cake",
+        "title": "Loaf Cake",
+        "description": "Donec sed dui hendrerit nulla iaculis vestibulum. Morbi consectetur urna sit amet facilisis gravida. In a magna pretium, laoreet neque eget, consectetur justo.",
+        "price": "3.99"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2019-02-21 20:17:24",
@@ -16922,14 +16250,12 @@ db.purchases.insertOne(
         "PrimaryContactInfo": null,
         "Address": null
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "CHER516",
-            "category": "pie",
-            "title": "Cherry Pie",
-            "description": "Vivamus semper justo sed dictum aliquam. Maecenas eget lectus ultrices, porta eros a, blandit nisi. Phasellus vel velit eget nibh porttitor feugiat id ac massa.",
-            "price": "4.99"
-        }
+    "MainProductInfo": {
+        "skuNumber": "CHER516",
+        "category": "pie",
+        "title": "Cherry Pie",
+        "description": "Vivamus semper justo sed dictum aliquam. Maecenas eget lectus ultrices, porta eros a, blandit nisi. Phasellus vel velit eget nibh porttitor feugiat id ac massa.",
+        "price": "4.99"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2016-06-13 20:17:24",
@@ -16973,14 +16299,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "CHOC425",
-            "category": "donut",
-            "title": "Chocolate Covered Donut",
-            "description": "In a magna pretium, laoreet neque eget, consectetur justo. Nam gravida libero ac malesuada cursus. Vivamus pharetra sapien at sem ultrices semper.",
-            "price": "0.67"
-        }
+    "MainProductInfo": {
+        "skuNumber": "CHOC425",
+        "category": "donut",
+        "title": "Chocolate Covered Donut",
+        "description": "In a magna pretium, laoreet neque eget, consectetur justo. Nam gravida libero ac malesuada cursus. Vivamus pharetra sapien at sem ultrices semper.",
+        "price": "0.67"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2018-10-03 20:17:24",
@@ -17024,14 +16348,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "BIRT104",
-            "category": "cake",
-            "title": "Birthday Cake",
-            "description": "Nam gravida libero ac malesuada cursus. Ut quis massa sit amet enim faucibus suscipit ac viverra elit. Nullam quis tortor accumsan, sagittis sem in, porttitor orci. Aenean sit amet massa ac dolor interdum varius. Pellentesque vel risus placerat, consequat leo suscipit, dapibus nulla.",
-            "price": "9.99"
-        }
+    "MainProductInfo": {
+        "skuNumber": "BIRT104",
+        "category": "cake",
+        "title": "Birthday Cake",
+        "description": "Nam gravida libero ac malesuada cursus. Ut quis massa sit amet enim faucibus suscipit ac viverra elit. Nullam quis tortor accumsan, sagittis sem in, porttitor orci. Aenean sit amet massa ac dolor interdum varius. Pellentesque vel risus placerat, consequat leo suscipit, dapibus nulla.",
+        "price": "9.99"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2019-03-14 20:17:24",
@@ -17083,14 +16405,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "STAR464",
-            "category": "donut",
-            "title": "Star And Sprinkles Donut",
-            "description": "Nam gravida libero ac malesuada cursus. Vivamus pharetra sapien at sem ultrices semper.",
-            "price": "0.59"
-        }
+    "MainProductInfo": {
+        "skuNumber": "STAR464",
+        "category": "donut",
+        "title": "Star And Sprinkles Donut",
+        "description": "Nam gravida libero ac malesuada cursus. Vivamus pharetra sapien at sem ultrices semper.",
+        "price": "0.59"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2017-06-20 20:17:24",
@@ -17125,14 +16445,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "WHIT276",
-            "category": "chocolate",
-            "title": "White Chocolate Truffel",
-            "description": "Cras sit amet eros congue, rhoncus sem sed, consequat arcu. In a magna pretium, laoreet neque eget, consectetur justo. Vivamus pharetra sapien at sem ultrices semper. Ut quis massa sit amet enim faucibus suscipit ac viverra elit.",
-            "price": "3.49"
-        }
+    "MainProductInfo": {
+        "skuNumber": "WHIT276",
+        "category": "chocolate",
+        "title": "White Chocolate Truffel",
+        "description": "Cras sit amet eros congue, rhoncus sem sed, consequat arcu. In a magna pretium, laoreet neque eget, consectetur justo. Vivamus pharetra sapien at sem ultrices semper. Ut quis massa sit amet enim faucibus suscipit ac viverra elit.",
+        "price": "3.49"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2016-11-28 20:17:24",
@@ -17167,14 +16485,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "MUFF149",
-            "category": "cake",
-            "title": "Muffin",
-            "description": "In a magna pretium, laoreet neque eget, consectetur justo. Vivamus pharetra sapien at sem ultrices semper. Ut quis massa sit amet enim faucibus suscipit ac viverra elit. Maecenas eget lectus ultrices, porta eros a, blandit nisi.",
-            "price": "1.99"
-        }
+    "MainProductInfo": {
+        "skuNumber": "MUFF149",
+        "category": "cake",
+        "title": "Muffin",
+        "description": "In a magna pretium, laoreet neque eget, consectetur justo. Vivamus pharetra sapien at sem ultrices semper. Ut quis massa sit amet enim faucibus suscipit ac viverra elit. Maecenas eget lectus ultrices, porta eros a, blandit nisi.",
+        "price": "1.99"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2019-02-09 20:17:24",
@@ -17219,7 +16535,7 @@ db.purchases.insertOne(
         }
     },
     "ProductInfo": {
-        "MainProductInfo": null
+            "MainProductInfo": null
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2018-12-16 20:17:24",
@@ -17254,14 +16570,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "CHOC425",
-            "category": "donut",
-            "title": "Chocolate Covered Donut",
-            "description": "In a magna pretium, laoreet neque eget, consectetur justo. Nam gravida libero ac malesuada cursus. Vivamus pharetra sapien at sem ultrices semper.",
-            "price": "0.67"
-        }
+    "MainProductInfo": {
+        "skuNumber": "CHOC425",
+        "category": "donut",
+        "title": "Chocolate Covered Donut",
+        "description": "In a magna pretium, laoreet neque eget, consectetur justo. Nam gravida libero ac malesuada cursus. Vivamus pharetra sapien at sem ultrices semper.",
+        "price": "0.67"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2018-02-27 20:17:24",
@@ -17305,14 +16619,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "CHOC425",
-            "category": "donut",
-            "title": "Chocolate Covered Donut",
-            "description": "In a magna pretium, laoreet neque eget, consectetur justo. Nam gravida libero ac malesuada cursus. Vivamus pharetra sapien at sem ultrices semper.",
-            "price": "0.67"
-        }
+    "MainProductInfo": {
+        "skuNumber": "CHOC425",
+        "category": "donut",
+        "title": "Chocolate Covered Donut",
+        "description": "In a magna pretium, laoreet neque eget, consectetur justo. Nam gravida libero ac malesuada cursus. Vivamus pharetra sapien at sem ultrices semper.",
+        "price": "0.67"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2019-06-28 20:17:24",
@@ -17352,14 +16664,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "VALE270",
-            "category": "chocolate",
-            "title": "Valentines Day Chocolate Pack",
-            "description": "Nam gravida libero ac malesuada cursus. Vivamus semper justo sed dictum aliquam.",
-            "price": "19.99"
-        }
+    "MainProductInfo": {
+        "skuNumber": "VALE270",
+        "category": "chocolate",
+        "title": "Valentines Day Chocolate Pack",
+        "description": "Nam gravida libero ac malesuada cursus. Vivamus semper justo sed dictum aliquam.",
+        "price": "19.99"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2017-01-27 20:17:24",
@@ -17411,14 +16721,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "PEAN252",
-            "category": "chocolate",
-            "title": "Peanut Truffle",
-            "description": "Nam gravida libero ac malesuada cursus. Vivamus pharetra sapien at sem ultrices semper. Vivamus semper justo sed dictum aliquam.",
-            "price": "3.49"
-        }
+    "MainProductInfo": {
+        "skuNumber": "PEAN252",
+        "category": "chocolate",
+        "title": "Peanut Truffle",
+        "description": "Nam gravida libero ac malesuada cursus. Vivamus pharetra sapien at sem ultrices semper. Vivamus semper justo sed dictum aliquam.",
+        "price": "3.49"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2018-04-27 20:17:24",
@@ -17458,14 +16766,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "APPL501",
-            "category": "pie",
-            "title": "Apple Pie",
-            "description": "Praesent hendrerit tellus eget nibh lobortis, ut scelerisque mi mattis. Morbi consectetur urna sit amet facilisis gravida. Cras sit amet eros congue, rhoncus sem sed, consequat arcu. Maecenas interdum ex id venenatis luctus. In a magna pretium, laoreet neque eget, consectetur justo. Nam gravida libero ac malesuada cursus.",
-            "price": "4.99"
-        }
+    "MainProductInfo": {
+        "skuNumber": "APPL501",
+        "category": "pie",
+        "title": "Apple Pie",
+        "description": "Praesent hendrerit tellus eget nibh lobortis, ut scelerisque mi mattis. Morbi consectetur urna sit amet facilisis gravida. Cras sit amet eros congue, rhoncus sem sed, consequat arcu. Maecenas interdum ex id venenatis luctus. In a magna pretium, laoreet neque eget, consectetur justo. Nam gravida libero ac malesuada cursus.",
+        "price": "4.99"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2019-05-16 20:17:24",
@@ -17500,14 +16806,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "LOAF146",
-            "category": "cake",
-            "title": "Loaf Cake",
-            "description": "Donec sed dui hendrerit nulla iaculis vestibulum. Morbi consectetur urna sit amet facilisis gravida. In a magna pretium, laoreet neque eget, consectetur justo.",
-            "price": "3.99"
-        }
+    "MainProductInfo": {
+        "skuNumber": "LOAF146",
+        "category": "cake",
+        "title": "Loaf Cake",
+        "description": "Donec sed dui hendrerit nulla iaculis vestibulum. Morbi consectetur urna sit amet facilisis gravida. In a magna pretium, laoreet neque eget, consectetur justo.",
+        "price": "3.99"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2016-03-28 20:17:24",
@@ -17542,14 +16846,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "DOZE434",
-            "category": "donut",
-            "title": "Dozen Donuts",
-            "description": "Nam gravida libero ac malesuada cursus. Vivamus semper justo sed dictum aliquam. Praesent pretium justo at neque egestas mattis. Nullam quis tortor accumsan, sagittis sem in, porttitor orci. Phasellus vel velit eget nibh porttitor feugiat id ac massa. Donec ac purus sed justo egestas ultricies.",
-            "price": "6.99"
-        }
+    "MainProductInfo": {
+        "skuNumber": "DOZE434",
+        "category": "donut",
+        "title": "Dozen Donuts",
+        "description": "Nam gravida libero ac malesuada cursus. Vivamus semper justo sed dictum aliquam. Praesent pretium justo at neque egestas mattis. Nullam quis tortor accumsan, sagittis sem in, porttitor orci. Phasellus vel velit eget nibh porttitor feugiat id ac massa. Donec ac purus sed justo egestas ultricies.",
+        "price": "6.99"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2017-06-23 20:17:24",
@@ -17584,14 +16886,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "VALE270",
-            "category": "chocolate",
-            "title": "Valentines Day Chocolate Pack",
-            "description": "Nam gravida libero ac malesuada cursus. Vivamus semper justo sed dictum aliquam.",
-            "price": "19.99"
-        }
+    "MainProductInfo": {
+        "skuNumber": "VALE270",
+        "category": "chocolate",
+        "title": "Valentines Day Chocolate Pack",
+        "description": "Nam gravida libero ac malesuada cursus. Vivamus semper justo sed dictum aliquam.",
+        "price": "19.99"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2019-05-26 20:17:24",
@@ -17635,14 +16935,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "LAYE140",
-            "category": "cake",
-            "title": "Layer Cake Cherry Topping",
-            "description": "Cras sit amet eros congue, rhoncus sem sed, consequat arcu. Maecenas interdum ex id venenatis luctus.",
-            "price": "3.99"
-        }
+    "MainProductInfo": {
+        "skuNumber": "LAYE140",
+        "category": "cake",
+        "title": "Layer Cake Cherry Topping",
+        "description": "Cras sit amet eros congue, rhoncus sem sed, consequat arcu. Maecenas interdum ex id venenatis luctus.",
+        "price": "3.99"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2018-03-18 20:17:24",
@@ -17677,14 +16975,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "CHOC425",
-            "category": "donut",
-            "title": "Chocolate Covered Donut",
-            "description": "In a magna pretium, laoreet neque eget, consectetur justo. Nam gravida libero ac malesuada cursus. Vivamus pharetra sapien at sem ultrices semper.",
-            "price": "0.67"
-        }
+    "MainProductInfo": {
+        "skuNumber": "CHOC425",
+        "category": "donut",
+        "title": "Chocolate Covered Donut",
+        "description": "In a magna pretium, laoreet neque eget, consectetur justo. Nam gravida libero ac malesuada cursus. Vivamus pharetra sapien at sem ultrices semper.",
+        "price": "0.67"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2017-06-01 20:17:24",
@@ -17732,14 +17028,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "CHOC425",
-            "category": "donut",
-            "title": "Chocolate Covered Donut",
-            "description": "In a magna pretium, laoreet neque eget, consectetur justo. Nam gravida libero ac malesuada cursus. Vivamus pharetra sapien at sem ultrices semper.",
-            "price": "0.67"
-        }
+    "MainProductInfo": {
+        "skuNumber": "CHOC425",
+        "category": "donut",
+        "title": "Chocolate Covered Donut",
+        "description": "In a magna pretium, laoreet neque eget, consectetur justo. Nam gravida libero ac malesuada cursus. Vivamus pharetra sapien at sem ultrices semper.",
+        "price": "0.67"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2018-12-24 20:17:24",
@@ -17787,14 +17081,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "GLOW437",
-            "category": "donut",
-            "title": "Glow In The Dark Donut",
-            "description": "Nam gravida libero ac malesuada cursus. Vivamus pharetra sapien at sem ultrices semper.",
-            "price": "0.79"
-        }
+    "MainProductInfo": {
+        "skuNumber": "GLOW437",
+        "category": "donut",
+        "title": "Glow In The Dark Donut",
+        "description": "Nam gravida libero ac malesuada cursus. Vivamus pharetra sapien at sem ultrices semper.",
+        "price": "0.79"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2018-03-15 20:17:24",
@@ -17834,14 +17126,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "CHOC219",
-            "category": "chocolate",
-            "title": "Chocolate Bunny",
-            "description": "Cras sit amet eros congue, rhoncus sem sed, consequat arcu. Vivamus pharetra sapien at sem ultrices semper. Maecenas eget lectus ultrices, porta eros a, blandit nisi. Aenean sit amet massa ac dolor interdum varius. Praesent bibendum mi et augue lacinia auctor. Vivamus ac magna nec lacus varius pretium et vitae velit.",
-            "price": "6.49"
-        }
+    "MainProductInfo": {
+        "skuNumber": "CHOC219",
+        "category": "chocolate",
+        "title": "Chocolate Bunny",
+        "description": "Cras sit amet eros congue, rhoncus sem sed, consequat arcu. Vivamus pharetra sapien at sem ultrices semper. Maecenas eget lectus ultrices, porta eros a, blandit nisi. Aenean sit amet massa ac dolor interdum varius. Praesent bibendum mi et augue lacinia auctor. Vivamus ac magna nec lacus varius pretium et vitae velit.",
+        "price": "6.49"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2016-10-31 20:17:24",
@@ -17885,14 +17175,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "DOZE434",
-            "category": "donut",
-            "title": "Dozen Donuts",
-            "description": "Nam gravida libero ac malesuada cursus. Vivamus semper justo sed dictum aliquam. Praesent pretium justo at neque egestas mattis. Nullam quis tortor accumsan, sagittis sem in, porttitor orci. Phasellus vel velit eget nibh porttitor feugiat id ac massa. Donec ac purus sed justo egestas ultricies.",
-            "price": "6.99"
-        }
+    "MainProductInfo": {
+        "skuNumber": "DOZE434",
+        "category": "donut",
+        "title": "Dozen Donuts",
+        "description": "Nam gravida libero ac malesuada cursus. Vivamus semper justo sed dictum aliquam. Praesent pretium justo at neque egestas mattis. Nullam quis tortor accumsan, sagittis sem in, porttitor orci. Phasellus vel velit eget nibh porttitor feugiat id ac massa. Donec ac purus sed justo egestas ultricies.",
+        "price": "6.99"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2019-02-06 20:17:24",
@@ -17927,14 +17215,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "DOZE434",
-            "category": "donut",
-            "title": "Dozen Donuts",
-            "description": "Nam gravida libero ac malesuada cursus. Vivamus semper justo sed dictum aliquam. Praesent pretium justo at neque egestas mattis. Nullam quis tortor accumsan, sagittis sem in, porttitor orci. Phasellus vel velit eget nibh porttitor feugiat id ac massa. Donec ac purus sed justo egestas ultricies.",
-            "price": "6.99"
-        }
+    "MainProductInfo": {
+        "skuNumber": "DOZE434",
+        "category": "donut",
+        "title": "Dozen Donuts",
+        "description": "Nam gravida libero ac malesuada cursus. Vivamus semper justo sed dictum aliquam. Praesent pretium justo at neque egestas mattis. Nullam quis tortor accumsan, sagittis sem in, porttitor orci. Phasellus vel velit eget nibh porttitor feugiat id ac massa. Donec ac purus sed justo egestas ultricies.",
+        "price": "6.99"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2018-06-02 20:17:24",
@@ -17969,14 +17255,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "TORT167",
-            "category": "cake",
-            "title": "Torta Cake",
-            "description": "Maecenas interdum ex id venenatis luctus. Nam gravida libero ac malesuada cursus.",
-            "price": "12.99"
-        }
+    "MainProductInfo": {
+        "skuNumber": "TORT167",
+        "category": "cake",
+        "title": "Torta Cake",
+        "description": "Maecenas interdum ex id venenatis luctus. Nam gravida libero ac malesuada cursus.",
+        "price": "12.99"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2018-02-28 20:17:24",
@@ -18020,14 +17304,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "DOZE434",
-            "category": "donut",
-            "title": "Dozen Donuts",
-            "description": "Nam gravida libero ac malesuada cursus. Vivamus semper justo sed dictum aliquam. Praesent pretium justo at neque egestas mattis. Nullam quis tortor accumsan, sagittis sem in, porttitor orci. Phasellus vel velit eget nibh porttitor feugiat id ac massa. Donec ac purus sed justo egestas ultricies.",
-            "price": "6.99"
-        }
+    "MainProductInfo": {
+        "skuNumber": "DOZE434",
+        "category": "donut",
+        "title": "Dozen Donuts",
+        "description": "Nam gravida libero ac malesuada cursus. Vivamus semper justo sed dictum aliquam. Praesent pretium justo at neque egestas mattis. Nullam quis tortor accumsan, sagittis sem in, porttitor orci. Phasellus vel velit eget nibh porttitor feugiat id ac massa. Donec ac purus sed justo egestas ultricies.",
+        "price": "6.99"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2019-08-27 20:17:24",
@@ -18067,14 +17349,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "CHOC322",
-            "category": "cookie",
-            "title": "Chocolate Chip Cookie",
-            "description": "Cras sit amet eros congue, rhoncus sem sed, consequat arcu. Maecenas interdum ex id venenatis luctus. In a magna pretium, laoreet neque eget, consectetur justo. Nam gravida libero ac malesuada cursus. Vivamus pharetra sapien at sem ultrices semper. Vivamus semper justo sed dictum aliquam.",
-            "price": "0.88"
-        }
+    "MainProductInfo": {
+        "skuNumber": "CHOC322",
+        "category": "cookie",
+        "title": "Chocolate Chip Cookie",
+        "description": "Cras sit amet eros congue, rhoncus sem sed, consequat arcu. Maecenas interdum ex id venenatis luctus. In a magna pretium, laoreet neque eget, consectetur justo. Nam gravida libero ac malesuada cursus. Vivamus pharetra sapien at sem ultrices semper. Vivamus semper justo sed dictum aliquam.",
+        "price": "0.88"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2017-03-10 20:17:24",
@@ -18118,14 +17398,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "CHOC228",
-            "category": "chocolate",
-            "title": "Chocolate Bar",
-            "description": "Vivamus semper justo sed dictum aliquam. Nullam quis tortor accumsan, sagittis sem in, porttitor orci. Donec ac purus sed justo egestas ultricies.",
-            "price": "2.99"
-        }
+    "MainProductInfo": {
+        "skuNumber": "CHOC228",
+        "category": "chocolate",
+        "title": "Chocolate Bar",
+        "description": "Vivamus semper justo sed dictum aliquam. Nullam quis tortor accumsan, sagittis sem in, porttitor orci. Donec ac purus sed justo egestas ultricies.",
+        "price": "2.99"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2018-09-08 20:17:24",
@@ -18165,14 +17443,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "BIRT104",
-            "category": "cake",
-            "title": "Birthday Cake",
-            "description": "Nam gravida libero ac malesuada cursus. Ut quis massa sit amet enim faucibus suscipit ac viverra elit. Nullam quis tortor accumsan, sagittis sem in, porttitor orci. Aenean sit amet massa ac dolor interdum varius. Pellentesque vel risus placerat, consequat leo suscipit, dapibus nulla.",
-            "price": "9.99"
-        }
+    "MainProductInfo": {
+        "skuNumber": "BIRT104",
+        "category": "cake",
+        "title": "Birthday Cake",
+        "description": "Nam gravida libero ac malesuada cursus. Ut quis massa sit amet enim faucibus suscipit ac viverra elit. Nullam quis tortor accumsan, sagittis sem in, porttitor orci. Aenean sit amet massa ac dolor interdum varius. Pellentesque vel risus placerat, consequat leo suscipit, dapibus nulla.",
+        "price": "9.99"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2019-09-17 20:17:24",
@@ -18207,14 +17483,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "LAYE143",
-            "category": "cake",
-            "title": "Layer Cake",
-            "description": "Cras sit amet eros congue, rhoncus sem sed, consequat arcu. Vivamus pharetra sapien at sem ultrices semper. Maecenas eget lectus ultrices, porta eros a, blandit nisi. Aenean sit amet massa ac dolor interdum varius. Praesent bibendum mi et augue lacinia auctor. Vivamus ac magna nec lacus varius pretium et vitae velit.",
-            "price": "2.99"
-        }
+    "MainProductInfo": {
+        "skuNumber": "LAYE143",
+        "category": "cake",
+        "title": "Layer Cake",
+        "description": "Cras sit amet eros congue, rhoncus sem sed, consequat arcu. Vivamus pharetra sapien at sem ultrices semper. Maecenas eget lectus ultrices, porta eros a, blandit nisi. Aenean sit amet massa ac dolor interdum varius. Praesent bibendum mi et augue lacinia auctor. Vivamus ac magna nec lacus varius pretium et vitae velit.",
+        "price": "2.99"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2018-08-15 20:17:24",
@@ -18266,14 +17540,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "CHOC228",
-            "category": "chocolate",
-            "title": "Chocolate Bar",
-            "description": "Vivamus semper justo sed dictum aliquam. Nullam quis tortor accumsan, sagittis sem in, porttitor orci. Donec ac purus sed justo egestas ultricies.",
-            "price": "2.99"
-        }
+    "MainProductInfo": {
+        "skuNumber": "CHOC228",
+        "category": "chocolate",
+        "title": "Chocolate Bar",
+        "description": "Vivamus semper justo sed dictum aliquam. Nullam quis tortor accumsan, sagittis sem in, porttitor orci. Donec ac purus sed justo egestas ultricies.",
+        "price": "2.99"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2017-02-12 20:17:24",
@@ -18317,14 +17589,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "STAR464",
-            "category": "donut",
-            "title": "Star And Sprinkles Donut",
-            "description": "Nam gravida libero ac malesuada cursus. Vivamus pharetra sapien at sem ultrices semper.",
-            "price": "0.59"
-        }
+    "MainProductInfo": {
+        "skuNumber": "STAR464",
+        "category": "donut",
+        "title": "Star And Sprinkles Donut",
+        "description": "Nam gravida libero ac malesuada cursus. Vivamus pharetra sapien at sem ultrices semper.",
+        "price": "0.59"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2019-04-16 20:17:24",
@@ -18368,14 +17638,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "MUFF149",
-            "category": "cake",
-            "title": "Muffin",
-            "description": "In a magna pretium, laoreet neque eget, consectetur justo. Vivamus pharetra sapien at sem ultrices semper. Ut quis massa sit amet enim faucibus suscipit ac viverra elit. Maecenas eget lectus ultrices, porta eros a, blandit nisi.",
-            "price": "1.99"
-        }
+    "MainProductInfo": {
+        "skuNumber": "MUFF149",
+        "category": "cake",
+        "title": "Muffin",
+        "description": "In a magna pretium, laoreet neque eget, consectetur justo. Vivamus pharetra sapien at sem ultrices semper. Ut quis massa sit amet enim faucibus suscipit ac viverra elit. Maecenas eget lectus ultrices, porta eros a, blandit nisi.",
+        "price": "1.99"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2016-10-17 20:17:24",
@@ -18415,14 +17683,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "TORT167",
-            "category": "cake",
-            "title": "Torta Cake",
-            "description": "Maecenas interdum ex id venenatis luctus. Nam gravida libero ac malesuada cursus.",
-            "price": "12.99"
-        }
+    "MainProductInfo": {
+        "skuNumber": "TORT167",
+        "category": "cake",
+        "title": "Torta Cake",
+        "description": "Maecenas interdum ex id venenatis luctus. Nam gravida libero ac malesuada cursus.",
+        "price": "12.99"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2017-01-13 20:17:24",
@@ -18457,14 +17723,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "PEAN252",
-            "category": "chocolate",
-            "title": "Peanut Truffle",
-            "description": "Nam gravida libero ac malesuada cursus. Vivamus pharetra sapien at sem ultrices semper. Vivamus semper justo sed dictum aliquam.",
-            "price": "3.49"
-        }
+    "MainProductInfo": {
+        "skuNumber": "PEAN252",
+        "category": "chocolate",
+        "title": "Peanut Truffle",
+        "description": "Nam gravida libero ac malesuada cursus. Vivamus pharetra sapien at sem ultrices semper. Vivamus semper justo sed dictum aliquam.",
+        "price": "3.49"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2019-03-26 20:17:24",
@@ -18508,14 +17772,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "DOZE434",
-            "category": "donut",
-            "title": "Dozen Donuts",
-            "description": "Nam gravida libero ac malesuada cursus. Vivamus semper justo sed dictum aliquam. Praesent pretium justo at neque egestas mattis. Nullam quis tortor accumsan, sagittis sem in, porttitor orci. Phasellus vel velit eget nibh porttitor feugiat id ac massa. Donec ac purus sed justo egestas ultricies.",
-            "price": "6.99"
-        }
+    "MainProductInfo": {
+        "skuNumber": "DOZE434",
+        "category": "donut",
+        "title": "Dozen Donuts",
+        "description": "Nam gravida libero ac malesuada cursus. Vivamus semper justo sed dictum aliquam. Praesent pretium justo at neque egestas mattis. Nullam quis tortor accumsan, sagittis sem in, porttitor orci. Phasellus vel velit eget nibh porttitor feugiat id ac massa. Donec ac purus sed justo egestas ultricies.",
+        "price": "6.99"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2017-04-14 20:17:24",
@@ -18550,14 +17812,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "RASP258",
-            "category": "chocolate",
-            "title": "Raspberry Truffel",
-            "description": "Praesent hendrerit tellus eget nibh lobortis, ut scelerisque mi mattis. In a magna pretium, laoreet neque eget, consectetur justo.",
-            "price": "3.49"
-        }
+    "MainProductInfo": {
+        "skuNumber": "RASP258",
+        "category": "chocolate",
+        "title": "Raspberry Truffel",
+        "description": "Praesent hendrerit tellus eget nibh lobortis, ut scelerisque mi mattis. In a magna pretium, laoreet neque eget, consectetur justo.",
+        "price": "3.49"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2016-07-11 20:17:24",
@@ -18592,14 +17852,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "WHIT276",
-            "category": "chocolate",
-            "title": "White Chocolate Truffel",
-            "description": "Cras sit amet eros congue, rhoncus sem sed, consequat arcu. In a magna pretium, laoreet neque eget, consectetur justo. Vivamus pharetra sapien at sem ultrices semper. Ut quis massa sit amet enim faucibus suscipit ac viverra elit.",
-            "price": "3.49"
-        }
+    "MainProductInfo": {
+        "skuNumber": "WHIT276",
+        "category": "chocolate",
+        "title": "White Chocolate Truffel",
+        "description": "Cras sit amet eros congue, rhoncus sem sed, consequat arcu. In a magna pretium, laoreet neque eget, consectetur justo. Vivamus pharetra sapien at sem ultrices semper. Ut quis massa sit amet enim faucibus suscipit ac viverra elit.",
+        "price": "3.49"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2019-08-09 20:17:24",
@@ -18639,14 +17897,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "CHOC219",
-            "category": "chocolate",
-            "title": "Chocolate Bunny",
-            "description": "Cras sit amet eros congue, rhoncus sem sed, consequat arcu. Vivamus pharetra sapien at sem ultrices semper. Maecenas eget lectus ultrices, porta eros a, blandit nisi. Aenean sit amet massa ac dolor interdum varius. Praesent bibendum mi et augue lacinia auctor. Vivamus ac magna nec lacus varius pretium et vitae velit.",
-            "price": "6.49"
-        }
+    "MainProductInfo": {
+        "skuNumber": "CHOC219",
+        "category": "chocolate",
+        "title": "Chocolate Bunny",
+        "description": "Cras sit amet eros congue, rhoncus sem sed, consequat arcu. Vivamus pharetra sapien at sem ultrices semper. Maecenas eget lectus ultrices, porta eros a, blandit nisi. Aenean sit amet massa ac dolor interdum varius. Praesent bibendum mi et augue lacinia auctor. Vivamus ac magna nec lacus varius pretium et vitae velit.",
+        "price": "6.49"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2018-07-14 20:17:24",
@@ -18686,14 +17942,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "SCHW361",
-            "category": "cookie",
-            "title": "Schweineoehrchen Cookie",
-            "description": "Vivamus semper justo sed dictum aliquam. Nullam quis tortor accumsan, sagittis sem in, porttitor orci. Donec ac purus sed justo egestas ultricies. Mauris interdum elit nec dolor volutpat, sit amet sollicitudin eros facilisis.",
-            "price": "0.49"
-        }
+    "MainProductInfo": {
+        "skuNumber": "SCHW361",
+        "category": "cookie",
+        "title": "Schweineoehrchen Cookie",
+        "description": "Vivamus semper justo sed dictum aliquam. Nullam quis tortor accumsan, sagittis sem in, porttitor orci. Donec ac purus sed justo egestas ultricies. Mauris interdum elit nec dolor volutpat, sit amet sollicitudin eros facilisis.",
+        "price": "0.49"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2018-10-12 20:17:24",
@@ -18737,14 +17991,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "CHOC219",
-            "category": "chocolate",
-            "title": "Chocolate Bunny",
-            "description": "Cras sit amet eros congue, rhoncus sem sed, consequat arcu. Vivamus pharetra sapien at sem ultrices semper. Maecenas eget lectus ultrices, porta eros a, blandit nisi. Aenean sit amet massa ac dolor interdum varius. Praesent bibendum mi et augue lacinia auctor. Vivamus ac magna nec lacus varius pretium et vitae velit.",
-            "price": "6.49"
-        }
+    "MainProductInfo": {
+        "skuNumber": "CHOC219",
+        "category": "chocolate",
+        "title": "Chocolate Bunny",
+        "description": "Cras sit amet eros congue, rhoncus sem sed, consequat arcu. Vivamus pharetra sapien at sem ultrices semper. Maecenas eget lectus ultrices, porta eros a, blandit nisi. Aenean sit amet massa ac dolor interdum varius. Praesent bibendum mi et augue lacinia auctor. Vivamus ac magna nec lacus varius pretium et vitae velit.",
+        "price": "6.49"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2019-09-12 20:17:24",
@@ -18788,14 +18040,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "SCHW361",
-            "category": "cookie",
-            "title": "Schweineoehrchen Cookie",
-            "description": "Vivamus semper justo sed dictum aliquam. Nullam quis tortor accumsan, sagittis sem in, porttitor orci. Donec ac purus sed justo egestas ultricies. Mauris interdum elit nec dolor volutpat, sit amet sollicitudin eros facilisis.",
-            "price": "0.49"
-        }
+    "MainProductInfo": {
+        "skuNumber": "SCHW361",
+        "category": "cookie",
+        "title": "Schweineoehrchen Cookie",
+        "description": "Vivamus semper justo sed dictum aliquam. Nullam quis tortor accumsan, sagittis sem in, porttitor orci. Donec ac purus sed justo egestas ultricies. Mauris interdum elit nec dolor volutpat, sit amet sollicitudin eros facilisis.",
+        "price": "0.49"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2017-08-05 20:17:24",
@@ -18839,14 +18089,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "WEDD173",
-            "category": "cake",
-            "title": "Wedding Cake",
-            "description": "Quisque et magna malesuada, fermentum nisl sed, imperdiet nunc. Maecenas interdum ex id venenatis luctus. Vivamus semper justo sed dictum aliquam. Nullam quis tortor accumsan, sagittis sem in, porttitor orci.",
-            "price": "49.99"
-        }
+    "MainProductInfo": {
+        "skuNumber": "WEDD173",
+        "category": "cake",
+        "title": "Wedding Cake",
+        "description": "Quisque et magna malesuada, fermentum nisl sed, imperdiet nunc. Maecenas interdum ex id venenatis luctus. Vivamus semper justo sed dictum aliquam. Nullam quis tortor accumsan, sagittis sem in, porttitor orci.",
+        "price": "49.99"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2017-09-09 20:17:24",
@@ -18886,14 +18134,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "LAYE140",
-            "category": "cake",
-            "title": "Layer Cake Cherry Topping",
-            "description": "Cras sit amet eros congue, rhoncus sem sed, consequat arcu. Maecenas interdum ex id venenatis luctus.",
-            "price": "3.99"
-        }
+    "MainProductInfo": {
+        "skuNumber": "LAYE140",
+        "category": "cake",
+        "title": "Layer Cake Cherry Topping",
+        "description": "Cras sit amet eros congue, rhoncus sem sed, consequat arcu. Maecenas interdum ex id venenatis luctus.",
+        "price": "3.99"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2019-09-07 20:17:24",
@@ -18928,14 +18174,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "STAR464",
-            "category": "donut",
-            "title": "Star And Sprinkles Donut",
-            "description": "Nam gravida libero ac malesuada cursus. Vivamus pharetra sapien at sem ultrices semper.",
-            "price": "0.59"
-        }
+    "MainProductInfo": {
+        "skuNumber": "STAR464",
+        "category": "donut",
+        "title": "Star And Sprinkles Donut",
+        "description": "Nam gravida libero ac malesuada cursus. Vivamus pharetra sapien at sem ultrices semper.",
+        "price": "0.59"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2017-04-10 20:17:24",
@@ -18975,14 +18219,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "RASP258",
-            "category": "chocolate",
-            "title": "Raspberry Truffel",
-            "description": "Praesent hendrerit tellus eget nibh lobortis, ut scelerisque mi mattis. In a magna pretium, laoreet neque eget, consectetur justo.",
-            "price": "3.49"
-        }
+    "MainProductInfo": {
+        "skuNumber": "RASP258",
+        "category": "chocolate",
+        "title": "Raspberry Truffel",
+        "description": "Praesent hendrerit tellus eget nibh lobortis, ut scelerisque mi mattis. In a magna pretium, laoreet neque eget, consectetur justo.",
+        "price": "3.49"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2017-04-14 20:17:24",
@@ -19017,14 +18259,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "WHIT276",
-            "category": "chocolate",
-            "title": "White Chocolate Truffel",
-            "description": "Cras sit amet eros congue, rhoncus sem sed, consequat arcu. In a magna pretium, laoreet neque eget, consectetur justo. Vivamus pharetra sapien at sem ultrices semper. Ut quis massa sit amet enim faucibus suscipit ac viverra elit.",
-            "price": "3.49"
-        }
+    "MainProductInfo": {
+        "skuNumber": "WHIT276",
+        "category": "chocolate",
+        "title": "White Chocolate Truffel",
+        "description": "Cras sit amet eros congue, rhoncus sem sed, consequat arcu. In a magna pretium, laoreet neque eget, consectetur justo. Vivamus pharetra sapien at sem ultrices semper. Ut quis massa sit amet enim faucibus suscipit ac viverra elit.",
+        "price": "3.49"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2019-03-15 20:17:24",
@@ -19081,7 +18321,7 @@ db.purchases.insertOne(
         }
     },
     "ProductInfo": {
-        "MainProductInfo": null
+            "MainProductInfo": null
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2016-06-26 20:17:24",
@@ -19121,14 +18361,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "WHIT276",
-            "category": "chocolate",
-            "title": "White Chocolate Truffel",
-            "description": "Cras sit amet eros congue, rhoncus sem sed, consequat arcu. In a magna pretium, laoreet neque eget, consectetur justo. Vivamus pharetra sapien at sem ultrices semper. Ut quis massa sit amet enim faucibus suscipit ac viverra elit.",
-            "price": "3.49"
-        }
+    "MainProductInfo": {
+        "skuNumber": "WHIT276",
+        "category": "chocolate",
+        "title": "White Chocolate Truffel",
+        "description": "Cras sit amet eros congue, rhoncus sem sed, consequat arcu. In a magna pretium, laoreet neque eget, consectetur justo. Vivamus pharetra sapien at sem ultrices semper. Ut quis massa sit amet enim faucibus suscipit ac viverra elit.",
+        "price": "3.49"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2017-10-05 20:17:24",
@@ -19180,14 +18418,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "STAR464",
-            "category": "donut",
-            "title": "Star And Sprinkles Donut",
-            "description": "Nam gravida libero ac malesuada cursus. Vivamus pharetra sapien at sem ultrices semper.",
-            "price": "0.59"
-        }
+    "MainProductInfo": {
+        "skuNumber": "STAR464",
+        "category": "donut",
+        "title": "Star And Sprinkles Donut",
+        "description": "Nam gravida libero ac malesuada cursus. Vivamus pharetra sapien at sem ultrices semper.",
+        "price": "0.59"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2019-04-13 20:17:24",
@@ -19231,14 +18467,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "LAYE140",
-            "category": "cake",
-            "title": "Layer Cake Cherry Topping",
-            "description": "Cras sit amet eros congue, rhoncus sem sed, consequat arcu. Maecenas interdum ex id venenatis luctus.",
-            "price": "3.99"
-        }
+    "MainProductInfo": {
+        "skuNumber": "LAYE140",
+        "category": "cake",
+        "title": "Layer Cake Cherry Topping",
+        "description": "Cras sit amet eros congue, rhoncus sem sed, consequat arcu. Maecenas interdum ex id venenatis luctus.",
+        "price": "3.99"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2016-05-03 20:17:25",
@@ -19278,14 +18512,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "PUMP555",
-            "category": "pie",
-            "title": "Pumpkin Pie",
-            "description": "Cras sit amet eros congue, rhoncus sem sed, consequat arcu. Vivamus pharetra sapien at sem ultrices semper.",
-            "price": "4.99"
-        }
+    "MainProductInfo": {
+        "skuNumber": "PUMP555",
+        "category": "pie",
+        "title": "Pumpkin Pie",
+        "description": "Cras sit amet eros congue, rhoncus sem sed, consequat arcu. Vivamus pharetra sapien at sem ultrices semper.",
+        "price": "4.99"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2017-12-31 20:17:25",
@@ -19329,14 +18561,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "APPL501",
-            "category": "pie",
-            "title": "Apple Pie",
-            "description": "Praesent hendrerit tellus eget nibh lobortis, ut scelerisque mi mattis. Morbi consectetur urna sit amet facilisis gravida. Cras sit amet eros congue, rhoncus sem sed, consequat arcu. Maecenas interdum ex id venenatis luctus. In a magna pretium, laoreet neque eget, consectetur justo. Nam gravida libero ac malesuada cursus.",
-            "price": "4.99"
-        }
+    "MainProductInfo": {
+        "skuNumber": "APPL501",
+        "category": "pie",
+        "title": "Apple Pie",
+        "description": "Praesent hendrerit tellus eget nibh lobortis, ut scelerisque mi mattis. Morbi consectetur urna sit amet facilisis gravida. Cras sit amet eros congue, rhoncus sem sed, consequat arcu. Maecenas interdum ex id venenatis luctus. In a magna pretium, laoreet neque eget, consectetur justo. Nam gravida libero ac malesuada cursus.",
+        "price": "4.99"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2019-08-29 20:17:25",
@@ -19371,14 +18601,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "RASP258",
-            "category": "chocolate",
-            "title": "Raspberry Truffel",
-            "description": "Praesent hendrerit tellus eget nibh lobortis, ut scelerisque mi mattis. In a magna pretium, laoreet neque eget, consectetur justo.",
-            "price": "3.49"
-        }
+    "MainProductInfo": {
+        "skuNumber": "RASP258",
+        "category": "chocolate",
+        "title": "Raspberry Truffel",
+        "description": "Praesent hendrerit tellus eget nibh lobortis, ut scelerisque mi mattis. In a magna pretium, laoreet neque eget, consectetur justo.",
+        "price": "3.49"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2018-03-04 20:17:25",
@@ -19430,14 +18658,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "WHIT276",
-            "category": "chocolate",
-            "title": "White Chocolate Truffel",
-            "description": "Cras sit amet eros congue, rhoncus sem sed, consequat arcu. In a magna pretium, laoreet neque eget, consectetur justo. Vivamus pharetra sapien at sem ultrices semper. Ut quis massa sit amet enim faucibus suscipit ac viverra elit.",
-            "price": "3.49"
-        }
+    "MainProductInfo": {
+        "skuNumber": "WHIT276",
+        "category": "chocolate",
+        "title": "White Chocolate Truffel",
+        "description": "Cras sit amet eros congue, rhoncus sem sed, consequat arcu. In a magna pretium, laoreet neque eget, consectetur justo. Vivamus pharetra sapien at sem ultrices semper. Ut quis massa sit amet enim faucibus suscipit ac viverra elit.",
+        "price": "3.49"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2018-09-19 20:17:25",
@@ -19477,14 +18703,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "DOUB231",
-            "category": "chocolate",
-            "title": "Double Chocolate Truffel",
-            "description": "Vivamus pharetra sapien at sem ultrices semper. Maecenas eget lectus ultrices, porta eros a, blandit nisi. Aenean sit amet massa ac dolor interdum varius. Praesent bibendum mi et augue lacinia auctor.",
-            "price": "3.49"
-        }
+    "MainProductInfo": {
+        "skuNumber": "DOUB231",
+        "category": "chocolate",
+        "title": "Double Chocolate Truffel",
+        "description": "Vivamus pharetra sapien at sem ultrices semper. Maecenas eget lectus ultrices, porta eros a, blandit nisi. Aenean sit amet massa ac dolor interdum varius. Praesent bibendum mi et augue lacinia auctor.",
+        "price": "3.49"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2019-10-13 20:17:25",
@@ -19524,14 +18748,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "LAYE143",
-            "category": "cake",
-            "title": "Layer Cake",
-            "description": "Cras sit amet eros congue, rhoncus sem sed, consequat arcu. Vivamus pharetra sapien at sem ultrices semper. Maecenas eget lectus ultrices, porta eros a, blandit nisi. Aenean sit amet massa ac dolor interdum varius. Praesent bibendum mi et augue lacinia auctor. Vivamus ac magna nec lacus varius pretium et vitae velit.",
-            "price": "2.99"
-        }
+    "MainProductInfo": {
+        "skuNumber": "LAYE143",
+        "category": "cake",
+        "title": "Layer Cake",
+        "description": "Cras sit amet eros congue, rhoncus sem sed, consequat arcu. Vivamus pharetra sapien at sem ultrices semper. Maecenas eget lectus ultrices, porta eros a, blandit nisi. Aenean sit amet massa ac dolor interdum varius. Praesent bibendum mi et augue lacinia auctor. Vivamus ac magna nec lacus varius pretium et vitae velit.",
+        "price": "2.99"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2018-02-23 20:17:25",
@@ -19583,14 +18805,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "BLAC207",
-            "category": "chocolate",
-            "title": "Black And Tan Truffel",
-            "description": "Nam gravida libero ac malesuada cursus. Ut quis massa sit amet enim faucibus suscipit ac viverra elit. Nullam quis tortor accumsan, sagittis sem in, porttitor orci. Aenean sit amet massa ac dolor interdum varius. Pellentesque vel risus placerat, consequat leo suscipit, dapibus nulla. Vestibulum a sem volutpat, pellentesque eros et, placerat justo.",
-            "price": "3.49"
-        }
+    "MainProductInfo": {
+        "skuNumber": "BLAC207",
+        "category": "chocolate",
+        "title": "Black And Tan Truffel",
+        "description": "Nam gravida libero ac malesuada cursus. Ut quis massa sit amet enim faucibus suscipit ac viverra elit. Nullam quis tortor accumsan, sagittis sem in, porttitor orci. Aenean sit amet massa ac dolor interdum varius. Pellentesque vel risus placerat, consequat leo suscipit, dapibus nulla. Vestibulum a sem volutpat, pellentesque eros et, placerat justo.",
+        "price": "3.49"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2018-05-30 20:17:25",
@@ -19642,14 +18862,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "CAKE110",
-            "category": "cake",
-            "title": "Cake With Chocolate Frosting",
-            "description": "In a magna pretium, laoreet neque eget, consectetur justo. Nam gravida libero ac malesuada cursus. Vivamus pharetra sapien at sem ultrices semper. Vivamus semper justo sed dictum aliquam. Ut quis massa sit amet enim faucibus suscipit ac viverra elit. Praesent pretium justo at neque egestas mattis.",
-            "price": "8.99"
-        }
+    "MainProductInfo": {
+        "skuNumber": "CAKE110",
+        "category": "cake",
+        "title": "Cake With Chocolate Frosting",
+        "description": "In a magna pretium, laoreet neque eget, consectetur justo. Nam gravida libero ac malesuada cursus. Vivamus pharetra sapien at sem ultrices semper. Vivamus semper justo sed dictum aliquam. Ut quis massa sit amet enim faucibus suscipit ac viverra elit. Praesent pretium justo at neque egestas mattis.",
+        "price": "8.99"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2018-12-29 20:17:25",
@@ -19684,14 +18902,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "PUMP555",
-            "category": "pie",
-            "title": "Pumpkin Pie",
-            "description": "Cras sit amet eros congue, rhoncus sem sed, consequat arcu. Vivamus pharetra sapien at sem ultrices semper.",
-            "price": "4.99"
-        }
+    "MainProductInfo": {
+        "skuNumber": "PUMP555",
+        "category": "pie",
+        "title": "Pumpkin Pie",
+        "description": "Cras sit amet eros congue, rhoncus sem sed, consequat arcu. Vivamus pharetra sapien at sem ultrices semper.",
+        "price": "4.99"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2016-04-11 20:17:25",
@@ -19747,14 +18963,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "LOAF146",
-            "category": "cake",
-            "title": "Loaf Cake",
-            "description": "Donec sed dui hendrerit nulla iaculis vestibulum. Morbi consectetur urna sit amet facilisis gravida. In a magna pretium, laoreet neque eget, consectetur justo.",
-            "price": "3.99"
-        }
+    "MainProductInfo": {
+        "skuNumber": "LOAF146",
+        "category": "cake",
+        "title": "Loaf Cake",
+        "description": "Donec sed dui hendrerit nulla iaculis vestibulum. Morbi consectetur urna sit amet facilisis gravida. In a magna pretium, laoreet neque eget, consectetur justo.",
+        "price": "3.99"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2018-01-14 20:17:25",
@@ -19794,14 +19008,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "STAR464",
-            "category": "donut",
-            "title": "Star And Sprinkles Donut",
-            "description": "Nam gravida libero ac malesuada cursus. Vivamus pharetra sapien at sem ultrices semper.",
-            "price": "0.59"
-        }
+    "MainProductInfo": {
+        "skuNumber": "STAR464",
+        "category": "donut",
+        "title": "Star And Sprinkles Donut",
+        "description": "Nam gravida libero ac malesuada cursus. Vivamus pharetra sapien at sem ultrices semper.",
+        "price": "0.59"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2019-02-07 20:17:25",
@@ -19845,14 +19057,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "BIRT104",
-            "category": "cake",
-            "title": "Birthday Cake",
-            "description": "Nam gravida libero ac malesuada cursus. Ut quis massa sit amet enim faucibus suscipit ac viverra elit. Nullam quis tortor accumsan, sagittis sem in, porttitor orci. Aenean sit amet massa ac dolor interdum varius. Pellentesque vel risus placerat, consequat leo suscipit, dapibus nulla.",
-            "price": "9.99"
-        }
+    "MainProductInfo": {
+        "skuNumber": "BIRT104",
+        "category": "cake",
+        "title": "Birthday Cake",
+        "description": "Nam gravida libero ac malesuada cursus. Ut quis massa sit amet enim faucibus suscipit ac viverra elit. Nullam quis tortor accumsan, sagittis sem in, porttitor orci. Aenean sit amet massa ac dolor interdum varius. Pellentesque vel risus placerat, consequat leo suscipit, dapibus nulla.",
+        "price": "9.99"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2016-03-30 20:17:25",
@@ -19896,14 +19106,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "CHOC322",
-            "category": "cookie",
-            "title": "Chocolate Chip Cookie",
-            "description": "Cras sit amet eros congue, rhoncus sem sed, consequat arcu. Maecenas interdum ex id venenatis luctus. In a magna pretium, laoreet neque eget, consectetur justo. Nam gravida libero ac malesuada cursus. Vivamus pharetra sapien at sem ultrices semper. Vivamus semper justo sed dictum aliquam.",
-            "price": "0.88"
-        }
+    "MainProductInfo": {
+        "skuNumber": "CHOC322",
+        "category": "cookie",
+        "title": "Chocolate Chip Cookie",
+        "description": "Cras sit amet eros congue, rhoncus sem sed, consequat arcu. Maecenas interdum ex id venenatis luctus. In a magna pretium, laoreet neque eget, consectetur justo. Nam gravida libero ac malesuada cursus. Vivamus pharetra sapien at sem ultrices semper. Vivamus semper justo sed dictum aliquam.",
+        "price": "0.88"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2016-12-15 20:17:25",
@@ -19951,14 +19159,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "PUMP555",
-            "category": "pie",
-            "title": "Pumpkin Pie",
-            "description": "Cras sit amet eros congue, rhoncus sem sed, consequat arcu. Vivamus pharetra sapien at sem ultrices semper.",
-            "price": "4.99"
-        }
+    "MainProductInfo": {
+        "skuNumber": "PUMP555",
+        "category": "pie",
+        "title": "Pumpkin Pie",
+        "description": "Cras sit amet eros congue, rhoncus sem sed, consequat arcu. Vivamus pharetra sapien at sem ultrices semper.",
+        "price": "4.99"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2019-04-01 20:17:25",
@@ -19993,14 +19199,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "STAR464",
-            "category": "donut",
-            "title": "Star And Sprinkles Donut",
-            "description": "Nam gravida libero ac malesuada cursus. Vivamus pharetra sapien at sem ultrices semper.",
-            "price": "0.59"
-        }
+    "MainProductInfo": {
+        "skuNumber": "STAR464",
+        "category": "donut",
+        "title": "Star And Sprinkles Donut",
+        "description": "Nam gravida libero ac malesuada cursus. Vivamus pharetra sapien at sem ultrices semper.",
+        "price": "0.59"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2016-12-02 20:17:25",
@@ -20040,14 +19244,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "GLOW437",
-            "category": "donut",
-            "title": "Glow In The Dark Donut",
-            "description": "Nam gravida libero ac malesuada cursus. Vivamus pharetra sapien at sem ultrices semper.",
-            "price": "0.79"
-        }
+    "MainProductInfo": {
+        "skuNumber": "GLOW437",
+        "category": "donut",
+        "title": "Glow In The Dark Donut",
+        "description": "Nam gravida libero ac malesuada cursus. Vivamus pharetra sapien at sem ultrices semper.",
+        "price": "0.79"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2017-05-13 20:17:25",
@@ -20082,14 +19284,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "WEDD173",
-            "category": "cake",
-            "title": "Wedding Cake",
-            "description": "Quisque et magna malesuada, fermentum nisl sed, imperdiet nunc. Maecenas interdum ex id venenatis luctus. Vivamus semper justo sed dictum aliquam. Nullam quis tortor accumsan, sagittis sem in, porttitor orci.",
-            "price": "49.99"
-        }
+    "MainProductInfo": {
+        "skuNumber": "WEDD173",
+        "category": "cake",
+        "title": "Wedding Cake",
+        "description": "Quisque et magna malesuada, fermentum nisl sed, imperdiet nunc. Maecenas interdum ex id venenatis luctus. Vivamus semper justo sed dictum aliquam. Nullam quis tortor accumsan, sagittis sem in, porttitor orci.",
+        "price": "49.99"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2019-04-14 20:17:25",
@@ -20129,14 +19329,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "CHOC425",
-            "category": "donut",
-            "title": "Chocolate Covered Donut",
-            "description": "In a magna pretium, laoreet neque eget, consectetur justo. Nam gravida libero ac malesuada cursus. Vivamus pharetra sapien at sem ultrices semper.",
-            "price": "0.67"
-        }
+    "MainProductInfo": {
+        "skuNumber": "CHOC425",
+        "category": "donut",
+        "title": "Chocolate Covered Donut",
+        "description": "In a magna pretium, laoreet neque eget, consectetur justo. Nam gravida libero ac malesuada cursus. Vivamus pharetra sapien at sem ultrices semper.",
+        "price": "0.67"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2017-01-13 20:17:25",
@@ -20184,14 +19382,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "SCHW361",
-            "category": "cookie",
-            "title": "Schweineoehrchen Cookie",
-            "description": "Vivamus semper justo sed dictum aliquam. Nullam quis tortor accumsan, sagittis sem in, porttitor orci. Donec ac purus sed justo egestas ultricies. Mauris interdum elit nec dolor volutpat, sit amet sollicitudin eros facilisis.",
-            "price": "0.49"
-        }
+    "MainProductInfo": {
+        "skuNumber": "SCHW361",
+        "category": "cookie",
+        "title": "Schweineoehrchen Cookie",
+        "description": "Vivamus semper justo sed dictum aliquam. Nullam quis tortor accumsan, sagittis sem in, porttitor orci. Donec ac purus sed justo egestas ultricies. Mauris interdum elit nec dolor volutpat, sit amet sollicitudin eros facilisis.",
+        "price": "0.49"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2016-09-27 20:17:25",
@@ -20235,14 +19431,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "CHOC425",
-            "category": "donut",
-            "title": "Chocolate Covered Donut",
-            "description": "In a magna pretium, laoreet neque eget, consectetur justo. Nam gravida libero ac malesuada cursus. Vivamus pharetra sapien at sem ultrices semper.",
-            "price": "0.67"
-        }
+    "MainProductInfo": {
+        "skuNumber": "CHOC425",
+        "category": "donut",
+        "title": "Chocolate Covered Donut",
+        "description": "In a magna pretium, laoreet neque eget, consectetur justo. Nam gravida libero ac malesuada cursus. Vivamus pharetra sapien at sem ultrices semper.",
+        "price": "0.67"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2019-09-09 20:17:25",
@@ -20282,14 +19476,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "RASP258",
-            "category": "chocolate",
-            "title": "Raspberry Truffel",
-            "description": "Praesent hendrerit tellus eget nibh lobortis, ut scelerisque mi mattis. In a magna pretium, laoreet neque eget, consectetur justo.",
-            "price": "3.49"
-        }
+    "MainProductInfo": {
+        "skuNumber": "RASP258",
+        "category": "chocolate",
+        "title": "Raspberry Truffel",
+        "description": "Praesent hendrerit tellus eget nibh lobortis, ut scelerisque mi mattis. In a magna pretium, laoreet neque eget, consectetur justo.",
+        "price": "3.49"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2018-09-14 20:17:25",
@@ -20333,14 +19525,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "CAKE110",
-            "category": "cake",
-            "title": "Cake With Chocolate Frosting",
-            "description": "In a magna pretium, laoreet neque eget, consectetur justo. Nam gravida libero ac malesuada cursus. Vivamus pharetra sapien at sem ultrices semper. Vivamus semper justo sed dictum aliquam. Ut quis massa sit amet enim faucibus suscipit ac viverra elit. Praesent pretium justo at neque egestas mattis.",
-            "price": "8.99"
-        }
+    "MainProductInfo": {
+        "skuNumber": "CAKE110",
+        "category": "cake",
+        "title": "Cake With Chocolate Frosting",
+        "description": "In a magna pretium, laoreet neque eget, consectetur justo. Nam gravida libero ac malesuada cursus. Vivamus pharetra sapien at sem ultrices semper. Vivamus semper justo sed dictum aliquam. Ut quis massa sit amet enim faucibus suscipit ac viverra elit. Praesent pretium justo at neque egestas mattis.",
+        "price": "8.99"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2016-09-05 20:17:25",
@@ -20380,14 +19570,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "PUMP555",
-            "category": "pie",
-            "title": "Pumpkin Pie",
-            "description": "Cras sit amet eros congue, rhoncus sem sed, consequat arcu. Vivamus pharetra sapien at sem ultrices semper.",
-            "price": "4.99"
-        }
+    "MainProductInfo": {
+        "skuNumber": "PUMP555",
+        "category": "pie",
+        "title": "Pumpkin Pie",
+        "description": "Cras sit amet eros congue, rhoncus sem sed, consequat arcu. Vivamus pharetra sapien at sem ultrices semper.",
+        "price": "4.99"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2019-03-09 20:17:25",
@@ -20427,14 +19615,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "TORT167",
-            "category": "cake",
-            "title": "Torta Cake",
-            "description": "Maecenas interdum ex id venenatis luctus. Nam gravida libero ac malesuada cursus.",
-            "price": "12.99"
-        }
+    "MainProductInfo": {
+        "skuNumber": "TORT167",
+        "category": "cake",
+        "title": "Torta Cake",
+        "description": "Maecenas interdum ex id venenatis luctus. Nam gravida libero ac malesuada cursus.",
+        "price": "12.99"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2016-07-15 20:17:25",
@@ -20474,14 +19660,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "CAKE110",
-            "category": "cake",
-            "title": "Cake With Chocolate Frosting",
-            "description": "In a magna pretium, laoreet neque eget, consectetur justo. Nam gravida libero ac malesuada cursus. Vivamus pharetra sapien at sem ultrices semper. Vivamus semper justo sed dictum aliquam. Ut quis massa sit amet enim faucibus suscipit ac viverra elit. Praesent pretium justo at neque egestas mattis.",
-            "price": "8.99"
-        }
+    "MainProductInfo": {
+        "skuNumber": "CAKE110",
+        "category": "cake",
+        "title": "Cake With Chocolate Frosting",
+        "description": "In a magna pretium, laoreet neque eget, consectetur justo. Nam gravida libero ac malesuada cursus. Vivamus pharetra sapien at sem ultrices semper. Vivamus semper justo sed dictum aliquam. Ut quis massa sit amet enim faucibus suscipit ac viverra elit. Praesent pretium justo at neque egestas mattis.",
+        "price": "8.99"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2017-11-10 20:17:25",
@@ -20521,14 +19705,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "APPL501",
-            "category": "pie",
-            "title": "Apple Pie",
-            "description": "Praesent hendrerit tellus eget nibh lobortis, ut scelerisque mi mattis. Morbi consectetur urna sit amet facilisis gravida. Cras sit amet eros congue, rhoncus sem sed, consequat arcu. Maecenas interdum ex id venenatis luctus. In a magna pretium, laoreet neque eget, consectetur justo. Nam gravida libero ac malesuada cursus.",
-            "price": "4.99"
-        }
+    "MainProductInfo": {
+        "skuNumber": "APPL501",
+        "category": "pie",
+        "title": "Apple Pie",
+        "description": "Praesent hendrerit tellus eget nibh lobortis, ut scelerisque mi mattis. Morbi consectetur urna sit amet facilisis gravida. Cras sit amet eros congue, rhoncus sem sed, consequat arcu. Maecenas interdum ex id venenatis luctus. In a magna pretium, laoreet neque eget, consectetur justo. Nam gravida libero ac malesuada cursus.",
+        "price": "4.99"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2019-04-03 20:17:25",
@@ -20580,14 +19762,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "CARR113",
-            "category": "cake",
-            "title": "Carrot Cake",
-            "description": "Nam gravida libero ac malesuada cursus. Vivamus semper justo sed dictum aliquam.",
-            "price": "7.99"
-        }
+    "MainProductInfo": {
+        "skuNumber": "CARR113",
+        "category": "cake",
+        "title": "Carrot Cake",
+        "description": "Nam gravida libero ac malesuada cursus. Vivamus semper justo sed dictum aliquam.",
+        "price": "7.99"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2017-05-05 20:17:25",
@@ -20622,14 +19802,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "CAKE110",
-            "category": "cake",
-            "title": "Cake With Chocolate Frosting",
-            "description": "In a magna pretium, laoreet neque eget, consectetur justo. Nam gravida libero ac malesuada cursus. Vivamus pharetra sapien at sem ultrices semper. Vivamus semper justo sed dictum aliquam. Ut quis massa sit amet enim faucibus suscipit ac viverra elit. Praesent pretium justo at neque egestas mattis.",
-            "price": "8.99"
-        }
+    "MainProductInfo": {
+        "skuNumber": "CAKE110",
+        "category": "cake",
+        "title": "Cake With Chocolate Frosting",
+        "description": "In a magna pretium, laoreet neque eget, consectetur justo. Nam gravida libero ac malesuada cursus. Vivamus pharetra sapien at sem ultrices semper. Vivamus semper justo sed dictum aliquam. Ut quis massa sit amet enim faucibus suscipit ac viverra elit. Praesent pretium justo at neque egestas mattis.",
+        "price": "8.99"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2016-08-19 20:17:25",
@@ -20673,14 +19851,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "CARR113",
-            "category": "cake",
-            "title": "Carrot Cake",
-            "description": "Nam gravida libero ac malesuada cursus. Vivamus semper justo sed dictum aliquam.",
-            "price": "7.99"
-        }
+    "MainProductInfo": {
+        "skuNumber": "CARR113",
+        "category": "cake",
+        "title": "Carrot Cake",
+        "description": "Nam gravida libero ac malesuada cursus. Vivamus semper justo sed dictum aliquam.",
+        "price": "7.99"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2019-04-20 20:17:25",
@@ -20728,14 +19904,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "SCHW361",
-            "category": "cookie",
-            "title": "Schweineoehrchen Cookie",
-            "description": "Vivamus semper justo sed dictum aliquam. Nullam quis tortor accumsan, sagittis sem in, porttitor orci. Donec ac purus sed justo egestas ultricies. Mauris interdum elit nec dolor volutpat, sit amet sollicitudin eros facilisis.",
-            "price": "0.49"
-        }
+    "MainProductInfo": {
+        "skuNumber": "SCHW361",
+        "category": "cookie",
+        "title": "Schweineoehrchen Cookie",
+        "description": "Vivamus semper justo sed dictum aliquam. Nullam quis tortor accumsan, sagittis sem in, porttitor orci. Donec ac purus sed justo egestas ultricies. Mauris interdum elit nec dolor volutpat, sit amet sollicitudin eros facilisis.",
+        "price": "0.49"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2018-05-10 20:17:25",
@@ -20779,14 +19953,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "TORT167",
-            "category": "cake",
-            "title": "Torta Cake",
-            "description": "Maecenas interdum ex id venenatis luctus. Nam gravida libero ac malesuada cursus.",
-            "price": "12.99"
-        }
+    "MainProductInfo": {
+        "skuNumber": "TORT167",
+        "category": "cake",
+        "title": "Torta Cake",
+        "description": "Maecenas interdum ex id venenatis luctus. Nam gravida libero ac malesuada cursus.",
+        "price": "12.99"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2016-12-21 20:17:25",
@@ -20826,14 +19998,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "CHOC322",
-            "category": "cookie",
-            "title": "Chocolate Chip Cookie",
-            "description": "Cras sit amet eros congue, rhoncus sem sed, consequat arcu. Maecenas interdum ex id venenatis luctus. In a magna pretium, laoreet neque eget, consectetur justo. Nam gravida libero ac malesuada cursus. Vivamus pharetra sapien at sem ultrices semper. Vivamus semper justo sed dictum aliquam.",
-            "price": "0.88"
-        }
+    "MainProductInfo": {
+        "skuNumber": "CHOC322",
+        "category": "cookie",
+        "title": "Chocolate Chip Cookie",
+        "description": "Cras sit amet eros congue, rhoncus sem sed, consequat arcu. Maecenas interdum ex id venenatis luctus. In a magna pretium, laoreet neque eget, consectetur justo. Nam gravida libero ac malesuada cursus. Vivamus pharetra sapien at sem ultrices semper. Vivamus semper justo sed dictum aliquam.",
+        "price": "0.88"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2018-12-24 20:17:25",
@@ -20877,14 +20047,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "STAR464",
-            "category": "donut",
-            "title": "Star And Sprinkles Donut",
-            "description": "Nam gravida libero ac malesuada cursus. Vivamus pharetra sapien at sem ultrices semper.",
-            "price": "0.59"
-        }
+    "MainProductInfo": {
+        "skuNumber": "STAR464",
+        "category": "donut",
+        "title": "Star And Sprinkles Donut",
+        "description": "Nam gravida libero ac malesuada cursus. Vivamus pharetra sapien at sem ultrices semper.",
+        "price": "0.59"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2018-07-10 20:17:25",
@@ -20919,14 +20087,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "LOAF146",
-            "category": "cake",
-            "title": "Loaf Cake",
-            "description": "Donec sed dui hendrerit nulla iaculis vestibulum. Morbi consectetur urna sit amet facilisis gravida. In a magna pretium, laoreet neque eget, consectetur justo.",
-            "price": "3.99"
-        }
+    "MainProductInfo": {
+        "skuNumber": "LOAF146",
+        "category": "cake",
+        "title": "Loaf Cake",
+        "description": "Donec sed dui hendrerit nulla iaculis vestibulum. Morbi consectetur urna sit amet facilisis gravida. In a magna pretium, laoreet neque eget, consectetur justo.",
+        "price": "3.99"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2016-10-06 20:17:25",
@@ -20974,14 +20140,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "CHOC425",
-            "category": "donut",
-            "title": "Chocolate Covered Donut",
-            "description": "In a magna pretium, laoreet neque eget, consectetur justo. Nam gravida libero ac malesuada cursus. Vivamus pharetra sapien at sem ultrices semper.",
-            "price": "0.67"
-        }
+    "MainProductInfo": {
+        "skuNumber": "CHOC425",
+        "category": "donut",
+        "title": "Chocolate Covered Donut",
+        "description": "In a magna pretium, laoreet neque eget, consectetur justo. Nam gravida libero ac malesuada cursus. Vivamus pharetra sapien at sem ultrices semper.",
+        "price": "0.67"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2019-04-24 20:17:25",
@@ -21033,14 +20197,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "MUFF149",
-            "category": "cake",
-            "title": "Muffin",
-            "description": "In a magna pretium, laoreet neque eget, consectetur justo. Vivamus pharetra sapien at sem ultrices semper. Ut quis massa sit amet enim faucibus suscipit ac viverra elit. Maecenas eget lectus ultrices, porta eros a, blandit nisi.",
-            "price": "1.99"
-        }
+    "MainProductInfo": {
+        "skuNumber": "MUFF149",
+        "category": "cake",
+        "title": "Muffin",
+        "description": "In a magna pretium, laoreet neque eget, consectetur justo. Vivamus pharetra sapien at sem ultrices semper. Ut quis massa sit amet enim faucibus suscipit ac viverra elit. Maecenas eget lectus ultrices, porta eros a, blandit nisi.",
+        "price": "1.99"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2018-06-22 20:17:25",
@@ -21075,14 +20237,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "RASP258",
-            "category": "chocolate",
-            "title": "Raspberry Truffel",
-            "description": "Praesent hendrerit tellus eget nibh lobortis, ut scelerisque mi mattis. In a magna pretium, laoreet neque eget, consectetur justo.",
-            "price": "3.49"
-        }
+    "MainProductInfo": {
+        "skuNumber": "RASP258",
+        "category": "chocolate",
+        "title": "Raspberry Truffel",
+        "description": "Praesent hendrerit tellus eget nibh lobortis, ut scelerisque mi mattis. In a magna pretium, laoreet neque eget, consectetur justo.",
+        "price": "3.49"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2018-08-27 20:17:25",
@@ -21117,14 +20277,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "VALE270",
-            "category": "chocolate",
-            "title": "Valentines Day Chocolate Pack",
-            "description": "Nam gravida libero ac malesuada cursus. Vivamus semper justo sed dictum aliquam.",
-            "price": "19.99"
-        }
+    "MainProductInfo": {
+        "skuNumber": "VALE270",
+        "category": "chocolate",
+        "title": "Valentines Day Chocolate Pack",
+        "description": "Nam gravida libero ac malesuada cursus. Vivamus semper justo sed dictum aliquam.",
+        "price": "19.99"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2019-08-01 20:17:25",
@@ -21168,14 +20326,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "LOAF146",
-            "category": "cake",
-            "title": "Loaf Cake",
-            "description": "Donec sed dui hendrerit nulla iaculis vestibulum. Morbi consectetur urna sit amet facilisis gravida. In a magna pretium, laoreet neque eget, consectetur justo.",
-            "price": "3.99"
-        }
+    "MainProductInfo": {
+        "skuNumber": "LOAF146",
+        "category": "cake",
+        "title": "Loaf Cake",
+        "description": "Donec sed dui hendrerit nulla iaculis vestibulum. Morbi consectetur urna sit amet facilisis gravida. In a magna pretium, laoreet neque eget, consectetur justo.",
+        "price": "3.99"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2017-07-03 20:17:25",
@@ -21223,14 +20379,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "CARR113",
-            "category": "cake",
-            "title": "Carrot Cake",
-            "description": "Nam gravida libero ac malesuada cursus. Vivamus semper justo sed dictum aliquam.",
-            "price": "7.99"
-        }
+    "MainProductInfo": {
+        "skuNumber": "CARR113",
+        "category": "cake",
+        "title": "Carrot Cake",
+        "description": "Nam gravida libero ac malesuada cursus. Vivamus semper justo sed dictum aliquam.",
+        "price": "7.99"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2018-07-13 20:17:25",
@@ -21270,14 +20424,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "LAYE140",
-            "category": "cake",
-            "title": "Layer Cake Cherry Topping",
-            "description": "Cras sit amet eros congue, rhoncus sem sed, consequat arcu. Maecenas interdum ex id venenatis luctus.",
-            "price": "3.99"
-        }
+    "MainProductInfo": {
+        "skuNumber": "LAYE140",
+        "category": "cake",
+        "title": "Layer Cake Cherry Topping",
+        "description": "Cras sit amet eros congue, rhoncus sem sed, consequat arcu. Maecenas interdum ex id venenatis luctus.",
+        "price": "3.99"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2019-09-04 20:17:25",
@@ -21321,14 +20473,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "WEDD173",
-            "category": "cake",
-            "title": "Wedding Cake",
-            "description": "Quisque et magna malesuada, fermentum nisl sed, imperdiet nunc. Maecenas interdum ex id venenatis luctus. Vivamus semper justo sed dictum aliquam. Nullam quis tortor accumsan, sagittis sem in, porttitor orci.",
-            "price": "49.99"
-        }
+    "MainProductInfo": {
+        "skuNumber": "WEDD173",
+        "category": "cake",
+        "title": "Wedding Cake",
+        "description": "Quisque et magna malesuada, fermentum nisl sed, imperdiet nunc. Maecenas interdum ex id venenatis luctus. Vivamus semper justo sed dictum aliquam. Nullam quis tortor accumsan, sagittis sem in, porttitor orci.",
+        "price": "49.99"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2016-06-13 20:17:25",
@@ -21368,14 +20518,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "CHOC219",
-            "category": "chocolate",
-            "title": "Chocolate Bunny",
-            "description": "Cras sit amet eros congue, rhoncus sem sed, consequat arcu. Vivamus pharetra sapien at sem ultrices semper. Maecenas eget lectus ultrices, porta eros a, blandit nisi. Aenean sit amet massa ac dolor interdum varius. Praesent bibendum mi et augue lacinia auctor. Vivamus ac magna nec lacus varius pretium et vitae velit.",
-            "price": "6.49"
-        }
+    "MainProductInfo": {
+        "skuNumber": "CHOC219",
+        "category": "chocolate",
+        "title": "Chocolate Bunny",
+        "description": "Cras sit amet eros congue, rhoncus sem sed, consequat arcu. Vivamus pharetra sapien at sem ultrices semper. Maecenas eget lectus ultrices, porta eros a, blandit nisi. Aenean sit amet massa ac dolor interdum varius. Praesent bibendum mi et augue lacinia auctor. Vivamus ac magna nec lacus varius pretium et vitae velit.",
+        "price": "6.49"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2016-04-21 20:17:25",
@@ -21419,14 +20567,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "PEAN252",
-            "category": "chocolate",
-            "title": "Peanut Truffle",
-            "description": "Nam gravida libero ac malesuada cursus. Vivamus pharetra sapien at sem ultrices semper. Vivamus semper justo sed dictum aliquam.",
-            "price": "3.49"
-        }
+    "MainProductInfo": {
+        "skuNumber": "PEAN252",
+        "category": "chocolate",
+        "title": "Peanut Truffle",
+        "description": "Nam gravida libero ac malesuada cursus. Vivamus pharetra sapien at sem ultrices semper. Vivamus semper justo sed dictum aliquam.",
+        "price": "3.49"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2019-10-15 20:17:25",
@@ -21470,14 +20616,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "PEAN252",
-            "category": "chocolate",
-            "title": "Peanut Truffle",
-            "description": "Nam gravida libero ac malesuada cursus. Vivamus pharetra sapien at sem ultrices semper. Vivamus semper justo sed dictum aliquam.",
-            "price": "3.49"
-        }
+    "MainProductInfo": {
+        "skuNumber": "PEAN252",
+        "category": "chocolate",
+        "title": "Peanut Truffle",
+        "description": "Nam gravida libero ac malesuada cursus. Vivamus pharetra sapien at sem ultrices semper. Vivamus semper justo sed dictum aliquam.",
+        "price": "3.49"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2018-06-13 20:17:25",
@@ -21512,14 +20656,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "LOAF146",
-            "category": "cake",
-            "title": "Loaf Cake",
-            "description": "Donec sed dui hendrerit nulla iaculis vestibulum. Morbi consectetur urna sit amet facilisis gravida. In a magna pretium, laoreet neque eget, consectetur justo.",
-            "price": "3.99"
-        }
+    "MainProductInfo": {
+        "skuNumber": "LOAF146",
+        "category": "cake",
+        "title": "Loaf Cake",
+        "description": "Donec sed dui hendrerit nulla iaculis vestibulum. Morbi consectetur urna sit amet facilisis gravida. In a magna pretium, laoreet neque eget, consectetur justo.",
+        "price": "3.99"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2017-06-04 20:17:25",
@@ -21559,14 +20701,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "PUMP555",
-            "category": "pie",
-            "title": "Pumpkin Pie",
-            "description": "Cras sit amet eros congue, rhoncus sem sed, consequat arcu. Vivamus pharetra sapien at sem ultrices semper.",
-            "price": "4.99"
-        }
+    "MainProductInfo": {
+        "skuNumber": "PUMP555",
+        "category": "pie",
+        "title": "Pumpkin Pie",
+        "description": "Cras sit amet eros congue, rhoncus sem sed, consequat arcu. Vivamus pharetra sapien at sem ultrices semper.",
+        "price": "4.99"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2019-07-26 20:17:25",
@@ -21606,14 +20746,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "CAKE110",
-            "category": "cake",
-            "title": "Cake With Chocolate Frosting",
-            "description": "In a magna pretium, laoreet neque eget, consectetur justo. Nam gravida libero ac malesuada cursus. Vivamus pharetra sapien at sem ultrices semper. Vivamus semper justo sed dictum aliquam. Ut quis massa sit amet enim faucibus suscipit ac viverra elit. Praesent pretium justo at neque egestas mattis.",
-            "price": "8.99"
-        }
+    "MainProductInfo": {
+        "skuNumber": "CAKE110",
+        "category": "cake",
+        "title": "Cake With Chocolate Frosting",
+        "description": "In a magna pretium, laoreet neque eget, consectetur justo. Nam gravida libero ac malesuada cursus. Vivamus pharetra sapien at sem ultrices semper. Vivamus semper justo sed dictum aliquam. Ut quis massa sit amet enim faucibus suscipit ac viverra elit. Praesent pretium justo at neque egestas mattis.",
+        "price": "8.99"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2017-09-28 20:17:25",
@@ -21665,14 +20803,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "LOAF146",
-            "category": "cake",
-            "title": "Loaf Cake",
-            "description": "Donec sed dui hendrerit nulla iaculis vestibulum. Morbi consectetur urna sit amet facilisis gravida. In a magna pretium, laoreet neque eget, consectetur justo.",
-            "price": "3.99"
-        }
+    "MainProductInfo": {
+        "skuNumber": "LOAF146",
+        "category": "cake",
+        "title": "Loaf Cake",
+        "description": "Donec sed dui hendrerit nulla iaculis vestibulum. Morbi consectetur urna sit amet facilisis gravida. In a magna pretium, laoreet neque eget, consectetur justo.",
+        "price": "3.99"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2018-05-16 20:17:25",
@@ -21707,14 +20843,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "SCHW361",
-            "category": "cookie",
-            "title": "Schweineoehrchen Cookie",
-            "description": "Vivamus semper justo sed dictum aliquam. Nullam quis tortor accumsan, sagittis sem in, porttitor orci. Donec ac purus sed justo egestas ultricies. Mauris interdum elit nec dolor volutpat, sit amet sollicitudin eros facilisis.",
-            "price": "0.49"
-        }
+    "MainProductInfo": {
+        "skuNumber": "SCHW361",
+        "category": "cookie",
+        "title": "Schweineoehrchen Cookie",
+        "description": "Vivamus semper justo sed dictum aliquam. Nullam quis tortor accumsan, sagittis sem in, porttitor orci. Donec ac purus sed justo egestas ultricies. Mauris interdum elit nec dolor volutpat, sit amet sollicitudin eros facilisis.",
+        "price": "0.49"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2019-05-22 20:17:25",
@@ -21758,14 +20892,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "WHIT276",
-            "category": "chocolate",
-            "title": "White Chocolate Truffel",
-            "description": "Cras sit amet eros congue, rhoncus sem sed, consequat arcu. In a magna pretium, laoreet neque eget, consectetur justo. Vivamus pharetra sapien at sem ultrices semper. Ut quis massa sit amet enim faucibus suscipit ac viverra elit.",
-            "price": "3.49"
-        }
+    "MainProductInfo": {
+        "skuNumber": "WHIT276",
+        "category": "chocolate",
+        "title": "White Chocolate Truffel",
+        "description": "Cras sit amet eros congue, rhoncus sem sed, consequat arcu. In a magna pretium, laoreet neque eget, consectetur justo. Vivamus pharetra sapien at sem ultrices semper. Ut quis massa sit amet enim faucibus suscipit ac viverra elit.",
+        "price": "3.49"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2018-05-21 20:17:25",
@@ -21817,14 +20949,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "CARR113",
-            "category": "cake",
-            "title": "Carrot Cake",
-            "description": "Nam gravida libero ac malesuada cursus. Vivamus semper justo sed dictum aliquam.",
-            "price": "7.99"
-        }
+    "MainProductInfo": {
+        "skuNumber": "CARR113",
+        "category": "cake",
+        "title": "Carrot Cake",
+        "description": "Nam gravida libero ac malesuada cursus. Vivamus semper justo sed dictum aliquam.",
+        "price": "7.99"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2017-12-24 20:17:25",
@@ -21876,14 +21006,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "WEDD173",
-            "category": "cake",
-            "title": "Wedding Cake",
-            "description": "Quisque et magna malesuada, fermentum nisl sed, imperdiet nunc. Maecenas interdum ex id venenatis luctus. Vivamus semper justo sed dictum aliquam. Nullam quis tortor accumsan, sagittis sem in, porttitor orci.",
-            "price": "49.99"
-        }
+    "MainProductInfo": {
+        "skuNumber": "WEDD173",
+        "category": "cake",
+        "title": "Wedding Cake",
+        "description": "Quisque et magna malesuada, fermentum nisl sed, imperdiet nunc. Maecenas interdum ex id venenatis luctus. Vivamus semper justo sed dictum aliquam. Nullam quis tortor accumsan, sagittis sem in, porttitor orci.",
+        "price": "49.99"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2019-02-14 20:17:25",
@@ -21927,14 +21055,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "PUMP555",
-            "category": "pie",
-            "title": "Pumpkin Pie",
-            "description": "Cras sit amet eros congue, rhoncus sem sed, consequat arcu. Vivamus pharetra sapien at sem ultrices semper.",
-            "price": "4.99"
-        }
+    "MainProductInfo": {
+        "skuNumber": "PUMP555",
+        "category": "pie",
+        "title": "Pumpkin Pie",
+        "description": "Cras sit amet eros congue, rhoncus sem sed, consequat arcu. Vivamus pharetra sapien at sem ultrices semper.",
+        "price": "4.99"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2018-05-15 20:17:25",
@@ -21978,14 +21104,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "CHOC219",
-            "category": "chocolate",
-            "title": "Chocolate Bunny",
-            "description": "Cras sit amet eros congue, rhoncus sem sed, consequat arcu. Vivamus pharetra sapien at sem ultrices semper. Maecenas eget lectus ultrices, porta eros a, blandit nisi. Aenean sit amet massa ac dolor interdum varius. Praesent bibendum mi et augue lacinia auctor. Vivamus ac magna nec lacus varius pretium et vitae velit.",
-            "price": "6.49"
-        }
+    "MainProductInfo": {
+        "skuNumber": "CHOC219",
+        "category": "chocolate",
+        "title": "Chocolate Bunny",
+        "description": "Cras sit amet eros congue, rhoncus sem sed, consequat arcu. Vivamus pharetra sapien at sem ultrices semper. Maecenas eget lectus ultrices, porta eros a, blandit nisi. Aenean sit amet massa ac dolor interdum varius. Praesent bibendum mi et augue lacinia auctor. Vivamus ac magna nec lacus varius pretium et vitae velit.",
+        "price": "6.49"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2017-02-09 20:17:25",
@@ -22025,14 +21149,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "APPL501",
-            "category": "pie",
-            "title": "Apple Pie",
-            "description": "Praesent hendrerit tellus eget nibh lobortis, ut scelerisque mi mattis. Morbi consectetur urna sit amet facilisis gravida. Cras sit amet eros congue, rhoncus sem sed, consequat arcu. Maecenas interdum ex id venenatis luctus. In a magna pretium, laoreet neque eget, consectetur justo. Nam gravida libero ac malesuada cursus.",
-            "price": "4.99"
-        }
+    "MainProductInfo": {
+        "skuNumber": "APPL501",
+        "category": "pie",
+        "title": "Apple Pie",
+        "description": "Praesent hendrerit tellus eget nibh lobortis, ut scelerisque mi mattis. Morbi consectetur urna sit amet facilisis gravida. Cras sit amet eros congue, rhoncus sem sed, consequat arcu. Maecenas interdum ex id venenatis luctus. In a magna pretium, laoreet neque eget, consectetur justo. Nam gravida libero ac malesuada cursus.",
+        "price": "4.99"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2019-03-04 20:17:25",
@@ -22080,14 +21202,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "CHOC425",
-            "category": "donut",
-            "title": "Chocolate Covered Donut",
-            "description": "In a magna pretium, laoreet neque eget, consectetur justo. Nam gravida libero ac malesuada cursus. Vivamus pharetra sapien at sem ultrices semper.",
-            "price": "0.67"
-        }
+    "MainProductInfo": {
+        "skuNumber": "CHOC425",
+        "category": "donut",
+        "title": "Chocolate Covered Donut",
+        "description": "In a magna pretium, laoreet neque eget, consectetur justo. Nam gravida libero ac malesuada cursus. Vivamus pharetra sapien at sem ultrices semper.",
+        "price": "0.67"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2017-12-26 20:17:25",
@@ -22122,14 +21242,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "STAR464",
-            "category": "donut",
-            "title": "Star And Sprinkles Donut",
-            "description": "Nam gravida libero ac malesuada cursus. Vivamus pharetra sapien at sem ultrices semper.",
-            "price": "0.59"
-        }
+    "MainProductInfo": {
+        "skuNumber": "STAR464",
+        "category": "donut",
+        "title": "Star And Sprinkles Donut",
+        "description": "Nam gravida libero ac malesuada cursus. Vivamus pharetra sapien at sem ultrices semper.",
+        "price": "0.59"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2017-08-03 20:17:25",
@@ -22169,14 +21287,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "APPL501",
-            "category": "pie",
-            "title": "Apple Pie",
-            "description": "Praesent hendrerit tellus eget nibh lobortis, ut scelerisque mi mattis. Morbi consectetur urna sit amet facilisis gravida. Cras sit amet eros congue, rhoncus sem sed, consequat arcu. Maecenas interdum ex id venenatis luctus. In a magna pretium, laoreet neque eget, consectetur justo. Nam gravida libero ac malesuada cursus.",
-            "price": "4.99"
-        }
+    "MainProductInfo": {
+        "skuNumber": "APPL501",
+        "category": "pie",
+        "title": "Apple Pie",
+        "description": "Praesent hendrerit tellus eget nibh lobortis, ut scelerisque mi mattis. Morbi consectetur urna sit amet facilisis gravida. Cras sit amet eros congue, rhoncus sem sed, consequat arcu. Maecenas interdum ex id venenatis luctus. In a magna pretium, laoreet neque eget, consectetur justo. Nam gravida libero ac malesuada cursus.",
+        "price": "4.99"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2019-06-10 20:17:25",
@@ -22224,14 +21340,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "CHER516",
-            "category": "pie",
-            "title": "Cherry Pie",
-            "description": "Vivamus semper justo sed dictum aliquam. Maecenas eget lectus ultrices, porta eros a, blandit nisi. Phasellus vel velit eget nibh porttitor feugiat id ac massa.",
-            "price": "4.99"
-        }
+    "MainProductInfo": {
+        "skuNumber": "CHER516",
+        "category": "pie",
+        "title": "Cherry Pie",
+        "description": "Vivamus semper justo sed dictum aliquam. Maecenas eget lectus ultrices, porta eros a, blandit nisi. Phasellus vel velit eget nibh porttitor feugiat id ac massa.",
+        "price": "4.99"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2018-06-26 20:17:25",
@@ -22275,14 +21389,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "MUFF149",
-            "category": "cake",
-            "title": "Muffin",
-            "description": "In a magna pretium, laoreet neque eget, consectetur justo. Vivamus pharetra sapien at sem ultrices semper. Ut quis massa sit amet enim faucibus suscipit ac viverra elit. Maecenas eget lectus ultrices, porta eros a, blandit nisi.",
-            "price": "1.99"
-        }
+    "MainProductInfo": {
+        "skuNumber": "MUFF149",
+        "category": "cake",
+        "title": "Muffin",
+        "description": "In a magna pretium, laoreet neque eget, consectetur justo. Vivamus pharetra sapien at sem ultrices semper. Ut quis massa sit amet enim faucibus suscipit ac viverra elit. Maecenas eget lectus ultrices, porta eros a, blandit nisi.",
+        "price": "1.99"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2017-09-03 20:17:25",
@@ -22322,14 +21434,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "RASP258",
-            "category": "chocolate",
-            "title": "Raspberry Truffel",
-            "description": "Praesent hendrerit tellus eget nibh lobortis, ut scelerisque mi mattis. In a magna pretium, laoreet neque eget, consectetur justo.",
-            "price": "3.49"
-        }
+    "MainProductInfo": {
+        "skuNumber": "RASP258",
+        "category": "chocolate",
+        "title": "Raspberry Truffel",
+        "description": "Praesent hendrerit tellus eget nibh lobortis, ut scelerisque mi mattis. In a magna pretium, laoreet neque eget, consectetur justo.",
+        "price": "3.49"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2019-07-06 20:17:25",
@@ -22369,14 +21479,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "BIRT104",
-            "category": "cake",
-            "title": "Birthday Cake",
-            "description": "Nam gravida libero ac malesuada cursus. Ut quis massa sit amet enim faucibus suscipit ac viverra elit. Nullam quis tortor accumsan, sagittis sem in, porttitor orci. Aenean sit amet massa ac dolor interdum varius. Pellentesque vel risus placerat, consequat leo suscipit, dapibus nulla.",
-            "price": "9.99"
-        }
+    "MainProductInfo": {
+        "skuNumber": "BIRT104",
+        "category": "cake",
+        "title": "Birthday Cake",
+        "description": "Nam gravida libero ac malesuada cursus. Ut quis massa sit amet enim faucibus suscipit ac viverra elit. Nullam quis tortor accumsan, sagittis sem in, porttitor orci. Aenean sit amet massa ac dolor interdum varius. Pellentesque vel risus placerat, consequat leo suscipit, dapibus nulla.",
+        "price": "9.99"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2018-05-30 20:17:25",
@@ -22420,14 +21528,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "WEDD173",
-            "category": "cake",
-            "title": "Wedding Cake",
-            "description": "Quisque et magna malesuada, fermentum nisl sed, imperdiet nunc. Maecenas interdum ex id venenatis luctus. Vivamus semper justo sed dictum aliquam. Nullam quis tortor accumsan, sagittis sem in, porttitor orci.",
-            "price": "49.99"
-        }
+    "MainProductInfo": {
+        "skuNumber": "WEDD173",
+        "category": "cake",
+        "title": "Wedding Cake",
+        "description": "Quisque et magna malesuada, fermentum nisl sed, imperdiet nunc. Maecenas interdum ex id venenatis luctus. Vivamus semper justo sed dictum aliquam. Nullam quis tortor accumsan, sagittis sem in, porttitor orci.",
+        "price": "49.99"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2018-08-08 20:17:25",
@@ -22462,14 +21568,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "CHOC425",
-            "category": "donut",
-            "title": "Chocolate Covered Donut",
-            "description": "In a magna pretium, laoreet neque eget, consectetur justo. Nam gravida libero ac malesuada cursus. Vivamus pharetra sapien at sem ultrices semper.",
-            "price": "0.67"
-        }
+    "MainProductInfo": {
+        "skuNumber": "CHOC425",
+        "category": "donut",
+        "title": "Chocolate Covered Donut",
+        "description": "In a magna pretium, laoreet neque eget, consectetur justo. Nam gravida libero ac malesuada cursus. Vivamus pharetra sapien at sem ultrices semper.",
+        "price": "0.67"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2019-09-30 20:17:25",
@@ -22514,7 +21618,7 @@ db.purchases.insertOne(
         }
     },
     "ProductInfo": {
-        "MainProductInfo": null
+            "MainProductInfo": null
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2017-05-30 20:17:25",
@@ -22554,14 +21658,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "CHOC228",
-            "category": "chocolate",
-            "title": "Chocolate Bar",
-            "description": "Vivamus semper justo sed dictum aliquam. Nullam quis tortor accumsan, sagittis sem in, porttitor orci. Donec ac purus sed justo egestas ultricies.",
-            "price": "2.99"
-        }
+    "MainProductInfo": {
+        "skuNumber": "CHOC228",
+        "category": "chocolate",
+        "title": "Chocolate Bar",
+        "description": "Vivamus semper justo sed dictum aliquam. Nullam quis tortor accumsan, sagittis sem in, porttitor orci. Donec ac purus sed justo egestas ultricies.",
+        "price": "2.99"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2018-05-13 20:17:25",
@@ -22601,14 +21703,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "LOAF146",
-            "category": "cake",
-            "title": "Loaf Cake",
-            "description": "Donec sed dui hendrerit nulla iaculis vestibulum. Morbi consectetur urna sit amet facilisis gravida. In a magna pretium, laoreet neque eget, consectetur justo.",
-            "price": "3.99"
-        }
+    "MainProductInfo": {
+        "skuNumber": "LOAF146",
+        "category": "cake",
+        "title": "Loaf Cake",
+        "description": "Donec sed dui hendrerit nulla iaculis vestibulum. Morbi consectetur urna sit amet facilisis gravida. In a magna pretium, laoreet neque eget, consectetur justo.",
+        "price": "3.99"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2019-04-16 20:17:25",
@@ -22648,14 +21748,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "APPL501",
-            "category": "pie",
-            "title": "Apple Pie",
-            "description": "Praesent hendrerit tellus eget nibh lobortis, ut scelerisque mi mattis. Morbi consectetur urna sit amet facilisis gravida. Cras sit amet eros congue, rhoncus sem sed, consequat arcu. Maecenas interdum ex id venenatis luctus. In a magna pretium, laoreet neque eget, consectetur justo. Nam gravida libero ac malesuada cursus.",
-            "price": "4.99"
-        }
+    "MainProductInfo": {
+        "skuNumber": "APPL501",
+        "category": "pie",
+        "title": "Apple Pie",
+        "description": "Praesent hendrerit tellus eget nibh lobortis, ut scelerisque mi mattis. Morbi consectetur urna sit amet facilisis gravida. Cras sit amet eros congue, rhoncus sem sed, consequat arcu. Maecenas interdum ex id venenatis luctus. In a magna pretium, laoreet neque eget, consectetur justo. Nam gravida libero ac malesuada cursus.",
+        "price": "4.99"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2017-10-12 20:17:25",
@@ -22699,14 +21797,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "LAYE140",
-            "category": "cake",
-            "title": "Layer Cake Cherry Topping",
-            "description": "Cras sit amet eros congue, rhoncus sem sed, consequat arcu. Maecenas interdum ex id venenatis luctus.",
-            "price": "3.99"
-        }
+    "MainProductInfo": {
+        "skuNumber": "LAYE140",
+        "category": "cake",
+        "title": "Layer Cake Cherry Topping",
+        "description": "Cras sit amet eros congue, rhoncus sem sed, consequat arcu. Maecenas interdum ex id venenatis luctus.",
+        "price": "3.99"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2016-09-25 20:17:25",
@@ -22750,14 +21846,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "PUMP555",
-            "category": "pie",
-            "title": "Pumpkin Pie",
-            "description": "Cras sit amet eros congue, rhoncus sem sed, consequat arcu. Vivamus pharetra sapien at sem ultrices semper.",
-            "price": "4.99"
-        }
+    "MainProductInfo": {
+        "skuNumber": "PUMP555",
+        "category": "pie",
+        "title": "Pumpkin Pie",
+        "description": "Cras sit amet eros congue, rhoncus sem sed, consequat arcu. Vivamus pharetra sapien at sem ultrices semper.",
+        "price": "4.99"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2019-09-23 20:17:25",
@@ -22797,14 +21891,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "CHOC425",
-            "category": "donut",
-            "title": "Chocolate Covered Donut",
-            "description": "In a magna pretium, laoreet neque eget, consectetur justo. Nam gravida libero ac malesuada cursus. Vivamus pharetra sapien at sem ultrices semper.",
-            "price": "0.67"
-        }
+    "MainProductInfo": {
+        "skuNumber": "CHOC425",
+        "category": "donut",
+        "title": "Chocolate Covered Donut",
+        "description": "In a magna pretium, laoreet neque eget, consectetur justo. Nam gravida libero ac malesuada cursus. Vivamus pharetra sapien at sem ultrices semper.",
+        "price": "0.67"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2018-11-05 20:17:25",
@@ -22848,14 +21940,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "CHOC425",
-            "category": "donut",
-            "title": "Chocolate Covered Donut",
-            "description": "In a magna pretium, laoreet neque eget, consectetur justo. Nam gravida libero ac malesuada cursus. Vivamus pharetra sapien at sem ultrices semper.",
-            "price": "0.67"
-        }
+    "MainProductInfo": {
+        "skuNumber": "CHOC425",
+        "category": "donut",
+        "title": "Chocolate Covered Donut",
+        "description": "In a magna pretium, laoreet neque eget, consectetur justo. Nam gravida libero ac malesuada cursus. Vivamus pharetra sapien at sem ultrices semper.",
+        "price": "0.67"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2017-04-06 20:17:25",
@@ -22903,14 +21993,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "CAKE110",
-            "category": "cake",
-            "title": "Cake With Chocolate Frosting",
-            "description": "In a magna pretium, laoreet neque eget, consectetur justo. Nam gravida libero ac malesuada cursus. Vivamus pharetra sapien at sem ultrices semper. Vivamus semper justo sed dictum aliquam. Ut quis massa sit amet enim faucibus suscipit ac viverra elit. Praesent pretium justo at neque egestas mattis.",
-            "price": "8.99"
-        }
+    "MainProductInfo": {
+        "skuNumber": "CAKE110",
+        "category": "cake",
+        "title": "Cake With Chocolate Frosting",
+        "description": "In a magna pretium, laoreet neque eget, consectetur justo. Nam gravida libero ac malesuada cursus. Vivamus pharetra sapien at sem ultrices semper. Vivamus semper justo sed dictum aliquam. Ut quis massa sit amet enim faucibus suscipit ac viverra elit. Praesent pretium justo at neque egestas mattis.",
+        "price": "8.99"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2019-05-12 20:17:25",
@@ -22954,14 +22042,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "CARR113",
-            "category": "cake",
-            "title": "Carrot Cake",
-            "description": "Nam gravida libero ac malesuada cursus. Vivamus semper justo sed dictum aliquam.",
-            "price": "7.99"
-        }
+    "MainProductInfo": {
+        "skuNumber": "CARR113",
+        "category": "cake",
+        "title": "Carrot Cake",
+        "description": "Nam gravida libero ac malesuada cursus. Vivamus semper justo sed dictum aliquam.",
+        "price": "7.99"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2017-09-18 20:17:25",
@@ -23005,14 +22091,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "GLOW437",
-            "category": "donut",
-            "title": "Glow In The Dark Donut",
-            "description": "Nam gravida libero ac malesuada cursus. Vivamus pharetra sapien at sem ultrices semper.",
-            "price": "0.79"
-        }
+    "MainProductInfo": {
+        "skuNumber": "GLOW437",
+        "category": "donut",
+        "title": "Glow In The Dark Donut",
+        "description": "Nam gravida libero ac malesuada cursus. Vivamus pharetra sapien at sem ultrices semper.",
+        "price": "0.79"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2018-06-10 20:17:25",
@@ -23052,14 +22136,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "APPL501",
-            "category": "pie",
-            "title": "Apple Pie",
-            "description": "Praesent hendrerit tellus eget nibh lobortis, ut scelerisque mi mattis. Morbi consectetur urna sit amet facilisis gravida. Cras sit amet eros congue, rhoncus sem sed, consequat arcu. Maecenas interdum ex id venenatis luctus. In a magna pretium, laoreet neque eget, consectetur justo. Nam gravida libero ac malesuada cursus.",
-            "price": "4.99"
-        }
+    "MainProductInfo": {
+        "skuNumber": "APPL501",
+        "category": "pie",
+        "title": "Apple Pie",
+        "description": "Praesent hendrerit tellus eget nibh lobortis, ut scelerisque mi mattis. Morbi consectetur urna sit amet facilisis gravida. Cras sit amet eros congue, rhoncus sem sed, consequat arcu. Maecenas interdum ex id venenatis luctus. In a magna pretium, laoreet neque eget, consectetur justo. Nam gravida libero ac malesuada cursus.",
+        "price": "4.99"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2019-01-31 20:17:25",
@@ -23103,14 +22185,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "LAYE140",
-            "category": "cake",
-            "title": "Layer Cake Cherry Topping",
-            "description": "Cras sit amet eros congue, rhoncus sem sed, consequat arcu. Maecenas interdum ex id venenatis luctus.",
-            "price": "3.99"
-        }
+    "MainProductInfo": {
+        "skuNumber": "LAYE140",
+        "category": "cake",
+        "title": "Layer Cake Cherry Topping",
+        "description": "Cras sit amet eros congue, rhoncus sem sed, consequat arcu. Maecenas interdum ex id venenatis luctus.",
+        "price": "3.99"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2018-11-21 20:17:25",
@@ -23150,14 +22230,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "MUFF149",
-            "category": "cake",
-            "title": "Muffin",
-            "description": "In a magna pretium, laoreet neque eget, consectetur justo. Vivamus pharetra sapien at sem ultrices semper. Ut quis massa sit amet enim faucibus suscipit ac viverra elit. Maecenas eget lectus ultrices, porta eros a, blandit nisi.",
-            "price": "1.99"
-        }
+    "MainProductInfo": {
+        "skuNumber": "MUFF149",
+        "category": "cake",
+        "title": "Muffin",
+        "description": "In a magna pretium, laoreet neque eget, consectetur justo. Vivamus pharetra sapien at sem ultrices semper. Ut quis massa sit amet enim faucibus suscipit ac viverra elit. Maecenas eget lectus ultrices, porta eros a, blandit nisi.",
+        "price": "1.99"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2016-07-01 20:17:25",
@@ -23205,14 +22283,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "CHER516",
-            "category": "pie",
-            "title": "Cherry Pie",
-            "description": "Vivamus semper justo sed dictum aliquam. Maecenas eget lectus ultrices, porta eros a, blandit nisi. Phasellus vel velit eget nibh porttitor feugiat id ac massa.",
-            "price": "4.99"
-        }
+    "MainProductInfo": {
+        "skuNumber": "CHER516",
+        "category": "pie",
+        "title": "Cherry Pie",
+        "description": "Vivamus semper justo sed dictum aliquam. Maecenas eget lectus ultrices, porta eros a, blandit nisi. Phasellus vel velit eget nibh porttitor feugiat id ac massa.",
+        "price": "4.99"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2019-02-19 20:17:25",
@@ -23252,14 +22328,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "STAR464",
-            "category": "donut",
-            "title": "Star And Sprinkles Donut",
-            "description": "Nam gravida libero ac malesuada cursus. Vivamus pharetra sapien at sem ultrices semper.",
-            "price": "0.59"
-        }
+    "MainProductInfo": {
+        "skuNumber": "STAR464",
+        "category": "donut",
+        "title": "Star And Sprinkles Donut",
+        "description": "Nam gravida libero ac malesuada cursus. Vivamus pharetra sapien at sem ultrices semper.",
+        "price": "0.59"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2018-09-04 20:17:25",
@@ -23294,14 +22368,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "WHIT276",
-            "category": "chocolate",
-            "title": "White Chocolate Truffel",
-            "description": "Cras sit amet eros congue, rhoncus sem sed, consequat arcu. In a magna pretium, laoreet neque eget, consectetur justo. Vivamus pharetra sapien at sem ultrices semper. Ut quis massa sit amet enim faucibus suscipit ac viverra elit.",
-            "price": "3.49"
-        }
+    "MainProductInfo": {
+        "skuNumber": "WHIT276",
+        "category": "chocolate",
+        "title": "White Chocolate Truffel",
+        "description": "Cras sit amet eros congue, rhoncus sem sed, consequat arcu. In a magna pretium, laoreet neque eget, consectetur justo. Vivamus pharetra sapien at sem ultrices semper. Ut quis massa sit amet enim faucibus suscipit ac viverra elit.",
+        "price": "3.49"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2017-03-27 20:17:25",
@@ -23336,14 +22408,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "TORT167",
-            "category": "cake",
-            "title": "Torta Cake",
-            "description": "Maecenas interdum ex id venenatis luctus. Nam gravida libero ac malesuada cursus.",
-            "price": "12.99"
-        }
+    "MainProductInfo": {
+        "skuNumber": "TORT167",
+        "category": "cake",
+        "title": "Torta Cake",
+        "description": "Maecenas interdum ex id venenatis luctus. Nam gravida libero ac malesuada cursus.",
+        "price": "12.99"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2019-09-12 20:17:25",
@@ -23378,14 +22448,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "LAYE143",
-            "category": "cake",
-            "title": "Layer Cake",
-            "description": "Cras sit amet eros congue, rhoncus sem sed, consequat arcu. Vivamus pharetra sapien at sem ultrices semper. Maecenas eget lectus ultrices, porta eros a, blandit nisi. Aenean sit amet massa ac dolor interdum varius. Praesent bibendum mi et augue lacinia auctor. Vivamus ac magna nec lacus varius pretium et vitae velit.",
-            "price": "2.99"
-        }
+    "MainProductInfo": {
+        "skuNumber": "LAYE143",
+        "category": "cake",
+        "title": "Layer Cake",
+        "description": "Cras sit amet eros congue, rhoncus sem sed, consequat arcu. Vivamus pharetra sapien at sem ultrices semper. Maecenas eget lectus ultrices, porta eros a, blandit nisi. Aenean sit amet massa ac dolor interdum varius. Praesent bibendum mi et augue lacinia auctor. Vivamus ac magna nec lacus varius pretium et vitae velit.",
+        "price": "2.99"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2017-06-17 20:17:25",
@@ -23425,14 +22493,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "TORT167",
-            "category": "cake",
-            "title": "Torta Cake",
-            "description": "Maecenas interdum ex id venenatis luctus. Nam gravida libero ac malesuada cursus.",
-            "price": "12.99"
-        }
+    "MainProductInfo": {
+        "skuNumber": "TORT167",
+        "category": "cake",
+        "title": "Torta Cake",
+        "description": "Maecenas interdum ex id venenatis luctus. Nam gravida libero ac malesuada cursus.",
+        "price": "12.99"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2017-01-25 20:17:25",
@@ -23476,14 +22542,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "STAR464",
-            "category": "donut",
-            "title": "Star And Sprinkles Donut",
-            "description": "Nam gravida libero ac malesuada cursus. Vivamus pharetra sapien at sem ultrices semper.",
-            "price": "0.59"
-        }
+    "MainProductInfo": {
+        "skuNumber": "STAR464",
+        "category": "donut",
+        "title": "Star And Sprinkles Donut",
+        "description": "Nam gravida libero ac malesuada cursus. Vivamus pharetra sapien at sem ultrices semper.",
+        "price": "0.59"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2019-10-05 20:17:25",
@@ -23523,14 +22587,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "LAYE140",
-            "category": "cake",
-            "title": "Layer Cake Cherry Topping",
-            "description": "Cras sit amet eros congue, rhoncus sem sed, consequat arcu. Maecenas interdum ex id venenatis luctus.",
-            "price": "3.99"
-        }
+    "MainProductInfo": {
+        "skuNumber": "LAYE140",
+        "category": "cake",
+        "title": "Layer Cake Cherry Topping",
+        "description": "Cras sit amet eros congue, rhoncus sem sed, consequat arcu. Maecenas interdum ex id venenatis luctus.",
+        "price": "3.99"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2017-05-31 20:17:25",
@@ -23570,14 +22632,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "CHOC228",
-            "category": "chocolate",
-            "title": "Chocolate Bar",
-            "description": "Vivamus semper justo sed dictum aliquam. Nullam quis tortor accumsan, sagittis sem in, porttitor orci. Donec ac purus sed justo egestas ultricies.",
-            "price": "2.99"
-        }
+    "MainProductInfo": {
+        "skuNumber": "CHOC228",
+        "category": "chocolate",
+        "title": "Chocolate Bar",
+        "description": "Vivamus semper justo sed dictum aliquam. Nullam quis tortor accumsan, sagittis sem in, porttitor orci. Donec ac purus sed justo egestas ultricies.",
+        "price": "2.99"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2016-11-17 20:17:25",
@@ -23617,14 +22677,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "PEAN252",
-            "category": "chocolate",
-            "title": "Peanut Truffle",
-            "description": "Nam gravida libero ac malesuada cursus. Vivamus pharetra sapien at sem ultrices semper. Vivamus semper justo sed dictum aliquam.",
-            "price": "3.49"
-        }
+    "MainProductInfo": {
+        "skuNumber": "PEAN252",
+        "category": "chocolate",
+        "title": "Peanut Truffle",
+        "description": "Nam gravida libero ac malesuada cursus. Vivamus pharetra sapien at sem ultrices semper. Vivamus semper justo sed dictum aliquam.",
+        "price": "3.49"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2019-06-14 20:17:25",
@@ -23664,14 +22722,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "CHOC425",
-            "category": "donut",
-            "title": "Chocolate Covered Donut",
-            "description": "In a magna pretium, laoreet neque eget, consectetur justo. Nam gravida libero ac malesuada cursus. Vivamus pharetra sapien at sem ultrices semper.",
-            "price": "0.67"
-        }
+    "MainProductInfo": {
+        "skuNumber": "CHOC425",
+        "category": "donut",
+        "title": "Chocolate Covered Donut",
+        "description": "In a magna pretium, laoreet neque eget, consectetur justo. Nam gravida libero ac malesuada cursus. Vivamus pharetra sapien at sem ultrices semper.",
+        "price": "0.67"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2016-12-13 20:17:25",
@@ -23711,14 +22767,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "CHER516",
-            "category": "pie",
-            "title": "Cherry Pie",
-            "description": "Vivamus semper justo sed dictum aliquam. Maecenas eget lectus ultrices, porta eros a, blandit nisi. Phasellus vel velit eget nibh porttitor feugiat id ac massa.",
-            "price": "4.99"
-        }
+    "MainProductInfo": {
+        "skuNumber": "CHER516",
+        "category": "pie",
+        "title": "Cherry Pie",
+        "description": "Vivamus semper justo sed dictum aliquam. Maecenas eget lectus ultrices, porta eros a, blandit nisi. Phasellus vel velit eget nibh porttitor feugiat id ac massa.",
+        "price": "4.99"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2017-01-06 20:17:25",
@@ -23766,14 +22820,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "CHER516",
-            "category": "pie",
-            "title": "Cherry Pie",
-            "description": "Vivamus semper justo sed dictum aliquam. Maecenas eget lectus ultrices, porta eros a, blandit nisi. Phasellus vel velit eget nibh porttitor feugiat id ac massa.",
-            "price": "4.99"
-        }
+    "MainProductInfo": {
+        "skuNumber": "CHER516",
+        "category": "pie",
+        "title": "Cherry Pie",
+        "description": "Vivamus semper justo sed dictum aliquam. Maecenas eget lectus ultrices, porta eros a, blandit nisi. Phasellus vel velit eget nibh porttitor feugiat id ac massa.",
+        "price": "4.99"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2019-09-26 20:17:25",
@@ -23818,7 +22870,7 @@ db.purchases.insertOne(
         }
     },
     "ProductInfo": {
-        "MainProductInfo": null
+            "MainProductInfo": null
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2016-08-15 20:17:25",
@@ -23853,14 +22905,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "SCHW361",
-            "category": "cookie",
-            "title": "Schweineoehrchen Cookie",
-            "description": "Vivamus semper justo sed dictum aliquam. Nullam quis tortor accumsan, sagittis sem in, porttitor orci. Donec ac purus sed justo egestas ultricies. Mauris interdum elit nec dolor volutpat, sit amet sollicitudin eros facilisis.",
-            "price": "0.49"
-        }
+    "MainProductInfo": {
+        "skuNumber": "SCHW361",
+        "category": "cookie",
+        "title": "Schweineoehrchen Cookie",
+        "description": "Vivamus semper justo sed dictum aliquam. Nullam quis tortor accumsan, sagittis sem in, porttitor orci. Donec ac purus sed justo egestas ultricies. Mauris interdum elit nec dolor volutpat, sit amet sollicitudin eros facilisis.",
+        "price": "0.49"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2017-02-12 20:17:25",
@@ -23912,14 +22962,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "APPL501",
-            "category": "pie",
-            "title": "Apple Pie",
-            "description": "Praesent hendrerit tellus eget nibh lobortis, ut scelerisque mi mattis. Morbi consectetur urna sit amet facilisis gravida. Cras sit amet eros congue, rhoncus sem sed, consequat arcu. Maecenas interdum ex id venenatis luctus. In a magna pretium, laoreet neque eget, consectetur justo. Nam gravida libero ac malesuada cursus.",
-            "price": "4.99"
-        }
+    "MainProductInfo": {
+        "skuNumber": "APPL501",
+        "category": "pie",
+        "title": "Apple Pie",
+        "description": "Praesent hendrerit tellus eget nibh lobortis, ut scelerisque mi mattis. Morbi consectetur urna sit amet facilisis gravida. Cras sit amet eros congue, rhoncus sem sed, consequat arcu. Maecenas interdum ex id venenatis luctus. In a magna pretium, laoreet neque eget, consectetur justo. Nam gravida libero ac malesuada cursus.",
+        "price": "4.99"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2019-06-29 20:17:25",
@@ -23959,14 +23007,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "MUFF149",
-            "category": "cake",
-            "title": "Muffin",
-            "description": "In a magna pretium, laoreet neque eget, consectetur justo. Vivamus pharetra sapien at sem ultrices semper. Ut quis massa sit amet enim faucibus suscipit ac viverra elit. Maecenas eget lectus ultrices, porta eros a, blandit nisi.",
-            "price": "1.99"
-        }
+    "MainProductInfo": {
+        "skuNumber": "MUFF149",
+        "category": "cake",
+        "title": "Muffin",
+        "description": "In a magna pretium, laoreet neque eget, consectetur justo. Vivamus pharetra sapien at sem ultrices semper. Ut quis massa sit amet enim faucibus suscipit ac viverra elit. Maecenas eget lectus ultrices, porta eros a, blandit nisi.",
+        "price": "1.99"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2018-11-08 20:17:25",
@@ -24010,14 +23056,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "LAYE140",
-            "category": "cake",
-            "title": "Layer Cake Cherry Topping",
-            "description": "Cras sit amet eros congue, rhoncus sem sed, consequat arcu. Maecenas interdum ex id venenatis luctus.",
-            "price": "3.99"
-        }
+    "MainProductInfo": {
+        "skuNumber": "LAYE140",
+        "category": "cake",
+        "title": "Layer Cake Cherry Topping",
+        "description": "Cras sit amet eros congue, rhoncus sem sed, consequat arcu. Maecenas interdum ex id venenatis luctus.",
+        "price": "3.99"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2016-12-15 20:17:25",
@@ -24061,14 +23105,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "CHOC425",
-            "category": "donut",
-            "title": "Chocolate Covered Donut",
-            "description": "In a magna pretium, laoreet neque eget, consectetur justo. Nam gravida libero ac malesuada cursus. Vivamus pharetra sapien at sem ultrices semper.",
-            "price": "0.67"
-        }
+    "MainProductInfo": {
+        "skuNumber": "CHOC425",
+        "category": "donut",
+        "title": "Chocolate Covered Donut",
+        "description": "In a magna pretium, laoreet neque eget, consectetur justo. Nam gravida libero ac malesuada cursus. Vivamus pharetra sapien at sem ultrices semper.",
+        "price": "0.67"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2019-07-14 20:17:25",
@@ -24108,14 +23150,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "DOZE434",
-            "category": "donut",
-            "title": "Dozen Donuts",
-            "description": "Nam gravida libero ac malesuada cursus. Vivamus semper justo sed dictum aliquam. Praesent pretium justo at neque egestas mattis. Nullam quis tortor accumsan, sagittis sem in, porttitor orci. Phasellus vel velit eget nibh porttitor feugiat id ac massa. Donec ac purus sed justo egestas ultricies.",
-            "price": "6.99"
-        }
+    "MainProductInfo": {
+        "skuNumber": "DOZE434",
+        "category": "donut",
+        "title": "Dozen Donuts",
+        "description": "Nam gravida libero ac malesuada cursus. Vivamus semper justo sed dictum aliquam. Praesent pretium justo at neque egestas mattis. Nullam quis tortor accumsan, sagittis sem in, porttitor orci. Phasellus vel velit eget nibh porttitor feugiat id ac massa. Donec ac purus sed justo egestas ultricies.",
+        "price": "6.99"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2018-01-22 20:17:25",
@@ -24155,14 +23195,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "DOZE434",
-            "category": "donut",
-            "title": "Dozen Donuts",
-            "description": "Nam gravida libero ac malesuada cursus. Vivamus semper justo sed dictum aliquam. Praesent pretium justo at neque egestas mattis. Nullam quis tortor accumsan, sagittis sem in, porttitor orci. Phasellus vel velit eget nibh porttitor feugiat id ac massa. Donec ac purus sed justo egestas ultricies.",
-            "price": "6.99"
-        }
+    "MainProductInfo": {
+        "skuNumber": "DOZE434",
+        "category": "donut",
+        "title": "Dozen Donuts",
+        "description": "Nam gravida libero ac malesuada cursus. Vivamus semper justo sed dictum aliquam. Praesent pretium justo at neque egestas mattis. Nullam quis tortor accumsan, sagittis sem in, porttitor orci. Phasellus vel velit eget nibh porttitor feugiat id ac massa. Donec ac purus sed justo egestas ultricies.",
+        "price": "6.99"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2016-05-11 20:17:25",
@@ -24206,14 +23244,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "MUFF149",
-            "category": "cake",
-            "title": "Muffin",
-            "description": "In a magna pretium, laoreet neque eget, consectetur justo. Vivamus pharetra sapien at sem ultrices semper. Ut quis massa sit amet enim faucibus suscipit ac viverra elit. Maecenas eget lectus ultrices, porta eros a, blandit nisi.",
-            "price": "1.99"
-        }
+    "MainProductInfo": {
+        "skuNumber": "MUFF149",
+        "category": "cake",
+        "title": "Muffin",
+        "description": "In a magna pretium, laoreet neque eget, consectetur justo. Vivamus pharetra sapien at sem ultrices semper. Ut quis massa sit amet enim faucibus suscipit ac viverra elit. Maecenas eget lectus ultrices, porta eros a, blandit nisi.",
+        "price": "1.99"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2019-04-10 20:17:25",
@@ -24253,14 +23289,12 @@ db.purchases.insertOne(
             }
         }
     },
-    "ProductInfo": {
-        "MainProductInfo": {
-            "skuNumber": "WHIT276",
-            "category": "chocolate",
-            "title": "White Chocolate Truffel",
-            "description": "Cras sit amet eros congue, rhoncus sem sed, consequat arcu. In a magna pretium, laoreet neque eget, consectetur justo. Vivamus pharetra sapien at sem ultrices semper. Ut quis massa sit amet enim faucibus suscipit ac viverra elit.",
-            "price": "3.49"
-        }
+    "MainProductInfo": {
+        "skuNumber": "WHIT276",
+        "category": "chocolate",
+        "title": "White Chocolate Truffel",
+        "description": "Cras sit amet eros congue, rhoncus sem sed, consequat arcu. In a magna pretium, laoreet neque eget, consectetur justo. Vivamus pharetra sapien at sem ultrices semper. Ut quis massa sit amet enim faucibus suscipit ac viverra elit.",
+        "price": "3.49"
     },
     "PurchaseInfo": {
         "dateOfPurchase": "2017-08-24 20:17:25",

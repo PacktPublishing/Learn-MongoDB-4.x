@@ -3,7 +3,7 @@ db = conn.getDB("sweetscomplete");
 db.customers.drop();
 db.customers.insertOne(
 {
-    "phone": "+81-100-216-1524",
+    "customerKey": "81_100_216_1524",
     "PrimaryContactInfo": {
         "firstName": "Chad",
         "lastName": "Bryant",
@@ -55,7 +55,7 @@ db.customers.insertOne(
 });
 db.customers.insertOne(
 {
-    "phone": "+36-101-167-6900",
+    "customerKey": "36_101_167_6900",
     "PrimaryContactInfo": {
         "firstName": "Althea",
         "lastName": "Hartman",
@@ -98,7 +98,7 @@ db.customers.insertOne(
 });
 db.customers.insertOne(
 {
-    "phone": "+35818-103-375-5689",
+    "customerKey": "35818_103_375_5689",
     "PrimaryContactInfo": {
         "firstName": "Mary",
         "lastName": "Greene",
@@ -146,7 +146,7 @@ db.customers.insertOne(
 });
 db.customers.insertOne(
 {
-    "phone": "+351-104-876-8991",
+    "customerKey": "351_104_876_8991",
     "PrimaryContactInfo": {
         "firstName": "Adele",
         "lastName": "Leonard",
@@ -194,7 +194,7 @@ db.customers.insertOne(
 });
 db.customers.insertOne(
 {
-    "phone": "+598-105-243-4306",
+    "customerKey": "598_105_243_4306",
     "PrimaryContactInfo": {
         "firstName": "Joel",
         "lastName": "Whitaker",
@@ -237,7 +237,7 @@ db.customers.insertOne(
 });
 db.customers.insertOne(
 {
-    "phone": "+31-107-434-1438",
+    "customerKey": "31_107_434_1438",
     "PrimaryContactInfo": {
         "firstName": "Lillian",
         "lastName": "Wheeler",
@@ -285,7 +285,7 @@ db.customers.insertOne(
 });
 db.customers.insertOne(
 {
-    "phone": "+60-108-244-2499",
+    "customerKey": "60_108_244_2499",
     "PrimaryContactInfo": {
         "firstName": "Trinidad",
         "lastName": "Patrick",
@@ -333,7 +333,7 @@ db.customers.insertOne(
 });
 db.customers.insertOne(
 {
-    "phone": "+43-109-251-2797",
+    "customerKey": "43_109_251_2797",
     "PrimaryContactInfo": {
         "firstName": "Marya",
         "lastName": "Meyers",
@@ -385,7 +385,7 @@ db.customers.insertOne(
 });
 db.customers.insertOne(
 {
-    "phone": "+41-110-535-5526",
+    "customerKey": "41_110_535_5526",
     "PrimaryContactInfo": {
         "firstName": "Armando",
         "lastName": "Melton",
@@ -441,7 +441,7 @@ db.customers.insertOne(
 });
 db.customers.insertOne(
 {
-    "phone": "+420-112-162-2217",
+    "customerKey": "420_112_162_2217",
     "PrimaryContactInfo": {
         "firstName": "Rocco",
         "lastName": "Mullen",
@@ -489,7 +489,7 @@ db.customers.insertOne(
 });
 db.customers.insertOne(
 {
-    "phone": "+423-114-196-1441",
+    "customerKey": "423_114_196_1441",
     "PrimaryContactInfo": {
         "firstName": "Leslie",
         "lastName": "Maynard",
@@ -541,7 +541,7 @@ db.customers.insertOne(
 });
 db.customers.insertOne(
 {
-    "phone": "+420-116-809-7567",
+    "customerKey": "420_116_809_7567",
     "PrimaryContactInfo": {
         "firstName": "Dennise",
         "lastName": "Chan",
@@ -597,7 +597,7 @@ db.customers.insertOne(
 });
 db.customers.insertOne(
 {
-    "phone": "+66-117-487-5471",
+    "customerKey": "66_117_487_5471",
     "PrimaryContactInfo": {
         "firstName": "Alesia",
         "lastName": "Garcia",
@@ -653,7 +653,7 @@ db.customers.insertOne(
 });
 db.customers.insertOne(
 {
-    "phone": "+7-118-712-6961",
+    "customerKey": "7_118_712_6961",
     "PrimaryContactInfo": {
         "firstName": "Nathanial",
         "lastName": "Stokes",
@@ -705,7 +705,7 @@ db.customers.insertOne(
 });
 db.customers.insertOne(
 {
-    "phone": "+66-119-239-7861",
+    "customerKey": "66_119_239_7861",
     "PrimaryContactInfo": {
         "firstName": "Hobert",
         "lastName": "Shepherd",
@@ -757,7 +757,7 @@ db.customers.insertOne(
 });
 db.customers.insertOne(
 {
-    "phone": "+47-120-384-0294",
+    "customerKey": "47_120_384_0294",
     "PrimaryContactInfo": {
         "firstName": "Arlie",
         "lastName": "Short",
@@ -809,7 +809,7 @@ db.customers.insertOne(
 });
 db.customers.insertOne(
 {
-    "phone": "+1671-121-056-7069",
+    "customerKey": "1671_121_056_7069",
     "PrimaryContactInfo": {
         "firstName": "Elke",
         "lastName": "Andrews",
@@ -857,7 +857,7 @@ db.customers.insertOne(
 });
 db.customers.insertOne(
 {
-    "phone": "+92-122-046-3207",
+    "customerKey": "92_122_046_3207",
     "PrimaryContactInfo": {
         "firstName": "Lisa",
         "lastName": "Montgomery",
@@ -917,7 +917,7 @@ db.customers.insertOne(
 });
 db.customers.insertOne(
 {
-    "phone": "+352-123-577-7122",
+    "customerKey": "352_123_577_7122",
     "PrimaryContactInfo": {
         "firstName": "Sadye",
         "lastName": "Orozco",
@@ -960,7 +960,7 @@ db.customers.insertOne(
 });
 db.customers.insertOne(
 {
-    "phone": "+47-124-152-8875",
+    "customerKey": "47_124_152_8875",
     "PrimaryContactInfo": {
         "firstName": "Lorelei",
         "lastName": "Odonnell",
@@ -1012,7 +1012,7 @@ db.customers.insertOne(
 });
 db.customers.insertOne(
 {
-    "phone": "+359-125-135-1853",
+    "customerKey": "359_125_135_1853",
     "PrimaryContactInfo": {
         "firstName": "Dell",
         "lastName": "Haynes",
@@ -1068,7 +1068,7 @@ db.customers.insertOne(
 });
 db.customers.insertOne(
 {
-    "phone": "+385-126-497-8969",
+    "customerKey": "385_126_497_8969",
     "PrimaryContactInfo": {
         "firstName": "Sonny",
         "lastName": "Paul",
@@ -1132,7 +1132,7 @@ db.customers.insertOne(
 });
 db.customers.insertOne(
 {
-    "phone": "+1787-127-501-6410",
+    "customerKey": "1787_127_501_6410",
     "PrimaryContactInfo": {
         "firstName": "Phyllis",
         "lastName": "Soto",
@@ -1180,7 +1180,7 @@ db.customers.insertOne(
 });
 db.customers.insertOne(
 {
-    "phone": "+262-128-275-4895",
+    "customerKey": "262_128_275_4895",
     "PrimaryContactInfo": {
         "firstName": "Leana",
         "lastName": "Schroeder",
@@ -1228,7 +1228,7 @@ db.customers.insertOne(
 });
 db.customers.insertOne(
 {
-    "phone": "+441624-130-761-9116",
+    "customerKey": "441624_130_761_9116",
     "PrimaryContactInfo": {
         "firstName": "Shakita",
         "lastName": "Novak",
@@ -1288,7 +1288,7 @@ db.customers.insertOne(
 });
 db.customers.insertOne(
 {
-    "phone": "+66-131-446-2695",
+    "customerKey": "66_131_446_2695",
     "PrimaryContactInfo": {
         "firstName": "Esta",
         "lastName": "Glass",
@@ -1336,7 +1336,7 @@ db.customers.insertOne(
 });
 db.customers.insertOne(
 {
-    "phone": "+54-132-187-7938",
+    "customerKey": "54_132_187_7938",
     "PrimaryContactInfo": {
         "firstName": "Randee",
         "lastName": "Castillo",
@@ -1379,7 +1379,7 @@ db.customers.insertOne(
 });
 db.customers.insertOne(
 {
-    "phone": "+351-134-708-7462",
+    "customerKey": "351_134_708_7462",
     "PrimaryContactInfo": {
         "firstName": "Estrella",
         "lastName": "Cunningham",
@@ -1431,7 +1431,7 @@ db.customers.insertOne(
 });
 db.customers.insertOne(
 {
-    "phone": "+354-135-441-2759",
+    "customerKey": "354_135_441_2759",
     "PrimaryContactInfo": {
         "firstName": "Jamaal",
         "lastName": "Potter",
@@ -1479,7 +1479,7 @@ db.customers.insertOne(
 });
 db.customers.insertOne(
 {
-    "phone": "+441481-136-874-3404",
+    "customerKey": "441481_136_874_3404",
     "PrimaryContactInfo": {
         "firstName": "Loris",
         "lastName": "Tyler",
@@ -1527,7 +1527,7 @@ db.customers.insertOne(
 });
 db.customers.insertOne(
 {
-    "phone": "+41-137-955-8730",
+    "customerKey": "41_137_955_8730",
     "PrimaryContactInfo": {
         "firstName": "Jeffrey",
         "lastName": "Harrell",
@@ -1575,7 +1575,7 @@ db.customers.insertOne(
 });
 db.customers.insertOne(
 {
-    "phone": "+356-138-412-5061",
+    "customerKey": "356_138_412_5061",
     "PrimaryContactInfo": {
         "firstName": "Sasha",
         "lastName": "Quintana",
@@ -1623,7 +1623,7 @@ db.customers.insertOne(
 });
 db.customers.insertOne(
 {
-    "phone": "+377-139-784-0385",
+    "customerKey": "377_139_784_0385",
     "PrimaryContactInfo": {
         "firstName": "Sharan",
         "lastName": "Beasley",
@@ -1666,7 +1666,7 @@ db.customers.insertOne(
 });
 db.customers.insertOne(
 {
-    "phone": "+687-140-946-3417",
+    "customerKey": "687_140_946_3417",
     "PrimaryContactInfo": {
         "firstName": "Stanton",
         "lastName": "Chan",
@@ -1722,7 +1722,7 @@ db.customers.insertOne(
 });
 db.customers.insertOne(
 {
-    "phone": "+375-141-319-5007",
+    "customerKey": "375_141_319_5007",
     "PrimaryContactInfo": {
         "firstName": "Lang",
         "lastName": "Shaffer",
@@ -1770,7 +1770,7 @@ db.customers.insertOne(
 });
 db.customers.insertOne(
 {
-    "phone": "+63-142-421-8126",
+    "customerKey": "63_142_421_8126",
     "PrimaryContactInfo": {
         "firstName": "Mitch",
         "lastName": "Durham",
@@ -1813,7 +1813,7 @@ db.customers.insertOne(
 });
 db.customers.insertOne(
 {
-    "phone": "+213-143-582-4981",
+    "customerKey": "213_143_582_4981",
     "PrimaryContactInfo": {
         "firstName": "Daina",
         "lastName": "Garner",
@@ -1865,7 +1865,7 @@ db.customers.insertOne(
 });
 db.customers.insertOne(
 {
-    "phone": "+880-144-393-3740",
+    "customerKey": "880_144_393_3740",
     "PrimaryContactInfo": {
         "firstName": "Odis",
         "lastName": "Fuller",
@@ -1908,7 +1908,7 @@ db.customers.insertOne(
 });
 db.customers.insertOne(
 {
-    "phone": "+81-145-606-0363",
+    "customerKey": "81_145_606_0363",
     "PrimaryContactInfo": {
         "firstName": "Bryant",
         "lastName": "Brady",
@@ -1956,7 +1956,7 @@ db.customers.insertOne(
 });
 db.customers.insertOne(
 {
-    "phone": "+47-146-816-6595",
+    "customerKey": "47_146_816_6595",
     "PrimaryContactInfo": {
         "firstName": "Tierra",
         "lastName": "Bradshaw",
@@ -1999,7 +1999,7 @@ db.customers.insertOne(
 });
 db.customers.insertOne(
 {
-    "phone": "+375-148-966-1018",
+    "customerKey": "375_148_966_1018",
     "PrimaryContactInfo": {
         "firstName": "Luanna",
         "lastName": "Marsh",
@@ -2047,7 +2047,7 @@ db.customers.insertOne(
 });
 db.customers.insertOne(
 {
-    "phone": "+60-149-941-1956",
+    "customerKey": "60_149_941_1956",
     "PrimaryContactInfo": {
         "firstName": "Louella",
         "lastName": "Hunt",
@@ -2095,7 +2095,7 @@ db.customers.insertOne(
 });
 db.customers.insertOne(
 {
-    "phone": "+389-150-126-8897",
+    "customerKey": "389_150_126_8897",
     "PrimaryContactInfo": {
         "firstName": "Andria",
         "lastName": "Mccall",
@@ -2143,7 +2143,7 @@ db.customers.insertOne(
 });
 db.customers.insertOne(
 {
-    "phone": "+299-151-542-5167",
+    "customerKey": "299_151_542_5167",
     "PrimaryContactInfo": {
         "firstName": "Morton",
         "lastName": "Huffman",
@@ -2195,7 +2195,7 @@ db.customers.insertOne(
 });
 db.customers.insertOne(
 {
-    "phone": "+47-152-514-7835",
+    "customerKey": "47_152_514_7835",
     "PrimaryContactInfo": {
         "firstName": "Cathey",
         "lastName": "Petersen",
@@ -2251,7 +2251,7 @@ db.customers.insertOne(
 });
 db.customers.insertOne(
 {
-    "phone": "+1-153-416-8579",
+    "customerKey": "1_153_416_8579",
     "PrimaryContactInfo": {
         "firstName": "Jasper",
         "lastName": "Estrada",
@@ -2307,7 +2307,7 @@ db.customers.insertOne(
 });
 db.customers.insertOne(
 {
-    "phone": "+351-155-643-3837",
+    "customerKey": "351_155_643_3837",
     "PrimaryContactInfo": {
         "firstName": "Mabelle",
         "lastName": "Chan",
@@ -2355,7 +2355,7 @@ db.customers.insertOne(
 });
 db.customers.insertOne(
 {
-    "phone": "+385-156-157-3739",
+    "customerKey": "385_156_157_3739",
     "PrimaryContactInfo": {
         "firstName": "Elisha",
         "lastName": "Felix",
@@ -2398,7 +2398,7 @@ db.customers.insertOne(
 });
 db.customers.insertOne(
 {
-    "phone": "+94-157-009-8177",
+    "customerKey": "94_157_009_8177",
     "PrimaryContactInfo": {
         "firstName": "Nathan",
         "lastName": "Bernal",
@@ -2446,7 +2446,7 @@ db.customers.insertOne(
 });
 db.customers.insertOne(
 {
-    "phone": "+352-158-815-3306",
+    "customerKey": "352_158_815_3306",
     "PrimaryContactInfo": {
         "firstName": "Libby",
         "lastName": "Greer",
@@ -2494,7 +2494,7 @@ db.customers.insertOne(
 });
 db.customers.insertOne(
 {
-    "phone": "+375-159-855-5549",
+    "customerKey": "375_159_855_5549",
     "PrimaryContactInfo": {
         "firstName": "Irving",
         "lastName": "Reyna",
@@ -2542,7 +2542,7 @@ db.customers.insertOne(
 });
 db.customers.insertOne(
 {
-    "phone": "+7-160-267-4050",
+    "customerKey": "7_160_267_4050",
     "PrimaryContactInfo": {
         "firstName": "Ferdinand",
         "lastName": "Montgomery",
@@ -2594,7 +2594,7 @@ db.customers.insertOne(
 });
 db.customers.insertOne(
 {
-    "phone": "+386-161-342-4653",
+    "customerKey": "386_161_342_4653",
     "PrimaryContactInfo": {
         "firstName": "Trevor",
         "lastName": "Villa",
@@ -2650,7 +2650,7 @@ db.customers.insertOne(
 });
 db.customers.insertOne(
 {
-    "phone": "+39-162-293-5140",
+    "customerKey": "39_162_293_5140",
     "PrimaryContactInfo": {
         "firstName": "Wanetta",
         "lastName": "Lin",
@@ -2698,7 +2698,7 @@ db.customers.insertOne(
 });
 db.customers.insertOne(
 {
-    "phone": "+371-163-074-5586",
+    "customerKey": "371_163_074_5586",
     "PrimaryContactInfo": {
         "firstName": "Renate",
         "lastName": "Gray",
@@ -2750,7 +2750,7 @@ db.customers.insertOne(
 });
 db.customers.insertOne(
 {
-    "phone": "+594-164-429-0692",
+    "customerKey": "594_164_429_0692",
     "PrimaryContactInfo": {
         "firstName": "Terry",
         "lastName": "Zamora",
@@ -2793,7 +2793,7 @@ db.customers.insertOne(
 });
 db.customers.insertOne(
 {
-    "phone": "+1787-165-610-5983",
+    "customerKey": "1787_165_610_5983",
     "PrimaryContactInfo": {
         "firstName": "Tosha",
         "lastName": "Francis",
@@ -2853,7 +2853,7 @@ db.customers.insertOne(
 });
 db.customers.insertOne(
 {
-    "phone": "+56-166-828-8618",
+    "customerKey": "56_166_828_8618",
     "PrimaryContactInfo": {
         "firstName": "Joan",
         "lastName": "Lindsey",
@@ -2913,7 +2913,7 @@ db.customers.insertOne(
 });
 db.customers.insertOne(
 {
-    "phone": "+375-167-007-9070",
+    "customerKey": "375_167_007_9070",
     "PrimaryContactInfo": {
         "firstName": "Jerrod",
         "lastName": "Anthony",
@@ -2973,7 +2973,7 @@ db.customers.insertOne(
 });
 db.customers.insertOne(
 {
-    "phone": "+1-168-494-8685",
+    "customerKey": "1_168_494_8685",
     "PrimaryContactInfo": {
         "firstName": "Nikki",
         "lastName": "Holmes",
@@ -3025,7 +3025,7 @@ db.customers.insertOne(
 });
 db.customers.insertOne(
 {
-    "phone": "+370-169-834-8494",
+    "customerKey": "370_169_834_8494",
     "PrimaryContactInfo": {
         "firstName": "Rosena",
         "lastName": "Mckinney",
@@ -3077,7 +3077,7 @@ db.customers.insertOne(
 });
 db.customers.insertOne(
 {
-    "phone": "+61-170-171-3339",
+    "customerKey": "61_170_171_3339",
     "PrimaryContactInfo": {
         "firstName": "Wilmer",
         "lastName": "Stevens",
@@ -3120,7 +3120,7 @@ db.customers.insertOne(
 });
 db.customers.insertOne(
 {
-    "phone": "+63-171-335-7076",
+    "customerKey": "63_171_335_7076",
     "PrimaryContactInfo": {
         "firstName": "Jesus",
         "lastName": "Archer",
@@ -3172,7 +3172,7 @@ db.customers.insertOne(
 });
 db.customers.insertOne(
 {
-    "phone": "+262-173-425-7859",
+    "customerKey": "262_173_425_7859",
     "PrimaryContactInfo": {
         "firstName": "Buster",
         "lastName": "Blair",
@@ -3236,7 +3236,7 @@ db.customers.insertOne(
 });
 db.customers.insertOne(
 {
-    "phone": "+55-174-703-7269",
+    "customerKey": "55_174_703_7269",
     "PrimaryContactInfo": {
         "firstName": "Rena",
         "lastName": "Pace",
@@ -3279,7 +3279,7 @@ db.customers.insertOne(
 });
 db.customers.insertOne(
 {
-    "phone": "+590-175-842-9384",
+    "customerKey": "590_175_842_9384",
     "PrimaryContactInfo": {
         "firstName": "Gabriel",
         "lastName": "Thomas",
@@ -3339,7 +3339,7 @@ db.customers.insertOne(
 });
 db.customers.insertOne(
 {
-    "phone": "+44-176-175-6936",
+    "customerKey": "44_176_175_6936",
     "PrimaryContactInfo": {
         "firstName": "Rayford",
         "lastName": "Mclaughlin",
@@ -3391,7 +3391,7 @@ db.customers.insertOne(
 });
 db.customers.insertOne(
 {
-    "phone": "+371-177-535-8569",
+    "customerKey": "371_177_535_8569",
     "PrimaryContactInfo": {
         "firstName": "Teresia",
         "lastName": "Swanson",
@@ -3443,7 +3443,7 @@ db.customers.insertOne(
 });
 db.customers.insertOne(
 {
-    "phone": "+373-178-042-4404",
+    "customerKey": "373_178_042_4404",
     "PrimaryContactInfo": {
         "firstName": "Sherell",
         "lastName": "Atkins",
@@ -3486,7 +3486,7 @@ db.customers.insertOne(
 });
 db.customers.insertOne(
 {
-    "phone": "+44-179-390-6723",
+    "customerKey": "44_179_390_6723",
     "PrimaryContactInfo": {
         "firstName": "Harvey",
         "lastName": "Franklin",
@@ -3538,7 +3538,7 @@ db.customers.insertOne(
 });
 db.customers.insertOne(
 {
-    "phone": "+34-180-841-3727",
+    "customerKey": "34_180_841_3727",
     "PrimaryContactInfo": {
         "firstName": "Carlo",
         "lastName": "Gilbert",
@@ -3581,7 +3581,7 @@ db.customers.insertOne(
 });
 db.customers.insertOne(
 {
-    "phone": "+386-181-760-8538",
+    "customerKey": "386_181_760_8538",
     "PrimaryContactInfo": {
         "firstName": "Dionne",
         "lastName": "Brady",
@@ -3624,7 +3624,7 @@ db.customers.insertOne(
 });
 db.customers.insertOne(
 {
-    "phone": "+594-182-742-5189",
+    "customerKey": "594_182_742_5189",
     "PrimaryContactInfo": {
         "firstName": "Jonelle",
         "lastName": "Shaw",
@@ -3680,7 +3680,7 @@ db.customers.insertOne(
 });
 db.customers.insertOne(
 {
-    "phone": "+441624-183-573-7097",
+    "customerKey": "441624_183_573_7097",
     "PrimaryContactInfo": {
         "firstName": "Neva",
         "lastName": "Sweeney",
@@ -3728,7 +3728,7 @@ db.customers.insertOne(
 });
 db.customers.insertOne(
 {
-    "phone": "+35818-184-514-1246",
+    "customerKey": "35818_184_514_1246",
     "PrimaryContactInfo": {
         "firstName": "Caitlyn",
         "lastName": "Jensen",
@@ -3776,7 +3776,7 @@ db.customers.insertOne(
 });
 db.customers.insertOne(
 {
-    "phone": "+359-185-345-2080",
+    "customerKey": "359_185_345_2080",
     "PrimaryContactInfo": {
         "firstName": "Pierre",
         "lastName": "Fry",
@@ -3832,7 +3832,7 @@ db.customers.insertOne(
 });
 db.customers.insertOne(
 {
-    "phone": "+386-186-376-8951",
+    "customerKey": "386_186_376_8951",
     "PrimaryContactInfo": {
         "firstName": "Kelley",
         "lastName": "Fowler",
@@ -3888,7 +3888,7 @@ db.customers.insertOne(
 });
 db.customers.insertOne(
 {
-    "phone": "+691-187-428-8154",
+    "customerKey": "691_187_428_8154",
     "PrimaryContactInfo": {
         "firstName": "Archie",
         "lastName": "Oneill",
@@ -3940,7 +3940,7 @@ db.customers.insertOne(
 });
 db.customers.insertOne(
 {
-    "phone": "+91-188-572-4694",
+    "customerKey": "91_188_572_4694",
     "PrimaryContactInfo": {
         "firstName": "Leif",
         "lastName": "Morrison",
@@ -3988,7 +3988,7 @@ db.customers.insertOne(
 });
 db.customers.insertOne(
 {
-    "phone": "+681-189-470-2983",
+    "customerKey": "681_189_470_2983",
     "PrimaryContactInfo": {
         "firstName": "Edmond",
         "lastName": "Blackburn",
@@ -4040,7 +4040,7 @@ db.customers.insertOne(
 });
 db.customers.insertOne(
 {
-    "phone": "+1-190-679-1467",
+    "customerKey": "1_190_679_1467",
     "PrimaryContactInfo": {
         "firstName": "Roxana",
         "lastName": "Palacios",
@@ -4092,7 +4092,7 @@ db.customers.insertOne(
 });
 db.customers.insertOne(
 {
-    "phone": "+299-191-755-1958",
+    "customerKey": "299_191_755_1958",
     "PrimaryContactInfo": {
         "firstName": "Mack",
         "lastName": "Esparza",
@@ -4135,7 +4135,7 @@ db.customers.insertOne(
 });
 db.customers.insertOne(
 {
-    "phone": "+687-192-526-1187",
+    "customerKey": "687_192_526_1187",
     "PrimaryContactInfo": {
         "firstName": "Augusta",
         "lastName": "Berry",
@@ -4183,7 +4183,7 @@ db.customers.insertOne(
 });
 db.customers.insertOne(
 {
-    "phone": "+48-193-093-4810",
+    "customerKey": "48_193_093_4810",
     "PrimaryContactInfo": {
         "firstName": "Miquel",
         "lastName": "Hawkins",
@@ -4231,7 +4231,7 @@ db.customers.insertOne(
 });
 db.customers.insertOne(
 {
-    "phone": "+386-194-053-0030",
+    "customerKey": "386_194_053_0030",
     "PrimaryContactInfo": {
         "firstName": "Delmer",
         "lastName": "Gutierrez",
@@ -4279,7 +4279,7 @@ db.customers.insertOne(
 });
 db.customers.insertOne(
 {
-    "phone": "+420-195-416-4075",
+    "customerKey": "420_195_416_4075",
     "PrimaryContactInfo": {
         "firstName": "Chadwick",
         "lastName": "Murray",
@@ -4335,7 +4335,7 @@ db.customers.insertOne(
 });
 db.customers.insertOne(
 {
-    "phone": "+353-196-204-6758",
+    "customerKey": "353_196_204_6758",
     "PrimaryContactInfo": {
         "firstName": "Andreas",
         "lastName": "Peck",
@@ -4383,7 +4383,7 @@ db.customers.insertOne(
 });
 db.customers.insertOne(
 {
-    "phone": "+66-197-073-2331",
+    "customerKey": "66_197_073_2331",
     "PrimaryContactInfo": {
         "firstName": "Apryl",
         "lastName": "Mathis",
@@ -4435,7 +4435,7 @@ db.customers.insertOne(
 });
 db.customers.insertOne(
 {
-    "phone": "+1441-198-865-1869",
+    "customerKey": "1441_198_865_1869",
     "PrimaryContactInfo": {
         "firstName": "Lincoln",
         "lastName": "Shelton",
@@ -4491,7 +4491,7 @@ db.customers.insertOne(
 });
 db.customers.insertOne(
 {
-    "phone": "+91-199-392-2056",
+    "customerKey": "91_199_392_2056",
     "PrimaryContactInfo": {
         "firstName": "Brandon",
         "lastName": "Pace",
@@ -4539,7 +4539,7 @@ db.customers.insertOne(
 });
 db.customers.insertOne(
 {
-    "phone": "+36-200-555-2212",
+    "customerKey": "36_200_555_2212",
     "PrimaryContactInfo": {
         "firstName": "Rozanne",
         "lastName": "Mcdowell",
@@ -4582,7 +4582,7 @@ db.customers.insertOne(
 });
 db.customers.insertOne(
 {
-    "phone": "+213-201-152-6991",
+    "customerKey": "213_201_152_6991",
     "PrimaryContactInfo": {
         "firstName": "Dessie",
         "lastName": "Mueller",
@@ -4630,7 +4630,7 @@ db.customers.insertOne(
 });
 db.customers.insertOne(
 {
-    "phone": "+441624-203-945-7247",
+    "customerKey": "441624_203_945_7247",
     "PrimaryContactInfo": {
         "firstName": "Margery",
         "lastName": "Meza",
@@ -4686,7 +4686,7 @@ db.customers.insertOne(
 });
 db.customers.insertOne(
 {
-    "phone": "+55-204-481-4245",
+    "customerKey": "55_204_481_4245",
     "PrimaryContactInfo": {
         "firstName": "Sona",
         "lastName": "Rios",
@@ -4738,7 +4738,7 @@ db.customers.insertOne(
 });
 db.customers.insertOne(
 {
-    "phone": "+48-205-239-0731",
+    "customerKey": "48_205_239_0731",
     "PrimaryContactInfo": {
         "firstName": "Ollie",
         "lastName": "Graves",
@@ -4786,7 +4786,7 @@ db.customers.insertOne(
 });
 db.customers.insertOne(
 {
-    "phone": "+380-206-464-6981",
+    "customerKey": "380_206_464_6981",
     "PrimaryContactInfo": {
         "firstName": "Gene",
         "lastName": "Dean",
@@ -4838,7 +4838,7 @@ db.customers.insertOne(
 });
 db.customers.insertOne(
 {
-    "phone": "+7-207-805-1439",
+    "customerKey": "7_207_805_1439",
     "PrimaryContactInfo": {
         "firstName": "Sherri",
         "lastName": "Hubbard",
@@ -4890,7 +4890,7 @@ db.customers.insertOne(
 });
 db.customers.insertOne(
 {
-    "phone": "+370-208-392-3736",
+    "customerKey": "370_208_392_3736",
     "PrimaryContactInfo": {
         "firstName": "Long",
         "lastName": "Graves",
@@ -4938,7 +4938,7 @@ db.customers.insertOne(
 });
 db.customers.insertOne(
 {
-    "phone": "+35818-209-073-7912",
+    "customerKey": "35818_209_073_7912",
     "PrimaryContactInfo": {
         "firstName": "Abel",
         "lastName": "Guerrero",
@@ -4998,7 +4998,7 @@ db.customers.insertOne(
 });
 db.customers.insertOne(
 {
-    "phone": "+351-210-340-0364",
+    "customerKey": "351_210_340_0364",
     "PrimaryContactInfo": {
         "firstName": "Shannon",
         "lastName": "Bryant",
@@ -5041,7 +5041,7 @@ db.customers.insertOne(
 });
 db.customers.insertOne(
 {
-    "phone": "+46-212-131-1148",
+    "customerKey": "46_212_131_1148",
     "PrimaryContactInfo": {
         "firstName": "Tiana",
         "lastName": "Webb",
@@ -5093,7 +5093,7 @@ db.customers.insertOne(
 });
 db.customers.insertOne(
 {
-    "phone": "+385-213-345-5499",
+    "customerKey": "385_213_345_5499",
     "PrimaryContactInfo": {
         "firstName": "Billy",
         "lastName": "Juarez",
@@ -5141,7 +5141,7 @@ db.customers.insertOne(
 });
 db.customers.insertOne(
 {
-    "phone": "+66-214-798-2054",
+    "customerKey": "66_214_798_2054",
     "PrimaryContactInfo": {
         "firstName": "Leon",
         "lastName": "Molina",
@@ -5184,7 +5184,7 @@ db.customers.insertOne(
 });
 db.customers.insertOne(
 {
-    "phone": "+63-215-692-7879",
+    "customerKey": "63_215_692_7879",
     "PrimaryContactInfo": {
         "firstName": "Blair",
         "lastName": "Christian",
@@ -5240,7 +5240,7 @@ db.customers.insertOne(
 });
 db.customers.insertOne(
 {
-    "phone": "+691-216-077-7724",
+    "customerKey": "691_216_077_7724",
     "PrimaryContactInfo": {
         "firstName": "Margret",
         "lastName": "Reese",
@@ -5292,7 +5292,7 @@ db.customers.insertOne(
 });
 db.customers.insertOne(
 {
-    "phone": "+94-217-806-4314",
+    "customerKey": "94_217_806_4314",
     "PrimaryContactInfo": {
         "firstName": "Vanetta",
         "lastName": "Roberson",
@@ -5335,7 +5335,7 @@ db.customers.insertOne(
 });
 db.customers.insertOne(
 {
-    "phone": "+441481-218-067-2691",
+    "customerKey": "441481_218_067_2691",
     "PrimaryContactInfo": {
         "firstName": "Ethan",
         "lastName": "Williams",
@@ -5383,7 +5383,7 @@ db.customers.insertOne(
 });
 db.customers.insertOne(
 {
-    "phone": "+32-219-368-6703",
+    "customerKey": "32_219_368_6703",
     "PrimaryContactInfo": {
         "firstName": "Devon",
         "lastName": "Khan",
@@ -5426,7 +5426,7 @@ db.customers.insertOne(
 });
 db.customers.insertOne(
 {
-    "phone": "+66-221-125-8339",
+    "customerKey": "66_221_125_8339",
     "PrimaryContactInfo": {
         "firstName": "Lonny",
         "lastName": "Sullivan",
@@ -5478,7 +5478,7 @@ db.customers.insertOne(
 });
 db.customers.insertOne(
 {
-    "phone": "+421-223-042-7823",
+    "customerKey": "421_223_042_7823",
     "PrimaryContactInfo": {
         "firstName": "Jeremy",
         "lastName": "Torres",
@@ -5538,7 +5538,7 @@ db.customers.insertOne(
 });
 db.customers.insertOne(
 {
-    "phone": "+48-224-614-3862",
+    "customerKey": "48_224_614_3862",
     "PrimaryContactInfo": {
         "firstName": "Else",
         "lastName": "Cordova",
@@ -5586,7 +5586,7 @@ db.customers.insertOne(
 });
 db.customers.insertOne(
 {
-    "phone": "+354-225-682-8335",
+    "customerKey": "354_225_682_8335",
     "PrimaryContactInfo": {
         "firstName": "Aubrey",
         "lastName": "Cochran",
@@ -5634,7 +5634,7 @@ db.customers.insertOne(
 });
 db.customers.insertOne(
 {
-    "phone": "+36-226-291-5578",
+    "customerKey": "36_226_291_5578",
     "PrimaryContactInfo": {
         "firstName": "Sarina",
         "lastName": "Best",
@@ -5686,7 +5686,7 @@ db.customers.insertOne(
 });
 db.customers.insertOne(
 {
-    "phone": "+1340-227-941-1397",
+    "customerKey": "1340_227_941_1397",
     "PrimaryContactInfo": {
         "firstName": "Jacques",
         "lastName": "Daniels",
@@ -5742,7 +5742,7 @@ db.customers.insertOne(
 });
 db.customers.insertOne(
 {
-    "phone": "+33-228-243-6534",
+    "customerKey": "33_228_243_6534",
     "PrimaryContactInfo": {
         "firstName": "Shasta",
         "lastName": "Hunter",
@@ -5794,7 +5794,7 @@ db.customers.insertOne(
 });
 db.customers.insertOne(
 {
-    "phone": "+63-229-913-2162",
+    "customerKey": "63_229_913_2162",
     "PrimaryContactInfo": {
         "firstName": "Sherly",
         "lastName": "Dodson",
@@ -5846,7 +5846,7 @@ db.customers.insertOne(
 });
 db.customers.insertOne(
 {
-    "phone": "+386-230-680-0747",
+    "customerKey": "386_230_680_0747",
     "PrimaryContactInfo": {
         "firstName": "Keshia",
         "lastName": "Daniels",
@@ -5898,7 +5898,7 @@ db.customers.insertOne(
 });
 db.customers.insertOne(
 {
-    "phone": "+63-231-929-2356",
+    "customerKey": "63_231_929_2356",
     "PrimaryContactInfo": {
         "firstName": "Lorna",
         "lastName": "Saunders",
@@ -5946,7 +5946,7 @@ db.customers.insertOne(
 });
 db.customers.insertOne(
 {
-    "phone": "+61-232-479-5587",
+    "customerKey": "61_232_479_5587",
     "PrimaryContactInfo": {
         "firstName": "Jimmie",
         "lastName": "Xiong",
@@ -5989,7 +5989,7 @@ db.customers.insertOne(
 });
 db.customers.insertOne(
 {
-    "phone": "+32-233-616-4312",
+    "customerKey": "32_233_616_4312",
     "PrimaryContactInfo": {
         "firstName": "Angel",
         "lastName": "Dawson",
@@ -6041,7 +6041,7 @@ db.customers.insertOne(
 });
 db.customers.insertOne(
 {
-    "phone": "+298-234-020-3385",
+    "customerKey": "298_234_020_3385",
     "PrimaryContactInfo": {
         "firstName": "Refugio",
         "lastName": "Hurley",
@@ -6093,7 +6093,7 @@ db.customers.insertOne(
 });
 db.customers.insertOne(
 {
-    "phone": "+375-235-741-7036",
+    "customerKey": "375_235_741_7036",
     "PrimaryContactInfo": {
         "firstName": "Monique",
         "lastName": "Clements",
@@ -6136,7 +6136,7 @@ db.customers.insertOne(
 });
 db.customers.insertOne(
 {
-    "phone": "+298-236-154-2019",
+    "customerKey": "298_236_154_2019",
     "PrimaryContactInfo": {
         "firstName": "Elisha",
         "lastName": "Diaz",
@@ -6184,7 +6184,7 @@ db.customers.insertOne(
 });
 db.customers.insertOne(
 {
-    "phone": "+60-237-187-7038",
+    "customerKey": "60_237_187_7038",
     "PrimaryContactInfo": {
         "firstName": "Eldon",
         "lastName": "Ahmed",
@@ -6227,7 +6227,7 @@ db.customers.insertOne(
 });
 db.customers.insertOne(
 {
-    "phone": "+687-238-468-3309",
+    "customerKey": "687_238_468_3309",
     "PrimaryContactInfo": {
         "firstName": "Eneida",
         "lastName": "Higgins",
@@ -6275,7 +6275,7 @@ db.customers.insertOne(
 });
 db.customers.insertOne(
 {
-    "phone": "+41-239-161-1678",
+    "customerKey": "41_239_161_1678",
     "PrimaryContactInfo": {
         "firstName": "Bert",
         "lastName": "Cobb",
@@ -6323,7 +6323,7 @@ db.customers.insertOne(
 });
 db.customers.insertOne(
 {
-    "phone": "+1809-240-784-5981",
+    "customerKey": "1809_240_784_5981",
     "PrimaryContactInfo": {
         "firstName": "Jill",
         "lastName": "Henderson",
@@ -6375,7 +6375,7 @@ db.customers.insertOne(
 });
 db.customers.insertOne(
 {
-    "phone": "+376-241-474-4995",
+    "customerKey": "376_241_474_4995",
     "PrimaryContactInfo": {
         "firstName": "Bernarda",
         "lastName": "Faulkner",
@@ -6423,7 +6423,7 @@ db.customers.insertOne(
 });
 db.customers.insertOne(
 {
-    "phone": "+370-242-708-7084",
+    "customerKey": "370_242_708_7084",
     "PrimaryContactInfo": {
         "firstName": "Carrol",
         "lastName": "Phillips",
@@ -6475,7 +6475,7 @@ db.customers.insertOne(
 });
 db.customers.insertOne(
 {
-    "phone": "+441481-243-517-0029",
+    "customerKey": "441481_243_517_0029",
     "PrimaryContactInfo": {
         "firstName": "Kirby",
         "lastName": "Farmer",
@@ -6527,7 +6527,7 @@ db.customers.insertOne(
 });
 db.customers.insertOne(
 {
-    "phone": "+92-244-040-7584",
+    "customerKey": "92_244_040_7584",
     "PrimaryContactInfo": {
         "firstName": "Julienne",
         "lastName": "Mcfarland",
@@ -6575,7 +6575,7 @@ db.customers.insertOne(
 });
 db.customers.insertOne(
 {
-    "phone": "+54-245-073-0201",
+    "customerKey": "54_245_073_0201",
     "PrimaryContactInfo": {
         "firstName": "Eldon",
         "lastName": "Casey",
@@ -6623,7 +6623,7 @@ db.customers.insertOne(
 });
 db.customers.insertOne(
 {
-    "phone": "+39-246-202-6312",
+    "customerKey": "39_246_202_6312",
     "PrimaryContactInfo": {
         "firstName": "Rigoberto",
         "lastName": "Bauer",
@@ -6671,7 +6671,7 @@ db.customers.insertOne(
 });
 db.customers.insertOne(
 {
-    "phone": "+46-247-465-0424",
+    "customerKey": "46_247_465_0424",
     "PrimaryContactInfo": {
         "firstName": "Lenore",
         "lastName": "Rivera",
@@ -6719,7 +6719,7 @@ db.customers.insertOne(
 });
 db.customers.insertOne(
 {
-    "phone": "+371-248-566-2273",
+    "customerKey": "371_248_566_2273",
     "PrimaryContactInfo": {
         "firstName": "Reba",
         "lastName": "Ramos",
@@ -6771,7 +6771,7 @@ db.customers.insertOne(
 });
 db.customers.insertOne(
 {
-    "phone": "+7-249-835-4466",
+    "customerKey": "7_249_835_4466",
     "PrimaryContactInfo": {
         "firstName": "Jayson",
         "lastName": "Leblanc",
@@ -6819,7 +6819,7 @@ db.customers.insertOne(
 });
 db.customers.insertOne(
 {
-    "phone": "+423-250-722-6484",
+    "customerKey": "423_250_722_6484",
     "PrimaryContactInfo": {
         "firstName": "Holly",
         "lastName": "Guzman",
@@ -6871,7 +6871,7 @@ db.customers.insertOne(
 });
 db.customers.insertOne(
 {
-    "phone": "+33-251-121-0274",
+    "customerKey": "33_251_121_0274",
     "PrimaryContactInfo": {
         "firstName": "Josiah",
         "lastName": "Fischer",
@@ -6919,7 +6919,7 @@ db.customers.insertOne(
 });
 db.customers.insertOne(
 {
-    "phone": "+57-252-797-7635",
+    "customerKey": "57_252_797_7635",
     "PrimaryContactInfo": {
         "firstName": "Angla",
         "lastName": "Craig",
@@ -6967,7 +6967,7 @@ db.customers.insertOne(
 });
 db.customers.insertOne(
 {
-    "phone": "+1441-253-304-5182",
+    "customerKey": "1441_253_304_5182",
     "PrimaryContactInfo": {
         "firstName": "Aron",
         "lastName": "Herring",
@@ -7023,7 +7023,7 @@ db.customers.insertOne(
 });
 db.customers.insertOne(
 {
-    "phone": "+502-255-722-8564",
+    "customerKey": "502_255_722_8564",
     "PrimaryContactInfo": {
         "firstName": "Katelin",
         "lastName": "Crane",
@@ -7071,7 +7071,7 @@ db.customers.insertOne(
 });
 db.customers.insertOne(
 {
-    "phone": "+386-256-915-7220",
+    "customerKey": "386_256_915_7220",
     "PrimaryContactInfo": {
         "firstName": "Linn",
         "lastName": "Dixon",
@@ -7119,7 +7119,7 @@ db.customers.insertOne(
 });
 db.customers.insertOne(
 {
-    "phone": "+423-257-905-8602",
+    "customerKey": "423_257_905_8602",
     "PrimaryContactInfo": {
         "firstName": "Orval",
         "lastName": "Tapia",
@@ -7162,7 +7162,7 @@ db.customers.insertOne(
 });
 db.customers.insertOne(
 {
-    "phone": "+81-258-566-4481",
+    "customerKey": "81_258_566_4481",
     "PrimaryContactInfo": {
         "firstName": "Oswaldo",
         "lastName": "Castaneda",
@@ -7205,7 +7205,7 @@ db.customers.insertOne(
 });
 db.customers.insertOne(
 {
-    "phone": "+371-259-985-8925",
+    "customerKey": "371_259_985_8925",
     "PrimaryContactInfo": {
         "firstName": "Andres",
         "lastName": "Blair",
@@ -7253,7 +7253,7 @@ db.customers.insertOne(
 });
 db.customers.insertOne(
 {
-    "phone": "+41-260-401-2914",
+    "customerKey": "41_260_401_2914",
     "PrimaryContactInfo": {
         "firstName": "Louis",
         "lastName": "Caldwell",
@@ -7309,7 +7309,7 @@ db.customers.insertOne(
 });
 db.customers.insertOne(
 {
-    "phone": "+1-261-510-2766",
+    "customerKey": "1_261_510_2766",
     "PrimaryContactInfo": {
         "firstName": "Shena",
         "lastName": "Jackson",
@@ -7365,7 +7365,7 @@ db.customers.insertOne(
 });
 db.customers.insertOne(
 {
-    "phone": "+590-262-394-3560",
+    "customerKey": "590_262_394_3560",
     "PrimaryContactInfo": {
         "firstName": "Bernita",
         "lastName": "Jarvis",
@@ -7417,7 +7417,7 @@ db.customers.insertOne(
 });
 db.customers.insertOne(
 {
-    "phone": "+691-263-728-3764",
+    "customerKey": "691_263_728_3764",
     "PrimaryContactInfo": {
         "firstName": "Indira",
         "lastName": "Durham",
@@ -7473,7 +7473,7 @@ db.customers.insertOne(
 });
 db.customers.insertOne(
 {
-    "phone": "+506-264-360-4650",
+    "customerKey": "506_264_360_4650",
     "PrimaryContactInfo": {
         "firstName": "Raleigh",
         "lastName": "Villarreal",
@@ -7521,7 +7521,7 @@ db.customers.insertOne(
 });
 db.customers.insertOne(
 {
-    "phone": "+34-265-300-3394",
+    "customerKey": "34_265_300_3394",
     "PrimaryContactInfo": {
         "firstName": "Elsy",
         "lastName": "Bentley",
@@ -7564,7 +7564,7 @@ db.customers.insertOne(
 });
 db.customers.insertOne(
 {
-    "phone": "+92-266-028-3859",
+    "customerKey": "92_266_028_3859",
     "PrimaryContactInfo": {
         "firstName": "Johnny",
         "lastName": "Greer",
@@ -7607,7 +7607,7 @@ db.customers.insertOne(
 });
 db.customers.insertOne(
 {
-    "phone": "+7-267-833-8708",
+    "customerKey": "7_267_833_8708",
     "PrimaryContactInfo": {
         "firstName": "Franklyn",
         "lastName": "Vu",
@@ -7655,7 +7655,7 @@ db.customers.insertOne(
 });
 db.customers.insertOne(
 {
-    "phone": "+56-268-420-0770",
+    "customerKey": "56_268_420_0770",
     "PrimaryContactInfo": {
         "firstName": "Magda",
         "lastName": "Strong",
@@ -7711,7 +7711,7 @@ db.customers.insertOne(
 });
 db.customers.insertOne(
 {
-    "phone": "+40-269-885-4382",
+    "customerKey": "40_269_885_4382",
     "PrimaryContactInfo": {
         "firstName": "Katheryn",
         "lastName": "Bass",
@@ -7775,7 +7775,7 @@ db.customers.insertOne(
 });
 db.customers.insertOne(
 {
-    "phone": "+55-270-319-8133",
+    "customerKey": "55_270_319_8133",
     "PrimaryContactInfo": {
         "firstName": "Adrien",
         "lastName": "Eaton",
@@ -7818,7 +7818,7 @@ db.customers.insertOne(
 });
 db.customers.insertOne(
 {
-    "phone": "+386-271-772-5051",
+    "customerKey": "386_271_772_5051",
     "PrimaryContactInfo": {
         "firstName": "Tanika",
         "lastName": "Lloyd",
@@ -7861,7 +7861,7 @@ db.customers.insertOne(
 });
 db.customers.insertOne(
 {
-    "phone": "+389-272-352-6889",
+    "customerKey": "389_272_352_6889",
     "PrimaryContactInfo": {
         "firstName": "Chaya",
         "lastName": "Gates",
@@ -7909,7 +7909,7 @@ db.customers.insertOne(
 });
 db.customers.insertOne(
 {
-    "phone": "+66-273-632-2043",
+    "customerKey": "66_273_632_2043",
     "PrimaryContactInfo": {
         "firstName": "Lindsay",
         "lastName": "Hill",
@@ -7957,7 +7957,7 @@ db.customers.insertOne(
 });
 db.customers.insertOne(
 {
-    "phone": "+421-274-131-9898",
+    "customerKey": "421_274_131_9898",
     "PrimaryContactInfo": {
         "firstName": "Abby",
         "lastName": "Lawrence",
@@ -8009,7 +8009,7 @@ db.customers.insertOne(
 });
 db.customers.insertOne(
 {
-    "phone": "+352-275-139-5930",
+    "customerKey": "352_275_139_5930",
     "PrimaryContactInfo": {
         "firstName": "Werner",
         "lastName": "Booth",
@@ -8061,7 +8061,7 @@ db.customers.insertOne(
 });
 db.customers.insertOne(
 {
-    "phone": "+1671-276-591-6005",
+    "customerKey": "1671_276_591_6005",
     "PrimaryContactInfo": {
         "firstName": "Donnette",
         "lastName": "Lane",
@@ -8109,7 +8109,7 @@ db.customers.insertOne(
 });
 db.customers.insertOne(
 {
-    "phone": "+35818-277-825-2404",
+    "customerKey": "35818_277_825_2404",
     "PrimaryContactInfo": {
         "firstName": "Luke",
         "lastName": "Mejia",
@@ -8169,7 +8169,7 @@ db.customers.insertOne(
 });
 db.customers.insertOne(
 {
-    "phone": "+590-278-283-4810",
+    "customerKey": "590_278_283_4810",
     "PrimaryContactInfo": {
         "firstName": "Rosina",
         "lastName": "Blake",
@@ -8212,7 +8212,7 @@ db.customers.insertOne(
 });
 db.customers.insertOne(
 {
-    "phone": "+359-279-049-1487",
+    "customerKey": "359_279_049_1487",
     "PrimaryContactInfo": {
         "firstName": "Tamisha",
         "lastName": "Mays",
@@ -8260,7 +8260,7 @@ db.customers.insertOne(
 });
 db.customers.insertOne(
 {
-    "phone": "+63-280-908-9691",
+    "customerKey": "63_280_908_9691",
     "PrimaryContactInfo": {
         "firstName": "Idella",
         "lastName": "Kim",
@@ -8308,7 +8308,7 @@ db.customers.insertOne(
 });
 db.customers.insertOne(
 {
-    "phone": "+54-281-082-5234",
+    "customerKey": "54_281_082_5234",
     "PrimaryContactInfo": {
         "firstName": "Renate",
         "lastName": "Frye",
@@ -8351,7 +8351,7 @@ db.customers.insertOne(
 });
 db.customers.insertOne(
 {
-    "phone": "+262-282-564-2188",
+    "customerKey": "262_282_564_2188",
     "PrimaryContactInfo": {
         "firstName": "Zaida",
         "lastName": "Young",
@@ -8399,7 +8399,7 @@ db.customers.insertOne(
 });
 db.customers.insertOne(
 {
-    "phone": "+378-283-259-0147",
+    "customerKey": "378_283_259_0147",
     "PrimaryContactInfo": {
         "firstName": "Ross",
         "lastName": "Snyder",
@@ -8447,7 +8447,7 @@ db.customers.insertOne(
 });
 db.customers.insertOne(
 {
-    "phone": "+353-285-885-9490",
+    "customerKey": "353_285_885_9490",
     "PrimaryContactInfo": {
         "firstName": "Prince",
         "lastName": "Frazier",
@@ -8490,7 +8490,7 @@ db.customers.insertOne(
 });
 db.customers.insertOne(
 {
-    "phone": "+41-286-012-8510",
+    "customerKey": "41_286_012_8510",
     "PrimaryContactInfo": {
         "firstName": "Jerilyn",
         "lastName": "Bowen",
@@ -8533,7 +8533,7 @@ db.customers.insertOne(
 });
 db.customers.insertOne(
 {
-    "phone": "+47-287-792-9266",
+    "customerKey": "47_287_792_9266",
     "PrimaryContactInfo": {
         "firstName": "Kris",
         "lastName": "Middleton",
@@ -8589,7 +8589,7 @@ db.customers.insertOne(
 });
 db.customers.insertOne(
 {
-    "phone": "+1671-288-177-0578",
+    "customerKey": "1671_288_177_0578",
     "PrimaryContactInfo": {
         "firstName": "Alphonse",
         "lastName": "Hines",
@@ -8637,7 +8637,7 @@ db.customers.insertOne(
 });
 db.customers.insertOne(
 {
-    "phone": "+358-289-154-0860",
+    "customerKey": "358_289_154_0860",
     "PrimaryContactInfo": {
         "firstName": "Sherilyn",
         "lastName": "Mcdowell",
@@ -8680,7 +8680,7 @@ db.customers.insertOne(
 });
 db.customers.insertOne(
 {
-    "phone": "+49-291-404-9046",
+    "customerKey": "49_291_404_9046",
     "PrimaryContactInfo": {
         "firstName": "Love",
         "lastName": "Swanson",
@@ -8732,7 +8732,7 @@ db.customers.insertOne(
 });
 db.customers.insertOne(
 {
-    "phone": "+377-293-935-4592",
+    "customerKey": "377_293_935_4592",
     "PrimaryContactInfo": {
         "firstName": "Levi",
         "lastName": "Gould",
@@ -8780,7 +8780,7 @@ db.customers.insertOne(
 });
 db.customers.insertOne(
 {
-    "phone": "+64-294-589-3440",
+    "customerKey": "64_294_589_3440",
     "PrimaryContactInfo": {
         "firstName": "Jude",
         "lastName": "Bond",
@@ -8832,7 +8832,7 @@ db.customers.insertOne(
 });
 db.customers.insertOne(
 {
-    "phone": "+52-295-108-5597",
+    "customerKey": "52_295_108_5597",
     "PrimaryContactInfo": {
         "firstName": "Dannie",
         "lastName": "Sierra",
@@ -8884,7 +8884,7 @@ db.customers.insertOne(
 });
 db.customers.insertOne(
 {
-    "phone": "+46-296-970-4444",
+    "customerKey": "46_296_970_4444",
     "PrimaryContactInfo": {
         "firstName": "Pierre",
         "lastName": "Nunez",
@@ -8932,7 +8932,7 @@ db.customers.insertOne(
 });
 db.customers.insertOne(
 {
-    "phone": "+94-297-862-3823",
+    "customerKey": "94_297_862_3823",
     "PrimaryContactInfo": {
         "firstName": "Mimi",
         "lastName": "Thornton",
@@ -8984,7 +8984,7 @@ db.customers.insertOne(
 });
 db.customers.insertOne(
 {
-    "phone": "+590-298-827-7091",
+    "customerKey": "590_298_827_7091",
     "PrimaryContactInfo": {
         "firstName": "Alexander",
         "lastName": "Campos",
@@ -9036,7 +9036,7 @@ db.customers.insertOne(
 });
 db.customers.insertOne(
 {
-    "phone": "+31-299-154-7023",
+    "customerKey": "31_299_154_7023",
     "PrimaryContactInfo": {
         "firstName": "Carletta",
         "lastName": "Dickson",
@@ -9084,7 +9084,7 @@ db.customers.insertOne(
 });
 db.customers.insertOne(
 {
-    "phone": "+213-300-254-8469",
+    "customerKey": "213_300_254_8469",
     "PrimaryContactInfo": {
         "firstName": "Yuki",
         "lastName": "Summers",
@@ -9136,7 +9136,7 @@ db.customers.insertOne(
 });
 db.customers.insertOne(
 {
-    "phone": "+1671-301-158-6539",
+    "customerKey": "1671_301_158_6539",
     "PrimaryContactInfo": {
         "firstName": "Keri",
         "lastName": "Monroe",
@@ -9179,7 +9179,7 @@ db.customers.insertOne(
 });
 db.customers.insertOne(
 {
-    "phone": "+34-302-224-0812",
+    "customerKey": "34_302_224_0812",
     "PrimaryContactInfo": {
         "firstName": "Rosalinda",
         "lastName": "Mccann",
@@ -9231,7 +9231,7 @@ db.customers.insertOne(
 });
 db.customers.insertOne(
 {
-    "phone": "+371-303-348-5606",
+    "customerKey": "371_303_348_5606",
     "PrimaryContactInfo": {
         "firstName": "Shaina",
         "lastName": "Riley",
@@ -9279,7 +9279,7 @@ db.customers.insertOne(
 });
 db.customers.insertOne(
 {
-    "phone": "+47-304-125-2479",
+    "customerKey": "47_304_125_2479",
     "PrimaryContactInfo": {
         "firstName": "Magan",
         "lastName": "Bradford",
@@ -9327,7 +9327,7 @@ db.customers.insertOne(
 });
 db.customers.insertOne(
 {
-    "phone": "+380-305-067-5183",
+    "customerKey": "380_305_067_5183",
     "PrimaryContactInfo": {
         "firstName": "Millard",
         "lastName": "Browning",
@@ -9375,7 +9375,7 @@ db.customers.insertOne(
 });
 db.customers.insertOne(
 {
-    "phone": "+7-307-757-5154",
+    "customerKey": "7_307_757_5154",
     "PrimaryContactInfo": {
         "firstName": "Gale",
         "lastName": "Roman",
@@ -9427,7 +9427,7 @@ db.customers.insertOne(
 });
 db.customers.insertOne(
 {
-    "phone": "+55-308-812-2221",
+    "customerKey": "55_308_812_2221",
     "PrimaryContactInfo": {
         "firstName": "Thomas",
         "lastName": "Sawyer",
@@ -9475,7 +9475,7 @@ db.customers.insertOne(
 });
 db.customers.insertOne(
 {
-    "phone": "+47-310-048-2931",
+    "customerKey": "47_310_048_2931",
     "PrimaryContactInfo": {
         "firstName": "Micah",
         "lastName": "Hood",
@@ -9527,7 +9527,7 @@ db.customers.insertOne(
 });
 db.customers.insertOne(
 {
-    "phone": "+299-311-571-8573",
+    "customerKey": "299_311_571_8573",
     "PrimaryContactInfo": {
         "firstName": "Rayford",
         "lastName": "Ibarra",
@@ -9575,7 +9575,7 @@ db.customers.insertOne(
 });
 db.customers.insertOne(
 {
-    "phone": "+598-312-047-4237",
+    "customerKey": "598_312_047_4237",
     "PrimaryContactInfo": {
         "firstName": "Ressie",
         "lastName": "Holloway",
@@ -9623,7 +9623,7 @@ db.customers.insertOne(
 });
 db.customers.insertOne(
 {
-    "phone": "+262-313-755-2603",
+    "customerKey": "262_313_755_2603",
     "PrimaryContactInfo": {
         "firstName": "Philip",
         "lastName": "Schmitt",
@@ -9675,7 +9675,7 @@ db.customers.insertOne(
 });
 db.customers.insertOne(
 {
-    "phone": "+52-314-051-7844",
+    "customerKey": "52_314_051_7844",
     "PrimaryContactInfo": {
         "firstName": "Noel",
         "lastName": "Kirby",
@@ -9727,7 +9727,7 @@ db.customers.insertOne(
 });
 db.customers.insertOne(
 {
-    "phone": "+353-315-300-8779",
+    "customerKey": "353_315_300_8779",
     "PrimaryContactInfo": {
         "firstName": "Wilber",
         "lastName": "Mcbride",
@@ -9779,7 +9779,7 @@ db.customers.insertOne(
 });
 db.customers.insertOne(
 {
-    "phone": "+31-316-329-7270",
+    "customerKey": "31_316_329_7270",
     "PrimaryContactInfo": {
         "firstName": "Keven",
         "lastName": "Mathis",
@@ -9831,7 +9831,7 @@ db.customers.insertOne(
 });
 db.customers.insertOne(
 {
-    "phone": "+55-317-363-8797",
+    "customerKey": "55_317_363_8797",
     "PrimaryContactInfo": {
         "firstName": "Long",
         "lastName": "Odonnell",
@@ -9879,7 +9879,7 @@ db.customers.insertOne(
 });
 db.customers.insertOne(
 {
-    "phone": "+373-318-310-3345",
+    "customerKey": "373_318_310_3345",
     "PrimaryContactInfo": {
         "firstName": "Livia",
         "lastName": "Richards",
@@ -9935,7 +9935,7 @@ db.customers.insertOne(
 });
 db.customers.insertOne(
 {
-    "phone": "+441481-319-030-0404",
+    "customerKey": "441481_319_030_0404",
     "PrimaryContactInfo": {
         "firstName": "Johnetta",
         "lastName": "Sullivan",
@@ -9987,7 +9987,7 @@ db.customers.insertOne(
 });
 db.customers.insertOne(
 {
-    "phone": "+45-321-222-7718",
+    "customerKey": "45_321_222_7718",
     "PrimaryContactInfo": {
         "firstName": "Milo",
         "lastName": "Brown",
@@ -10043,7 +10043,7 @@ db.customers.insertOne(
 });
 db.customers.insertOne(
 {
-    "phone": "+594-322-397-5777",
+    "customerKey": "594_322_397_5777",
     "PrimaryContactInfo": {
         "firstName": "Lacresha",
         "lastName": "Welch",
@@ -10086,7 +10086,7 @@ db.customers.insertOne(
 });
 db.customers.insertOne(
 {
-    "phone": "+377-323-860-4044",
+    "customerKey": "377_323_860_4044",
     "PrimaryContactInfo": {
         "firstName": "Natividad",
         "lastName": "Curtis",
@@ -10134,7 +10134,7 @@ db.customers.insertOne(
 });
 db.customers.insertOne(
 {
-    "phone": "+687-324-979-1630",
+    "customerKey": "687_324_979_1630",
     "PrimaryContactInfo": {
         "firstName": "Irina",
         "lastName": "Gates",
@@ -10182,7 +10182,7 @@ db.customers.insertOne(
 });
 db.customers.insertOne(
 {
-    "phone": "+55-325-932-6057",
+    "customerKey": "55_325_932_6057",
     "PrimaryContactInfo": {
         "firstName": "Nikia",
         "lastName": "Zuniga",
@@ -10242,7 +10242,7 @@ db.customers.insertOne(
 });
 db.customers.insertOne(
 {
-    "phone": "+423-326-045-1466",
+    "customerKey": "423_326_045_1466",
     "PrimaryContactInfo": {
         "firstName": "Elias",
         "lastName": "Brown",
@@ -10285,7 +10285,7 @@ db.customers.insertOne(
 });
 db.customers.insertOne(
 {
-    "phone": "+375-327-230-9893",
+    "customerKey": "375_327_230_9893",
     "PrimaryContactInfo": {
         "firstName": "Jaime",
         "lastName": "Dyer",
@@ -10337,7 +10337,7 @@ db.customers.insertOne(
 });
 db.customers.insertOne(
 {
-    "phone": "+594-328-996-9978",
+    "customerKey": "594_328_996_9978",
     "PrimaryContactInfo": {
         "firstName": "Tabetha",
         "lastName": "Griffin",
@@ -10389,7 +10389,7 @@ db.customers.insertOne(
 });
 db.customers.insertOne(
 {
-    "phone": "+1671-329-221-1739",
+    "customerKey": "1671_329_221_1739",
     "PrimaryContactInfo": {
         "firstName": "Dakota",
         "lastName": "Fitzpatrick",
@@ -10432,7 +10432,7 @@ db.customers.insertOne(
 });
 db.customers.insertOne(
 {
-    "phone": "+506-330-269-5940",
+    "customerKey": "506_330_269_5940",
     "PrimaryContactInfo": {
         "firstName": "Jarod",
         "lastName": "Soto",
@@ -10492,7 +10492,7 @@ db.customers.insertOne(
 });
 db.customers.insertOne(
 {
-    "phone": "+81-331-270-6628",
+    "customerKey": "81_331_270_6628",
     "PrimaryContactInfo": {
         "firstName": "Maybelle",
         "lastName": "Fuentes",
@@ -10544,7 +10544,7 @@ db.customers.insertOne(
 });
 db.customers.insertOne(
 {
-    "phone": "+7-332-849-5441",
+    "customerKey": "7_332_849_5441",
     "PrimaryContactInfo": {
         "firstName": "Robby",
         "lastName": "Hensley",
@@ -10596,7 +10596,7 @@ db.customers.insertOne(
 });
 db.customers.insertOne(
 {
-    "phone": "+7-334-832-7641",
+    "customerKey": "7_334_832_7641",
     "PrimaryContactInfo": {
         "firstName": "Lenard",
         "lastName": "Ayers",
@@ -10648,7 +10648,7 @@ db.customers.insertOne(
 });
 db.customers.insertOne(
 {
-    "phone": "+35818-335-376-2789",
+    "customerKey": "35818_335_376_2789",
     "PrimaryContactInfo": {
         "firstName": "Edythe",
         "lastName": "Brewer",
@@ -10691,7 +10691,7 @@ db.customers.insertOne(
 });
 db.customers.insertOne(
 {
-    "phone": "+7-336-919-0919",
+    "customerKey": "7_336_919_0919",
     "PrimaryContactInfo": {
         "firstName": "Vivien",
         "lastName": "Goodwin",
@@ -10739,7 +10739,7 @@ db.customers.insertOne(
 });
 db.customers.insertOne(
 {
-    "phone": "+61-337-041-4159",
+    "customerKey": "61_337_041_4159",
     "PrimaryContactInfo": {
         "firstName": "Catherina",
         "lastName": "Stevens",
@@ -10782,7 +10782,7 @@ db.customers.insertOne(
 });
 db.customers.insertOne(
 {
-    "phone": "+596-338-781-8500",
+    "customerKey": "596_338_781_8500",
     "PrimaryContactInfo": {
         "firstName": "Karena",
         "lastName": "Herring",
@@ -10834,7 +10834,7 @@ db.customers.insertOne(
 });
 db.customers.insertOne(
 {
-    "phone": "+39-339-406-1467",
+    "customerKey": "39_339_406_1467",
     "PrimaryContactInfo": {
         "firstName": "Pennie",
         "lastName": "Garrison",
@@ -10886,7 +10886,7 @@ db.customers.insertOne(
 });
 db.customers.insertOne(
 {
-    "phone": "+61-340-956-4913",
+    "customerKey": "61_340_956_4913",
     "PrimaryContactInfo": {
         "firstName": "Brendon",
         "lastName": "Gray",
@@ -10934,7 +10934,7 @@ db.customers.insertOne(
 });
 db.customers.insertOne(
 {
-    "phone": "+377-341-962-9702",
+    "customerKey": "377_341_962_9702",
     "PrimaryContactInfo": {
         "firstName": "Edmundo",
         "lastName": "Thomas",
@@ -10990,7 +10990,7 @@ db.customers.insertOne(
 });
 db.customers.insertOne(
 {
-    "phone": "+61-342-729-3677",
+    "customerKey": "61_342_729_3677",
     "PrimaryContactInfo": {
         "firstName": "Silas",
         "lastName": "Conley",
@@ -11033,7 +11033,7 @@ db.customers.insertOne(
 });
 db.customers.insertOne(
 {
-    "phone": "+1787-343-171-3016",
+    "customerKey": "1787_343_171_3016",
     "PrimaryContactInfo": {
         "firstName": "Thanh",
         "lastName": "Clark",
@@ -11089,7 +11089,7 @@ db.customers.insertOne(
 });
 db.customers.insertOne(
 {
-    "phone": "+54-345-759-4168",
+    "customerKey": "54_345_759_4168",
     "PrimaryContactInfo": {
         "firstName": "Bertram",
         "lastName": "Esquivel",
@@ -11141,7 +11141,7 @@ db.customers.insertOne(
 });
 db.customers.insertOne(
 {
-    "phone": "+39-346-073-5246",
+    "customerKey": "39_346_073_5246",
     "PrimaryContactInfo": {
         "firstName": "Jeffrey",
         "lastName": "Thornton",
@@ -11189,7 +11189,7 @@ db.customers.insertOne(
 });
 db.customers.insertOne(
 {
-    "phone": "+594-347-095-5759",
+    "customerKey": "594_347_095_5759",
     "PrimaryContactInfo": {
         "firstName": "Zachariah",
         "lastName": "Preston",
@@ -11241,7 +11241,7 @@ db.customers.insertOne(
 });
 db.customers.insertOne(
 {
-    "phone": "+1671-348-051-7641",
+    "customerKey": "1671_348_051_7641",
     "PrimaryContactInfo": {
         "firstName": "Brett",
         "lastName": "Riley",
@@ -11284,7 +11284,7 @@ db.customers.insertOne(
 });
 db.customers.insertOne(
 {
-    "phone": "+7-350-478-1162",
+    "customerKey": "7_350_478_1162",
     "PrimaryContactInfo": {
         "firstName": "Tim",
         "lastName": "Trejo",
@@ -11332,7 +11332,7 @@ db.customers.insertOne(
 });
 db.customers.insertOne(
 {
-    "phone": "+33-351-059-3885",
+    "customerKey": "33_351_059_3885",
     "PrimaryContactInfo": {
         "firstName": "Rhonda",
         "lastName": "Costa",
@@ -11375,7 +11375,7 @@ db.customers.insertOne(
 });
 db.customers.insertOne(
 {
-    "phone": "+351-352-676-7555",
+    "customerKey": "351_352_676_7555",
     "PrimaryContactInfo": {
         "firstName": "Azucena",
         "lastName": "Fischer",
@@ -11423,7 +11423,7 @@ db.customers.insertOne(
 });
 db.customers.insertOne(
 {
-    "phone": "+378-353-496-3532",
+    "customerKey": "378_353_496_3532",
     "PrimaryContactInfo": {
         "firstName": "Hsiu",
         "lastName": "Rogers",
@@ -11475,7 +11475,7 @@ db.customers.insertOne(
 });
 db.customers.insertOne(
 {
-    "phone": "+48-354-530-4660",
+    "customerKey": "48_354_530_4660",
     "PrimaryContactInfo": {
         "firstName": "Whitney",
         "lastName": "Blackburn",
@@ -11523,7 +11523,7 @@ db.customers.insertOne(
 });
 db.customers.insertOne(
 {
-    "phone": "+506-355-176-1383",
+    "customerKey": "506_355_176_1383",
     "PrimaryContactInfo": {
         "firstName": "Ellan",
         "lastName": "Sullivan",
@@ -11575,7 +11575,7 @@ db.customers.insertOne(
 });
 db.customers.insertOne(
 {
-    "phone": "+441481-356-555-4455",
+    "customerKey": "441481_356_555_4455",
     "PrimaryContactInfo": {
         "firstName": "Jarred",
         "lastName": "Maxwell",
@@ -11623,7 +11623,7 @@ db.customers.insertOne(
 });
 db.customers.insertOne(
 {
-    "phone": "+441534-357-791-1401",
+    "customerKey": "441534_357_791_1401",
     "PrimaryContactInfo": {
         "firstName": "Audria",
         "lastName": "Esquivel",
@@ -11675,7 +11675,7 @@ db.customers.insertOne(
 });
 db.customers.insertOne(
 {
-    "phone": "+49-358-283-1387",
+    "customerKey": "49_358_283_1387",
     "PrimaryContactInfo": {
         "firstName": "Dominique",
         "lastName": "Conrad",
@@ -11723,7 +11723,7 @@ db.customers.insertOne(
 });
 db.customers.insertOne(
 {
-    "phone": "+213-359-425-2178",
+    "customerKey": "213_359_425_2178",
     "PrimaryContactInfo": {
         "firstName": "Gail",
         "lastName": "Ibarra",
@@ -11783,7 +11783,7 @@ db.customers.insertOne(
 });
 db.customers.insertOne(
 {
-    "phone": "+35818-360-136-9789",
+    "customerKey": "35818_360_136_9789",
     "PrimaryContactInfo": {
         "firstName": "Allena",
         "lastName": "Stuart",
@@ -11839,7 +11839,7 @@ db.customers.insertOne(
 });
 db.customers.insertOne(
 {
-    "phone": "+687-361-002-5755",
+    "customerKey": "687_361_002_5755",
     "PrimaryContactInfo": {
         "firstName": "Gregory",
         "lastName": "Rosas",
@@ -11887,7 +11887,7 @@ db.customers.insertOne(
 });
 db.customers.insertOne(
 {
-    "phone": "+7-362-180-1905",
+    "customerKey": "7_362_180_1905",
     "PrimaryContactInfo": {
         "firstName": "Armando",
         "lastName": "Tanner",
@@ -11935,7 +11935,7 @@ db.customers.insertOne(
 });
 db.customers.insertOne(
 {
-    "phone": "+46-363-442-3705",
+    "customerKey": "46_363_442_3705",
     "PrimaryContactInfo": {
         "firstName": "Mira",
         "lastName": "Esquivel",
@@ -11983,7 +11983,7 @@ db.customers.insertOne(
 });
 db.customers.insertOne(
 {
-    "phone": "+687-364-752-9652",
+    "customerKey": "687_364_752_9652",
     "PrimaryContactInfo": {
         "firstName": "Nevada",
         "lastName": "Wright",
@@ -12035,7 +12035,7 @@ db.customers.insertOne(
 });
 db.customers.insertOne(
 {
-    "phone": "+32-365-763-3790",
+    "customerKey": "32_365_763_3790",
     "PrimaryContactInfo": {
         "firstName": "Linh",
         "lastName": "Trevino",
@@ -12087,7 +12087,7 @@ db.customers.insertOne(
 });
 db.customers.insertOne(
 {
-    "phone": "+63-366-555-1577",
+    "customerKey": "63_366_555_1577",
     "PrimaryContactInfo": {
         "firstName": "Leonor",
         "lastName": "Booth",
@@ -12130,7 +12130,7 @@ db.customers.insertOne(
 });
 db.customers.insertOne(
 {
-    "phone": "+353-368-136-8626",
+    "customerKey": "353_368_136_8626",
     "PrimaryContactInfo": {
         "firstName": "Sherril",
         "lastName": "Dennis",
@@ -12186,7 +12186,7 @@ db.customers.insertOne(
 });
 db.customers.insertOne(
 {
-    "phone": "+421-369-281-5698",
+    "customerKey": "421_369_281_5698",
     "PrimaryContactInfo": {
         "firstName": "Dena",
         "lastName": "Wilkinson",
@@ -12242,7 +12242,7 @@ db.customers.insertOne(
 });
 db.customers.insertOne(
 {
-    "phone": "+39-370-184-9814",
+    "customerKey": "39_370_184_9814",
     "PrimaryContactInfo": {
         "firstName": "Clifton",
         "lastName": "Atkinson",
@@ -12290,7 +12290,7 @@ db.customers.insertOne(
 });
 db.customers.insertOne(
 {
-    "phone": "+262-371-290-0167",
+    "customerKey": "262_371_290_0167",
     "PrimaryContactInfo": {
         "firstName": "Marisa",
         "lastName": "Monroe",
@@ -12350,7 +12350,7 @@ db.customers.insertOne(
 });
 db.customers.insertOne(
 {
-    "phone": "+34-372-751-3321",
+    "customerKey": "34_372_751_3321",
     "PrimaryContactInfo": {
         "firstName": "Don",
         "lastName": "Jennings",
@@ -12398,7 +12398,7 @@ db.customers.insertOne(
 });
 db.customers.insertOne(
 {
-    "phone": "+7-373-435-8117",
+    "customerKey": "7_373_435_8117",
     "PrimaryContactInfo": {
         "firstName": "Domingo",
         "lastName": "Levy",
@@ -12454,7 +12454,7 @@ db.customers.insertOne(
 });
 db.customers.insertOne(
 {
-    "phone": "+441534-374-588-0440",
+    "customerKey": "441534_374_588_0440",
     "PrimaryContactInfo": {
         "firstName": "Porfirio",
         "lastName": "Osborne",
@@ -12506,7 +12506,7 @@ db.customers.insertOne(
 });
 db.customers.insertOne(
 {
-    "phone": "+44-375-144-8210",
+    "customerKey": "44_375_144_8210",
     "PrimaryContactInfo": {
         "firstName": "Jesica",
         "lastName": "Cole",
@@ -12549,7 +12549,7 @@ db.customers.insertOne(
 });
 db.customers.insertOne(
 {
-    "phone": "+376-376-295-1124",
+    "customerKey": "376_376_295_1124",
     "PrimaryContactInfo": {
         "firstName": "Desmond",
         "lastName": "Duffy",
@@ -12592,7 +12592,7 @@ db.customers.insertOne(
 });
 db.customers.insertOne(
 {
-    "phone": "+359-377-151-9583",
+    "customerKey": "359_377_151_9583",
     "PrimaryContactInfo": {
         "firstName": "Forest",
         "lastName": "Parks",
@@ -12640,7 +12640,7 @@ db.customers.insertOne(
 });
 db.customers.insertOne(
 {
-    "phone": "+33-378-156-8911",
+    "customerKey": "33_378_156_8911",
     "PrimaryContactInfo": {
         "firstName": "Quyen",
         "lastName": "Pierce",
@@ -12688,7 +12688,7 @@ db.customers.insertOne(
 });
 db.customers.insertOne(
 {
-    "phone": "+385-379-690-0296",
+    "customerKey": "385_379_690_0296",
     "PrimaryContactInfo": {
         "firstName": "Samuel",
         "lastName": "Curry",
@@ -12736,7 +12736,7 @@ db.customers.insertOne(
 });
 db.customers.insertOne(
 {
-    "phone": "+61-380-177-7593",
+    "customerKey": "61_380_177_7593",
     "PrimaryContactInfo": {
         "firstName": "Angeles",
         "lastName": "Lowe",
@@ -12784,7 +12784,7 @@ db.customers.insertOne(
 });
 db.customers.insertOne(
 {
-    "phone": "+262-381-806-2521",
+    "customerKey": "262_381_806_2521",
     "PrimaryContactInfo": {
         "firstName": "Houston",
         "lastName": "Livingston",
@@ -12840,7 +12840,7 @@ db.customers.insertOne(
 });
 db.customers.insertOne(
 {
-    "phone": "+32-382-209-2097",
+    "customerKey": "32_382_209_2097",
     "PrimaryContactInfo": {
         "firstName": "Lucien",
         "lastName": "Parker",
@@ -12888,7 +12888,7 @@ db.customers.insertOne(
 });
 db.customers.insertOne(
 {
-    "phone": "+81-383-509-4177",
+    "customerKey": "81_383_509_4177",
     "PrimaryContactInfo": {
         "firstName": "Karin",
         "lastName": "Lucero",
@@ -12944,7 +12944,7 @@ db.customers.insertOne(
 });
 db.customers.insertOne(
 {
-    "phone": "+385-384-261-8607",
+    "customerKey": "385_384_261_8607",
     "PrimaryContactInfo": {
         "firstName": "Kelley",
         "lastName": "Howard",
@@ -12996,7 +12996,7 @@ db.customers.insertOne(
 });
 db.customers.insertOne(
 {
-    "phone": "+375-385-415-5912",
+    "customerKey": "375_385_415_5912",
     "PrimaryContactInfo": {
         "firstName": "Shenika",
         "lastName": "Cunningham",
@@ -13039,7 +13039,7 @@ db.customers.insertOne(
 });
 db.customers.insertOne(
 {
-    "phone": "+81-386-882-4342",
+    "customerKey": "81_386_882_4342",
     "PrimaryContactInfo": {
         "firstName": "Margarett",
         "lastName": "Campos",
@@ -13087,7 +13087,7 @@ db.customers.insertOne(
 });
 db.customers.insertOne(
 {
-    "phone": "+27-387-479-7840",
+    "customerKey": "27_387_479_7840",
     "PrimaryContactInfo": {
         "firstName": "Kurtis",
         "lastName": "Hurley",
@@ -13130,7 +13130,7 @@ db.customers.insertOne(
 });
 db.customers.insertOne(
 {
-    "phone": "+1809-388-772-5172",
+    "customerKey": "1809_388_772_5172",
     "PrimaryContactInfo": {
         "firstName": "Jani",
         "lastName": "Pollard",
@@ -13178,7 +13178,7 @@ db.customers.insertOne(
 });
 db.customers.insertOne(
 {
-    "phone": "+596-389-098-1577",
+    "customerKey": "596_389_098_1577",
     "PrimaryContactInfo": {
         "firstName": "Mai",
         "lastName": "Barton",
@@ -13226,7 +13226,7 @@ db.customers.insertOne(
 });
 db.customers.insertOne(
 {
-    "phone": "+371-390-306-2470",
+    "customerKey": "371_390_306_2470",
     "PrimaryContactInfo": {
         "firstName": "Heriberto",
         "lastName": "Donaldson",
@@ -13282,7 +13282,7 @@ db.customers.insertOne(
 });
 db.customers.insertOne(
 {
-    "phone": "+356-391-293-4286",
+    "customerKey": "356_391_293_4286",
     "PrimaryContactInfo": {
         "firstName": "Brande",
         "lastName": "Douglas",
@@ -13325,7 +13325,7 @@ db.customers.insertOne(
 });
 db.customers.insertOne(
 {
-    "phone": "+377-392-319-8268",
+    "customerKey": "377_392_319_8268",
     "PrimaryContactInfo": {
         "firstName": "Sylvester",
         "lastName": "Stephens",
@@ -13373,7 +13373,7 @@ db.customers.insertOne(
 });
 db.customers.insertOne(
 {
-    "phone": "+386-393-091-2148",
+    "customerKey": "386_393_091_2148",
     "PrimaryContactInfo": {
         "firstName": "Necole",
         "lastName": "Cordova",
@@ -13425,7 +13425,7 @@ db.customers.insertOne(
 });
 db.customers.insertOne(
 {
-    "phone": "+48-394-878-9041",
+    "customerKey": "48_394_878_9041",
     "PrimaryContactInfo": {
         "firstName": "Myrle",
         "lastName": "Jimenez",
@@ -13473,7 +13473,7 @@ db.customers.insertOne(
 });
 db.customers.insertOne(
 {
-    "phone": "+60-395-534-9678",
+    "customerKey": "60_395_534_9678",
     "PrimaryContactInfo": {
         "firstName": "Renato",
         "lastName": "Travis",
@@ -13529,7 +13529,7 @@ db.customers.insertOne(
 });
 db.customers.insertOne(
 {
-    "phone": "+91-396-330-1273",
+    "customerKey": "91_396_330_1273",
     "PrimaryContactInfo": {
         "firstName": "King",
         "lastName": "Levy",
@@ -13577,7 +13577,7 @@ db.customers.insertOne(
 });
 db.customers.insertOne(
 {
-    "phone": "+1-397-684-2558",
+    "customerKey": "1_397_684_2558",
     "PrimaryContactInfo": {
         "firstName": "Augustus",
         "lastName": "Hogan",
@@ -13620,7 +13620,7 @@ db.customers.insertOne(
 });
 db.customers.insertOne(
 {
-    "phone": "+687-398-694-5436",
+    "customerKey": "687_398_694_5436",
     "PrimaryContactInfo": {
         "firstName": "Vaughn",
         "lastName": "Doyle",
@@ -13676,7 +13676,7 @@ db.customers.insertOne(
 });
 db.customers.insertOne(
 {
-    "phone": "+40-399-854-9793",
+    "customerKey": "40_399_854_9793",
     "PrimaryContactInfo": {
         "firstName": "Mohamed",
         "lastName": "Reilly",

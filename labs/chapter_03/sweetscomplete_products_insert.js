@@ -15,7 +15,7 @@ db.products.insertOne(
     "InventoryInfo": {
         "unit": "tin",
         "costPerUnit": "4.99",
-        "numberOfUnitsOnHand": 161
+        "unitsOnHand": 161
     }
 });
 db.products.insertOne(
@@ -32,7 +32,7 @@ db.products.insertOne(
     "InventoryInfo": {
         "unit": "box",
         "costPerUnit": "9.99",
-        "numberOfUnitsOnHand": 645
+        "unitsOnHand": 645
     }
 });
 db.products.insertOne(
@@ -49,7 +49,7 @@ db.products.insertOne(
     "InventoryInfo": {
         "unit": "piece",
         "costPerUnit": "3.49",
-        "numberOfUnitsOnHand": 964
+        "unitsOnHand": 964
     }
 });
 db.products.insertOne(
@@ -66,7 +66,7 @@ db.products.insertOne(
     "InventoryInfo": {
         "unit": "box",
         "costPerUnit": "8.99",
-        "numberOfUnitsOnHand": 23
+        "unitsOnHand": 23
     }
 });
 db.products.insertOne(
@@ -83,7 +83,7 @@ db.products.insertOne(
     "InventoryInfo": {
         "unit": "box",
         "costPerUnit": "7.99",
-        "numberOfUnitsOnHand": 903
+        "unitsOnHand": 903
     }
 });
 db.products.insertOne(
@@ -100,7 +100,7 @@ db.products.insertOne(
     "InventoryInfo": {
         "unit": "tin",
         "costPerUnit": "4.99",
-        "numberOfUnitsOnHand": 285
+        "unitsOnHand": 285
     }
 });
 db.products.insertOne(
@@ -117,7 +117,7 @@ db.products.insertOne(
     "InventoryInfo": {
         "unit": "item",
         "costPerUnit": "6.49",
-        "numberOfUnitsOnHand": 419
+        "unitsOnHand": 419
     }
 });
 db.products.insertOne(
@@ -134,7 +134,7 @@ db.products.insertOne(
     "InventoryInfo": {
         "unit": "item",
         "costPerUnit": "0.88",
-        "numberOfUnitsOnHand": 272
+        "unitsOnHand": 272
     }
 });
 db.products.insertOne(
@@ -151,7 +151,7 @@ db.products.insertOne(
     "InventoryInfo": {
         "unit": "item",
         "costPerUnit": "0.67",
-        "numberOfUnitsOnHand": 791
+        "unitsOnHand": 791
     }
 });
 db.products.insertOne(
@@ -168,7 +168,7 @@ db.products.insertOne(
     "InventoryInfo": {
         "unit": "item",
         "costPerUnit": "2.99",
-        "numberOfUnitsOnHand": 443
+        "unitsOnHand": 443
     }
 });
 db.products.insertOne(
@@ -185,7 +185,7 @@ db.products.insertOne(
     "InventoryInfo": {
         "unit": "piece",
         "costPerUnit": "3.49",
-        "numberOfUnitsOnHand": 111
+        "unitsOnHand": 111
     }
 });
 db.products.insertOne(
@@ -202,7 +202,7 @@ db.products.insertOne(
     "InventoryInfo": {
         "unit": "box",
         "costPerUnit": "6.99",
-        "numberOfUnitsOnHand": 961
+        "unitsOnHand": 961
     }
 });
 db.products.insertOne(
@@ -219,7 +219,7 @@ db.products.insertOne(
     "InventoryInfo": {
         "unit": "item",
         "costPerUnit": "0.79",
-        "numberOfUnitsOnHand": 992
+        "unitsOnHand": 992
     }
 });
 db.products.insertOne(
@@ -236,7 +236,7 @@ db.products.insertOne(
     "InventoryInfo": {
         "unit": "box",
         "costPerUnit": "3.99",
-        "numberOfUnitsOnHand": 318
+        "unitsOnHand": 318
     }
 });
 db.products.insertOne(
@@ -253,7 +253,7 @@ db.products.insertOne(
     "InventoryInfo": {
         "unit": "box",
         "costPerUnit": "2.99",
-        "numberOfUnitsOnHand": 432
+        "unitsOnHand": 432
     }
 });
 db.products.insertOne(
@@ -270,7 +270,7 @@ db.products.insertOne(
     "InventoryInfo": {
         "unit": "box",
         "costPerUnit": "3.99",
-        "numberOfUnitsOnHand": 47
+        "unitsOnHand": 47
     }
 });
 db.products.insertOne(
@@ -287,7 +287,7 @@ db.products.insertOne(
     "InventoryInfo": {
         "unit": "item",
         "costPerUnit": "1.99",
-        "numberOfUnitsOnHand": 274
+        "unitsOnHand": 274
     }
 });
 db.products.insertOne(
@@ -304,7 +304,7 @@ db.products.insertOne(
     "InventoryInfo": {
         "unit": "piece",
         "costPerUnit": "3.49",
-        "numberOfUnitsOnHand": 346
+        "unitsOnHand": 346
     }
 });
 db.products.insertOne(
@@ -321,7 +321,7 @@ db.products.insertOne(
     "InventoryInfo": {
         "unit": "tin",
         "costPerUnit": "4.99",
-        "numberOfUnitsOnHand": 999
+        "unitsOnHand": 999
     }
 });
 db.products.insertOne(
@@ -338,7 +338,7 @@ db.products.insertOne(
     "InventoryInfo": {
         "unit": "piece",
         "costPerUnit": "3.49",
-        "numberOfUnitsOnHand": 834
+        "unitsOnHand": 834
     }
 });
 db.products.insertOne(
@@ -355,7 +355,7 @@ db.products.insertOne(
     "InventoryInfo": {
         "unit": "piece",
         "costPerUnit": "0.49",
-        "numberOfUnitsOnHand": 254
+        "unitsOnHand": 254
     }
 });
 db.products.insertOne(
@@ -372,7 +372,7 @@ db.products.insertOne(
     "InventoryInfo": {
         "unit": "item",
         "costPerUnit": "0.59",
-        "numberOfUnitsOnHand": 693
+        "unitsOnHand": 693
     }
 });
 db.products.insertOne(
@@ -389,7 +389,7 @@ db.products.insertOne(
     "InventoryInfo": {
         "unit": "box",
         "costPerUnit": "12.99",
-        "numberOfUnitsOnHand": 96
+        "unitsOnHand": 96
     }
 });
 db.products.insertOne(
@@ -406,7 +406,7 @@ db.products.insertOne(
     "InventoryInfo": {
         "unit": "box",
         "costPerUnit": "19.99",
-        "numberOfUnitsOnHand": 931
+        "unitsOnHand": 931
     }
 });
 db.products.insertOne(
@@ -423,7 +423,7 @@ db.products.insertOne(
     "InventoryInfo": {
         "unit": "item",
         "costPerUnit": "49.99",
-        "numberOfUnitsOnHand": 932
+        "unitsOnHand": 932
     }
 });
 db.products.insertOne(
@@ -440,6 +440,6 @@ db.products.insertOne(
     "InventoryInfo": {
         "unit": "piece",
         "costPerUnit": "3.49",
-        "numberOfUnitsOnHand": 544
+        "unitsOnHand": 544
     }
 });

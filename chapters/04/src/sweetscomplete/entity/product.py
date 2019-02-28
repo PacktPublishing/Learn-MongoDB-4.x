@@ -1,12 +1,10 @@
 # sweetscomplete/entity/product
 
 class Product:
-
     productKey      = ""
     productPhoto    = ""
     MainProductInfo = None
     InventoryInfo   = None
-
     def __init__(self, productKey, productPhoto, main_product_info, inventory_info) :
         self.productKey      = productKey
         self.productPhoto    = productPhoto

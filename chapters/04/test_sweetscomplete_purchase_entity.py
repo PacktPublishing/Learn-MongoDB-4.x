@@ -6,34 +6,40 @@ sys.path.append(os.path.realpath("src"))
 
 from datetime import date
 import random
-import sweetscomplete.entity.purchase as purch
-import sweetscomplete.entity.product  as prod
-import sweetscomplete.entity.customer as cust
+from sweetscomplete.entity.purchase import Purchase, CustomerInfo, ProdsPurchased
+from sweetscomplete.entity.product  import Product, MainProductInfo, InventoryInfo
+from sweetscomplete.entity.customer import Customer, PrimaryContactInfo, Address, GeoSpatialInfo
 
 # CustomerInfo
-socialMedia   = { "FB" : "https://facebook.com/fred.flintstone", "LI" : "https://linkedin.com/fflintstone" }
-geo           = cust.GeoSpatialInfo(111.11,222.22)
-primary       = cust.PrimaryContactInfo("Fred","Flintstone","+1-222-333-4444","fred@slate.com",socialMedia)
-address       = cust.Address("123 Rocky Way","House",None,None,"Bedrock","MI",None,"Prehistoric","00000",geo)
-customer_info = purch.CustomerInfo(primary, address)
-
-# ProductInfo
-cost         = 1.11
-product_info = prod.MainProductInfo(1, "Test", "test", "Test", cost)
+socialMedia = { "FB" : "https://facebook.com/fred.flintstone", "LI" : "https://linkedin.com/fflintstone" }
+geo         = GeoSpatialInfo(111.11,222.22)
+primary     = PrimaryContactInfo("Fred","Flintstone","+1-222-333-4444","fred@slate.com",socialMedia)
+address     = Address("123 Rocky Way","House",None,None,"Bedrock","MI",None,"Prehistoric","00000",geo)
+cust_info   = CustomerInfo('ABC123', primary, address)
 
 # PurchaseInfo
-qty            = 111
-dateOfPurchase = date.today().isoformat() 
-purch_info     = purch.PurchaseInfo(dateOfPurchase, qty, qty * cost)
+prods_purchased = [
+    ProdsPurchased('AAA111', 111,  MainProductInfo(1, "Test", "test", "Test", 1.11)),
+    ProdsPurchased('BBB222', 222,  MainProductInfo(2, "Test", "test", "Test", 2.22)),
+    ProdsPurchased('CCC333', 333,  MainProductInfo(3, "Test", "test", "Test", 3.33))
+]
+
+# Calc extended price
+ext_price = 0.00
+for item in prods_purchased :
+    ext_price += item.qtyPurchased * item.productInfo.price
+
 
 # Purchase
-transId        = (dateOfPurchase + str(random.randint(1000, 9999))).replace('-', '')
-purchase       = purch.Purchase(transId,customer_info,product_info,purch_info)
+date_of_purch = date.today().isoformat() 
+transId       = (date_of_purch + str(random.randint(1000, 9999))).replace('-', '')
+purchase       = Purchase(transId, cust_info, date_of_purch, ext_price, prods_purchased)
 
 print(vars(purchase))
-print(vars(purchase.CustomerInfo))
-print(vars(purchase.CustomerInfo.PrimaryContactInfo))
-print(vars(purchase.CustomerInfo.Address))
-print(vars(purchase.CustomerInfo.Address.GeoSpatialInfo))
-print(vars(purchase.MainProductInfo))
-print(vars(purchase.PurchaseInfo))
+print(vars(purchase.customerInfo))
+print(vars(purchase.customerInfo.PrimaryContactInfo))
+print(vars(purchase.customerInfo.Address))
+print(vars(purchase.customerInfo.Address.GeoSpatialInfo))
+for item in purchase.productsPurchased :
+    print(vars(item))
+    print(vars(item.productInfo))

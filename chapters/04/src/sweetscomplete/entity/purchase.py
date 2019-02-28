@@ -1,28 +1,33 @@
 # sweetscomplete.entity.purchase
 
 class Purchase :
-    transactionId   = ""
-    CustomerInfo    = None
-    MainProductInfo = None
-    PurchaseInfo    = None
-    def __init__(self, transactionId, customer_info, product_info, purchase_info) :
-        self.transactionId   = transactionId
-        self.CustomerInfo    = customer_info
-        self.MainProductInfo = product_info
-        self.PurchaseInfo    = purchase_info
+    transactionId      = None
+    dateOfPurchase     = None
+    extendedPrice      = None
+    customerInfo       = None
+    productsPurchased  = None
+    def __init__(self, transId, cust_info, date_of_purch, ext_price, prods_purchased) :
+        self.transactionId      = transId
+        self.customerInfo       = cust_info
+        self.dateOfPurchase     = date_of_purch
+        self.extendedPrice      = ext_price
+        self.productsPurchased  = prods_purchased
 
 class CustomerInfo :
+    customerKey        = None
     PrimaryContactInfo = None
     Address            = None
-    def __init__(self, primary_contact_info, address) :
+    def __init__(self, key, primary_contact_info, address_info) :
+        self.customerKey        = key
         self.PrimaryContactInfo = primary_contact_info
-        self.Address            = address
+        self.Address            = address_info
 
-class PurchaseInfo :
-    dateOfPurchase    = ""
-    quantityPurchased = 0
-    extendedPrice     = 0.00
-    def __init__(self, dateOfPurchase, quantityPurchased, extendedPrice) :
-        self.dateOfPurchase    = dateOfPurchase
-        self.quantityPurchased = quantityPurchased
-        self.extendedPrice     = extendedPrice
+class ProdsPurchased :
+    productKey   = None
+    qtyPurchased = None
+    productInfo  = None
+    def __init__(self, key, qty, product_info) :
+        self.productKey   = key
+        self.qtyPurchased = qty
+        self.productInfo  = product_info
+        

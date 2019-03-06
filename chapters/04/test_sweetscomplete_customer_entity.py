@@ -2,26 +2,45 @@
 
 # tell python where to find module source code
 import os,sys
-sys.path.append(os.path.realpath("src"))
+sys.path.append(os.path.realpath('src'))
 
-import sweetscomplete.entity.customer as cust
+from sweetscomplete.entity.customer import Customer
 
 # Testing Customer
-socialMedia = { "FB" : "https://facebook.com/fred.flintstone", "LI" : "https://linkedin.com/fflintstone" }
-primary     = cust.PrimaryContactInfo("Fred","Flintstone","+1-222-333-4444","fred@slate.com",socialMedia)
-login       = cust.LoginInfo("fflintstone","BCRYPT hashed password")
-geo         = cust.GeoSpatialInfo(111.11,222.22)
-address     = cust.Address("123 Rocky Way","House",None,None,"Bedrock","MI",None,"Prehistoric","00000",geo)
-secondary   = cust.SecondaryContactInfo(["+1-333-444-5555"],["freddy@flintstone.com","ace@bowling.com"])
-other       = cust.OtherInfo("0000-00-00", "M")
-customer    = cust.Customer("12223334444",primary,login,address,secondary,other)
+doc = dict({
+    'customerKey'             : '00000000',
+    'firstName'               : 'Fred',
+    'lastName'                : 'Flintstone',
+    'phoneNumber'             : '+1-222-333-4444',
+    'email'                   : 'fred@slate.com',
+    'socialMedia'             : {'FB':'https://facebook.com/fred.flintstone','LI':'https://linkedin.com/fflintstone'},
+    'streetAddressOfBuilding' : '123 Rocky Way',
+    'buildingName'            : 'House',
+    'city'                    : 'Bedrock',
+    'stateProvince'           : 'ZZ',
+    'locality'                : 'Pre Historic',
+    'country'                 : 'ZZ',
+    'postalCode'              : '00000',
+    'latitude'                : 11.1111,
+    'longitude'               : -11.1111,
+    'userName'                : 'freddy',
+    'password'                : '12345',
+    'secondaryPhoneNumbers'   : ['+1-333-444-5555'],
+    'secondaryEmailAddresses' : ['freddy@flintstone.com','ace@bowling.com'],
+    'dateOfBirth'             : '0000-00-00',
+    'gender'                  : 'M'
+})
 
-# Output
-print(vars(customer))
-print(vars(customer.PrimaryContactInfo))
-print(vars(customer.LoginInfo))
-print(vars(customer.Address))
-print(vars(customer.Address.GeoSpatialInfo))
-print(vars(customer.SecondaryContactInfo))
-print(vars(customer.OtherInfo))
+# test blank product entity
+customer = Customer(True)
+print("\nBlank Customer Entity")
+print('Name: '  + customer.getFullName())
+print('Email: ' + customer.get('email'))
+print(customer.toJson())
 
+# test purchase entity initialized from dictionary
+customer = Customer(doc)
+print("\Customer Entity Initialized from Dictionary")
+print('Name: '  + customer.getFullName())
+print('Email: ' + customer.get('email'))
+print(customer.toJson())

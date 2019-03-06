@@ -6,40 +6,58 @@ sys.path.append(os.path.realpath("src"))
 
 from datetime import date
 import random
-from sweetscomplete.entity.purchase import Purchase, CustomerInfo, ProdsPurchased
-from sweetscomplete.entity.product  import Product, MainProductInfo, InventoryInfo
-from sweetscomplete.entity.customer import Customer, PrimaryContactInfo, Address, GeoSpatialInfo
+from sweetscomplete.entity.purchase import Purchase
 
-# CustomerInfo
-socialMedia = { "FB" : "https://facebook.com/fred.flintstone", "LI" : "https://linkedin.com/fflintstone" }
-geo         = GeoSpatialInfo(111.11,222.22)
-primary     = PrimaryContactInfo("Fred","Flintstone","+1-222-333-4444","fred@slate.com",socialMedia)
-address     = Address("123 Rocky Way","House",None,None,"Bedrock","MI",None,"Prehistoric","00000",geo)
-cust_info   = CustomerInfo('ABC123', primary, address)
+# purchase info
+transId    = 'TEST00000000'
+purch_date = date.today().isoformat() 
 
-# PurchaseInfo
+# products purchased
 prods_purchased = [
-    ProdsPurchased('AAA111', 111,  MainProductInfo(1, "Test", "test", "Test", 1.11)),
-    ProdsPurchased('BBB222', 222,  MainProductInfo(2, "Test", "test", "Test", 2.22)),
-    ProdsPurchased('CCC333', 333,  MainProductInfo(3, "Test", "test", "Test", 3.33))
+    {'productKey':'AAA111','qtyPurchased':111,'skuNumber':'11111','category':'AAA','title':'TEST AAA','price':1.11},
+    {'productKey':'BBB222','qtyPurchased':222,'skuNumber':'22222','category':'BBB','title':'TEST BBB','price':2.22},
+    {'productKey':'CCC333','qtyPurchased':333,'skuNumber':'33333','category':'CCC','title':'TEST CCC','price':3.33}
 ]
 
 # Calc extended price
 ext_price = 0.00
 for item in prods_purchased :
-    ext_price += item.qtyPurchased * item.productInfo.price
+    ext_price += item['qtyPurchased'] * item['price']
 
 
-# Purchase
-date_of_purch = date.today().isoformat() 
-transId       = (date_of_purch + str(random.randint(1000, 9999))).replace('-', '')
-purchase       = Purchase(transId, cust_info, date_of_purch, ext_price, prods_purchased)
+# purchase document
+doc = dict({
+    # purchase info
+    'transactionId'           : transId,
+    'dateOfPurchase'          : purch_date,
+    'extendedPrice'           : ext_price,
+    # customer info
+    'customerKey'             : '00000000',
+    'firstName'               : 'Fred',
+    'lastName'                : 'Flintstone',
+    'phoneNumber'             : '+1-222-333-4444',
+    'email'                   : 'fred@slate.com',
+    'streetAddressOfBuilding' : '123 Rocky Way',
+    'city'                    : 'Bedrock',
+    'stateProvince'           : 'ZZ',
+    'country'                 : 'ZZ',
+    'postalCode'              : '00000',
+    'latitude'                : 11.1111,
+    'longitude'               : -11.1111,
+    # products purchased
+    'productsPurchased'       : prods_purchased
+})
 
-print(vars(purchase))
-print(vars(purchase.customerInfo))
-print(vars(purchase.customerInfo.PrimaryContactInfo))
-print(vars(purchase.customerInfo.Address))
-print(vars(purchase.customerInfo.Address.GeoSpatialInfo))
-for item in purchase.productsPurchased :
-    print(vars(item))
-    print(vars(item.productInfo))
+# test blank product entity
+purchase = Purchase(True)
+print("\nBlank Purchase Entity")
+print('Transaction ID: ' + purchase.getKey())
+print('Date: ' + purchase.get('dateOfPurchase'))
+print(purchase.toJson())
+
+# test purchase entity initialized from dictionary
+purchase = Purchase(doc)
+print("\Purchase Entity Initialized from Dictionary")
+print('Transaction ID: ' + purchase.getKey())
+print('Date: ' + purchase.get('dateOfPurchase'))
+print(purchase.toJson())

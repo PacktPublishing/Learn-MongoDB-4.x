@@ -6,12 +6,12 @@ class Connection :
     
     db     = None
     client = None
-    uri    = 'mongodb://localhost:27017/'
         
-    def __init__(self, uri = None) :
-        if uri :
-            self.uri = uri
-        self.client = MongoClient(self.uri)
+    def __init__(self, host = 'localhost', port = 27017, result_class = None) :
+        if result_class :
+            self.client = MongoClient(host, port, result_class)
+        else :
+            self.client = MongoClient(host, port)
 
     def getDatabase(self, database) :
         self.db = self.client[database]

@@ -5,7 +5,7 @@ db.common.insertMany(
 [
     {
         "key" : "gender",
-        "data" : { "M" : "male", "F" : "female", "O" : "Other" }
+        "data" : { "M" : "male", "F" : "female", "X" : "Other" }
     },
     {
         "key" : "socialMedia",

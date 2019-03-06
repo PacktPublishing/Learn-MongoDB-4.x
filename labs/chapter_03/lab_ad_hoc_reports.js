@@ -24,14 +24,19 @@ eu = [  "AL", "AD", "AM", "AT", "BY", "BE", "BA", "BG", "CH", "CY", "CZ", "DE",
         "PT", "RO", "RU", "SE", "SI", "SK", "SM", "TR", "UA", "VA"
 ];
 
-// now we can create the query using the "$in" query operator
-db.purchases.find(
-{
-    "$and" : [
-        { "CustomerInfo.Address.country" : { "$in" : eu } },
-        { "MainProductInfo.category" : "chocolate" }
+// now we create a query document using the "$in" query operator
+query =  { "$and" : 
+    [ 
+        { "country" : { "$in" : eu } },
+        { "dateOfPurchase" : { "$regex" : "2018-" } } 
     ]
-}).count();
+}
+
+// and then a projection document
+projection = { "_id" : 0, "dateOfPurchase" : 1, "firstName" : 1, "lastName" : 1, "phoneNumber" : 1 }
+
+// now for the query
+db.purchases.find(query, projection);
 
 // LAB #2:
 // A list of the customers, sorted alphabetically by last name, along with the primary phone number and email address of 
@@ -46,13 +51,13 @@ eastern_states = [  "AL", "AR", "CT", "DE", "DC", "FL", "GA", "IL", "IN", "KY", 
 // now we can formulate a "find()" command using the "$in" query operator
 db.customers.find(
 {
-    "Address.country":"US",
-    "Address.stateProvince":{"$in":eastern_states}
+    "country":"US",
+    "stateProvince" : { "$in" : eastern_states }
 },
 {
-    "PrimaryContactInfo.firstName" : 1,
-    "PrimaryContactInfo.lastName" : 1,
-    "phone" : 1,
-    "_id" : 0
-}).sort({ "PrimaryContactInfo.lastName":1 } );
+    "_id" : 0,
+    "firstName" : 1,
+    "lastName" : 1,
+    "phoneNumber" : 1
+}).sort({ "lastName" : 1 } );
 

@@ -7,8 +7,6 @@ sys.path.append(os.path.realpath("src"))
 import pprint
 import db.mongodb.connection
 
-test = Product()
-
 from datetime import date
 from sweetscomplete.entity.product import Product
 from sweetscomplete.domain.product import ProductService
@@ -21,20 +19,16 @@ service = ProductService(conn, 'sweetscomplete')
 key        = 'test' + date.today().isoformat().replace('-', '')
 doc        = '''\
 {
-    "productKey":"%key%",
+    "productKey"  :"%key%",
     "productPhoto":"TEST",
-    "MainProductInfo": {
-        "skuNumber":"TEST0000",
-        "category":"test",
-        "title":"Test",
-        "description":"test",
-        "price":"1.11"
-    },
-    "InventoryInfo" : {
-        "unit":"test",
-        "costPerUnit":"2.22",
-        "unitsOnHand":333
-    }
+    "skuNumber"   :"TEST0000",
+    "category"    :"test",
+    "title"       :"Test",
+    "description" :"test",
+    "price"       :"1.11"
+    "unit"        :"test",
+    "costPerUnit" :"2.22",
+    "unitsOnHand" :333
 }
 '''.replace('%key%',key)
 
@@ -50,28 +44,39 @@ doc = service.fetchByKey(key)
 if doc :
     print(doc.toJson())
 
-# TODO: updating a single product
-#product = Product()
-#if service.editOne(product) :
-#    print("\nProduct " + key + " updated successfully\n")
+# updating a single product
+updateDoc = {
+    'productPhoto' :'REVISED PHOTO',
+    'MainProductInfo.price' : 2.22
+};
 
-# TODO: updating a many products
-#if service.editAll(docs) :
-#    print("\nProduct " + key + " updated successfully\n")
+result = service.editOneByProductKey(key, updateDoc)
+if not result :
+    print("\nUnable to find this product key: " + key + "\n")
+else :
+    print("\nProduct " + key + " updated successfully\n")
+    print(result.toJson())
 
-# running a query for a single item
-print("\nUpdated Test Product\n")
-query = dict({ "MainProductInfo.skuNumber" : "TEST9999" })
-doc = service.fetchOne(query)
+# bad key should not perform updates
+badkey = 'badkey'
+result = service.editOneByProductKey(badkey, updateDoc)
+if not result :
+    print("\nUnable to find this product key: " + badkey + "\n")
+else :
+    print("\nProduct " + badkey + " updated successfully\n")
+    print(result.toJson())
+
+# increasing the cost per unit of Test products
+query = dict({"productKey" : key})
+result = service.editPrice(query, 1.10)
+if  result > 0:
+    print("\n" + str(result) + " products updated successfully\n")
+
+# running a fetch based on skuNumber
+print("\nFetch by skuNumber\n")
+doc = service.fetchBySku("TEST0000")
 if doc :
-    print("\nSingle Product\n")
     print(doc.toJson())
-
-# running a query
-print("\nList of Test Products\n")
-query = dict({ "MainProductInfo.skuNumber" : "TEST0000" })
-for doc in service.fetch(query) :
-    print(doc.MainProductInfo.title)
 
 # deleting the test product
 query = dict({"productKey" : key})

@@ -1,16 +1,38 @@
-# sweetscomplete.entity.product.Product test
+# sweetscomplete.entity.product.Product
 
 # tell python where to find module source code
 import os,sys
-sys.path.append(os.path.realpath("src"))
+sys.path.append(os.path.realpath('src'))
 
-import sweetscomplete.entity.product
+import pprint
+from datetime import date
+from sweetscomplete.entity.product import Product
 
-# Testing Product
-main    = sweetscomplete.entity.product.MainProductInfo(1, "Test", "test", "Test", 1.11)
-invent  = sweetscomplete.entity.product.InventoryInfo("items", 1.11, 99)
-product = sweetscomplete.entity.product.Product("test_test","base64encodedTest",main,invent)
+# initialize test data
+key = 'TEST' + date.today().isoformat().replace('-', '')
+doc = dict({
+    'productKey'  : key,
+    'productPhoto': 'TEST',
+    'skuNumber'   : 'TEST0000',
+    'category'    : 'test',
+    'title'       : 'Test',
+    'description' : 'test',
+    'price'       : 1.11,
+    'unit'        : 'test',
+    'costPerUnit' : 2.22,
+    'unitsOnHand' : 333
+})
 
-print(vars(product))
-print(vars(product.MainProductInfo))
-print(vars(product.InventoryInfo))
+# test blank product entity
+product = Product(True)
+print("\nBlank Product Entity")
+print('Title: '   + product.getTitle())
+print('Category: ' + product.get('category'))
+print(product.toJson())
+
+# test product entity initialized from a dictionary
+product = Product(doc)
+print("\Product Entity Initialized from Dictionary")
+print('Title: '   + product.getTitle())
+print('Category: ' + product.get('category'))
+print(product.toJson())

@@ -6,11 +6,26 @@ sys.path.append(os.path.realpath("src"))
 
 import pprint
 import db.mongodb.connection
-import sweetscomplete.entity.customer as cust
+from sweetscomplete.entity.customer import Customer
 
 # setting up the connection + collection
-conn = db.mongodb.connection.Connection()
+conn = db.mongodb.connection.Connection('localhost', 27017, Customer)
 db   = conn.getDatabase("sweetscomplete")
 
-# Testing Customer Collection Query
-pprint.pprint(db.customers.find_one())
+# testing blank entity
+cust = Customer(True)
+print("\Blank Entity:")
+print('Class: ' + str(type(cust)))
+print('Key: '   + cust.getKey())
+print('Name: '  + cust.getFullName())
+print('Email: ' + cust.get('email'))
+print('JSON:'   + cust.toJson())
+
+# testing customer collection query
+cust = db.customers.find_one()
+print("\nResult from Query:")
+print('Class: ' + str(type(cust)))
+print('Key: '   + cust.getKey())
+print('Name: '  + cust.getFullName())
+print('Email: ' + cust.get('email'))
+print('JSON:'   + cust.toJson())

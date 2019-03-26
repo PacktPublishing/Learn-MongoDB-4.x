@@ -56,8 +56,8 @@ class TestProduct(unittest.TestCase) :
         self.assertEqual(expected, actual)
 
     def test_product_from_dict_to_json(self) :
-        expected = json.loads(self.testJson)
-        actual   = json.loads(self.productFromDict.toJson())
+        expected = self.productFromDict
+        actual   = self.productFromJson
         self.assertEqual(expected, actual)
 
     def test_product_from_json(self) :
@@ -69,7 +69,7 @@ class TestProduct(unittest.TestCase) :
         expected = ''
         actual   = self.productDefaults.getKey()
         self.assertEqual(expected, actual)
-
+    
 def main() :
     unittest.main()
 

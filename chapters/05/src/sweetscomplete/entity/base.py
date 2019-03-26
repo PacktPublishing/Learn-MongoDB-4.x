@@ -15,12 +15,15 @@ class Base(dict) :
                 self.setFromDict(doc)
             elif isinstance(doc, str) :
                 # initialize from JSON
-                doc = json.loads(doc)
-                self.setFromDict(doc)                
+                self.setFromJson(doc)                
 
     def setFromDict(self, doc) :
         for key, value in self.fields.items() : 
             if key in doc : self[key] = doc[key]
+        
+    def setFromJson(self, jsonDoc) :
+        doc = json.loads(jsonDoc)
+        self.setFromDict(doc)                
         
     def set(self, key, value) :
         self[key] = value

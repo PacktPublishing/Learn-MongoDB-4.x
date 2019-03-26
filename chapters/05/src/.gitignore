@@ -1,0 +1,6 @@
+db/__pycache__
+db/mongodb/__pycache__
+sweetscomplete/__pycache__
+sweetscomplete/entity/__pycache__
+sweetscomplete/domain/__pycache__
+learn/__pycache__

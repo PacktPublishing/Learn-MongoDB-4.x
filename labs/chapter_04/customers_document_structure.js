@@ -1,38 +1,33 @@
+// example of a customer document
 customer = 
 {
-    "customerKey"              : "phone number without special characters",
-    "PrimaryContactInfo": {
-        "firstName"                : "customer given name",
-        "lastName"                 : "customer surname",
-        "phoneNumber"              : "phone number in international format",
-        "email"                    : "email address",
-        "socialMedia"              : "array of entries for Facebook, Twitter, etc.",
-    },
-    "LoginInfo": {
-        "userName"                 : "login name",
-        "password"                 : "password hashed using BCRYPT"
-    },
-    "Address": {
-        "streetAddressOfBuilding"  : "street number and name",
-        "buildingName"             : "name of building if applicable",
-        "floor"                    : "number of floor if applicable",
-        "roomApartmentCondoNumber" : "apartment, room or condo number if applicable",
-        "city"                     : "city",
-        "stateProvince"            : "state or province",
-        "locality"                 : "local geographical identifier, e.g. county",
-        "country"                  : "ISO2 country code",
-        "postalCode"               : "postal code",
-        "GeoSpatialInfo": {
-            "latitude"             : "ISO 6709 representation for latitude",
-            "longitude"            : "ISO 6709 representation for longitude"
-        }
-    },
-    "SecondaryContactInfo": {
-        "secondaryPhoneNumbers"    : "array of phone numbers in international format",
-        "secondaryEmailAddresses"  : "array of email addresses"
-    },
-    "OtherInfo": {
-        "dateOfBirth"              : "YYYY-MM-DD format",
-        "gender"                   : "Male, Female, Other"
-    }
+	"customerKey"             : "PATRYODE9823",
+	"firstName"               : "Patrina",
+	"lastName"                : "Yoder",
+	"phoneNumber"             : "+1-100-329-9823",
+	"email"                   : "pyoder100@CCI.com",
+	"streetAddressOfBuilding" : "2885 Short Tree Drive",
+	"buildingName"            : "",
+	"floor"                   : "",
+	"roomApartmentCondoNumber": "",
+	"city"                    : "Washington",
+	"stateProvince"           : "DC",
+	"locality"                : "District of Columbia",
+	"country"                 : "US",
+	"postalCode"              : "20228",
+	"latitude"                : "38.8951",
+	"longitude"               : "-77.0364",
+	"username"                : "pyoder",
+	"password"                : "$2y$10$gdhzAxM3vkDly/H8A.KRO.CoKPG76RJj7prRZMMSrnLL1yaCM/TsS",
+	"secondaryPhoneNumbers"   : [
+		"+1-991-648-5366",
+		"+1-226-350-6509"
+	],
+	"secondaryEmailAddresses" : [
+		"pyoder@Orstom.net",
+		"pyoder@Unicom.net"
+	],
+	"socialMedia"             : { "SK" : { "label" : "skype", "url" : "https://skype.com/pyoder"} },
+	"gender"                  : "F",
+	"dateOfBirth"             : "1931-01-25"
 }

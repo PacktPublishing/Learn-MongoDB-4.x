@@ -1,0 +1,45 @@
+<body bgcolor="#f0f0f8">
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="heading">
+<tr bgcolor="#6622aa">
+<td valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial">&nbsp;<br><big><big><strong>ImportError</strong></big></big></font></td
+><td align=right valign=bottom
+><font color="#ffffff" face="helvetica, arial">Python 3.7.1: /usr/bin/python<br>Fri Mar 22 10:41:05 2019</font></td></tr></table>
+    
+<p>A problem occurred in a Python script.  Here is the sequence of
+function calls leading up to the error, in the order they occurred.</p>
+<table width="100%" cellspacing=0 cellpadding=0 border=0>
+<tr><td bgcolor="#d8bbff"><big>&nbsp;</big><a href="file:///home/jed/Repos/learn-mongodb/www/chapter_05/purchase.py">/home/jed/Repos/learn-mongodb/www/chapter_05/purchase.py</a> in <strong>&lt;module&gt;</strong>()</td></tr>
+<tr><td><font color="#909090"><tt>&nbsp;&nbsp;<small>&nbsp;&nbsp;&nbsp;17</small>&nbsp;from&nbsp;sweetscomplete.entity.customer&nbsp;import&nbsp;Customer<br>
+</tt></font></td></tr>
+<tr><td><font color="#909090"><tt>&nbsp;&nbsp;<small>&nbsp;&nbsp;&nbsp;18</small>&nbsp;from&nbsp;sweetscomplete.domain.product&nbsp;import&nbsp;ProductService<br>
+</tt></font></td></tr>
+<tr><td bgcolor="#ffccee"><tt>=&gt;<small>&nbsp;&nbsp;&nbsp;19</small>&nbsp;from&nbsp;sweetscomplete.entity.product&nbsp;import&nbsp;Product,&nbsp;ProductPurchased<br>
+</tt></td></tr>
+<tr><td><font color="#909090"><tt>&nbsp;&nbsp;<small>&nbsp;&nbsp;&nbsp;20</small>&nbsp;from&nbsp;sweetscomplete.domain.purchase&nbsp;import&nbsp;PurchaseService<br>
+</tt></font></td></tr>
+<tr><td><font color="#909090"><tt>&nbsp;&nbsp;<small>&nbsp;&nbsp;&nbsp;21</small>&nbsp;from&nbsp;sweetscomplete.entity.purchase&nbsp;import&nbsp;Purchase<br>
+</tt></font></td></tr>
+<tr><td><small><font color="#909090">sweetscomplete <em>undefined</em>, <strong>Product</strong>&nbsp;= &lt;class 'sweetscomplete.entity.product.Product'&gt;, ProductPurchased <em>undefined</em></font></small></td></tr></table><p><strong>ImportError</strong>: cannot import name 'ProductPurchased' from 'sweetscomplete.entity.product' (/home/jed/Repos/learn-mongodb/chapters/05/src/sweetscomplete/entity/product.py)
+<br><tt><small>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</small>&nbsp;</tt>args&nbsp;=
+("cannot import name 'ProductPurchased' from 'swee...chapters/05/src/sweetscomplete/entity/product.py)",)
+<br><tt><small>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</small>&nbsp;</tt>msg&nbsp;=
+"cannot import name 'ProductPurchased' from 'swee...chapters/05/src/sweetscomplete/entity/product.py)"
+<br><tt><small>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</small>&nbsp;</tt>name&nbsp;=
+'sweetscomplete.entity.product'
+<br><tt><small>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</small>&nbsp;</tt>path&nbsp;=
+'/home/jed/Repos/learn-mongodb/chapters/05/src/sweetscomplete/entity/product.py'
+<br><tt><small>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</small>&nbsp;</tt>with_traceback&nbsp;=
+&lt;built-in method with_traceback of ImportError object&gt;
+
+
+<!-- The above is a description of an error in a Python program, formatted
+     for a Web browser because the 'cgitb' module was enabled.  In case you
+     are not reading this in a Web browser, here is the original traceback:
+
+Traceback (most recent call last):
+  File "purchase.py", line 19, in &lt;module&gt;
+    from sweetscomplete.entity.product import Product, ProductPurchased
+ImportError: cannot import name 'ProductPurchased' from 'sweetscomplete.entity.product' (/home/jed/Repos/learn-mongodb/chapters/05/src/sweetscomplete/entity/product.py)
+
+-->

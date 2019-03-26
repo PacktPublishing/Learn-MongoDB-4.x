@@ -29,5 +29,5 @@ class Purchase(Base) :
         return self['transactionId']
     def setKey(self, key) :
         self['transactionId'] = key
-    def getCustomer(self) :
+    def getCustomerName(self) :
         return self['firstName'] + ' ' + self['lastName'] + ' [' + self['customerKey'] + ']'

@@ -8,11 +8,11 @@ db.products.insertOne(
     "skuNumber": "APPL501",
     "category": "pie",
     "title": "Apple Pie",
-    "description": "Donec sed dui hendrerit nulla iaculis vestibulum. Quisque et magna malesuada, fermentum nisl sed, imperdiet nunc. Praesent hendrerit tellus eget nibh lobortis, ut scelerisque mi mattis. Morbi consectetur urna sit amet facilisis gravida. Cras sit amet eros congue, rhoncus sem sed, consequat arcu.",
-    "price": "4.99",
+    "description": "Morbi consectetur urna sit amet facilisis gravida. Nam gravida libero ac malesuada cursus. Praesent pretium justo at neque egestas mattis. Phasellus vel velit eget nibh porttitor feugiat id ac massa. Pellentesque vel risus placerat, consequat leo suscipit, dapibus nulla.",
+    "price": 4.99,
     "unit": "tin",
-    "costPerUnit": "4.99",
-    "unitsOnHand": 693
+    "costPerUnit": 4.4910000000000005,
+    "unitsOnHand": 421
 });
 db.products.insertOne(
 {
@@ -21,11 +21,11 @@ db.products.insertOne(
     "skuNumber": "BIRT104",
     "category": "cake",
     "title": "Birthday Cake",
-    "description": "Donec sed dui hendrerit nulla iaculis vestibulum. Praesent hendrerit tellus eget nibh lobortis, ut scelerisque mi mattis.",
-    "price": "9.99",
+    "description": "In a magna pretium, laoreet neque eget, consectetur justo. Vivamus pharetra sapien at sem ultrices semper. Ut quis massa sit amet enim faucibus suscipit ac viverra elit. Maecenas eget lectus ultrices, porta eros a, blandit nisi. Duis rhoncus ipsum ac sapien consequat fringilla. Aenean sit amet massa ac dolor interdum varius.",
+    "price": 9.99,
     "unit": "box",
-    "costPerUnit": "9.99",
-    "unitsOnHand": 690
+    "costPerUnit": 8.991,
+    "unitsOnHand": 144
 });
 db.products.insertOne(
 {
@@ -34,11 +34,11 @@ db.products.insertOne(
     "skuNumber": "BLAC207",
     "category": "chocolate",
     "title": "Black And Tan Truffel",
-    "description": "Morbi consectetur urna sit amet facilisis gravida. Cras sit amet eros congue, rhoncus sem sed, consequat arcu. Maecenas interdum ex id venenatis luctus. In a magna pretium, laoreet neque eget, consectetur justo. Nam gravida libero ac malesuada cursus. Vivamus pharetra sapien at sem ultrices semper.",
-    "price": "3.49",
+    "description": "Vivamus semper justo sed dictum aliquam. Praesent pretium justo at neque egestas mattis.",
+    "price": 3.49,
     "unit": "piece",
-    "costPerUnit": "3.49",
-    "unitsOnHand": 734
+    "costPerUnit": 3.1410000000000005,
+    "unitsOnHand": 332
 });
 db.products.insertOne(
 {
@@ -47,11 +47,11 @@ db.products.insertOne(
     "skuNumber": "CAKE110",
     "category": "cake",
     "title": "Cake With Chocolate Frosting",
-    "description": "Maecenas interdum ex id venenatis luctus. In a magna pretium, laoreet neque eget, consectetur justo.",
-    "price": "8.99",
+    "description": "Cras sit amet eros congue, rhoncus sem sed, consequat arcu. In a magna pretium, laoreet neque eget, consectetur justo.",
+    "price": 8.99,
     "unit": "box",
-    "costPerUnit": "8.99",
-    "unitsOnHand": 112
+    "costPerUnit": 8.091000000000001,
+    "unitsOnHand": 905
 });
 db.products.insertOne(
 {
@@ -60,11 +60,11 @@ db.products.insertOne(
     "skuNumber": "CARR113",
     "category": "cake",
     "title": "Carrot Cake",
-    "description": "Quisque et magna malesuada, fermentum nisl sed, imperdiet nunc. Praesent hendrerit tellus eget nibh lobortis, ut scelerisque mi mattis. Morbi consectetur urna sit amet facilisis gravida. Cras sit amet eros congue, rhoncus sem sed, consequat arcu.",
-    "price": "7.99",
+    "description": "Nam gravida libero ac malesuada cursus. Ut quis massa sit amet enim faucibus suscipit ac viverra elit. Nullam quis tortor accumsan, sagittis sem in, porttitor orci.",
+    "price": 7.99,
     "unit": "box",
-    "costPerUnit": "7.99",
-    "unitsOnHand": 833
+    "costPerUnit": 7.191000000000001,
+    "unitsOnHand": 949
 });
 db.products.insertOne(
 {
@@ -73,11 +73,11 @@ db.products.insertOne(
     "skuNumber": "CHER516",
     "category": "pie",
     "title": "Cherry Pie",
-    "description": "Morbi consectetur urna sit amet facilisis gravida. Cras sit amet eros congue, rhoncus sem sed, consequat arcu. Maecenas interdum ex id venenatis luctus.",
-    "price": "4.99",
+    "description": "Vivamus pharetra sapien at sem ultrices semper. Ut quis massa sit amet enim faucibus suscipit ac viverra elit. Maecenas eget lectus ultrices, porta eros a, blandit nisi. Duis rhoncus ipsum ac sapien consequat fringilla. Aenean sit amet massa ac dolor interdum varius.",
+    "price": 4.99,
     "unit": "tin",
-    "costPerUnit": "4.99",
-    "unitsOnHand": 956
+    "costPerUnit": 4.4910000000000005,
+    "unitsOnHand": 364
 });
 db.products.insertOne(
 {
@@ -86,11 +86,11 @@ db.products.insertOne(
     "skuNumber": "CHOC219",
     "category": "chocolate",
     "title": "Chocolate Bunny",
-    "description": "In a magna pretium, laoreet neque eget, consectetur justo. Vivamus pharetra sapien at sem ultrices semper. Ut quis massa sit amet enim faucibus suscipit ac viverra elit. Maecenas eget lectus ultrices, porta eros a, blandit nisi. Duis rhoncus ipsum ac sapien consequat fringilla.",
-    "price": "6.49",
+    "description": "Donec sed dui hendrerit nulla iaculis vestibulum. Cras sit amet eros congue, rhoncus sem sed, consequat arcu.",
+    "price": 6.49,
     "unit": "item",
-    "costPerUnit": "6.49",
-    "unitsOnHand": 346
+    "costPerUnit": 5.841,
+    "unitsOnHand": 704
 });
 db.products.insertOne(
 {
@@ -99,11 +99,11 @@ db.products.insertOne(
     "skuNumber": "CHOC322",
     "category": "cookie",
     "title": "Chocolate Chip Cookie",
-    "description": "Maecenas interdum ex id venenatis luctus. Vivamus pharetra sapien at sem ultrices semper. Praesent pretium justo at neque egestas mattis.",
-    "price": "0.88",
+    "description": "Praesent hendrerit tellus eget nibh lobortis, ut scelerisque mi mattis. Maecenas interdum ex id venenatis luctus. Vivamus pharetra sapien at sem ultrices semper. Praesent pretium justo at neque egestas mattis.",
+    "price": 0.88,
     "unit": "item",
-    "costPerUnit": "0.88",
-    "unitsOnHand": 722
+    "costPerUnit": 0.792,
+    "unitsOnHand": 107
 });
 db.products.insertOne(
 {
@@ -112,11 +112,11 @@ db.products.insertOne(
     "skuNumber": "CHOC425",
     "category": "donut",
     "title": "Chocolate Covered Donut",
-    "description": "Quisque et magna malesuada, fermentum nisl sed, imperdiet nunc. Cras sit amet eros congue, rhoncus sem sed, consequat arcu. Nam gravida libero ac malesuada cursus. Ut quis massa sit amet enim faucibus suscipit ac viverra elit. Nullam quis tortor accumsan, sagittis sem in, porttitor orci. Aenean sit amet massa ac dolor interdum varius.",
-    "price": "0.67",
+    "description": "Donec sed dui hendrerit nulla iaculis vestibulum. Cras sit amet eros congue, rhoncus sem sed, consequat arcu. Vivamus pharetra sapien at sem ultrices semper. Maecenas eget lectus ultrices, porta eros a, blandit nisi. Aenean sit amet massa ac dolor interdum varius. Praesent bibendum mi et augue lacinia auctor.",
+    "price": 0.67,
     "unit": "item",
-    "costPerUnit": "0.67",
-    "unitsOnHand": 627
+    "costPerUnit": 0.6030000000000001,
+    "unitsOnHand": 428
 });
 db.products.insertOne(
 {
@@ -125,11 +125,11 @@ db.products.insertOne(
     "skuNumber": "CHOC228",
     "category": "chocolate",
     "title": "Chocolate Bar",
-    "description": "Nam gravida libero ac malesuada cursus. Vivamus pharetra sapien at sem ultrices semper. Vivamus semper justo sed dictum aliquam. Ut quis massa sit amet enim faucibus suscipit ac viverra elit.",
-    "price": "2.99",
+    "description": "Vivamus pharetra sapien at sem ultrices semper. Praesent pretium justo at neque egestas mattis. Duis rhoncus ipsum ac sapien consequat fringilla. Donec ac purus sed justo egestas ultricies.",
+    "price": 2.99,
     "unit": "item",
-    "costPerUnit": "2.99",
-    "unitsOnHand": 557
+    "costPerUnit": 2.6910000000000003,
+    "unitsOnHand": 933
 });
 db.products.insertOne(
 {
@@ -138,11 +138,11 @@ db.products.insertOne(
     "skuNumber": "DOUB231",
     "category": "chocolate",
     "title": "Double Chocolate Truffel",
-    "description": "Cras sit amet eros congue, rhoncus sem sed, consequat arcu. Vivamus pharetra sapien at sem ultrices semper. Maecenas eget lectus ultrices, porta eros a, blandit nisi. Aenean sit amet massa ac dolor interdum varius. Praesent bibendum mi et augue lacinia auctor.",
-    "price": "3.49",
+    "description": "Vivamus pharetra sapien at sem ultrices semper. Vivamus semper justo sed dictum aliquam. Ut quis massa sit amet enim faucibus suscipit ac viverra elit. Praesent pretium justo at neque egestas mattis.",
+    "price": 3.49,
     "unit": "piece",
-    "costPerUnit": "3.49",
-    "unitsOnHand": 191
+    "costPerUnit": 3.1410000000000005,
+    "unitsOnHand": 284
 });
 db.products.insertOne(
 {
@@ -151,11 +151,11 @@ db.products.insertOne(
     "skuNumber": "DOZE434",
     "category": "donut",
     "title": "Dozen Donuts",
-    "description": "Praesent hendrerit tellus eget nibh lobortis, ut scelerisque mi mattis. Cras sit amet eros congue, rhoncus sem sed, consequat arcu. In a magna pretium, laoreet neque eget, consectetur justo. Vivamus pharetra sapien at sem ultrices semper.",
-    "price": "6.99",
+    "description": "Donec sed dui hendrerit nulla iaculis vestibulum. Praesent hendrerit tellus eget nibh lobortis, ut scelerisque mi mattis. Cras sit amet eros congue, rhoncus sem sed, consequat arcu. In a magna pretium, laoreet neque eget, consectetur justo. Vivamus pharetra sapien at sem ultrices semper. Ut quis massa sit amet enim faucibus suscipit ac viverra elit.",
+    "price": 6.99,
     "unit": "box",
-    "costPerUnit": "6.99",
-    "unitsOnHand": 170
+    "costPerUnit": 6.291,
+    "unitsOnHand": 579
 });
 db.products.insertOne(
 {
@@ -164,11 +164,11 @@ db.products.insertOne(
     "skuNumber": "GLOW437",
     "category": "donut",
     "title": "Glow In The Dark Donut",
-    "description": "Praesent hendrerit tellus eget nibh lobortis, ut scelerisque mi mattis. In a magna pretium, laoreet neque eget, consectetur justo. Ut quis massa sit amet enim faucibus suscipit ac viverra elit.",
-    "price": "0.79",
+    "description": "Nam gravida libero ac malesuada cursus. Vivamus semper justo sed dictum aliquam.",
+    "price": 0.79,
     "unit": "item",
-    "costPerUnit": "0.79",
-    "unitsOnHand": 137
+    "costPerUnit": 0.7110000000000001,
+    "unitsOnHand": 639
 });
 db.products.insertOne(
 {
@@ -177,11 +177,11 @@ db.products.insertOne(
     "skuNumber": "LAYE140",
     "category": "cake",
     "title": "Layer Cake Cherry Topping",
-    "description": "Praesent hendrerit tellus eget nibh lobortis, ut scelerisque mi mattis. In a magna pretium, laoreet neque eget, consectetur justo. Ut quis massa sit amet enim faucibus suscipit ac viverra elit. Duis rhoncus ipsum ac sapien consequat fringilla. In interdum odio eget sem finibus, id posuere libero fermentum.",
-    "price": "3.99",
+    "description": "Vivamus semper justo sed dictum aliquam. Maecenas eget lectus ultrices, porta eros a, blandit nisi.",
+    "price": 3.99,
     "unit": "box",
-    "costPerUnit": "3.99",
-    "unitsOnHand": 52
+    "costPerUnit": 3.591,
+    "unitsOnHand": 316
 });
 db.products.insertOne(
 {
@@ -190,11 +190,11 @@ db.products.insertOne(
     "skuNumber": "LAYE143",
     "category": "cake",
     "title": "Layer Cake",
-    "description": "Praesent hendrerit tellus eget nibh lobortis, ut scelerisque mi mattis. Cras sit amet eros congue, rhoncus sem sed, consequat arcu. In a magna pretium, laoreet neque eget, consectetur justo. Vivamus pharetra sapien at sem ultrices semper.",
-    "price": "2.99",
+    "description": "Cras sit amet eros congue, rhoncus sem sed, consequat arcu. Vivamus pharetra sapien at sem ultrices semper. Maecenas eget lectus ultrices, porta eros a, blandit nisi. Aenean sit amet massa ac dolor interdum varius.",
+    "price": 2.99,
     "unit": "box",
-    "costPerUnit": "2.99",
-    "unitsOnHand": 548
+    "costPerUnit": 2.6910000000000003,
+    "unitsOnHand": 418
 });
 db.products.insertOne(
 {
@@ -203,11 +203,11 @@ db.products.insertOne(
     "skuNumber": "LOAF146",
     "category": "cake",
     "title": "Loaf Cake",
-    "description": "Quisque et magna malesuada, fermentum nisl sed, imperdiet nunc. Cras sit amet eros congue, rhoncus sem sed, consequat arcu. Nam gravida libero ac malesuada cursus. Ut quis massa sit amet enim faucibus suscipit ac viverra elit. Nullam quis tortor accumsan, sagittis sem in, porttitor orci.",
-    "price": "3.99",
+    "description": "In a magna pretium, laoreet neque eget, consectetur justo. Ut quis massa sit amet enim faucibus suscipit ac viverra elit. Duis rhoncus ipsum ac sapien consequat fringilla. In interdum odio eget sem finibus, id posuere libero fermentum.",
+    "price": 3.99,
     "unit": "box",
-    "costPerUnit": "3.99",
-    "unitsOnHand": 418
+    "costPerUnit": 3.591,
+    "unitsOnHand": 936
 });
 db.products.insertOne(
 {
@@ -216,11 +216,11 @@ db.products.insertOne(
     "skuNumber": "MUFF149",
     "category": "cake",
     "title": "Muffin",
-    "description": "Cras sit amet eros congue, rhoncus sem sed, consequat arcu. Maecenas interdum ex id venenatis luctus. In a magna pretium, laoreet neque eget, consectetur justo. Nam gravida libero ac malesuada cursus. Vivamus pharetra sapien at sem ultrices semper. Vivamus semper justo sed dictum aliquam.",
-    "price": "1.99",
+    "description": "Maecenas interdum ex id venenatis luctus. Nam gravida libero ac malesuada cursus. Vivamus semper justo sed dictum aliquam. Praesent pretium justo at neque egestas mattis.",
+    "price": 1.99,
     "unit": "item",
-    "costPerUnit": "1.99",
-    "unitsOnHand": 116
+    "costPerUnit": 1.791,
+    "unitsOnHand": 154
 });
 db.products.insertOne(
 {
@@ -229,11 +229,11 @@ db.products.insertOne(
     "skuNumber": "PEAN252",
     "category": "chocolate",
     "title": "Peanut Truffle",
-    "description": "Vivamus pharetra sapien at sem ultrices semper. Maecenas eget lectus ultrices, porta eros a, blandit nisi. Aenean sit amet massa ac dolor interdum varius. Praesent bibendum mi et augue lacinia auctor. Vivamus ac magna nec lacus varius pretium et vitae velit. Pellentesque sagittis nisi id ligula placerat malesuada.",
-    "price": "3.49",
+    "description": "Quisque et magna malesuada, fermentum nisl sed, imperdiet nunc. Cras sit amet eros congue, rhoncus sem sed, consequat arcu. Nam gravida libero ac malesuada cursus. Ut quis massa sit amet enim faucibus suscipit ac viverra elit. Nullam quis tortor accumsan, sagittis sem in, porttitor orci. Aenean sit amet massa ac dolor interdum varius.",
+    "price": 3.49,
     "unit": "piece",
-    "costPerUnit": "3.49",
-    "unitsOnHand": 715
+    "costPerUnit": 3.1410000000000005,
+    "unitsOnHand": 380
 });
 db.products.insertOne(
 {
@@ -242,11 +242,11 @@ db.products.insertOne(
     "skuNumber": "PUMP555",
     "category": "pie",
     "title": "Pumpkin Pie",
-    "description": "Vivamus pharetra sapien at sem ultrices semper. Vivamus semper justo sed dictum aliquam. Ut quis massa sit amet enim faucibus suscipit ac viverra elit. Praesent pretium justo at neque egestas mattis. Maecenas eget lectus ultrices, porta eros a, blandit nisi. Nullam quis tortor accumsan, sagittis sem in, porttitor orci.",
-    "price": "4.99",
+    "description": "Praesent hendrerit tellus eget nibh lobortis, ut scelerisque mi mattis. In a magna pretium, laoreet neque eget, consectetur justo. Ut quis massa sit amet enim faucibus suscipit ac viverra elit. Duis rhoncus ipsum ac sapien consequat fringilla.",
+    "price": 4.99,
     "unit": "tin",
-    "costPerUnit": "4.99",
-    "unitsOnHand": 412
+    "costPerUnit": 4.4910000000000005,
+    "unitsOnHand": 284
 });
 db.products.insertOne(
 {
@@ -255,11 +255,11 @@ db.products.insertOne(
     "skuNumber": "RASP258",
     "category": "chocolate",
     "title": "Raspberry Truffel",
-    "description": "Cras sit amet eros congue, rhoncus sem sed, consequat arcu. Maecenas interdum ex id venenatis luctus. In a magna pretium, laoreet neque eget, consectetur justo.",
-    "price": "3.49",
+    "description": "Cras sit amet eros congue, rhoncus sem sed, consequat arcu. In a magna pretium, laoreet neque eget, consectetur justo. Vivamus pharetra sapien at sem ultrices semper.",
+    "price": 3.49,
     "unit": "piece",
-    "costPerUnit": "3.49",
-    "unitsOnHand": 914
+    "costPerUnit": 3.1410000000000005,
+    "unitsOnHand": 18
 });
 db.products.insertOne(
 {
@@ -268,11 +268,11 @@ db.products.insertOne(
     "skuNumber": "SCHW361",
     "category": "cookie",
     "title": "Schweineoehrchen Cookie",
-    "description": "Morbi consectetur urna sit amet facilisis gravida. In a magna pretium, laoreet neque eget, consectetur justo. Vivamus semper justo sed dictum aliquam.",
-    "price": "0.49",
+    "description": "Vivamus pharetra sapien at sem ultrices semper. Praesent pretium justo at neque egestas mattis. Duis rhoncus ipsum ac sapien consequat fringilla. Donec ac purus sed justo egestas ultricies. Praesent bibendum mi et augue lacinia auctor. Pellentesque bibendum quam finibus placerat volutpat.",
+    "price": 0.49,
     "unit": "piece",
-    "costPerUnit": "0.49",
-    "unitsOnHand": 104
+    "costPerUnit": 0.441,
+    "unitsOnHand": 586
 });
 db.products.insertOne(
 {
@@ -281,11 +281,11 @@ db.products.insertOne(
     "skuNumber": "STAR464",
     "category": "donut",
     "title": "Star And Sprinkles Donut",
-    "description": "Praesent hendrerit tellus eget nibh lobortis, ut scelerisque mi mattis. Cras sit amet eros congue, rhoncus sem sed, consequat arcu. In a magna pretium, laoreet neque eget, consectetur justo.",
-    "price": "0.59",
+    "description": "Vivamus pharetra sapien at sem ultrices semper. Praesent pretium justo at neque egestas mattis.",
+    "price": 0.59,
     "unit": "item",
-    "costPerUnit": "0.59",
-    "unitsOnHand": 646
+    "costPerUnit": 0.531,
+    "unitsOnHand": 837
 });
 db.products.insertOne(
 {
@@ -294,11 +294,11 @@ db.products.insertOne(
     "skuNumber": "TORT167",
     "category": "cake",
     "title": "Torta Cake",
-    "description": "Maecenas interdum ex id venenatis luctus. Nam gravida libero ac malesuada cursus.",
-    "price": "12.99",
+    "description": "Nam gravida libero ac malesuada cursus. Ut quis massa sit amet enim faucibus suscipit ac viverra elit.",
+    "price": 12.99,
     "unit": "box",
-    "costPerUnit": "12.99",
-    "unitsOnHand": 541
+    "costPerUnit": 11.691,
+    "unitsOnHand": 185
 });
 db.products.insertOne(
 {
@@ -307,11 +307,11 @@ db.products.insertOne(
     "skuNumber": "VALE270",
     "category": "chocolate",
     "title": "Valentines Day Chocolate Pack",
-    "description": "Cras sit amet eros congue, rhoncus sem sed, consequat arcu. In a magna pretium, laoreet neque eget, consectetur justo. Vivamus pharetra sapien at sem ultrices semper. Ut quis massa sit amet enim faucibus suscipit ac viverra elit. Maecenas eget lectus ultrices, porta eros a, blandit nisi. Duis rhoncus ipsum ac sapien consequat fringilla.",
-    "price": "19.99",
+    "description": "Vivamus semper justo sed dictum aliquam. Maecenas eget lectus ultrices, porta eros a, blandit nisi. Phasellus vel velit eget nibh porttitor feugiat id ac massa.",
+    "price": 19.99,
     "unit": "box",
-    "costPerUnit": "19.99",
-    "unitsOnHand": 293
+    "costPerUnit": 17.991,
+    "unitsOnHand": 158
 });
 db.products.insertOne(
 {
@@ -320,11 +320,11 @@ db.products.insertOne(
     "skuNumber": "WEDD173",
     "category": "cake",
     "title": "Wedding Cake",
-    "description": "Donec sed dui hendrerit nulla iaculis vestibulum. Quisque et magna malesuada, fermentum nisl sed, imperdiet nunc. Praesent hendrerit tellus eget nibh lobortis, ut scelerisque mi mattis. Morbi consectetur urna sit amet facilisis gravida. Cras sit amet eros congue, rhoncus sem sed, consequat arcu.",
-    "price": "49.99",
+    "description": "Cras sit amet eros congue, rhoncus sem sed, consequat arcu. Nam gravida libero ac malesuada cursus. Ut quis massa sit amet enim faucibus suscipit ac viverra elit.",
+    "price": 49.99,
     "unit": "item",
-    "costPerUnit": "49.99",
-    "unitsOnHand": 796
+    "costPerUnit": 44.991,
+    "unitsOnHand": 959
 });
 db.products.insertOne(
 {
@@ -333,9 +333,9 @@ db.products.insertOne(
     "skuNumber": "WHIT276",
     "category": "chocolate",
     "title": "White Chocolate Truffel",
-    "description": "Maecenas interdum ex id venenatis luctus. Vivamus semper justo sed dictum aliquam. Nullam quis tortor accumsan, sagittis sem in, porttitor orci. Donec ac purus sed justo egestas ultricies. Mauris interdum elit nec dolor volutpat, sit amet sollicitudin eros facilisis.",
-    "price": "3.49",
+    "description": "Maecenas interdum ex id venenatis luctus. Nam gravida libero ac malesuada cursus. Vivamus semper justo sed dictum aliquam. Praesent pretium justo at neque egestas mattis.",
+    "price": 3.49,
     "unit": "piece",
-    "costPerUnit": "3.49",
-    "unitsOnHand": 248
+    "costPerUnit": 3.1410000000000005,
+    "unitsOnHand": 341
 });

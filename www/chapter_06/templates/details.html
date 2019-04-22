@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+
+<head>
+	<title>Chap 6: Details</title>
+	<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+	<meta name="generator" content="Geany 1.32" />
+    <link href="css/styles.css" rel="stylesheet" type="text/css" media="all">
+    <style>
+    th {
+        font-family: Verdana, Arial, Helvetica, sans-serif;
+        font-size: 12pt;
+        font-weight: bold;
+        text-align: right;
+    }
+    td {
+        font-family: Verdana, Arial, Helvetica, sans-serif;
+        font-size: 12pt;
+        font-weight: normal;
+    }
+    p {
+        font-family: Verdana, Arial, Helvetica, sans-serif;
+        font-size: 12pt;
+        font-weight: normal;
+    }
+    </style>
+</head>
+
+<body>
+<div style="width: 60%;">
+    <h1>Welcome to Sweets Complete</h1>
+    <p>%message%</p>
+    <hr>	
+    <p>
+    <a href="/chapter_06/index.py">LOGIN</a> | 
+    <a href="/chapter_06/select.py">SELECT</a> | 
+    <a href="/chapter_06/purchase.py">RECENT</a>
+    </p>
+    <hr>
+    <h2>%title%</h2>
+    <table width="80%">
+    <tr>
+        <td align="top">%photo%</td>
+        <td align="top">
+            <table>
+                <tr><th>Product Key</th><td>&nbsp;</td><td>%productKey%</td></tr>
+                <tr><th>SKU Number</th><td>&nbsp;</td><td>%skuNumber%</td></tr>
+                <tr><th>Category</th><td>&nbsp;</td><td>%category%</td></tr>
+                <tr><th>Price</th><td>&nbsp;</td><td>%price%</td></tr>
+                <tr><th>Unit</th><td>&nbsp;</td><td>%unit%</td></tr>
+                <tr><th>On Hand</th><td>&nbsp;</td><td>%unitsOnHand%</td></tr>
+            </table>
+        </td>
+    </tr>
+    </table>
+    <p>%description%</p>
+    <hr>
+</div>
+</body>
+
+</html>

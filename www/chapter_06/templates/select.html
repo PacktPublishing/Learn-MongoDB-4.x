@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+
+<head>
+	<title>Chap 6: Select</title>
+	<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+	<meta name="generator" content="Geany 1.32" />
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.19/css/jquery.dataTables.css">
+    <link href="/css/styles.css" rel="stylesheet" type="text/css" media="all">
+</head>
+
+<body>
+
+<div class="container">
+<h1>Welcome to Sweets Complete</h1>
+<p>You are logged in as: %name%</p>
+<hr>
+<p>	
+<a href="/chapter_06/index.py">LOGIN</a> | 
+<a href="/chapter_06/purchase.py">RECENT</a> | 
+<a href="/chapter_06/history.py">HISTORY</a>
+</p>
+<hr>
+<form id="form_products" name="form_products" method="post" action="/chapter_06/purchase.py">
+    <p>Choose Product(s) to Purchase:</p>
+    <table id="data_table" class="display">
+        <thead>
+            <tr>
+                <th>Title</th>
+                <th>Price</th>
+                <th>Qty</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Row 1 Data 1</td>
+                <td>Row 2 Data 2</td>
+                <td>Row 3 Data 3</td>
+            </tr>
+        </tbody>
+    </table>        
+    <br><input type="submit" name="purchase" value="Purchase" />
+</form>
+<hr>
+<br><p>%message%</p>
+</div>
+
+<script type="text/javascript" charset="utf8" src="https://code.jquery.com/jquery-3.3.1.min.js"></script>  
+<script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.10.19/js/jquery.dataTables.js"></script>
+<script type="text/javascript" charset="utf8">
+$(document).ready( function () {
+    table = $('#data_table').dataTable({
+        'ajax'       : {'url':'%ajax_url%','type': 'GET'},
+        'pageLength' : 6,
+        'autoWidth'  : false
+    });
+});
+$('#form_products').on('submit', function(e){
+   var form = this;
+   // Encode a set of form elements from all pages as an array of names and values
+   var params = table.$('input').serializeArray();
+   // Iterate over all form elements
+   $.each(params, function(){
+    if(!$.contains(document, this)){
+        // Create a hidden element by adding it as a list item
+        $(form).append(
+            $('<input>')
+            .attr('type', 'hidden')
+            .attr('name', this.name)
+            .val(this.value)
+        );
+    }
+   });
+});
+</script>
+
+</body>
+
+</html>

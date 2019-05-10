@@ -1,0 +1,19 @@
+        {% load static %}
+		<section class="section transheader homepage parallax" data-stellar-background-ratio="0.5" style="background-color: #BFBFBF;">
+			<div class="container" style="margin-top: -100px;">
+				<div class="row">
+					<div class="col-md-4">
+						<h2>Book Someplace!</h2>
+						<p class="lead">Choose from over 1,000,000 listings worldwide!</p>
+					</div><!-- end col -->
+					<div class="col-md-8">
+                        <ul>
+                        {% for property in top_10 %}
+                            <li><b>{{ property.propName }}</b><br>{{ property.propInfo.description|truncatewords:"10" }}</li>
+                        {% endfor %}
+                        </ul>
+					</div><!-- end col -->
+				</div><!-- end row -->
+			</div><!-- end container -->
+		</section><!-- end section -->
+

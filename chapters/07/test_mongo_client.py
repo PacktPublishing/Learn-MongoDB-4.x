@@ -14,6 +14,5 @@ database   = 'learn'
 client     = MongoClient(host, port, Study)
 db         = client[database]
 
-for doc in db.study.find() :
-    print(doc.getName())
+for doc in db.study.find() : print(doc.getName())
 

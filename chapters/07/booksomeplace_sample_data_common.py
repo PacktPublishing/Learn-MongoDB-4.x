@@ -19,7 +19,7 @@ common = [
     { "title"        : ['Mr','Ms','Dr'] },
     { "phoneType"    : ['home', 'work', 'mobile', 'fax'] },
     { "socMediaType" : ['google','twitter','facebook','skype','line','linkedin'] },
-    { "genderType"   : [{'M' : 'Male'},{'F' : 'Female'},{'X' : 'Other'}] },
+    { "genderType"   : ['male','female','other'] },
     { "propertyType" : ['hotel','motel','inn','guest house','hostel','resort','serviced apartment','condo','b & b','lodge'] },
     { "facilityType" : ['outdoor pool','indoor pool','free parking','WiFi','fitness center','business center','pharmacy','sauna','jacuzzi','buffet breakfast'] },
     { "chain"        : ['Accor','Hyatt','Hilton'] },

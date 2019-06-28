@@ -1,0 +1,123 @@
+{% load static %}
+<style>
+    .check_horizontal {
+        list-style: none;
+        display: inline-flex;
+        margin-left: -40px;
+    }
+    li label,input {
+        display:block;
+        margin-right: 20px;
+    }
+    .extra {
+        padding-bottom: 20px;
+    }
+</style>
+<section class="section transheader homepage parallax" data-stellar-background-ratio="0.5" style="background-color: #E5E5E5;">
+    <div class="container" style="margin-top: -100px;">
+        <form method="post">
+        {% if not confirm %}
+        <div class="row extra" style="background-color: #C8C8EE;">
+            <h1>Choose Partner and Property to Delete</h1>
+            <div class="col-md-4">
+                {{ choose_part_form }}
+            </div><!-- end col -->
+            <div class="col-md-4">
+                <label>Property:</label>
+                <select name="prop_propertyKey" id="ddlProperties" >
+                    <option value="0">Choose Partner First</option>
+                </select>
+            </div><!-- end col -->
+            <div class="col-md-4">
+                <input type="submit" name="del_confirm_choose" value="Choose" />
+            </div><!-- end col -->
+        </div><!-- end row -->
+        {% else %}
+        <div class="row extra" style="background-color: #FDEEEC;">
+            <h1>Confirm Deletion</h1>
+            <div class="col-md-6">
+                <div class="row extra">
+                    <div class="col-md-2"><b>Name</b></div>
+                    <div class="col-md-4">{{ prop_name }}</div>
+                </div><!-- end row -->
+                <div class="row extra">
+                    <div class="col-md-2"><b>Type</b></div>
+                    <div class="col-md-4">{{ prop_type }}</div>
+                </div><!-- end row -->
+                <div class="row extra">
+                    <div class="col-md-2"><b>Description</b></div>
+                    <div class="col-md-4">{{ prop_des }}</div>
+                </div><!-- end row -->
+                <div class="row extra">
+                    <div class="col-md-4"><b>DELETE?</b></div>
+                    <div class="col-md-2">
+                        <input type="submit" name="del_confirm_yes" value="Yes" />
+                    </div>
+                    <div class="col-md-2">
+                        <input type="submit" name="del_confirm_no" value="No" />
+                        <input type="hidden" name="prop_key" value="{{ prop_key }}" />
+                    </div>
+                </div><!-- end row -->
+            </div>
+            <div class="col-md-6">
+                <img src="{% static 'images/hotel_korat_jun_2019.jpg' %}" style="width:100%;"/>
+            </div>
+        </div>
+        {% endif %}
+        <div class="row">
+            <div class="col-md-12">
+            {{ message }}
+            </div>
+        </div><!-- end row -->
+        </form>
+    </div><!-- end container -->
+</section><!-- end section -->
+
+{% block extra_head %}
+<script type="text/javascript" charset="utf8" src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+{% endblock %}
+<script type="text/javascript" charset="utf8">
+$(document).ready(function() {
+    $("#id_prop_partnerKey").change(function() {
+        var partKey = $(this).val();
+        console.log( "partner key: " + partKey );
+        $("#ddlProperties").empty();
+        $.ajax({
+            type: "GET",
+            url: "/property/json/by_part/" + partKey + "/",
+            dataType: 'json',
+            success: function(data){
+                // Parse the returned json data
+                $.each(data, function(i, d) {
+                    $("#ddlProperties").append(
+                        '<option value="' + d.propertyKey + '">'
+                        + d.propName
+                        + '</option>');
+                });
+            }
+        });
+    });
+    $("#ddlProperties").change(function() {
+        var propKey = $(this).val();
+        console.log( "property key: " + propKey );
+        $.ajax({
+            type: "GET",
+            url: "/property/json/update_contact/" + propKey + "/",
+            dataType: 'json',
+            success: function(data){
+                $("#id_name_title").val(data['contactName']['title']);
+                $("#id_name_first").val(data['contactName']['first']);
+                $("#id_name_last").val(data['contactName']['last']);
+                $("#id_name_suffix").val(data['contactName']['suffix']);
+                $("#id_contact_email").val(data['contactInfo']['email']);
+                $("#id_contact_phone").val(data['contactInfo']['phone']);
+                var socMedia = data['contactInfo']['socMedia'];
+                for (var k in socMedia) {
+                    $("#id_contact_soc_type").val(k);
+                    $("#id_contact_soc_addr").val(socMedia[k]);
+                }
+            }
+        });
+    });
+});
+</script>

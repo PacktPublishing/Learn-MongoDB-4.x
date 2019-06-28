@@ -3,1102 +3,3362 @@ db = conn.getDB("booksomeplace");
 db.customers.drop();
 db.customers.insertOne(
 {
-    "customerKey": "GERTHUNT0519",
+    "customerKey": "KERRBURN1854",
     "name": {
-        "title": "Ms",
-        "first": "Gertrud",
-        "middle": "X",
+        "title": "Mr",
+        "first": "Kerry",
+        "middle": "W",
+        "last": "Burns",
+        "suffix": null
+    },
+    "address": {
+        "streetAddress": "5125 Winding Stream Avenue",
+        "buildingName": null,
+        "floor": null,
+        "roomAptCondoFlat": null,
+        "city": "Yennora",
+        "stateProvince": "NSW",
+        "locality": "BANKSTOWN",
+        "country": "AU",
+        "postalCode": "2161",
+        "latitude": "-33.8617",
+        "longitude": "150.9686"
+    },
+    "contact": {
+        "email": "kburns100@telefonica.com",
+        "phone": "+61-100-172-1854",
+        "socMedia": {
+            "line": "kburns100@telefonica.com@line.com"
+        }
+    },
+    "login": {
+        "username": "kburns",
+        "oauth2": "kburns@line.com",
+        "password": "$2y$10$X0O34hxHtxn93xBVFoumJ.JHUE0G1j9sL47Y.9XWNdFuLKi73YDJ6"
+    },
+    "otherContact": {
+        "emails": [
+            "kburns100@oi.com",
+            "kburns100@rogers.com",
+            "kburns100@telus.com"
+        ],
+        "phoneNumbers": [
+            "+61-100-666-6836",
+            "+61-100-720-8837",
+            "+61-100-345-7082"
+        ],
+        "socMedias": [
+            {
+                "skype": "kburns100@oi.com@skype.com"
+            },
+            {
+                "line": "kburns100@rogers.com@line.com"
+            },
+            {
+                "twitter": "kburns100@telus.com@twitter.com"
+            }
+        ]
+    },
+    "otherInfo": {
+        "gender": "M",
+        "dateOfBirth": "1979-05-22"
+    },
+    "totalBooked": 8,
+    "discount": 0
+});
+db.customers.insertOne(
+{
+    "customerKey": "SANFHUNT1663",
+    "name": {
+        "title": "Mr",
+        "first": "Sanford",
+        "middle": "T",
         "last": "Hunt",
         "suffix": null
     },
     "address": {
-        "streetAddress": "9282 Little Bend Avenue",
+        "streetAddress": "7686 Blue Ridge Way",
         "buildingName": null,
         "floor": null,
         "roomAptCondoFlat": null,
-        "city": "Nokomis",
-        "stateProvince": "IL",
-        "locality": "Montgomery",
-        "country": "US",
-        "postalCode": "62075",
-        "latitude": "39.3036",
-        "longitude": "-89.2853"
+        "city": "Lodra",
+        "stateProvince": "Hyderabad",
+        "locality": "Hyderabad",
+        "country": "PK",
+        "postalCode": "78101",
+        "latitude": "28.0167",
+        "longitude": "68.6333"
     },
     "contact": {
-        "phone": "+1-100-858-0519",
-        "email": "ghunt100@movil.com",
+        "email": "shunt101@worldnet.com",
+        "phone": "+61-101-446-1663",
         "socMedia": {
-            "facebook": "ghunt@facebook.com"
+            "linkedin": "shunt101@worldnet.com@linkedin.com"
         }
     },
     "login": {
-        "username": "ghunt",
-        "oauth2": "ghunt@facebook.com",
-        "password": "$2y$10$0JmGh9FM7S7oGGS\/0SbL2u4e0ZuIdgu6AnlKbilRq.zSmoWt50nG6"
+        "username": "shunt",
+        "oauth2": "shunt@linkedin.com",
+        "password": "$2y$10$mElJeNlZXfKD6j6re.PgC.ORfp8jpD7rTRsvY0lYOH9ZBkvgNSswe"
     },
     "otherContact": {
         "emails": [
-            "ghunt@worldnet.net",
-            "ghunt@netcom.net",
-            "ghunt@econnect.net"
+            "shunt101@telecomitalia.com",
+            "shunt101@rogers.com",
+            "shunt101@jio.com"
         ],
-        "phoneNumbers": [],
-        "socMedias": {
-            "twitter": "ghunt@twitter.com",
-            "facebook": "ghunt@facebook.com"
+        "phoneNumbers": [
+            "+61-101-536-1017",
+            "+61-101-792-2427",
+            "+61-101-598-0001"
+        ],
+        "socMedias": [
+            {
+                "google": "shunt101@telecomitalia.com@google.com"
+            },
+            {
+                "skype": "shunt101@rogers.com@skype.com"
+            },
+            {
+                "linkedin": "shunt101@jio.com@linkedin.com"
+            }
+        ]
+    },
+    "otherInfo": {
+        "gender": "M",
+        "dateOfBirth": "1996-02-23"
+    },
+    "totalBooked": 17,
+    "discount": 0
+});
+db.customers.insertOne(
+{
+    "customerKey": "STANKHAN1771",
+    "name": {
+        "title": null,
+        "first": "Stanford",
+        "middle": null,
+        "last": "Khan",
+        "suffix": null
+    },
+    "address": {
+        "streetAddress": "5638 Red Gulch Road",
+        "buildingName": null,
+        "floor": null,
+        "roomAptCondoFlat": "42",
+        "city": "Burnt Hills",
+        "stateProvince": "NY",
+        "locality": "Saratoga",
+        "country": "US",
+        "postalCode": "12027",
+        "latitude": "42.9329",
+        "longitude": "-73.896"
+    },
+    "contact": {
+        "email": "skhan102@softbank.com",
+        "phone": "+61-102-414-1771",
+        "socMedia": []
+    },
+    "login": {
+        "username": "skhan",
+        "oauth2": null,
+        "password": "$2y$10$nASAxvNZr1GlFWihFbwRtOGdd46IwOZClkAadniLA6zI2Hf2HqWcS"
+    },
+    "otherContact": {
+        "emails": [
+            "skhan102@access.com",
+            "skhan102@vivendi.com"
+        ],
+        "phoneNumbers": [
+            "+61-102-795-0863",
+            "+61-102-113-0477"
+        ]
+    },
+    "otherInfo": {
+        "gender": "M",
+        "dateOfBirth": "1973-07-07"
+    },
+    "totalBooked": 28,
+    "discount": 0.085
+});
+db.customers.insertOne(
+{
+    "customerKey": "DEXTKNAP5125",
+    "name": {
+        "title": "Mr",
+        "first": "Dexter",
+        "middle": "V",
+        "last": "Knapp",
+        "suffix": null
+    },
+    "address": {
+        "streetAddress": "1106 Winding Gully Boulevard",
+        "buildingName": null,
+        "floor": null,
+        "roomAptCondoFlat": null,
+        "city": "Srn\u00edn",
+        "stateProvince": "\u010cesk\u00fd Krumlov",
+        "locality": "\u010cesk\u00fd Krumlov",
+        "country": "CZ",
+        "postalCode": "381 01",
+        "latitude": "48.85",
+        "longitude": "14.35"
+    },
+    "contact": {
+        "email": "dknapp103@ccs.com",
+        "phone": "+61-103-321-5125",
+        "socMedia": {
+            "skype": "dknapp103@ccs.com@skype.com"
         }
+    },
+    "login": {
+        "username": "dknapp",
+        "oauth2": "dknapp@skype.com",
+        "password": "$2y$10$Rzt7Ltq4VTHQNzxbrYV5AuSufWgEEtjQtejvvQeyfCnJFPOGrst1a"
+    },
+    "otherContact": {
+        "emails": [
+            "dknapp103@telstra.com"
+        ],
+        "phoneNumbers": [
+            "+61-103-432-1948"
+        ],
+        "socMedias": [
+            {
+                "linkedin": "dknapp103@telstra.com@linkedin.com"
+            }
+        ]
+    },
+    "otherInfo": {
+        "gender": "M",
+        "dateOfBirth": "1987-09-24"
+    },
+    "totalBooked": 18,
+    "discount": 0
+});
+db.customers.insertOne(
+{
+    "customerKey": "TIMMHOLL2091",
+    "name": {
+        "title": "Mr",
+        "first": "Timmy",
+        "middle": "W",
+        "last": "Holloway",
+        "suffix": null
+    },
+    "address": {
+        "streetAddress": "7125 Green Mound Boulevard",
+        "buildingName": "Building C1",
+        "floor": null,
+        "roomAptCondoFlat": null,
+        "city": "Lexington",
+        "stateProvince": "KY",
+        "locality": "Fayette",
+        "country": "US",
+        "postalCode": "40581",
+        "latitude": "38.0283",
+        "longitude": "-84.4715"
+    },
+    "contact": {
+        "email": "thollowa104@ktc.com",
+        "phone": "+61-104-940-2091",
+        "socMedia": {
+            "linkedin": "thollowa104@ktc.com@linkedin.com"
+        }
+    },
+    "login": {
+        "username": "thollowa",
+        "oauth2": "thollowa@linkedin.com",
+        "password": "$2y$10$WNVED1wnyK\/Ih4vhbyH\/hO0RdQ\/AmgD5nvBl8HnneAxsp3RrpKlWO"
+    },
+    "otherContact": {
+        "emails": [
+            "thollowa104@unicom.com",
+            "thollowa104@ptcl.com",
+            "thollowa104@sprint.com"
+        ],
+        "phoneNumbers": [
+            "+61-104-379-0350",
+            "+61-104-860-0439",
+            "+61-104-242-4454"
+        ],
+        "socMedias": [
+            {
+                "skype": "thollowa104@unicom.com@skype.com"
+            },
+            {
+                "linkedin": "thollowa104@ptcl.com@linkedin.com"
+            },
+            {
+                "google": "thollowa104@sprint.com@google.com"
+            }
+        ]
+    },
+    "otherInfo": {
+        "gender": "M",
+        "dateOfBirth": "2000-07-18"
+    },
+    "totalBooked": 18,
+    "discount": 0
+});
+db.customers.insertOne(
+{
+    "customerKey": "DERRHOUS7679",
+    "name": {
+        "title": null,
+        "first": "Derrick",
+        "middle": null,
+        "last": "House",
+        "suffix": null
+    },
+    "address": {
+        "streetAddress": "2658 Long Ditch Circle",
+        "buildingName": null,
+        "floor": null,
+        "roomAptCondoFlat": null,
+        "city": "Bj\u00f8rn\u00f8ya",
+        "stateProvince": "Bj\u00f8rn\u00f8ya",
+        "locality": "Bj\u00f8rn\u00f8ya",
+        "country": "SJ",
+        "postalCode": "9176",
+        "latitude": "74.4435",
+        "longitude": "19.0063"
+    },
+    "contact": {
+        "email": "dhouse105@millicom.com",
+        "phone": "+61-105-624-7679",
+        "socMedia": []
+    },
+    "login": {
+        "username": "dhouse",
+        "oauth2": null,
+        "password": "$2y$10$Sz1eNlFZhrXSClZkMcgqye45NxHlYUcCQJO0nvl4PHgG\/Hksv9WSy"
+    },
+    "otherContact": [],
+    "otherInfo": {
+        "gender": "M",
+        "dateOfBirth": "1976-10-28"
+    },
+    "totalBooked": 31,
+    "discount": 0.10300000000000001
+});
+db.customers.insertOne(
+{
+    "customerKey": "SUZYMEYE4654",
+    "name": {
+        "title": "Ms",
+        "first": "Suzy",
+        "middle": "O",
+        "last": "Meyers",
+        "suffix": null
+    },
+    "address": {
+        "streetAddress": "8275 Winding Hill Avenue",
+        "buildingName": null,
+        "floor": null,
+        "roomAptCondoFlat": null,
+        "city": "Khandapadagarh",
+        "stateProvince": "Khandaparagarh",
+        "locality": "Nayagarh",
+        "country": "IN",
+        "postalCode": "752077",
+        "latitude": "19.9692",
+        "longitude": "84.7787"
+    },
+    "contact": {
+        "email": "smeyers106@turkcell.com",
+        "phone": "+61-106-825-4654",
+        "socMedia": {
+            "line": "smeyers106@turkcell.com@line.com"
+        }
+    },
+    "login": {
+        "username": "smeyers",
+        "oauth2": "smeyers@line.com",
+        "password": "$2y$10$iBAs6dNjovKyXuEoC8SBI.0QFeBprjoYsEj.Qf0r65OIFRCtuENL2"
+    },
+    "otherContact": [],
+    "otherInfo": {
+        "gender": "F",
+        "dateOfBirth": "1992-01-04"
+    },
+    "totalBooked": 11,
+    "discount": 0
+});
+db.customers.insertOne(
+{
+    "customerKey": "LANIMEND5958",
+    "name": {
+        "title": "Ms",
+        "first": "Lanita",
+        "middle": "V",
+        "last": "Mendoza",
+        "suffix": null
+    },
+    "address": {
+        "streetAddress": "9236 Red Hill Circle",
+        "buildingName": null,
+        "floor": null,
+        "roomAptCondoFlat": null,
+        "city": "Vale de A\u00e7or",
+        "stateProvince": "Vale De A\u00e7or",
+        "locality": "Ponte de Sor",
+        "country": "PT",
+        "postalCode": "7400-527",
+        "latitude": "39.2492",
+        "longitude": "-7.9239"
+    },
+    "contact": {
+        "email": "lmendoza107@telecom.com",
+        "phone": "+61-107-729-5958",
+        "socMedia": {
+            "google": "lmendoza107@telecom.com@google.com"
+        }
+    },
+    "login": {
+        "username": "lmendoza",
+        "oauth2": "lmendoza@google.com",
+        "password": "$2y$10$R0ZB1fH\/\/8EI8d5kNbsuF.RoqxPPCevK5hhIXZ3\/zKYDyhfwmwXAC"
+    },
+    "otherContact": [],
+    "otherInfo": {
+        "gender": "F",
+        "dateOfBirth": "1991-03-01"
+    },
+    "totalBooked": 19,
+    "discount": 0
+});
+db.customers.insertOne(
+{
+    "customerKey": "TIFFAUST9772",
+    "name": {
+        "title": null,
+        "first": "Tiffani",
+        "middle": null,
+        "last": "Austin",
+        "suffix": null
+    },
+    "address": {
+        "streetAddress": "9073 Big Ridge Street",
+        "buildingName": null,
+        "floor": 10,
+        "roomAptCondoFlat": "DE",
+        "city": "Dickleburgh",
+        "stateProvince": "England",
+        "locality": "Norfolk",
+        "country": "GB",
+        "postalCode": "IP21",
+        "latitude": "52.3965",
+        "longitude": "1.185"
+    },
+    "contact": {
+        "email": "taustin108@econnect.com",
+        "phone": "+61-108-166-9772",
+        "socMedia": []
+    },
+    "login": {
+        "username": "taustin",
+        "oauth2": null,
+        "password": "$2y$10$naT0EOpqfpCvTpgj9i..KuZCmBXPNCgy1qXYpI88sV6q1SegXGFqa"
+    },
+    "otherContact": {
+        "emails": [
+            "taustin108@etisalat.com",
+            "taustin108@lookdata.com",
+            "taustin108@bt.com"
+        ],
+        "phoneNumbers": [
+            "+61-108-668-2844",
+            "+61-108-772-8220",
+            "+61-108-821-5146"
+        ]
     },
     "otherInfo": {
         "gender": "F",
-        "dateOfBirth": "1979-06-20"
-    }
+        "dateOfBirth": "1938-02-07"
+    },
+    "totalBooked": 21,
+    "discount": 0.056
 });
 db.customers.insertOne(
 {
-    "customerKey": "DEMAHARD2714",
+    "customerKey": "SILASCHR5829",
     "name": {
         "title": "Mr",
-        "first": "Demarcus",
+        "first": "Silas",
         "middle": "I",
-        "last": "Harding",
+        "last": "Schroeder",
         "suffix": null
     },
     "address": {
-        "streetAddress": "6439 Little Ditch Road",
-        "buildingName": "Building E8",
-        "floor": null,
-        "roomAptCondoFlat": null,
-        "city": "Escaldes-Engordany",
-        "stateProvince": null,
-        "locality": null,
-        "country": "AD",
-        "postalCode": "AD700",
-        "latitude": "42.5",
-        "longitude": "1.5667"
-    },
-    "contact": {
-        "phone": "+376-101-597-2714",
-        "email": "dharding101@etisalat.com",
-        "socMedia": null
-    },
-    "login": {
-        "username": "dharding",
-        "oauth2": null,
-        "password": "$2y$10$K4ZXNIrHXceVbMFKN0Qd1uF3C3U9i.gPcoyY.qy1muFn2QSWEnb6O"
-    },
-    "otherContact": {
-        "emails": [
-            "dharding@tm.net",
-            "dharding@tata.net"
-        ],
-        "phoneNumbers": [
-            "+376-774-492-2271",
-            "+376-491-597-7493"
-        ],
-        "socMedias": []
-    },
-    "otherInfo": {
-        "gender": "M",
-        "dateOfBirth": "1966-01-03"
-    }
-});
-db.customers.insertOne(
-{
-    "customerKey": "OLENHARR2380",
-    "name": {
-        "title": null,
-        "first": "Olen",
-        "middle": null,
-        "last": "Harris",
-        "suffix": null
-    },
-    "address": {
-        "streetAddress": "2776 Red Bough Street",
+        "streetAddress": "4958 Little Stream Street",
         "buildingName": null,
         "floor": null,
         "roomAptCondoFlat": null,
-        "city": "Ottawa (Centre Town)",
-        "stateProvince": "ON",
-        "locality": "Ottawa",
-        "country": "CA",
-        "postalCode": "K2P",
-        "latitude": "45.4166",
-        "longitude": "-75.6904"
+        "city": "Karlskrona",
+        "stateProvince": "K",
+        "locality": "Karlskrona",
+        "country": "SE",
+        "postalCode": "371 87",
+        "latitude": "56.1616",
+        "longitude": "15.5866"
     },
     "contact": {
-        "phone": "+1-102-414-2380",
-        "email": "oharris102@pldt.com",
-        "socMedia": null
+        "email": "sschroed109@tata.com",
+        "phone": "+61-109-110-5829",
+        "socMedia": {
+            "skype": "sschroed109@tata.com@skype.com"
+        }
     },
     "login": {
-        "username": "oharris",
-        "oauth2": null,
-        "password": "$2y$10$d6Jrj5gOOL0uZ2ErbQSc7eFVrgWMKsor63D.arHjqSKkqCMtGHC8O"
+        "username": "sschroed",
+        "oauth2": "sschroed@skype.com",
+        "password": "$2y$10$Ty8sO1M18M61wealePqCAOyEUbb1Rh8m6bQ0PXK4iJc02MPGTEs52"
     },
     "otherContact": {
         "emails": [
-            "oharris@tata.net"
+            "sschroed109@vimpelcom.com"
         ],
         "phoneNumbers": [
-            "+1-710-855-2373"
+            "+61-109-990-7427"
         ],
-        "socMedias": []
+        "socMedias": [
+            {
+                "linkedin": "sschroed109@vimpelcom.com@linkedin.com"
+            }
+        ]
     },
     "otherInfo": {
         "gender": "M",
-        "dateOfBirth": "1990-03-02"
-    }
+        "dateOfBirth": "1956-02-09"
+    },
+    "totalBooked": 19,
+    "discount": 0
 });
 db.customers.insertOne(
 {
-    "customerKey": "SHILWALK6835",
+    "customerKey": "LYDITANG1086",
     "name": {
         "title": "Ms",
-        "first": "Shiloh",
-        "middle": "X",
+        "first": "Lydia",
+        "middle": "Z",
+        "last": "Tang",
+        "suffix": null
+    },
+    "address": {
+        "streetAddress": "6631 Short Mountain Circle",
+        "buildingName": null,
+        "floor": null,
+        "roomAptCondoFlat": null,
+        "city": "Koorathangudi",
+        "stateProvince": "Kilvelur",
+        "locality": "Nagapattinam",
+        "country": "IN",
+        "postalCode": "610207",
+        "latitude": "11.1998",
+        "longitude": "78.1872"
+    },
+    "contact": {
+        "email": "ltang110@telecom.com",
+        "phone": "+61-110-880-1086",
+        "socMedia": {
+            "facebook": "ltang110@telecom.com@facebook.com"
+        }
+    },
+    "login": {
+        "username": "ltang",
+        "oauth2": "ltang@facebook.com",
+        "password": "$2y$10$IRlT2WuZa4j1L9AgJpjqOOpgjQxcGIijeIfdHbqG.GJ58yVH5LXQS"
+    },
+    "otherContact": {
+        "emails": [
+            "ltang110@cci.com"
+        ],
+        "phoneNumbers": [
+            "+61-110-934-5921"
+        ],
+        "socMedias": [
+            {
+                "facebook": "ltang110@cci.com@facebook.com"
+            }
+        ]
+    },
+    "otherInfo": {
+        "gender": "F",
+        "dateOfBirth": "2002-01-22"
+    },
+    "totalBooked": 12,
+    "discount": 0
+});
+db.customers.insertOne(
+{
+    "customerKey": "RUFUMCCO4302",
+    "name": {
+        "title": null,
+        "first": "Rufus",
+        "middle": null,
+        "last": "Mcconnell",
+        "suffix": null
+    },
+    "address": {
+        "streetAddress": "9792 Blue Mountain Street",
+        "buildingName": null,
+        "floor": null,
+        "roomAptCondoFlat": null,
+        "city": "Paso De La Calera",
+        "stateProvince": "Rivera",
+        "locality": "Rivera",
+        "country": "UY",
+        "postalCode": "40100",
+        "latitude": "-31.974",
+        "longitude": "-55.8724"
+    },
+    "contact": {
+        "email": "rmcconne111@telesystems.com",
+        "phone": "+61-111-936-4302",
+        "socMedia": []
+    },
+    "login": {
+        "username": "rmcconne",
+        "oauth2": null,
+        "password": "$2y$10$9b6LecptaozS4.SOy65xT.JJyNt2ULNRv42kUQoZbJha1Umceyasq"
+    },
+    "otherContact": {
+        "emails": [
+            "rmcconne111@vivendi.com",
+            "rmcconne111@oi.com"
+        ],
+        "phoneNumbers": [
+            "+61-111-986-6323",
+            "+61-111-347-1451"
+        ]
+    },
+    "otherInfo": {
+        "gender": "M",
+        "dateOfBirth": "1966-08-10"
+    },
+    "totalBooked": 31,
+    "discount": 0.085
+});
+db.customers.insertOne(
+{
+    "customerKey": "ALTOBENN7130",
+    "name": {
+        "title": "Mr",
+        "first": "Alton",
+        "middle": "P",
+        "last": "Bennett",
+        "suffix": null
+    },
+    "address": {
+        "streetAddress": "4104 Little Ditch Street",
+        "buildingName": null,
+        "floor": null,
+        "roomAptCondoFlat": null,
+        "city": "Gopaljew Sugo",
+        "stateProvince": "Basudevpur",
+        "locality": "Bhadrak",
+        "country": "IN",
+        "postalCode": "756124",
+        "latitude": "20.694",
+        "longitude": "86.125"
+    },
+    "contact": {
+        "email": "abennett112@ooredoo.com",
+        "phone": "+61-112-637-7130",
+        "socMedia": {
+            "google": "abennett112@ooredoo.com@google.com"
+        }
+    },
+    "login": {
+        "username": "abennett",
+        "oauth2": "abennett@google.com",
+        "password": "$2y$10$.avr.fdOKk7jDOyHpUS6VODLqNl73WkGOPgqVKe21brp4WXc5.sKG"
+    },
+    "otherContact": {
+        "emails": [
+            "abennett112@apicnet.com",
+            "abennett112@glasnet.com",
+            "abennett112@access.com"
+        ],
+        "phoneNumbers": [
+            "+61-112-150-9282",
+            "+61-112-136-0915",
+            "+61-112-375-3127"
+        ],
+        "socMedias": [
+            {
+                "linkedin": "abennett112@apicnet.com@linkedin.com"
+            },
+            {
+                "facebook": "abennett112@glasnet.com@facebook.com"
+            },
+            {
+                "line": "abennett112@access.com@line.com"
+            }
+        ]
+    },
+    "otherInfo": {
+        "gender": "M",
+        "dateOfBirth": "2000-02-09"
+    },
+    "totalBooked": 27,
+    "discount": 0.023
+});
+db.customers.insertOne(
+{
+    "customerKey": "OLLIWALK4759",
+    "name": {
+        "title": "Mr",
+        "first": "Ollie",
+        "middle": "Y",
         "last": "Walker",
         "suffix": null
     },
     "address": {
-        "streetAddress": "6995 Short Stream Road",
+        "streetAddress": "7054 Big Woods Drive",
         "buildingName": null,
         "floor": null,
         "roomAptCondoFlat": null,
-        "city": "Green Creek",
-        "stateProvince": "NSW",
-        "locality": "New South Wales",
-        "country": "AU",
-        "postalCode": "2338",
-        "latitude": "-31.7744",
-        "longitude": "150.9006"
+        "city": "Chiconi",
+        "stateProvince": "Chiconi",
+        "locality": "Chiconi",
+        "country": "YT",
+        "postalCode": "97670",
+        "latitude": "-12.8333",
+        "longitude": "45.1106"
     },
     "contact": {
-        "phone": "+61-104-676-6835",
-        "email": "swalker104@tm.com",
-        "socMedia": null
-    },
-    "login": {
-        "username": "swalker",
-        "oauth2": null,
-        "password": "$2y$10$jlZV19l6tYH8Nfk2DagF1e3emVeKg9Ge8N7zAR9dEMzQdnnDUtAzy"
-    },
-    "otherContact": {
-        "emails": [
-            "swalker@oi.net"
-        ],
-        "phoneNumbers": [],
-        "socMedias": []
-    },
-    "otherInfo": {
-        "gender": "F",
-        "dateOfBirth": "1991-01-10"
-    }
-});
-db.customers.insertOne(
-{
-    "customerKey": "HAICLAR5059",
-    "name": {
-        "title": null,
-        "first": "Hai",
-        "middle": null,
-        "last": "Clarke",
-        "suffix": null
-    },
-    "address": {
-        "streetAddress": "568 Short Gulch Ride",
-        "buildingName": null,
-        "floor": null,
-        "roomAptCondoFlat": null,
-        "city": "Casal das Pend\u00eancias",
-        "stateProvince": "Dois Portos",
-        "locality": "Torres Vedras",
-        "country": "PT",
-        "postalCode": "2565-189",
-        "latitude": "39.0486",
-        "longitude": "-9.1879"
-    },
-    "contact": {
-        "phone": "+351-105-722-5059",
-        "email": "hclarke105@oi.com",
-        "socMedia": null
-    },
-    "login": {
-        "username": "hclarke",
-        "oauth2": null,
-        "password": "$2y$10$l5DznzIrULnTjTq.Cu0YMOj2ybJ3BhEX2H1948QYpnT.T7eKS50Se"
-    },
-    "otherContact": {
-        "emails": [],
-        "phoneNumbers": [
-            "+351-876-047-4488",
-            "+351-489-038-8712"
-        ],
-        "socMedias": []
-    },
-    "otherInfo": {
-        "gender": "M",
-        "dateOfBirth": "1969-07-04"
-    }
-});
-db.customers.insertOne(
-{
-    "customerKey": "TAIREEV0399",
-    "name": {
-        "title": "Ms",
-        "first": "Tai",
-        "middle": "S",
-        "last": "Reeves",
-        "suffix": null
-    },
-    "address": {
-        "streetAddress": "677 Red Ridge Boulevard",
-        "buildingName": "Building 2C",
-        "floor": null,
-        "roomAptCondoFlat": null,
-        "city": "Ballyaurgan",
-        "stateProvince": "Scotland",
-        "locality": "Argyll and Bute",
-        "country": "GB",
-        "postalCode": "PA31",
-        "latitude": "56.148",
-        "longitude": "-5.4391"
-    },
-    "contact": {
-        "phone": "+44-106-593-0399",
-        "email": "treeves106@belgacom.com",
-        "socMedia": null
-    },
-    "login": {
-        "username": "treeves",
-        "oauth2": null,
-        "password": "$2y$10$2C78Kq0VpgrK4ic0ZgnKOunSJJvxyL66Mqvpiwq9iO73drzt7FP8u"
-    },
-    "otherContact": {
-        "emails": [
-            "treeves@att.net",
-            "treeves@vivendi.net"
-        ],
-        "phoneNumbers": [
-            "+44-365-268-5761",
-            "+44-623-876-7878"
-        ],
-        "socMedias": []
-    },
-    "otherInfo": {
-        "gender": "F",
-        "dateOfBirth": "1937-02-12"
-    }
-});
-db.customers.insertOne(
-{
-    "customerKey": "EMMEVELA0942",
-    "name": {
-        "title": "Mr",
-        "first": "Emmett",
-        "middle": "L",
-        "last": "Velasquez",
-        "suffix": null
-    },
-    "address": {
-        "streetAddress": "9401 Short Mound Street",
-        "buildingName": null,
-        "floor": null,
-        "roomAptCondoFlat": null,
-        "city": "F\u00f6gl\u00f6",
-        "stateProvince": "F\u00f6gl\u00f6",
-        "locality": "F\u00f6gl\u00f6",
-        "country": "AX",
-        "postalCode": "22710",
-        "latitude": "60.0316",
-        "longitude": "20.4605"
-    },
-    "contact": {
-        "phone": "+35818-107-112-0942",
-        "email": "evelasqu107@telenor.com",
-        "socMedia": null
-    },
-    "login": {
-        "username": "evelasqu",
-        "oauth2": null,
-        "password": "$2y$10$FFZKr\/qUkpHSOSh5DVcvDeWrg\/dg44DOOUD12YcLlHMAiypfjFY8q"
-    },
-    "otherContact": {
-        "emails": [
-            "evelasqu@telstra.net"
-        ],
-        "phoneNumbers": [
-            "+35818-432-404-4743"
-        ],
-        "socMedias": []
-    },
-    "otherInfo": {
-        "gender": "M",
-        "dateOfBirth": "1971-12-01"
-    }
-});
-db.customers.insertOne(
-{
-    "customerKey": "MOSEDYER8775",
-    "name": {
-        "title": null,
-        "first": "Mose",
-        "middle": null,
-        "last": "Dyer",
-        "suffix": null
-    },
-    "address": {
-        "streetAddress": "548 Winding Ditch Circle",
-        "buildingName": null,
-        "floor": null,
-        "roomAptCondoFlat": null,
-        "city": "North Elmsall",
-        "stateProvince": "England",
-        "locality": "West Yorkshire",
-        "country": "GB",
-        "postalCode": "WF9",
-        "latitude": "53.6089",
-        "longitude": "-1.2821"
-    },
-    "contact": {
-        "phone": "+44-108-951-8775",
-        "email": "mdyer108@vodafone.com",
-        "socMedia": null
-    },
-    "login": {
-        "username": "mdyer",
-        "oauth2": null,
-        "password": "$2y$10$B0ndxVX6ECPIlCF5DxDAOu1fUGi8e1DPPu.U5fXlGY6xrTcFhva8."
-    },
-    "otherContact": {
-        "emails": [
-            "mdyer@algonet.net"
-        ],
-        "phoneNumbers": [],
-        "socMedias": []
-    },
-    "otherInfo": {
-        "gender": "M",
-        "dateOfBirth": "1996-03-21"
-    }
-});
-db.customers.insertOne(
-{
-    "customerKey": "SONNBLAN5194",
-    "name": {
-        "title": "Mr",
-        "first": "Sonny",
-        "middle": "K",
-        "last": "Blanchard",
-        "suffix": null
-    },
-    "address": {
-        "streetAddress": "8556 Winding Ditch Ride",
-        "buildingName": null,
-        "floor": null,
-        "roomAptCondoFlat": null,
-        "city": "S\u00e3o Gon\u00e7alo do Gurgu\u00e9ia",
-        "stateProvince": "Piaui",
-        "locality": "Piaui",
-        "country": "BR",
-        "postalCode": "64993-000",
-        "latitude": "-10.0763",
-        "longitude": "-45.4239"
-    },
-    "contact": {
-        "phone": "+55-109-400-5194",
-        "email": "sblancha109@frontier.com",
-        "socMedia": null
-    },
-    "login": {
-        "username": "sblancha",
-        "oauth2": null,
-        "password": "$2y$10$yyTo.Hj97dWUQ1Db8ZJGXu3L46KC7bh.wCzPzHntQAhiHqoaQQQY6"
-    },
-    "otherContact": {
-        "emails": [
-            "sblancha@kpn.net"
-        ],
-        "phoneNumbers": [
-            "+55-973-917-4683"
-        ],
-        "socMedias": []
-    },
-    "otherInfo": {
-        "gender": "M",
-        "dateOfBirth": "1966-08-27"
-    }
-});
-db.customers.insertOne(
-{
-    "customerKey": "RUDYWILC8581",
-    "name": {
-        "title": "Mr",
-        "first": "Rudy",
-        "middle": "G",
-        "last": "Wilcox",
-        "suffix": null
-    },
-    "address": {
-        "streetAddress": "8975 Green Tree Circle",
-        "buildingName": null,
-        "floor": null,
-        "roomAptCondoFlat": "7D",
-        "city": "Lake Proserpine",
-        "stateProvince": "QLD",
-        "locality": "CENTRAL QLD",
-        "country": "AU",
-        "postalCode": "4800",
-        "latitude": "-20.4057",
-        "longitude": "148.4881"
-    },
-    "contact": {
-        "phone": "+61-110-568-8581",
-        "email": "rwilcox110@ui.com",
+        "email": "owalker113@econnect.com",
+        "phone": "+61-113-585-4759",
         "socMedia": {
-            "skype": "rwilcox@skype.com"
+            "linkedin": "owalker113@econnect.com@linkedin.com"
         }
     },
     "login": {
-        "username": "rwilcox",
-        "oauth2": "rwilcox@skype.com",
-        "password": "$2y$10$LBkz\/OYVS9jAFyKMnOgdoObEtN2OVVoOGVzPBe\/K4MGKp0Mj.dMYG"
+        "username": "owalker",
+        "oauth2": "owalker@linkedin.com",
+        "password": "$2y$10$9iri7G7cU6\/Kj5CsAtOFXuvTguS5Atn0wkPP.180kFQ96VKw.kFCC"
     },
-    "otherContact": {
-        "emails": [],
-        "phoneNumbers": [],
-        "socMedias": []
-    },
+    "otherContact": [],
     "otherInfo": {
         "gender": "M",
-        "dateOfBirth": "1941-03-14"
-    }
+        "dateOfBirth": "1975-03-01"
+    },
+    "totalBooked": 8,
+    "discount": 0
 });
 db.customers.insertOne(
 {
-    "customerKey": "HELEMCKE1891",
+    "customerKey": "RONNHUFF4316",
     "name": {
         "title": null,
-        "first": "Helena",
+        "first": "Ronnie",
         "middle": null,
-        "last": "Mckenzie",
+        "last": "Huffman",
         "suffix": null
     },
     "address": {
-        "streetAddress": "947 Big Ditch Way",
+        "streetAddress": "8176 Long Stream Road",
+        "buildingName": null,
+        "floor": null,
+        "roomAptCondoFlat": "D1",
+        "city": "Mississauga (West Port Credit \/ Lorne Park \/ East Sheridan)",
+        "stateProvince": "ON",
+        "locality": "Mississauga",
+        "country": "CA",
+        "postalCode": "L5H",
+        "latitude": "43.5419",
+        "longitude": "-79.6164"
+    },
+    "contact": {
+        "email": "rhuffman114@telecom.com",
+        "phone": "+61-114-790-4316",
+        "socMedia": []
+    },
+    "login": {
+        "username": "rhuffman",
+        "oauth2": null,
+        "password": "$2y$10$\/0sf.WDqpO4ixWWTp4x.jueRcVuMlVaj9Yorwmm\/aHLNQyYJNB2hq"
+    },
+    "otherContact": [],
+    "otherInfo": {
+        "gender": "M",
+        "dateOfBirth": "1976-03-16"
+    },
+    "totalBooked": 8,
+    "discount": 0.08700000000000001
+});
+db.customers.insertOne(
+{
+    "customerKey": "JAIMWALT8801",
+    "name": {
+        "title": "Ms",
+        "first": "Jaime",
+        "middle": "K",
+        "last": "Walter",
+        "suffix": null
+    },
+    "address": {
+        "streetAddress": "850 Red Gulch Way",
         "buildingName": null,
         "floor": null,
         "roomAptCondoFlat": null,
-        "city": "Reydon",
+        "city": "Basse-Terre",
+        "stateProvince": "GP",
+        "locality": "Guadeloupe",
+        "country": "GP",
+        "postalCode": "97104 CEDEX",
+        "latitude": "15.9985",
+        "longitude": "-61.7255"
+    },
+    "contact": {
+        "email": "jwalter115@vivendi.com",
+        "phone": "+61-115-985-8801",
+        "socMedia": {
+            "google": "jwalter115@vivendi.com@google.com"
+        }
+    },
+    "login": {
+        "username": "jwalter",
+        "oauth2": "jwalter@google.com",
+        "password": "$2y$10$rnoujgGXh\/f56oJz.F4.PeE70Bvw\/bMoLdt9FDVuA0yW8upSgvmku"
+    },
+    "otherContact": {
+        "emails": [
+            "jwalter115@cubenet.com"
+        ],
+        "phoneNumbers": [
+            "+61-115-522-3696"
+        ],
+        "socMedias": [
+            {
+                "skype": "jwalter115@cubenet.com@skype.com"
+            }
+        ]
+    },
+    "otherInfo": {
+        "gender": "F",
+        "dateOfBirth": "1992-03-21"
+    },
+    "totalBooked": 7,
+    "discount": 0
+});
+db.customers.insertOne(
+{
+    "customerKey": "SHUVINC6921",
+    "name": {
+        "title": "Ms",
+        "first": "Shu",
+        "middle": "G",
+        "last": "Vincent",
+        "suffix": null
+    },
+    "address": {
+        "streetAddress": "2239 Big Ridge Ride",
+        "buildingName": null,
+        "floor": null,
+        "roomAptCondoFlat": null,
+        "city": "Winnetka",
+        "stateProvince": "CA",
+        "locality": "Los Angeles",
+        "country": "US",
+        "postalCode": "91306",
+        "latitude": "34.2092",
+        "longitude": "-118.5749"
+    },
+    "contact": {
+        "email": "svincent116@ptcl.com",
+        "phone": "+61-116-435-6921",
+        "socMedia": {
+            "skype": "svincent116@ptcl.com@skype.com"
+        }
+    },
+    "login": {
+        "username": "svincent",
+        "oauth2": "svincent@skype.com",
+        "password": "$2y$10$obc3xGCMfDrfK.FVFXsIa.OWvWxuQX8prS67x8poywH9CJv2LrZpW"
+    },
+    "otherContact": [],
+    "otherInfo": {
+        "gender": "F",
+        "dateOfBirth": "1972-04-08"
+    },
+    "totalBooked": 11,
+    "discount": 0
+});
+db.customers.insertOne(
+{
+    "customerKey": "CLIFREED9519",
+    "name": {
+        "title": null,
+        "first": "Clifford",
+        "middle": null,
+        "last": "Reed",
+        "suffix": null
+    },
+    "address": {
+        "streetAddress": "4681 Blue Ditch Avenue",
+        "buildingName": "Building C8",
+        "floor": 4,
+        "roomAptCondoFlat": null,
+        "city": "Coblinine",
+        "stateProvince": "WA",
+        "locality": "KALGOORLIE",
+        "country": "AU",
+        "postalCode": "6317",
+        "latitude": "-33.6483",
+        "longitude": "117.6843"
+    },
+    "contact": {
+        "email": "creed117@rogers.com",
+        "phone": "+61-117-552-9519",
+        "socMedia": []
+    },
+    "login": {
+        "username": "creed",
+        "oauth2": null,
+        "password": "$2y$10$8NnSM\/\/DFq1RTFAfkneaKuGmu\/ecexxEFYqTmog01Vm.Ni.0Ya6L6"
+    },
+    "otherContact": {
+        "emails": [
+            "creed117@telekom.com",
+            "creed117@ote.com"
+        ],
+        "phoneNumbers": [
+            "+61-117-203-2884",
+            "+61-117-668-1854"
+        ]
+    },
+    "otherInfo": {
+        "gender": "M",
+        "dateOfBirth": "1958-09-15"
+    },
+    "totalBooked": 29,
+    "discount": 0.078
+});
+db.customers.insertOne(
+{
+    "customerKey": "ANDRCAMA7740",
+    "name": {
+        "title": "Mr",
+        "first": "Andre",
+        "middle": "U",
+        "last": "Camacho",
+        "suffix": null
+    },
+    "address": {
+        "streetAddress": "4694 Red Woods Way",
+        "buildingName": null,
+        "floor": null,
+        "roomAptCondoFlat": null,
+        "city": "San Francisco",
+        "stateProvince": "CA",
+        "locality": "City and County of San Francisco",
+        "country": "US",
+        "postalCode": "94103",
+        "latitude": "37.7725",
+        "longitude": "-122.4147"
+    },
+    "contact": {
+        "email": "acamacho118@tt.com",
+        "phone": "+61-118-959-7740",
+        "socMedia": {
+            "facebook": "acamacho118@tt.com@facebook.com"
+        }
+    },
+    "login": {
+        "username": "acamacho",
+        "oauth2": "acamacho@facebook.com",
+        "password": "$2y$10$Jc2GM9DkuNc3.JqXa3Q1vOtCk222gbbYU2ksj2n9xK\/GbqvIhPqd6"
+    },
+    "otherContact": {
+        "emails": [
+            "acamacho118@cerist.com"
+        ],
+        "phoneNumbers": [
+            "+61-118-017-8600"
+        ],
+        "socMedias": [
+            {
+                "google": "acamacho118@cerist.com@google.com"
+            }
+        ]
+    },
+    "otherInfo": {
+        "gender": "M",
+        "dateOfBirth": "1932-11-23"
+    },
+    "totalBooked": 4,
+    "discount": 0
+});
+db.customers.insertOne(
+{
+    "customerKey": "FATIRAMI6656",
+    "name": {
+        "title": "Ms",
+        "first": "Fatima",
+        "middle": "J",
+        "last": "Ramirez",
+        "suffix": null
+    },
+    "address": {
+        "streetAddress": "6287 Long Ditch Street",
+        "buildingName": null,
+        "floor": null,
+        "roomAptCondoFlat": null,
+        "city": "Oure",
+        "stateProvince": "Svendborg Kommune",
+        "locality": "Svendborg Kommune",
+        "country": "DK",
+        "postalCode": "5883",
+        "latitude": "55.1197",
+        "longitude": "10.7234"
+    },
+    "contact": {
+        "email": "framirez119@cerist.com",
+        "phone": "+61-119-143-6656",
+        "socMedia": {
+            "linkedin": "framirez119@cerist.com@linkedin.com"
+        }
+    },
+    "login": {
+        "username": "framirez",
+        "oauth2": "framirez@linkedin.com",
+        "password": "$2y$10$Mf4n00zezKghp6xvyjd7nOLEqDsFg091RMWVPV0m8VebN9IzWpNqi"
+    },
+    "otherContact": {
+        "emails": [
+            "framirez119@vivendi.com"
+        ],
+        "phoneNumbers": [
+            "+61-119-187-2206"
+        ],
+        "socMedias": [
+            {
+                "line": "framirez119@vivendi.com@line.com"
+            }
+        ]
+    },
+    "otherInfo": {
+        "gender": "F",
+        "dateOfBirth": "2003-05-30"
+    },
+    "totalBooked": 14,
+    "discount": 0.107
+});
+db.customers.insertOne(
+{
+    "customerKey": "ANDRWOOD9917",
+    "name": {
+        "title": null,
+        "first": "Andree",
+        "middle": null,
+        "last": "Woods",
+        "suffix": null
+    },
+    "address": {
+        "streetAddress": "6687 Big Ditch Circle",
+        "buildingName": null,
+        "floor": null,
+        "roomAptCondoFlat": "30",
+        "city": "Saughall Massie",
         "stateProvince": "England",
-        "locality": "Suffolk",
+        "locality": "Merseyside",
         "country": "GB",
-        "postalCode": "IP18",
-        "latitude": "52.339",
-        "longitude": "1.6658"
+        "postalCode": "CH47",
+        "latitude": "53.3905",
+        "longitude": "-3.1807"
     },
     "contact": {
-        "phone": "+44-111-100-1891",
-        "email": "hmckenzi111@zain.com",
-        "socMedia": null
+        "email": "awoods120@vivendi.com",
+        "phone": "+61-120-420-9917",
+        "socMedia": []
     },
     "login": {
-        "username": "hmckenzi",
+        "username": "awoods",
         "oauth2": null,
-        "password": "$2y$10$\/X0cKMmpUYvQlFOXaMUTVeu.BNDU.7ooJGCK.Tamo5QSzLWoE.W7i"
+        "password": "$2y$10$hE5F1e6OwvnfOrqB4\/2V\/u8hlFyiewLnfqWPi45TmnJgRF1XwNWmi"
     },
-    "otherContact": {
-        "emails": [
-            "hmckenzi@greennet.net"
-        ],
-        "phoneNumbers": [],
-        "socMedias": []
-    },
+    "otherContact": [],
     "otherInfo": {
         "gender": "F",
-        "dateOfBirth": "1940-12-23"
-    }
+        "dateOfBirth": "1971-02-04"
+    },
+    "totalBooked": 26,
+    "discount": 0.04
 });
 db.customers.insertOne(
 {
-    "customerKey": "ELLIPECK8867",
-    "name": {
-        "title": "Mr",
-        "first": "Elliot",
-        "middle": "Q",
-        "last": "Peck",
-        "suffix": null
-    },
-    "address": {
-        "streetAddress": "4644 Long Mound Ride",
-        "buildingName": "Building 7D",
-        "floor": null,
-        "roomAptCondoFlat": "B9",
-        "city": "Eastern Suburbs Mc",
-        "stateProvince": "NSW",
-        "locality": "New South Wales",
-        "country": "AU",
-        "postalCode": "1333",
-        "latitude": "-33.8693",
-        "longitude": "151.2248"
-    },
-    "contact": {
-        "phone": "+61-112-011-8867",
-        "email": "epeck112@softbank.com",
-        "socMedia": null
-    },
-    "login": {
-        "username": "epeck",
-        "oauth2": null,
-        "password": "$2y$10$VW6ZYsRxgpwzAO4ezoKsIOwL2wUfTEKTsiyUUp8eKTwkn8XwQzGnK"
-    },
-    "otherContact": {
-        "emails": [],
-        "phoneNumbers": [
-            "+61-215-244-3344"
-        ],
-        "socMedias": []
-    },
-    "otherInfo": {
-        "gender": "M",
-        "dateOfBirth": "1950-08-23"
-    }
-});
-db.customers.insertOne(
-{
-    "customerKey": "ROYCDOMI2963",
+    "customerKey": "EULADUKE2057",
     "name": {
         "title": "Ms",
-        "first": "Royce",
-        "middle": "H",
-        "last": "Dominguez",
+        "first": "Eula",
+        "middle": "Q",
+        "last": "Duke",
         "suffix": null
     },
     "address": {
-        "streetAddress": "7821 Winding Creek Circle",
+        "streetAddress": "8020 Long Tree Boulevard",
         "buildingName": null,
         "floor": null,
         "roomAptCondoFlat": null,
-        "city": "Pobr\u0111ani",
-        "stateProvince": "\u010cazma",
-        "locality": "\u010cazma",
-        "country": "HR",
-        "postalCode": "43240",
-        "latitude": "46.0758",
-        "longitude": "16.615"
+        "city": "Behrang Stesen",
+        "stateProvince": "PRK",
+        "locality": "Perak",
+        "country": "MY",
+        "postalCode": "35950",
+        "latitude": "3.889",
+        "longitude": "101.4121"
     },
     "contact": {
-        "phone": "+385-113-336-2963",
-        "email": "rdomingu113@openworld.com",
-        "socMedia": null
+        "email": "eduke121@kddi.com",
+        "phone": "+61-121-723-2057",
+        "socMedia": {
+            "skype": "eduke121@kddi.com@skype.com"
+        }
     },
     "login": {
-        "username": "rdomingu",
-        "oauth2": null,
-        "password": "$2y$10$BA27eXRvWVGhE6fz8XIdweXlW2X8kWL\/YDBfUANDAWDRagGwuGW0S"
+        "username": "eduke",
+        "oauth2": "eduke@skype.com",
+        "password": "$2y$10$6Npmf7Nu1FhS2jlUWDT9C.JkDLSSaBwzYujWWjeZCbaySbGZhQheS"
     },
     "otherContact": {
         "emails": [
-            "rdomingu@telia.net"
+            "eduke121@lguplus.com",
+            "eduke121@relcom.com"
         ],
         "phoneNumbers": [
-            "+385-278-311-0915"
+            "+61-121-172-2878",
+            "+61-121-476-9502"
         ],
-        "socMedias": []
+        "socMedias": [
+            {
+                "line": "eduke121@lguplus.com@line.com"
+            },
+            {
+                "skype": "eduke121@relcom.com@skype.com"
+            }
+        ]
     },
     "otherInfo": {
         "gender": "F",
-        "dateOfBirth": "1973-09-01"
-    }
+        "dateOfBirth": "1937-03-11"
+    },
+    "totalBooked": 20,
+    "discount": 0
 });
 db.customers.insertOne(
 {
-    "customerKey": "ELDEWOOD9637",
+    "customerKey": "CLIFESTR3329",
+    "name": {
+        "title": "Mr",
+        "first": "Clifford",
+        "middle": "G",
+        "last": "Estrada",
+        "suffix": null
+    },
+    "address": {
+        "streetAddress": "9217 Green Gulch Street",
+        "buildingName": null,
+        "floor": null,
+        "roomAptCondoFlat": null,
+        "city": "Aylestone",
+        "stateProvince": "England",
+        "locality": "Leicestershire",
+        "country": "GB",
+        "postalCode": "LE2",
+        "latitude": "52.6042",
+        "longitude": "-1.1463"
+    },
+    "contact": {
+        "email": "cestrada122@swisscom.com",
+        "phone": "+61-122-996-3329",
+        "socMedia": {
+            "line": "cestrada122@swisscom.com@line.com"
+        }
+    },
+    "login": {
+        "username": "cestrada",
+        "oauth2": "cestrada@line.com",
+        "password": "$2y$10$zGVHRIhsq.KWiaeFjEDLPuEfnqmQhN0nwVR0JgU6jApA0Klbpex3y"
+    },
+    "otherContact": {
+        "emails": [
+            "cestrada122@optus.com",
+            "cestrada122@jio.com",
+            "cestrada122@centurylink.com"
+        ],
+        "phoneNumbers": [
+            "+61-122-047-4012",
+            "+61-122-239-2942",
+            "+61-122-178-4365"
+        ],
+        "socMedias": [
+            {
+                "line": "cestrada122@optus.com@line.com"
+            },
+            {
+                "facebook": "cestrada122@jio.com@facebook.com"
+            },
+            {
+                "line": "cestrada122@centurylink.com@line.com"
+            }
+        ]
+    },
+    "otherInfo": {
+        "gender": "M",
+        "dateOfBirth": "1938-04-04"
+    },
+    "totalBooked": 19,
+    "discount": 0
+});
+db.customers.insertOne(
+{
+    "customerKey": "MYRIESPI9977",
     "name": {
         "title": null,
-        "first": "Elden",
+        "first": "Myriam",
         "middle": null,
-        "last": "Woodard",
+        "last": "Espinoza",
         "suffix": null
     },
     "address": {
-        "streetAddress": "8936 Green Canyon Road",
+        "streetAddress": "3098 Little Gulch Boulevard",
         "buildingName": null,
         "floor": null,
         "roomAptCondoFlat": null,
-        "city": "Triabunna",
-        "stateProvince": "TAS",
-        "locality": "TASMANIA",
-        "country": "AU",
-        "postalCode": "7190",
-        "latitude": "-42.508",
-        "longitude": "147.9113"
+        "city": "Nuuk",
+        "stateProvince": null,
+        "locality": null,
+        "country": "GL",
+        "postalCode": "3900",
+        "latitude": "64.1738",
+        "longitude": "-51.7384"
     },
     "contact": {
-        "phone": "+61-114-687-9637",
-        "email": "ewoodard114@pldt.com",
-        "socMedia": null
+        "email": "mespinoz123@telenor.com",
+        "phone": "+61-123-444-9977",
+        "socMedia": []
     },
     "login": {
-        "username": "ewoodard",
+        "username": "mespinoz",
         "oauth2": null,
-        "password": "$2y$10$iJ5jr4k9qG3DvlAKd76i4.jlgvexWPynHeJejAKfzpTZGEyJE2uSK"
+        "password": "$2y$10$5Z5QvpxIr0eZsJ0WUt1CYugd2tCIM8G5zT\/Mkf8B2DPPZOCS2GEEy"
     },
     "otherContact": {
         "emails": [
-            "ewoodard@bce.net",
-            "ewoodard@cubenet.net"
+            "mespinoz123@apicnet.com",
+            "mespinoz123@sprint.com",
+            "mespinoz123@orstom.com"
         ],
         "phoneNumbers": [
-            "+61-70-461-4056"
-        ],
-        "socMedias": []
+            "+61-123-270-4445",
+            "+61-123-900-2766",
+            "+61-123-173-4909"
+        ]
     },
     "otherInfo": {
-        "gender": "M",
-        "dateOfBirth": "1962-09-18"
-    }
+        "gender": "F",
+        "dateOfBirth": "1967-12-04"
+    },
+    "totalBooked": 44,
+    "discount": 0.09
 });
 db.customers.insertOne(
 {
-    "customerKey": "OSVAJENK5497",
-    "name": {
-        "title": "Mr",
-        "first": "Osvaldo",
-        "middle": "E",
-        "last": "Jenkins",
-        "suffix": null
-    },
-    "address": {
-        "streetAddress": "2338 Little Bough Road",
-        "buildingName": "Building CA",
-        "floor": null,
-        "roomAptCondoFlat": null,
-        "city": "Balzers",
-        "stateProvince": "Balzers",
-        "locality": "Balzers",
-        "country": "LI",
-        "postalCode": "9496",
-        "latitude": "47.067",
-        "longitude": "9.5078"
-    },
-    "contact": {
-        "phone": "+423-115-847-5497",
-        "email": "ojenkins115@vivendi.com",
-        "socMedia": null
-    },
-    "login": {
-        "username": "ojenkins",
-        "oauth2": null,
-        "password": "$2y$10$Yq5.H1tPGXznc5nRwInRy.rVmJ61oLGsnrvtnb7TEBqnomaehqxPe"
-    },
-    "otherContact": {
-        "emails": [],
-        "phoneNumbers": [],
-        "socMedias": []
-    },
-    "otherInfo": {
-        "gender": "M",
-        "dateOfBirth": "1987-11-13"
-    }
-});
-db.customers.insertOne(
-{
-    "customerKey": "SHANWEBB5763",
+    "customerKey": "RAYLSHAF3154",
     "name": {
         "title": "Ms",
-        "first": "Shan",
-        "middle": "A",
-        "last": "Webb",
+        "first": "Raylene",
+        "middle": "Z",
+        "last": "Shaffer",
         "suffix": null
     },
     "address": {
-        "streetAddress": "8197 Blue Bridge Avenue",
+        "streetAddress": "2299 Little Stream Ride",
+        "buildingName": null,
+        "floor": null,
+        "roomAptCondoFlat": null,
+        "city": "Marishader",
+        "stateProvince": "Scotland",
+        "locality": "Highland",
+        "country": "GB",
+        "postalCode": "IV51",
+        "latitude": "57.5153",
+        "longitude": "-6.3185"
+    },
+    "contact": {
+        "email": "rshaffer124@nii.com",
+        "phone": "+61-124-075-3154",
+        "socMedia": {
+            "google": "rshaffer124@nii.com@google.com"
+        }
+    },
+    "login": {
+        "username": "rshaffer",
+        "oauth2": "rshaffer@google.com",
+        "password": "$2y$10$idGytlhgKMkr4wWrj37JXePEjzSuA2Ckm3f\/.CSeKAfUQp0Q9tUWu"
+    },
+    "otherContact": {
+        "emails": [
+            "rshaffer124@cerist.com",
+            "rshaffer124@turkcell.com",
+            "rshaffer124@econnect.com"
+        ],
+        "phoneNumbers": [
+            "+61-124-558-2866",
+            "+61-124-580-8673",
+            "+61-124-228-5483"
+        ],
+        "socMedias": [
+            {
+                "skype": "rshaffer124@cerist.com@skype.com"
+            },
+            {
+                "twitter": "rshaffer124@turkcell.com@twitter.com"
+            },
+            {
+                "twitter": "rshaffer124@econnect.com@twitter.com"
+            }
+        ]
+    },
+    "otherInfo": {
+        "gender": "F",
+        "dateOfBirth": "1999-02-01"
+    },
+    "totalBooked": 15,
+    "discount": 0
+});
+db.customers.insertOne(
+{
+    "customerKey": "ABBIHARD8309",
+    "name": {
+        "title": "Ms",
+        "first": "Abbie",
+        "middle": "W",
+        "last": "Hardin",
+        "suffix": null
+    },
+    "address": {
+        "streetAddress": "3320 Blue Tree Drive",
+        "buildingName": null,
+        "floor": null,
+        "roomAptCondoFlat": null,
+        "city": "Grottammare",
+        "stateProvince": "MH",
+        "locality": "Ascoli Piceno",
+        "country": "IT",
+        "postalCode": "63066",
+        "latitude": "42.9818",
+        "longitude": "13.8676"
+    },
+    "contact": {
+        "email": "ahardin125@eunet.com",
+        "phone": "+61-125-460-8309",
+        "socMedia": {
+            "facebook": "ahardin125@eunet.com@facebook.com"
+        }
+    },
+    "login": {
+        "username": "ahardin",
+        "oauth2": "ahardin@facebook.com",
+        "password": "$2y$10$eF7iIoeAAjxbjUzdAVwBsu4frEgTqFFQr6DWqnxMV6m2PR9xUP456"
+    },
+    "otherContact": {
+        "emails": [
+            "ahardin125@ktc.com",
+            "ahardin125@greennet.com"
+        ],
+        "phoneNumbers": [
+            "+61-125-525-7725",
+            "+61-125-686-7046"
+        ],
+        "socMedias": [
+            {
+                "twitter": "ahardin125@ktc.com@twitter.com"
+            },
+            {
+                "line": "ahardin125@greennet.com@line.com"
+            }
+        ]
+    },
+    "otherInfo": {
+        "gender": "F",
+        "dateOfBirth": "1975-02-12"
+    },
+    "totalBooked": 4,
+    "discount": 0
+});
+db.customers.insertOne(
+{
+    "customerKey": "STEPFOWL1054",
+    "name": {
+        "title": null,
+        "first": "Stephan",
+        "middle": null,
+        "last": "Fowler",
+        "suffix": null
+    },
+    "address": {
+        "streetAddress": "6673 Red Mountain Avenue",
+        "buildingName": null,
+        "floor": 19,
+        "roomAptCondoFlat": "72",
+        "city": "North York (Sweeney Park \/ Wigmore Park)",
+        "stateProvince": "ON",
+        "locality": "Ontario",
+        "country": "CA",
+        "postalCode": "M4A",
+        "latitude": "43.7276",
+        "longitude": "-79.3148"
+    },
+    "contact": {
+        "email": "sfowler126@worldnet.com",
+        "phone": "+61-126-170-1054",
+        "socMedia": []
+    },
+    "login": {
+        "username": "sfowler",
+        "oauth2": null,
+        "password": "$2y$10$XDiAW3FkF1JfvyxMQikPNuF3H1zNPXYh3zHXYTYRYhugKsVn6t0Qm"
+    },
+    "otherContact": {
+        "emails": [
+            "sfowler126@maxcomm.com"
+        ],
+        "phoneNumbers": [
+            "+61-126-204-9692"
+        ]
+    },
+    "otherInfo": {
+        "gender": "M",
+        "dateOfBirth": "1935-03-19"
+    },
+    "totalBooked": 64,
+    "discount": 0.184
+});
+db.customers.insertOne(
+{
+    "customerKey": "WESTHERM4718",
+    "name": {
+        "title": "Mr",
+        "first": "Weston",
+        "middle": "B",
+        "last": "Herman",
+        "suffix": null
+    },
+    "address": {
+        "streetAddress": "7167 Big Ditch Avenue",
+        "buildingName": null,
+        "floor": null,
+        "roomAptCondoFlat": null,
+        "city": "Vrutok",
+        "stateProvince": null,
+        "locality": null,
+        "country": "MK",
+        "postalCode": "1231",
+        "latitude": "41.7686",
+        "longitude": "20.8392"
+    },
+    "contact": {
+        "email": "wherman127@bifty.com",
+        "phone": "+61-127-298-4718",
+        "socMedia": {
+            "google": "wherman127@bifty.com@google.com"
+        }
+    },
+    "login": {
+        "username": "wherman",
+        "oauth2": "wherman@google.com",
+        "password": "$2y$10$YmKEuPYrCbisjaFEoWc5eu0R1CIle3Gl5s0ShSE\/MYzsRBWjRi8de"
+    },
+    "otherContact": {
+        "emails": [
+            "wherman127@cci.com",
+            "wherman127@ntt.com",
+            "wherman127@belgacom.com"
+        ],
+        "phoneNumbers": [
+            "+61-127-781-1685",
+            "+61-127-221-1230",
+            "+61-127-710-2808"
+        ],
+        "socMedias": [
+            {
+                "linkedin": "wherman127@cci.com@linkedin.com"
+            },
+            {
+                "facebook": "wherman127@ntt.com@facebook.com"
+            },
+            {
+                "google": "wherman127@belgacom.com@google.com"
+            }
+        ]
+    },
+    "otherInfo": {
+        "gender": "M",
+        "dateOfBirth": "1981-12-15"
+    },
+    "totalBooked": 9,
+    "discount": 0
+});
+db.customers.insertOne(
+{
+    "customerKey": "BARISAND7470",
+    "name": {
+        "title": "Ms",
+        "first": "Bari",
+        "middle": "W",
+        "last": "Sanders",
+        "suffix": null
+    },
+    "address": {
+        "streetAddress": "3435 Big Stream Way",
+        "buildingName": null,
+        "floor": null,
+        "roomAptCondoFlat": null,
+        "city": "Leiter",
+        "stateProvince": "WY",
+        "locality": "Sheridan",
+        "country": "US",
+        "postalCode": "82837",
+        "latitude": "44.718",
+        "longitude": "-106.2692"
+    },
+    "contact": {
+        "email": "bsanders128@telstra.com",
+        "phone": "+61-128-696-7470",
+        "socMedia": {
+            "google": "bsanders128@telstra.com@google.com"
+        }
+    },
+    "login": {
+        "username": "bsanders",
+        "oauth2": "bsanders@google.com",
+        "password": "$2y$10$o88\/kyBj.YbpYH4QrDwkl.jsYpdC\/IO7ONbwKmi9rIu7GSTWPQJa."
+    },
+    "otherContact": {
+        "emails": [
+            "bsanders128@pldt.com"
+        ],
+        "phoneNumbers": [
+            "+61-128-544-9887"
+        ],
+        "socMedias": [
+            {
+                "line": "bsanders128@pldt.com@line.com"
+            }
+        ]
+    },
+    "otherInfo": {
+        "gender": "F",
+        "dateOfBirth": "1956-06-18"
+    },
+    "totalBooked": 6,
+    "discount": 0
+});
+db.customers.insertOne(
+{
+    "customerKey": "BOPAYN2549",
+    "name": {
+        "title": null,
+        "first": "Bo",
+        "middle": null,
+        "last": "Payne",
+        "suffix": null
+    },
+    "address": {
+        "streetAddress": "7017 Winding Canyon Way",
+        "buildingName": null,
+        "floor": null,
+        "roomAptCondoFlat": null,
+        "city": "Orlando",
+        "stateProvince": null,
+        "locality": null,
+        "country": "ZA",
+        "postalCode": "1806",
+        "latitude": "-26.25",
+        "longitude": "27.9167"
+    },
+    "contact": {
+        "email": "bpayne129@telus.com",
+        "phone": "+61-129-576-2549",
+        "socMedia": []
+    },
+    "login": {
+        "username": "bpayne",
+        "oauth2": null,
+        "password": "$2y$10$YdX1dnqqW4RVT8Nta5.IOOz8KalSfsjFBWPNJYUaCwkIsUa7YkNFu"
+    },
+    "otherContact": {
+        "emails": [
+            "bpayne129@telstra.com",
+            "bpayne129@etisalat.com"
+        ],
+        "phoneNumbers": [
+            "+61-129-511-5881",
+            "+61-129-263-4761"
+        ]
+    },
+    "otherInfo": {
+        "gender": "M",
+        "dateOfBirth": "1941-04-13"
+    },
+    "totalBooked": 49,
+    "discount": 0.047
+});
+db.customers.insertOne(
+{
+    "customerKey": "SHASEATO3538",
+    "name": {
+        "title": "Ms",
+        "first": "Shasta",
+        "middle": "C",
+        "last": "Eaton",
+        "suffix": null
+    },
+    "address": {
+        "streetAddress": "3994 Big Mound Way",
+        "buildingName": "Building F5",
+        "floor": null,
+        "roomAptCondoFlat": null,
+        "city": "Alkham",
+        "stateProvince": "England",
+        "locality": "Kent",
+        "country": "GB",
+        "postalCode": "CT15",
+        "latitude": "51.1351",
+        "longitude": "1.2232"
+    },
+    "contact": {
+        "email": "seaton130@etisalat.com",
+        "phone": "+61-130-095-3538",
+        "socMedia": {
+            "skype": "seaton130@etisalat.com@skype.com"
+        }
+    },
+    "login": {
+        "username": "seaton",
+        "oauth2": "seaton@skype.com",
+        "password": "$2y$10$jH\/H.a5uLvIKQzLtarm6jOU84mra5hqLyEPdSlhzNINmsHIP432da"
+    },
+    "otherContact": [],
+    "otherInfo": {
+        "gender": "F",
+        "dateOfBirth": "1988-01-18"
+    },
+    "totalBooked": 6,
+    "discount": 0
+});
+db.customers.insertOne(
+{
+    "customerKey": "GRACHUMP2473",
+    "name": {
+        "title": "Ms",
+        "first": "Grace",
+        "middle": "F",
+        "last": "Humphrey",
+        "suffix": null
+    },
+    "address": {
+        "streetAddress": "8710 Green River Drive",
+        "buildingName": null,
+        "floor": null,
+        "roomAptCondoFlat": null,
+        "city": "Osterburg",
+        "stateProvince": "ST",
+        "locality": "Landkreis Stendal",
+        "country": "DE",
+        "postalCode": "39606",
+        "latitude": "52.7872",
+        "longitude": "11.753"
+    },
+    "contact": {
+        "email": "ghumphre131@access.com",
+        "phone": "+61-131-539-2473",
+        "socMedia": {
+            "skype": "ghumphre131@access.com@skype.com"
+        }
+    },
+    "login": {
+        "username": "ghumphre",
+        "oauth2": "ghumphre@skype.com",
+        "password": "$2y$10$YOwEAo9uWPvp4Gl98mBz5.UCqpIF7Sk907O3ZJZPmCYfEkKfQBj9e"
+    },
+    "otherContact": {
+        "emails": [
+            "ghumphre131@bt.com",
+            "ghumphre131@movil.com",
+            "ghumphre131@airtel.com"
+        ],
+        "phoneNumbers": [
+            "+61-131-689-4326",
+            "+61-131-742-4088",
+            "+61-131-556-1748"
+        ],
+        "socMedias": [
+            {
+                "linkedin": "ghumphre131@bt.com@linkedin.com"
+            },
+            {
+                "twitter": "ghumphre131@movil.com@twitter.com"
+            },
+            {
+                "skype": "ghumphre131@airtel.com@skype.com"
+            }
+        ]
+    },
+    "otherInfo": {
+        "gender": "F",
+        "dateOfBirth": "1995-10-12"
+    },
+    "totalBooked": 9,
+    "discount": 0
+});
+db.customers.insertOne(
+{
+    "customerKey": "JERRMART0067",
+    "name": {
+        "title": null,
+        "first": "Jerry",
+        "middle": null,
+        "last": "Martin",
+        "suffix": null
+    },
+    "address": {
+        "streetAddress": "8460 Little Gulch Street",
+        "buildingName": null,
+        "floor": null,
+        "roomAptCondoFlat": "7E",
+        "city": "Oshkosh",
+        "stateProvince": "WI",
+        "locality": "Winnebago",
+        "country": "US",
+        "postalCode": "54901",
+        "latitude": "44.022",
+        "longitude": "-88.5436"
+    },
+    "contact": {
+        "email": "jmartin132@maxcomm.com",
+        "phone": "+61-132-050-0067",
+        "socMedia": []
+    },
+    "login": {
+        "username": "jmartin",
+        "oauth2": null,
+        "password": "$2y$10$qeAtLhEdL6gCgW7Sy7WFLegupDQ89mlJ6wHU.dmSw6TBOxnTpQ2rO"
+    },
+    "otherContact": {
+        "emails": [
+            "jmartin132@telekom.com",
+            "jmartin132@orange.com"
+        ],
+        "phoneNumbers": [
+            "+61-132-502-8656",
+            "+61-132-860-1510"
+        ]
+    },
+    "otherInfo": {
+        "gender": "F",
+        "dateOfBirth": "1957-06-05"
+    },
+    "totalBooked": 30,
+    "discount": 0.09
+});
+db.customers.insertOne(
+{
+    "customerKey": "GEORREID4997",
+    "name": {
+        "title": "Ms",
+        "first": "Georgianne",
+        "middle": "M",
+        "last": "Reid",
+        "suffix": null
+    },
+    "address": {
+        "streetAddress": "6109 Red Mound Road",
+        "buildingName": null,
+        "floor": null,
+        "roomAptCondoFlat": null,
+        "city": "\u0413\u043e\u043d\u0447\u0430\u0440\u0456\u0432\u043a\u0430 (\u0413\u043e\u043d\u0447\u0430\u0440\u0456\u0432\u0441\u044c\u043a\u0430 \u0441\u0456\u043b\u044c\u0441\u044c\u043a\u0430 \u0440\u0430\u0434\u0430)",
+        "stateProvince": "Monastyryskyi",
+        "locality": "Monastyryskyi",
+        "country": "UA",
+        "postalCode": "48332",
+        "latitude": "49.6419",
+        "longitude": "26.8203"
+    },
+    "contact": {
+        "email": "greid133@lguplus.com",
+        "phone": "+61-133-205-4997",
+        "socMedia": {
+            "line": "greid133@lguplus.com@line.com"
+        }
+    },
+    "login": {
+        "username": "greid",
+        "oauth2": "greid@line.com",
+        "password": "$2y$10$590IClEr3zyQ7sY5iO\/Iy.mrAlCp7fXEb300BrelWJzlUUCXoFieu"
+    },
+    "otherContact": {
+        "emails": [
+            "greid133@ktc.com",
+            "greid133@telenor.com",
+            "greid133@millicom.com"
+        ],
+        "phoneNumbers": [
+            "+61-133-630-4012",
+            "+61-133-065-3177",
+            "+61-133-763-2124"
+        ],
+        "socMedias": [
+            {
+                "google": "greid133@ktc.com@google.com"
+            },
+            {
+                "skype": "greid133@telenor.com@skype.com"
+            },
+            {
+                "facebook": "greid133@millicom.com@facebook.com"
+            }
+        ]
+    },
+    "otherInfo": {
+        "gender": "F",
+        "dateOfBirth": "1961-11-26"
+    },
+    "totalBooked": 64,
+    "discount": 0.132
+});
+db.customers.insertOne(
+{
+    "customerKey": "DANIGUEV7524",
+    "name": {
+        "title": "Mr",
+        "first": "Danilo",
+        "middle": "Q",
+        "last": "Guevara",
+        "suffix": null
+    },
+    "address": {
+        "streetAddress": "1904 Red Tree Road",
+        "buildingName": null,
+        "floor": null,
+        "roomAptCondoFlat": null,
+        "city": "Plymouth",
+        "stateProvince": "FL",
+        "locality": "Orange",
+        "country": "US",
+        "postalCode": "32768",
+        "latitude": "28.6985",
+        "longitude": "-81.5698"
+    },
+    "contact": {
+        "email": "dguevara134@millicom.com",
+        "phone": "+61-134-074-7524",
+        "socMedia": {
+            "skype": "dguevara134@millicom.com@skype.com"
+        }
+    },
+    "login": {
+        "username": "dguevara",
+        "oauth2": "dguevara@skype.com",
+        "password": "$2y$10$irVQ4zNdO1o\/lMsCDq0WyOpFn2eaxkCWpFV15BLmkcEZ97iwWab9m"
+    },
+    "otherContact": {
+        "emails": [
+            "dguevara134@cci.com"
+        ],
+        "phoneNumbers": [
+            "+61-134-862-3161"
+        ],
+        "socMedias": [
+            {
+                "google": "dguevara134@cci.com@google.com"
+            }
+        ]
+    },
+    "otherInfo": {
+        "gender": "M",
+        "dateOfBirth": "1994-11-30"
+    },
+    "totalBooked": 15,
+    "discount": 0
+});
+db.customers.insertOne(
+{
+    "customerKey": "ARMACOMP6957",
+    "name": {
+        "title": null,
+        "first": "Armanda",
+        "middle": null,
+        "last": "Compton",
+        "suffix": null
+    },
+    "address": {
+        "streetAddress": "7859 Short Ditch Circle",
+        "buildingName": null,
+        "floor": 10,
+        "roomAptCondoFlat": null,
+        "city": "\u041a\u0435\u0443\u043b\u044c",
+        "stateProvince": "\u0423\u0421\u0422\u042c-\u0418\u041b\u0418\u041c\u0421\u041a\u0418\u0419 \u0420\u0410\u0419\u041e\u041d",
+        "locality": "\u0423\u0421\u0422\u042c-\u0418\u041b\u0418\u041c\u0421\u041a\u0418\u0419 \u0420\u0410\u0419\u041e\u041d",
+        "country": "RU",
+        "postalCode": "666652",
+        "latitude": "58.44",
+        "longitude": "102.8"
+    },
+    "contact": {
+        "email": "acompton135@icom.com",
+        "phone": "+61-135-226-6957",
+        "socMedia": []
+    },
+    "login": {
+        "username": "acompton",
+        "oauth2": null,
+        "password": "$2y$10$3BIHrCj.PQrAaHfPeVy1hevoAvFHcwiqvDNfOZo4TlPP9FtLe.N1."
+    },
+    "otherContact": [],
+    "otherInfo": {
+        "gender": "F",
+        "dateOfBirth": "1969-06-24"
+    },
+    "totalBooked": 37,
+    "discount": 0.05
+});
+db.customers.insertOne(
+{
+    "customerKey": "ADRITURN5423",
+    "name": {
+        "title": "Mr",
+        "first": "Adrian",
+        "middle": "P",
+        "last": "Turner",
+        "suffix": null
+    },
+    "address": {
+        "streetAddress": "8400 Short River Circle",
+        "buildingName": null,
+        "floor": null,
+        "roomAptCondoFlat": null,
+        "city": "Princeton",
+        "stateProvince": "TX",
+        "locality": "Collin",
+        "country": "US",
+        "postalCode": "75407",
+        "latitude": "33.1555",
+        "longitude": "-96.4981"
+    },
+    "contact": {
+        "email": "aturner136@singtel.com",
+        "phone": "+61-136-740-5423",
+        "socMedia": {
+            "facebook": "aturner136@singtel.com@facebook.com"
+        }
+    },
+    "login": {
+        "username": "aturner",
+        "oauth2": "aturner@facebook.com",
+        "password": "$2y$10$P\/QxpPA7U2Dp0c\/i2GC7V.h0heXPcW7ASUbhYw4sGBymJYw570.6O"
+    },
+    "otherContact": {
+        "emails": [
+            "aturner136@frontier.com",
+            "aturner136@orstom.com",
+            "aturner136@etisalat.com"
+        ],
+        "phoneNumbers": [
+            "+61-136-339-5193",
+            "+61-136-712-7204",
+            "+61-136-574-1005"
+        ],
+        "socMedias": [
+            {
+                "skype": "aturner136@frontier.com@skype.com"
+            },
+            {
+                "facebook": "aturner136@orstom.com@facebook.com"
+            },
+            {
+                "line": "aturner136@etisalat.com@line.com"
+            }
+        ]
+    },
+    "otherInfo": {
+        "gender": "M",
+        "dateOfBirth": "1973-08-13"
+    },
+    "totalBooked": 4,
+    "discount": 0
+});
+db.customers.insertOne(
+{
+    "customerKey": "CIERPATT1455",
+    "name": {
+        "title": "Ms",
+        "first": "Ciera",
+        "middle": "G",
+        "last": "Patterson",
+        "suffix": null
+    },
+    "address": {
+        "streetAddress": "764 Blue Ridge Road",
+        "buildingName": null,
+        "floor": null,
+        "roomAptCondoFlat": null,
+        "city": "LA PRIMERA",
+        "stateProvince": "L",
+        "locality": "La Pampa",
+        "country": "AR",
+        "postalCode": "8206",
+        "latitude": "-38.0778",
+        "longitude": "-63.6222"
+    },
+    "contact": {
+        "email": "cpatters137@telstra.com",
+        "phone": "+61-137-740-1455",
+        "socMedia": {
+            "skype": "cpatters137@telstra.com@skype.com"
+        }
+    },
+    "login": {
+        "username": "cpatters",
+        "oauth2": "cpatters@skype.com",
+        "password": "$2y$10$TDJADo9KxUUqZ4DXLgbw\/uliSUrV5slx\/uieu6ya1o9Dmh1pZB5My"
+    },
+    "otherContact": {
+        "emails": [
+            "cpatters137@telia.com",
+            "cpatters137@telstra.com",
+            "cpatters137@sktelecom.com"
+        ],
+        "phoneNumbers": [
+            "+61-137-328-5514",
+            "+61-137-075-0138",
+            "+61-137-452-0867"
+        ],
+        "socMedias": [
+            {
+                "google": "cpatters137@telia.com@google.com"
+            },
+            {
+                "google": "cpatters137@telstra.com@google.com"
+            },
+            {
+                "google": "cpatters137@sktelecom.com@google.com"
+            }
+        ]
+    },
+    "otherInfo": {
+        "gender": "F",
+        "dateOfBirth": "1940-06-21"
+    },
+    "totalBooked": 9,
+    "discount": 0
+});
+db.customers.insertOne(
+{
+    "customerKey": "JEROYATE1934",
+    "name": {
+        "title": null,
+        "first": "Jerold",
+        "middle": null,
+        "last": "Yates",
+        "suffix": null
+    },
+    "address": {
+        "streetAddress": "9072 Blue Hill Way",
+        "buildingName": null,
+        "floor": null,
+        "roomAptCondoFlat": "C4",
+        "city": "Monkwood",
+        "stateProvince": "England",
+        "locality": "Hampshire",
+        "country": "GB",
+        "postalCode": "SO24",
+        "latitude": "51.0941",
+        "longitude": "-1.1486"
+    },
+    "contact": {
+        "email": "jyates138@eunet.com",
+        "phone": "+61-138-642-1934",
+        "socMedia": []
+    },
+    "login": {
+        "username": "jyates",
+        "oauth2": null,
+        "password": "$2y$10$nwvFOvgKam\/dB1tJIEB8EeK9voXei.V\/dsaJxNTAqBtIDVCvHBgHi"
+    },
+    "otherContact": {
+        "emails": [
+            "jyates138@telesystems.com",
+            "jyates138@nii.com",
+            "jyates138@unicom.com"
+        ],
+        "phoneNumbers": [
+            "+61-138-911-6609",
+            "+61-138-676-6842",
+            "+61-138-895-8153"
+        ]
+    },
+    "otherInfo": {
+        "gender": "M",
+        "dateOfBirth": "1977-06-21"
+    },
+    "totalBooked": 13,
+    "discount": 0.093
+});
+db.customers.insertOne(
+{
+    "customerKey": "ROSEWEST7401",
+    "name": {
+        "title": "Ms",
+        "first": "Rosette",
+        "middle": "M",
+        "last": "West",
+        "suffix": null
+    },
+    "address": {
+        "streetAddress": "5759 Green Tree Street",
+        "buildingName": null,
+        "floor": null,
+        "roomAptCondoFlat": null,
+        "city": "Killinkoski",
+        "stateProvince": "Virrat",
+        "locality": "Yl\u00e4-Pirkanmaa",
+        "country": "FI",
+        "postalCode": "34980",
+        "latitude": "62.4093",
+        "longitude": "23.8723"
+    },
+    "contact": {
+        "email": "rwest139@swisscom.com",
+        "phone": "+61-139-896-7401",
+        "socMedia": {
+            "line": "rwest139@swisscom.com@line.com"
+        }
+    },
+    "login": {
+        "username": "rwest",
+        "oauth2": "rwest@line.com",
+        "password": "$2y$10$h9k0zFsTwOrQb1e7x4fF8OnKFtNhCb4jX9XlcYq6wAlqxfnlw.Ubu"
+    },
+    "otherContact": {
+        "emails": [
+            "rwest139@zain.com"
+        ],
+        "phoneNumbers": [
+            "+61-139-492-9948"
+        ],
+        "socMedias": [
+            {
+                "linkedin": "rwest139@zain.com@linkedin.com"
+            }
+        ]
+    },
+    "otherInfo": {
+        "gender": "F",
+        "dateOfBirth": "1980-01-18"
+    },
+    "totalBooked": 7,
+    "discount": 0
+});
+db.customers.insertOne(
+{
+    "customerKey": "ZANDGRAH2657",
+    "name": {
+        "title": "Ms",
+        "first": "Zandra",
+        "middle": "Z",
+        "last": "Graham",
+        "suffix": null
+    },
+    "address": {
+        "streetAddress": "8458 Big Ditch Ride",
+        "buildingName": null,
+        "floor": null,
+        "roomAptCondoFlat": null,
+        "city": "Garfield",
+        "stateProvince": "VIC",
+        "locality": "VIC FAR COUNTRY",
+        "country": "AU",
+        "postalCode": "3814",
+        "latitude": "-38.0899",
+        "longitude": "145.675"
+    },
+    "contact": {
+        "email": "zgraham140@daxnet.com",
+        "phone": "+61-140-315-2657",
+        "socMedia": {
+            "line": "zgraham140@daxnet.com@line.com"
+        }
+    },
+    "login": {
+        "username": "zgraham",
+        "oauth2": "zgraham@line.com",
+        "password": "$2y$10$ElEW37gdRvQWUfNjmf4\/n.ZOGPvREBX8fPHTSDUkGhrxzGmlYFYdK"
+    },
+    "otherContact": {
+        "emails": [
+            "zgraham140@seednet.com",
+            "zgraham140@att.com",
+            "zgraham140@telekom.com"
+        ],
+        "phoneNumbers": [
+            "+61-140-907-7483",
+            "+61-140-290-1710",
+            "+61-140-910-1895"
+        ],
+        "socMedias": [
+            {
+                "linkedin": "zgraham140@seednet.com@linkedin.com"
+            },
+            {
+                "twitter": "zgraham140@att.com@twitter.com"
+            },
+            {
+                "facebook": "zgraham140@telekom.com@facebook.com"
+            }
+        ]
+    },
+    "otherInfo": {
+        "gender": "F",
+        "dateOfBirth": "1945-04-16"
+    },
+    "totalBooked": 41,
+    "discount": 0.11800000000000001
+});
+db.customers.insertOne(
+{
+    "customerKey": "VANDWANG1720",
+    "name": {
+        "title": null,
+        "first": "Vanda",
+        "middle": null,
+        "last": "Wang",
+        "suffix": null
+    },
+    "address": {
+        "streetAddress": "4642 Blue Mound Boulevard",
+        "buildingName": null,
+        "floor": null,
+        "roomAptCondoFlat": null,
+        "city": "Veverita",
+        "stateProvince": "Calarasi",
+        "locality": "Calarasi",
+        "country": "MD",
+        "postalCode": "MD-3631",
+        "latitude": "47.3442",
+        "longitude": "28.1056"
+    },
+    "contact": {
+        "email": "vwang141@apicnet.com",
+        "phone": "+61-141-684-1720",
+        "socMedia": []
+    },
+    "login": {
+        "username": "vwang",
+        "oauth2": null,
+        "password": "$2y$10$M6qQE4Y3sSLNuWcafOtE.ONerFE6E9.DL.iGrHGvztWLNGdw7NEjy"
+    },
+    "otherContact": {
+        "emails": [
+            "vwang141@mtn.com"
+        ],
+        "phoneNumbers": [
+            "+61-141-378-4178"
+        ]
+    },
+    "otherInfo": {
+        "gender": "F",
+        "dateOfBirth": "1990-09-29"
+    },
+    "totalBooked": 50,
+    "discount": 0.044
+});
+db.customers.insertOne(
+{
+    "customerKey": "JOSIVANG2778",
+    "name": {
+        "title": "Mr",
+        "first": "Josiah",
+        "middle": "Q",
+        "last": "Vang",
+        "suffix": null
+    },
+    "address": {
+        "streetAddress": "2346 Short Bridge Ride",
+        "buildingName": null,
+        "floor": null,
+        "roomAptCondoFlat": null,
+        "city": "Saint Anne",
+        "stateProvince": "IL",
+        "locality": "Kankakee",
+        "country": "US",
+        "postalCode": "60964",
+        "latitude": "41.0487",
+        "longitude": "-87.6564"
+    },
+    "contact": {
+        "email": "jvang142@nordnet.com",
+        "phone": "+61-142-355-2778",
+        "socMedia": {
+            "line": "jvang142@nordnet.com@line.com"
+        }
+    },
+    "login": {
+        "username": "jvang",
+        "oauth2": "jvang@line.com",
+        "password": "$2y$10$XkITIzDoi8DmeBBmmNyp5uS2oWBvT2a6qIX0QvQwg4sKaDN1ErZe6"
+    },
+    "otherContact": {
+        "emails": [
+            "jvang142@belgacom.com"
+        ],
+        "phoneNumbers": [
+            "+61-142-673-8268"
+        ],
+        "socMedias": [
+            {
+                "twitter": "jvang142@belgacom.com@twitter.com"
+            }
+        ]
+    },
+    "otherInfo": {
+        "gender": "M",
+        "dateOfBirth": "2000-03-12"
+    },
+    "totalBooked": 18,
+    "discount": 0
+});
+db.customers.insertOne(
+{
+    "customerKey": "ALEXHOUS0709",
+    "name": {
+        "title": "Ms",
+        "first": "Alexandra",
+        "middle": "X",
+        "last": "Houston",
+        "suffix": null
+    },
+    "address": {
+        "streetAddress": "2057 Long Stream Drive",
+        "buildingName": "Building 11",
+        "floor": null,
+        "roomAptCondoFlat": null,
+        "city": "Danmarkshavn",
+        "stateProvince": null,
+        "locality": null,
+        "country": "GL",
+        "postalCode": "3984",
+        "latitude": "76.8",
+        "longitude": "-18.6"
+    },
+    "contact": {
+        "email": "ahouston143@telecomitalia.com",
+        "phone": "+61-143-955-0709",
+        "socMedia": {
+            "google": "ahouston143@telecomitalia.com@google.com"
+        }
+    },
+    "login": {
+        "username": "ahouston",
+        "oauth2": "ahouston@google.com",
+        "password": "$2y$10$9DrH0uzqVk5goMqNKpoztuOQafi14SziDMbsJONG\/8tVYUSHcOIxe"
+    },
+    "otherContact": [],
+    "otherInfo": {
+        "gender": "F",
+        "dateOfBirth": "1999-03-24"
+    },
+    "totalBooked": 8,
+    "discount": 0
+});
+db.customers.insertOne(
+{
+    "customerKey": "MIRTHURS6957",
+    "name": {
+        "title": null,
+        "first": "Mirtha",
+        "middle": null,
+        "last": "Hurst",
+        "suffix": null
+    },
+    "address": {
+        "streetAddress": "6309 Short Canyon Avenue",
+        "buildingName": null,
+        "floor": 11,
+        "roomAptCondoFlat": "09",
+        "city": "Wilburn",
+        "stateProvince": "AR",
+        "locality": "Cleburne",
+        "country": "US",
+        "postalCode": "72179",
+        "latitude": "35.5106",
+        "longitude": "-91.8648"
+    },
+    "contact": {
+        "email": "mhurst144@cubenet.com",
+        "phone": "+61-144-010-6957",
+        "socMedia": []
+    },
+    "login": {
+        "username": "mhurst",
+        "oauth2": null,
+        "password": "$2y$10$lZ1NdgUxmltlF96gLDI7r.n0pEmd3G8GLU8p6KpQr63VRuJWUoSfq"
+    },
+    "otherContact": {
+        "emails": [
+            "mhurst144@relcom.com",
+            "mhurst144@telenor.com"
+        ],
+        "phoneNumbers": [
+            "+61-144-304-3842",
+            "+61-144-702-5101"
+        ]
+    },
+    "otherInfo": {
+        "gender": "F",
+        "dateOfBirth": "1936-06-01"
+    },
+    "totalBooked": 23,
+    "discount": 0.046
+});
+db.customers.insertOne(
+{
+    "customerKey": "MICHONEI0767",
+    "name": {
+        "title": "Mr",
+        "first": "Michael",
+        "middle": "F",
+        "last": "Oneill",
+        "suffix": null
+    },
+    "address": {
+        "streetAddress": "8104 Short Creek Circle",
+        "buildingName": null,
+        "floor": null,
+        "roomAptCondoFlat": null,
+        "city": "Staud\u017ei",
+        "stateProvince": "Gaigalavas pag.",
+        "locality": "Gaigalavas pag.",
+        "country": "LV",
+        "postalCode": "LV-4618",
+        "latitude": "56.6886",
+        "longitude": "27.0907"
+    },
+    "contact": {
+        "email": "moneill145@telus.com",
+        "phone": "+61-145-352-0767",
+        "socMedia": {
+            "facebook": "moneill145@telus.com@facebook.com"
+        }
+    },
+    "login": {
+        "username": "moneill",
+        "oauth2": "moneill@facebook.com",
+        "password": "$2y$10$PCwCYoKapY.eG5\/aCCZgbOXYsla7ZyOsrl5jmWbHbr32DfZQhFU\/e"
+    },
+    "otherContact": [],
+    "otherInfo": {
+        "gender": "M",
+        "dateOfBirth": "1932-10-03"
+    },
+    "totalBooked": 2,
+    "discount": 0
+});
+db.customers.insertOne(
+{
+    "customerKey": "JOHAFLEM3616",
+    "name": {
+        "title": "Ms",
+        "first": "Johanna",
+        "middle": "W",
+        "last": "Fleming",
+        "suffix": null
+    },
+    "address": {
+        "streetAddress": "480 Red Bend Drive",
+        "buildingName": null,
+        "floor": null,
+        "roomAptCondoFlat": null,
+        "city": "Narellan",
+        "stateProvince": "NSW",
+        "locality": "CAMPBELLTOWN",
+        "country": "AU",
+        "postalCode": "2567",
+        "latitude": "-34.0333",
+        "longitude": "150.7333"
+    },
+    "contact": {
+        "email": "jfleming146@belgacom.com",
+        "phone": "+61-146-986-3616",
+        "socMedia": {
+            "facebook": "jfleming146@belgacom.com@facebook.com"
+        }
+    },
+    "login": {
+        "username": "jfleming",
+        "oauth2": "jfleming@facebook.com",
+        "password": "$2y$10$5rXEE.Z2od6.KU8.JQnnueCLSoU\/ay8Ti1\/O5p1pJvKCvGNtTE4gi"
+    },
+    "otherContact": {
+        "emails": [
+            "jfleming146@belgacom.com"
+        ],
+        "phoneNumbers": [
+            "+61-146-901-7292"
+        ],
+        "socMedias": [
+            {
+                "google": "jfleming146@belgacom.com@google.com"
+            }
+        ]
+    },
+    "otherInfo": {
+        "gender": "F",
+        "dateOfBirth": "1946-04-14"
+    },
+    "totalBooked": 18,
+    "discount": 0
+});
+db.customers.insertOne(
+{
+    "customerKey": "TAYNJENN3801",
+    "name": {
+        "title": null,
+        "first": "Tayna",
+        "middle": null,
+        "last": "Jennings",
+        "suffix": null
+    },
+    "address": {
+        "streetAddress": "1372 Blue Mound Avenue",
+        "buildingName": null,
+        "floor": null,
+        "roomAptCondoFlat": null,
+        "city": "Santiago",
+        "stateProvince": "Santiago",
+        "locality": "Puriscal",
+        "country": "CR",
+        "postalCode": "10401",
+        "latitude": "9.8202",
+        "longitude": "-84.3063"
+    },
+    "contact": {
+        "email": "tjenning147@megafon.com",
+        "phone": "+61-147-120-3801",
+        "socMedia": []
+    },
+    "login": {
+        "username": "tjenning",
+        "oauth2": null,
+        "password": "$2y$10$vo8lcG\/hmrbzMKEgeQbuC.2HunM.cQUJn5a27SPsUMtoh4bx04DtC"
+    },
+    "otherContact": {
+        "emails": [
+            "tjenning147@icom.com",
+            "tjenning147@worldnet.com",
+            "tjenning147@sprint.com"
+        ],
+        "phoneNumbers": [
+            "+61-147-858-5172",
+            "+61-147-347-0314",
+            "+61-147-089-2931"
+        ]
+    },
+    "otherInfo": {
+        "gender": "F",
+        "dateOfBirth": "1974-07-12"
+    },
+    "totalBooked": 66,
+    "discount": 0.109
+});
+db.customers.insertOne(
+{
+    "customerKey": "LOGADRAK0937",
+    "name": {
+        "title": "Mr",
+        "first": "Logan",
+        "middle": "R",
+        "last": "Drake",
+        "suffix": null
+    },
+    "address": {
+        "streetAddress": "9399 Long Bend Drive",
+        "buildingName": null,
+        "floor": null,
+        "roomAptCondoFlat": null,
+        "city": "Mooroopna North West",
+        "stateProvince": "VIC",
+        "locality": "Victoria",
+        "country": "AU",
+        "postalCode": "3616",
+        "latitude": "-36.4455",
+        "longitude": "145.1411"
+    },
+    "contact": {
+        "email": "ldrake148@telecom.com",
+        "phone": "+61-148-632-0937",
+        "socMedia": {
+            "google": "ldrake148@telecom.com@google.com"
+        }
+    },
+    "login": {
+        "username": "ldrake",
+        "oauth2": "ldrake@google.com",
+        "password": "$2y$10$Y08h8vvE29P9K66zTa83MuKp0MFIXzqryks5j6dF3MKtFGlQ02XY2"
+    },
+    "otherContact": {
+        "emails": [
+            "ldrake148@oi.com",
+            "ldrake148@openworld.com",
+            "ldrake148@telia.com"
+        ],
+        "phoneNumbers": [
+            "+61-148-704-5615",
+            "+61-148-201-9281",
+            "+61-148-463-6539"
+        ],
+        "socMedias": [
+            {
+                "skype": "ldrake148@oi.com@skype.com"
+            },
+            {
+                "skype": "ldrake148@openworld.com@skype.com"
+            },
+            {
+                "linkedin": "ldrake148@telia.com@linkedin.com"
+            }
+        ]
+    },
+    "otherInfo": {
+        "gender": "M",
+        "dateOfBirth": "1964-02-10"
+    },
+    "totalBooked": 6,
+    "discount": 0
+});
+db.customers.insertOne(
+{
+    "customerKey": "TINITUCK7080",
+    "name": {
+        "title": "Ms",
+        "first": "Tinisha",
+        "middle": "X",
+        "last": "Tucker",
+        "suffix": null
+    },
+    "address": {
+        "streetAddress": "81 Blue River Road",
+        "buildingName": null,
+        "floor": null,
+        "roomAptCondoFlat": null,
+        "city": "Cs\u0151v\u00e1r",
+        "stateProvince": "PE",
+        "locality": "Pest",
+        "country": "HU",
+        "postalCode": "2615",
+        "latitude": "47.8167",
+        "longitude": "19.3333"
+    },
+    "contact": {
+        "email": "ttucker149@kddi.com",
+        "phone": "+61-149-017-7080",
+        "socMedia": {
+            "skype": "ttucker149@kddi.com@skype.com"
+        }
+    },
+    "login": {
+        "username": "ttucker",
+        "oauth2": "ttucker@skype.com",
+        "password": "$2y$10$Yru\/r.G3MbFQH9NS3DAeWeonxWu2V\/FEQa51\/2BSEwnNH\/IVmajg6"
+    },
+    "otherContact": {
+        "emails": [
+            "ttucker149@telstra.com"
+        ],
+        "phoneNumbers": [
+            "+61-149-734-0882"
+        ],
+        "socMedias": [
+            {
+                "twitter": "ttucker149@telstra.com@twitter.com"
+            }
+        ]
+    },
+    "otherInfo": {
+        "gender": "F",
+        "dateOfBirth": "1944-09-25"
+    },
+    "totalBooked": 12,
+    "discount": 0
+});
+db.customers.insertOne(
+{
+    "customerKey": "BERNMORA8554",
+    "name": {
+        "title": null,
+        "first": "Bernard",
+        "middle": null,
+        "last": "Moran",
+        "suffix": null
+    },
+    "address": {
+        "streetAddress": "66 Short Gulch Circle",
+        "buildingName": null,
+        "floor": null,
+        "roomAptCondoFlat": "ED",
+        "city": "Stanford Merthyr",
+        "stateProvince": "NSW",
+        "locality": "HUNTER",
+        "country": "AU",
+        "postalCode": "2327",
+        "latitude": "-32.8247",
+        "longitude": "151.4936"
+    },
+    "contact": {
+        "email": "bmoran150@lookdata.com",
+        "phone": "+61-150-232-8554",
+        "socMedia": []
+    },
+    "login": {
+        "username": "bmoran",
+        "oauth2": null,
+        "password": "$2y$10$OfksRa3hj1vV97Enlm7uS.g7Do.Y9f.bRQgtfHBD\/g\/tljn9CRa3."
+    },
+    "otherContact": {
+        "emails": [
+            "bmoran150@chunghwa.com",
+            "bmoran150@access.com",
+            "bmoran150@vodafone.com"
+        ],
+        "phoneNumbers": [
+            "+61-150-127-0152",
+            "+61-150-119-0815",
+            "+61-150-682-7907"
+        ]
+    },
+    "otherInfo": {
+        "gender": "M",
+        "dateOfBirth": "1971-04-17"
+    },
+    "totalBooked": 6,
+    "discount": 0.08
+});
+db.customers.insertOne(
+{
+    "customerKey": "MAURCOHE7905",
+    "name": {
+        "title": "Ms",
+        "first": "Maureen",
+        "middle": "Y",
+        "last": "Cohen",
+        "suffix": null
+    },
+    "address": {
+        "streetAddress": "3037 Winding Mound Circle",
+        "buildingName": null,
+        "floor": null,
+        "roomAptCondoFlat": null,
+        "city": "Riach\u00e3o do Dantas",
+        "stateProvince": "Sergipe",
+        "locality": "Sergipe",
+        "country": "BR",
+        "postalCode": "49320-000",
+        "latitude": "-11.0128",
+        "longitude": "-37.7868"
+    },
+    "contact": {
+        "email": "mcohen151@ccs.com",
+        "phone": "+61-151-684-7905",
+        "socMedia": {
+            "linkedin": "mcohen151@ccs.com@linkedin.com"
+        }
+    },
+    "login": {
+        "username": "mcohen",
+        "oauth2": "mcohen@linkedin.com",
+        "password": "$2y$10$MUo3KcEb6ZrJ9H1BZYCbjuVooec5gURSEXjDofuiiPBvOpZyEXF1W"
+    },
+    "otherContact": {
+        "emails": [
+            "mcohen151@maxcomm.com"
+        ],
+        "phoneNumbers": [
+            "+61-151-591-9966"
+        ],
+        "socMedias": [
+            {
+                "line": "mcohen151@maxcomm.com@line.com"
+            }
+        ]
+    },
+    "otherInfo": {
+        "gender": "F",
+        "dateOfBirth": "1968-02-13"
+    },
+    "totalBooked": 15,
+    "discount": 0
+});
+db.customers.insertOne(
+{
+    "customerKey": "RENAKEIT7465",
+    "name": {
+        "title": "Ms",
+        "first": "Renay",
+        "middle": "Y",
+        "last": "Keith",
+        "suffix": null
+    },
+    "address": {
+        "streetAddress": "4848 Big Ridge Street",
+        "buildingName": null,
+        "floor": null,
+        "roomAptCondoFlat": null,
+        "city": "Gothane Doniwade",
+        "stateProvince": "Rajapur",
+        "locality": "Ratnagiri",
+        "country": "IN",
+        "postalCode": "416705",
+        "latitude": "18.434",
+        "longitude": "75.1714"
+    },
+    "contact": {
+        "email": "rkeith152@ntt.com",
+        "phone": "+61-152-046-7465",
+        "socMedia": {
+            "skype": "rkeith152@ntt.com@skype.com"
+        }
+    },
+    "login": {
+        "username": "rkeith",
+        "oauth2": "rkeith@skype.com",
+        "password": "$2y$10$kZmcwdKUZDhedhklwJ5R1ex\/Wj1NNvEzMZAoeweW2A0X\/\/GmAWVEW"
+    },
+    "otherContact": {
+        "emails": [
+            "rkeith152@ote.com",
+            "rkeith152@rogers.com"
+        ],
+        "phoneNumbers": [
+            "+61-152-247-4370",
+            "+61-152-357-6842"
+        ],
+        "socMedias": [
+            {
+                "line": "rkeith152@ote.com@line.com"
+            },
+            {
+                "twitter": "rkeith152@rogers.com@twitter.com"
+            }
+        ]
+    },
+    "otherInfo": {
+        "gender": "F",
+        "dateOfBirth": "1978-05-25"
+    },
+    "totalBooked": 9,
+    "discount": 0
+});
+db.customers.insertOne(
+{
+    "customerKey": "KEENHAYE6337",
+    "name": {
+        "title": null,
+        "first": "Keenan",
+        "middle": null,
+        "last": "Hayes",
+        "suffix": null
+    },
+    "address": {
+        "streetAddress": "2117 Winding Mound Ride",
         "buildingName": null,
         "floor": 8,
         "roomAptCondoFlat": null,
-        "city": "South Durras",
-        "stateProvince": "NSW",
-        "locality": "NEW CNTRY WEST",
-        "country": "AU",
-        "postalCode": "2536",
-        "latitude": "-35.6513",
-        "longitude": "150.2952"
+        "city": "Madan",
+        "stateProvince": "H",
+        "locality": "Netrakona",
+        "country": "BD",
+        "postalCode": "2490",
+        "latitude": "24.7158",
+        "longitude": "90.9489"
     },
     "contact": {
-        "phone": "+61-116-223-5763",
-        "email": "swebb116@sprint.com",
-        "socMedia": null
+        "email": "khayes153@lguplus.com",
+        "phone": "+61-153-105-6337",
+        "socMedia": []
     },
     "login": {
-        "username": "swebb",
+        "username": "khayes",
         "oauth2": null,
-        "password": "$2y$10$XFpN\/KvHXESzP8eotrUSz.YcKC1SlAXgSuUlhvkmxgfQXmFEyfj66"
+        "password": "$2y$10$3uebCkNesM\/rxt2t.mN7HORrqxmESf0vcqysBjj.ye85b07ksT.lC"
     },
     "otherContact": {
         "emails": [
-            "swebb@vivendi.net"
-        ],
-        "phoneNumbers": [],
-        "socMedias": []
-    },
-    "otherInfo": {
-        "gender": "F",
-        "dateOfBirth": "1997-02-05"
-    }
-});
-db.customers.insertOne(
-{
-    "customerKey": "JORDCARD5491",
-    "name": {
-        "title": null,
-        "first": "Jordan",
-        "middle": null,
-        "last": "Cardenas",
-        "suffix": null
-    },
-    "address": {
-        "streetAddress": "9876 Red Hill Ride",
-        "buildingName": null,
-        "floor": null,
-        "roomAptCondoFlat": null,
-        "city": "Ruggell",
-        "stateProvince": "Ruggell",
-        "locality": "Ruggell",
-        "country": "LI",
-        "postalCode": "9491",
-        "latitude": "47.2484",
-        "longitude": "9.5345"
-    },
-    "contact": {
-        "phone": "+423-117-557-5491",
-        "email": "jcardena117@pldt.com",
-        "socMedia": null
-    },
-    "login": {
-        "username": "jcardena",
-        "oauth2": null,
-        "password": "$2y$10$Xk8mcaPZMR0CBu8r.lb7\/eqbTW6lwibE.P0jRzWqZisld5HxIO\/W."
-    },
-    "otherContact": {
-        "emails": [
-            "jcardena@econnect.net"
+            "khayes153@telecom.com",
+            "khayes153@megafon.com"
         ],
         "phoneNumbers": [
-            "+423-982-737-5439"
-        ],
-        "socMedias": []
+            "+61-153-760-8650",
+            "+61-153-794-0899"
+        ]
     },
     "otherInfo": {
         "gender": "M",
-        "dateOfBirth": "1931-03-12"
-    }
+        "dateOfBirth": "1969-03-02"
+    },
+    "totalBooked": 41,
+    "discount": 0.059000000000000004
 });
 db.customers.insertOne(
 {
-    "customerKey": "SAUNGREE8535",
+    "customerKey": "BERTHARD1929",
+    "name": {
+        "title": "Mr",
+        "first": "Bert",
+        "middle": "O",
+        "last": "Harding",
+        "suffix": null
+    },
+    "address": {
+        "streetAddress": "1475 Winding Mountain Street",
+        "buildingName": null,
+        "floor": null,
+        "roomAptCondoFlat": null,
+        "city": "Amla",
+        "stateProvince": "Hiranagar",
+        "locality": "Kathua",
+        "country": "IN",
+        "postalCode": "184144",
+        "latitude": "32.4913",
+        "longitude": "75.3387"
+    },
+    "contact": {
+        "email": "bharding154@access.com",
+        "phone": "+61-154-644-1929",
+        "socMedia": {
+            "linkedin": "bharding154@access.com@linkedin.com"
+        }
+    },
+    "login": {
+        "username": "bharding",
+        "oauth2": "bharding@linkedin.com",
+        "password": "$2y$10$Lcr14uCBzoBiBndwk...P..\/vNqoB8wRcK91MXYHY7WqCdP\/QcfWi"
+    },
+    "otherContact": {
+        "emails": [
+            "bharding154@orstom.com",
+            "bharding154@telefonica.com"
+        ],
+        "phoneNumbers": [
+            "+61-154-688-1714",
+            "+61-154-690-4592"
+        ],
+        "socMedias": [
+            {
+                "twitter": "bharding154@orstom.com@twitter.com"
+            },
+            {
+                "facebook": "bharding154@telefonica.com@facebook.com"
+            }
+        ]
+    },
+    "otherInfo": {
+        "gender": "M",
+        "dateOfBirth": "1986-06-14"
+    },
+    "totalBooked": 80,
+    "discount": 0.092
+});
+db.customers.insertOne(
+{
+    "customerKey": "TERISERR4761",
     "name": {
         "title": "Ms",
-        "first": "Saundra",
-        "middle": "J",
-        "last": "Green",
+        "first": "Terisa",
+        "middle": "M",
+        "last": "Serrano",
         "suffix": null
     },
     "address": {
-        "streetAddress": "5543 Blue Gully Circle",
+        "streetAddress": "6375 Winding Bridge Boulevard",
         "buildingName": null,
         "floor": null,
         "roomAptCondoFlat": null,
-        "city": "Ashmore",
-        "stateProvince": "England",
-        "locality": "Dorset",
-        "country": "GB",
-        "postalCode": "SP5",
-        "latitude": "50.95",
-        "longitude": "-2.1333"
-    },
-    "contact": {
-        "phone": "+44-118-639-8535",
-        "email": "sgreen118@belgacom.com",
-        "socMedia": null
-    },
-    "login": {
-        "username": "sgreen",
-        "oauth2": null,
-        "password": "$2y$10$RgV5wBWAbtWApckZiVoxwuykZ25GB3U2KLj7E7qxEzKwZ1Pn3B6mq"
-    },
-    "otherContact": {
-        "emails": [],
-        "phoneNumbers": [
-            "+44-206-846-7384"
-        ],
-        "socMedias": []
-    },
-    "otherInfo": {
-        "gender": "F",
-        "dateOfBirth": "1936-01-27"
-    }
-});
-db.customers.insertOne(
-{
-    "customerKey": "NORMPETE9416",
-    "name": {
-        "title": "Mr",
-        "first": "Norman",
-        "middle": "U",
-        "last": "Peters",
-        "suffix": null
-    },
-    "address": {
-        "streetAddress": "5589 Little Stream Avenue",
-        "buildingName": null,
-        "floor": null,
-        "roomAptCondoFlat": null,
-        "city": "\u041a\u043e\u0437\u044f\u043a\u0438",
-        "stateProvince": "Braslav",
-        "locality": "Braslav",
-        "country": "BY",
-        "postalCode": "211994",
-        "latitude": "55.448",
-        "longitude": "26.7731"
-    },
-    "contact": {
-        "phone": "+375-119-321-9416",
-        "email": "npeters119@telefonica.com",
-        "socMedia": null
-    },
-    "login": {
-        "username": "npeters",
-        "oauth2": null,
-        "password": "$2y$10$Q.vjv4p9H7pH4NytzvX53uv.slURxDI48ve\/K8.PuVoQvKterDbG."
-    },
-    "otherContact": {
-        "emails": [
-            "npeters@telecom.net"
-        ],
-        "phoneNumbers": [
-            "+375-945-453-7956",
-            "+375-519-735-1679",
-            "+375-996-959-0421"
-        ],
-        "socMedias": []
-    },
-    "otherInfo": {
-        "gender": "M",
-        "dateOfBirth": "2000-07-17"
-    }
-});
-db.customers.insertOne(
-{
-    "customerKey": "MARYHANS1661",
-    "name": {
-        "title": null,
-        "first": "Marybelle",
-        "middle": null,
-        "last": "Hanson",
-        "suffix": null
-    },
-    "address": {
-        "streetAddress": "2626 Little Creek Boulevard",
-        "buildingName": null,
-        "floor": null,
-        "roomAptCondoFlat": "64",
-        "city": "Bismarck",
-        "stateProvince": "ND",
-        "locality": "Burleigh",
-        "country": "US",
-        "postalCode": "58502",
-        "latitude": "46.8887",
-        "longitude": "-100.6819"
-    },
-    "contact": {
-        "phone": "+1-120-661-1661",
-        "email": "mhanson120@softbank.com",
-        "socMedia": {
-            "google": "mhanson@google.com"
-        }
-    },
-    "login": {
-        "username": "mhanson",
-        "oauth2": "mhanson@google.com",
-        "password": "$2y$10$JuYMe9h1rmHadfn3H7qDgOmf9brSOKIaWqOC3BK8sxyCSRQJuAVhK"
-    },
-    "otherContact": {
-        "emails": [
-            "mhanson@apicnet.net"
-        ],
-        "phoneNumbers": [
-            "+1-231-445-6141"
-        ],
-        "socMedias": {
-            "twitter": "mhanson@twitter.com",
-            "facebook": "mhanson@facebook.com"
-        }
-    },
-    "otherInfo": {
-        "gender": "F",
-        "dateOfBirth": "1955-02-09"
-    }
-});
-db.customers.insertOne(
-{
-    "customerKey": "BOBBELLI1227",
-    "name": {
-        "title": "Mr",
-        "first": "Bobby",
-        "middle": "G",
-        "last": "Ellis",
-        "suffix": null
-    },
-    "address": {
-        "streetAddress": "2743 Short Stream Avenue",
-        "buildingName": "Building D5",
-        "floor": null,
-        "roomAptCondoFlat": null,
-        "city": "La Tontouta",
-        "stateProvince": "Pa\u00efta",
-        "locality": "Pa\u00efta",
-        "country": "NC",
-        "postalCode": "98840",
-        "latitude": "-22.0128",
-        "longitude": "166.2237"
-    },
-    "contact": {
-        "phone": "+687-121-010-1227",
-        "email": "bellis121@telesystems.com",
-        "socMedia": null
-    },
-    "login": {
-        "username": "bellis",
-        "oauth2": null,
-        "password": "$2y$10$hxfZrJypzYCREmq26hCaveWEdy5ZhEEIxxHXO4DTCfLizZUaTN5bC"
-    },
-    "otherContact": {
-        "emails": [
-            "bellis@daxnet.net"
-        ],
-        "phoneNumbers": [
-            "+687-213-402-1776",
-            "+687-264-907-9611",
-            "+687-633-080-1193"
-        ],
-        "socMedias": []
-    },
-    "otherInfo": {
-        "gender": "M",
-        "dateOfBirth": "1973-06-14"
-    }
-});
-db.customers.insertOne(
-{
-    "customerKey": "EDUALIVI7685",
-    "name": {
-        "title": "Mr",
-        "first": "Eduardo",
-        "middle": "I",
-        "last": "Livingston",
-        "suffix": null
-    },
-    "address": {
-        "streetAddress": "7882 Short Mound Road",
-        "buildingName": null,
-        "floor": null,
-        "roomAptCondoFlat": null,
-        "city": "Tambyachiwadi",
-        "stateProvince": "Bhudargad",
+        "city": "Karanjphen",
+        "stateProvince": "Panhala",
         "locality": "Kolhapur",
         "country": "IN",
-        "postalCode": "416210",
-        "latitude": "16.8493",
-        "longitude": "73.9203"
+        "postalCode": "416205",
+        "latitude": "16.6914",
+        "longitude": "74.124"
     },
     "contact": {
-        "phone": "+91-122-008-7685",
-        "email": "elivings122@turkcell.com",
-        "socMedia": null
+        "email": "tserrano155@worldnet.com",
+        "phone": "+61-155-866-4761",
+        "socMedia": {
+            "facebook": "tserrano155@worldnet.com@facebook.com"
+        }
     },
     "login": {
-        "username": "elivings",
-        "oauth2": null,
-        "password": "$2y$10$kdVF8a.EtoEf7ShEW9JCaeYmaMTW0sZlIJSu3zXdla4mUZIT.Y5Ce"
+        "username": "tserrano",
+        "oauth2": "tserrano@facebook.com",
+        "password": "$2y$10$h\/e2\/X4sQ\/MUeUH7TvU9TOaYA5z.xvx1Z8UJwxNsONvY5t3gBdBYy"
     },
     "otherContact": {
         "emails": [
-            "elivings@tm.net",
-            "elivings@optus.net"
+            "tserrano155@relcom.com",
+            "tserrano155@ktc.com"
         ],
         "phoneNumbers": [
-            "+91-185-670-1113"
+            "+61-155-710-5445",
+            "+61-155-290-5995"
         ],
-        "socMedias": []
-    },
-    "otherInfo": {
-        "gender": "M",
-        "dateOfBirth": "1941-12-01"
-    }
-});
-db.customers.insertOne(
-{
-    "customerKey": "GAYNMYER8195",
-    "name": {
-        "title": null,
-        "first": "Gaynelle",
-        "middle": null,
-        "last": "Myers",
-        "suffix": null
-    },
-    "address": {
-        "streetAddress": "7451 Blue Tree Drive",
-        "buildingName": null,
-        "floor": null,
-        "roomAptCondoFlat": null,
-        "city": "Manzaneda De Bia\u00f1ez",
-        "stateProvince": "PV",
-        "locality": "Vizcaya",
-        "country": "ES",
-        "postalCode": "48890",
-        "latitude": "43.2384",
-        "longitude": "-3.3347"
-    },
-    "contact": {
-        "phone": "+34-123-648-8195",
-        "email": "gmyers123@telecom.com",
-        "socMedia": null
-    },
-    "login": {
-        "username": "gmyers",
-        "oauth2": null,
-        "password": "$2y$10$1H1dZocB8jka7jYUIYtfS.k1t.y4yJ8EjH9w6infjV7yp7ec.ro1u"
-    },
-    "otherContact": {
-        "emails": [
-            "gmyers@telecom.net"
-        ],
-        "phoneNumbers": [
-            "+34-940-011-8888",
-            "+34-223-038-7860"
-        ],
-        "socMedias": []
+        "socMedias": [
+            {
+                "facebook": "tserrano155@relcom.com@facebook.com"
+            },
+            {
+                "twitter": "tserrano155@ktc.com@twitter.com"
+            }
+        ]
     },
     "otherInfo": {
         "gender": "F",
-        "dateOfBirth": "1966-07-21"
-    }
+        "dateOfBirth": "1999-06-12"
+    },
+    "totalBooked": 18,
+    "discount": 0
 });
 db.customers.insertOne(
 {
-    "customerKey": "RAYFSOTO2211",
+    "customerKey": "GLADJENS3148",
     "name": {
-        "title": "Mr",
-        "first": "Rayford",
-        "middle": "M",
-        "last": "Soto",
+        "title": "Dr",
+        "first": "Glady",
+        "middle": null,
+        "last": "Jensen",
+        "suffix": "II"
+    },
+    "address": {
+        "streetAddress": "1233 Green Woods Drive",
+        "buildingName": "Building B1",
+        "floor": null,
+        "roomAptCondoFlat": "50",
+        "city": "Ashurst",
+        "stateProvince": "England",
+        "locality": "Hampshire",
+        "country": "GB",
+        "postalCode": "SO40",
+        "latitude": "50.9133",
+        "longitude": "-1.504"
+    },
+    "contact": {
+        "email": "gjensen156@ccs.com",
+        "phone": "+61-156-294-3148",
+        "socMedia": []
+    },
+    "login": {
+        "username": "gjensen",
+        "oauth2": null,
+        "password": "$2y$10$gzjJxL.vBh943ZTUYXYHSePzDGRE1M9\/wS9yd3t9hnGxe\/mflo.\/G"
+    },
+    "otherContact": [],
+    "otherInfo": {
+        "gender": "F",
+        "dateOfBirth": "1931-07-21"
+    },
+    "totalBooked": 20,
+    "discount": 0.08700000000000001
+});
+db.customers.insertOne(
+{
+    "customerKey": "ROSEWALT7351",
+    "name": {
+        "title": "Ms",
+        "first": "Rosette",
+        "middle": "B",
+        "last": "Walton",
         "suffix": null
     },
     "address": {
-        "streetAddress": "4600 Green Stream Avenue",
+        "streetAddress": "9240 Big River Avenue",
         "buildingName": null,
         "floor": null,
         "roomAptCondoFlat": null,
+        "city": "Fort-de-France",
+        "stateProvince": "MQ",
+        "locality": "Martinique",
+        "country": "MQ",
+        "postalCode": "97263 CEDEX",
+        "latitude": "14.6089",
+        "longitude": "-61.0733"
+    },
+    "contact": {
+        "email": "rwalton157@orstom.com",
+        "phone": "+61-157-763-7351",
+        "socMedia": {
+            "line": "rwalton157@orstom.com@line.com"
+        }
+    },
+    "login": {
+        "username": "rwalton",
+        "oauth2": "rwalton@line.com",
+        "password": "$2y$10$GC.JeLZhWEo\/gF5m4Vak9.\/xrabyUlYaixMVhG9qeQDyKEleFy8a2"
+    },
+    "otherContact": [],
+    "otherInfo": {
+        "gender": "F",
+        "dateOfBirth": "1963-01-28"
+    },
+    "totalBooked": 17,
+    "discount": 0
+});
+db.customers.insertOne(
+{
+    "customerKey": "ARMAGRIM7795",
+    "name": {
+        "title": "Mr",
+        "first": "Armando",
+        "middle": "Z",
+        "last": "Grimes",
+        "suffix": null
+    },
+    "address": {
+        "streetAddress": "7638 Little Creek Circle",
+        "buildingName": null,
+        "floor": null,
+        "roomAptCondoFlat": null,
+        "city": "Sherpur",
+        "stateProvince": "Bharthana",
+        "locality": "Etawah",
+        "country": "IN",
+        "postalCode": "206124",
+        "latitude": "26.8736",
+        "longitude": "79.0896"
+    },
+    "contact": {
+        "email": "agrimes158@ui.com",
+        "phone": "+61-158-789-7795",
+        "socMedia": {
+            "google": "agrimes158@ui.com@google.com"
+        }
+    },
+    "login": {
+        "username": "agrimes",
+        "oauth2": "agrimes@google.com",
+        "password": "$2y$10$3NvpTFG10csgAEqNfemDdOBi4b.W.8y7pPH30YFeC\/vLqnmQ7kI7C"
+    },
+    "otherContact": {
+        "emails": [
+            "agrimes158@relcom.com"
+        ],
+        "phoneNumbers": [
+            "+61-158-028-0573"
+        ],
+        "socMedias": [
+            {
+                "twitter": "agrimes158@relcom.com@twitter.com"
+            }
+        ]
+    },
+    "otherInfo": {
+        "gender": "M",
+        "dateOfBirth": "1994-06-20"
+    },
+    "totalBooked": 8,
+    "discount": 0
+});
+db.customers.insertOne(
+{
+    "customerKey": "ALDEKHAN0390",
+    "name": {
+        "title": null,
+        "first": "Alden",
+        "middle": null,
+        "last": "Khan",
+        "suffix": null
+    },
+    "address": {
+        "streetAddress": "5474 Long Bridge Ride",
+        "buildingName": null,
+        "floor": null,
+        "roomAptCondoFlat": null,
+        "city": "Kinderdijk",
+        "stateProvince": "Molenwaard",
+        "locality": "Molenwaard",
+        "country": "NL",
+        "postalCode": "2961",
+        "latitude": "51.8865",
+        "longitude": "4.6323"
+    },
+    "contact": {
+        "email": "akhan159@telus.com",
+        "phone": "+61-159-791-0390",
+        "socMedia": []
+    },
+    "login": {
+        "username": "akhan",
+        "oauth2": null,
+        "password": "$2y$10$4BhFmItV9OOROLqJ\/euYxO3W.1Ak\/qNZF6\/DHCvP1PrxkP08CD1B."
+    },
+    "otherContact": {
+        "emails": [
+            "akhan159@frontier.com"
+        ],
+        "phoneNumbers": [
+            "+61-159-055-9783"
+        ]
+    },
+    "otherInfo": {
+        "gender": "M",
+        "dateOfBirth": "1953-06-27"
+    },
+    "totalBooked": 35,
+    "discount": 0.037
+});
+db.customers.insertOne(
+{
+    "customerKey": "RUSSCLAR9205",
+    "name": {
+        "title": "Ms",
+        "first": "Russel",
+        "middle": "S",
+        "last": "Clark",
+        "suffix": null
+    },
+    "address": {
+        "streetAddress": "1848 Little Ditch Ride",
+        "buildingName": null,
+        "floor": null,
+        "roomAptCondoFlat": null,
+        "city": "Algoma Southwest (Blind River)",
+        "stateProvince": "ON",
+        "locality": "Algoma",
+        "country": "CA",
+        "postalCode": "P0R",
+        "latitude": "46.5984",
+        "longitude": "-83.0385"
+    },
+    "contact": {
+        "email": "rclark160@lookdata.com",
+        "phone": "+61-160-308-9205",
+        "socMedia": {
+            "twitter": "rclark160@lookdata.com@twitter.com"
+        }
+    },
+    "login": {
+        "username": "rclark",
+        "oauth2": "rclark@twitter.com",
+        "password": "$2y$10$kiJ8Re6m9maXMBKlrkq2Gu2GxAoQVbRfLffH2hVGrhfKcd8l9mmtO"
+    },
+    "otherContact": {
+        "emails": [
+            "rclark160@swisscom.com",
+            "rclark160@ntt.com"
+        ],
+        "phoneNumbers": [
+            "+61-160-315-7462",
+            "+61-160-381-2938"
+        ],
+        "socMedias": [
+            {
+                "google": "rclark160@swisscom.com@google.com"
+            },
+            {
+                "line": "rclark160@ntt.com@line.com"
+            }
+        ]
+    },
+    "otherInfo": {
+        "gender": "X",
+        "dateOfBirth": "1964-05-05"
+    },
+    "totalBooked": 17,
+    "discount": 0
+});
+db.customers.insertOne(
+{
+    "customerKey": "SHERNICH8304",
+    "name": {
+        "title": "Ms",
+        "first": "Sherilyn",
+        "middle": "A",
+        "last": "Nichols",
+        "suffix": null
+    },
+    "address": {
+        "streetAddress": "8892 Red Gulch Ride",
+        "buildingName": null,
+        "floor": null,
+        "roomAptCondoFlat": null,
+        "city": "Piziki",
+        "stateProvince": "Dric\u0101nu pag.",
+        "locality": "Dric\u0101nu pag.",
+        "country": "LV",
+        "postalCode": "LV-4615",
+        "latitude": "56.6651",
+        "longitude": "27.1753"
+    },
+    "contact": {
+        "email": "snichols161@algonet.com",
+        "phone": "+61-161-021-8304",
+        "socMedia": {
+            "twitter": "snichols161@algonet.com@twitter.com"
+        }
+    },
+    "login": {
+        "username": "snichols",
+        "oauth2": "snichols@twitter.com",
+        "password": "$2y$10$otft\/a04ZpA8N5yEZ0vdYOAuhiZgyfP4fslJHmfK4AI47pFr36ZlC"
+    },
+    "otherContact": {
+        "emails": [
+            "snichols161@ote.com",
+            "snichols161@telecomitalia.com",
+            "snichols161@kddi.com"
+        ],
+        "phoneNumbers": [
+            "+61-161-539-7424",
+            "+61-161-604-0463",
+            "+61-161-859-1186"
+        ],
+        "socMedias": [
+            {
+                "line": "snichols161@ote.com@line.com"
+            },
+            {
+                "line": "snichols161@telecomitalia.com@line.com"
+            },
+            {
+                "twitter": "snichols161@kddi.com@twitter.com"
+            }
+        ]
+    },
+    "otherInfo": {
+        "gender": "F",
+        "dateOfBirth": "1930-12-25"
+    },
+    "totalBooked": 13,
+    "discount": 0.056
+});
+db.customers.insertOne(
+{
+    "customerKey": "PINGSWEE9284",
+    "name": {
+        "title": "Dr",
+        "first": "Ping",
+        "middle": null,
+        "last": "Sweeney",
+        "suffix": "Jr"
+    },
+    "address": {
+        "streetAddress": "4241 Little Woods Avenue",
+        "buildingName": null,
+        "floor": 13,
+        "roomAptCondoFlat": "76",
         "city": "Sainte-Genevi\u00e8ve",
         "stateProvince": "QC",
         "locality": "Quebec",
@@ -1108,3367 +3368,1021 @@ db.customers.insertOne(
         "longitude": "-73.8565"
     },
     "contact": {
-        "phone": "+1-124-032-2211",
-        "email": "rsoto124@econnect.com",
-        "socMedia": null
+        "email": "psweeney162@millicom.com",
+        "phone": "+61-162-070-9284",
+        "socMedia": []
     },
     "login": {
-        "username": "rsoto",
+        "username": "psweeney",
         "oauth2": null,
-        "password": "$2y$10$0cmfiCPVGnFfPm2r0Y.nteOcN8.Sq5rgGWaaM87SCkWVF3lJ2SpmG"
+        "password": "$2y$10$CUx9ZQkpBOe.zPSI6nq\/dOThM4Y7l6pSgd9Kj33SdNAq1Tbif5xWG"
     },
-    "otherContact": {
-        "emails": [
-            "rsoto@zain.net",
-            "rsoto@rogers.net"
-        ],
-        "phoneNumbers": [],
-        "socMedias": []
-    },
+    "otherContact": [],
     "otherInfo": {
-        "gender": "M",
-        "dateOfBirth": "1939-12-27"
-    }
+        "gender": "F",
+        "dateOfBirth": "1949-05-18"
+    },
+    "totalBooked": 47,
+    "discount": 0.066
 });
 db.customers.insertOne(
 {
-    "customerKey": "CHRISCHM7138",
-    "name": {
-        "title": null,
-        "first": "Chris",
-        "middle": null,
-        "last": "Schmidt",
-        "suffix": null
-    },
-    "address": {
-        "streetAddress": "7658 Big Stream Way",
-        "buildingName": null,
-        "floor": null,
-        "roomAptCondoFlat": null,
-        "city": "Carew Cheriton",
-        "stateProvince": "Wales",
-        "locality": "Pembrokeshire",
-        "country": "GB",
-        "postalCode": "SA70",
-        "latitude": "51.6747",
-        "longitude": "-4.7691"
-    },
-    "contact": {
-        "phone": "+44-126-167-7138",
-        "email": "cschmidt126@bce.com",
-        "socMedia": null
-    },
-    "login": {
-        "username": "cschmidt",
-        "oauth2": null,
-        "password": "$2y$10$287vztFb22NSb0E5dOMsqenP6niI59IGc3ApsYYdKLwm23kfjzewK"
-    },
-    "otherContact": {
-        "emails": [
-            "cschmidt@orstom.net"
-        ],
-        "phoneNumbers": [
-            "+44-200-991-0947"
-        ],
-        "socMedias": []
-    },
-    "otherInfo": {
-        "gender": "M",
-        "dateOfBirth": "1991-12-11"
-    }
-});
-db.customers.insertOne(
-{
-    "customerKey": "MICHRICH0854",
+    "customerKey": "GARRSHOR9849",
     "name": {
         "title": "Mr",
-        "first": "Michel",
-        "middle": "Y",
-        "last": "Richards",
+        "first": "Garrett",
+        "middle": "H",
+        "last": "Short",
         "suffix": null
     },
     "address": {
-        "streetAddress": "2431 Long Bridge Street",
+        "streetAddress": "2599 Green Bridge Drive",
         "buildingName": null,
         "floor": null,
         "roomAptCondoFlat": null,
-        "city": "Badarkali",
-        "stateProvince": "Chiringga",
-        "locality": "Cox\u2019s Bazar",
-        "country": "BD",
-        "postalCode": "4742",
-        "latitude": "21.3576",
-        "longitude": "92.0807"
-    },
-    "contact": {
-        "phone": "+880-127-617-0854",
-        "email": "mrichard127@openworld.com",
-        "socMedia": null
-    },
-    "login": {
-        "username": "mrichard",
-        "oauth2": null,
-        "password": "$2y$10$B7ppMqI\/y0tfIJdgCti.H.15Yezz.JAbOrJfqdbNqbZrM917B01Xi"
-    },
-    "otherContact": {
-        "emails": [],
-        "phoneNumbers": [
-            "+880-373-362-1033",
-            "+880-141-114-7178"
-        ],
-        "socMedias": []
-    },
-    "otherInfo": {
-        "gender": "M",
-        "dateOfBirth": "1946-12-13"
-    }
-});
-db.customers.insertOne(
-{
-    "customerKey": "ROCIBLAC3099",
-    "name": {
-        "title": "Ms",
-        "first": "Rocio",
-        "middle": "Q",
-        "last": "Black",
-        "suffix": null
-    },
-    "address": {
-        "streetAddress": "9855 Blue Creek Road",
-        "buildingName": null,
-        "floor": null,
-        "roomAptCondoFlat": null,
-        "city": "Belbroughton",
-        "stateProvince": "England",
-        "locality": "Worcestershire",
-        "country": "GB",
-        "postalCode": "DY9",
-        "latitude": "52.3918",
-        "longitude": "-2.1188"
-    },
-    "contact": {
-        "phone": "+44-128-455-3099",
-        "email": "rblack128@sktelecom.com",
-        "socMedia": null
-    },
-    "login": {
-        "username": "rblack",
-        "oauth2": null,
-        "password": "$2y$10$jgyyLzT2fIZyGQVrsHQhF.4s844JZ0aaK9qP9bYbnwx5anAP1UvJ."
-    },
-    "otherContact": {
-        "emails": [
-            "rblack@netcom.net",
-            "rblack@nordnet.net",
-            "rblack@eunet.net"
-        ],
-        "phoneNumbers": [
-            "+44-404-822-0373"
-        ],
-        "socMedias": []
-    },
-    "otherInfo": {
-        "gender": "F",
-        "dateOfBirth": "1947-06-16"
-    }
-});
-db.customers.insertOne(
-{
-    "customerKey": "MALIMANN8579",
-    "name": {
-        "title": null,
-        "first": "Malik",
-        "middle": null,
-        "last": "Mann",
-        "suffix": null
-    },
-    "address": {
-        "streetAddress": "7623 Blue Bough Drive",
-        "buildingName": null,
-        "floor": null,
-        "roomAptCondoFlat": null,
-        "city": "Putte Beerzel",
-        "stateProvince": "VLG",
-        "locality": "Antwerpen",
-        "country": "BE",
-        "postalCode": "2580",
-        "latitude": "51.0667",
-        "longitude": "4.6667"
-    },
-    "contact": {
-        "phone": "+32-129-285-8579",
-        "email": "mmann129@bce.com",
-        "socMedia": null
-    },
-    "login": {
-        "username": "mmann",
-        "oauth2": null,
-        "password": "$2y$10$NUBv5H\/q8Y0qdUlHNuN3UuUn9UcKrtdAo3T2JFdpNolvXuOO0A1D6"
-    },
-    "otherContact": {
-        "emails": [
-            "mmann@daxnet.net"
-        ],
-        "phoneNumbers": [
-            "+32-622-706-0165",
-            "+32-766-854-7748"
-        ],
-        "socMedias": []
-    },
-    "otherInfo": {
-        "gender": "M",
-        "dateOfBirth": "1975-11-05"
-    }
-});
-db.customers.insertOne(
-{
-    "customerKey": "NOHEHESS8462",
-    "name": {
-        "title": "Ms",
-        "first": "Nohemi",
-        "middle": "T",
-        "last": "Hess",
-        "suffix": null
-    },
-    "address": {
-        "streetAddress": "9739 Green Bridge Circle",
-        "buildingName": null,
-        "floor": 10,
-        "roomAptCondoFlat": null,
-        "city": "Central Toronto (Summerhill West \/ Rathnelly \/ South Hill \/ Forest Hill SE \/ Deer Park)",
-        "stateProvince": "ON",
-        "locality": "Toronto",
-        "country": "CA",
-        "postalCode": "M4V",
-        "latitude": "43.6861",
-        "longitude": "-79.4025"
-    },
-    "contact": {
-        "phone": "+1-130-007-8462",
-        "email": "nhess130@lguplus.com",
-        "socMedia": {
-            "facebook": "nhess@facebook.com"
-        }
-    },
-    "login": {
-        "username": "nhess",
-        "oauth2": "nhess@facebook.com",
-        "password": "$2y$10$vSSXZsLnWf3zYCdPGIbFH.LLLzYIyfOEcnWV0CSSKyaIgwsOHYvAm"
-    },
-    "otherContact": {
-        "emails": [],
-        "phoneNumbers": [
-            "+1-139-859-1729",
-            "+1-642-004-1368",
-            "+1-966-458-3953"
-        ],
-        "socMedias": {
-            "skype": "nhess@skype.com",
-            "linkedin": "nhess@linkedin.com"
-        }
-    },
-    "otherInfo": {
-        "gender": "F",
-        "dateOfBirth": "1937-05-13"
-    }
-});
-db.customers.insertOne(
-{
-    "customerKey": "LYNGRIM0869",
-    "name": {
-        "title": "Ms",
-        "first": "Lyn",
-        "middle": "E",
-        "last": "Grimes",
-        "suffix": null
-    },
-    "address": {
-        "streetAddress": "6373 Short Gulch Circle",
-        "buildingName": null,
-        "floor": null,
-        "roomAptCondoFlat": null,
-        "city": "\u041a\u043e\u0442\u043b\u0435\u043d\u0446\u0438 \/ Kotlenci",
-        "stateProvince": "DOB",
-        "locality": "\u0414\u043e\u0431\u0440\u0438\u0447 \/ Dobrich",
-        "country": "BG",
-        "postalCode": "9374",
-        "latitude": "43.5667",
-        "longitude": "27.9167"
-    },
-    "contact": {
-        "phone": "+359-131-628-0869",
-        "email": "lgrimes131@verizon.com",
-        "socMedia": null
-    },
-    "login": {
-        "username": "lgrimes",
-        "oauth2": null,
-        "password": "$2y$10$Dl7SWT6mJfK9EjosiZ96Aurny2L7gSRaop9jp3Krlu33jbeCUqTaS"
-    },
-    "otherContact": {
-        "emails": [],
-        "phoneNumbers": [
-            "+359-899-746-1605",
-            "+359-106-068-0035"
-        ],
-        "socMedias": []
-    },
-    "otherInfo": {
-        "gender": "F",
-        "dateOfBirth": "1953-01-28"
-    }
-});
-db.customers.insertOne(
-{
-    "customerKey": "EMERFERN9139",
-    "name": {
-        "title": null,
-        "first": "Emery",
-        "middle": null,
-        "last": "Fernandez",
-        "suffix": null
-    },
-    "address": {
-        "streetAddress": "3852 Little Mountain Circle",
-        "buildingName": null,
-        "floor": 18,
-        "roomAptCondoFlat": null,
-        "city": "Burrawang",
-        "stateProvince": "NSW",
-        "locality": "CAMPBELLTOWN",
-        "country": "AU",
-        "postalCode": "2577",
-        "latitude": "-34.5853",
-        "longitude": "150.5115"
-    },
-    "contact": {
-        "phone": "+61-132-636-9139",
-        "email": "efernand132@rogers.com",
-        "socMedia": null
-    },
-    "login": {
-        "username": "efernand",
-        "oauth2": null,
-        "password": "$2y$10$gLDXi5JNt\/UHNuUmHSXTnOC28\/DigFhNfrKYWG4.b86OALVnPVSyi"
-    },
-    "otherContact": {
-        "emails": [],
-        "phoneNumbers": [
-            "+61-47-953-5462"
-        ],
-        "socMedias": []
-    },
-    "otherInfo": {
-        "gender": "M",
-        "dateOfBirth": "1995-11-14"
-    }
-});
-db.customers.insertOne(
-{
-    "customerKey": "VIOLRODR0219",
-    "name": {
-        "title": "Ms",
-        "first": "Violette",
-        "middle": "Y",
-        "last": "Rodriguez",
-        "suffix": null
-    },
-    "address": {
-        "streetAddress": "1873 Blue Mountain Way",
-        "buildingName": null,
-        "floor": null,
-        "roomAptCondoFlat": null,
-        "city": "\u041a\u043e\u043f\u0430\u043d\u044c",
-        "stateProvince": "Retchitsa",
-        "locality": "Retchitsa",
-        "country": "BY",
-        "postalCode": "247515",
-        "latitude": "52.365",
-        "longitude": "30.5154"
-    },
-    "contact": {
-        "phone": "+375-133-987-0219",
-        "email": "vrodrigu133@relcom.com",
-        "socMedia": null
-    },
-    "login": {
-        "username": "vrodrigu",
-        "oauth2": null,
-        "password": "$2y$10$TDWFUHUShPq7FH7XouVSZuZDmu\/zagQDKcfi8yF7LqxKcqlaXcXe."
-    },
-    "otherContact": {
-        "emails": [],
-        "phoneNumbers": [
-            "+375-488-197-9256"
-        ],
-        "socMedias": []
-    },
-    "otherInfo": {
-        "gender": "F",
-        "dateOfBirth": "1972-03-22"
-    }
-});
-db.customers.insertOne(
-{
-    "customerKey": "ROSEWILK5702",
-    "name": {
-        "title": "Ms",
-        "first": "Roseann",
-        "middle": "M",
-        "last": "Wilkinson",
-        "suffix": null
-    },
-    "address": {
-        "streetAddress": "7804 Little Ridge Road",
-        "buildingName": null,
-        "floor": null,
-        "roomAptCondoFlat": null,
-        "city": "Saanich South",
-        "stateProvince": "BC",
-        "locality": "Saanich",
-        "country": "CA",
-        "postalCode": "V8X",
-        "latitude": "48.4777",
-        "longitude": "-123.3658"
-    },
-    "contact": {
-        "phone": "+1-134-770-5702",
-        "email": "rwilkins134@maxcomm.com",
-        "socMedia": null
-    },
-    "login": {
-        "username": "rwilkins",
-        "oauth2": null,
-        "password": "$2y$10$k1tGn79EISKkDp54HiLbD.y4jjjuv7stgwSfUIDPJiXnsYzUbZy1C"
-    },
-    "otherContact": {
-        "emails": [
-            "rwilkins@algonet.net"
-        ],
-        "phoneNumbers": [
-            "+1-71-073-3049"
-        ],
-        "socMedias": []
-    },
-    "otherInfo": {
-        "gender": "F",
-        "dateOfBirth": "1948-01-25"
-    }
-});
-db.customers.insertOne(
-{
-    "customerKey": "EARLKHAN6781",
-    "name": {
-        "title": "Dr",
-        "first": "Earleen",
-        "middle": null,
-        "last": "Khan",
-        "suffix": "BS"
-    },
-    "address": {
-        "streetAddress": "7166 Short Tree Road",
-        "buildingName": null,
-        "floor": null,
-        "roomAptCondoFlat": null,
-        "city": "Montegiardino",
+        "city": "Subic Bay Freeport Zone",
         "stateProvince": null,
         "locality": null,
-        "country": "SM",
-        "postalCode": "47898",
-        "latitude": "43.9",
-        "longitude": "12.5"
+        "country": "PH",
+        "postalCode": "2222",
+        "latitude": "14.8126",
+        "longitude": "120.6922"
     },
     "contact": {
-        "phone": "+378-135-118-6781",
-        "email": "ekhan135@telecom.com",
-        "socMedia": null
-    },
-    "login": {
-        "username": "ekhan",
-        "oauth2": null,
-        "password": "$2y$10$e87K7Zx7UCdgRaN3OCA72.MuMrwMl\/46yuu\/1C3zpSAFxcr1hWVcO"
-    },
-    "otherContact": {
-        "emails": [
-            "ekhan@ui.net"
-        ],
-        "phoneNumbers": [],
-        "socMedias": []
-    },
-    "otherInfo": {
-        "gender": "F",
-        "dateOfBirth": "1999-04-16"
-    }
-});
-db.customers.insertOne(
-{
-    "customerKey": "BOBBBRAD3639",
-    "name": {
-        "title": "Mr",
-        "first": "Bobbie",
-        "middle": "L",
-        "last": "Bradshaw",
-        "suffix": null
-    },
-    "address": {
-        "streetAddress": "1068 Winding Woods Avenue",
-        "buildingName": null,
-        "floor": null,
-        "roomAptCondoFlat": null,
-        "city": "Kulhan",
-        "stateProvince": "Dehradun",
-        "locality": "Dehradun",
-        "country": "IN",
-        "postalCode": "248013",
-        "latitude": "30.1623",
-        "longitude": "78.4813"
-    },
-    "contact": {
-        "phone": "+91-136-745-3639",
-        "email": "bbradsha136@greennet.com",
-        "socMedia": null
-    },
-    "login": {
-        "username": "bbradsha",
-        "oauth2": null,
-        "password": "$2y$10$Is.dNx6PDdvDTOoWHV5sQu.Lq3n.5VQNLsB.EGLJTbLBjryq9hGwq"
-    },
-    "otherContact": {
-        "emails": [
-            "bbradsha@access.net"
-        ],
-        "phoneNumbers": [],
-        "socMedias": []
-    },
-    "otherInfo": {
-        "gender": "M",
-        "dateOfBirth": "1963-03-06"
-    }
-});
-db.customers.insertOne(
-{
-    "customerKey": "HALLCHAM7161",
-    "name": {
-        "title": "Ms",
-        "first": "Halley",
-        "middle": "D",
-        "last": "Chambers",
-        "suffix": null
-    },
-    "address": {
-        "streetAddress": "4388 Green Creek Street",
-        "buildingName": null,
-        "floor": 3,
-        "roomAptCondoFlat": null,
-        "city": "\u041b\u0438\u0441\u0435\u0446 \/ Lisec",
-        "stateProvince": "KNL",
-        "locality": "\u041a\u044e\u0441\u0442\u0435\u043d\u0434\u0438\u043b \/ Kjustendil",
-        "country": "BG",
-        "postalCode": "2547",
-        "latitude": "42.305",
-        "longitude": "22.5658"
-    },
-    "contact": {
-        "phone": "+359-137-638-7161",
-        "email": "hchamber137@telkom.com",
-        "socMedia": null
-    },
-    "login": {
-        "username": "hchamber",
-        "oauth2": null,
-        "password": "$2y$10$Vf8WisDEKW4uRcaPsDGS0.TSQg8LFFbR1LBvNLuuA3FGKK1lvf692"
-    },
-    "otherContact": {
-        "emails": [
-            "hchamber@ntt.net"
-        ],
-        "phoneNumbers": [
-            "+359-484-744-9261"
-        ],
-        "socMedias": []
-    },
-    "otherInfo": {
-        "gender": "F",
-        "dateOfBirth": "1962-11-24"
-    }
-});
-db.customers.insertOne(
-{
-    "customerKey": "EUSTWRIG8658",
-    "name": {
-        "title": null,
-        "first": "Eustolia",
-        "middle": null,
-        "last": "Wright",
-        "suffix": null
-    },
-    "address": {
-        "streetAddress": "3964 Little Canyon Drive",
-        "buildingName": null,
-        "floor": null,
-        "roomAptCondoFlat": null,
-        "city": "Appleford",
-        "stateProvince": "England",
-        "locality": "Oxfordshire",
-        "country": "GB",
-        "postalCode": "OX14",
-        "latitude": "51.6392",
-        "longitude": "-1.2408"
-    },
-    "contact": {
-        "phone": "+44-138-503-8658",
-        "email": "ewright138@kddi.com",
-        "socMedia": null
-    },
-    "login": {
-        "username": "ewright",
-        "oauth2": null,
-        "password": "$2y$10$qyihWjzuM23sAaDDLV\/f1eaAanl\/Topc.YjVEPnkPyjOXvYj.djm."
-    },
-    "otherContact": {
-        "emails": [
-            "ewright@telkom.net",
-            "ewright@telecomitalia.net",
-            "ewright@orange.net"
-        ],
-        "phoneNumbers": [
-            "+44-230-258-7767"
-        ],
-        "socMedias": []
-    },
-    "otherInfo": {
-        "gender": "F",
-        "dateOfBirth": "1940-06-28"
-    }
-});
-db.customers.insertOne(
-{
-    "customerKey": "SOLERAYM0578",
-    "name": {
-        "title": "Ms",
-        "first": "Soledad",
-        "middle": "K",
-        "last": "Raymond",
-        "suffix": null
-    },
-    "address": {
-        "streetAddress": "3157 Winding Creek Way",
-        "buildingName": "Building 75",
-        "floor": null,
-        "roomAptCondoFlat": null,
-        "city": "Kanaipur",
-        "stateProvince": "Faridpur Sadar",
-        "locality": "Faridpur",
-        "country": "BD",
-        "postalCode": "7801",
-        "latitude": "23.55",
-        "longitude": "89.7833"
-    },
-    "contact": {
-        "phone": "+880-139-089-0578",
-        "email": "sraymond139@vimpelcom.com",
-        "socMedia": null
-    },
-    "login": {
-        "username": "sraymond",
-        "oauth2": null,
-        "password": "$2y$10$Nou6jE91GpEEVK.eepJNQOwo6G.ZiT5Ix9Ge8AAEhU.xSLvW0MRT6"
-    },
-    "otherContact": {
-        "emails": [
-            "sraymond@etisalat.net",
-            "sraymond@vimpelcom.net"
-        ],
-        "phoneNumbers": [
-            "+880-856-035-3763"
-        ],
-        "socMedias": []
-    },
-    "otherInfo": {
-        "gender": "F",
-        "dateOfBirth": "1964-09-12"
-    }
-});
-db.customers.insertOne(
-{
-    "customerKey": "JANUHAYE6254",
-    "name": {
-        "title": "Ms",
-        "first": "January",
-        "middle": "Y",
-        "last": "Hayes",
-        "suffix": null
-    },
-    "address": {
-        "streetAddress": "5238 Winding Ditch Street",
-        "buildingName": null,
-        "floor": null,
-        "roomAptCondoFlat": null,
-        "city": "Randleman",
-        "stateProvince": "NC",
-        "locality": "Randolph",
-        "country": "US",
-        "postalCode": "27317",
-        "latitude": "35.8488",
-        "longitude": "-79.8018"
-    },
-    "contact": {
-        "phone": "+1-140-096-6254",
-        "email": "jhayes140@pldt.com",
+        "email": "gshort163@telecom.com",
+        "phone": "+61-163-588-9849",
         "socMedia": {
-            "facebook": "jhayes@facebook.com"
+            "google": "gshort163@telecom.com@google.com"
         }
     },
     "login": {
-        "username": "jhayes",
-        "oauth2": "jhayes@facebook.com",
-        "password": "$2y$10$DrbKGPDArWCAvHLbPVp.Wu4qzkkdLZW\/A121H9LXIYBkguiHV.8gW"
+        "username": "gshort",
+        "oauth2": "gshort@google.com",
+        "password": "$2y$10$LlpYlxUhayfSpoyPf5gj9.DpRJRQP4ZvzGv\/IgTNghBMwgJKcv.Uy"
     },
-    "otherContact": {
-        "emails": [
-            "jhayes@sktelecom.net",
-            "jhayes@swisscom.net"
-        ],
-        "phoneNumbers": [
-            "+1-447-843-1932"
-        ],
-        "socMedias": {
-            "google": "jhayes@google.com",
-            "skype": "jhayes@skype.com"
-        }
-    },
-    "otherInfo": {
-        "gender": "F",
-        "dateOfBirth": "1984-11-26"
-    }
-});
-db.customers.insertOne(
-{
-    "customerKey": "QUINMARQ0951",
-    "name": {
-        "title": null,
-        "first": "Quinn",
-        "middle": null,
-        "last": "Marquez",
-        "suffix": null
-    },
-    "address": {
-        "streetAddress": "6165 Little Canyon Circle",
-        "buildingName": "Building 6A",
-        "floor": null,
-        "roomAptCondoFlat": null,
-        "city": "Dettenhausen",
-        "stateProvince": "BW",
-        "locality": "T\u00fcbingen Region",
-        "country": "DE",
-        "postalCode": "72135",
-        "latitude": "48.6076",
-        "longitude": "9.1004"
-    },
-    "contact": {
-        "phone": "+49-141-943-0951",
-        "email": "qmarquez141@oi.com",
-        "socMedia": null
-    },
-    "login": {
-        "username": "qmarquez",
-        "oauth2": null,
-        "password": "$2y$10$BzPK5gsxyU5qcc9Hd4wVg.9QQkxrp0pBEbRP\/0vr.\/hdClEe7myem"
-    },
-    "otherContact": {
-        "emails": [
-            "qmarquez@netcom.net"
-        ],
-        "phoneNumbers": [
-            "+49-96-295-4164",
-            "+49-959-631-4577"
-        ],
-        "socMedias": []
-    },
+    "otherContact": [],
     "otherInfo": {
         "gender": "M",
-        "dateOfBirth": "1949-09-30"
-    }
+        "dateOfBirth": "1999-07-10"
+    },
+    "totalBooked": 10,
+    "discount": 0
 });
 db.customers.insertOne(
 {
-    "customerKey": "DEMEYODE0800",
+    "customerKey": "ALLAPEAR0790",
     "name": {
         "title": "Mr",
-        "first": "Demetrius",
-        "middle": "Y",
-        "last": "Yoder",
+        "first": "Allan",
+        "middle": "V",
+        "last": "Pearson",
         "suffix": null
     },
     "address": {
-        "streetAddress": "3717 Little Bough Way",
+        "streetAddress": "9815 Red Bridge Way",
         "buildingName": null,
         "floor": null,
         "roomAptCondoFlat": null,
-        "city": "South Kununoppin",
-        "stateProvince": "WA",
-        "locality": "KALGOORLIE",
-        "country": "AU",
-        "postalCode": "6489",
-        "latitude": "-31.043",
-        "longitude": "117.8218"
+        "city": "Wanaque",
+        "stateProvince": "NJ",
+        "locality": "Passaic",
+        "country": "US",
+        "postalCode": "07465",
+        "latitude": "41.0544",
+        "longitude": "-74.279"
     },
     "contact": {
-        "phone": "+61-142-965-0800",
-        "email": "dyoder142@chunghwa.com",
-        "socMedia": null
+        "email": "apearson164@softbank.com",
+        "phone": "+61-164-461-0790",
+        "socMedia": {
+            "twitter": "apearson164@softbank.com@twitter.com"
+        }
     },
     "login": {
-        "username": "dyoder",
-        "oauth2": null,
-        "password": "$2y$10$u.mU9SGujUVR07k81ElgfuwP6ON0w1srkd\/3VMSFlskqpq8tjar4C"
+        "username": "apearson",
+        "oauth2": "apearson@twitter.com",
+        "password": "$2y$10$8k3pzQ6Up50ZdUQMRwuho.RwsVkp.QGFpHhxTwNB15S1oXXU35q9y"
     },
-    "otherContact": {
-        "emails": [
-            "dyoder@tm.net"
-        ],
-        "phoneNumbers": [
-            "+61-59-621-5829",
-            "+61-489-459-1745"
-        ],
-        "socMedias": []
-    },
+    "otherContact": [],
     "otherInfo": {
         "gender": "M",
-        "dateOfBirth": "1947-02-19"
-    }
+        "dateOfBirth": "1945-04-11"
+    },
+    "totalBooked": 7,
+    "discount": 0
 });
 db.customers.insertOne(
 {
-    "customerKey": "MALICOCH3290",
+    "customerKey": "GUSTVENT7593",
     "name": {
         "title": null,
-        "first": "Malisa",
+        "first": "Gustavo",
         "middle": null,
-        "last": "Cochran",
+        "last": "Ventura",
         "suffix": null
     },
     "address": {
-        "streetAddress": "5618 Big River Circle",
+        "streetAddress": "4786 Short Woods Way",
         "buildingName": null,
         "floor": null,
-        "roomAptCondoFlat": "F8",
-        "city": "Downtown Toronto (Harbourfront East \/ Union Station \/ Toronto Island)",
-        "stateProvince": "ON",
-        "locality": "Toronto",
+        "roomAptCondoFlat": null,
+        "city": "B\u00e5stad",
+        "stateProvince": "M",
+        "locality": "B\u00e5stad",
+        "country": "SE",
+        "postalCode": "269 33",
+        "latitude": "56.4269",
+        "longitude": "12.8534"
+    },
+    "contact": {
+        "email": "gventura165@ptcl.com",
+        "phone": "+61-165-889-7593",
+        "socMedia": []
+    },
+    "login": {
+        "username": "gventura",
+        "oauth2": null,
+        "password": "$2y$10$tZ3vT7R8AqPXSf4kSXZiDesf5GsUrCETmYIJgoeYBLrfAsvZAvmli"
+    },
+    "otherContact": {
+        "emails": [
+            "gventura165@access.com",
+            "gventura165@movil.com"
+        ],
+        "phoneNumbers": [
+            "+61-165-400-3486",
+            "+61-165-830-9062"
+        ]
+    },
+    "otherInfo": {
+        "gender": "M",
+        "dateOfBirth": "1937-04-19"
+    },
+    "totalBooked": 15,
+    "discount": 0.095
+});
+db.customers.insertOne(
+{
+    "customerKey": "ELDOLIU3968",
+    "name": {
+        "title": "Mr",
+        "first": "Eldon",
+        "middle": "K",
+        "last": "Liu",
+        "suffix": null
+    },
+    "address": {
+        "streetAddress": "7688 Blue River Circle",
+        "buildingName": null,
+        "floor": null,
+        "roomAptCondoFlat": null,
+        "city": "C\u00f4te-Nord\/Anticosti (Schefferville)",
+        "stateProvince": "QC",
+        "locality": "C\u00f4te-Nord",
         "country": "CA",
-        "postalCode": "M5J",
-        "latitude": "43.623",
-        "longitude": "-79.3936"
+        "postalCode": "G0G",
+        "latitude": "53.0413",
+        "longitude": "-68.6884"
     },
     "contact": {
-        "phone": "+1-144-514-3290",
-        "email": "mcochran144@cubenet.com",
-        "socMedia": null
+        "email": "eliu166@singtel.com",
+        "phone": "+61-166-331-3968",
+        "socMedia": {
+            "twitter": "eliu166@singtel.com@twitter.com"
+        }
     },
     "login": {
-        "username": "mcochran",
-        "oauth2": null,
-        "password": "$2y$10$k5gimkSi9Yt.kHBPVIuVGOqh64k3iMuTX0pKT6KABO8HfQAeLGpiS"
+        "username": "eliu",
+        "oauth2": "eliu@twitter.com",
+        "password": "$2y$10$SKmY7fM5Dj7IuuTEmiDxCe7EvQnr\/UEkann4A5WmnJ\/keaPhLNsfO"
     },
     "otherContact": {
         "emails": [
-            "mcochran@vivendi.net",
-            "mcochran@softbank.net",
-            "mcochran@verizon.net"
+            "eliu166@ktc.com",
+            "eliu166@ooredoo.com",
+            "eliu166@ote.com"
         ],
-        "phoneNumbers": [],
-        "socMedias": []
+        "phoneNumbers": [
+            "+61-166-342-1453",
+            "+61-166-578-3480",
+            "+61-166-999-9776"
+        ],
+        "socMedias": [
+            {
+                "line": "eliu166@ktc.com@line.com"
+            },
+            {
+                "facebook": "eliu166@ooredoo.com@facebook.com"
+            },
+            {
+                "linkedin": "eliu166@ote.com@linkedin.com"
+            }
+        ]
     },
     "otherInfo": {
-        "gender": "F",
-        "dateOfBirth": "1981-04-08"
-    }
+        "gender": "M",
+        "dateOfBirth": "1969-01-20"
+    },
+    "totalBooked": 15,
+    "discount": 0
 });
 db.customers.insertOne(
 {
-    "customerKey": "CAYLRILE9772",
-    "name": {
-        "title": "Ms",
-        "first": "Cayla",
-        "middle": "U",
-        "last": "Riley",
-        "suffix": null
-    },
-    "address": {
-        "streetAddress": "6089 Winding Stream Circle",
-        "buildingName": null,
-        "floor": null,
-        "roomAptCondoFlat": null,
-        "city": "St Thomas",
-        "stateProvince": "St. Thomas",
-        "locality": "St. Thomas",
-        "country": "VI",
-        "postalCode": "00802",
-        "latitude": "18.3387",
-        "longitude": "-64.916"
-    },
-    "contact": {
-        "phone": "+1340-145-699-9772",
-        "email": "criley145@uunet.com",
-        "socMedia": null
-    },
-    "login": {
-        "username": "criley",
-        "oauth2": null,
-        "password": "$2y$10$Hq1RbxQUhtp6HbhtE9DgDuoSvoUKRgdQuU7.1gb8zL06IX80otkFa"
-    },
-    "otherContact": {
-        "emails": [],
-        "phoneNumbers": [],
-        "socMedias": []
-    },
-    "otherInfo": {
-        "gender": "F",
-        "dateOfBirth": "1939-02-21"
-    }
-});
-db.customers.insertOne(
-{
-    "customerKey": "GARRRIVA2431",
+    "customerKey": "MERRDUKE2526",
     "name": {
         "title": "Mr",
-        "first": "Garry",
-        "middle": "W",
-        "last": "Rivas",
+        "first": "Merrill",
+        "middle": "L",
+        "last": "Duke",
         "suffix": null
     },
     "address": {
-        "streetAddress": "3584 Winding Bridge Road",
+        "streetAddress": "9260 Green Hill Circle",
         "buildingName": null,
         "floor": null,
         "roomAptCondoFlat": null,
-        "city": "London",
-        "stateProvince": "England",
-        "locality": "Greater London",
-        "country": "GB",
-        "postalCode": "WC2E",
-        "latitude": "51.5085",
-        "longitude": "-0.1257"
+        "city": "Talofofo",
+        "stateProvince": "Guam",
+        "locality": "Guam",
+        "country": "GU",
+        "postalCode": "96930",
+        "latitude": "13.4443",
+        "longitude": "144.7863"
     },
     "contact": {
-        "phone": "+44-146-949-2431",
-        "email": "grivas146@netcom.com",
-        "socMedia": null
+        "email": "mduke167@ooredoo.com",
+        "phone": "+61-167-162-2526",
+        "socMedia": {
+            "facebook": "mduke167@ooredoo.com@facebook.com"
+        }
     },
     "login": {
-        "username": "grivas",
-        "oauth2": null,
-        "password": "$2y$10$V7vmZj9fruHK8WOsKMq2VOEzRL8pNAHL32bevWfMO4RZfTOT\/mtuu"
+        "username": "mduke",
+        "oauth2": "mduke@facebook.com",
+        "password": "$2y$10$8PKoO6g5tEoRDf80KAHv2etnA0fcDIJp9ls\/h.\/AS2JjakvXqafuO"
     },
-    "otherContact": {
-        "emails": [
-            "grivas@vodafone.net",
-            "grivas@daxnet.net"
-        ],
-        "phoneNumbers": [
-            "+44-107-050-8008",
-            "+44-424-340-3215"
-        ],
-        "socMedias": []
-    },
+    "otherContact": [],
     "otherInfo": {
         "gender": "M",
-        "dateOfBirth": "1984-05-12"
-    }
+        "dateOfBirth": "1981-06-01"
+    },
+    "totalBooked": 4,
+    "discount": 0
 });
 db.customers.insertOne(
 {
-    "customerKey": "ADRIGOOD9484",
+    "customerKey": "INGAFRY2806",
     "name": {
         "title": null,
-        "first": "Adrian",
+        "first": "Inga",
         "middle": null,
-        "last": "Goodwin",
+        "last": "Fry",
         "suffix": null
     },
     "address": {
-        "streetAddress": "3188 Green Tree Drive",
-        "buildingName": "Building AF",
+        "streetAddress": "313 Red Bend Circle",
+        "buildingName": null,
         "floor": null,
-        "roomAptCondoFlat": null,
-        "city": "Barentsburg",
-        "stateProvince": "Spitsbergen",
-        "locality": "Spitsbergen",
-        "country": "SJ",
-        "postalCode": "9178",
-        "latitude": "78.0644",
-        "longitude": "14.1859"
+        "roomAptCondoFlat": "B4",
+        "city": "Lewisburg",
+        "stateProvince": "KY",
+        "locality": "Logan",
+        "country": "US",
+        "postalCode": "42256",
+        "latitude": "37.0037",
+        "longitude": "-86.9887"
     },
     "contact": {
-        "phone": "+47-147-095-9484",
-        "email": "agoodwin147@ui.com",
-        "socMedia": null
+        "email": "ifry168@chunghwa.com",
+        "phone": "+61-168-523-2806",
+        "socMedia": []
     },
     "login": {
-        "username": "agoodwin",
+        "username": "ifry",
         "oauth2": null,
-        "password": "$2y$10$ZjrS0ITp\/kL1tjcZOfwgculeJur6m8xnmIHw53zuhCpCIYzDGD1uG"
+        "password": "$2y$10$zn8HcTMPNqwyVF.fyy7fMuCMe7\/uY4cKILgnba9poSKq6Wv82bDpK"
     },
-    "otherContact": {
-        "emails": [
-            "agoodwin@orstom.net",
-            "agoodwin@turkcell.net",
-            "agoodwin@tm.net"
-        ],
-        "phoneNumbers": [
-            "+47-906-573-4973",
-            "+47-639-696-8552",
-            "+47-755-581-2998"
-        ],
-        "socMedias": []
-    },
+    "otherContact": [],
     "otherInfo": {
-        "gender": "M",
-        "dateOfBirth": "1930-10-25"
-    }
+        "gender": "F",
+        "dateOfBirth": "1964-07-24"
+    },
+    "totalBooked": 93,
+    "discount": 0.094
 });
 db.customers.insertOne(
 {
-    "customerKey": "TAMAHERM3623",
+    "customerKey": "ROMOTAPI3459",
     "name": {
         "title": "Ms",
-        "first": "Tamara",
-        "middle": "P",
-        "last": "Herman",
+        "first": "Romona",
+        "middle": "M",
+        "last": "Tapia",
         "suffix": null
     },
     "address": {
-        "streetAddress": "287 Red Creek Drive",
+        "streetAddress": "7458 Red Hill Road",
+        "buildingName": "Building 09",
+        "floor": null,
+        "roomAptCondoFlat": null,
+        "city": "Sandys",
+        "stateProvince": "Sandys Parish",
+        "locality": "Sandys Parish",
+        "country": "BM",
+        "postalCode": "MA 04",
+        "latitude": "32.2934",
+        "longitude": "-64.8683"
+    },
+    "contact": {
+        "email": "rtapia169@telenor.com",
+        "phone": "+61-169-966-3459",
+        "socMedia": {
+            "google": "rtapia169@telenor.com@google.com"
+        }
+    },
+    "login": {
+        "username": "rtapia",
+        "oauth2": "rtapia@google.com",
+        "password": "$2y$10$dRBahueWHMd1TeYj2lk\/MO3hCrjRKm8qo38FXwUXiHZ2be5PMhKlS"
+    },
+    "otherContact": [],
+    "otherInfo": {
+        "gender": "F",
+        "dateOfBirth": "1978-01-06"
+    },
+    "totalBooked": 12,
+    "discount": 0
+});
+db.customers.insertOne(
+{
+    "customerKey": "KIRKROSA1905",
+    "name": {
+        "title": "Mr",
+        "first": "Kirk",
+        "middle": "M",
+        "last": "Rosales",
+        "suffix": null
+    },
+    "address": {
+        "streetAddress": "851 Short Bridge Street",
         "buildingName": null,
         "floor": null,
         "roomAptCondoFlat": null,
-        "city": "Kearneys Spring",
+        "city": "Bodahari",
+        "stateProvince": "Milkipur",
+        "locality": "Faizabad",
+        "country": "IN",
+        "postalCode": "224206",
+        "latitude": "26.3546",
+        "longitude": "82.3651"
+    },
+    "contact": {
+        "email": "krosales170@vivendi.com",
+        "phone": "+61-170-196-1905",
+        "socMedia": {
+            "line": "krosales170@vivendi.com@line.com"
+        }
+    },
+    "login": {
+        "username": "krosales",
+        "oauth2": "krosales@line.com",
+        "password": "$2y$10$smPGXnRi6hW\/03DaMFbCq.XvdGO7a\/aoc94TA7gkvij8Eowcr4NXa"
+    },
+    "otherContact": {
+        "emails": [
+            "krosales170@airtel.com"
+        ],
+        "phoneNumbers": [
+            "+61-170-181-1210"
+        ],
+        "socMedias": [
+            {
+                "line": "krosales170@airtel.com@line.com"
+            }
+        ]
+    },
+    "otherInfo": {
+        "gender": "M",
+        "dateOfBirth": "1975-01-22"
+    },
+    "totalBooked": 12,
+    "discount": 0
+});
+db.customers.insertOne(
+{
+    "customerKey": "FLOYHORT0905",
+    "name": {
+        "title": null,
+        "first": "Floyd",
+        "middle": null,
+        "last": "Horton",
+        "suffix": null
+    },
+    "address": {
+        "streetAddress": "485 Long River Drive",
+        "buildingName": null,
+        "floor": 17,
+        "roomAptCondoFlat": null,
+        "city": "Peseggia",
+        "stateProvince": "VN",
+        "locality": "Venezia",
+        "country": "IT",
+        "postalCode": "30037",
+        "latitude": "45.5617",
+        "longitude": "12.1794"
+    },
+    "contact": {
+        "email": "fhorton171@verizon.com",
+        "phone": "+61-171-969-0905",
+        "socMedia": []
+    },
+    "login": {
+        "username": "fhorton",
+        "oauth2": null,
+        "password": "$2y$10$uyjsCSUHkDB7U0Y11cCdj.uEx9enPTmdPygnfrQRnkNPPP0VAxdy6"
+    },
+    "otherContact": [],
+    "otherInfo": {
+        "gender": "M",
+        "dateOfBirth": "1976-12-25"
+    },
+    "totalBooked": 29,
+    "discount": 0.028
+});
+db.customers.insertOne(
+{
+    "customerKey": "DEANMITC5984",
+    "name": {
+        "title": "Ms",
+        "first": "Deana",
+        "middle": "V",
+        "last": "Mitchell",
+        "suffix": null
+    },
+    "address": {
+        "streetAddress": "9060 Green Creek Road",
+        "buildingName": null,
+        "floor": null,
+        "roomAptCondoFlat": null,
+        "city": "Jackson North",
         "stateProvince": "QLD",
         "locality": "TOOWOOMBA SE CNR",
         "country": "AU",
-        "postalCode": "4350",
-        "latitude": "-27.6049",
-        "longitude": "151.941"
+        "postalCode": "4426",
+        "latitude": "-26.5332",
+        "longitude": "149.5778"
     },
     "contact": {
-        "phone": "+61-148-316-3623",
-        "email": "therman148@chunghwa.com",
-        "socMedia": null
-    },
-    "login": {
-        "username": "therman",
-        "oauth2": null,
-        "password": "$2y$10$6ExqrBBrfcI0qzoim9rx\/OiqfPPCZpcTDFYoEMHlJperJUYODSwea"
-    },
-    "otherContact": {
-        "emails": [
-            "therman@vivendi.net",
-            "therman@airtel.net"
-        ],
-        "phoneNumbers": [
-            "+61-607-543-2208"
-        ],
-        "socMedias": []
-    },
-    "otherInfo": {
-        "gender": "F",
-        "dateOfBirth": "1974-10-14"
-    }
-});
-db.customers.insertOne(
-{
-    "customerKey": "TULAJENN1484",
-    "name": {
-        "title": "Ms",
-        "first": "Tula",
-        "middle": "F",
-        "last": "Jennings",
-        "suffix": null
-    },
-    "address": {
-        "streetAddress": "9321 Short Hill Circle",
-        "buildingName": null,
-        "floor": null,
-        "roomAptCondoFlat": null,
-        "city": "Westport",
-        "stateProvince": null,
-        "locality": null,
-        "country": "IE",
-        "postalCode": "F28",
-        "latitude": "53.8",
-        "longitude": "-9.5167"
-    },
-    "contact": {
-        "phone": "+353-149-651-1484",
-        "email": "tjenning149@tt.com",
-        "socMedia": null
-    },
-    "login": {
-        "username": "tjenning",
-        "oauth2": null,
-        "password": "$2y$10$VAGtLoF.KFzErvvLklNn\/Oe3oXSNxH7WmNauIlHxdQ.vQIZro8PCW"
-    },
-    "otherContact": {
-        "emails": [],
-        "phoneNumbers": [
-            "+353-281-259-9018"
-        ],
-        "socMedias": []
-    },
-    "otherInfo": {
-        "gender": "F",
-        "dateOfBirth": "2000-09-28"
-    }
-});
-db.customers.insertOne(
-{
-    "customerKey": "ANNAMURI5200",
-    "name": {
-        "title": null,
-        "first": "Annabelle",
-        "middle": null,
-        "last": "Murillo",
-        "suffix": null
-    },
-    "address": {
-        "streetAddress": "414 Red Gully Street",
-        "buildingName": null,
-        "floor": null,
-        "roomAptCondoFlat": null,
-        "city": "Bratton Fleming",
-        "stateProvince": "England",
-        "locality": "Devon",
-        "country": "GB",
-        "postalCode": "EX32",
-        "latitude": "51.1225",
-        "longitude": "-3.9385"
-    },
-    "contact": {
-        "phone": "+44-150-035-5200",
-        "email": "amurillo150@cerist.com",
+        "email": "dmitchel172@ccs.com",
+        "phone": "+61-172-684-5984",
         "socMedia": {
-            "facebook": "amurillo@facebook.com"
+            "google": "dmitchel172@ccs.com@google.com"
         }
     },
     "login": {
-        "username": "amurillo",
-        "oauth2": "amurillo@facebook.com",
-        "password": "$2y$10$WWAyNh.EEBhJUAhSC2qgbuH8CP3JkZFo9hN2dFfTxHPJUW.z0UFs6"
+        "username": "dmitchel",
+        "oauth2": "dmitchel@google.com",
+        "password": "$2y$10$xcrkTKNK\/vIM6iZal8TZN.13nZjgqtoCqySHzJr0muil6nxEVjSci"
     },
     "otherContact": {
         "emails": [
-            "amurillo@bt.net",
-            "amurillo@att.net",
-            "amurillo@greennet.net"
+            "dmitchel172@tt.com",
+            "dmitchel172@kpn.com"
         ],
         "phoneNumbers": [
-            "+44-205-798-1373",
-            "+44-887-752-6258"
+            "+61-172-384-6121",
+            "+61-172-823-1485"
         ],
-        "socMedias": {
-            "line": "amurillo@line.com",
-            "linkedin": "amurillo@linkedin.com"
-        }
+        "socMedias": [
+            {
+                "facebook": "dmitchel172@tt.com@facebook.com"
+            },
+            {
+                "twitter": "dmitchel172@kpn.com@twitter.com"
+            }
+        ]
     },
     "otherInfo": {
         "gender": "F",
-        "dateOfBirth": "1945-07-13"
-    }
+        "dateOfBirth": "1932-09-08"
+    },
+    "totalBooked": 16,
+    "discount": 0
 });
 db.customers.insertOne(
 {
-    "customerKey": "BRENVAUG2214",
-    "name": {
-        "title": "Ms",
-        "first": "Brenda",
-        "middle": "B",
-        "last": "Vaughn",
-        "suffix": null
-    },
-    "address": {
-        "streetAddress": "4188 Winding Hill Circle",
-        "buildingName": null,
-        "floor": null,
-        "roomAptCondoFlat": null,
-        "city": "Nob Pitam",
-        "stateProvince": "Nakhon Sie Thammarat",
-        "locality": "Nakhon Sie Thammarat",
-        "country": "TH",
-        "postalCode": "80160",
-        "latitude": "8.6667",
-        "longitude": "99.9333"
-    },
-    "contact": {
-        "phone": "+66-151-765-2214",
-        "email": "bvaughn151@maxcomm.com",
-        "socMedia": null
-    },
-    "login": {
-        "username": "bvaughn",
-        "oauth2": null,
-        "password": "$2y$10$TpnhP9.RLyvh8CP2RGUtLeALVTSeU\/qMDgK7Lk1XQdp1Lmu1J.RB."
-    },
-    "otherContact": {
-        "emails": [],
-        "phoneNumbers": [],
-        "socMedias": []
-    },
-    "otherInfo": {
-        "gender": "F",
-        "dateOfBirth": "1950-08-08"
-    }
-});
-db.customers.insertOne(
-{
-    "customerKey": "REXMOLI3777",
+    "customerKey": "NORRHORN9903",
     "name": {
         "title": "Mr",
-        "first": "Rex",
-        "middle": "X",
-        "last": "Molina",
+        "first": "Norris",
+        "middle": "B",
+        "last": "Horne",
         "suffix": null
     },
     "address": {
-        "streetAddress": "5608 Little Tree Boulevard",
+        "streetAddress": "4659 Blue Woods Circle",
         "buildingName": null,
         "floor": null,
         "roomAptCondoFlat": null,
-        "city": "Starbuck",
-        "stateProvince": "MN",
-        "locality": "Pope",
-        "country": "US",
-        "postalCode": "56381",
-        "latitude": "45.5926",
-        "longitude": "-95.5421"
+        "city": "Saint-Pierre",
+        "stateProvince": "Saint-Pierre",
+        "locality": "Saint-Pierre",
+        "country": "PM",
+        "postalCode": "97500",
+        "latitude": "46.7809",
+        "longitude": "-56.172"
     },
     "contact": {
-        "phone": "+1-152-709-3777",
-        "email": "rmolina152@lguplus.com",
-        "socMedia": null
+        "email": "nhorne173@verizon.com",
+        "phone": "+61-173-257-9903",
+        "socMedia": {
+            "line": "nhorne173@verizon.com@line.com"
+        }
     },
     "login": {
-        "username": "rmolina",
+        "username": "nhorne",
+        "oauth2": "nhorne@line.com",
+        "password": "$2y$10$\/hUiy5iHYNjuobGPesbAd.ZoN5\/9NVYeHrIaJOmI6EUJcGPei.ULi"
+    },
+    "otherContact": [],
+    "otherInfo": {
+        "gender": "M",
+        "dateOfBirth": "1960-01-29"
+    },
+    "totalBooked": 4,
+    "discount": 0
+});
+db.customers.insertOne(
+{
+    "customerKey": "GREGDICK6001",
+    "name": {
+        "title": null,
+        "first": "Gregorio",
+        "middle": null,
+        "last": "Dickson",
+        "suffix": null
+    },
+    "address": {
+        "streetAddress": "4662 Red Woods Drive",
+        "buildingName": null,
+        "floor": null,
+        "roomAptCondoFlat": "63",
+        "city": "Venkatreddypally",
+        "stateProvince": "NA",
+        "locality": "Mahabub Nagar",
+        "country": "IN",
+        "postalCode": "509337",
+        "latitude": "16.7849",
+        "longitude": "77.9471"
+    },
+    "contact": {
+        "email": "gdickson174@eunet.com",
+        "phone": "+61-174-691-6001",
+        "socMedia": []
+    },
+    "login": {
+        "username": "gdickson",
         "oauth2": null,
-        "password": "$2y$10$D5CgZRlgS9pHyOZlRY0AOuKswG5GuVYYM8GgaFIO5nLYLjGDq7RLm"
+        "password": "$2y$10$ZWQ5lkU9FUq2DuG6JzHZfuMgZSt2Xln5l0GMbNeuF9qbP8AkJ7Gwq"
     },
     "otherContact": {
         "emails": [
-            "rmolina@megafon.net"
+            "gdickson174@pldt.com",
+            "gdickson174@telkom.com",
+            "gdickson174@pldt.com"
         ],
         "phoneNumbers": [
-            "+1-882-229-7982"
-        ],
-        "socMedias": []
+            "+61-174-021-9996",
+            "+61-174-055-0880",
+            "+61-174-373-8452"
+        ]
     },
     "otherInfo": {
         "gender": "M",
-        "dateOfBirth": "1981-06-16"
-    }
+        "dateOfBirth": "1960-06-15"
+    },
+    "totalBooked": 9,
+    "discount": 0.089
 });
 db.customers.insertOne(
 {
-    "customerKey": "SILVLARA5863",
+    "customerKey": "MARYMCDO9152",
+    "name": {
+        "title": "Ms",
+        "first": "Maryln",
+        "middle": "R",
+        "last": "Mcdowell",
+        "suffix": null
+    },
+    "address": {
+        "streetAddress": "2132 Blue Tree Road",
+        "buildingName": null,
+        "floor": null,
+        "roomAptCondoFlat": null,
+        "city": "Neculaieuca",
+        "stateProvince": "Orhei",
+        "locality": "Orhei",
+        "country": "MD",
+        "postalCode": "MD-3539",
+        "latitude": "47.3603",
+        "longitude": "28.6922"
+    },
+    "contact": {
+        "email": "mmcdowel175@ui.com",
+        "phone": "+61-175-195-9152",
+        "socMedia": {
+            "line": "mmcdowel175@ui.com@line.com"
+        }
+    },
+    "login": {
+        "username": "mmcdowel",
+        "oauth2": "mmcdowel@line.com",
+        "password": "$2y$10$LcxmPtAvNap\/gmVziU\/K7uGrPA2L01UHW1nxjSBKgg4QD2IbNC35m"
+    },
+    "otherContact": {
+        "emails": [
+            "mmcdowel175@ais.com",
+            "mmcdowel175@centurylink.com"
+        ],
+        "phoneNumbers": [
+            "+61-175-566-2866",
+            "+61-175-102-9623"
+        ],
+        "socMedias": [
+            {
+                "line": "mmcdowel175@ais.com@line.com"
+            },
+            {
+                "google": "mmcdowel175@centurylink.com@google.com"
+            }
+        ]
+    },
+    "otherInfo": {
+        "gender": "F",
+        "dateOfBirth": "1955-10-23"
+    },
+    "totalBooked": 65,
+    "discount": 0.043000000000000003
+});
+db.customers.insertOne(
+{
+    "customerKey": "ELENPALA7458",
+    "name": {
+        "title": "Ms",
+        "first": "Elene",
+        "middle": "E",
+        "last": "Palacios",
+        "suffix": null
+    },
+    "address": {
+        "streetAddress": "4173 Blue Bend Street",
+        "buildingName": null,
+        "floor": null,
+        "roomAptCondoFlat": null,
+        "city": "Beeler",
+        "stateProvince": "KS",
+        "locality": "Ness",
+        "country": "US",
+        "postalCode": "67518",
+        "latitude": "38.4445",
+        "longitude": "-100.1949"
+    },
+    "contact": {
+        "email": "epalacio176@telecom.com",
+        "phone": "+61-176-640-7458",
+        "socMedia": {
+            "google": "epalacio176@telecom.com@google.com"
+        }
+    },
+    "login": {
+        "username": "epalacio",
+        "oauth2": "epalacio@google.com",
+        "password": "$2y$10$\/dgChlAbvUQoqdakbg17z.9GdDrHJcMhRekMUvif\/MrHosem2AOpK"
+    },
+    "otherContact": [],
+    "otherInfo": {
+        "gender": "F",
+        "dateOfBirth": "1983-05-02"
+    },
+    "totalBooked": 7,
+    "discount": 0
+});
+db.customers.insertOne(
+{
+    "customerKey": "FERMCUNN4312",
     "name": {
         "title": null,
-        "first": "Silva",
+        "first": "Fermina",
+        "middle": null,
+        "last": "Cunningham",
+        "suffix": null
+    },
+    "address": {
+        "streetAddress": "440 Short Mountain Avenue",
+        "buildingName": null,
+        "floor": null,
+        "roomAptCondoFlat": null,
+        "city": "Wattappola",
+        "stateProvince": "Kandy",
+        "locality": "Kandy",
+        "country": "LK",
+        "postalCode": "20454",
+        "latitude": "7.2373",
+        "longitude": "80.5431"
+    },
+    "contact": {
+        "email": "fcunning177@safaricom.com",
+        "phone": "+61-177-963-4312",
+        "socMedia": []
+    },
+    "login": {
+        "username": "fcunning",
+        "oauth2": null,
+        "password": "$2y$10$Z.bstT4KlHlBb4i.c9pYke3947dVt7kfY618sVgzmdhUrRtx9jD5m"
+    },
+    "otherContact": {
+        "emails": [
+            "fcunning177@vivendi.com"
+        ],
+        "phoneNumbers": [
+            "+61-177-534-2675"
+        ]
+    },
+    "otherInfo": {
+        "gender": "F",
+        "dateOfBirth": "1997-11-06"
+    },
+    "totalBooked": 29,
+    "discount": 0.094
+});
+db.customers.insertOne(
+{
+    "customerKey": "TEODGOLD1018",
+    "name": {
+        "title": "Ms",
+        "first": "Teodora",
+        "middle": "Z",
+        "last": "Golden",
+        "suffix": null
+    },
+    "address": {
+        "streetAddress": "6357 Blue Bridge Circle",
+        "buildingName": null,
+        "floor": null,
+        "roomAptCondoFlat": null,
+        "city": "Lenton",
+        "stateProvince": "England",
+        "locality": "Lincolnshire",
+        "country": "GB",
+        "postalCode": "NG33",
+        "latitude": "52.8609",
+        "longitude": "-0.4788"
+    },
+    "contact": {
+        "email": "tgolden178@bifty.com",
+        "phone": "+61-178-298-1018",
+        "socMedia": {
+            "facebook": "tgolden178@bifty.com@facebook.com"
+        }
+    },
+    "login": {
+        "username": "tgolden",
+        "oauth2": "tgolden@facebook.com",
+        "password": "$2y$10$2Ko1fpNzV\/3BmVd\/Dh3C5ujoyuHmt.Hp.yRQXt4.MjKogamY9coz6"
+    },
+    "otherContact": {
+        "emails": [
+            "tgolden178@turkcell.com",
+            "tgolden178@cerist.com"
+        ],
+        "phoneNumbers": [
+            "+61-178-866-2207",
+            "+61-178-038-6277"
+        ],
+        "socMedias": [
+            {
+                "facebook": "tgolden178@turkcell.com@facebook.com"
+            },
+            {
+                "skype": "tgolden178@cerist.com@skype.com"
+            }
+        ]
+    },
+    "otherInfo": {
+        "gender": "F",
+        "dateOfBirth": "1987-12-29"
+    },
+    "totalBooked": 17,
+    "discount": 0
+});
+db.customers.insertOne(
+{
+    "customerKey": "LEIGFITZ7970",
+    "name": {
+        "title": "Mr",
+        "first": "Leigh",
+        "middle": "E",
+        "last": "Fitzpatrick",
+        "suffix": null
+    },
+    "address": {
+        "streetAddress": "9483 Winding Tree Drive",
+        "buildingName": null,
+        "floor": null,
+        "roomAptCondoFlat": null,
+        "city": "Monnunagar",
+        "stateProvince": "Monnunagar",
+        "locality": "Gazipur",
+        "country": "BD",
+        "postalCode": "1710",
+        "latitude": "24.0942",
+        "longitude": "90.4858"
+    },
+    "contact": {
+        "email": "lfitzpat179@telia.com",
+        "phone": "+61-179-445-7970",
+        "socMedia": {
+            "skype": "lfitzpat179@telia.com@skype.com"
+        }
+    },
+    "login": {
+        "username": "lfitzpat",
+        "oauth2": "lfitzpat@skype.com",
+        "password": "$2y$10$qVO199ODQFk2AqVL0Bkb6OQJssLJh4C\/g0YiklMpLQU3YKDI\/7CBG"
+    },
+    "otherContact": {
+        "emails": [
+            "lfitzpat179@lookdata.com"
+        ],
+        "phoneNumbers": [
+            "+61-179-202-2810"
+        ],
+        "socMedias": [
+            {
+                "twitter": "lfitzpat179@lookdata.com@twitter.com"
+            }
+        ]
+    },
+    "otherInfo": {
+        "gender": "M",
+        "dateOfBirth": "2000-09-07"
+    },
+    "totalBooked": 6,
+    "discount": 0
+});
+db.customers.insertOne(
+{
+    "customerKey": "CARLHARP4724",
+    "name": {
+        "title": null,
+        "first": "Carlos",
+        "middle": null,
+        "last": "Harper",
+        "suffix": null
+    },
+    "address": {
+        "streetAddress": "3306 Red Gully Road",
+        "buildingName": null,
+        "floor": 8,
+        "roomAptCondoFlat": "F7",
+        "city": "Swillbrook",
+        "stateProvince": "England",
+        "locality": "Lancashire",
+        "country": "GB",
+        "postalCode": "PR4",
+        "latitude": "53.7525",
+        "longitude": "-2.8346"
+    },
+    "contact": {
+        "email": "charper180@kpn.com",
+        "phone": "+61-180-849-4724",
+        "socMedia": []
+    },
+    "login": {
+        "username": "charper",
+        "oauth2": null,
+        "password": "$2y$10$JlKSxYPOSsV1WD3rimdCGu2CPiEzIlLC6jWFpbtlekRMoI8UIgJqG"
+    },
+    "otherContact": [],
+    "otherInfo": {
+        "gender": "F",
+        "dateOfBirth": "1938-09-15"
+    },
+    "totalBooked": 16,
+    "discount": 0.095
+});
+db.customers.insertOne(
+{
+    "customerKey": "LINODOUG1826",
+    "name": {
+        "title": "Mr",
+        "first": "Lino",
+        "middle": "K",
+        "last": "Douglas",
+        "suffix": null
+    },
+    "address": {
+        "streetAddress": "8254 Short Ridge Circle",
+        "buildingName": null,
+        "floor": null,
+        "roomAptCondoFlat": null,
+        "city": "Poya",
+        "stateProvince": "Poya",
+        "locality": "Poya",
+        "country": "NC",
+        "postalCode": "98827",
+        "latitude": "-21.3449",
+        "longitude": "165.164"
+    },
+    "contact": {
+        "email": "ldouglas181@jio.com",
+        "phone": "+61-181-784-1826",
+        "socMedia": {
+            "twitter": "ldouglas181@jio.com@twitter.com"
+        }
+    },
+    "login": {
+        "username": "ldouglas",
+        "oauth2": "ldouglas@twitter.com",
+        "password": "$2y$10$yFAsTwV38lD2zGMW8\/FzxOpyJ36Htm4eQI8MWmj8vJf1iVMkFw5vG"
+    },
+    "otherContact": [],
+    "otherInfo": {
+        "gender": "M",
+        "dateOfBirth": "1979-10-21"
+    },
+    "totalBooked": 13,
+    "discount": 0
+});
+db.customers.insertOne(
+{
+    "customerKey": "SHARDURH3670",
+    "name": {
+        "title": "Ms",
+        "first": "Sharell",
+        "middle": "I",
+        "last": "Durham",
+        "suffix": null
+    },
+    "address": {
+        "streetAddress": "2036 Big Mountain Road",
+        "buildingName": "Building CA",
+        "floor": null,
+        "roomAptCondoFlat": null,
+        "city": "Ingui",
+        "stateProvince": "Jalaun",
+        "locality": "Jalaun",
+        "country": "IN",
+        "postalCode": "285121",
+        "latitude": "26.1506",
+        "longitude": "79.1424"
+    },
+    "contact": {
+        "email": "sdurham182@movil.com",
+        "phone": "+61-182-867-3670",
+        "socMedia": {
+            "twitter": "sdurham182@movil.com@twitter.com"
+        }
+    },
+    "login": {
+        "username": "sdurham",
+        "oauth2": "sdurham@twitter.com",
+        "password": "$2y$10$CUL.ilSc9RIyL8AMlgH9qOY8aJVQfdZfCbo4hwGFfWwj\/8dDfh3ju"
+    },
+    "otherContact": {
+        "emails": [
+            "sdurham182@maxcomm.com"
+        ],
+        "phoneNumbers": [
+            "+61-182-490-2757"
+        ],
+        "socMedias": [
+            {
+                "google": "sdurham182@maxcomm.com@google.com"
+            }
+        ]
+    },
+    "otherInfo": {
+        "gender": "F",
+        "dateOfBirth": "1995-05-30"
+    },
+    "totalBooked": 81,
+    "discount": 0.117
+});
+db.customers.insertOne(
+{
+    "customerKey": "KENNLARA1292",
+    "name": {
+        "title": null,
+        "first": "Kenneth",
         "middle": null,
         "last": "Lara",
         "suffix": null
     },
     "address": {
-        "streetAddress": "8229 Blue River Drive",
-        "buildingName": null,
-        "floor": 10,
-        "roomAptCondoFlat": null,
-        "city": "Policarpa",
-        "stateProvince": "Policarpa",
-        "locality": "Policarpa",
-        "country": "CO",
-        "postalCode": "527009",
-        "latitude": "1.6323",
-        "longitude": "-77.462"
-    },
-    "contact": {
-        "phone": "+57-153-907-5863",
-        "email": "slara153@singtel.com",
-        "socMedia": null
-    },
-    "login": {
-        "username": "slara",
-        "oauth2": null,
-        "password": "$2y$10$PnMWFeB8QpJU6xSyQAlfquVxpEHwWvfUbRJ117uw5W5HwTVbEXkAe"
-    },
-    "otherContact": {
-        "emails": [
-            "slara@cerist.net",
-            "slara@mtn.net"
-        ],
-        "phoneNumbers": [
-            "+57-979-441-7834",
-            "+57-932-378-4356"
-        ],
-        "socMedias": []
-    },
-    "otherInfo": {
-        "gender": "F",
-        "dateOfBirth": "1973-10-15"
-    }
-});
-db.customers.insertOne(
-{
-    "customerKey": "ALONBARR3456",
-    "name": {
-        "title": "Mr",
-        "first": "Alonso",
-        "middle": "H",
-        "last": "Barrett",
-        "suffix": null
-    },
-    "address": {
-        "streetAddress": "1422 Short Woods Road",
+        "streetAddress": "9002 Winding Gulch Road",
         "buildingName": null,
         "floor": null,
-        "roomAptCondoFlat": null,
-        "city": "Tiruvaikavur",
-        "stateProvince": "Papanasam",
-        "locality": "Thanjavur",
-        "country": "IN",
-        "postalCode": "612301",
-        "latitude": "10.9923",
-        "longitude": "79.2859"
-    },
-    "contact": {
-        "phone": "+91-154-113-3456",
-        "email": "abarrett154@vivendi.com",
-        "socMedia": null
-    },
-    "login": {
-        "username": "abarrett",
-        "oauth2": null,
-        "password": "$2y$10$\/V5wey85NqG3U4ZBgfa0ie8nJtISlZuT4n4DzPNA3stpLYsRnC27m"
-    },
-    "otherContact": {
-        "emails": [],
-        "phoneNumbers": [
-            "+91-408-672-5764"
-        ],
-        "socMedias": []
-    },
-    "otherInfo": {
-        "gender": "M",
-        "dateOfBirth": "1989-10-23"
-    }
-});
-db.customers.insertOne(
-{
-    "customerKey": "ROSAMCGE5562",
-    "name": {
-        "title": "Mr",
-        "first": "Rosario",
-        "middle": "W",
-        "last": "Mcgee",
-        "suffix": null
-    },
-    "address": {
-        "streetAddress": "1460 Green Mountain Ride",
-        "buildingName": null,
-        "floor": 10,
-        "roomAptCondoFlat": null,
-        "city": "Tv\u00f8royri",
-        "stateProvince": null,
-        "locality": null,
-        "country": "FO",
-        "postalCode": "800",
-        "latitude": "61.5556",
-        "longitude": "-6.8111"
-    },
-    "contact": {
-        "phone": "+298-155-580-5562",
-        "email": "rmcgee155@ooredoo.com",
-        "socMedia": null
-    },
-    "login": {
-        "username": "rmcgee",
-        "oauth2": null,
-        "password": "$2y$10$.p17t\/WQxjqZb.cqOYZjGOFc8\/I5bWLAOS6uaZIS8lnoFgn2\/WGp."
-    },
-    "otherContact": {
-        "emails": [
-            "rmcgee@telefonica.net"
-        ],
-        "phoneNumbers": [],
-        "socMedias": []
-    },
-    "otherInfo": {
-        "gender": "M",
-        "dateOfBirth": "1968-12-05"
-    }
-});
-db.customers.insertOne(
-{
-    "customerKey": "BRETHOWE9330",
-    "name": {
-        "title": null,
-        "first": "Bret",
-        "middle": null,
-        "last": "Howe",
-        "suffix": null
-    },
-    "address": {
-        "streetAddress": "3313 Big Mountain Ride",
-        "buildingName": "Building 94",
-        "floor": 12,
-        "roomAptCondoFlat": null,
-        "city": "Brookhaven",
-        "stateProvince": "NY",
-        "locality": "Suffolk",
-        "country": "US",
-        "postalCode": "11719",
-        "latitude": "40.7843",
-        "longitude": "-72.8921"
-    },
-    "contact": {
-        "phone": "+1-156-436-9330",
-        "email": "bhowe156@glasnet.com",
-        "socMedia": null
-    },
-    "login": {
-        "username": "bhowe",
-        "oauth2": null,
-        "password": "$2y$10$.\/KFpqDfxgrbPEomgq7Gcu2AGKmjjwu.mfPhqTkk\/CjVosisD7Xre"
-    },
-    "otherContact": {
-        "emails": [
-            "bhowe@nordnet.net",
-            "bhowe@turkcell.net"
-        ],
-        "phoneNumbers": [
-            "+1-639-126-0765",
-            "+1-314-494-7358"
-        ],
-        "socMedias": []
-    },
-    "otherInfo": {
-        "gender": "M",
-        "dateOfBirth": "1980-09-17"
-    }
-});
-db.customers.insertOne(
-{
-    "customerKey": "VEDAPOPE8069",
-    "name": {
-        "title": "Ms",
-        "first": "Veda",
-        "middle": "M",
-        "last": "Pope",
-        "suffix": null
-    },
-    "address": {
-        "streetAddress": "7980 Red Hill Boulevard",
-        "buildingName": null,
-        "floor": null,
-        "roomAptCondoFlat": null,
-        "city": "Barrio Anglo",
-        "stateProvince": "Rio Negro",
-        "locality": "Rio Negro",
-        "country": "UY",
-        "postalCode": "65000",
-        "latitude": "-33.0878",
-        "longitude": "-58.2377"
-    },
-    "contact": {
-        "phone": "+598-157-562-8069",
-        "email": "vpope157@cci.com",
-        "socMedia": null
-    },
-    "login": {
-        "username": "vpope",
-        "oauth2": null,
-        "password": "$2y$10$dT6qvotS.tPwF5AzwhKTGeU9Gswd\/cYqMMNPEUES6UkBHgcZuLQ.a"
-    },
-    "otherContact": {
-        "emails": [
-            "vpope@tm.net",
-            "vpope@vivendi.net"
-        ],
-        "phoneNumbers": [
-            "+598-382-900-3526"
-        ],
-        "socMedias": []
-    },
-    "otherInfo": {
-        "gender": "F",
-        "dateOfBirth": "1979-12-06"
-    }
-});
-db.customers.insertOne(
-{
-    "customerKey": "ISIAMOON7559",
-    "name": {
-        "title": "Mr",
-        "first": "Isiah",
-        "middle": "C",
-        "last": "Moon",
-        "suffix": null
-    },
-    "address": {
-        "streetAddress": "441 Short Bridge Way",
-        "buildingName": null,
-        "floor": null,
-        "roomAptCondoFlat": null,
-        "city": "Qualicum Beach",
-        "stateProvince": "BC",
-        "locality": "British Columbia",
-        "country": "CA",
-        "postalCode": "V9K",
-        "latitude": "49.3468",
-        "longitude": "-124.4361"
-    },
-    "contact": {
-        "phone": "+1-158-844-7559",
-        "email": "imoon158@orstom.com",
-        "socMedia": null
-    },
-    "login": {
-        "username": "imoon",
-        "oauth2": null,
-        "password": "$2y$10$6f3Oi8WkfCBRbUDXKNowquS3r.KJOQozZsswUp0flHv0XZ\/\/JzJSy"
-    },
-    "otherContact": {
-        "emails": [
-            "imoon@verizon.net"
-        ],
-        "phoneNumbers": [
-            "+1-831-986-6103"
-        ],
-        "socMedias": []
-    },
-    "otherInfo": {
-        "gender": "M",
-        "dateOfBirth": "1993-06-23"
-    }
-});
-db.customers.insertOne(
-{
-    "customerKey": "ZACHWALK2598",
-    "name": {
-        "title": null,
-        "first": "Zachary",
-        "middle": null,
-        "last": "Walker",
-        "suffix": null
-    },
-    "address": {
-        "streetAddress": "4335 Red Mound Ride",
-        "buildingName": "Building 27",
-        "floor": null,
-        "roomAptCondoFlat": null,
-        "city": "Talbot",
-        "stateProvince": "IN",
-        "locality": "Benton",
-        "country": "US",
-        "postalCode": "47984",
-        "latitude": "40.5053",
-        "longitude": "-87.4542"
-    },
-    "contact": {
-        "phone": "+1-159-241-2598",
-        "email": "zwalker159@telkom.com",
-        "socMedia": null
-    },
-    "login": {
-        "username": "zwalker",
-        "oauth2": null,
-        "password": "$2y$10$2yBK\/rLn4gqPiZDg8mpRqeYD8l4wUNEWd6L3ph.mon6BvxZRrPWLS"
-    },
-    "otherContact": {
-        "emails": [],
-        "phoneNumbers": [
-            "+1-392-663-7672"
-        ],
-        "socMedias": []
-    },
-    "otherInfo": {
-        "gender": "M",
-        "dateOfBirth": "1970-12-25"
-    }
-});
-db.customers.insertOne(
-{
-    "customerKey": "SANTBLAN7303",
-    "name": {
-        "title": "Ms",
-        "first": "Santiago",
-        "middle": "Y",
-        "last": "Blanchard",
-        "suffix": null
-    },
-    "address": {
-        "streetAddress": "9927 Little Ridge Avenue",
-        "buildingName": null,
-        "floor": null,
-        "roomAptCondoFlat": null,
-        "city": "Lagrange",
-        "stateProvince": "GA",
-        "locality": "Troup",
-        "country": "US",
-        "postalCode": "30240",
-        "latitude": "33.0243",
-        "longitude": "-85.0739"
-    },
-    "contact": {
-        "phone": "+1-160-060-7303",
-        "email": "sblancha160@ote.com",
-        "socMedia": {
-            "twitter": "sblancha@twitter.com"
-        }
-    },
-    "login": {
-        "username": "sblancha",
-        "oauth2": "sblancha@twitter.com",
-        "password": "$2y$10$gSlRG1dj1w0\/t16UaxF9vO63Ejo9sGnPF16.iyrWe\/DTIaqPqNIK."
-    },
-    "otherContact": {
-        "emails": [
-            "sblancha@ntt.net"
-        ],
-        "phoneNumbers": [
-            "+1-256-414-5478",
-            "+1-932-765-3740"
-        ],
-        "socMedias": {
-            "google": "sblancha@google.com",
-            "twitter": "sblancha@twitter.com",
-            "line": "sblancha@line.com",
-            "skype": "sblancha@skype.com"
-        }
-    },
-    "otherInfo": {
-        "gender": "X",
-        "dateOfBirth": "1995-03-18"
-    }
-});
-db.customers.insertOne(
-{
-    "customerKey": "RICKROBE4366",
-    "name": {
-        "title": "Ms",
-        "first": "Ricki",
-        "middle": "T",
-        "last": "Roberson",
-        "suffix": null
-    },
-    "address": {
-        "streetAddress": "9858 Little Ridge Ride",
-        "buildingName": null,
-        "floor": 1,
-        "roomAptCondoFlat": null,
-        "city": "J\u00e1sziv\u00e1ny",
-        "stateProvince": "JN",
-        "locality": "J\u00e1sz-Nagykun-Szolnok",
-        "country": "HU",
-        "postalCode": "5135",
-        "latitude": "47.5333",
-        "longitude": "20.25"
-    },
-    "contact": {
-        "phone": "+36-161-324-4366",
-        "email": "rroberso161@sktelecom.com",
-        "socMedia": null
-    },
-    "login": {
-        "username": "rroberso",
-        "oauth2": null,
-        "password": "$2y$10$mmTfz0Ax58KdQ7Fg\/5uhdeJxH8UYb\/QindFHGvCX4STKmv9pyLw6i"
-    },
-    "otherContact": {
-        "emails": [
-            "rroberso@relcom.net",
-            "rroberso@telia.net"
-        ],
-        "phoneNumbers": [],
-        "socMedias": []
-    },
-    "otherInfo": {
-        "gender": "F",
-        "dateOfBirth": "1969-05-18"
-    }
-});
-db.customers.insertOne(
-{
-    "customerKey": "SUNGROBE7351",
-    "name": {
-        "title": null,
-        "first": "Sung",
-        "middle": null,
-        "last": "Robertson",
-        "suffix": null
-    },
-    "address": {
-        "streetAddress": "4583 Blue River Drive",
-        "buildingName": null,
-        "floor": null,
-        "roomAptCondoFlat": null,
-        "city": "Southeastern Avalon Peninsula (Ferryland)",
-        "stateProvince": "NL",
-        "locality": "Newfoundland and Labrador",
-        "country": "CA",
-        "postalCode": "A0A",
-        "latitude": "47.2195",
-        "longitude": "-53.1448"
-    },
-    "contact": {
-        "phone": "+1-162-410-7351",
-        "email": "sroberts162@ptcl.com",
-        "socMedia": null
-    },
-    "login": {
-        "username": "sroberts",
-        "oauth2": null,
-        "password": "$2y$10$q4hGiVDBYAgWmdKrpKFYt.bL2I05TjDZVSIKPha\/1Kzen0f.\/qOl2"
-    },
-    "otherContact": {
-        "emails": [],
-        "phoneNumbers": [
-            "+1-20-084-3540"
-        ],
-        "socMedias": []
-    },
-    "otherInfo": {
-        "gender": "M",
-        "dateOfBirth": "1983-03-30"
-    }
-});
-db.customers.insertOne(
-{
-    "customerKey": "KATRAVER0535",
-    "name": {
-        "title": "Ms",
-        "first": "Katrice",
-        "middle": "G",
-        "last": "Avery",
-        "suffix": null
-    },
-    "address": {
-        "streetAddress": "2461 Little Mound Circle",
-        "buildingName": null,
-        "floor": null,
-        "roomAptCondoFlat": null,
-        "city": "Kurmagalos k.",
-        "stateProvince": "Jonavos r. sav.",
-        "locality": "Jonavos r. sav.",
-        "country": "LT",
-        "postalCode": "55001",
-        "latitude": "55.1",
-        "longitude": "24.1333"
-    },
-    "contact": {
-        "phone": "+370-163-878-0535",
-        "email": "kavery163@netcom.com",
-        "socMedia": null
-    },
-    "login": {
-        "username": "kavery",
-        "oauth2": null,
-        "password": "$2y$10$hfOSxpivA52SxsRXKxeyieKpjFK\/ibqw606uQlbdOmEQBzBct1.ga"
-    },
-    "otherContact": {
-        "emails": [],
-        "phoneNumbers": [
-            "+370-419-062-7114",
-            "+370-454-235-2802"
-        ],
-        "socMedias": []
-    },
-    "otherInfo": {
-        "gender": "F",
-        "dateOfBirth": "1943-08-01"
-    }
-});
-db.customers.insertOne(
-{
-    "customerKey": "ISAIWADE3484",
-    "name": {
-        "title": "Mr",
-        "first": "Isaias",
-        "middle": "I",
-        "last": "Wade",
-        "suffix": null
-    },
-    "address": {
-        "streetAddress": "5626 Big Mound Street",
-        "buildingName": "Building 14",
-        "floor": null,
-        "roomAptCondoFlat": null,
-        "city": "C G O Complex",
-        "stateProvince": "New Delhi",
-        "locality": "South Delhi",
-        "country": "IN",
-        "postalCode": "110003",
-        "latitude": "28.5838",
-        "longitude": "77.2218"
-    },
-    "contact": {
-        "phone": "+91-164-482-3484",
-        "email": "iwade164@millicom.com",
-        "socMedia": null
-    },
-    "login": {
-        "username": "iwade",
-        "oauth2": null,
-        "password": "$2y$10$TH2fbWSLzT47vEDtI2zLNeeOpW7HwDu6tkeRMoQHwEGsEDD2uMJZu"
-    },
-    "otherContact": {
-        "emails": [
-            "iwade@mtn.net",
-            "iwade@centurylink.net"
-        ],
-        "phoneNumbers": [
-            "+91-724-794-8304",
-            "+91-842-877-3440"
-        ],
-        "socMedias": []
-    },
-    "otherInfo": {
-        "gender": "M",
-        "dateOfBirth": "1994-01-12"
-    }
-});
-db.customers.insertOne(
-{
-    "customerKey": "IRACALD0860",
-    "name": {
-        "title": null,
-        "first": "Ira",
-        "middle": null,
-        "last": "Caldwell",
-        "suffix": null
-    },
-    "address": {
-        "streetAddress": "9554 Big Canyon Avenue",
-        "buildingName": null,
-        "floor": null,
-        "roomAptCondoFlat": null,
-        "city": "\u0426\u0435\u0440\u043a\u043e\u0432\u0441\u043a\u0438 \/ Cerkovski",
-        "stateProvince": "BGS",
-        "locality": "\u041a\u0430\u0440\u043d\u043e\u0431\u0430\u0442 \/ Karnobat",
-        "country": "BG",
-        "postalCode": "8472",
-        "latitude": "42.6",
-        "longitude": "26.8833"
-    },
-    "contact": {
-        "phone": "+359-165-136-0860",
-        "email": "icaldwel165@orange.com",
-        "socMedia": null
-    },
-    "login": {
-        "username": "icaldwel",
-        "oauth2": null,
-        "password": "$2y$10$0m00cPBrjOD55jPtNCSYxO.XLNfphgKhxv\/sorokd1JFfYCb\/P4aW"
-    },
-    "otherContact": {
-        "emails": [
-            "icaldwel@mtn.net"
-        ],
-        "phoneNumbers": [
-            "+359-42-198-1573",
-            "+359-139-882-7953"
-        ],
-        "socMedias": []
-    },
-    "otherInfo": {
-        "gender": "M",
-        "dateOfBirth": "1945-08-30"
-    }
-});
-db.customers.insertOne(
-{
-    "customerKey": "TANNSCHM2016",
-    "name": {
-        "title": "Mr",
-        "first": "Tanner",
-        "middle": "W",
-        "last": "Schmitt",
-        "suffix": null
-    },
-    "address": {
-        "streetAddress": "5686 Little Hill Circle",
-        "buildingName": null,
-        "floor": null,
-        "roomAptCondoFlat": "EA",
-        "city": "Nornalup",
-        "stateProvince": "WA",
-        "locality": "KALGOORLIE",
-        "country": "AU",
-        "postalCode": "6333",
-        "latitude": "-34.9917",
-        "longitude": "116.8202"
-    },
-    "contact": {
-        "phone": "+61-166-752-2016",
-        "email": "tschmitt166@nordnet.com",
-        "socMedia": null
-    },
-    "login": {
-        "username": "tschmitt",
-        "oauth2": null,
-        "password": "$2y$10$Vof8.6FQ9l8RH.PY9ACtEezmp7TjwaKkF9hEtD4YpN2g2Q5ibI30e"
-    },
-    "otherContact": {
-        "emails": [
-            "tschmitt@orange.net"
-        ],
-        "phoneNumbers": [
-            "+61-773-277-3421"
-        ],
-        "socMedias": []
-    },
-    "otherInfo": {
-        "gender": "M",
-        "dateOfBirth": "1997-11-27"
-    }
-});
-db.customers.insertOne(
-{
-    "customerKey": "YAHATOWN8678",
-    "name": {
-        "title": "Ms",
-        "first": "Yahaira",
-        "middle": "N",
-        "last": "Townsend",
-        "suffix": null
-    },
-    "address": {
-        "streetAddress": "9778 Green Gulch Drive",
-        "buildingName": null,
-        "floor": null,
-        "roomAptCondoFlat": null,
-        "city": "Inarajan",
-        "stateProvince": "Guam",
-        "locality": "Guam",
-        "country": "GU",
-        "postalCode": "96917",
-        "latitude": "13.2944",
-        "longitude": "144.7211"
-    },
-    "contact": {
-        "phone": "+1671-167-928-8678",
-        "email": "ytownsen167@seednet.com",
-        "socMedia": null
-    },
-    "login": {
-        "username": "ytownsen",
-        "oauth2": null,
-        "password": "$2y$10$oQEdVesj1ks3YIDen1BF..9SnTrs7Jl8fMfsiHa5ZQYezBht8iAJu"
-    },
-    "otherContact": {
-        "emails": [
-            "ytownsen@telesystems.net",
-            "ytownsen@megafon.net",
-            "ytownsen@singtel.net"
-        ],
-        "phoneNumbers": [
-            "+1671-580-250-5227",
-            "+1671-479-631-3542"
-        ],
-        "socMedias": []
-    },
-    "otherInfo": {
-        "gender": "F",
-        "dateOfBirth": "1945-09-09"
-    }
-});
-db.customers.insertOne(
-{
-    "customerKey": "PASQREID1319",
-    "name": {
-        "title": null,
-        "first": "Pasquale",
-        "middle": null,
-        "last": "Reid",
-        "suffix": null
-    },
-    "address": {
-        "streetAddress": "9014 Green Ridge Circle",
-        "buildingName": null,
-        "floor": null,
-        "roomAptCondoFlat": null,
-        "city": "Spanby",
-        "stateProvince": "England",
-        "locality": "Lincolnshire",
-        "country": "GB",
-        "postalCode": "NG34",
-        "latitude": "52.9293",
-        "longitude": "-0.3742"
-    },
-    "contact": {
-        "phone": "+44-168-321-1319",
-        "email": "preid168@telus.com",
-        "socMedia": null
-    },
-    "login": {
-        "username": "preid",
-        "oauth2": null,
-        "password": "$2y$10$5laHNeu7IvKb0V3WecFBtupkhYjPwr3\/UjTM18SbvfD.efPqmbShu"
-    },
-    "otherContact": {
-        "emails": [
-            "preid@telekom.net",
-            "preid@kddi.net"
-        ],
-        "phoneNumbers": [
-            "+44-617-953-4956",
-            "+44-702-800-2966",
-            "+44-444-134-6117"
-        ],
-        "socMedias": []
-    },
-    "otherInfo": {
-        "gender": "M",
-        "dateOfBirth": "2003-09-04"
-    }
-});
-db.customers.insertOne(
-{
-    "customerKey": "BRANHOOV8607",
-    "name": {
-        "title": "Ms",
-        "first": "Brandon",
-        "middle": "E",
-        "last": "Hoover",
-        "suffix": null
-    },
-    "address": {
-        "streetAddress": "4299 Short Stream Drive",
-        "buildingName": null,
-        "floor": null,
-        "roomAptCondoFlat": null,
-        "city": "Kot Umrana",
-        "stateProvince": "Norhern Punajb Rawalpindi",
-        "locality": "Norhern Punajb Rawalpindi",
-        "country": "PK",
-        "postalCode": "40451",
-        "latitude": "32.1833",
-        "longitude": "73.1667"
-    },
-    "contact": {
-        "phone": "+92-169-910-8607",
-        "email": "bhoover169@ote.com",
-        "socMedia": null
-    },
-    "login": {
-        "username": "bhoover",
-        "oauth2": null,
-        "password": "$2y$10$yiVWA5CmXeuYuim6ipfRMeOlvA0SApETZhuBT5UNHq.tsD6ZhBK.6"
-    },
-    "otherContact": {
-        "emails": [
-            "bhoover@ote.net",
-            "bhoover@telenor.net",
-            "bhoover@ais.net"
-        ],
-        "phoneNumbers": [
-            "+92-571-633-0132",
-            "+92-446-528-1996",
-            "+92-731-250-3605"
-        ],
-        "socMedias": []
-    },
-    "otherInfo": {
-        "gender": "F",
-        "dateOfBirth": "1937-07-20"
-    }
-});
-db.customers.insertOne(
-{
-    "customerKey": "DELMGREG8031",
-    "name": {
-        "title": "Mr",
-        "first": "Delmar",
-        "middle": "L",
-        "last": "Gregory",
-        "suffix": null
-    },
-    "address": {
-        "streetAddress": "6265 Red Tree Circle",
-        "buildingName": "Building 4B",
-        "floor": null,
-        "roomAptCondoFlat": null,
-        "city": "St. Mary's",
-        "stateProvince": "ON",
-        "locality": "Ontario",
-        "country": "CA",
-        "postalCode": "N4X",
-        "latitude": "43.2655",
-        "longitude": "-81.1687"
-    },
-    "contact": {
-        "phone": "+1-170-517-8031",
-        "email": "dgregory170@megafon.com",
-        "socMedia": {
-            "skype": "dgregory@skype.com"
-        }
-    },
-    "login": {
-        "username": "dgregory",
-        "oauth2": "dgregory@skype.com",
-        "password": "$2y$10$lTWNsF.9HjKTstv4.YAGDukkBeLy..WkutA1kmLTr7AbERB4L21hG"
-    },
-    "otherContact": {
-        "emails": [],
-        "phoneNumbers": [
-            "+1-456-809-5027",
-            "+1-447-293-8694"
-        ],
-        "socMedias": []
-    },
-    "otherInfo": {
-        "gender": "M",
-        "dateOfBirth": "1984-12-04"
-    }
-});
-db.customers.insertOne(
-{
-    "customerKey": "SANJMCMI8917",
-    "name": {
-        "title": null,
-        "first": "Sanjuanita",
-        "middle": null,
-        "last": "Mcmillan",
-        "suffix": null
-    },
-    "address": {
-        "streetAddress": "2370 Red Mound Way",
-        "buildingName": null,
-        "floor": 7,
-        "roomAptCondoFlat": null,
-        "city": "Larsnes",
-        "stateProvince": "Sande (M.R.)",
-        "locality": "Sande (M.R.)",
-        "country": "NO",
-        "postalCode": "6084",
-        "latitude": "62.2028",
-        "longitude": "5.5773"
-    },
-    "contact": {
-        "phone": "+47-171-752-8917",
-        "email": "smcmilla171@tm.com",
-        "socMedia": null
-    },
-    "login": {
-        "username": "smcmilla",
-        "oauth2": null,
-        "password": "$2y$10$Kmr.2zzQKlKLsS0zYBd3ZOf\/7CnE8xbECNfANS9hhXRUsxXa.1Pqe"
-    },
-    "otherContact": {
-        "emails": [
-            "smcmilla@openworld.net",
-            "smcmilla@ccs.net"
-        ],
-        "phoneNumbers": [
-            "+47-155-385-2227",
-            "+47-251-811-3734"
-        ],
-        "socMedias": []
-    },
-    "otherInfo": {
-        "gender": "F",
-        "dateOfBirth": "1975-07-13"
-    }
-});
-db.customers.insertOne(
-{
-    "customerKey": "HUBEAYAL4096",
-    "name": {
-        "title": "Mr",
-        "first": "Hubert",
-        "middle": "D",
-        "last": "Ayala",
-        "suffix": null
-    },
-    "address": {
-        "streetAddress": "8529 Long River Way",
-        "buildingName": null,
-        "floor": null,
-        "roomAptCondoFlat": null,
-        "city": "Sandy Grove",
-        "stateProvince": "SA",
-        "locality": "South Australia",
-        "country": "AU",
-        "postalCode": "5275",
-        "latitude": "-37.0028",
-        "longitude": "140.0667"
-    },
-    "contact": {
-        "phone": "+61-172-254-4096",
-        "email": "hayala172@telstra.com",
-        "socMedia": null
-    },
-    "login": {
-        "username": "hayala",
-        "oauth2": null,
-        "password": "$2y$10$Fk1GVtisfsH18yS85xfZaOs41VXTomqB9ph07V6Hwee3GbP9SBoYy"
-    },
-    "otherContact": {
-        "emails": [
-            "hayala@telstra.net"
-        ],
-        "phoneNumbers": [
-            "+61-603-368-2902"
-        ],
-        "socMedias": []
-    },
-    "otherInfo": {
-        "gender": "M",
-        "dateOfBirth": "1934-12-03"
-    }
-});
-db.customers.insertOne(
-{
-    "customerKey": "OSCABARA1818",
-    "name": {
-        "title": "Mr",
-        "first": "Oscar",
-        "middle": "Z",
-        "last": "Barajas",
-        "suffix": null
-    },
-    "address": {
-        "streetAddress": "1989 Winding River Boulevard",
-        "buildingName": null,
-        "floor": null,
-        "roomAptCondoFlat": null,
-        "city": "\u00c7inaralti",
-        "stateProvince": "\u00d6merli",
-        "locality": "\u00d6merli",
-        "country": "TR",
-        "postalCode": "47570",
-        "latitude": "37.3844",
-        "longitude": "40.86"
-    },
-    "contact": {
-        "phone": "+90-173-071-1818",
-        "email": "obarajas173@ais.com",
-        "socMedia": null
-    },
-    "login": {
-        "username": "obarajas",
-        "oauth2": null,
-        "password": "$2y$10$YWhk7Bk3NeCeb9Emk5Wbxe3NlwPfuXTPotc0PoZOXDQHuGpwtQAR."
-    },
-    "otherContact": {
-        "emails": [],
-        "phoneNumbers": [
-            "+90-206-400-5114"
-        ],
-        "socMedias": []
-    },
-    "otherInfo": {
-        "gender": "M",
-        "dateOfBirth": "1948-02-12"
-    }
-});
-db.customers.insertOne(
-{
-    "customerKey": "SHARPERR6685",
-    "name": {
-        "title": null,
-        "first": "Sharleen",
-        "middle": null,
-        "last": "Perry",
-        "suffix": null
-    },
-    "address": {
-        "streetAddress": "3354 Big River Boulevard",
-        "buildingName": null,
-        "floor": null,
-        "roomAptCondoFlat": null,
-        "city": "Ratta Khera",
-        "stateProvince": "Jalalabad",
-        "locality": "Firozpur",
-        "country": "IN",
-        "postalCode": "152033",
-        "latitude": "30.9364",
-        "longitude": "74.81"
-    },
-    "contact": {
-        "phone": "+91-174-471-6685",
-        "email": "sperry174@megafon.com",
-        "socMedia": null
-    },
-    "login": {
-        "username": "sperry",
-        "oauth2": null,
-        "password": "$2y$10$7eho2eoGNxFQPZ1eMs6q9eBuDZJYHJKlOgAWCMT3Mxyq\/1mCBK20e"
-    },
-    "otherContact": {
-        "emails": [
-            "sperry@oi.net",
-            "sperry@mtn.net",
-            "sperry@worldnet.net"
-        ],
-        "phoneNumbers": [],
-        "socMedias": []
-    },
-    "otherInfo": {
-        "gender": "F",
-        "dateOfBirth": "1992-10-05"
-    }
-});
-db.customers.insertOne(
-{
-    "customerKey": "MURRWALT5125",
-    "name": {
-        "title": "Mr",
-        "first": "Murray",
-        "middle": "Y",
-        "last": "Walton",
-        "suffix": null
-    },
-    "address": {
-        "streetAddress": "8342 Blue Bridge Drive",
-        "buildingName": null,
-        "floor": null,
-        "roomAptCondoFlat": "C9",
-        "city": "Turni\u0161\u0107e Desini\u0107ko",
-        "stateProvince": "Desini\u0107",
-        "locality": "Desini\u0107",
-        "country": "HR",
-        "postalCode": "49216",
-        "latitude": "46.1738",
-        "longitude": "15.8106"
-    },
-    "contact": {
-        "phone": "+385-175-180-5125",
-        "email": "mwalton175@seednet.com",
-        "socMedia": null
-    },
-    "login": {
-        "username": "mwalton",
-        "oauth2": null,
-        "password": "$2y$10$uDds.jCZSLRVMP.tiDWIoupQGyGgrxUw0pHRmAjy4QbOT8AIik.wy"
-    },
-    "otherContact": {
-        "emails": [
-            "mwalton@ui.net"
-        ],
-        "phoneNumbers": [
-            "+385-93-584-8166"
-        ],
-        "socMedias": []
-    },
-    "otherInfo": {
-        "gender": "M",
-        "dateOfBirth": "1931-12-08"
-    }
-});
-db.customers.insertOne(
-{
-    "customerKey": "ETHABART9614",
-    "name": {
-        "title": "Mr",
-        "first": "Ethan",
-        "middle": "J",
-        "last": "Bartlett",
-        "suffix": null
-    },
-    "address": {
-        "streetAddress": "3998 Blue Tree Avenue",
-        "buildingName": null,
-        "floor": null,
-        "roomAptCondoFlat": null,
-        "city": "Patrahatu",
-        "stateProvince": "Silli",
-        "locality": "Ranchi",
-        "country": "IN",
-        "postalCode": "835102",
-        "latitude": "25.1025",
-        "longitude": "87.4165"
-    },
-    "contact": {
-        "phone": "+91-176-880-9614",
-        "email": "ebartlet176@orstom.com",
-        "socMedia": null
-    },
-    "login": {
-        "username": "ebartlet",
-        "oauth2": null,
-        "password": "$2y$10$UkjmyhFBpf2zGf0eSzdMV.T9BAybsit8ZnMNm69p5Zvhq5O8yw5fC"
-    },
-    "otherContact": {
-        "emails": [
-            "ebartlet@tata.net"
-        ],
-        "phoneNumbers": [
-            "+91-212-256-6761"
-        ],
-        "socMedias": []
-    },
-    "otherInfo": {
-        "gender": "M",
-        "dateOfBirth": "1969-05-13"
-    }
-});
-db.customers.insertOne(
-{
-    "customerKey": "FERMVAUG0947",
-    "name": {
-        "title": null,
-        "first": "Fermin",
-        "middle": null,
-        "last": "Vaughan",
-        "suffix": null
-    },
-    "address": {
-        "streetAddress": "828 Red Bough Ride",
-        "buildingName": null,
-        "floor": null,
-        "roomAptCondoFlat": null,
-        "city": "Uribia",
-        "stateProvince": "Uribia",
-        "locality": "Uribia",
-        "country": "CO",
-        "postalCode": "441049",
-        "latitude": "11.7139",
-        "longitude": "-72.266"
-    },
-    "contact": {
-        "phone": "+57-177-053-0947",
-        "email": "fvaughan177@safaricom.com",
-        "socMedia": null
-    },
-    "login": {
-        "username": "fvaughan",
-        "oauth2": null,
-        "password": "$2y$10$\/yF5P5PO3NnsYC1VpOiwF.oU2FxQRkVwX9ljsV5EbovEBwzq0kYTa"
-    },
-    "otherContact": {
-        "emails": [],
-        "phoneNumbers": [
-            "+57-187-507-6266",
-            "+57-461-521-1600",
-            "+57-830-041-6860"
-        ],
-        "socMedias": []
-    },
-    "otherInfo": {
-        "gender": "M",
-        "dateOfBirth": "1939-09-19"
-    }
-});
-db.customers.insertOne(
-{
-    "customerKey": "TRINCHEN9652",
-    "name": {
-        "title": "Mr",
-        "first": "Trinidad",
-        "middle": "R",
-        "last": "Chen",
-        "suffix": null
-    },
-    "address": {
-        "streetAddress": "4581 Short Ditch Road",
-        "buildingName": null,
-        "floor": 15,
-        "roomAptCondoFlat": null,
-        "city": "St. John's North Central",
-        "stateProvince": "NL",
-        "locality": "St. John's ",
-        "country": "CA",
-        "postalCode": "A1C",
-        "latitude": "47.5124",
-        "longitude": "-52.6729"
-    },
-    "contact": {
-        "phone": "+1-178-526-9652",
-        "email": "tchen178@bt.com",
-        "socMedia": null
-    },
-    "login": {
-        "username": "tchen",
-        "oauth2": null,
-        "password": "$2y$10$YaaMYtEbFXGx3TVK1Ns9leanlZU5W7nQ2Io8w1zm0\/G6tjFuN6JDC"
-    },
-    "otherContact": {
-        "emails": [
-            "tchen@tata.net",
-            "tchen@telenor.net"
-        ],
-        "phoneNumbers": [],
-        "socMedias": []
-    },
-    "otherInfo": {
-        "gender": "M",
-        "dateOfBirth": "1991-02-09"
-    }
-});
-db.customers.insertOne(
-{
-    "customerKey": "ALITBOND6793",
-    "name": {
-        "title": "Ms",
-        "first": "Alita",
-        "middle": "G",
-        "last": "Bond",
-        "suffix": null
-    },
-    "address": {
-        "streetAddress": "6715 Little Ditch Ride",
-        "buildingName": null,
-        "floor": null,
-        "roomAptCondoFlat": null,
-        "city": "Jugirkanda",
-        "stateProvince": "Uzirpur",
-        "locality": "Barishal",
-        "country": "BD",
-        "postalCode": "8222",
-        "latitude": "22.846",
-        "longitude": "90.1701"
-    },
-    "contact": {
-        "phone": "+880-179-501-6793",
-        "email": "abond179@kpn.com",
-        "socMedia": null
-    },
-    "login": {
-        "username": "abond",
-        "oauth2": null,
-        "password": "$2y$10$mNYqacH84YMYXbaUi\/fbpuaXILOktkwqGEY\/IAjZXnPia4NT7ksH."
-    },
-    "otherContact": {
-        "emails": [
-            "abond@oi.net",
-            "abond@algonet.net"
-        ],
-        "phoneNumbers": [
-            "+880-760-803-6199"
-        ],
-        "socMedias": []
-    },
-    "otherInfo": {
-        "gender": "F",
-        "dateOfBirth": "1939-01-28"
-    }
-});
-db.customers.insertOne(
-{
-    "customerKey": "DREWROSE9421",
-    "name": {
-        "title": null,
-        "first": "Drew",
-        "middle": null,
-        "last": "Rose",
-        "suffix": null
-    },
-    "address": {
-        "streetAddress": "3662 Red Ditch Boulevard",
-        "buildingName": null,
-        "floor": null,
-        "roomAptCondoFlat": null,
-        "city": "Mandurah East",
-        "stateProvince": "WA",
-        "locality": "BRAND",
-        "country": "AU",
-        "postalCode": "6210",
-        "latitude": "-32.5733",
-        "longitude": "115.7613"
-    },
-    "contact": {
-        "phone": "+61-180-502-9421",
-        "email": "drose180@bce.com",
-        "socMedia": {
-            "skype": "drose@skype.com"
-        }
-    },
-    "login": {
-        "username": "drose",
-        "oauth2": "drose@skype.com",
-        "password": "$2y$10$kWubKI9k\/ejvu2hcISZQ6OGdp0NR.GmVZwYcCUULElMGLEyy8LYbq"
-    },
-    "otherContact": {
-        "emails": [],
-        "phoneNumbers": [
-            "+61-683-252-6550"
-        ],
-        "socMedias": {
-            "google": "drose@google.com",
-            "skype": "drose@skype.com"
-        }
-    },
-    "otherInfo": {
-        "gender": "M",
-        "dateOfBirth": "1964-03-05"
-    }
-});
-db.customers.insertOne(
-{
-    "customerKey": "BRYAHOWE7588",
-    "name": {
-        "title": "Ms",
-        "first": "Bryanna",
-        "middle": "Y",
-        "last": "Howe",
-        "suffix": null
-    },
-    "address": {
-        "streetAddress": "479 Little Bough Street",
-        "buildingName": null,
-        "floor": null,
-        "roomAptCondoFlat": null,
-        "city": "Ny-\u00c5lesund",
-        "stateProvince": "Spitsbergen",
-        "locality": "Spitsbergen",
-        "country": "SJ",
-        "postalCode": "9173",
-        "latitude": "78.9237",
-        "longitude": "11.925"
-    },
-    "contact": {
-        "phone": "+47-181-971-7588",
-        "email": "bhowe181@singtel.com",
-        "socMedia": null
-    },
-    "login": {
-        "username": "bhowe",
-        "oauth2": null,
-        "password": "$2y$10$xSn7YdDkAU7oeO6LsF720.V\/LSIuMmGIFKBqjyGKpeYh72XYkaFp6"
-    },
-    "otherContact": {
-        "emails": [
-            "bhowe@greennet.net",
-            "bhowe@lookdata.net"
-        ],
-        "phoneNumbers": [
-            "+47-959-012-6474"
-        ],
-        "socMedias": []
-    },
-    "otherInfo": {
-        "gender": "F",
-        "dateOfBirth": "1933-03-11"
-    }
-});
-db.customers.insertOne(
-{
-    "customerKey": "MAYAMORG2353",
-    "name": {
-        "title": "Ms",
-        "first": "Maya",
-        "middle": "G",
-        "last": "Morgan",
-        "suffix": null
-    },
-    "address": {
-        "streetAddress": "1184 Short Stream Circle",
-        "buildingName": null,
-        "floor": 11,
-        "roomAptCondoFlat": null,
-        "city": "Diffolu T.E.",
-        "stateProvince": "Bkt",
-        "locality": "Golaghat",
-        "country": "IN",
-        "postalCode": "785612",
-        "latitude": "26.6402",
-        "longitude": "93.6005"
-    },
-    "contact": {
-        "phone": "+91-182-023-2353",
-        "email": "mmorgan182@nordnet.com",
-        "socMedia": null
-    },
-    "login": {
-        "username": "mmorgan",
-        "oauth2": null,
-        "password": "$2y$10$B6Iql8xH1lfYqj8h7QADsetxgV3tjtNciXmrf4Tt3vffPvGhdA\/9e"
-    },
-    "otherContact": {
-        "emails": [
-            "mmorgan@nordnet.net",
-            "mmorgan@tt.net"
-        ],
-        "phoneNumbers": [
-            "+91-478-118-6191",
-            "+91-275-906-0986"
-        ],
-        "socMedias": []
-    },
-    "otherInfo": {
-        "gender": "F",
-        "dateOfBirth": "1990-01-17"
-    }
-});
-db.customers.insertOne(
-{
-    "customerKey": "LILIFRAZ1313",
-    "name": {
-        "title": null,
-        "first": "Lilian",
-        "middle": null,
-        "last": "Frazier",
-        "suffix": null
-    },
-    "address": {
-        "streetAddress": "132 Little Creek Circle",
-        "buildingName": null,
-        "floor": null,
-        "roomAptCondoFlat": null,
-        "city": "Maffra",
-        "stateProvince": "VIC",
-        "locality": "VIC FAR COUNTRY",
-        "country": "AU",
-        "postalCode": "3860",
-        "latitude": "-37.9713",
-        "longitude": "146.9837"
-    },
-    "contact": {
-        "phone": "+61-183-393-1313",
-        "email": "lfrazier183@softbank.com",
-        "socMedia": null
-    },
-    "login": {
-        "username": "lfrazier",
-        "oauth2": null,
-        "password": "$2y$10$54PazMAKvE2ex4zzUoErx.KSPtrULqujgLdMLWtxZxKJzbmLYSnvC"
-    },
-    "otherContact": {
-        "emails": [],
-        "phoneNumbers": [
-            "+61-366-436-1898"
-        ],
-        "socMedias": []
-    },
-    "otherInfo": {
-        "gender": "F",
-        "dateOfBirth": "1978-11-20"
-    }
-});
-db.customers.insertOne(
-{
-    "customerKey": "CLEVBRAD2694",
-    "name": {
-        "title": "Mr",
-        "first": "Cleveland",
-        "middle": "X",
-        "last": "Bradley",
-        "suffix": null
-    },
-    "address": {
-        "streetAddress": "8587 Big Mound Road",
-        "buildingName": null,
-        "floor": 19,
-        "roomAptCondoFlat": "9D",
-        "city": "Northern Newfoundland (Springdale)",
-        "stateProvince": "NL",
-        "locality": "Newfoundland and Labrador",
-        "country": "CA",
-        "postalCode": "A0J",
-        "latitude": "49.5067",
-        "longitude": "-56.2616"
-    },
-    "contact": {
-        "phone": "+1-184-748-2694",
-        "email": "cbradley184@telekom.com",
-        "socMedia": null
-    },
-    "login": {
-        "username": "cbradley",
-        "oauth2": null,
-        "password": "$2y$10$0.4jpC8.WepyssAyukwo1OAhFdpUhtka\/7MAJA8Uz9cAOiXsxU8ra"
-    },
-    "otherContact": {
-        "emails": [
-            "cbradley@telenor.net",
-            "cbradley@openworld.net"
-        ],
-        "phoneNumbers": [],
-        "socMedias": []
-    },
-    "otherInfo": {
-        "gender": "M",
-        "dateOfBirth": "1961-08-23"
-    }
-});
-db.customers.insertOne(
-{
-    "customerKey": "ROBEPEAR7333",
-    "name": {
-        "title": "Ms",
-        "first": "Robena",
-        "middle": "O",
-        "last": "Pearson",
-        "suffix": null
-    },
-    "address": {
-        "streetAddress": "444 Red Tree Drive",
-        "buildingName": null,
-        "floor": null,
-        "roomAptCondoFlat": null,
-        "city": "Schaanwald",
-        "stateProvince": "Mauren",
-        "locality": "Mauren",
-        "country": "LI",
-        "postalCode": "9486",
-        "latitude": "47.2151",
-        "longitude": "9.562"
-    },
-    "contact": {
-        "phone": "+423-185-076-7333",
-        "email": "rpearson185@pldt.com",
-        "socMedia": null
-    },
-    "login": {
-        "username": "rpearson",
-        "oauth2": null,
-        "password": "$2y$10$fr99X305wa9U.8CKv9JG7ez.vu214KXYJ9JTJXF8XwaJPK2dpBzaS"
-    },
-    "otherContact": {
-        "emails": [
-            "rpearson@jio.net"
-        ],
-        "phoneNumbers": [
-            "+423-916-086-8085"
-        ],
-        "socMedias": []
-    },
-    "otherInfo": {
-        "gender": "F",
-        "dateOfBirth": "1970-03-26"
-    }
-});
-db.customers.insertOne(
-{
-    "customerKey": "DARCFRAN2726",
-    "name": {
-        "title": null,
-        "first": "Darcy",
-        "middle": null,
-        "last": "Franco",
-        "suffix": null
-    },
-    "address": {
-        "streetAddress": "6595 Big Mountain Avenue",
-        "buildingName": null,
-        "floor": null,
-        "roomAptCondoFlat": null,
-        "city": "Parsamalik",
-        "stateProvince": "Nautanwa",
-        "locality": "Maharajganj",
-        "country": "IN",
-        "postalCode": "273305",
-        "latitude": "26.6877",
-        "longitude": "82.4345"
-    },
-    "contact": {
-        "phone": "+91-186-336-2726",
-        "email": "dfranco186@airtel.com",
-        "socMedia": null
-    },
-    "login": {
-        "username": "dfranco",
-        "oauth2": null,
-        "password": "$2y$10$qAn\/HHF7eTZaUyrvPMCIxO4NF0mAiFX5E61jOjiFU3QDjMGTnWz.a"
-    },
-    "otherContact": {
-        "emails": [
-            "dfranco@belgacom.net",
-            "dfranco@telecom.net",
-            "dfranco@megafon.net"
-        ],
-        "phoneNumbers": [],
-        "socMedias": []
-    },
-    "otherInfo": {
-        "gender": "F",
-        "dateOfBirth": "1954-08-19"
-    }
-});
-db.customers.insertOne(
-{
-    "customerKey": "DEEDCOBB3703",
-    "name": {
-        "title": "Ms",
-        "first": "Deedra",
-        "middle": "R",
-        "last": "Cobb",
-        "suffix": null
-    },
-    "address": {
-        "streetAddress": "294 Winding Bend Road",
-        "buildingName": null,
-        "floor": null,
-        "roomAptCondoFlat": null,
-        "city": "Casablanca",
-        "stateProvince": "Casablanca",
-        "locality": "Provincia de Valpara\u00edso",
-        "country": "CL",
-        "postalCode": "2480000",
-        "latitude": "-33.3158",
-        "longitude": "-71.4353"
-    },
-    "contact": {
-        "phone": "+56-187-228-3703",
-        "email": "dcobb187@openworld.com",
-        "socMedia": null
-    },
-    "login": {
-        "username": "dcobb",
-        "oauth2": null,
-        "password": "$2y$10$DC6zgMWox.MGcoedqVDA\/OGkA1tUKJ1wByqV6yZlVv1pKzZxtkCES"
-    },
-    "otherContact": {
-        "emails": [],
-        "phoneNumbers": [
-            "+56-102-337-2588",
-            "+56-307-950-8553"
-        ],
-        "socMedias": []
-    },
-    "otherInfo": {
-        "gender": "F",
-        "dateOfBirth": "1939-11-17"
-    }
-});
-db.customers.insertOne(
-{
-    "customerKey": "MOHADAVI0997",
-    "name": {
-        "title": "Mr",
-        "first": "Mohammed",
-        "middle": "U",
-        "last": "Davila",
-        "suffix": null
-    },
-    "address": {
-        "streetAddress": "3321 Blue River Avenue",
-        "buildingName": null,
-        "floor": null,
-        "roomAptCondoFlat": null,
-        "city": "Chirnside Park",
-        "stateProvince": "VIC",
-        "locality": "RINGWOOD",
-        "country": "AU",
-        "postalCode": "3116",
-        "latitude": "-37.7386",
-        "longitude": "145.3143"
-    },
-    "contact": {
-        "phone": "+61-188-699-0997",
-        "email": "mdavila188@turkcell.com",
-        "socMedia": null
-    },
-    "login": {
-        "username": "mdavila",
-        "oauth2": null,
-        "password": "$2y$10$I2kT.bnCMIO0p18lAAIhnOXFyYEIl9kxGC2nOnN9Q26tflbhscvUu"
-    },
-    "otherContact": {
-        "emails": [],
-        "phoneNumbers": [],
-        "socMedias": []
-    },
-    "otherInfo": {
-        "gender": "M",
-        "dateOfBirth": "1961-01-27"
-    }
-});
-db.customers.insertOne(
-{
-    "customerKey": "AUGUBREW4936",
-    "name": {
-        "title": null,
-        "first": "August",
-        "middle": null,
-        "last": "Brewer",
-        "suffix": null
-    },
-    "address": {
-        "streetAddress": "6041 Short River Avenue",
-        "buildingName": null,
-        "floor": null,
-        "roomAptCondoFlat": null,
-        "city": "\u041a\u0438\u0440\u043e\u0432\u043e",
-        "stateProvince": "\u042d\u041d\u0413\u0415\u041b\u042c\u0421\u0421\u041a\u0418\u0419 \u0420\u0410\u0419\u041e\u041d",
-        "locality": "\u042d\u041d\u0413\u0415\u041b\u042c\u0421\u0421\u041a\u0418\u0419 \u0420\u0410\u0419\u041e\u041d",
-        "country": "RU",
-        "postalCode": "413148",
-        "latitude": "51.0306",
-        "longitude": "46.3828"
-    },
-    "contact": {
-        "phone": "+7-189-429-4936",
-        "email": "abrewer189@optus.com",
-        "socMedia": null
-    },
-    "login": {
-        "username": "abrewer",
-        "oauth2": null,
-        "password": "$2y$10$KdWFz.byv7q4R5MRImbB0OIplHow374yAk7Ub2cqiLmdwaY4KqJVu"
-    },
-    "otherContact": {
-        "emails": [],
-        "phoneNumbers": [
-            "+7-380-295-3537",
-            "+7-64-950-1372",
-            "+7-877-549-1647"
-        ],
-        "socMedias": []
-    },
-    "otherInfo": {
-        "gender": "M",
-        "dateOfBirth": "1949-03-24"
-    }
-});
-db.customers.insertOne(
-{
-    "customerKey": "FREDREED0060",
-    "name": {
-        "title": "Mr",
-        "first": "Frederick",
-        "middle": "B",
-        "last": "Reed",
-        "suffix": null
-    },
-    "address": {
-        "streetAddress": "5684 Winding Ridge Way",
-        "buildingName": null,
-        "floor": 16,
-        "roomAptCondoFlat": null,
-        "city": "San Antonio",
-        "stateProvince": "TX",
-        "locality": "Bexar",
-        "country": "US",
-        "postalCode": "78232",
-        "latitude": "29.5863",
-        "longitude": "-98.4769"
-    },
-    "contact": {
-        "phone": "+1-190-550-0060",
-        "email": "freed190@centurylink.com",
-        "socMedia": {
-            "google": "freed@google.com"
-        }
-    },
-    "login": {
-        "username": "freed",
-        "oauth2": "freed@google.com",
-        "password": "$2y$10$M13nhzaE\/haZYfagYz9.AuyC97GPjDFnDy4lIhFIORmK8ns0Tm0S2"
-    },
-    "otherContact": {
-        "emails": [],
-        "phoneNumbers": [],
-        "socMedias": {
-            "google": "freed@google.com",
-            "facebook": "freed@facebook.com"
-        }
-    },
-    "otherInfo": {
-        "gender": "M",
-        "dateOfBirth": "1931-08-02"
-    }
-});
-db.customers.insertOne(
-{
-    "customerKey": "DIONFOST3057",
-    "name": {
-        "title": "Ms",
-        "first": "Dione",
-        "middle": "Z",
-        "last": "Foster",
-        "suffix": null
-    },
-    "address": {
-        "streetAddress": "485 Big Mound Avenue",
-        "buildingName": null,
-        "floor": null,
-        "roomAptCondoFlat": null,
-        "city": "Mongagu\u00e1",
-        "stateProvince": "Sao Paulo",
-        "locality": "Sao Paulo",
-        "country": "BR",
-        "postalCode": "11730-000",
-        "latitude": "-24.0574",
-        "longitude": "-46.6684"
-    },
-    "contact": {
-        "phone": "+55-191-776-3057",
-        "email": "dfoster191@movil.com",
-        "socMedia": null
-    },
-    "login": {
-        "username": "dfoster",
-        "oauth2": null,
-        "password": "$2y$10$zY7hFZybr1yKTHgMzhzXeOSKPgf36iyotZhf1kOfA4i7MvrJvktX2"
-    },
-    "otherContact": {
-        "emails": [],
-        "phoneNumbers": [
-            "+55-2-127-0540"
-        ],
-        "socMedias": []
-    },
-    "otherInfo": {
-        "gender": "F",
-        "dateOfBirth": "1957-07-29"
-    }
-});
-db.customers.insertOne(
-{
-    "customerKey": "JIMMLEBL1548",
-    "name": {
-        "title": null,
-        "first": "Jimmy",
-        "middle": null,
-        "last": "Leblanc",
-        "suffix": null
-    },
-    "address": {
-        "streetAddress": "6013 Short Gulch Way",
-        "buildingName": null,
-        "floor": null,
-        "roomAptCondoFlat": null,
-        "city": "Bruceton",
-        "stateProvince": "TN",
-        "locality": "Carroll",
-        "country": "US",
-        "postalCode": "38317",
-        "latitude": "36.0268",
-        "longitude": "-88.2518"
-    },
-    "contact": {
-        "phone": "+1-192-833-1548",
-        "email": "jleblanc192@seednet.com",
-        "socMedia": null
-    },
-    "login": {
-        "username": "jleblanc",
-        "oauth2": null,
-        "password": "$2y$10$tTE1Rm6qT4XlE6eorw8jnOGv0SPfn\/k.0\/AcCZzxZ.9UI1x6seabK"
-    },
-    "otherContact": {
-        "emails": [
-            "jleblanc@mtn.net",
-            "jleblanc@ais.net",
-            "jleblanc@tt.net"
-        ],
-        "phoneNumbers": [
-            "+1-452-267-4593"
-        ],
-        "socMedias": []
-    },
-    "otherInfo": {
-        "gender": "M",
-        "dateOfBirth": "1933-05-07"
-    }
-});
-db.customers.insertOne(
-{
-    "customerKey": "NOLACAMP8343",
-    "name": {
-        "title": "Mr",
-        "first": "Nolan",
-        "middle": "Z",
-        "last": "Campos",
-        "suffix": null
-    },
-    "address": {
-        "streetAddress": "6296 Red Hill Avenue",
-        "buildingName": null,
-        "floor": null,
-        "roomAptCondoFlat": null,
-        "city": "Montsin\u00e9ry-Tonnegrande",
-        "stateProvince": "GF",
-        "locality": "Guyane",
-        "country": "GF",
-        "postalCode": "97356",
-        "latitude": "4.9",
-        "longitude": "-52.5"
-    },
-    "contact": {
-        "phone": "+594-193-381-8343",
-        "email": "ncampos193@bt.com",
-        "socMedia": null
-    },
-    "login": {
-        "username": "ncampos",
-        "oauth2": null,
-        "password": "$2y$10$9lkRDd\/8WJiM4tp0rXwO8OW6\/W3aCzonlMp3jH6DUlpxFN\/QReB1i"
-    },
-    "otherContact": {
-        "emails": [
-            "ncampos@orange.net",
-            "ncampos@telefonica.net"
-        ],
-        "phoneNumbers": [
-            "+594-811-831-1506"
-        ],
-        "socMedias": []
-    },
-    "otherInfo": {
-        "gender": "M",
-        "dateOfBirth": "1963-08-01"
-    }
-});
-db.customers.insertOne(
-{
-    "customerKey": "BRITREYE3703",
-    "name": {
-        "title": "Ms",
-        "first": "Britney",
-        "middle": "H",
-        "last": "Reyes",
-        "suffix": null
-    },
-    "address": {
-        "streetAddress": "3202 Big Tree Avenue",
-        "buildingName": null,
-        "floor": null,
-        "roomAptCondoFlat": null,
-        "city": "Hamilton (Southam \/ Bonnington \/ Yeoville \/ Kernighan \/ Gourley \/ Rolston \/ Buchanan \/ Mohawk \/ Westcliffe \/ Gilbert \/ Gilkson \/ Gurnett \/ Fessenden \/ Mountview)",
-        "stateProvince": "ON",
-        "locality": "Hamilton",
-        "country": "CA",
-        "postalCode": "L9C",
-        "latitude": "43.2313",
-        "longitude": "-79.9049"
-    },
-    "contact": {
-        "phone": "+1-194-909-3703",
-        "email": "breyes194@zain.com",
-        "socMedia": null
-    },
-    "login": {
-        "username": "breyes",
-        "oauth2": null,
-        "password": "$2y$10$NZLVTZhhjwpA9wOSn6b6MOXQXSdB7yE5LOVSoS7sj\/5Fn8uePbHDi"
-    },
-    "otherContact": {
-        "emails": [
-            "breyes@bce.net",
-            "breyes@safaricom.net"
-        ],
-        "phoneNumbers": [
-            "+1-188-557-5623",
-            "+1-360-960-9665",
-            "+1-69-649-2550"
-        ],
-        "socMedias": []
-    },
-    "otherInfo": {
-        "gender": "F",
-        "dateOfBirth": "1991-01-25"
-    }
-});
-db.customers.insertOne(
-{
-    "customerKey": "MICKBRAD6154",
-    "name": {
-        "title": null,
-        "first": "Mickey",
-        "middle": null,
-        "last": "Bradford",
-        "suffix": null
-    },
-    "address": {
-        "streetAddress": "8580 Big Woods Way",
-        "buildingName": "Building EA",
-        "floor": null,
-        "roomAptCondoFlat": null,
-        "city": "Manila Bulletin",
-        "stateProvince": null,
-        "locality": null,
-        "country": "PH",
-        "postalCode": "0900",
-        "latitude": "13.2947",
-        "longitude": "123.7933"
-    },
-    "contact": {
-        "phone": "+63-195-929-6154",
-        "email": "mbradfor195@ccs.com",
-        "socMedia": null
-    },
-    "login": {
-        "username": "mbradfor",
-        "oauth2": null,
-        "password": "$2y$10$lNlkP\/llLLERvvf9HWxEf.9BIxi5a7MvYeY8pSZyEUHjmRyfSttkS"
-    },
-    "otherContact": {
-        "emails": [
-            "mbradfor@jio.net",
-            "mbradfor@lguplus.net",
-            "mbradfor@unicom.net"
-        ],
-        "phoneNumbers": [],
-        "socMedias": []
-    },
-    "otherInfo": {
-        "gender": "M",
-        "dateOfBirth": "2001-12-25"
-    }
-});
-db.customers.insertOne(
-{
-    "customerKey": "HASSCAMP4484",
-    "name": {
-        "title": "Mr",
-        "first": "Hassan",
-        "middle": "O",
-        "last": "Campbell",
-        "suffix": null
-    },
-    "address": {
-        "streetAddress": "8976 Little Creek Drive",
-        "buildingName": null,
-        "floor": null,
-        "roomAptCondoFlat": null,
-        "city": "Mossgiel",
-        "stateProvince": "NSW",
-        "locality": "NEW CNTRY WEST",
-        "country": "AU",
-        "postalCode": "2878",
-        "latitude": "-33.2495",
-        "longitude": "144.5657"
-    },
-    "contact": {
-        "phone": "+61-196-827-4484",
-        "email": "hcampbel196@glasnet.com",
-        "socMedia": null
-    },
-    "login": {
-        "username": "hcampbel",
-        "oauth2": null,
-        "password": "$2y$10$\/2pgEqwP8VQCzfzNQQ7wxuogL1\/6fSXxjHE.RSMJ.z0Cdy\/\/iEVEi"
-    },
-    "otherContact": {
-        "emails": [
-            "hcampbel@greennet.net",
-            "hcampbel@ptcl.net"
-        ],
-        "phoneNumbers": [
-            "+61-272-397-1390"
-        ],
-        "socMedias": []
-    },
-    "otherInfo": {
-        "gender": "M",
-        "dateOfBirth": "2001-12-19"
-    }
-});
-db.customers.insertOne(
-{
-    "customerKey": "NATHSTAN1524",
-    "name": {
-        "title": "Mr",
-        "first": "Nathaniel",
-        "middle": "M",
-        "last": "Stanley",
-        "suffix": null
-    },
-    "address": {
-        "streetAddress": "216 Winding Ditch Road",
-        "buildingName": null,
-        "floor": 12,
         "roomAptCondoFlat": null,
         "city": "Sigave",
         "stateProvince": "Circonscription de Sigave",
@@ -4479,2307 +4393,943 @@ db.customers.insertOne(
         "longitude": "-178.1667"
     },
     "contact": {
-        "phone": "+681-197-238-1524",
-        "email": "nstanley197@telecom.com",
-        "socMedia": null
+        "email": "klara183@telesystems.com",
+        "phone": "+61-183-389-1292",
+        "socMedia": []
     },
     "login": {
-        "username": "nstanley",
+        "username": "klara",
         "oauth2": null,
-        "password": "$2y$10$V42XF1VnHXSpGP3Weu0GMOlo0a7xkMrnZkKsGrHdVoW0vhgzAKLFa"
+        "password": "$2y$10$PsxpR6raqG0hd5XLkh1XieqPQiR6VLZanKMy9ltmSXhcbgDdxOJuK"
     },
     "otherContact": {
         "emails": [
-            "nstanley@telecomitalia.net",
-            "nstanley@greennet.net",
-            "nstanley@unicom.net"
+            "klara183@uunet.com",
+            "klara183@zain.com"
         ],
         "phoneNumbers": [
-            "+681-597-335-6072"
-        ],
-        "socMedias": []
+            "+61-183-925-5253",
+            "+61-183-888-5772"
+        ]
     },
     "otherInfo": {
         "gender": "M",
-        "dateOfBirth": "1942-07-11"
-    }
+        "dateOfBirth": "1951-06-23"
+    },
+    "totalBooked": 36,
+    "discount": 0.013000000000000001
 });
 db.customers.insertOne(
 {
-    "customerKey": "JAREMORA3964",
+    "customerKey": "JESIBARR4631",
     "name": {
-        "title": null,
-        "first": "Jared",
-        "middle": null,
-        "last": "Morales",
+        "title": "Ms",
+        "first": "Jesica",
+        "middle": "D",
+        "last": "Barrera",
         "suffix": null
     },
     "address": {
-        "streetAddress": "3892 Winding Woods Ride",
+        "streetAddress": "8889 Red Creek Boulevard",
         "buildingName": null,
         "floor": null,
         "roomAptCondoFlat": null,
-        "city": "Birkhill",
-        "stateProvince": "Scotland",
-        "locality": "Angus",
+        "city": "Greywell",
+        "stateProvince": "England",
+        "locality": "Hampshire",
         "country": "GB",
-        "postalCode": "DD2",
-        "latitude": "56.4702",
-        "longitude": "-3.031"
+        "postalCode": "RG29",
+        "latitude": "51.2577",
+        "longitude": "-0.9737"
     },
     "contact": {
-        "phone": "+44-198-856-3964",
-        "email": "jmorales198@etisalat.com",
-        "socMedia": null
+        "email": "jbarrera184@vodafone.com",
+        "phone": "+61-184-063-4631",
+        "socMedia": {
+            "facebook": "jbarrera184@vodafone.com@facebook.com"
+        }
     },
     "login": {
-        "username": "jmorales",
-        "oauth2": null,
-        "password": "$2y$10$6O2iuiULW6hJEFn076v3Tu.d5XJVEb2tahdht0knT9iXslJVgHd6."
+        "username": "jbarrera",
+        "oauth2": "jbarrera@facebook.com",
+        "password": "$2y$10$bkZ.Eoka2iSOHuH6sIQM5OwXw.36ise4GTNMUE6IYJ3XM83HUS6am"
     },
-    "otherContact": {
-        "emails": [
-            "jmorales@greennet.net"
-        ],
-        "phoneNumbers": [],
-        "socMedias": []
-    },
+    "otherContact": [],
     "otherInfo": {
-        "gender": "M",
-        "dateOfBirth": "1931-01-28"
-    }
+        "gender": "F",
+        "dateOfBirth": "1981-11-23"
+    },
+    "totalBooked": 10,
+    "discount": 0
 });
 db.customers.insertOne(
 {
-    "customerKey": "GLENBYRD2082",
+    "customerKey": "ALISMALO8053",
+    "name": {
+        "title": "Ms",
+        "first": "Alisa",
+        "middle": "H",
+        "last": "Malone",
+        "suffix": null
+    },
+    "address": {
+        "streetAddress": "3846 Little Bough Circle",
+        "buildingName": null,
+        "floor": null,
+        "roomAptCondoFlat": null,
+        "city": "Saipan",
+        "stateProvince": "Saipan",
+        "locality": "Saipan",
+        "country": "MP",
+        "postalCode": "96950",
+        "latitude": "15.1685",
+        "longitude": "145.7408"
+    },
+    "contact": {
+        "email": "amalone185@optus.com",
+        "phone": "+61-185-386-8053",
+        "socMedia": {
+            "line": "amalone185@optus.com@line.com"
+        }
+    },
+    "login": {
+        "username": "amalone",
+        "oauth2": "amalone@line.com",
+        "password": "$2y$10$aReT1YOKAOdeGBnRWxEHaOBPhbQG6UiERdaeSN\/haq.N\/.zNeZaIK"
+    },
+    "otherContact": {
+        "emails": [
+            "amalone185@belgacom.com",
+            "amalone185@verizon.com",
+            "amalone185@belgacom.com"
+        ],
+        "phoneNumbers": [
+            "+61-185-706-6648",
+            "+61-185-818-5485",
+            "+61-185-651-5051"
+        ],
+        "socMedias": [
+            {
+                "facebook": "amalone185@belgacom.com@facebook.com"
+            },
+            {
+                "facebook": "amalone185@verizon.com@facebook.com"
+            },
+            {
+                "facebook": "amalone185@belgacom.com@facebook.com"
+            }
+        ]
+    },
+    "otherInfo": {
+        "gender": "F",
+        "dateOfBirth": "1953-02-15"
+    },
+    "totalBooked": 11,
+    "discount": 0
+});
+db.customers.insertOne(
+{
+    "customerKey": "ROBEROWE9795",
+    "name": {
+        "title": null,
+        "first": "Robena",
+        "middle": null,
+        "last": "Rowe",
+        "suffix": null
+    },
+    "address": {
+        "streetAddress": "643 Big Creek Road",
+        "buildingName": null,
+        "floor": null,
+        "roomAptCondoFlat": "25",
+        "city": "Lentner",
+        "stateProvince": "MO",
+        "locality": "Shelby",
+        "country": "US",
+        "postalCode": "63450",
+        "latitude": "39.7123",
+        "longitude": "-92.1489"
+    },
+    "contact": {
+        "email": "rrowe186@att.com",
+        "phone": "+61-186-966-9795",
+        "socMedia": []
+    },
+    "login": {
+        "username": "rrowe",
+        "oauth2": null,
+        "password": "$2y$10$zNLvsu5Q3\/a72vlNG64wC.FyKyJOkbNEbbWTI5II5ojuuuDFm3xwi"
+    },
+    "otherContact": [],
+    "otherInfo": {
+        "gender": "F",
+        "dateOfBirth": "1954-07-08"
+    },
+    "totalBooked": 38,
+    "discount": 0.042
+});
+db.customers.insertOne(
+{
+    "customerKey": "SCOTAYAL6883",
     "name": {
         "title": "Mr",
-        "first": "Glen",
-        "middle": "S",
-        "last": "Byrd",
-        "suffix": null
-    },
-    "address": {
-        "streetAddress": "8249 Green Bridge Drive",
-        "buildingName": null,
-        "floor": null,
-        "roomAptCondoFlat": null,
-        "city": "Godahena",
-        "stateProvince": "Galle",
-        "locality": "Galle",
-        "country": "LK",
-        "postalCode": "80302",
-        "latitude": "6.2393",
-        "longitude": "80.0752"
-    },
-    "contact": {
-        "phone": "+94-199-611-2082",
-        "email": "gbyrd199@singtel.com",
-        "socMedia": null
-    },
-    "login": {
-        "username": "gbyrd",
-        "oauth2": null,
-        "password": "$2y$10$oWJlZgxzD\/GFfOldpsrum.ldDSKTYcJYxnl09AYW2jK.77i6yDMNm"
-    },
-    "otherContact": {
-        "emails": [
-            "gbyrd@optus.net",
-            "gbyrd@telenor.net"
-        ],
-        "phoneNumbers": [
-            "+94-768-827-5927",
-            "+94-978-824-0246"
-        ],
-        "socMedias": []
-    },
-    "otherInfo": {
-        "gender": "M",
-        "dateOfBirth": "1964-01-24"
-    }
-});
-db.customers.insertOne(
-{
-    "customerKey": "MARCPAUL8714",
-    "name": {
-        "title": "Ms",
-        "first": "Marcell",
+        "first": "Scotty",
         "middle": "Z",
-        "last": "Paul",
+        "last": "Ayala",
         "suffix": null
     },
     "address": {
-        "streetAddress": "6891 Blue Creek Avenue",
+        "streetAddress": "4530 Green Bend Way",
         "buildingName": null,
         "floor": null,
         "roomAptCondoFlat": null,
-        "city": "Ottawa (Queensway \/ Copeland \/ Carlington \/ Carleton Heights)",
-        "stateProvince": "ON",
-        "locality": "Ottawa",
-        "country": "CA",
-        "postalCode": "K2C",
-        "latitude": "45.3679",
-        "longitude": "-75.7381"
+        "city": "Montemor-O-Novo",
+        "stateProvince": "Montemor-O-Novo",
+        "locality": "Montemor-o-Novo",
+        "country": "PT",
+        "postalCode": "7050-166",
+        "latitude": "38.6481",
+        "longitude": "-8.2145"
     },
     "contact": {
-        "phone": "+1-200-742-8714",
-        "email": "mpaul200@lookdata.com",
+        "email": "sayala187@ote.com",
+        "phone": "+61-187-307-6883",
         "socMedia": {
-            "facebook": "mpaul@facebook.com"
+            "line": "sayala187@ote.com@line.com"
         }
     },
     "login": {
-        "username": "mpaul",
-        "oauth2": "mpaul@facebook.com",
-        "password": "$2y$10$O4E4i\/Sr9ljL2avXpkTo9.Ov0xEvoQJQNYU\/Ns4214V.z\/6ipuMIO"
+        "username": "sayala",
+        "oauth2": "sayala@line.com",
+        "password": "$2y$10$0YhevXJb49A8Wat8GUU0EumDsL2F4o0rst2isNB1M0yn\/vRCjztB."
     },
     "otherContact": {
         "emails": [
-            "mpaul@megafon.net"
+            "sayala187@oi.com"
         ],
         "phoneNumbers": [
-            "+1-695-795-8291"
+            "+61-187-158-8288"
         ],
-        "socMedias": {
-            "line": "mpaul@line.com"
+        "socMedias": [
+            {
+                "line": "sayala187@oi.com@line.com"
+            }
+        ]
+    },
+    "otherInfo": {
+        "gender": "M",
+        "dateOfBirth": "1990-07-25"
+    },
+    "totalBooked": 7,
+    "discount": 0
+});
+db.customers.insertOne(
+{
+    "customerKey": "NATAWARE1716",
+    "name": {
+        "title": "Ms",
+        "first": "Natalya",
+        "middle": "R",
+        "last": "Ware",
+        "suffix": null
+    },
+    "address": {
+        "streetAddress": "8187 Winding Stream Drive",
+        "buildingName": null,
+        "floor": null,
+        "roomAptCondoFlat": null,
+        "city": "Fairbanks",
+        "stateProvince": "IN",
+        "locality": "Sullivan",
+        "country": "US",
+        "postalCode": "47849",
+        "latitude": "39.1901",
+        "longitude": "-87.547"
+    },
+    "contact": {
+        "email": "nware188@maxcomm.com",
+        "phone": "+61-188-937-1716",
+        "socMedia": {
+            "skype": "nware188@maxcomm.com@skype.com"
         }
     },
+    "login": {
+        "username": "nware",
+        "oauth2": "nware@skype.com",
+        "password": "$2y$10$D1q7E1zGF4NyhU9u8f.p5OK6VvNIUXdqzxKVPbLylDEZurZgxRZgy"
+    },
+    "otherContact": {
+        "emails": [
+            "nware188@sprint.com",
+            "nware188@worldnet.com",
+            "nware188@cerist.com"
+        ],
+        "phoneNumbers": [
+            "+61-188-547-1274",
+            "+61-188-981-2291",
+            "+61-188-462-5051"
+        ],
+        "socMedias": [
+            {
+                "linkedin": "nware188@sprint.com@linkedin.com"
+            },
+            {
+                "line": "nware188@worldnet.com@line.com"
+            },
+            {
+                "facebook": "nware188@cerist.com@facebook.com"
+            }
+        ]
+    },
     "otherInfo": {
         "gender": "F",
-        "dateOfBirth": "1991-10-30"
-    }
+        "dateOfBirth": "1977-07-17"
+    },
+    "totalBooked": 3,
+    "discount": 0
 });
 db.customers.insertOne(
 {
-    "customerKey": "JASPPRAT9285",
+    "customerKey": "CARLHANS4219",
     "name": {
         "title": null,
-        "first": "Jasper",
+        "first": "Carlie",
         "middle": null,
-        "last": "Pratt",
+        "last": "Hanson",
         "suffix": null
     },
     "address": {
-        "streetAddress": "3001 Winding Canyon Street",
+        "streetAddress": "1994 Blue Gulch Road",
         "buildingName": null,
-        "floor": null,
-        "roomAptCondoFlat": "08",
-        "city": "Suha\u010d",
-        "stateProvince": "Sinj",
-        "locality": "Sinj",
+        "floor": 18,
+        "roomAptCondoFlat": null,
+        "city": "Suhaja",
+        "stateProvince": "\u010cazma",
+        "locality": "\u010cazma",
         "country": "HR",
-        "postalCode": "21230",
-        "latitude": "43.7136",
-        "longitude": "16.6411"
+        "postalCode": "43240",
+        "latitude": "45.7167",
+        "longitude": "16.6333"
     },
     "contact": {
-        "phone": "+385-201-214-9285",
-        "email": "jpratt201@movil.com",
-        "socMedia": null
+        "email": "chanson189@maxcomm.com",
+        "phone": "+61-189-401-4219",
+        "socMedia": []
     },
     "login": {
-        "username": "jpratt",
+        "username": "chanson",
         "oauth2": null,
-        "password": "$2y$10$Hdjre4Z1zIGjKp8mrCOo.OnzUTf5\/NRhJNKI7g7QwEsjtRutlE84y"
+        "password": "$2y$10$Z5bI7l9bJkr4k9rMey47Guv1Xbf6W4sUeD2X3NLhKBvTXTEyGfMf."
     },
     "otherContact": {
         "emails": [
-            "jpratt@swisscom.net"
+            "chanson189@kddi.com"
         ],
-        "phoneNumbers": [],
-        "socMedias": []
+        "phoneNumbers": [
+            "+61-189-670-3020"
+        ]
     },
     "otherInfo": {
-        "gender": "M",
-        "dateOfBirth": "1942-08-23"
-    }
+        "gender": "F",
+        "dateOfBirth": "1963-11-22"
+    },
+    "totalBooked": 68,
+    "discount": 0.14200000000000002
 });
 db.customers.insertOne(
 {
-    "customerKey": "LURLVELE2119",
+    "customerKey": "CLEMESTR7666",
     "name": {
         "title": "Ms",
-        "first": "Lurlene",
-        "middle": "U",
-        "last": "Velez",
+        "first": "Clementine",
+        "middle": "G",
+        "last": "Estrada",
         "suffix": null
     },
     "address": {
-        "streetAddress": "3168 Big Mountain Circle",
+        "streetAddress": "2634 Long Ditch Avenue",
         "buildingName": null,
         "floor": null,
         "roomAptCondoFlat": null,
-        "city": "L'\u00cele Bizard Northeast",
-        "stateProvince": "QC",
-        "locality": "Quebec",
-        "country": "CA",
-        "postalCode": "H9C",
-        "latitude": "45.5055",
-        "longitude": "-73.8789"
+        "city": "Waddington",
+        "stateProvince": "WA",
+        "locality": "KALGOORLIE",
+        "country": "AU",
+        "postalCode": "6509",
+        "latitude": "-30.85",
+        "longitude": "116.25"
     },
     "contact": {
-        "phone": "+1-202-753-2119",
-        "email": "lvelez202@telesystems.com",
-        "socMedia": null
+        "email": "cestrada190@ktc.com",
+        "phone": "+61-190-393-7666",
+        "socMedia": {
+            "facebook": "cestrada190@ktc.com@facebook.com"
+        }
     },
     "login": {
-        "username": "lvelez",
-        "oauth2": null,
-        "password": "$2y$10$1nTKiJ4MkbYlWAV3i1af9Olr95gB\/x1ANPzRclQ4Xuh3Lvv2zSHxa"
+        "username": "cestrada",
+        "oauth2": "cestrada@facebook.com",
+        "password": "$2y$10$2utv6JA8hTHVwExnyRyPxe.GnOBX\/von\/MXKjMHj49s6rRHWUHv\/a"
     },
-    "otherContact": {
-        "emails": [],
-        "phoneNumbers": [],
-        "socMedias": []
-    },
+    "otherContact": [],
     "otherInfo": {
         "gender": "F",
-        "dateOfBirth": "1989-05-22"
-    }
+        "dateOfBirth": "1976-11-18"
+    },
+    "totalBooked": 15,
+    "discount": 0
 });
 db.customers.insertOne(
 {
-    "customerKey": "SHERGREE4951",
+    "customerKey": "LUCIWALT9110",
     "name": {
-        "title": "Ms",
-        "first": "Sheron",
-        "middle": "U",
-        "last": "Greer",
+        "title": "Mr",
+        "first": "Luciano",
+        "middle": "F",
+        "last": "Walters",
         "suffix": null
     },
     "address": {
-        "streetAddress": "3016 Blue Canyon Avenue",
+        "streetAddress": "6669 Big Hill Road",
         "buildingName": null,
-        "floor": 20,
+        "floor": null,
         "roomAptCondoFlat": null,
-        "city": "Ankadia-Nana",
-        "stateProvince": "Amreli",
-        "locality": "Amreli",
-        "country": "IN",
-        "postalCode": "365620",
-        "latitude": "21.7365",
-        "longitude": "71.2012"
+        "city": "Devonshire",
+        "stateProvince": "Devonshire Parish",
+        "locality": "Devonshire Parish",
+        "country": "BM",
+        "postalCode": "FL 01",
+        "latitude": "32.3264",
+        "longitude": "-64.7411"
     },
     "contact": {
-        "phone": "+91-203-548-4951",
-        "email": "sgreer203@pldt.com",
-        "socMedia": null
+        "email": "lwalters191@oi.com",
+        "phone": "+61-191-346-9110",
+        "socMedia": {
+            "linkedin": "lwalters191@oi.com@linkedin.com"
+        }
     },
     "login": {
-        "username": "sgreer",
-        "oauth2": null,
-        "password": "$2y$10$qzl.t6WabECDHzoQacyJuOkhGpnj9jxy5PlubBsYuJb2qFJYWNHIm"
+        "username": "lwalters",
+        "oauth2": "lwalters@linkedin.com",
+        "password": "$2y$10$WEpHxA09OI0mVEcEa50BEOgyr2ZcrsCcoUW6KJhMf5AQAr5cCm.0W"
     },
     "otherContact": {
         "emails": [
-            "sgreer@singtel.net",
-            "sgreer@telekom.net"
+            "lwalters191@kpn.com"
         ],
-        "phoneNumbers": [],
-        "socMedias": []
+        "phoneNumbers": [
+            "+61-191-963-3172"
+        ],
+        "socMedias": [
+            {
+                "google": "lwalters191@kpn.com@google.com"
+            }
+        ]
     },
     "otherInfo": {
-        "gender": "F",
-        "dateOfBirth": "2003-01-09"
-    }
+        "gender": "M",
+        "dateOfBirth": "1999-03-18"
+    },
+    "totalBooked": 2,
+    "discount": 0
 });
 db.customers.insertOne(
 {
-    "customerKey": "ERICMCLE9199",
+    "customerKey": "TAMEBELL5554",
     "name": {
         "title": null,
-        "first": "Erick",
+        "first": "Tameka",
         "middle": null,
-        "last": "Mclean",
+        "last": "Bell",
         "suffix": null
     },
     "address": {
-        "streetAddress": "5427 Green Gulch Ride",
+        "streetAddress": "5145 Winding Creek Circle",
         "buildingName": null,
         "floor": null,
-        "roomAptCondoFlat": null,
-        "city": "Navi Peth (Pandharpur)",
-        "stateProvince": "Pandharpur",
-        "locality": "Solapur",
-        "country": "IN",
-        "postalCode": "413304",
-        "latitude": "18.6236",
-        "longitude": "76.0528"
+        "roomAptCondoFlat": "A2",
+        "city": "Lyneham",
+        "stateProvince": "England",
+        "locality": "Oxfordshire",
+        "country": "GB",
+        "postalCode": "OX7",
+        "latitude": "51.8887",
+        "longitude": "-1.5882"
     },
     "contact": {
-        "phone": "+91-204-220-9199",
-        "email": "emclean204@swisscom.com",
-        "socMedia": null
+        "email": "tbell192@econnect.com",
+        "phone": "+61-192-788-5554",
+        "socMedia": []
     },
     "login": {
-        "username": "emclean",
+        "username": "tbell",
         "oauth2": null,
-        "password": "$2y$10$Cd7.JDMncp8Hm17jODn\/Qeab6JHYY9OcmcmI2.AJL9ra0wpSidrnq"
+        "password": "$2y$10$DNVYWZHcScoIxfomnNrev.7eMgcDS8Uuuq67VTzzzrsbWDnWPBR66"
     },
-    "otherContact": {
-        "emails": [
-            "emclean@zain.net",
-            "emclean@telecom.net"
-        ],
-        "phoneNumbers": [],
-        "socMedias": []
-    },
+    "otherContact": [],
     "otherInfo": {
-        "gender": "M",
-        "dateOfBirth": "1997-03-30"
-    }
+        "gender": "F",
+        "dateOfBirth": "1949-11-15"
+    },
+    "totalBooked": 5,
+    "discount": 0.06
 });
 db.customers.insertOne(
 {
-    "customerKey": "VINABRUC4826",
+    "customerKey": "GRAHSCHA4535",
+    "name": {
+        "title": "Mr",
+        "first": "Graham",
+        "middle": "L",
+        "last": "Schaefer",
+        "suffix": null
+    },
+    "address": {
+        "streetAddress": "2249 Big Bend Circle",
+        "buildingName": null,
+        "floor": null,
+        "roomAptCondoFlat": null,
+        "city": "Bucure\u015fti 19",
+        "stateProvince": "Sector 3",
+        "locality": "Bucure\u015fti",
+        "country": "RO",
+        "postalCode": "031908",
+        "latitude": "44.418",
+        "longitude": "26.1691"
+    },
+    "contact": {
+        "email": "gschaefe193@telecom.com",
+        "phone": "+61-193-155-4535",
+        "socMedia": {
+            "twitter": "gschaefe193@telecom.com@twitter.com"
+        }
+    },
+    "login": {
+        "username": "gschaefe",
+        "oauth2": "gschaefe@twitter.com",
+        "password": "$2y$10$cf6Szwcf22P1c2kVQ\/jxs.UlcQWQ0FJey8dRjhvuBxaCOigvhqMVq"
+    },
+    "otherContact": {
+        "emails": [
+            "gschaefe193@verizon.com"
+        ],
+        "phoneNumbers": [
+            "+61-193-046-1052"
+        ],
+        "socMedias": [
+            {
+                "skype": "gschaefe193@verizon.com@skype.com"
+            }
+        ]
+    },
+    "otherInfo": {
+        "gender": "M",
+        "dateOfBirth": "1979-11-10"
+    },
+    "totalBooked": 1,
+    "discount": 0
+});
+db.customers.insertOne(
+{
+    "customerKey": "HOPEBRUC8968",
     "name": {
         "title": "Ms",
-        "first": "Vina",
-        "middle": "G",
+        "first": "Hope",
+        "middle": "V",
         "last": "Bruce",
         "suffix": null
     },
     "address": {
-        "streetAddress": "7347 Big Hill Drive",
-        "buildingName": null,
-        "floor": 17,
-        "roomAptCondoFlat": null,
-        "city": "Cayenne",
-        "stateProvince": "GF",
-        "locality": "Guyane",
-        "country": "GF",
-        "postalCode": "97399 CEDEX",
-        "latitude": "4.9333",
-        "longitude": "-52.3333"
-    },
-    "contact": {
-        "phone": "+594-205-788-4826",
-        "email": "vbruce205@openworld.com",
-        "socMedia": null
-    },
-    "login": {
-        "username": "vbruce",
-        "oauth2": null,
-        "password": "$2y$10$9jGD6B29IYQI3JHiQwpGhO2v5aa\/wvLE273yoU5GJcCubWpFVvDS2"
-    },
-    "otherContact": {
-        "emails": [
-            "vbruce@bifty.net",
-            "vbruce@lookdata.net",
-            "vbruce@telecom.net"
-        ],
-        "phoneNumbers": [
-            "+594-142-433-8193"
-        ],
-        "socMedias": []
-    },
-    "otherInfo": {
-        "gender": "F",
-        "dateOfBirth": "1993-11-14"
-    }
-});
-db.customers.insertOne(
-{
-    "customerKey": "RORYMERR4080",
-    "name": {
-        "title": "Mr",
-        "first": "Rory",
-        "middle": "D",
-        "last": "Merritt",
-        "suffix": null
-    },
-    "address": {
-        "streetAddress": "5920 Little Hill Way",
+        "streetAddress": "1990 Big Canyon Way",
         "buildingName": null,
         "floor": null,
         "roomAptCondoFlat": null,
-        "city": "Winter Springs",
-        "stateProvince": "FL",
-        "locality": "Seminole",
-        "country": "US",
-        "postalCode": "32719",
-        "latitude": "28.7448",
-        "longitude": "-81.2233"
+        "city": "Knockgray",
+        "stateProvince": "Scotland",
+        "locality": "Dumfries and Galloway",
+        "country": "GB",
+        "postalCode": "DG7",
+        "latitude": "54.9842",
+        "longitude": "-3.9638"
     },
     "contact": {
-        "phone": "+1-206-624-4080",
-        "email": "rmerritt206@ntt.com",
-        "socMedia": null
-    },
-    "login": {
-        "username": "rmerritt",
-        "oauth2": null,
-        "password": "$2y$10$vCL205lQ7c7ku9fYCk9uUuXZQJJ4IILhyA18XUFdrFAY\/UkCQAO2C"
-    },
-    "otherContact": {
-        "emails": [
-            "rmerritt@chunghwa.net"
-        ],
-        "phoneNumbers": [],
-        "socMedias": []
-    },
-    "otherInfo": {
-        "gender": "M",
-        "dateOfBirth": "2000-02-19"
-    }
-});
-db.customers.insertOne(
-{
-    "customerKey": "HOBEBARA1045",
-    "name": {
-        "title": null,
-        "first": "Hobert",
-        "middle": null,
-        "last": "Barajas",
-        "suffix": null
-    },
-    "address": {
-        "streetAddress": "496 Big Hill Ride",
-        "buildingName": null,
-        "floor": null,
-        "roomAptCondoFlat": null,
-        "city": "St Lawrence",
-        "stateProvince": "Jersey Channel Islands",
-        "locality": "Jersey Channel Islands",
-        "country": "JE",
-        "postalCode": "JE3",
-        "latitude": "49.2",
-        "longitude": "-2.1333"
-    },
-    "contact": {
-        "phone": "+441534-207-407-1045",
-        "email": "hbarajas207@cubenet.com",
-        "socMedia": null
-    },
-    "login": {
-        "username": "hbarajas",
-        "oauth2": null,
-        "password": "$2y$10$kE1c93X\/XfBFTmGXMV80O.nKy\/YIerPdw08j7hm6mpf0nwSmQNNMa"
-    },
-    "otherContact": {
-        "emails": [
-            "hbarajas@millicom.net"
-        ],
-        "phoneNumbers": [
-            "+441534-330-429-0295",
-            "+441534-96-832-9648"
-        ],
-        "socMedias": []
-    },
-    "otherInfo": {
-        "gender": "M",
-        "dateOfBirth": "1999-01-03"
-    }
-});
-db.customers.insertOne(
-{
-    "customerKey": "PEGGLEE7882",
-    "name": {
-        "title": "Ms",
-        "first": "Peggy",
-        "middle": "X",
-        "last": "Lee",
-        "suffix": null
-    },
-    "address": {
-        "streetAddress": "5129 Blue River Avenue",
-        "buildingName": null,
-        "floor": 14,
-        "roomAptCondoFlat": null,
-        "city": "Lune River",
-        "stateProvince": "TAS",
-        "locality": "TASMANIA",
-        "country": "AU",
-        "postalCode": "7109",
-        "latitude": "-43.4295",
-        "longitude": "146.9009"
-    },
-    "contact": {
-        "phone": "+61-208-763-7882",
-        "email": "plee208@ui.com",
-        "socMedia": null
-    },
-    "login": {
-        "username": "plee",
-        "oauth2": null,
-        "password": "$2y$10$jyiAIjH1XCAqdridWi.ycegsVqnPUAqO5JErAcAjzv.jHUllpJZz."
-    },
-    "otherContact": {
-        "emails": [],
-        "phoneNumbers": [
-            "+61-825-761-9929",
-            "+61-0-715-7328"
-        ],
-        "socMedias": []
-    },
-    "otherInfo": {
-        "gender": "F",
-        "dateOfBirth": "1984-04-15"
-    }
-});
-db.customers.insertOne(
-{
-    "customerKey": "WINNWILK9632",
-    "name": {
-        "title": "Ms",
-        "first": "Winnifred",
-        "middle": "S",
-        "last": "Wilkins",
-        "suffix": null
-    },
-    "address": {
-        "streetAddress": "3194 Little Bough Street",
-        "buildingName": null,
-        "floor": null,
-        "roomAptCondoFlat": null,
-        "city": "Talaigua Nuevo",
-        "stateProvince": "Talaigua Nuevo",
-        "locality": "Talaigua Nuevo",
-        "country": "CO",
-        "postalCode": "132547",
-        "latitude": "9.3035",
-        "longitude": "-74.5648"
-    },
-    "contact": {
-        "phone": "+57-209-083-9632",
-        "email": "wwilkins209@seednet.com",
-        "socMedia": null
-    },
-    "login": {
-        "username": "wwilkins",
-        "oauth2": null,
-        "password": "$2y$10$LCSPGqur1nrN7939smf61eefM.G1gZiQEhIXrbcyltG4DqHAvO6cK"
-    },
-    "otherContact": {
-        "emails": [],
-        "phoneNumbers": [
-            "+57-985-960-0262",
-            "+57-915-328-0932",
-            "+57-926-593-1979"
-        ],
-        "socMedias": []
-    },
-    "otherInfo": {
-        "gender": "F",
-        "dateOfBirth": "1949-11-22"
-    }
-});
-db.customers.insertOne(
-{
-    "customerKey": "ALONKLIN2214",
-    "name": {
-        "title": null,
-        "first": "Alona",
-        "middle": null,
-        "last": "Kline",
-        "suffix": null
-    },
-    "address": {
-        "streetAddress": "1464 Long Mound Road",
-        "buildingName": null,
-        "floor": 20,
-        "roomAptCondoFlat": "55",
-        "city": "Chilliwack West",
-        "stateProvince": "BC",
-        "locality": "Chilliwack",
-        "country": "CA",
-        "postalCode": "V2R",
-        "latitude": "49.076",
-        "longitude": "-121.9883"
-    },
-    "contact": {
-        "phone": "+1-210-187-2214",
-        "email": "akline210@telecom.com",
+        "email": "hbruce194@apicnet.com",
+        "phone": "+61-194-487-8968",
         "socMedia": {
-            "linkedin": "akline@linkedin.com"
+            "twitter": "hbruce194@apicnet.com@twitter.com"
         }
     },
     "login": {
-        "username": "akline",
-        "oauth2": "akline@linkedin.com",
-        "password": "$2y$10$IdO1F9U5kedpSbfqD5.E5O3l\/vrJY6wptJEJyoi1YgDfZW.THtmSS"
+        "username": "hbruce",
+        "oauth2": "hbruce@twitter.com",
+        "password": "$2y$10$ZPUet3ZGsRU0SXQy8OuuUeUH9aZvlfVKCwSzojQTHfwESXUYbCese"
     },
-    "otherContact": {
-        "emails": [
-            "akline@netcom.net",
-            "akline@apicnet.net",
-            "akline@maxcomm.net"
-        ],
-        "phoneNumbers": [
-            "+1-514-356-4745"
-        ],
-        "socMedias": []
-    },
+    "otherContact": [],
     "otherInfo": {
         "gender": "F",
-        "dateOfBirth": "1998-02-08"
-    }
+        "dateOfBirth": "1970-10-02"
+    },
+    "totalBooked": 15,
+    "discount": 0
 });
 db.customers.insertOne(
 {
-    "customerKey": "BONIBOON5208",
-    "name": {
-        "title": "Ms",
-        "first": "Bonita",
-        "middle": "A",
-        "last": "Boone",
-        "suffix": null
-    },
-    "address": {
-        "streetAddress": "9967 Winding Stream Boulevard",
-        "buildingName": null,
-        "floor": null,
-        "roomAptCondoFlat": null,
-        "city": "Kuching",
-        "stateProvince": "SRW",
-        "locality": "Sarawak",
-        "country": "MY",
-        "postalCode": "93503",
-        "latitude": "1.531",
-        "longitude": "110.3442"
-    },
-    "contact": {
-        "phone": "+60-211-317-5208",
-        "email": "bboone211@vodafone.com",
-        "socMedia": null
-    },
-    "login": {
-        "username": "bboone",
-        "oauth2": null,
-        "password": "$2y$10$eCD.Y5jBfyu.ztiEwdEEPOC3UHt08T1Ka4ZfNkLmAcw4gUwVB9xDq"
-    },
-    "otherContact": {
-        "emails": [
-            "bboone@sktelecom.net"
-        ],
-        "phoneNumbers": [
-            "+60-661-573-4101",
-            "+60-996-841-0638"
-        ],
-        "socMedias": []
-    },
-    "otherInfo": {
-        "gender": "F",
-        "dateOfBirth": "1996-08-02"
-    }
-});
-db.customers.insertOne(
-{
-    "customerKey": "JASODORS6719",
-    "name": {
-        "title": "Mr",
-        "first": "Jason",
-        "middle": "O",
-        "last": "Dorsey",
-        "suffix": null
-    },
-    "address": {
-        "streetAddress": "1627 Short Hill Avenue",
-        "buildingName": null,
-        "floor": 15,
-        "roomAptCondoFlat": "F5",
-        "city": "Bogan",
-        "stateProvince": "NSW",
-        "locality": "New South Wales",
-        "country": "AU",
-        "postalCode": "2826",
-        "latitude": "-31.85",
-        "longitude": "147.7167"
-    },
-    "contact": {
-        "phone": "+61-212-433-6719",
-        "email": "jdorsey212@eunet.com",
-        "socMedia": null
-    },
-    "login": {
-        "username": "jdorsey",
-        "oauth2": null,
-        "password": "$2y$10$iQdesA.sY6YWCurXWNjs.Oph7sXM9qSL4NgPWULjTKpSWRDDyxyS."
-    },
-    "otherContact": {
-        "emails": [],
-        "phoneNumbers": [
-            "+61-566-026-5208"
-        ],
-        "socMedias": []
-    },
-    "otherInfo": {
-        "gender": "M",
-        "dateOfBirth": "1981-06-13"
-    }
-});
-db.customers.insertOne(
-{
-    "customerKey": "WILLSMAL1257",
+    "customerKey": "AMERLARS4987",
     "name": {
         "title": null,
-        "first": "Willard",
+        "first": "America",
         "middle": null,
-        "last": "Small",
+        "last": "Larsen",
         "suffix": null
     },
     "address": {
-        "streetAddress": "9390 Short Hill Way",
-        "buildingName": null,
-        "floor": null,
-        "roomAptCondoFlat": "E4",
-        "city": "Nehawka",
-        "stateProvince": "NE",
-        "locality": "Cass",
-        "country": "US",
-        "postalCode": "68413",
-        "latitude": "40.833",
-        "longitude": "-95.993"
-    },
-    "contact": {
-        "phone": "+1-213-007-1257",
-        "email": "wsmall213@vivendi.com",
-        "socMedia": null
-    },
-    "login": {
-        "username": "wsmall",
-        "oauth2": null,
-        "password": "$2y$10$87yhkXtQ0x44sA.iKP2KnePLcph6JAWl92sI9qoYUIWTezRS\/Rp7a"
-    },
-    "otherContact": {
-        "emails": [
-            "wsmall@tata.net",
-            "wsmall@kpn.net"
-        ],
-        "phoneNumbers": [
-            "+1-598-093-3487",
-            "+1-623-940-6202"
-        ],
-        "socMedias": []
-    },
-    "otherInfo": {
-        "gender": "M",
-        "dateOfBirth": "2003-03-26"
-    }
-});
-db.customers.insertOne(
-{
-    "customerKey": "ELVIDAVI8110",
-    "name": {
-        "title": "Mr",
-        "first": "Elvis",
-        "middle": "Z",
-        "last": "David",
-        "suffix": null
-    },
-    "address": {
-        "streetAddress": "9739 Winding Mound Circle",
-        "buildingName": null,
+        "streetAddress": "218 Big Stream Circle",
+        "buildingName": "Building 9D",
         "floor": null,
         "roomAptCondoFlat": null,
-        "city": "Nallamanaickenpatti",
-        "stateProvince": "Rajapalayam",
-        "locality": "Virudhunagar",
-        "country": "IN",
-        "postalCode": "626102",
-        "latitude": "10.1123",
-        "longitude": "78.2644"
-    },
-    "contact": {
-        "phone": "+91-214-817-8110",
-        "email": "edavid214@telecom.com",
-        "socMedia": null
-    },
-    "login": {
-        "username": "edavid",
-        "oauth2": null,
-        "password": "$2y$10$Eq\/2RQn4eHlOQaDK3xOXKO9Js3hPyn99PyQzBQwW3VSZaoNu62wam"
-    },
-    "otherContact": {
-        "emails": [],
-        "phoneNumbers": [
-            "+91-267-402-5699",
-            "+91-899-325-0235"
-        ],
-        "socMedias": []
-    },
-    "otherInfo": {
-        "gender": "M",
-        "dateOfBirth": "2002-02-02"
-    }
-});
-db.customers.insertOne(
-{
-    "customerKey": "CHINPONC7508",
-    "name": {
-        "title": "Dr",
-        "first": "Ching",
-        "middle": null,
-        "last": "Ponce",
-        "suffix": "MD"
-    },
-    "address": {
-        "streetAddress": "6737 Big Stream Circle",
-        "buildingName": null,
-        "floor": null,
-        "roomAptCondoFlat": null,
-        "city": "Greenwell Point",
-        "stateProvince": "NSW",
-        "locality": "NEW CNTRY WEST",
-        "country": "AU",
-        "postalCode": "2540",
-        "latitude": "-34.9075",
-        "longitude": "150.7311"
-    },
-    "contact": {
-        "phone": "+61-216-170-7508",
-        "email": "cponce216@telia.com",
-        "socMedia": null
-    },
-    "login": {
-        "username": "cponce",
-        "oauth2": null,
-        "password": "$2y$10$t0znQ2J.OIyKttcQbDDoNuAok0p\/06dSZwxgivYLglj7ErrtmFcry"
-    },
-    "otherContact": {
-        "emails": [
-            "cponce@ais.net"
-        ],
-        "phoneNumbers": [
-            "+61-47-963-0468"
-        ],
-        "socMedias": []
-    },
-    "otherInfo": {
-        "gender": "F",
-        "dateOfBirth": "1962-12-27"
-    }
-});
-db.customers.insertOne(
-{
-    "customerKey": "VONCTHOM9154",
-    "name": {
-        "title": "Ms",
-        "first": "Voncile",
-        "middle": "P",
-        "last": "Thomas",
-        "suffix": null
-    },
-    "address": {
-        "streetAddress": "4690 Winding Mound Avenue",
-        "buildingName": null,
-        "floor": null,
-        "roomAptCondoFlat": null,
-        "city": "\u041a\u0430\u043b\u0438\u043d\u043e\u0432\u043a\u0430",
-        "stateProvince": "Luban",
-        "locality": "Luban",
-        "country": "BY",
-        "postalCode": "223817",
-        "latitude": "53.4476",
-        "longitude": "28.3829"
-    },
-    "contact": {
-        "phone": "+375-217-098-9154",
-        "email": "vthomas217@zain.com",
-        "socMedia": null
-    },
-    "login": {
-        "username": "vthomas",
-        "oauth2": null,
-        "password": "$2y$10$.nPcDOeMcMA\/qoQr0eMPO.QIERYqiZx9L6xKAOKLbkSt\/L.IYgCBG"
-    },
-    "otherContact": {
-        "emails": [
-            "vthomas@glasnet.net"
-        ],
-        "phoneNumbers": [],
-        "socMedias": []
-    },
-    "otherInfo": {
-        "gender": "F",
-        "dateOfBirth": "1953-04-20"
-    }
-});
-db.customers.insertOne(
-{
-    "customerKey": "REGIRICH0772",
-    "name": {
-        "title": "Ms",
-        "first": "Reginia",
-        "middle": "C",
-        "last": "Rich",
-        "suffix": null
-    },
-    "address": {
-        "streetAddress": "2157 Big Stream Avenue",
-        "buildingName": null,
-        "floor": null,
-        "roomAptCondoFlat": null,
-        "city": "St Peters",
-        "stateProvince": "NSW",
-        "locality": "LEICHHARDT",
-        "country": "AU",
-        "postalCode": "2044",
-        "latitude": "-33.9167",
-        "longitude": "151.1833"
-    },
-    "contact": {
-        "phone": "+61-218-088-0772",
-        "email": "rrich218@bt.com",
-        "socMedia": null
-    },
-    "login": {
-        "username": "rrich",
-        "oauth2": null,
-        "password": "$2y$10$e3oE6xMWly0PqZPnn9u68.hzVhojbSAK2qhIxJYFTJUM93TNw2bl."
-    },
-    "otherContact": {
-        "emails": [
-            "rrich@tm.net"
-        ],
-        "phoneNumbers": [],
-        "socMedias": []
-    },
-    "otherInfo": {
-        "gender": "F",
-        "dateOfBirth": "1944-04-23"
-    }
-});
-db.customers.insertOne(
-{
-    "customerKey": "JOSEANDE9456",
-    "name": {
-        "title": null,
-        "first": "Josef",
-        "middle": null,
-        "last": "Anderson",
-        "suffix": null
-    },
-    "address": {
-        "streetAddress": "1663 Blue Hill Avenue",
-        "buildingName": null,
-        "floor": null,
-        "roomAptCondoFlat": null,
-        "city": "K\u00f6yh\u00e4joki",
-        "stateProvince": "Kaustinen",
-        "locality": "Kaustinen",
-        "country": "FI",
-        "postalCode": "69660",
-        "latitude": "63.5677",
-        "longitude": "23.9347"
-    },
-    "contact": {
-        "phone": "+358-219-431-9456",
-        "email": "janderso219@cubenet.com",
-        "socMedia": null
-    },
-    "login": {
-        "username": "janderso",
-        "oauth2": null,
-        "password": "$2y$10$n2wbtXZqhIFAlDNbJgPdduVM.2zY942hRyeogfTs5YZ1F3K2OO..m"
-    },
-    "otherContact": {
-        "emails": [
-            "janderso@softbank.net"
-        ],
-        "phoneNumbers": [
-            "+358-505-000-6079"
-        ],
-        "socMedias": []
-    },
-    "otherInfo": {
-        "gender": "M",
-        "dateOfBirth": "1964-10-28"
-    }
-});
-db.customers.insertOne(
-{
-    "customerKey": "EXIELONG4427",
-    "name": {
-        "title": "Ms",
-        "first": "Exie",
-        "middle": "Y",
-        "last": "Long",
-        "suffix": null
-    },
-    "address": {
-        "streetAddress": "1941 Short Mountain Street",
-        "buildingName": null,
-        "floor": null,
-        "roomAptCondoFlat": null,
-        "city": "Beatrice",
-        "stateProvince": "NE",
-        "locality": "Gage",
-        "country": "US",
-        "postalCode": "68310",
-        "latitude": "40.2705",
-        "longitude": "-96.7435"
-    },
-    "contact": {
-        "phone": "+1-220-261-4427",
-        "email": "elong220@telecom.com",
-        "socMedia": {
-            "line": "elong@line.com"
-        }
-    },
-    "login": {
-        "username": "elong",
-        "oauth2": "elong@line.com",
-        "password": "$2y$10$15EYqIAcnGWH\/QWOARy9vueg9C1Wc3liu2vAT4hkrT9XCDu2edyd."
-    },
-    "otherContact": {
-        "emails": [
-            "elong@telenor.net"
-        ],
-        "phoneNumbers": [],
-        "socMedias": {
-            "google": "elong@google.com",
-            "linkedin": "elong@linkedin.com"
-        }
-    },
-    "otherInfo": {
-        "gender": "F",
-        "dateOfBirth": "1935-06-29"
-    }
-});
-db.customers.insertOne(
-{
-    "customerKey": "KASAHINT2581",
-    "name": {
-        "title": "Ms",
-        "first": "Kasandra",
-        "middle": "T",
-        "last": "Hinton",
-        "suffix": null
-    },
-    "address": {
-        "streetAddress": "6839 Short Woods Ride",
-        "buildingName": null,
-        "floor": null,
-        "roomAptCondoFlat": null,
-        "city": "Vai\u010deli\u0173 k.",
-        "stateProvince": "Mol\u0117t\u0173 r. sav.",
-        "locality": "Mol\u0117t\u0173 r. sav.",
-        "country": "LT",
-        "postalCode": "33028",
-        "latitude": "55.0719",
-        "longitude": "25.3551"
-    },
-    "contact": {
-        "phone": "+370-221-945-2581",
-        "email": "khinton221@telecom.com",
-        "socMedia": null
-    },
-    "login": {
-        "username": "khinton",
-        "oauth2": null,
-        "password": "$2y$10$0tksqDMSltaQqhheWXAnPeTJkH8n8q7\/MaA5QMSblwS7mttPXNUQu"
-    },
-    "otherContact": {
-        "emails": [],
-        "phoneNumbers": [],
-        "socMedias": []
-    },
-    "otherInfo": {
-        "gender": "F",
-        "dateOfBirth": "1931-11-27"
-    }
-});
-db.customers.insertOne(
-{
-    "customerKey": "EFRAOSBO0278",
-    "name": {
-        "title": null,
-        "first": "Efrain",
-        "middle": null,
-        "last": "Osborne",
-        "suffix": null
-    },
-    "address": {
-        "streetAddress": "1166 Little Creek Avenue",
-        "buildingName": null,
-        "floor": null,
-        "roomAptCondoFlat": null,
-        "city": "Hartford",
-        "stateProvince": "CT",
-        "locality": "Hartford",
-        "country": "US",
-        "postalCode": "06140",
-        "latitude": "41.7918",
-        "longitude": "-72.7188"
-    },
-    "contact": {
-        "phone": "+1-222-797-0278",
-        "email": "eosborne222@openworld.com",
-        "socMedia": null
-    },
-    "login": {
-        "username": "eosborne",
-        "oauth2": null,
-        "password": "$2y$10$FnFk9fZbDRFwKyNOLr9gOuQPjR1\/OoxMpO4C2yKKBrOyd1949F6Cy"
-    },
-    "otherContact": {
-        "emails": [],
-        "phoneNumbers": [],
-        "socMedias": []
-    },
-    "otherInfo": {
-        "gender": "M",
-        "dateOfBirth": "1970-08-14"
-    }
-});
-db.customers.insertOne(
-{
-    "customerKey": "GISEGONZ4813",
-    "name": {
-        "title": "Ms",
-        "first": "Giselle",
-        "middle": "J",
-        "last": "Gonzalez",
-        "suffix": null
-    },
-    "address": {
-        "streetAddress": "8003 Green Bridge Ride",
-        "buildingName": null,
-        "floor": null,
-        "roomAptCondoFlat": null,
-        "city": "Katsunumacho Katsunuma",
-        "stateProvince": "Koshu Shi",
-        "locality": "Koshu Shi",
-        "country": "JP",
-        "postalCode": "409-1316",
-        "latitude": "35.4524",
-        "longitude": "138.5669"
-    },
-    "contact": {
-        "phone": "+81-223-378-4813",
-        "email": "ggonzale223@lguplus.com",
-        "socMedia": null
-    },
-    "login": {
-        "username": "ggonzale",
-        "oauth2": null,
-        "password": "$2y$10$dIfu1ZodHwQIjDqpFPVWAuTNiAmp\/1po4JSjZqLtOHa2VOMUSSuNu"
-    },
-    "otherContact": {
-        "emails": [
-            "ggonzale@telecom.net"
-        ],
-        "phoneNumbers": [
-            "+81-515-596-5208",
-            "+81-258-280-4605"
-        ],
-        "socMedias": []
-    },
-    "otherInfo": {
-        "gender": "F",
-        "dateOfBirth": "1998-08-28"
-    }
-});
-db.customers.insertOne(
-{
-    "customerKey": "CAMEBALD9576",
-    "name": {
-        "title": "Ms",
-        "first": "Cameron",
-        "middle": "N",
-        "last": "Baldwin",
-        "suffix": null
-    },
-    "address": {
-        "streetAddress": "2301 Blue Mound Boulevard",
-        "buildingName": null,
-        "floor": null,
-        "roomAptCondoFlat": null,
-        "city": "Cumberland Township",
-        "stateProvince": "ON",
-        "locality": "Ontario",
-        "country": "CA",
-        "postalCode": "K4B",
-        "latitude": "45.4101",
-        "longitude": "-75.3638"
-    },
-    "contact": {
-        "phone": "+1-224-445-9576",
-        "email": "cbaldwin224@frontier.com",
-        "socMedia": null
-    },
-    "login": {
-        "username": "cbaldwin",
-        "oauth2": null,
-        "password": "$2y$10$x9ge7Nih7I1j9MVfuWF2iOpnHkrdYhsmXTtP2tN2GAP2uElwmQHti"
-    },
-    "otherContact": {
-        "emails": [
-            "cbaldwin@ui.net",
-            "cbaldwin@chunghwa.net",
-            "cbaldwin@telecom.net"
-        ],
-        "phoneNumbers": [
-            "+1-631-822-0005"
-        ],
-        "socMedias": []
-    },
-    "otherInfo": {
-        "gender": "F",
-        "dateOfBirth": "1958-07-23"
-    }
-});
-db.customers.insertOne(
-{
-    "customerKey": "JENIANDE1790",
-    "name": {
-        "title": null,
-        "first": "Jenifer",
-        "middle": null,
-        "last": "Andersen",
-        "suffix": null
-    },
-    "address": {
-        "streetAddress": "4635 Little Gulch Circle",
-        "buildingName": null,
-        "floor": null,
-        "roomAptCondoFlat": "0A",
-        "city": "Barrancas Coloradas",
-        "stateProvince": "Colonia",
-        "locality": "Colonia",
-        "country": "UY",
-        "postalCode": "70300",
-        "latitude": "-34.2417",
-        "longitude": "-57.2209"
-    },
-    "contact": {
-        "phone": "+598-225-773-1790",
-        "email": "janderse225@telkom.com",
-        "socMedia": null
-    },
-    "login": {
-        "username": "janderse",
-        "oauth2": null,
-        "password": "$2y$10$xTNEMNgzQgn17Juh6B06FuJTXmSU1zU\/VxJQHgfpGX.46bFK2SqfK"
-    },
-    "otherContact": {
-        "emails": [
-            "janderse@telekom.net"
-        ],
-        "phoneNumbers": [
-            "+598-252-158-0404"
-        ],
-        "socMedias": []
-    },
-    "otherInfo": {
-        "gender": "F",
-        "dateOfBirth": "1993-11-18"
-    }
-});
-db.customers.insertOne(
-{
-    "customerKey": "ELLIGALL0309",
-    "name": {
-        "title": "Mr",
-        "first": "Ellis",
-        "middle": "B",
-        "last": "Gallagher",
-        "suffix": null
-    },
-    "address": {
-        "streetAddress": "4412 Blue Tree Boulevard",
-        "buildingName": null,
-        "floor": null,
-        "roomAptCondoFlat": null,
-        "city": "Northern British Columbia (Fort Nelson)",
-        "stateProvince": "BC",
-        "locality": "British Columbia",
-        "country": "CA",
-        "postalCode": "V0C",
-        "latitude": "58.3874",
-        "longitude": "-125.7167"
-    },
-    "contact": {
-        "phone": "+1-226-676-0309",
-        "email": "egallagh226@bifty.com",
-        "socMedia": null
-    },
-    "login": {
-        "username": "egallagh",
-        "oauth2": null,
-        "password": "$2y$10$Kc0ogAfrMrKCUFafiMS5Z.rLSfE\/HF3AalzyQ\/n97SV367MjTWXFy"
-    },
-    "otherContact": {
-        "emails": [
-            "egallagh@worldnet.net"
-        ],
-        "phoneNumbers": [],
-        "socMedias": []
-    },
-    "otherInfo": {
-        "gender": "M",
-        "dateOfBirth": "1935-02-22"
-    }
-});
-db.customers.insertOne(
-{
-    "customerKey": "HOWAHEBE0582",
-    "name": {
-        "title": "Mr",
-        "first": "Howard",
-        "middle": "I",
-        "last": "Hebert",
-        "suffix": null
-    },
-    "address": {
-        "streetAddress": "929 Short Bridge Way",
-        "buildingName": null,
-        "floor": null,
-        "roomAptCondoFlat": null,
-        "city": "Alliston",
-        "stateProvince": "ON",
-        "locality": "Ontario",
-        "country": "CA",
-        "postalCode": "L9R",
-        "latitude": "44.1501",
-        "longitude": "-79.8663"
-    },
-    "contact": {
-        "phone": "+1-227-400-0582",
-        "email": "hhebert227@mtn.com",
-        "socMedia": null
-    },
-    "login": {
-        "username": "hhebert",
-        "oauth2": null,
-        "password": "$2y$10$76UGcCJiujhjjZwsWR\/.0.cU3YsX3P2Qx3\/wGzivh0wJoIANnoglS"
-    },
-    "otherContact": {
-        "emails": [
-            "hhebert@access.net"
-        ],
-        "phoneNumbers": [
-            "+1-218-602-2042"
-        ],
-        "socMedias": []
-    },
-    "otherInfo": {
-        "gender": "M",
-        "dateOfBirth": "1930-10-16"
-    }
-});
-db.customers.insertOne(
-{
-    "customerKey": "CELIROCH9848",
-    "name": {
-        "title": "Dr",
-        "first": "Celinda",
-        "middle": null,
-        "last": "Rocha",
-        "suffix": "BS"
-    },
-    "address": {
-        "streetAddress": "5737 Long Woods Road",
-        "buildingName": null,
-        "floor": null,
-        "roomAptCondoFlat": null,
-        "city": "Jhaljhalia Railway Colony",
-        "stateProvince": "Englishbazar",
-        "locality": "Malda",
-        "country": "IN",
-        "postalCode": "732102",
-        "latitude": "24.2919",
-        "longitude": "87.9302"
-    },
-    "contact": {
-        "phone": "+91-228-844-9848",
-        "email": "crocha228@nii.com",
-        "socMedia": null
-    },
-    "login": {
-        "username": "crocha",
-        "oauth2": null,
-        "password": "$2y$10$slbE8M.GHGMG3TnLh2vJceQT1fCuPr\/PDBPKZJD1jtlGJBGQ.UUXS"
-    },
-    "otherContact": {
-        "emails": [
-            "crocha@uunet.net",
-            "crocha@telkom.net"
-        ],
-        "phoneNumbers": [
-            "+91-393-160-5458"
-        ],
-        "socMedias": []
-    },
-    "otherInfo": {
-        "gender": "F",
-        "dateOfBirth": "1933-04-09"
-    }
-});
-db.customers.insertOne(
-{
-    "customerKey": "LEONOWEN7203",
-    "name": {
-        "title": "Mr",
-        "first": "Leonard",
-        "middle": "V",
-        "last": "Owens",
-        "suffix": null
-    },
-    "address": {
-        "streetAddress": "8764 Big Gulch Street",
-        "buildingName": null,
-        "floor": null,
-        "roomAptCondoFlat": null,
-        "city": "Midv\u00e1gur",
+        "city": "Groblersdal",
         "stateProvince": null,
         "locality": null,
-        "country": "FO",
-        "postalCode": "375",
-        "latitude": "62.0511",
-        "longitude": "-7.1939"
+        "country": "ZA",
+        "postalCode": "0474",
+        "latitude": "-25.15",
+        "longitude": "29.3833"
     },
     "contact": {
-        "phone": "+298-229-831-7203",
-        "email": "lowens229@vodafone.com",
-        "socMedia": null
+        "email": "alarsen195@oi.com",
+        "phone": "+61-195-402-4987",
+        "socMedia": []
     },
     "login": {
-        "username": "lowens",
+        "username": "alarsen",
         "oauth2": null,
-        "password": "$2y$10$MOstI\/x2dohiQ56bLhxYL.Op5joZQMZw0DFwxG41rB22mUiLwJ3YS"
+        "password": "$2y$10$lASF3WTcgroHrTeOgwSBfO15uL0IO\/hmAIrgjNGnLDSIemRrnYKa2"
     },
     "otherContact": {
         "emails": [
-            "lowens@jio.net",
-            "lowens@movil.net",
-            "lowens@worldnet.net"
+            "alarsen195@telia.com",
+            "alarsen195@tm.com",
+            "alarsen195@telstra.com"
         ],
         "phoneNumbers": [
-            "+298-274-072-7986"
-        ],
-        "socMedias": []
+            "+61-195-040-2254",
+            "+61-195-593-7610",
+            "+61-195-970-0440"
+        ]
     },
     "otherInfo": {
-        "gender": "M",
-        "dateOfBirth": "1936-02-06"
-    }
+        "gender": "F",
+        "dateOfBirth": "1982-12-23"
+    },
+    "totalBooked": 40,
+    "discount": 0.092
 });
 db.customers.insertOne(
 {
-    "customerKey": "JACQSHIE6756",
+    "customerKey": "JARRPOPE6582",
     "name": {
         "title": "Mr",
-        "first": "Jacques",
-        "middle": "Y",
-        "last": "Shields",
+        "first": "Jarred",
+        "middle": "C",
+        "last": "Pope",
         "suffix": null
     },
     "address": {
-        "streetAddress": "1063 Green Mound Drive",
+        "streetAddress": "1894 Winding Hill Way",
         "buildingName": null,
         "floor": null,
         "roomAptCondoFlat": null,
-        "city": "Katandra",
-        "stateProvince": "VIC",
-        "locality": "VIC FAR COUNTRY",
-        "country": "AU",
-        "postalCode": "3634",
-        "latitude": "-36.2333",
-        "longitude": "145.6167"
+        "city": "Buckie",
+        "stateProvince": "Scotland",
+        "locality": "Moray",
+        "country": "GB",
+        "postalCode": "AB56",
+        "latitude": "57.6757",
+        "longitude": "-2.9624"
     },
     "contact": {
-        "phone": "+61-230-294-6756",
-        "email": "jshields230@telesystems.com",
+        "email": "jpope196@rogers.com",
+        "phone": "+61-196-163-6582",
         "socMedia": {
-            "facebook": "jshields@facebook.com"
+            "google": "jpope196@rogers.com@google.com"
         }
     },
     "login": {
-        "username": "jshields",
-        "oauth2": "jshields@facebook.com",
-        "password": "$2y$10$VeO.iM0g9L97nm.OWfoRauE\/81o4x0pMX48wX1gqjPISUxmC0f5sa"
+        "username": "jpope",
+        "oauth2": "jpope@google.com",
+        "password": "$2y$10$T9Exseqpna9f9HPtMn\/vFe5xTW6fh.Y7h0H6T5E3e\/KLLY9UmCo6S"
     },
     "otherContact": {
         "emails": [
-            "jshields@apicnet.net",
-            "jshields@cerist.net",
-            "jshields@telecom.net"
-        ],
-        "phoneNumbers": [],
-        "socMedias": {
-            "google": "jshields@google.com"
-        }
-    },
-    "otherInfo": {
-        "gender": "M",
-        "dateOfBirth": "1944-01-06"
-    }
-});
-db.customers.insertOne(
-{
-    "customerKey": "GEOFBENN6892",
-    "name": {
-        "title": null,
-        "first": "Geoffrey",
-        "middle": null,
-        "last": "Bennett",
-        "suffix": null
-    },
-    "address": {
-        "streetAddress": "3959 Short Bend Drive",
-        "buildingName": null,
-        "floor": 1,
-        "roomAptCondoFlat": "67",
-        "city": "Sveagruva",
-        "stateProvince": "Spitsbergen",
-        "locality": "Spitsbergen",
-        "country": "SJ",
-        "postalCode": "9175",
-        "latitude": "77.9003",
-        "longitude": "16.7201"
-    },
-    "contact": {
-        "phone": "+47-231-621-6892",
-        "email": "gbennett231@centurylink.com",
-        "socMedia": null
-    },
-    "login": {
-        "username": "gbennett",
-        "oauth2": null,
-        "password": "$2y$10$3KOW9fjjLbveoEbdQhNohe9K08ZjfW7pnNSDCPzNpXWJWElZE0s5C"
-    },
-    "otherContact": {
-        "emails": [
-            "gbennett@vimpelcom.net",
-            "gbennett@tm.net"
+            "jpope196@daxnet.com",
+            "jpope196@belgacom.com"
         ],
         "phoneNumbers": [
-            "+47-340-614-2497"
+            "+61-196-503-1008",
+            "+61-196-823-6709"
         ],
-        "socMedias": []
+        "socMedias": [
+            {
+                "linkedin": "jpope196@daxnet.com@linkedin.com"
+            },
+            {
+                "linkedin": "jpope196@belgacom.com@linkedin.com"
+            }
+        ]
     },
     "otherInfo": {
         "gender": "M",
-        "dateOfBirth": "1970-01-24"
-    }
+        "dateOfBirth": "1958-07-30"
+    },
+    "totalBooked": 47,
+    "discount": 0.152
 });
 db.customers.insertOne(
 {
-    "customerKey": "CLARZAVA5867",
+    "customerKey": "COLBFRAN3215",
     "name": {
-        "title": "Ms",
-        "first": "Claribel",
-        "middle": "N",
-        "last": "Zavala",
+        "title": "Mr",
+        "first": "Colby",
+        "middle": "L",
+        "last": "Francis",
         "suffix": null
     },
     "address": {
-        "streetAddress": "6937 Big Gully Boulevard",
+        "streetAddress": "9723 Short Bough Way",
+        "buildingName": null,
+        "floor": null,
+        "roomAptCondoFlat": null,
+        "city": "Cach\u00ed",
+        "stateProvince": "Cach\u00ed",
+        "locality": "Para\u00edso",
+        "country": "CR",
+        "postalCode": "30204",
+        "latitude": "9.8293",
+        "longitude": "-83.7941"
+    },
+    "contact": {
+        "email": "cfrancis197@telecom.com",
+        "phone": "+61-197-568-3215",
+        "socMedia": {
+            "google": "cfrancis197@telecom.com@google.com"
+        }
+    },
+    "login": {
+        "username": "cfrancis",
+        "oauth2": "cfrancis@google.com",
+        "password": "$2y$10$NuXt8iFNnpphaajr2eVJIO\/hEgjIFvFs\/Vcl7Dpl6sowiUNTi2csG"
+    },
+    "otherContact": {
+        "emails": [
+            "cfrancis197@daxnet.com",
+            "cfrancis197@cci.com",
+            "cfrancis197@vimpelcom.com"
+        ],
+        "phoneNumbers": [
+            "+61-197-012-4130",
+            "+61-197-015-2653",
+            "+61-197-796-9380"
+        ],
+        "socMedias": [
+            {
+                "skype": "cfrancis197@daxnet.com@skype.com"
+            },
+            {
+                "line": "cfrancis197@cci.com@line.com"
+            },
+            {
+                "line": "cfrancis197@vimpelcom.com@line.com"
+            }
+        ]
+    },
+    "otherInfo": {
+        "gender": "M",
+        "dateOfBirth": "2001-09-14"
+    },
+    "totalBooked": 1,
+    "discount": 0
+});
+db.customers.insertOne(
+{
+    "customerKey": "VERORICE3739",
+    "name": {
+        "title": null,
+        "first": "Veronica",
+        "middle": null,
+        "last": "Rice",
+        "suffix": null
+    },
+    "address": {
+        "streetAddress": "7054 Short Gully Drive",
         "buildingName": null,
         "floor": 7,
-        "roomAptCondoFlat": null,
-        "city": "Dalry",
-        "stateProvince": "Scotland",
-        "locality": "North Ayrshire",
+        "roomAptCondoFlat": "57",
+        "city": "Glencairn",
+        "stateProvince": "Northern Ireland",
+        "locality": "Belfast Greater",
         "country": "GB",
-        "postalCode": "KA24",
-        "latitude": "55.7096",
-        "longitude": "-4.7217"
+        "postalCode": "BT13",
+        "latitude": "54.6105",
+        "longitude": "-5.9625"
     },
     "contact": {
-        "phone": "+44-232-668-5867",
-        "email": "czavala232@lguplus.com",
-        "socMedia": null
+        "email": "vrice198@vivendi.com",
+        "phone": "+61-198-700-3739",
+        "socMedia": []
     },
     "login": {
-        "username": "czavala",
+        "username": "vrice",
         "oauth2": null,
-        "password": "$2y$10$UHQxRaT.5itZyXjXT5QA\/OLlKoKnw96i6WqER\/htTzvHvqnobq3NW"
+        "password": "$2y$10$PqkAl5vtBCM019T7O.1EBuIizbvNcsO9XHaRV7BtqfyPz8kM.knXy"
     },
-    "otherContact": {
-        "emails": [
-            "czavala@millicom.net"
-        ],
-        "phoneNumbers": [
-            "+44-693-067-7582",
-            "+44-395-217-9535"
-        ],
-        "socMedias": []
-    },
+    "otherContact": [],
     "otherInfo": {
         "gender": "F",
-        "dateOfBirth": "1971-04-25"
-    }
+        "dateOfBirth": "1954-06-21"
+    },
+    "totalBooked": 39,
+    "discount": 0.04
 });
 db.customers.insertOne(
 {
-    "customerKey": "STERESTE6760",
+    "customerKey": "GILBBARB2386",
     "name": {
         "title": "Mr",
-        "first": "Sterling",
-        "middle": "P",
-        "last": "Estes",
+        "first": "Gilbert",
+        "middle": "G",
+        "last": "Barber",
         "suffix": null
     },
     "address": {
-        "streetAddress": "4258 Green Stream Ride",
+        "streetAddress": "851 Long Creek Drive",
         "buildingName": null,
         "floor": null,
         "roomAptCondoFlat": null,
-        "city": "Papudo",
-        "stateProvince": "Papudo",
-        "locality": "Petorca Province",
-        "country": "CL",
-        "postalCode": "2070000",
-        "latitude": "-32.5075",
-        "longitude": "-71.4431"
+        "city": "Toftwood",
+        "stateProvince": "England",
+        "locality": "Norfolk",
+        "country": "GB",
+        "postalCode": "NR19",
+        "latitude": "52.6806",
+        "longitude": "0.8848"
     },
     "contact": {
-        "phone": "+56-233-743-6760",
-        "email": "sestes233@ntt.com",
-        "socMedia": null
-    },
-    "login": {
-        "username": "sestes",
-        "oauth2": null,
-        "password": "$2y$10$0sCkUuABSm6IOTt4KLqGkeex3nfVgnahkb3fBbXGISnsw6GHkbw3."
-    },
-    "otherContact": {
-        "emails": [
-            "sestes@cubenet.net",
-            "sestes@bce.net",
-            "sestes@telia.net"
-        ],
-        "phoneNumbers": [
-            "+56-204-335-5258"
-        ],
-        "socMedias": []
-    },
-    "otherInfo": {
-        "gender": "M",
-        "dateOfBirth": "1941-10-18"
-    }
-});
-db.customers.insertOne(
-{
-    "customerKey": "YOUNOLIV1156",
-    "name": {
-        "title": null,
-        "first": "Young",
-        "middle": null,
-        "last": "Oliver",
-        "suffix": null
-    },
-    "address": {
-        "streetAddress": "275 Red Gulch Ride",
-        "buildingName": null,
-        "floor": null,
-        "roomAptCondoFlat": null,
-        "city": "Dhola",
-        "stateProvince": "Fatehabad",
-        "locality": "Fatehabad",
-        "country": "IN",
-        "postalCode": "125111",
-        "latitude": "28.4324",
-        "longitude": "75.8825"
-    },
-    "contact": {
-        "phone": "+91-234-664-1156",
-        "email": "yoliver234@cubenet.com",
-        "socMedia": null
-    },
-    "login": {
-        "username": "yoliver",
-        "oauth2": null,
-        "password": "$2y$10$Oc7jnPx\/gC3bnQxc8N.kiOLJeJKr6kunRE8W13BcYR4DUf1Z.oHF."
-    },
-    "otherContact": {
-        "emails": [],
-        "phoneNumbers": [
-            "+91-674-983-1296"
-        ],
-        "socMedias": []
-    },
-    "otherInfo": {
-        "gender": "M",
-        "dateOfBirth": "1951-05-18"
-    }
-});
-db.customers.insertOne(
-{
-    "customerKey": "MURRWHIT7819",
-    "name": {
-        "title": "Mr",
-        "first": "Murray",
-        "middle": "U",
-        "last": "Whitney",
-        "suffix": null
-    },
-    "address": {
-        "streetAddress": "6043 Long Bend Boulevard",
-        "buildingName": null,
-        "floor": null,
-        "roomAptCondoFlat": null,
-        "city": "Portezuelo",
-        "stateProvince": "Portezuelo",
-        "locality": "Provincia de \u00d1uble",
-        "country": "CL",
-        "postalCode": "3960000",
-        "latitude": "-36.5464",
-        "longitude": "-72.4665"
-    },
-    "contact": {
-        "phone": "+56-235-703-7819",
-        "email": "mwhitney235@openworld.com",
-        "socMedia": null
-    },
-    "login": {
-        "username": "mwhitney",
-        "oauth2": null,
-        "password": "$2y$10$ZpWRhzsu7K6uY6kQ9Q7OZelnPSsjAwuEtygtIU.onF0ECc0GRBQ\/G"
-    },
-    "otherContact": {
-        "emails": [
-            "mwhitney@access.net"
-        ],
-        "phoneNumbers": [
-            "+56-516-718-2702"
-        ],
-        "socMedias": []
-    },
-    "otherInfo": {
-        "gender": "M",
-        "dateOfBirth": "2002-02-25"
-    }
-});
-db.customers.insertOne(
-{
-    "customerKey": "TOYALUGO3605",
-    "name": {
-        "title": "Ms",
-        "first": "Toya",
-        "middle": "L",
-        "last": "Lugo",
-        "suffix": null
-    },
-    "address": {
-        "streetAddress": "5860 Blue Creek Way",
-        "buildingName": null,
-        "floor": null,
-        "roomAptCondoFlat": null,
-        "city": "Rockledge",
-        "stateProvince": "GA",
-        "locality": "Laurens",
-        "country": "US",
-        "postalCode": "30454",
-        "latitude": "32.3915",
-        "longitude": "-82.7479"
-    },
-    "contact": {
-        "phone": "+1-236-421-3605",
-        "email": "tlugo236@daxnet.com",
-        "socMedia": null
-    },
-    "login": {
-        "username": "tlugo",
-        "oauth2": null,
-        "password": "$2y$10$b2xSHXsIEKVeNKWHkNi7dem1u4oc5YzxJGkpS44Y.LJZEdtrfauO6"
-    },
-    "otherContact": {
-        "emails": [
-            "tlugo@safaricom.net"
-        ],
-        "phoneNumbers": [
-            "+1-770-397-8952",
-            "+1-793-304-2641"
-        ],
-        "socMedias": []
-    },
-    "otherInfo": {
-        "gender": "F",
-        "dateOfBirth": "1955-12-16"
-    }
-});
-db.customers.insertOne(
-{
-    "customerKey": "FREDPORT1859",
-    "name": {
-        "title": null,
-        "first": "Fredricka",
-        "middle": null,
-        "last": "Porter",
-        "suffix": null
-    },
-    "address": {
-        "streetAddress": "2050 Long Creek Way",
-        "buildingName": null,
-        "floor": null,
-        "roomAptCondoFlat": null,
-        "city": "San Nicol\u00e1s",
-        "stateProvince": "YUC",
-        "locality": "Baca",
-        "country": "MX",
-        "postalCode": "97453",
-        "latitude": "21.1273",
-        "longitude": "-89.3928"
-    },
-    "contact": {
-        "phone": "+52-237-118-1859",
-        "email": "fporter237@vodafone.com",
-        "socMedia": null
-    },
-    "login": {
-        "username": "fporter",
-        "oauth2": null,
-        "password": "$2y$10$3p2lQrktCRQ5pYUz1sIPJOdo05NL82u.CtSgRF7ayZG0s1zWnBB.6"
-    },
-    "otherContact": {
-        "emails": [
-            "fporter@millicom.net",
-            "fporter@telus.net",
-            "fporter@softbank.net"
-        ],
-        "phoneNumbers": [
-            "+52-438-812-1391"
-        ],
-        "socMedias": []
-    },
-    "otherInfo": {
-        "gender": "F",
-        "dateOfBirth": "1956-06-27"
-    }
-});
-db.customers.insertOne(
-{
-    "customerKey": "LEONREES8049",
-    "name": {
-        "title": "Ms",
-        "first": "Leonor",
-        "middle": "I",
-        "last": "Reese",
-        "suffix": null
-    },
-    "address": {
-        "streetAddress": "9291 Blue Ditch Street",
-        "buildingName": null,
-        "floor": null,
-        "roomAptCondoFlat": null,
-        "city": "Ranisagar",
-        "stateProvince": "Shahpur",
-        "locality": "Bhojpur",
-        "country": "IN",
-        "postalCode": "802165",
-        "latitude": "25.1171",
-        "longitude": "86.5356"
-    },
-    "contact": {
-        "phone": "+91-238-452-8049",
-        "email": "lreese238@icom.com",
-        "socMedia": null
-    },
-    "login": {
-        "username": "lreese",
-        "oauth2": null,
-        "password": "$2y$10$gVSPtrCo0.4zjBI5QGg3UO.P8cIKHcCeHHhtMcIDYv4bMnOG0t002"
-    },
-    "otherContact": {
-        "emails": [
-            "lreese@sktelecom.net"
-        ],
-        "phoneNumbers": [
-            "+91-482-865-6946"
-        ],
-        "socMedias": []
-    },
-    "otherInfo": {
-        "gender": "F",
-        "dateOfBirth": "1962-08-29"
-    }
-});
-db.customers.insertOne(
-{
-    "customerKey": "ONEISANF9792",
-    "name": {
-        "title": "Ms",
-        "first": "Oneida",
-        "middle": "J",
-        "last": "Sanford",
-        "suffix": null
-    },
-    "address": {
-        "streetAddress": "5248 Blue Mound Circle",
-        "buildingName": null,
-        "floor": null,
-        "roomAptCondoFlat": null,
-        "city": "Pembroke",
-        "stateProvince": "Pembroke Parish",
-        "locality": "Pembroke Parish",
-        "country": "BM",
-        "postalCode": "HM 06",
-        "latitude": "32.3002",
-        "longitude": "-64.792"
-    },
-    "contact": {
-        "phone": "+1441-239-309-9792",
-        "email": "osanford239@telecomitalia.com",
-        "socMedia": null
-    },
-    "login": {
-        "username": "osanford",
-        "oauth2": null,
-        "password": "$2y$10$esgbNJBrsHthA\/zXODq.TePAV.qz3Teegbxiuu8u59uuHMFIyRrza"
-    },
-    "otherContact": {
-        "emails": [
-            "osanford@uunet.net"
-        ],
-        "phoneNumbers": [
-            "+1441-16-369-0239"
-        ],
-        "socMedias": []
-    },
-    "otherInfo": {
-        "gender": "F",
-        "dateOfBirth": "1959-09-20"
-    }
-});
-db.customers.insertOne(
-{
-    "customerKey": "LYLECOHE6641",
-    "name": {
-        "title": null,
-        "first": "Lyle",
-        "middle": null,
-        "last": "Cohen",
-        "suffix": null
-    },
-    "address": {
-        "streetAddress": "3440 Short Bridge Boulevard",
-        "buildingName": null,
-        "floor": null,
-        "roomAptCondoFlat": null,
-        "city": "Boridra",
-        "stateProvince": "Mangrol",
-        "locality": "Surat",
-        "country": "IN",
-        "postalCode": "394125",
-        "latitude": "21.4956",
-        "longitude": "72.9742"
-    },
-    "contact": {
-        "phone": "+91-240-283-6641",
-        "email": "lcohen240@telecomitalia.com",
+        "email": "gbarber200@nordnet.com",
+        "phone": "+61-200-442-2386",
         "socMedia": {
-            "google": "lcohen@google.com"
+            "facebook": "gbarber200@nordnet.com@facebook.com"
         }
     },
     "login": {
-        "username": "lcohen",
-        "oauth2": "lcohen@google.com",
-        "password": "$2y$10$P7B\/KOVtVBJYWm6RJJYB8OrcIu0B8Lsb75vvlZ.G5aOaFdv52r.6y"
+        "username": "gbarber",
+        "oauth2": "gbarber@facebook.com",
+        "password": "$2y$10$5NlvWqy0I.fRZ2HWHjTA8eiIt9t35JOn72yfkX3EfxYsigquQQsCa"
     },
-    "otherContact": {
-        "emails": [
-            "lcohen@turkcell.net"
-        ],
-        "phoneNumbers": [
-            "+91-563-794-6222"
-        ],
-        "socMedias": []
-    },
+    "otherContact": [],
     "otherInfo": {
-        "gender": "X",
-        "dateOfBirth": "1993-01-16"
-    }
+        "gender": "M",
+        "dateOfBirth": "1994-03-18"
+    },
+    "totalBooked": 4,
+    "discount": 0
 });
 db.customers.insertOne(
 {
-    "customerKey": "MERCGALL5509",
+    "customerKey": "WARNNASH2915",
+    "name": {
+        "title": null,
+        "first": "Warner",
+        "middle": null,
+        "last": "Nash",
+        "suffix": null
+    },
+    "address": {
+        "streetAddress": "7998 Short Canyon Road",
+        "buildingName": null,
+        "floor": null,
+        "roomAptCondoFlat": null,
+        "city": "Faetano",
+        "stateProvince": null,
+        "locality": null,
+        "country": "SM",
+        "postalCode": "47896",
+        "latitude": "43.9333",
+        "longitude": "12.5"
+    },
+    "contact": {
+        "email": "wnash201@greennet.com",
+        "phone": "+61-201-440-2915",
+        "socMedia": []
+    },
+    "login": {
+        "username": "wnash",
+        "oauth2": null,
+        "password": "$2y$10$PTIO1Gm\/o59pirOPJ.F3K.ZuQCfVno1qWdAeY3HrUzvGHhE.MzQTC"
+    },
+    "otherContact": [],
+    "otherInfo": {
+        "gender": "M",
+        "dateOfBirth": "1986-09-11"
+    },
+    "totalBooked": 25,
+    "discount": 0.064
+});
+db.customers.insertOne(
+{
+    "customerKey": "ROSSSCOT7408",
     "name": {
         "title": "Ms",
-        "first": "Mercy",
-        "middle": "E",
-        "last": "Gallagher",
+        "first": "Rossie",
+        "middle": "S",
+        "last": "Scott",
         "suffix": null
     },
     "address": {
-        "streetAddress": "5676 Short Ditch Ride",
+        "streetAddress": "2184 Long Gulch Circle",
         "buildingName": null,
         "floor": null,
         "roomAptCondoFlat": null,
-        "city": "Oberthal",
-        "stateProvince": "BE",
-        "locality": "Bern-Mittelland District",
-        "country": "CH",
-        "postalCode": "3531",
-        "latitude": "46.9184",
-        "longitude": "7.6781"
+        "city": "Sahapur",
+        "stateProvince": "Howrah",
+        "locality": "Howrah",
+        "country": "IN",
+        "postalCode": "711310",
+        "latitude": "22.5244",
+        "longitude": "88.1669"
     },
     "contact": {
-        "phone": "+41-241-040-5509",
-        "email": "mgallagh241@telenor.com",
-        "socMedia": null
+        "email": "rscott202@centurylink.com",
+        "phone": "+61-202-940-7408",
+        "socMedia": {
+            "line": "rscott202@centurylink.com@line.com"
+        }
     },
     "login": {
-        "username": "mgallagh",
-        "oauth2": null,
-        "password": "$2y$10$Ta241e2Q5lZZopr528ykI.h9Y8qKgCgkSwqy4sC8YbEHBuR3n0SAy"
+        "username": "rscott",
+        "oauth2": "rscott@line.com",
+        "password": "$2y$10$lVfrXgNak5zrTexVcg\/6nOmeTAXvHP3hRNyksWgRTBiYL5lmsdjQ6"
     },
-    "otherContact": {
-        "emails": [
-            "mgallagh@pldt.net"
-        ],
-        "phoneNumbers": [],
-        "socMedias": []
-    },
+    "otherContact": [],
     "otherInfo": {
         "gender": "F",
-        "dateOfBirth": "1941-08-20"
-    }
+        "dateOfBirth": "1977-11-20"
+    },
+    "totalBooked": 10,
+    "discount": 0
 });
 db.customers.insertOne(
 {
-    "customerKey": "BLAIJARV9451",
+    "customerKey": "GERAMCKE3249",
     "name": {
         "title": "Mr",
-        "first": "Blair",
-        "middle": "V",
-        "last": "Jarvis",
+        "first": "Gerard",
+        "middle": "A",
+        "last": "Mckenzie",
         "suffix": null
     },
     "address": {
-        "streetAddress": "8904 Winding Bough Drive",
-        "buildingName": null,
-        "floor": null,
-        "roomAptCondoFlat": null,
-        "city": "Brampton Southeast",
-        "stateProvince": "ON",
-        "locality": "Brampton",
-        "country": "CA",
-        "postalCode": "L6W",
-        "latitude": "43.68",
-        "longitude": "-79.7273"
-    },
-    "contact": {
-        "phone": "+1-242-996-9451",
-        "email": "bjarvis242@frontier.com",
-        "socMedia": null
-    },
-    "login": {
-        "username": "bjarvis",
-        "oauth2": null,
-        "password": "$2y$10$33OJG2Xc9kEiuRzK4cuOGO7dAQxbqupEF8\/vVgAUXsFUnMAEEBsbW"
-    },
-    "otherContact": {
-        "emails": [
-            "bjarvis@telecom.net",
-            "bjarvis@ote.net"
-        ],
-        "phoneNumbers": [
-            "+1-749-957-5128",
-            "+1-589-475-1245"
-        ],
-        "socMedias": []
-    },
-    "otherInfo": {
-        "gender": "M",
-        "dateOfBirth": "1936-04-02"
-    }
-});
-db.customers.insertOne(
-{
-    "customerKey": "ELVIREYN2608",
-    "name": {
-        "title": null,
-        "first": "Elvin",
-        "middle": null,
-        "last": "Reynolds",
-        "suffix": null
-    },
-    "address": {
-        "streetAddress": "7074 Big Creek Road",
-        "buildingName": null,
-        "floor": null,
-        "roomAptCondoFlat": null,
-        "city": "Narvik",
-        "stateProvince": "Narvik",
-        "locality": "Narvik",
-        "country": "NO",
-        "postalCode": "8502",
-        "latitude": "68.4384",
-        "longitude": "17.4272"
-    },
-    "contact": {
-        "phone": "+47-243-298-2608",
-        "email": "ereynold243@vimpelcom.com",
-        "socMedia": null
-    },
-    "login": {
-        "username": "ereynold",
-        "oauth2": null,
-        "password": "$2y$10$KJuph.ztzbdoRdq41gU1xOedQZnMrOHyCyQpDWtHlZTaoyXXCOZ62"
-    },
-    "otherContact": {
-        "emails": [
-            "ereynold@nordnet.net"
-        ],
-        "phoneNumbers": [],
-        "socMedias": []
-    },
-    "otherInfo": {
-        "gender": "M",
-        "dateOfBirth": "1935-04-19"
-    }
-});
-db.customers.insertOne(
-{
-    "customerKey": "CARMMITC9042",
-    "name": {
-        "title": "Mr",
-        "first": "Carmen",
-        "middle": "L",
-        "last": "Mitchell",
-        "suffix": null
-    },
-    "address": {
-        "streetAddress": "9492 Short Creek Avenue",
-        "buildingName": null,
-        "floor": null,
-        "roomAptCondoFlat": null,
-        "city": "Bharnawa",
-        "stateProvince": "Ladnun",
-        "locality": "Nagaur",
-        "country": "IN",
-        "postalCode": "341316",
-        "latitude": "27.2577",
-        "longitude": "74.838"
-    },
-    "contact": {
-        "phone": "+91-244-111-9042",
-        "email": "cmitchel244@ptcl.com",
-        "socMedia": null
-    },
-    "login": {
-        "username": "cmitchel",
-        "oauth2": null,
-        "password": "$2y$10$vb4HjabAbRxkFG4fb6GzO.iJrtDBbMjxaikajHrhfYBAzNS9\/LRlG"
-    },
-    "otherContact": {
-        "emails": [],
-        "phoneNumbers": [
-            "+91-117-764-4174",
-            "+91-275-832-4821"
-        ],
-        "socMedias": []
-    },
-    "otherInfo": {
-        "gender": "M",
-        "dateOfBirth": "1984-05-26"
-    }
-});
-db.customers.insertOne(
-{
-    "customerKey": "MELMIDD1812",
-    "name": {
-        "title": "Mr",
-        "first": "Mel",
-        "middle": "D",
-        "last": "Middleton",
-        "suffix": null
-    },
-    "address": {
-        "streetAddress": "8374 Long Bend Circle",
-        "buildingName": null,
-        "floor": null,
-        "roomAptCondoFlat": null,
-        "city": "Bucure\u015fti 2",
-        "stateProvince": "Sector 1",
-        "locality": "Bucure\u015fti",
-        "country": "RO",
-        "postalCode": "011353",
-        "latitude": "44.4914",
-        "longitude": "26.0602"
-    },
-    "contact": {
-        "phone": "+40-245-027-1812",
-        "email": "mmiddlet245@greennet.com",
-        "socMedia": null
-    },
-    "login": {
-        "username": "mmiddlet",
-        "oauth2": null,
-        "password": "$2y$10$pVp\/qlsbrEwzdk6UbTkIROP7SY9feGqA3g4.XFs6.TT4ipb\/H4RBC"
-    },
-    "otherContact": {
-        "emails": [
-            "mmiddlet@rogers.net"
-        ],
-        "phoneNumbers": [
-            "+40-200-270-6651",
-            "+40-826-754-5257"
-        ],
-        "socMedias": []
-    },
-    "otherInfo": {
-        "gender": "M",
-        "dateOfBirth": "1949-07-12"
-    }
-});
-db.customers.insertOne(
-{
-    "customerKey": "JERANEWT1521",
-    "name": {
-        "title": null,
-        "first": "Jeramy",
-        "middle": null,
-        "last": "Newton",
-        "suffix": null
-    },
-    "address": {
-        "streetAddress": "3488 Winding Bridge Avenue",
-        "buildingName": null,
-        "floor": null,
-        "roomAptCondoFlat": null,
-        "city": "Sydney",
-        "stateProvince": "NSW",
-        "locality": "New South Wales",
-        "country": "AU",
-        "postalCode": "1178",
-        "latitude": "-33.8678",
-        "longitude": "151.2073"
-    },
-    "contact": {
-        "phone": "+61-246-561-1521",
-        "email": "jnewton246@lookdata.com",
-        "socMedia": null
-    },
-    "login": {
-        "username": "jnewton",
-        "oauth2": null,
-        "password": "$2y$10$bO7oGaxivb.omn.Qh\/kCquX3WiqKY7Cajqk3e3dgtIQfVoeelMZTS"
-    },
-    "otherContact": {
-        "emails": [
-            "jnewton@swisscom.net",
-            "jnewton@vivendi.net",
-            "jnewton@vivendi.net"
-        ],
-        "phoneNumbers": [
-            "+61-84-946-7011",
-            "+61-55-872-1770",
-            "+61-820-251-7533"
-        ],
-        "socMedias": []
-    },
-    "otherInfo": {
-        "gender": "M",
-        "dateOfBirth": "1978-09-15"
-    }
-});
-db.customers.insertOne(
-{
-    "customerKey": "VINCHEND9714",
-    "name": {
-        "title": "Mr",
-        "first": "Vincent",
-        "middle": "Y",
-        "last": "Henderson",
-        "suffix": null
-    },
-    "address": {
-        "streetAddress": "491 Red Canyon Boulevard",
+        "streetAddress": "1341 Little Mountain Drive",
         "buildingName": null,
         "floor": null,
         "roomAptCondoFlat": null,
@@ -6792,699 +5342,3356 @@ db.customers.insertOne(
         "longitude": "166.4103"
     },
     "contact": {
-        "phone": "+692-247-183-9714",
-        "email": "vhenders247@maxcomm.com",
-        "socMedia": null
-    },
-    "login": {
-        "username": "vhenders",
-        "oauth2": null,
-        "password": "$2y$10$v4pIeJUGYGp44KQSwoum.OJZbEYnKBJCr7lbBACI7fqz59Xpy9H0i"
-    },
-    "otherContact": {
-        "emails": [
-            "vhenders@nii.net"
-        ],
-        "phoneNumbers": [
-            "+692-81-933-1490",
-            "+692-90-187-7914"
-        ],
-        "socMedias": []
-    },
-    "otherInfo": {
-        "gender": "M",
-        "dateOfBirth": "2003-06-13"
-    }
-});
-db.customers.insertOne(
-{
-    "customerKey": "AMELBECK8626",
-    "name": {
-        "title": "Ms",
-        "first": "Amelia",
-        "middle": "V",
-        "last": "Beck",
-        "suffix": null
-    },
-    "address": {
-        "streetAddress": "5998 Big Ridge Street",
-        "buildingName": null,
-        "floor": null,
-        "roomAptCondoFlat": null,
-        "city": "Shady Grove",
-        "stateProvince": "PA",
-        "locality": "Franklin",
-        "country": "US",
-        "postalCode": "17256",
-        "latitude": "39.7834",
-        "longitude": "-77.6749"
-    },
-    "contact": {
-        "phone": "+1-248-318-8626",
-        "email": "abeck248@telecom.com",
-        "socMedia": null
-    },
-    "login": {
-        "username": "abeck",
-        "oauth2": null,
-        "password": "$2y$10$O7ivQJq35eZidhjfzM1y5O.H11qdvdck4QJkpSzvr5MuZJOz0hnae"
-    },
-    "otherContact": {
-        "emails": [
-            "abeck@bt.net"
-        ],
-        "phoneNumbers": [
-            "+1-622-917-2312",
-            "+1-991-124-1392"
-        ],
-        "socMedias": []
-    },
-    "otherInfo": {
-        "gender": "F",
-        "dateOfBirth": "1989-04-10"
-    }
-});
-db.customers.insertOne(
-{
-    "customerKey": "HIRAEDWA4115",
-    "name": {
-        "title": "Mr",
-        "first": "Hiram",
-        "middle": "R",
-        "last": "Edwards",
-        "suffix": null
-    },
-    "address": {
-        "streetAddress": "7759 Green Ridge Road",
-        "buildingName": null,
-        "floor": null,
-        "roomAptCondoFlat": null,
-        "city": "Chaudi\u00e8re-Sud (Disraeli)",
-        "stateProvince": "QC",
-        "locality": "Quebec",
-        "country": "CA",
-        "postalCode": "G0N",
-        "latitude": "46.0988",
-        "longitude": "-71.1248"
-    },
-    "contact": {
-        "phone": "+1-250-358-4115",
-        "email": "hedwards250@telesystems.com",
+        "email": "gmckenzi203@seednet.com",
+        "phone": "+61-203-538-3249",
         "socMedia": {
-            "line": "hedwards@line.com"
+            "skype": "gmckenzi203@seednet.com@skype.com"
         }
     },
     "login": {
-        "username": "hedwards",
-        "oauth2": "hedwards@line.com",
-        "password": "$2y$10$4raibQ7JQOMD4kVNrg\/ppOpFfVyGSWWWdhycah38IxlLCZ0L1uufC"
+        "username": "gmckenzi",
+        "oauth2": "gmckenzi@skype.com",
+        "password": "$2y$10$Mu4LQDpuZyDDk8xv8KXDNudNwqHiy5O60ESSt3b3LhBWTUyf.cfW6"
     },
     "otherContact": {
         "emails": [
-            "hedwards@telenor.net",
-            "hedwards@nordnet.net"
+            "gmckenzi203@maxcomm.com"
         ],
         "phoneNumbers": [
-            "+1-904-815-9967",
-            "+1-243-901-2840"
+            "+61-203-405-9040"
         ],
-        "socMedias": []
+        "socMedias": [
+            {
+                "linkedin": "gmckenzi203@maxcomm.com@linkedin.com"
+            }
+        ]
     },
     "otherInfo": {
         "gender": "M",
-        "dateOfBirth": "1956-01-02"
-    }
+        "dateOfBirth": "1982-07-29"
+    },
+    "totalBooked": 15,
+    "discount": 0.07200000000000001
 });
 db.customers.insertOne(
 {
-    "customerKey": "RODRCHER8781",
-    "name": {
-        "title": "Mr",
-        "first": "Rodrigo",
-        "middle": "C",
-        "last": "Cherry",
-        "suffix": null
-    },
-    "address": {
-        "streetAddress": "4871 Green Gulch Road",
-        "buildingName": null,
-        "floor": null,
-        "roomAptCondoFlat": null,
-        "city": "Yakushi",
-        "stateProvince": "Aoi Ku",
-        "locality": "Shizuoka Shi",
-        "country": "JP",
-        "postalCode": "420-0906",
-        "latitude": "35.1577",
-        "longitude": "138.5227"
-    },
-    "contact": {
-        "phone": "+81-251-078-8781",
-        "email": "rcherry251@rogers.com",
-        "socMedia": null
-    },
-    "login": {
-        "username": "rcherry",
-        "oauth2": null,
-        "password": "$2y$10$YkwQMrvKCR9Rsh4fWOMHoerM3cRAdchxp3UFJ8M9Ltmlc9peWoZO6"
-    },
-    "otherContact": {
-        "emails": [
-            "rcherry@optus.net"
-        ],
-        "phoneNumbers": [],
-        "socMedias": []
-    },
-    "otherInfo": {
-        "gender": "M",
-        "dateOfBirth": "1961-04-22"
-    }
-});
-db.customers.insertOne(
-{
-    "customerKey": "KELSNOLA5782",
+    "customerKey": "JUNIVELA7043",
     "name": {
         "title": null,
-        "first": "Kelsie",
+        "first": "Junie",
         "middle": null,
-        "last": "Nolan",
+        "last": "Velazquez",
         "suffix": null
     },
     "address": {
-        "streetAddress": "5899 Winding Gully Street",
-        "buildingName": "Building 8F",
-        "floor": 12,
-        "roomAptCondoFlat": null,
-        "city": "Richmond South",
-        "stateProvince": "BC",
-        "locality": "Richmond",
-        "country": "CA",
-        "postalCode": "V7A",
-        "latitude": "49.1205",
-        "longitude": "-123.1171"
-    },
-    "contact": {
-        "phone": "+1-252-790-5782",
-        "email": "knolan252@econnect.com",
-        "socMedia": null
-    },
-    "login": {
-        "username": "knolan",
-        "oauth2": null,
-        "password": "$2y$10$4jyxrGrNVQBuR2wydTgpcuYB1Q8mj0\/y9sFwi5i6dSg8ZRqBoumN6"
-    },
-    "otherContact": {
-        "emails": [
-            "knolan@greennet.net",
-            "knolan@orange.net"
-        ],
-        "phoneNumbers": [
-            "+1-172-706-2842",
-            "+1-51-442-4114"
-        ],
-        "socMedias": []
-    },
-    "otherInfo": {
-        "gender": "F",
-        "dateOfBirth": "1964-11-30"
-    }
-});
-db.customers.insertOne(
-{
-    "customerKey": "ROGETYLE9422",
-    "name": {
-        "title": "Mr",
-        "first": "Roger",
-        "middle": "E",
-        "last": "Tyler",
-        "suffix": null
-    },
-    "address": {
-        "streetAddress": "2820 Blue Hill Way",
+        "streetAddress": "2468 Little Ditch Road",
         "buildingName": null,
         "floor": null,
-        "roomAptCondoFlat": null,
-        "city": "Hautcharage",
-        "stateProvince": "CA",
-        "locality": "K\u00e4erjeng",
-        "country": "LU",
-        "postalCode": "L-4969",
-        "latitude": "49.5754",
-        "longitude": "5.9045"
-    },
-    "contact": {
-        "phone": "+352-253-583-9422",
-        "email": "rtyler253@etisalat.com",
-        "socMedia": null
-    },
-    "login": {
-        "username": "rtyler",
-        "oauth2": null,
-        "password": "$2y$10$FP7ktcsK1kpS9T11vGM9reCfe0rx1cBbojozjW3zkNqAcaPUJOicy"
-    },
-    "otherContact": {
-        "emails": [],
-        "phoneNumbers": [
-            "+352-144-175-6393"
-        ],
-        "socMedias": []
-    },
-    "otherInfo": {
-        "gender": "M",
-        "dateOfBirth": "1962-08-12"
-    }
-});
-db.customers.insertOne(
-{
-    "customerKey": "MARIBAIL8586",
-    "name": {
-        "title": "Ms",
-        "first": "Marisa",
-        "middle": "J",
-        "last": "Bailey",
-        "suffix": null
-    },
-    "address": {
-        "streetAddress": "9499 Little Gully Boulevard",
-        "buildingName": null,
-        "floor": null,
-        "roomAptCondoFlat": null,
-        "city": "Saundersfoot",
-        "stateProvince": "Wales",
-        "locality": "Pembrokeshire",
-        "country": "GB",
-        "postalCode": "SA69",
-        "latitude": "51.7094",
-        "longitude": "-4.7021"
-    },
-    "contact": {
-        "phone": "+44-254-294-8586",
-        "email": "mbailey254@telia.com",
-        "socMedia": null
-    },
-    "login": {
-        "username": "mbailey",
-        "oauth2": null,
-        "password": "$2y$10$nejzdRg4f1uiStGuLcr8MOTWFwhbWu2bOCubTZZFmBNQ.Ks1If4lq"
-    },
-    "otherContact": {
-        "emails": [],
-        "phoneNumbers": [
-            "+44-544-129-0516"
-        ],
-        "socMedias": []
-    },
-    "otherInfo": {
-        "gender": "F",
-        "dateOfBirth": "1933-11-24"
-    }
-});
-db.customers.insertOne(
-{
-    "customerKey": "PATCOLL9259",
-    "name": {
-        "title": null,
-        "first": "Pat",
-        "middle": null,
-        "last": "Collins",
-        "suffix": null
-    },
-    "address": {
-        "streetAddress": "871 Little Tree Street",
-        "buildingName": null,
-        "floor": null,
-        "roomAptCondoFlat": null,
-        "city": "Troms\u00f8",
-        "stateProvince": "Troms\u00f8",
-        "locality": "Troms\u00f8",
-        "country": "NO",
-        "postalCode": "9254",
-        "latitude": "69.6489",
-        "longitude": "18.9551"
-    },
-    "contact": {
-        "phone": "+47-255-545-9259",
-        "email": "pcollins255@centurylink.com",
-        "socMedia": null
-    },
-    "login": {
-        "username": "pcollins",
-        "oauth2": null,
-        "password": "$2y$10$ooATjeCY\/I3OJzwv2CwUz.ZuifwRau8Mcjoyr5wZcXkZ1mgT\/tLP2"
-    },
-    "otherContact": {
-        "emails": [
-            "pcollins@eunet.net",
-            "pcollins@tm.net"
-        ],
-        "phoneNumbers": [],
-        "socMedias": []
-    },
-    "otherInfo": {
-        "gender": "M",
-        "dateOfBirth": "1968-11-26"
-    }
-});
-db.customers.insertOne(
-{
-    "customerKey": "GABRMCLA6677",
-    "name": {
-        "title": "Ms",
-        "first": "Gabriela",
-        "middle": "G",
-        "last": "Mclaughlin",
-        "suffix": null
-    },
-    "address": {
-        "streetAddress": "5727 Red Bough Boulevard",
-        "buildingName": null,
-        "floor": null,
-        "roomAptCondoFlat": null,
-        "city": "Seerwali",
-        "stateProvince": "Muktsar",
-        "locality": "Muktsar",
+        "roomAptCondoFlat": "13",
+        "city": "Keifang",
+        "stateProvince": "Phullen",
+        "locality": "Aizawl",
         "country": "IN",
-        "postalCode": "152026",
-        "latitude": "30.3962",
-        "longitude": "74.5165"
+        "postalCode": "796261",
+        "latitude": "23.902",
+        "longitude": "93.0008"
     },
     "contact": {
-        "phone": "+91-256-557-6677",
-        "email": "gmclaugh256@att.com",
-        "socMedia": null
+        "email": "jvelazqu204@ais.com",
+        "phone": "+61-204-151-7043",
+        "socMedia": []
     },
     "login": {
-        "username": "gmclaugh",
+        "username": "jvelazqu",
         "oauth2": null,
-        "password": "$2y$10$8jQkMwcgwOvK2AaT5Cz8AOniU6.fDx2JdfzJceSiv\/880IAAwMwdu"
+        "password": "$2y$10$7BWCoGxnHjQ0Mlznuq6\/MO.88CaxUQdB\/1a.wG3\/YG9HJ16cYizLK"
     },
-    "otherContact": {
-        "emails": [
-            "gmclaugh@belgacom.net",
-            "gmclaugh@turkcell.net"
-        ],
-        "phoneNumbers": [
-            "+91-790-044-1911",
-            "+91-139-889-4029"
-        ],
-        "socMedias": []
-    },
+    "otherContact": [],
     "otherInfo": {
         "gender": "F",
-        "dateOfBirth": "1985-07-16"
-    }
+        "dateOfBirth": "1999-09-09"
+    },
+    "totalBooked": 32,
+    "discount": 0.061
 });
 db.customers.insertOne(
 {
-    "customerKey": "VIRGHUER3807",
+    "customerKey": "SHAVSNOW9412",
     "name": {
-        "title": "Mr",
-        "first": "Virgilio",
-        "middle": "B",
-        "last": "Huerta",
+        "title": "Ms",
+        "first": "Shavon",
+        "middle": "U",
+        "last": "Snow",
         "suffix": null
     },
     "address": {
-        "streetAddress": "9298 Little Woods Ride",
+        "streetAddress": "3183 Green Woods Boulevard",
         "buildingName": null,
         "floor": null,
         "roomAptCondoFlat": null,
-        "city": "Pak Khat",
-        "stateProvince": "Nong Khai",
-        "locality": "Nong Khai",
-        "country": "TH",
-        "postalCode": "43190",
-        "latitude": "18.3",
-        "longitude": "103.3"
+        "city": "Matina",
+        "stateProvince": "Matina",
+        "locality": "Matina",
+        "country": "CR",
+        "postalCode": "70501",
+        "latitude": "9.9618",
+        "longitude": "-83.2933"
     },
     "contact": {
-        "phone": "+66-257-557-3807",
-        "email": "vhuerta257@oi.com",
-        "socMedia": null
+        "email": "ssnow205@cubenet.com",
+        "phone": "+61-205-338-9412",
+        "socMedia": {
+            "facebook": "ssnow205@cubenet.com@facebook.com"
+        }
     },
     "login": {
-        "username": "vhuerta",
-        "oauth2": null,
-        "password": "$2y$10$T5yg2jy5zpcatOvAQ8ddVeJriEBYjmUzwsCS45fEGwacY6TmpN89W"
+        "username": "ssnow",
+        "oauth2": "ssnow@facebook.com",
+        "password": "$2y$10$i4pE1EeC9vpYtmC\/RVrDRuSjTCNx7KtRk.5sEvtD9Nv9xJHrbO6PC"
     },
-    "otherContact": {
-        "emails": [],
-        "phoneNumbers": [
-            "+66-277-552-2295"
-        ],
-        "socMedias": []
-    },
+    "otherContact": [],
     "otherInfo": {
-        "gender": "M",
-        "dateOfBirth": "1991-04-02"
-    }
+        "gender": "F",
+        "dateOfBirth": "1966-06-04"
+    },
+    "totalBooked": 14,
+    "discount": 0
 });
 db.customers.insertOne(
 {
-    "customerKey": "RAYFVANG5168",
+    "customerKey": "ANTIRODR3051",
     "name": {
-        "title": null,
-        "first": "Rayford",
-        "middle": null,
-        "last": "Vang",
+        "title": "Mr",
+        "first": "Antione",
+        "middle": "B",
+        "last": "Rodriguez",
         "suffix": null
     },
     "address": {
-        "streetAddress": "3878 Long Tree Street",
+        "streetAddress": "6903 Red Hill Way",
         "buildingName": null,
         "floor": null,
         "roomAptCondoFlat": null,
-        "city": "Ruby Creek",
+        "city": "Charlton",
         "stateProvince": "NSW",
         "locality": "New South Wales",
         "country": "AU",
-        "postalCode": "4380",
-        "latitude": "-28.7241",
-        "longitude": "151.825"
+        "postalCode": "2795",
+        "latitude": "-33.4549",
+        "longitude": "149.6841"
     },
     "contact": {
-        "phone": "+61-258-490-5168",
-        "email": "rvang258@econnect.com",
-        "socMedia": null
-    },
-    "login": {
-        "username": "rvang",
-        "oauth2": null,
-        "password": "$2y$10$C0pRI4Www7n8vOg7zQkqYuQ.qm3d0forFtxfdTDCnKaFMFMsuIez."
-    },
-    "otherContact": {
-        "emails": [],
-        "phoneNumbers": [],
-        "socMedias": []
-    },
-    "otherInfo": {
-        "gender": "M",
-        "dateOfBirth": "1992-10-09"
-    }
-});
-db.customers.insertOne(
-{
-    "customerKey": "DOLLPRES4205",
-    "name": {
-        "title": "Ms",
-        "first": "Dolly",
-        "middle": "P",
-        "last": "Preston",
-        "suffix": null
-    },
-    "address": {
-        "streetAddress": "462 Winding Hill Boulevard",
-        "buildingName": "Building 7A",
-        "floor": null,
-        "roomAptCondoFlat": null,
-        "city": "Sligo",
-        "stateProvince": null,
-        "locality": null,
-        "country": "IE",
-        "postalCode": "F91",
-        "latitude": "54.2697",
-        "longitude": "-8.4694"
-    },
-    "contact": {
-        "phone": "+353-259-136-4205",
-        "email": "dpreston259@tt.com",
-        "socMedia": null
-    },
-    "login": {
-        "username": "dpreston",
-        "oauth2": null,
-        "password": "$2y$10$8IJllZ6yIJMowbCdRr7hLeyXbwKUz94cm2G9GDZpixDSWpA6O3yZi"
-    },
-    "otherContact": {
-        "emails": [
-            "dpreston@netcom.net"
-        ],
-        "phoneNumbers": [
-            "+353-785-804-0136",
-            "+353-202-150-7037",
-            "+353-214-652-4749"
-        ],
-        "socMedias": []
-    },
-    "otherInfo": {
-        "gender": "F",
-        "dateOfBirth": "1965-02-14"
-    }
-});
-db.customers.insertOne(
-{
-    "customerKey": "AHMAZHAN7585",
-    "name": {
-        "title": "Mr",
-        "first": "Ahmad",
-        "middle": "I",
-        "last": "Zhang",
-        "suffix": null
-    },
-    "address": {
-        "streetAddress": "3823 Long Tree Street",
-        "buildingName": null,
-        "floor": null,
-        "roomAptCondoFlat": null,
-        "city": "Port Perry",
-        "stateProvince": "ON",
-        "locality": "Ontario",
-        "country": "CA",
-        "postalCode": "L9L",
-        "latitude": "44.1068",
-        "longitude": "-78.9444"
-    },
-    "contact": {
-        "phone": "+1-260-718-7585",
-        "email": "azhang260@netcom.com",
+        "email": "arodrigu206@mtn.com",
+        "phone": "+61-206-208-3051",
         "socMedia": {
-            "google": "azhang@google.com"
+            "facebook": "arodrigu206@mtn.com@facebook.com"
         }
     },
     "login": {
-        "username": "azhang",
-        "oauth2": "azhang@google.com",
-        "password": "$2y$10$hWcTAJaLg55L3zeq6DziJeFPVykCY1IKHaf\/Zqfgy5t9hYHUpNmS2"
+        "username": "arodrigu",
+        "oauth2": "arodrigu@facebook.com",
+        "password": "$2y$10$URxetLatwBoUyg5zfXJ9Kei7YmFqudPsX9LMgQl1C\/U3yVxLe2N8e"
     },
-    "otherContact": {
-        "emails": [
-            "azhang@tt.net",
-            "azhang@nii.net"
-        ],
-        "phoneNumbers": [],
-        "socMedias": []
-    },
+    "otherContact": [],
     "otherInfo": {
         "gender": "M",
-        "dateOfBirth": "1991-07-17"
-    }
+        "dateOfBirth": "1990-09-11"
+    },
+    "totalBooked": 16,
+    "discount": 0
 });
 db.customers.insertOne(
 {
-    "customerKey": "CRISMATH1374",
+    "customerKey": "KIRSKNOX8330",
     "name": {
         "title": null,
-        "first": "Cristie",
+        "first": "Kirsten",
         "middle": null,
-        "last": "Mathis",
+        "last": "Knox",
         "suffix": null
     },
     "address": {
-        "streetAddress": "677 Blue Bough Circle",
+        "streetAddress": "6800 Blue Tree Street",
         "buildingName": null,
-        "floor": 13,
-        "roomAptCondoFlat": "E9",
-        "city": "Dafen",
-        "stateProvince": "Wales",
-        "locality": "Carmarthenshire",
-        "country": "GB",
-        "postalCode": "SA14",
-        "latitude": "51.7569",
-        "longitude": "-4.0662"
+        "floor": 15,
+        "roomAptCondoFlat": null,
+        "city": "Hariharpur",
+        "stateProvince": "Kaiserganj",
+        "locality": "Bahraich",
+        "country": "IN",
+        "postalCode": "271870",
+        "latitude": "27.4307",
+        "longitude": "81.5085"
     },
     "contact": {
-        "phone": "+44-261-391-1374",
-        "email": "cmathis261@cubenet.com",
-        "socMedia": null
+        "email": "kknox207@telecom.com",
+        "phone": "+61-207-804-8330",
+        "socMedia": []
     },
     "login": {
-        "username": "cmathis",
+        "username": "kknox",
         "oauth2": null,
-        "password": "$2y$10$6Hfppt3rMhKcrLKQvsZYWeqU66S02A4X5tTLN5yN3KgNExHoEjJx6"
+        "password": "$2y$10$OLlNkg.0jYMAa5ZVfeAgfOfpTXXW1JzYiL5OzvJHshys7UpAq5ZgO"
     },
     "otherContact": {
         "emails": [
-            "cmathis@ntt.net",
-            "cmathis@algonet.net"
+            "kknox207@nii.com"
         ],
         "phoneNumbers": [
-            "+44-0-769-4403"
-        ],
-        "socMedias": []
+            "+61-207-548-3358"
+        ]
     },
     "otherInfo": {
         "gender": "F",
-        "dateOfBirth": "1965-04-12"
-    }
+        "dateOfBirth": "1981-07-08"
+    },
+    "totalBooked": 30,
+    "discount": 0.033
 });
 db.customers.insertOne(
 {
-    "customerKey": "JULIYORK4049",
+    "customerKey": "KAYCIBAR7014",
     "name": {
         "title": "Ms",
-        "first": "Julissa",
-        "middle": "I",
-        "last": "York",
+        "first": "Kayce",
+        "middle": "T",
+        "last": "Ibarra",
         "suffix": null
     },
     "address": {
-        "streetAddress": "1580 Little Stream Ride",
+        "streetAddress": "4833 Blue Canyon Road",
+        "buildingName": "Building 70",
+        "floor": null,
+        "roomAptCondoFlat": null,
+        "city": "Roberval",
+        "stateProvince": "QC",
+        "locality": "Saguenay\/Lac-Saint-Jean",
+        "country": "CA",
+        "postalCode": "G8H",
+        "latitude": "48.5168",
+        "longitude": "-72.2324"
+    },
+    "contact": {
+        "email": "kibarra208@sprint.com",
+        "phone": "+61-208-365-7014",
+        "socMedia": {
+            "line": "kibarra208@sprint.com@line.com"
+        }
+    },
+    "login": {
+        "username": "kibarra",
+        "oauth2": "kibarra@line.com",
+        "password": "$2y$10$Hot3APh3AL6b80pi2zZri.ql9KQsfjMCt2NcRIjEtM1OxNhRPbtUu"
+    },
+    "otherContact": {
+        "emails": [
+            "kibarra208@ooredoo.com",
+            "kibarra208@econnect.com"
+        ],
+        "phoneNumbers": [
+            "+61-208-189-5691",
+            "+61-208-319-1370"
+        ],
+        "socMedias": [
+            {
+                "skype": "kibarra208@ooredoo.com@skype.com"
+            },
+            {
+                "skype": "kibarra208@econnect.com@skype.com"
+            }
+        ]
+    },
+    "otherInfo": {
+        "gender": "F",
+        "dateOfBirth": "1990-11-30"
+    },
+    "totalBooked": 9,
+    "discount": 0
+});
+db.customers.insertOne(
+{
+    "customerKey": "JOANFRIE0014",
+    "name": {
+        "title": "Mr",
+        "first": "Joan",
+        "middle": "Z",
+        "last": "Friedman",
+        "suffix": null
+    },
+    "address": {
+        "streetAddress": "9646 Green Gully Circle",
         "buildingName": null,
         "floor": null,
         "roomAptCondoFlat": null,
-        "city": "Myrtle Beach",
-        "stateProvince": "SC",
-        "locality": "Horry",
+        "city": "FPO AA",
+        "stateProvince": null,
+        "locality": null,
         "country": "US",
-        "postalCode": "29577",
-        "latitude": "33.6994",
-        "longitude": "-78.9137"
+        "postalCode": "96517",
+        "latitude": "34.2322",
+        "longitude": "132.5666"
     },
     "contact": {
-        "phone": "+1-262-209-4049",
-        "email": "jyork262@chunghwa.com",
-        "socMedia": null
+        "email": "jfriedma209@telecom.com",
+        "phone": "+61-209-644-0014",
+        "socMedia": {
+            "facebook": "jfriedma209@telecom.com@facebook.com"
+        }
     },
     "login": {
-        "username": "jyork",
-        "oauth2": null,
-        "password": "$2y$10$d9dXJ7lR8r3sS60MRLgAJeF3l2d90HWdRMak4T48FP8cY9SCV1sFu"
+        "username": "jfriedma",
+        "oauth2": "jfriedma@facebook.com",
+        "password": "$2y$10$3fhHqkFM72pPb2R9cO38EOPp9cYJI254WY07Inl.E0kZWgkMdOc3a"
     },
     "otherContact": {
-        "emails": [],
-        "phoneNumbers": [
-            "+1-956-611-4800",
-            "+1-895-277-7874"
+        "emails": [
+            "jfriedma209@vodafone.com",
+            "jfriedma209@megafon.com"
         ],
-        "socMedias": []
+        "phoneNumbers": [
+            "+61-209-531-8681",
+            "+61-209-663-8039"
+        ],
+        "socMedias": [
+            {
+                "google": "jfriedma209@vodafone.com@google.com"
+            },
+            {
+                "google": "jfriedma209@megafon.com@google.com"
+            }
+        ]
     },
     "otherInfo": {
-        "gender": "F",
-        "dateOfBirth": "1982-12-27"
-    }
+        "gender": "M",
+        "dateOfBirth": "1962-08-14"
+    },
+    "totalBooked": 15,
+    "discount": 0
 });
 db.customers.insertOne(
 {
-    "customerKey": "TEODPATR2995",
+    "customerKey": "LEDABISH6670",
     "name": {
-        "title": "Mr",
-        "first": "Teodoro",
-        "middle": "N",
-        "last": "Patrick",
+        "title": null,
+        "first": "Leda",
+        "middle": null,
+        "last": "Bishop",
         "suffix": null
     },
     "address": {
-        "streetAddress": "5878 Blue Bridge Boulevard",
+        "streetAddress": "7857 Little Hill Boulevard",
+        "buildingName": null,
+        "floor": null,
+        "roomAptCondoFlat": "D6",
+        "city": "Port Erin",
+        "stateProvince": "",
+        "locality": "Isle of Man",
+        "country": "GB",
+        "postalCode": "IM9",
+        "latitude": "54.0849",
+        "longitude": "-4.751"
+    },
+    "contact": {
+        "email": "lbishop210@ais.com",
+        "phone": "+61-210-317-6670",
+        "socMedia": []
+    },
+    "login": {
+        "username": "lbishop",
+        "oauth2": null,
+        "password": "$2y$10$NfiVgbhjkc6EhflpiCGf7uW3wAhuAamVoBOTA9gt\/9zFYzFuauKle"
+    },
+    "otherContact": {
+        "emails": [
+            "lbishop210@turkcell.com",
+            "lbishop210@bifty.com",
+            "lbishop210@worldnet.com"
+        ],
+        "phoneNumbers": [
+            "+61-210-024-5319",
+            "+61-210-449-0702",
+            "+61-210-285-9183"
+        ]
+    },
+    "otherInfo": {
+        "gender": "F",
+        "dateOfBirth": "1964-04-22"
+    },
+    "totalBooked": 92,
+    "discount": 0.17300000000000001
+});
+db.customers.insertOne(
+{
+    "customerKey": "MAXIJAME6281",
+    "name": {
+        "title": "Mr",
+        "first": "Maximo",
+        "middle": "L",
+        "last": "James",
+        "suffix": null
+    },
+    "address": {
+        "streetAddress": "2157 Long Woods Street",
+        "buildingName": null,
+        "floor": null,
+        "roomAptCondoFlat": null,
+        "city": "Frederiksted",
+        "stateProvince": "St. Croix",
+        "locality": "St. Croix",
+        "country": "VI",
+        "postalCode": "00841",
+        "latitude": "17.7648",
+        "longitude": "-64.8096"
+    },
+    "contact": {
+        "email": "mjames211@telkom.com",
+        "phone": "+61-211-120-6281",
+        "socMedia": {
+            "linkedin": "mjames211@telkom.com@linkedin.com"
+        }
+    },
+    "login": {
+        "username": "mjames",
+        "oauth2": "mjames@linkedin.com",
+        "password": "$2y$10$BdwXLQK532QYbm8qZ1\/Gb.HMUXcXzmoFvy4CTOygB6nkWiCQulLea"
+    },
+    "otherContact": {
+        "emails": [
+            "mjames211@maxcomm.com",
+            "mjames211@relcom.com"
+        ],
+        "phoneNumbers": [
+            "+61-211-813-3645",
+            "+61-211-857-0587"
+        ],
+        "socMedias": [
+            {
+                "linkedin": "mjames211@maxcomm.com@linkedin.com"
+            },
+            {
+                "skype": "mjames211@relcom.com@skype.com"
+            }
+        ]
+    },
+    "otherInfo": {
+        "gender": "M",
+        "dateOfBirth": "2001-04-27"
+    },
+    "totalBooked": 9,
+    "discount": 0
+});
+db.customers.insertOne(
+{
+    "customerKey": "MICHCASE0728",
+    "name": {
+        "title": "Mr",
+        "first": "Michal",
+        "middle": "P",
+        "last": "Casey",
+        "suffix": null
+    },
+    "address": {
+        "streetAddress": "8488 Green Stream Boulevard",
+        "buildingName": null,
+        "floor": null,
+        "roomAptCondoFlat": null,
+        "city": "Birmingham",
+        "stateProvince": "AL",
+        "locality": "Jefferson",
+        "country": "US",
+        "postalCode": "35215",
+        "latitude": "33.6493",
+        "longitude": "-86.7057"
+    },
+    "contact": {
+        "email": "mcasey212@vodafone.com",
+        "phone": "+61-212-819-0728",
+        "socMedia": {
+            "facebook": "mcasey212@vodafone.com@facebook.com"
+        }
+    },
+    "login": {
+        "username": "mcasey",
+        "oauth2": "mcasey@facebook.com",
+        "password": "$2y$10$IJpnHz4vUjX0z6byWP4F1umkP9Ae3T3THFBviNkLAQ3Dj2PHvKLF2"
+    },
+    "otherContact": {
+        "emails": [
+            "mcasey212@etisalat.com"
+        ],
+        "phoneNumbers": [
+            "+61-212-499-6374"
+        ],
+        "socMedias": [
+            {
+                "skype": "mcasey212@etisalat.com@skype.com"
+            }
+        ]
+    },
+    "otherInfo": {
+        "gender": "M",
+        "dateOfBirth": "1990-03-01"
+    },
+    "totalBooked": 1,
+    "discount": 0
+});
+db.customers.insertOne(
+{
+    "customerKey": "TYLEMCGU9952",
+    "name": {
+        "title": null,
+        "first": "Tyler",
+        "middle": null,
+        "last": "Mcguire",
+        "suffix": null
+    },
+    "address": {
+        "streetAddress": "432 Short Tree Way",
+        "buildingName": null,
+        "floor": null,
+        "roomAptCondoFlat": null,
+        "city": "Freilassing",
+        "stateProvince": "Herzogsdorf",
+        "locality": "Politischer Bezirk Urfahr-Umgebung",
+        "country": "AT",
+        "postalCode": "4175",
+        "latitude": "48.4088",
+        "longitude": "14.1243"
+    },
+    "contact": {
+        "email": "tmcguire213@tm.com",
+        "phone": "+61-213-693-9952",
+        "socMedia": []
+    },
+    "login": {
+        "username": "tmcguire",
+        "oauth2": null,
+        "password": "$2y$10$LwvIeyT0MzcDRl4gkFbAZO0NzFlDmjZ5g4oMsEgAoftTBqSTXzntG"
+    },
+    "otherContact": {
+        "emails": [
+            "tmcguire213@openworld.com"
+        ],
+        "phoneNumbers": [
+            "+61-213-250-2068"
+        ]
+    },
+    "otherInfo": {
+        "gender": "M",
+        "dateOfBirth": "2003-11-07"
+    },
+    "totalBooked": 20,
+    "discount": 0.082
+});
+db.customers.insertOne(
+{
+    "customerKey": "BRYAHUNT2447",
+    "name": {
+        "title": "Mr",
+        "first": "Bryan",
+        "middle": "Q",
+        "last": "Hunter",
+        "suffix": null
+    },
+    "address": {
+        "streetAddress": "7024 Little Hill Avenue",
+        "buildingName": null,
+        "floor": null,
+        "roomAptCondoFlat": null,
+        "city": "New Buckenham",
+        "stateProvince": "England",
+        "locality": "Norfolk",
+        "country": "GB",
+        "postalCode": "NR16",
+        "latitude": "52.4724",
+        "longitude": "1.0728"
+    },
+    "contact": {
+        "email": "bhunter214@nii.com",
+        "phone": "+61-214-999-2447",
+        "socMedia": {
+            "twitter": "bhunter214@nii.com@twitter.com"
+        }
+    },
+    "login": {
+        "username": "bhunter",
+        "oauth2": "bhunter@twitter.com",
+        "password": "$2y$10$2q\/tOtlgmCWuI.X0ivUuWuswYBB7VqbQ8qqy321pcBgG2OZVKvH2O"
+    },
+    "otherContact": {
+        "emails": [
+            "bhunter214@telus.com",
+            "bhunter214@telefonica.com",
+            "bhunter214@telkom.com"
+        ],
+        "phoneNumbers": [
+            "+61-214-767-3841",
+            "+61-214-473-0010",
+            "+61-214-643-9483"
+        ],
+        "socMedias": [
+            {
+                "skype": "bhunter214@telus.com@skype.com"
+            },
+            {
+                "facebook": "bhunter214@telefonica.com@facebook.com"
+            },
+            {
+                "skype": "bhunter214@telkom.com@skype.com"
+            }
+        ]
+    },
+    "otherInfo": {
+        "gender": "M",
+        "dateOfBirth": "1992-11-28"
+    },
+    "totalBooked": 15,
+    "discount": 0
+});
+db.customers.insertOne(
+{
+    "customerKey": "DARRATKI1429",
+    "name": {
+        "title": "Mr",
+        "first": "Darrel",
+        "middle": "X",
+        "last": "Atkinson",
+        "suffix": null
+    },
+    "address": {
+        "streetAddress": "2020 Short Bridge Way",
+        "buildingName": null,
+        "floor": null,
+        "roomAptCondoFlat": null,
+        "city": "\u0160irinci",
+        "stateProvince": "Gornji Bogi\u0107evci",
+        "locality": "Gornji Bogi\u0107evci",
+        "country": "HR",
+        "postalCode": "35429",
+        "latitude": "45.3242",
+        "longitude": "17.2544"
+    },
+    "contact": {
+        "email": "datkinso215@softbank.com",
+        "phone": "+61-215-832-1429",
+        "socMedia": {
+            "skype": "datkinso215@softbank.com@skype.com"
+        }
+    },
+    "login": {
+        "username": "datkinso",
+        "oauth2": "datkinso@skype.com",
+        "password": "$2y$10$5rTwV40GGBvZ9zczXiW2nO5dF2B1ENLnvcnlUphAzmhY\/RwfdCURC"
+    },
+    "otherContact": {
+        "emails": [
+            "datkinso215@uunet.com"
+        ],
+        "phoneNumbers": [
+            "+61-215-849-7484"
+        ],
+        "socMedias": [
+            {
+                "twitter": "datkinso215@uunet.com@twitter.com"
+            }
+        ]
+    },
+    "otherInfo": {
+        "gender": "M",
+        "dateOfBirth": "1932-12-23"
+    },
+    "totalBooked": 14,
+    "discount": 0
+});
+db.customers.insertOne(
+{
+    "customerKey": "LINESHEP8622",
+    "name": {
+        "title": null,
+        "first": "Linette",
+        "middle": null,
+        "last": "Sheppard",
+        "suffix": null
+    },
+    "address": {
+        "streetAddress": "5699 Winding Ridge Avenue",
+        "buildingName": null,
+        "floor": 6,
+        "roomAptCondoFlat": "82",
+        "city": "Jagamohanapur",
+        "stateProvince": "Chikiti",
+        "locality": "Ganjam",
+        "country": "IN",
+        "postalCode": "761010",
+        "latitude": "19.828",
+        "longitude": "84.401"
+    },
+    "contact": {
+        "email": "lsheppar216@bce.com",
+        "phone": "+61-216-393-8622",
+        "socMedia": []
+    },
+    "login": {
+        "username": "lsheppar",
+        "oauth2": null,
+        "password": "$2y$10$WRhJTqgHIHChlH.eB\/Xw1.1FhWamUvadKwWfIO4BdXRvwt0FgZzFi"
+    },
+    "otherContact": {
+        "emails": [
+            "lsheppar216@chunghwa.com"
+        ],
+        "phoneNumbers": [
+            "+61-216-806-7160"
+        ]
+    },
+    "otherInfo": {
+        "gender": "F",
+        "dateOfBirth": "1971-08-26"
+    },
+    "totalBooked": 45,
+    "discount": 0.019
+});
+db.customers.insertOne(
+{
+    "customerKey": "LUCITREJ1777",
+    "name": {
+        "title": "Ms",
+        "first": "Lucina",
+        "middle": "W",
+        "last": "Trejo",
+        "suffix": null
+    },
+    "address": {
+        "streetAddress": "5305 Long Woods Road",
+        "buildingName": null,
+        "floor": null,
+        "roomAptCondoFlat": null,
+        "city": "Uv\u00e9a",
+        "stateProvince": "Circonscription d'Uv\u00e9a",
+        "locality": "Circonscription d'Uv\u00e9a",
+        "country": "WF",
+        "postalCode": "98600",
+        "latitude": "-13.2988",
+        "longitude": "-176.2205"
+    },
+    "contact": {
+        "email": "ltrejo217@worldnet.com",
+        "phone": "+61-217-315-1777",
+        "socMedia": {
+            "skype": "ltrejo217@worldnet.com@skype.com"
+        }
+    },
+    "login": {
+        "username": "ltrejo",
+        "oauth2": "ltrejo@skype.com",
+        "password": "$2y$10$pW33DIQyBSB615XnS62cM.zuru6oEdsehACGjPpmLjD2TUbd4Z8SG"
+    },
+    "otherContact": {
+        "emails": [
+            "ltrejo217@cerist.com"
+        ],
+        "phoneNumbers": [
+            "+61-217-652-0002"
+        ],
+        "socMedias": [
+            {
+                "twitter": "ltrejo217@cerist.com@twitter.com"
+            }
+        ]
+    },
+    "otherInfo": {
+        "gender": "F",
+        "dateOfBirth": "1970-07-23"
+    },
+    "totalBooked": 18,
+    "discount": 0.164
+});
+db.customers.insertOne(
+{
+    "customerKey": "ALMECOFF4026",
+    "name": {
+        "title": "Ms",
+        "first": "Almeda",
+        "middle": "B",
+        "last": "Coffey",
+        "suffix": null
+    },
+    "address": {
+        "streetAddress": "4036 Green Ridge Road",
+        "buildingName": null,
+        "floor": null,
+        "roomAptCondoFlat": null,
+        "city": "Sebewaing",
+        "stateProvince": "MI",
+        "locality": "Huron",
+        "country": "US",
+        "postalCode": "48759",
+        "latitude": "43.7289",
+        "longitude": "-83.4366"
+    },
+    "contact": {
+        "email": "acoffey218@nii.com",
+        "phone": "+61-218-502-4026",
+        "socMedia": {
+            "facebook": "acoffey218@nii.com@facebook.com"
+        }
+    },
+    "login": {
+        "username": "acoffey",
+        "oauth2": "acoffey@facebook.com",
+        "password": "$2y$10$brtlhn\/EojxS449B3H4KyuLNqJT3XdTQxUqyU4rZyI6HjVNhtqihe"
+    },
+    "otherContact": [],
+    "otherInfo": {
+        "gender": "F",
+        "dateOfBirth": "1948-02-16"
+    },
+    "totalBooked": 5,
+    "discount": 0
+});
+db.customers.insertOne(
+{
+    "customerKey": "CHERHUMP3766",
+    "name": {
+        "title": null,
+        "first": "Cherri",
+        "middle": null,
+        "last": "Humphrey",
+        "suffix": null
+    },
+    "address": {
+        "streetAddress": "3559 Long Bend Road",
+        "buildingName": null,
+        "floor": null,
+        "roomAptCondoFlat": null,
+        "city": "K\u00fc\u00e7\u00fckyenice",
+        "stateProvince": "Mudanya",
+        "locality": "Mudanya",
+        "country": "TR",
+        "postalCode": "16960",
+        "latitude": "40.2884",
+        "longitude": "28.8341"
+    },
+    "contact": {
+        "email": "chumphre219@algonet.com",
+        "phone": "+61-219-859-3766",
+        "socMedia": []
+    },
+    "login": {
+        "username": "chumphre",
+        "oauth2": null,
+        "password": "$2y$10$ZY0ec1VzO8oEU24FQuTPYuH3Obrz.FT7fal7SmjYYAUPmuUaPKzYG"
+    },
+    "otherContact": {
+        "emails": [
+            "chumphre219@access.com",
+            "chumphre219@cci.com"
+        ],
+        "phoneNumbers": [
+            "+61-219-305-9191",
+            "+61-219-322-4406"
+        ]
+    },
+    "otherInfo": {
+        "gender": "F",
+        "dateOfBirth": "1947-11-07"
+    },
+    "totalBooked": 41,
+    "discount": 0.054
+});
+db.customers.insertOne(
+{
+    "customerKey": "KURTNORM8405",
+    "name": {
+        "title": "Mr",
+        "first": "Kurt",
+        "middle": "H",
+        "last": "Norman",
+        "suffix": null
+    },
+    "address": {
+        "streetAddress": "5787 Long Mound Road",
+        "buildingName": null,
+        "floor": null,
+        "roomAptCondoFlat": null,
+        "city": "Girard",
+        "stateProvince": "KS",
+        "locality": "Crawford",
+        "country": "US",
+        "postalCode": "66743",
+        "latitude": "37.5091",
+        "longitude": "-94.8569"
+    },
+    "contact": {
+        "email": "knorman220@nii.com",
+        "phone": "+61-220-249-8405",
+        "socMedia": {
+            "line": "knorman220@nii.com@line.com"
+        }
+    },
+    "login": {
+        "username": "knorman",
+        "oauth2": "knorman@line.com",
+        "password": "$2y$10$iNgyfscFDAoahKjbNU4hdeblGAAum0ShVJ5tg1NYd5rd6mpFtacUm"
+    },
+    "otherContact": {
+        "emails": [
+            "knorman220@bifty.com"
+        ],
+        "phoneNumbers": [
+            "+61-220-648-0939"
+        ],
+        "socMedias": [
+            {
+                "line": "knorman220@bifty.com@line.com"
+            }
+        ]
+    },
+    "otherInfo": {
+        "gender": "M",
+        "dateOfBirth": "1957-10-04"
+    },
+    "totalBooked": 19,
+    "discount": 0
+});
+db.customers.insertOne(
+{
+    "customerKey": "RYANCARR9769",
+    "name": {
+        "title": "Mr",
+        "first": "Ryan",
+        "middle": "X",
+        "last": "Carroll",
+        "suffix": null
+    },
+    "address": {
+        "streetAddress": "7950 Long River Ride",
+        "buildingName": "Building F9",
+        "floor": null,
+        "roomAptCondoFlat": null,
+        "city": "Beallsville",
+        "stateProvince": "PA",
+        "locality": "Washington",
+        "country": "US",
+        "postalCode": "15313",
+        "latitude": "40.0655",
+        "longitude": "-80.0221"
+    },
+    "contact": {
+        "email": "rcarroll221@ote.com",
+        "phone": "+61-221-947-9769",
+        "socMedia": {
+            "facebook": "rcarroll221@ote.com@facebook.com"
+        }
+    },
+    "login": {
+        "username": "rcarroll",
+        "oauth2": "rcarroll@facebook.com",
+        "password": "$2y$10$XxOHBj9ETcWjHUMRXXmO4.WOPorWBf0CJHCeOnY57U6S9sjF04UpW"
+    },
+    "otherContact": {
+        "emails": [
+            "rcarroll221@cerist.com",
+            "rcarroll221@access.com"
+        ],
+        "phoneNumbers": [
+            "+61-221-845-4947",
+            "+61-221-331-6804"
+        ],
+        "socMedias": [
+            {
+                "facebook": "rcarroll221@cerist.com@facebook.com"
+            },
+            {
+                "line": "rcarroll221@access.com@line.com"
+            }
+        ]
+    },
+    "otherInfo": {
+        "gender": "M",
+        "dateOfBirth": "1958-05-21"
+    },
+    "totalBooked": 7,
+    "discount": 0
+});
+db.customers.insertOne(
+{
+    "customerKey": "BENIMADD5854",
+    "name": {
+        "title": null,
+        "first": "Benito",
+        "middle": null,
+        "last": "Madden",
+        "suffix": null
+    },
+    "address": {
+        "streetAddress": "1972 Green Canyon Drive",
+        "buildingName": null,
+        "floor": null,
+        "roomAptCondoFlat": "7C",
+        "city": "Fort George G Meade",
+        "stateProvince": "MD",
+        "locality": "Anne Arundel",
+        "country": "US",
+        "postalCode": "20755",
+        "latitude": "39.1059",
+        "longitude": "-76.7467"
+    },
+    "contact": {
+        "email": "bmadden222@telia.com",
+        "phone": "+61-222-224-5854",
+        "socMedia": []
+    },
+    "login": {
+        "username": "bmadden",
+        "oauth2": null,
+        "password": "$2y$10$ypgTnVG8yW3YI3U8\/\/c6Ye7Vm86W5bNqwQJpTePxd5aubI95DB7lm"
+    },
+    "otherContact": {
+        "emails": [
+            "bmadden222@netcom.com",
+            "bmadden222@kpn.com"
+        ],
+        "phoneNumbers": [
+            "+61-222-988-6229",
+            "+61-222-922-5488"
+        ]
+    },
+    "otherInfo": {
+        "gender": "M",
+        "dateOfBirth": "1938-01-12"
+    },
+    "totalBooked": 28,
+    "discount": 0.089
+});
+db.customers.insertOne(
+{
+    "customerKey": "GIANDOUG7108",
+    "name": {
+        "title": "Ms",
+        "first": "Gianna",
+        "middle": "I",
+        "last": "Dougherty",
+        "suffix": null
+    },
+    "address": {
+        "streetAddress": "4085 Long Creek Circle",
+        "buildingName": null,
+        "floor": null,
+        "roomAptCondoFlat": null,
+        "city": "San Juan",
+        "stateProvince": "San Juan",
+        "locality": "San Juan",
+        "country": "PR",
+        "postalCode": "00921",
+        "latitude": "18.4663",
+        "longitude": "-66.1057"
+    },
+    "contact": {
+        "email": "gdougher223@softbank.com",
+        "phone": "+61-223-765-7108",
+        "socMedia": {
+            "linkedin": "gdougher223@softbank.com@linkedin.com"
+        }
+    },
+    "login": {
+        "username": "gdougher",
+        "oauth2": "gdougher@linkedin.com",
+        "password": "$2y$10$vGkBXX96zuIlkd4pZRTWKegCVUJDxJthPZA70W590Q3uywQTvmpha"
+    },
+    "otherContact": [],
+    "otherInfo": {
+        "gender": "F",
+        "dateOfBirth": "1942-03-08"
+    },
+    "totalBooked": 2,
+    "discount": 0
+});
+db.customers.insertOne(
+{
+    "customerKey": "TODDGRIF3978",
+    "name": {
+        "title": "Mr",
+        "first": "Todd",
+        "middle": "Y",
+        "last": "Griffith",
+        "suffix": null
+    },
+    "address": {
+        "streetAddress": "9876 Blue Woods Boulevard",
+        "buildingName": null,
+        "floor": null,
+        "roomAptCondoFlat": null,
+        "city": "Upper Dartbrook",
+        "stateProvince": "NSW",
+        "locality": "New South Wales",
+        "country": "AU",
+        "postalCode": "2336",
+        "latitude": "-32.1568",
+        "longitude": "150.8063"
+    },
+    "contact": {
+        "email": "tgriffit224@millicom.com",
+        "phone": "+61-224-351-3978",
+        "socMedia": {
+            "google": "tgriffit224@millicom.com@google.com"
+        }
+    },
+    "login": {
+        "username": "tgriffit",
+        "oauth2": "tgriffit@google.com",
+        "password": "$2y$10$8Q8OlHeEddZWJLKFvmg2LOWaiM5tgCU4XMfpND8qr57muSA.g2gLC"
+    },
+    "otherContact": {
+        "emails": [
+            "tgriffit224@ktc.com",
+            "tgriffit224@cubenet.com"
+        ],
+        "phoneNumbers": [
+            "+61-224-851-9212",
+            "+61-224-030-3705"
+        ],
+        "socMedias": [
+            {
+                "twitter": "tgriffit224@ktc.com@twitter.com"
+            },
+            {
+                "line": "tgriffit224@cubenet.com@line.com"
+            }
+        ]
+    },
+    "otherInfo": {
+        "gender": "M",
+        "dateOfBirth": "1967-02-09"
+    },
+    "totalBooked": 43,
+    "discount": 0.075
+});
+db.customers.insertOne(
+{
+    "customerKey": "RUDOBARN8147",
+    "name": {
+        "title": null,
+        "first": "Rudolph",
+        "middle": null,
+        "last": "Barnes",
+        "suffix": null
+    },
+    "address": {
+        "streetAddress": "5393 Little Bridge Boulevard",
+        "buildingName": null,
+        "floor": 3,
+        "roomAptCondoFlat": null,
+        "city": "Zdole",
+        "stateProvince": null,
+        "locality": null,
+        "country": "SI",
+        "postalCode": "8272",
+        "latitude": "45.9772",
+        "longitude": "15.5458"
+    },
+    "contact": {
+        "email": "rbarnes225@zain.com",
+        "phone": "+61-225-781-8147",
+        "socMedia": []
+    },
+    "login": {
+        "username": "rbarnes",
+        "oauth2": null,
+        "password": "$2y$10$ZbLIJtJ5NEicVtROiyn06.tOjmbv5PdghvAsj9nDt25P9qieZJmCG"
+    },
+    "otherContact": [],
+    "otherInfo": {
+        "gender": "M",
+        "dateOfBirth": "1996-07-02"
+    },
+    "totalBooked": 15,
+    "discount": 0.045
+});
+db.customers.insertOne(
+{
+    "customerKey": "DANEREID2679",
+    "name": {
+        "title": "Mr",
+        "first": "Dane",
+        "middle": "P",
+        "last": "Reid",
+        "suffix": null
+    },
+    "address": {
+        "streetAddress": "8510 Short Tree Way",
+        "buildingName": null,
+        "floor": null,
+        "roomAptCondoFlat": null,
+        "city": "Blue Eye",
+        "stateProvince": "MO",
+        "locality": "Stone",
+        "country": "US",
+        "postalCode": "65611",
+        "latitude": "36.5493",
+        "longitude": "-93.3388"
+    },
+    "contact": {
+        "email": "dreid226@movil.com",
+        "phone": "+61-226-597-2679",
+        "socMedia": {
+            "linkedin": "dreid226@movil.com@linkedin.com"
+        }
+    },
+    "login": {
+        "username": "dreid",
+        "oauth2": "dreid@linkedin.com",
+        "password": "$2y$10$trnSORpwqPhexNrc0L8IAu0TQxL3D9lwMH\/ZlzQWtkYDNHm3ATEe6"
+    },
+    "otherContact": {
+        "emails": [
+            "dreid226@tt.com",
+            "dreid226@bce.com"
+        ],
+        "phoneNumbers": [
+            "+61-226-231-7969",
+            "+61-226-781-6121"
+        ],
+        "socMedias": [
+            {
+                "facebook": "dreid226@tt.com@facebook.com"
+            },
+            {
+                "twitter": "dreid226@bce.com@twitter.com"
+            }
+        ]
+    },
+    "otherInfo": {
+        "gender": "M",
+        "dateOfBirth": "1982-09-09"
+    },
+    "totalBooked": 1,
+    "discount": 0
+});
+db.customers.insertOne(
+{
+    "customerKey": "SHAYCAST9333",
+    "name": {
+        "title": "Ms",
+        "first": "Shay",
+        "middle": "U",
+        "last": "Castillo",
+        "suffix": null
+    },
+    "address": {
+        "streetAddress": "2913 Short Ditch Street",
+        "buildingName": null,
+        "floor": null,
+        "roomAptCondoFlat": null,
+        "city": "Gr\u016b\u0161\u013ceva",
+        "stateProvince": "Brie\u017euciema pag.",
+        "locality": "Brie\u017euciema pag.",
+        "country": "LV",
+        "postalCode": "LV-4595",
+        "latitude": "56.9786",
+        "longitude": "27.5607"
+    },
+    "contact": {
+        "email": "scastill227@uunet.com",
+        "phone": "+61-227-404-9333",
+        "socMedia": {
+            "twitter": "scastill227@uunet.com@twitter.com"
+        }
+    },
+    "login": {
+        "username": "scastill",
+        "oauth2": "scastill@twitter.com",
+        "password": "$2y$10$G1CH6CGz1PDm3Rsa\/uYeKe741R.KSI6WX1.8M7QShp.YryRqKCCLK"
+    },
+    "otherContact": {
+        "emails": [
+            "scastill227@cci.com"
+        ],
+        "phoneNumbers": [
+            "+61-227-954-0309"
+        ],
+        "socMedias": [
+            {
+                "line": "scastill227@cci.com@line.com"
+            }
+        ]
+    },
+    "otherInfo": {
+        "gender": "F",
+        "dateOfBirth": "1991-12-20"
+    },
+    "totalBooked": 1,
+    "discount": 0
+});
+db.customers.insertOne(
+{
+    "customerKey": "GERAROTH2645",
+    "name": {
+        "title": null,
+        "first": "Gerald",
+        "middle": null,
+        "last": "Roth",
+        "suffix": null
+    },
+    "address": {
+        "streetAddress": "6294 Green Gulch Boulevard",
+        "buildingName": null,
+        "floor": null,
+        "roomAptCondoFlat": "7E",
+        "city": "Kelso",
+        "stateProvince": "TAS",
+        "locality": "TASMANIA",
+        "country": "AU",
+        "postalCode": "7270",
+        "latitude": "-41.1049",
+        "longitude": "146.7929"
+    },
+    "contact": {
+        "email": "groth228@telenor.com",
+        "phone": "+61-228-154-2645",
+        "socMedia": []
+    },
+    "login": {
+        "username": "groth",
+        "oauth2": null,
+        "password": "$2y$10$SlCkfqR25HbaPYwN.rsY7u8xiocVsB0Kz.UIfVllpXZiK9QMHZU06"
+    },
+    "otherContact": {
+        "emails": [
+            "groth228@ais.com"
+        ],
+        "phoneNumbers": [
+            "+61-228-751-7023"
+        ]
+    },
+    "otherInfo": {
+        "gender": "M",
+        "dateOfBirth": "1962-09-05"
+    },
+    "totalBooked": 6,
+    "discount": 0.02
+});
+db.customers.insertOne(
+{
+    "customerKey": "ADALMEND1824",
+    "name": {
+        "title": "Mr",
+        "first": "Adalberto",
+        "middle": "I",
+        "last": "Mendez",
+        "suffix": null
+    },
+    "address": {
+        "streetAddress": "9089 Green Bridge Drive",
+        "buildingName": null,
+        "floor": null,
+        "roomAptCondoFlat": null,
+        "city": "Bat\u0148ovice",
+        "stateProvince": "Trutnov",
+        "locality": "Trutnov",
+        "country": "CZ",
+        "postalCode": "542 37",
+        "latitude": "50.5167",
+        "longitude": "16.05"
+    },
+    "contact": {
+        "email": "amendez229@vivendi.com",
+        "phone": "+61-229-066-1824",
+        "socMedia": {
+            "line": "amendez229@vivendi.com@line.com"
+        }
+    },
+    "login": {
+        "username": "amendez",
+        "oauth2": "amendez@line.com",
+        "password": "$2y$10$.An3F8k\/Zv4SkH.f3Jb8iuwAuQpPjdvRDxyFv\/mvvsYtqEqZIsk5K"
+    },
+    "otherContact": [],
+    "otherInfo": {
+        "gender": "M",
+        "dateOfBirth": "1984-10-30"
+    },
+    "totalBooked": 13,
+    "discount": 0
+});
+db.customers.insertOne(
+{
+    "customerKey": "EUGEKRUE8442",
+    "name": {
+        "title": "Mr",
+        "first": "Eugene",
+        "middle": "A",
+        "last": "Krueger",
+        "suffix": null
+    },
+    "address": {
+        "streetAddress": "848 Big Gully Way",
+        "buildingName": null,
+        "floor": null,
+        "roomAptCondoFlat": null,
+        "city": "Kweda",
+        "stateProvince": "WA",
+        "locality": "KALGOORLIE",
+        "country": "AU",
+        "postalCode": "6306",
+        "latitude": "-32.3667",
+        "longitude": "117.4333"
+    },
+    "contact": {
+        "email": "ekrueger230@daxnet.com",
+        "phone": "+61-230-387-8442",
+        "socMedia": {
+            "twitter": "ekrueger230@daxnet.com@twitter.com"
+        }
+    },
+    "login": {
+        "username": "ekrueger",
+        "oauth2": "ekrueger@twitter.com",
+        "password": "$2y$10$tovEJ5q\/HmWLU41VALERD.hH140LvY.zYrZeQvyGtbZi1ThOoYc7q"
+    },
+    "otherContact": {
+        "emails": [
+            "ekrueger230@telkom.com"
+        ],
+        "phoneNumbers": [
+            "+61-230-620-3848"
+        ],
+        "socMedias": [
+            {
+                "google": "ekrueger230@telkom.com@google.com"
+            }
+        ]
+    },
+    "otherInfo": {
+        "gender": "M",
+        "dateOfBirth": "1992-01-18"
+    },
+    "totalBooked": 9,
+    "discount": 0
+});
+db.customers.insertOne(
+{
+    "customerKey": "ERICJOHN7133",
+    "name": {
+        "title": null,
+        "first": "Erick",
+        "middle": null,
+        "last": "Johnson",
+        "suffix": null
+    },
+    "address": {
+        "streetAddress": "895 Long Hill Street",
+        "buildingName": null,
+        "floor": null,
+        "roomAptCondoFlat": null,
+        "city": "Barra De Ataques",
+        "stateProvince": "Rivera",
+        "locality": "Rivera",
+        "country": "UY",
+        "postalCode": "40000",
+        "latitude": "-31.7141",
+        "longitude": "-55.7228"
+    },
+    "contact": {
+        "email": "ejohnson231@worldnet.com",
+        "phone": "+61-231-535-7133",
+        "socMedia": []
+    },
+    "login": {
+        "username": "ejohnson",
+        "oauth2": null,
+        "password": "$2y$10$1kkyGoyMMyYVBFmR5oXJ3O.T.SpiRaHrq3klc3IuRGus05Glg6wEi"
+    },
+    "otherContact": {
+        "emails": [
+            "ejohnson231@telenor.com"
+        ],
+        "phoneNumbers": [
+            "+61-231-088-9882"
+        ]
+    },
+    "otherInfo": {
+        "gender": "M",
+        "dateOfBirth": "1978-05-28"
+    },
+    "totalBooked": 71,
+    "discount": 0.156
+});
+db.customers.insertOne(
+{
+    "customerKey": "THOMSHOR3131",
+    "name": {
+        "title": "Mr",
+        "first": "Thomas",
+        "middle": "D",
+        "last": "Short",
+        "suffix": null
+    },
+    "address": {
+        "streetAddress": "703 Short Bend Circle",
+        "buildingName": null,
+        "floor": null,
+        "roomAptCondoFlat": null,
+        "city": "Tucson",
+        "stateProvince": "AZ",
+        "locality": "Pima",
+        "country": "US",
+        "postalCode": "85718",
+        "latitude": "32.3112",
+        "longitude": "-110.9179"
+    },
+    "contact": {
+        "email": "tshort232@lguplus.com",
+        "phone": "+61-232-439-3131",
+        "socMedia": {
+            "twitter": "tshort232@lguplus.com@twitter.com"
+        }
+    },
+    "login": {
+        "username": "tshort",
+        "oauth2": "tshort@twitter.com",
+        "password": "$2y$10$jomR\/OIXNIZL7CZxM8y58.1m2Qt9v2zD0t02J1Xmvkgjjl..HmA1q"
+    },
+    "otherContact": [],
+    "otherInfo": {
+        "gender": "M",
+        "dateOfBirth": "1983-03-12"
+    },
+    "totalBooked": 4,
+    "discount": 0
+});
+db.customers.insertOne(
+{
+    "customerKey": "BELEBARK9595",
+    "name": {
+        "title": "Ms",
+        "first": "Belen",
+        "middle": "S",
+        "last": "Barker",
+        "suffix": null
+    },
+    "address": {
+        "streetAddress": "9986 Long Mountain Way",
+        "buildingName": null,
+        "floor": null,
+        "roomAptCondoFlat": null,
+        "city": "Mount Magnificent",
+        "stateProvince": "SA",
+        "locality": "South Australia",
+        "country": "AU",
+        "postalCode": "5210",
+        "latitude": "-35.3484",
+        "longitude": "138.6518"
+    },
+    "contact": {
+        "email": "bbarker233@sprint.com",
+        "phone": "+61-233-266-9595",
+        "socMedia": {
+            "skype": "bbarker233@sprint.com@skype.com"
+        }
+    },
+    "login": {
+        "username": "bbarker",
+        "oauth2": "bbarker@skype.com",
+        "password": "$2y$10$LY7yvWMAcOrm0wV9vyvxx.wbULIhuMkVRb91R0A6i5j0io3xUTAr."
+    },
+    "otherContact": [],
+    "otherInfo": {
+        "gender": "F",
+        "dateOfBirth": "2000-11-20"
+    },
+    "totalBooked": 16,
+    "discount": 0
+});
+db.customers.insertOne(
+{
+    "customerKey": "FREDPECK8070",
+    "name": {
+        "title": null,
+        "first": "Frederic",
+        "middle": null,
+        "last": "Peck",
+        "suffix": null
+    },
+    "address": {
+        "streetAddress": "8974 Green Mound Avenue",
+        "buildingName": "Building EA",
+        "floor": 2,
+        "roomAptCondoFlat": "AF",
+        "city": "Arakkankottai",
+        "stateProvince": "Erode",
+        "locality": "Erode",
+        "country": "IN",
+        "postalCode": "638506",
+        "latitude": "11.5056",
+        "longitude": "77.3862"
+    },
+    "contact": {
+        "email": "fpeck234@cubenet.com",
+        "phone": "+61-234-972-8070",
+        "socMedia": []
+    },
+    "login": {
+        "username": "fpeck",
+        "oauth2": null,
+        "password": "$2y$10$\/M1PAbRqmoT5NP7onoNEb.y6sTBMsDotOCpXBA26pgz.yDlmafVOO"
+    },
+    "otherContact": {
+        "emails": [
+            "fpeck234@nii.com",
+            "fpeck234@verizon.com"
+        ],
+        "phoneNumbers": [
+            "+61-234-627-9897",
+            "+61-234-187-1853"
+        ]
+    },
+    "otherInfo": {
+        "gender": "M",
+        "dateOfBirth": "1999-07-12"
+    },
+    "totalBooked": 5,
+    "discount": 0.043000000000000003
+});
+db.customers.insertOne(
+{
+    "customerKey": "SHAUCHAS2450",
+    "name": {
+        "title": "Ms",
+        "first": "Shaunta",
+        "middle": "L",
+        "last": "Chase",
+        "suffix": null
+    },
+    "address": {
+        "streetAddress": "2007 Red Mountain Drive",
+        "buildingName": null,
+        "floor": null,
+        "roomAptCondoFlat": null,
+        "city": "Sayre",
+        "stateProvince": "AL",
+        "locality": "Jefferson",
+        "country": "US",
+        "postalCode": "35139",
+        "latitude": "33.7111",
+        "longitude": "-86.9759"
+    },
+    "contact": {
+        "email": "schase236@cubenet.com",
+        "phone": "+61-236-025-2450",
+        "socMedia": {
+            "google": "schase236@cubenet.com@google.com"
+        }
+    },
+    "login": {
+        "username": "schase",
+        "oauth2": "schase@google.com",
+        "password": "$2y$10$a.zBMeNsffv8LQfanZPA2e4NzNKAiXQNM49J9NhMo9smaiCPH569W"
+    },
+    "otherContact": {
+        "emails": [
+            "schase236@tm.com"
+        ],
+        "phoneNumbers": [
+            "+61-236-187-1673"
+        ],
+        "socMedias": [
+            {
+                "facebook": "schase236@tm.com@facebook.com"
+            }
+        ]
+    },
+    "otherInfo": {
+        "gender": "F",
+        "dateOfBirth": "1959-06-25"
+    },
+    "totalBooked": 6,
+    "discount": 0
+});
+db.customers.insertOne(
+{
+    "customerKey": "BLAIKLIN4859",
+    "name": {
+        "title": null,
+        "first": "Blair",
+        "middle": null,
+        "last": "Kline",
+        "suffix": null
+    },
+    "address": {
+        "streetAddress": "8432 Little Bough Ride",
+        "buildingName": null,
+        "floor": null,
+        "roomAptCondoFlat": null,
+        "city": "Phutha Monthon",
+        "stateProvince": "Nakhon Pathom",
+        "locality": "Nakhon Pathom",
+        "country": "TH",
+        "postalCode": "73170",
+        "latitude": "13.8667",
+        "longitude": "100.1917"
+    },
+    "contact": {
+        "email": "bkline237@telia.com",
+        "phone": "+61-237-279-4859",
+        "socMedia": []
+    },
+    "login": {
+        "username": "bkline",
+        "oauth2": null,
+        "password": "$2y$10$cfHbWn.mA8AHMWrDmw0PveGe\/rUhP1e7NJLo5E4xEVFi3\/NOv7Qty"
+    },
+    "otherContact": {
+        "emails": [
+            "bkline237@openworld.com"
+        ],
+        "phoneNumbers": [
+            "+61-237-798-6606"
+        ]
+    },
+    "otherInfo": {
+        "gender": "M",
+        "dateOfBirth": "1937-06-03"
+    },
+    "totalBooked": 26,
+    "discount": 0.094
+});
+db.customers.insertOne(
+{
+    "customerKey": "JANEPRUI1086",
+    "name": {
+        "title": "Ms",
+        "first": "Janell",
+        "middle": "J",
+        "last": "Pruitt",
+        "suffix": null
+    },
+    "address": {
+        "streetAddress": "4387 Long Woods Avenue",
+        "buildingName": null,
+        "floor": null,
+        "roomAptCondoFlat": null,
+        "city": "Loosegate",
+        "stateProvince": "England",
+        "locality": "Lincolnshire",
+        "country": "GB",
+        "postalCode": "PE12",
+        "latitude": "52.6947",
+        "longitude": "-0.0255"
+    },
+    "contact": {
+        "email": "jpruitt238@tt.com",
+        "phone": "+61-238-825-1086",
+        "socMedia": {
+            "twitter": "jpruitt238@tt.com@twitter.com"
+        }
+    },
+    "login": {
+        "username": "jpruitt",
+        "oauth2": "jpruitt@twitter.com",
+        "password": "$2y$10$r3Ed3hMcaSmbSvtLK5eVHO8XU4TYOsVPmoW2N4C6c0dCgOyRYmQmK"
+    },
+    "otherContact": {
+        "emails": [
+            "jpruitt238@rogers.com"
+        ],
+        "phoneNumbers": [
+            "+61-238-920-2301"
+        ],
+        "socMedias": [
+            {
+                "skype": "jpruitt238@rogers.com@skype.com"
+            }
+        ]
+    },
+    "otherInfo": {
+        "gender": "F",
+        "dateOfBirth": "1989-04-29"
+    },
+    "totalBooked": 57,
+    "discount": 0.079
+});
+db.customers.insertOne(
+{
+    "customerKey": "JUNIARCH4328",
+    "name": {
+        "title": "Mr",
+        "first": "Junior",
+        "middle": "G",
+        "last": "Archer",
+        "suffix": null
+    },
+    "address": {
+        "streetAddress": "5704 Winding Hill Avenue",
+        "buildingName": null,
+        "floor": null,
+        "roomAptCondoFlat": null,
+        "city": "Balikli",
+        "stateProvince": "\u00c7ayirli",
+        "locality": "\u00c7ayirli",
+        "country": "TR",
+        "postalCode": "24503",
+        "latitude": "39.8399",
+        "longitude": "40.0062"
+    },
+    "contact": {
+        "email": "jarcher239@ntt.com",
+        "phone": "+61-239-532-4328",
+        "socMedia": {
+            "google": "jarcher239@ntt.com@google.com"
+        }
+    },
+    "login": {
+        "username": "jarcher",
+        "oauth2": "jarcher@google.com",
+        "password": "$2y$10$GjWTCIn2m29cTWPe.nn64.OflWf4lYmXDy0z1z3rjkGXrBa0JCCHu"
+    },
+    "otherContact": [],
+    "otherInfo": {
+        "gender": "M",
+        "dateOfBirth": "1998-04-15"
+    },
+    "totalBooked": 18,
+    "discount": 0
+});
+db.customers.insertOne(
+{
+    "customerKey": "KENDENGL0348",
+    "name": {
+        "title": "Dr",
+        "first": "Kendall",
+        "middle": null,
+        "last": "English",
+        "suffix": "Sr"
+    },
+    "address": {
+        "streetAddress": "4966 Long Ridge Avenue",
+        "buildingName": null,
+        "floor": null,
+        "roomAptCondoFlat": "49",
+        "city": "Dale",
+        "stateProvince": "IN",
+        "locality": "Spencer",
+        "country": "US",
+        "postalCode": "47523",
+        "latitude": "38.1706",
+        "longitude": "-87.007"
+    },
+    "contact": {
+        "email": "kenglish240@maxcomm.com",
+        "phone": "+61-240-459-0348",
+        "socMedia": []
+    },
+    "login": {
+        "username": "kenglish",
+        "oauth2": null,
+        "password": "$2y$10$iiMbTTt.31qmhm2Cd6oGyutadOlGVgOpMiksOP6QtFLtHcONnZppm"
+    },
+    "otherContact": {
+        "emails": [
+            "kenglish240@netcom.com",
+            "kenglish240@nii.com",
+            "kenglish240@telkom.com"
+        ],
+        "phoneNumbers": [
+            "+61-240-907-8588",
+            "+61-240-770-9344",
+            "+61-240-725-3509"
+        ]
+    },
+    "otherInfo": {
+        "gender": "X",
+        "dateOfBirth": "1940-01-12"
+    },
+    "totalBooked": 50,
+    "discount": 0.029
+});
+db.customers.insertOne(
+{
+    "customerKey": "AUGUWHIT2427",
+    "name": {
+        "title": "Mr",
+        "first": "August",
+        "middle": "Y",
+        "last": "Whitehead",
+        "suffix": null
+    },
+    "address": {
+        "streetAddress": "5812 Red Hill Road",
+        "buildingName": null,
+        "floor": null,
+        "roomAptCondoFlat": null,
+        "city": "Elsburg",
+        "stateProvince": null,
+        "locality": null,
+        "country": "ZA",
+        "postalCode": "1428",
+        "latitude": "-26.3",
+        "longitude": "28.1333"
+    },
+    "contact": {
+        "email": "awhitehe241@verizon.com",
+        "phone": "+61-241-431-2427",
+        "socMedia": {
+            "twitter": "awhitehe241@verizon.com@twitter.com"
+        }
+    },
+    "login": {
+        "username": "awhitehe",
+        "oauth2": "awhitehe@twitter.com",
+        "password": "$2y$10$GUpK07FBcivwpkjk4wTo3uJNdPQAIpTC63nCeB4TPASVP6gJKID8y"
+    },
+    "otherContact": {
+        "emails": [
+            "awhitehe241@belgacom.com",
+            "awhitehe241@safaricom.com"
+        ],
+        "phoneNumbers": [
+            "+61-241-309-3849",
+            "+61-241-432-0955"
+        ],
+        "socMedias": [
+            {
+                "line": "awhitehe241@belgacom.com@line.com"
+            },
+            {
+                "facebook": "awhitehe241@safaricom.com@facebook.com"
+            }
+        ]
+    },
+    "otherInfo": {
+        "gender": "M",
+        "dateOfBirth": "1932-02-16"
+    },
+    "totalBooked": 15,
+    "discount": 0
+});
+db.customers.insertOne(
+{
+    "customerKey": "ZORABROW8547",
+    "name": {
+        "title": "Ms",
+        "first": "Zora",
+        "middle": "K",
+        "last": "Browning",
+        "suffix": null
+    },
+    "address": {
+        "streetAddress": "9977 Winding Bend Avenue",
+        "buildingName": null,
+        "floor": null,
+        "roomAptCondoFlat": null,
+        "city": "North York (Sweeney Park \/ Wigmore Park)",
+        "stateProvince": "ON",
+        "locality": "Ontario",
+        "country": "CA",
+        "postalCode": "M4A",
+        "latitude": "43.7276",
+        "longitude": "-79.3148"
+    },
+    "contact": {
+        "email": "zbrownin242@softbank.com",
+        "phone": "+61-242-002-8547",
+        "socMedia": {
+            "skype": "zbrownin242@softbank.com@skype.com"
+        }
+    },
+    "login": {
+        "username": "zbrownin",
+        "oauth2": "zbrownin@skype.com",
+        "password": "$2y$10$VCpMcEXzTY9SQongXHqNAOIQp95DnHDGqNwlLp0om.L7CmL7jWVfC"
+    },
+    "otherContact": {
+        "emails": [
+            "zbrownin242@cubenet.com",
+            "zbrownin242@airtel.com"
+        ],
+        "phoneNumbers": [
+            "+61-242-031-6327",
+            "+61-242-873-7243"
+        ],
+        "socMedias": [
+            {
+                "facebook": "zbrownin242@cubenet.com@facebook.com"
+            },
+            {
+                "skype": "zbrownin242@airtel.com@skype.com"
+            }
+        ]
+    },
+    "otherInfo": {
+        "gender": "F",
+        "dateOfBirth": "1947-11-26"
+    },
+    "totalBooked": 14,
+    "discount": 0
+});
+db.customers.insertOne(
+{
+    "customerKey": "GLENPONC2136",
+    "name": {
+        "title": "Dr",
+        "first": "Glennie",
+        "middle": null,
+        "last": "Ponce",
+        "suffix": "II"
+    },
+    "address": {
+        "streetAddress": "5854 Long Mountain Boulevard",
+        "buildingName": null,
+        "floor": 2,
+        "roomAptCondoFlat": null,
+        "city": "Ciudad Gandera",
+        "stateProvince": null,
+        "locality": null,
+        "country": "DO",
+        "postalCode": "10116",
+        "latitude": "18.45",
+        "longitude": "-69.9333"
+    },
+    "contact": {
+        "email": "gponce243@ccs.com",
+        "phone": "+61-243-209-2136",
+        "socMedia": []
+    },
+    "login": {
+        "username": "gponce",
+        "oauth2": null,
+        "password": "$2y$10$abtp.aazk0fnWLBasyENW.seUicV0mH.BK6pPtTBsxJvN60GnNk3q"
+    },
+    "otherContact": {
+        "emails": [
+            "gponce243@tt.com",
+            "gponce243@centurylink.com"
+        ],
+        "phoneNumbers": [
+            "+61-243-306-3933",
+            "+61-243-501-5083"
+        ]
+    },
+    "otherInfo": {
+        "gender": "F",
+        "dateOfBirth": "1948-07-29"
+    },
+    "totalBooked": 11,
+    "discount": 0.017
+});
+db.customers.insertOne(
+{
+    "customerKey": "LETTCARE2661",
+    "name": {
+        "title": "Ms",
+        "first": "Lettie",
+        "middle": "A",
+        "last": "Carey",
+        "suffix": null
+    },
+    "address": {
+        "streetAddress": "7573 Long Ridge Road",
+        "buildingName": null,
+        "floor": null,
+        "roomAptCondoFlat": null,
+        "city": "Mahui",
+        "stateProvince": "Bettiah",
+        "locality": "West Champaran",
+        "country": "IN",
+        "postalCode": "845103",
+        "latitude": "27.1104",
+        "longitude": "84.3109"
+    },
+    "contact": {
+        "email": "lcarey244@etisalat.com",
+        "phone": "+61-244-431-2661",
+        "socMedia": {
+            "facebook": "lcarey244@etisalat.com@facebook.com"
+        }
+    },
+    "login": {
+        "username": "lcarey",
+        "oauth2": "lcarey@facebook.com",
+        "password": "$2y$10$6z\/n0dNTAV\/\/93N51UuGjOx7kOJ1t7zf3gCymKnKbN.OA9pH6tSOO"
+    },
+    "otherContact": {
+        "emails": [
+            "lcarey244@uunet.com"
+        ],
+        "phoneNumbers": [
+            "+61-244-169-0370"
+        ],
+        "socMedias": [
+            {
+                "skype": "lcarey244@uunet.com@skype.com"
+            }
+        ]
+    },
+    "otherInfo": {
+        "gender": "F",
+        "dateOfBirth": "1930-09-12"
+    },
+    "totalBooked": 7,
+    "discount": 0
+});
+db.customers.insertOne(
+{
+    "customerKey": "ROSAGUER3277",
+    "name": {
+        "title": "Ms",
+        "first": "Rosario",
+        "middle": "Z",
+        "last": "Guerrero",
+        "suffix": null
+    },
+    "address": {
+        "streetAddress": "9031 Long Ridge Avenue",
+        "buildingName": null,
+        "floor": null,
+        "roomAptCondoFlat": null,
+        "city": "Reykjav\u00edk - 12",
+        "stateProvince": null,
+        "locality": null,
+        "country": "IS",
+        "postalCode": "132",
+        "latitude": "64.1345",
+        "longitude": "-21.7986"
+    },
+    "contact": {
+        "email": "rguerrer245@telstra.com",
+        "phone": "+61-245-452-3277",
+        "socMedia": {
+            "skype": "rguerrer245@telstra.com@skype.com"
+        }
+    },
+    "login": {
+        "username": "rguerrer",
+        "oauth2": "rguerrer@skype.com",
+        "password": "$2y$10$SSaBv.JAeEnJJaNjK\/VjheEiXeVt5bwwhYN8NC0sKWqNDIFaI\/UiO"
+    },
+    "otherContact": {
+        "emails": [
+            "rguerrer245@bt.com",
+            "rguerrer245@cci.com"
+        ],
+        "phoneNumbers": [
+            "+61-245-920-3635",
+            "+61-245-618-3419"
+        ],
+        "socMedias": [
+            {
+                "facebook": "rguerrer245@bt.com@facebook.com"
+            },
+            {
+                "skype": "rguerrer245@cci.com@skype.com"
+            }
+        ]
+    },
+    "otherInfo": {
+        "gender": "F",
+        "dateOfBirth": "1991-05-02"
+    },
+    "totalBooked": 93,
+    "discount": 0.047
+});
+db.customers.insertOne(
+{
+    "customerKey": "VONCFITZ5037",
+    "name": {
+        "title": null,
+        "first": "Voncile",
+        "middle": null,
+        "last": "Fitzpatrick",
+        "suffix": null
+    },
+    "address": {
+        "streetAddress": "6526 Winding Mound Avenue",
+        "buildingName": null,
+        "floor": null,
+        "roomAptCondoFlat": "29",
+        "city": "Clarksdale",
+        "stateProvince": "MS",
+        "locality": "Coahoma",
+        "country": "US",
+        "postalCode": "38614",
+        "latitude": "34.256",
+        "longitude": "-90.6348"
+    },
+    "contact": {
+        "email": "vfitzpat246@telus.com",
+        "phone": "+61-246-022-5037",
+        "socMedia": []
+    },
+    "login": {
+        "username": "vfitzpat",
+        "oauth2": null,
+        "password": "$2y$10$HoSH.r.o2vP3xGgE969NDuceQ.9mjK08dRfVRbxdmQfVC9SjQ5dKy"
+    },
+    "otherContact": {
+        "emails": [
+            "vfitzpat246@unicom.com"
+        ],
+        "phoneNumbers": [
+            "+61-246-333-2271"
+        ]
+    },
+    "otherInfo": {
+        "gender": "F",
+        "dateOfBirth": "1944-08-07"
+    },
+    "totalBooked": 45,
+    "discount": 0.081
+});
+db.customers.insertOne(
+{
+    "customerKey": "JOLYANDE6883",
+    "name": {
+        "title": "Ms",
+        "first": "Jolyn",
+        "middle": "G",
+        "last": "Anderson",
+        "suffix": null
+    },
+    "address": {
+        "streetAddress": "2930 Green Canyon Avenue",
+        "buildingName": "Building DE",
+        "floor": null,
+        "roomAptCondoFlat": null,
+        "city": "\u0411\u0438\u0440\u044e\u0437\u043e\u0432\u043e",
+        "stateProvince": "Rossony",
+        "locality": "Rossony",
+        "country": "BY",
+        "postalCode": "211470",
+        "latitude": "55.8821",
+        "longitude": "28.8492"
+    },
+    "contact": {
+        "email": "janderso247@telecom.com",
+        "phone": "+61-247-509-6883",
+        "socMedia": {
+            "facebook": "janderso247@telecom.com@facebook.com"
+        }
+    },
+    "login": {
+        "username": "janderso",
+        "oauth2": "janderso@facebook.com",
+        "password": "$2y$10$Vx6FZr1yBq5CuNqkXrr3leJzCgMalc9OXks2zZtnUGUA1QlLVFriy"
+    },
+    "otherContact": {
+        "emails": [
+            "janderso247@tata.com"
+        ],
+        "phoneNumbers": [
+            "+61-247-487-7752"
+        ],
+        "socMedias": [
+            {
+                "line": "janderso247@tata.com@line.com"
+            }
+        ]
+    },
+    "otherInfo": {
+        "gender": "F",
+        "dateOfBirth": "1963-03-30"
+    },
+    "totalBooked": 18,
+    "discount": 0
+});
+db.customers.insertOne(
+{
+    "customerKey": "BRYASCHW4603",
+    "name": {
+        "title": "Mr",
+        "first": "Bryant",
+        "middle": "P",
+        "last": "Schwartz",
+        "suffix": null
+    },
+    "address": {
+        "streetAddress": "1272 Long Ridge Way",
+        "buildingName": null,
+        "floor": null,
+        "roomAptCondoFlat": null,
+        "city": "Juna Ghantila",
+        "stateProvince": "Morvi",
+        "locality": "Rajkot",
+        "country": "IN",
+        "postalCode": "363630",
+        "latitude": "21.7674",
+        "longitude": "70.8645"
+    },
+    "contact": {
+        "email": "bschwart248@sktelecom.com",
+        "phone": "+61-248-143-4603",
+        "socMedia": {
+            "twitter": "bschwart248@sktelecom.com@twitter.com"
+        }
+    },
+    "login": {
+        "username": "bschwart",
+        "oauth2": "bschwart@twitter.com",
+        "password": "$2y$10$57DSE4XaO9hCXW8nZChtI.ZuqEjo0CLHXzpYukXtAmvq10.HReyzC"
+    },
+    "otherContact": [],
+    "otherInfo": {
+        "gender": "M",
+        "dateOfBirth": "1932-04-27"
+    },
+    "totalBooked": 9,
+    "discount": 0
+});
+db.customers.insertOne(
+{
+    "customerKey": "ANTOSIER8883",
+    "name": {
+        "title": null,
+        "first": "Anton",
+        "middle": null,
+        "last": "Sierra",
+        "suffix": null
+    },
+    "address": {
+        "streetAddress": "5532 Short Bend Way",
+        "buildingName": null,
+        "floor": null,
+        "roomAptCondoFlat": null,
+        "city": "Strumica",
+        "stateProvince": null,
+        "locality": null,
+        "country": "MK",
+        "postalCode": "2400",
+        "latitude": "41.4375",
+        "longitude": "22.6433"
+    },
+    "contact": {
+        "email": "asierra249@kddi.com",
+        "phone": "+61-249-105-8883",
+        "socMedia": []
+    },
+    "login": {
+        "username": "asierra",
+        "oauth2": null,
+        "password": "$2y$10$LQ0GyniWxkrcpzPQQb6JjOT1dKTWuqlxHxBUQUGte.NpoWxBBaMn6"
+    },
+    "otherContact": {
+        "emails": [
+            "asierra249@telesystems.com",
+            "asierra249@telecomitalia.com"
+        ],
+        "phoneNumbers": [
+            "+61-249-258-7987",
+            "+61-249-264-9250"
+        ]
+    },
+    "otherInfo": {
+        "gender": "M",
+        "dateOfBirth": "1980-06-12"
+    },
+    "totalBooked": 8,
+    "discount": 0.069
+});
+db.customers.insertOne(
+{
+    "customerKey": "DALTCHOI6697",
+    "name": {
+        "title": "Mr",
+        "first": "Dalton",
+        "middle": "M",
+        "last": "Choi",
+        "suffix": null
+    },
+    "address": {
+        "streetAddress": "7195 Winding Stream Road",
+        "buildingName": null,
+        "floor": null,
+        "roomAptCondoFlat": null,
+        "city": "Harrold",
+        "stateProvince": "TX",
+        "locality": "Wilbarger",
+        "country": "US",
+        "postalCode": "76364",
+        "latitude": "34.0806",
+        "longitude": "-99.0323"
+    },
+    "contact": {
+        "email": "dchoi250@econnect.com",
+        "phone": "+61-250-658-6697",
+        "socMedia": {
+            "google": "dchoi250@econnect.com@google.com"
+        }
+    },
+    "login": {
+        "username": "dchoi",
+        "oauth2": "dchoi@google.com",
+        "password": "$2y$10$CEdubA.9Xk16EV.X9m02NuFslZPvvAsvHRLc.gwryCkHcROmZLImy"
+    },
+    "otherContact": {
+        "emails": [
+            "dchoi250@singtel.com"
+        ],
+        "phoneNumbers": [
+            "+61-250-688-7980"
+        ],
+        "socMedias": [
+            {
+                "facebook": "dchoi250@singtel.com@facebook.com"
+            }
+        ]
+    },
+    "otherInfo": {
+        "gender": "M",
+        "dateOfBirth": "1985-08-29"
+    },
+    "totalBooked": 10,
+    "discount": 0
+});
+db.customers.insertOne(
+{
+    "customerKey": "MITCDAWS0650",
+    "name": {
+        "title": "Ms",
+        "first": "Mitchell",
+        "middle": "Q",
+        "last": "Dawson",
+        "suffix": null
+    },
+    "address": {
+        "streetAddress": "8129 Long Mountain Street",
+        "buildingName": null,
+        "floor": null,
+        "roomAptCondoFlat": null,
+        "city": "Racovi\u0163a",
+        "stateProvince": "D\u00e2mbovi\u0163a",
+        "locality": "D\u00e2mbovi\u0163a",
+        "country": "RO",
+        "postalCode": "137072",
+        "latitude": "44.8393",
+        "longitude": "25.6208"
+    },
+    "contact": {
+        "email": "mdawson251@tm.com",
+        "phone": "+61-251-434-0650",
+        "socMedia": {
+            "linkedin": "mdawson251@tm.com@linkedin.com"
+        }
+    },
+    "login": {
+        "username": "mdawson",
+        "oauth2": "mdawson@linkedin.com",
+        "password": "$2y$10$jRY7fg\/t2hMnI41Q9CQWj.fuxdq\/2H6t6SV5iVoQZSydYL03ciQmq"
+    },
+    "otherContact": {
+        "emails": [
+            "mdawson251@softbank.com"
+        ],
+        "phoneNumbers": [
+            "+61-251-204-4384"
+        ],
+        "socMedias": [
+            {
+                "line": "mdawson251@softbank.com@line.com"
+            }
+        ]
+    },
+    "otherInfo": {
+        "gender": "F",
+        "dateOfBirth": "1957-08-20"
+    },
+    "totalBooked": 7,
+    "discount": 0
+});
+db.customers.insertOne(
+{
+    "customerKey": "JOYEWALT1963",
+    "name": {
+        "title": null,
+        "first": "Joye",
+        "middle": null,
+        "last": "Walters",
+        "suffix": null
+    },
+    "address": {
+        "streetAddress": "3759 Blue Bend Boulevard",
+        "buildingName": null,
+        "floor": 18,
+        "roomAptCondoFlat": "A4",
+        "city": "Edmonton (Central Londonderry)",
+        "stateProvince": "AB",
+        "locality": "Edmonton",
+        "country": "CA",
+        "postalCode": "T5C",
+        "latitude": "53.5996",
+        "longitude": "-113.4549"
+    },
+    "contact": {
+        "email": "jwalters252@ote.com",
+        "phone": "+61-252-644-1963",
+        "socMedia": []
+    },
+    "login": {
+        "username": "jwalters",
+        "oauth2": null,
+        "password": "$2y$10$e4VsQKsDRLlnNS7NVae.9.7rxlLkFSyMFRXA0edq82Lx6AYcXMAW."
+    },
+    "otherContact": [],
+    "otherInfo": {
+        "gender": "F",
+        "dateOfBirth": "1976-03-06"
+    },
+    "totalBooked": 34,
+    "discount": 0.067
+});
+db.customers.insertOne(
+{
+    "customerKey": "JOLAMCKE6031",
+    "name": {
+        "title": "Ms",
+        "first": "Jolanda",
+        "middle": "V",
+        "last": "Mckee",
+        "suffix": null
+    },
+    "address": {
+        "streetAddress": "763 Big Creek Drive",
+        "buildingName": null,
+        "floor": null,
+        "roomAptCondoFlat": null,
+        "city": "Playa Azul",
+        "stateProvince": "Colonia",
+        "locality": "Colonia",
+        "country": "UY",
+        "postalCode": "70300",
+        "latitude": "-34.398",
+        "longitude": "-56.9659"
+    },
+    "contact": {
+        "email": "jmckee253@telkom.com",
+        "phone": "+61-253-126-6031",
+        "socMedia": {
+            "twitter": "jmckee253@telkom.com@twitter.com"
+        }
+    },
+    "login": {
+        "username": "jmckee",
+        "oauth2": "jmckee@twitter.com",
+        "password": "$2y$10$m57SuML.em.DOjpsBH4tI.9ZPClgZv4zaTjbuWetcD48yopJXBQ.S"
+    },
+    "otherContact": {
+        "emails": [
+            "jmckee253@access.com"
+        ],
+        "phoneNumbers": [
+            "+61-253-475-2335"
+        ],
+        "socMedias": [
+            {
+                "twitter": "jmckee253@access.com@twitter.com"
+            }
+        ]
+    },
+    "otherInfo": {
+        "gender": "F",
+        "dateOfBirth": "1939-03-08"
+    },
+    "totalBooked": 3,
+    "discount": 0
+});
+db.customers.insertOne(
+{
+    "customerKey": "DANYBARB0419",
+    "name": {
+        "title": "Ms",
+        "first": "Danyelle",
+        "middle": "M",
+        "last": "Barber",
+        "suffix": null
+    },
+    "address": {
+        "streetAddress": "4786 Green Bridge Ride",
+        "buildingName": null,
+        "floor": null,
+        "roomAptCondoFlat": null,
+        "city": "Usgao",
+        "stateProvince": "Ponda",
+        "locality": "North Goa",
+        "country": "IN",
+        "postalCode": "403406",
+        "latitude": "15.4333",
+        "longitude": "74.0667"
+    },
+    "contact": {
+        "email": "dbarber254@megafon.com",
+        "phone": "+61-254-574-0419",
+        "socMedia": {
+            "linkedin": "dbarber254@megafon.com@linkedin.com"
+        }
+    },
+    "login": {
+        "username": "dbarber",
+        "oauth2": "dbarber@linkedin.com",
+        "password": "$2y$10$UYaaEynS2tahszbfAShfYOaWFlI3XCHyW6CZgfUGRUtFJdT5T3Cu6"
+    },
+    "otherContact": {
+        "emails": [
+            "dbarber254@verizon.com"
+        ],
+        "phoneNumbers": [
+            "+61-254-621-6240"
+        ],
+        "socMedias": [
+            {
+                "skype": "dbarber254@verizon.com@skype.com"
+            }
+        ]
+    },
+    "otherInfo": {
+        "gender": "F",
+        "dateOfBirth": "1947-12-08"
+    },
+    "totalBooked": 13,
+    "discount": 0
+});
+db.customers.insertOne(
+{
+    "customerKey": "STEVWASH6868",
+    "name": {
+        "title": null,
+        "first": "Steve",
+        "middle": null,
+        "last": "Washington",
+        "suffix": null
+    },
+    "address": {
+        "streetAddress": "7186 Little Tree Boulevard",
+        "buildingName": null,
+        "floor": null,
+        "roomAptCondoFlat": null,
+        "city": "Chuuk",
+        "stateProvince": "State of Chuuk",
+        "locality": "State of Chuuk",
+        "country": "FM",
+        "postalCode": "96942",
+        "latitude": "7.1383",
+        "longitude": "151.5031"
+    },
+    "contact": {
+        "email": "swashing255@bt.com",
+        "phone": "+61-255-925-6868",
+        "socMedia": []
+    },
+    "login": {
+        "username": "swashing",
+        "oauth2": null,
+        "password": "$2y$10$p7dV711AJPiRpIUPSin\/S.Jd1LIHcqR\/6fTIt.aPdo3OQePJzFh9y"
+    },
+    "otherContact": [],
+    "otherInfo": {
+        "gender": "M",
+        "dateOfBirth": "1971-12-06"
+    },
+    "totalBooked": 28,
+    "discount": 0.055
+});
+db.customers.insertOne(
+{
+    "customerKey": "PAULGUER1871",
+    "name": {
+        "title": "Ms",
+        "first": "Pauline",
+        "middle": "W",
+        "last": "Guerra",
+        "suffix": null
+    },
+    "address": {
+        "streetAddress": "6416 Red Mountain Way",
+        "buildingName": null,
+        "floor": null,
+        "roomAptCondoFlat": null,
+        "city": "Syyed Nagar Post Office",
+        "stateProvince": "Rawatpur Gaon",
+        "locality": "Kanpur Nagar",
+        "country": "IN",
+        "postalCode": "208019",
+        "latitude": "26.4756",
+        "longitude": "80.2763"
+    },
+    "contact": {
+        "email": "pguerra256@telia.com",
+        "phone": "+61-256-978-1871",
+        "socMedia": {
+            "facebook": "pguerra256@telia.com@facebook.com"
+        }
+    },
+    "login": {
+        "username": "pguerra",
+        "oauth2": "pguerra@facebook.com",
+        "password": "$2y$10$b0rY2nwjyEa\/SZS.ImVPF.NPY4nHTJAnLN6ns7Oi6Ekc.77ZalSQ6"
+    },
+    "otherContact": {
+        "emails": [
+            "pguerra256@icom.com",
+            "pguerra256@ooredoo.com",
+            "pguerra256@movil.com"
+        ],
+        "phoneNumbers": [
+            "+61-256-634-7362",
+            "+61-256-310-1887",
+            "+61-256-225-0806"
+        ],
+        "socMedias": [
+            {
+                "line": "pguerra256@icom.com@line.com"
+            },
+            {
+                "facebook": "pguerra256@ooredoo.com@facebook.com"
+            },
+            {
+                "twitter": "pguerra256@movil.com@twitter.com"
+            }
+        ]
+    },
+    "otherInfo": {
+        "gender": "F",
+        "dateOfBirth": "1987-02-10"
+    },
+    "totalBooked": 7,
+    "discount": 0
+});
+db.customers.insertOne(
+{
+    "customerKey": "LONNSOLI7297",
+    "name": {
+        "title": "Mr",
+        "first": "Lonny",
+        "middle": "B",
+        "last": "Solis",
+        "suffix": null
+    },
+    "address": {
+        "streetAddress": "6196 Big Mound Avenue",
+        "buildingName": null,
+        "floor": null,
+        "roomAptCondoFlat": null,
+        "city": "San Juan",
+        "stateProvince": "San Juan",
+        "locality": "San Juan",
+        "country": "PR",
+        "postalCode": "00916",
+        "latitude": "18.4663",
+        "longitude": "-66.1057"
+    },
+    "contact": {
+        "email": "lsolis257@belgacom.com",
+        "phone": "+61-257-366-7297",
+        "socMedia": {
+            "line": "lsolis257@belgacom.com@line.com"
+        }
+    },
+    "login": {
+        "username": "lsolis",
+        "oauth2": "lsolis@line.com",
+        "password": "$2y$10$uk3dpNSQZsx8MrzVXVwzG.ClRr8yLNiOZLR9.7\/UdQC2XYGYXbUSy"
+    },
+    "otherContact": {
+        "emails": [
+            "lsolis257@telefonica.com",
+            "lsolis257@verizon.com",
+            "lsolis257@turkcell.com"
+        ],
+        "phoneNumbers": [
+            "+61-257-410-2723",
+            "+61-257-381-1878",
+            "+61-257-712-2279"
+        ],
+        "socMedias": [
+            {
+                "line": "lsolis257@telefonica.com@line.com"
+            },
+            {
+                "twitter": "lsolis257@verizon.com@twitter.com"
+            },
+            {
+                "google": "lsolis257@turkcell.com@google.com"
+            }
+        ]
+    },
+    "otherInfo": {
+        "gender": "M",
+        "dateOfBirth": "1980-04-03"
+    },
+    "totalBooked": 20,
+    "discount": 0
+});
+db.customers.insertOne(
+{
+    "customerKey": "REBEHESS3223",
+    "name": {
+        "title": null,
+        "first": "Rebecka",
+        "middle": null,
+        "last": "Hess",
+        "suffix": null
+    },
+    "address": {
+        "streetAddress": "5909 Little Stream Avenue",
+        "buildingName": null,
+        "floor": null,
+        "roomAptCondoFlat": "DD",
+        "city": "Harmers Haven",
+        "stateProvince": "VIC",
+        "locality": "Victoria",
+        "country": "AU",
+        "postalCode": "3995",
+        "latitude": "-38.5752",
+        "longitude": "145.5665"
+    },
+    "contact": {
+        "email": "rhess258@telstra.com",
+        "phone": "+61-258-732-3223",
+        "socMedia": []
+    },
+    "login": {
+        "username": "rhess",
+        "oauth2": null,
+        "password": "$2y$10$\/0uLaNq8XwuE8Gmr4ddKI.AequfpU0857koG7h4bfUj0FZ4TfdDoK"
+    },
+    "otherContact": {
+        "emails": [
+            "rhess258@oi.com",
+            "rhess258@vodafone.com"
+        ],
+        "phoneNumbers": [
+            "+61-258-628-7837",
+            "+61-258-450-7964"
+        ]
+    },
+    "otherInfo": {
+        "gender": "F",
+        "dateOfBirth": "1934-06-17"
+    },
+    "totalBooked": 28,
+    "discount": 0.075
+});
+db.customers.insertOne(
+{
+    "customerKey": "ERIKBRAN8238",
+    "name": {
+        "title": "Ms",
+        "first": "Erika",
+        "middle": "B",
+        "last": "Branch",
+        "suffix": null
+    },
+    "address": {
+        "streetAddress": "9093 Big Bough Ride",
+        "buildingName": null,
+        "floor": null,
+        "roomAptCondoFlat": null,
+        "city": "Chhawrtui",
+        "stateProvince": "Khawzawl",
+        "locality": "Champhai",
+        "country": "IN",
+        "postalCode": "796310",
+        "latitude": "23.5044",
+        "longitude": "93.1602"
+    },
+    "contact": {
+        "email": "ebranch259@nii.com",
+        "phone": "+61-259-461-8238",
+        "socMedia": {
+            "facebook": "ebranch259@nii.com@facebook.com"
+        }
+    },
+    "login": {
+        "username": "ebranch",
+        "oauth2": "ebranch@facebook.com",
+        "password": "$2y$10$1YaWhVLX5Je6DI3q775IJO2EnZMhMRGEYkM5S.lumzvvJfZ0VyUAi"
+    },
+    "otherContact": {
+        "emails": [
+            "ebranch259@telefonica.com",
+            "ebranch259@openworld.com"
+        ],
+        "phoneNumbers": [
+            "+61-259-785-9938",
+            "+61-259-248-6442"
+        ],
+        "socMedias": [
+            {
+                "google": "ebranch259@telefonica.com@google.com"
+            },
+            {
+                "linkedin": "ebranch259@openworld.com@linkedin.com"
+            }
+        ]
+    },
+    "otherInfo": {
+        "gender": "F",
+        "dateOfBirth": "2001-01-28"
+    },
+    "totalBooked": 61,
+    "discount": 0.027
+});
+db.customers.insertOne(
+{
+    "customerKey": "BASIDUDL0813",
+    "name": {
+        "title": "Mr",
+        "first": "Basil",
+        "middle": "G",
+        "last": "Dudley",
+        "suffix": null
+    },
+    "address": {
+        "streetAddress": "888 Blue Woods Avenue",
+        "buildingName": "Building C2",
+        "floor": null,
+        "roomAptCondoFlat": null,
+        "city": "Pullman",
+        "stateProvince": "WA",
+        "locality": "Whitman",
+        "country": "US",
+        "postalCode": "99163",
+        "latitude": "46.7352",
+        "longitude": "-117.1729"
+    },
+    "contact": {
+        "email": "bdudley260@zain.com",
+        "phone": "+61-260-164-0813",
+        "socMedia": {
+            "linkedin": "bdudley260@zain.com@linkedin.com"
+        }
+    },
+    "login": {
+        "username": "bdudley",
+        "oauth2": "bdudley@linkedin.com",
+        "password": "$2y$10$XKiNk.ty347DbRIakvvhWuCFvQLHaWZG07QRova1f655RfUQMfmG."
+    },
+    "otherContact": {
+        "emails": [
+            "bdudley260@netcom.com"
+        ],
+        "phoneNumbers": [
+            "+61-260-955-7237"
+        ],
+        "socMedias": [
+            {
+                "skype": "bdudley260@netcom.com@skype.com"
+            }
+        ]
+    },
+    "otherInfo": {
+        "gender": "M",
+        "dateOfBirth": "1969-11-27"
+    },
+    "totalBooked": 5,
+    "discount": 0
+});
+db.customers.insertOne(
+{
+    "customerKey": "SANFMILL4264",
+    "name": {
+        "title": null,
+        "first": "Sanford",
+        "middle": null,
+        "last": "Mills",
+        "suffix": null
+    },
+    "address": {
+        "streetAddress": "226 Little Ridge Way",
+        "buildingName": null,
+        "floor": 18,
+        "roomAptCondoFlat": null,
+        "city": "Tabuadelo",
+        "stateProvince": "Pinheiro Vrm",
+        "locality": "Vieira do Minho",
+        "country": "PT",
+        "postalCode": "4850-273",
+        "latitude": "41.5825",
+        "longitude": "-8.1878"
+    },
+    "contact": {
+        "email": "smills261@telecom.com",
+        "phone": "+61-261-581-4264",
+        "socMedia": []
+    },
+    "login": {
+        "username": "smills",
+        "oauth2": null,
+        "password": "$2y$10$zcVVlFJU38ZWtpSW1mm2tuCtu1hTKVl0D1aIP89Jje7qQaRbdAqai"
+    },
+    "otherContact": [],
+    "otherInfo": {
+        "gender": "M",
+        "dateOfBirth": "2002-03-10"
+    },
+    "totalBooked": 11,
+    "discount": 0.094
+});
+db.customers.insertOne(
+{
+    "customerKey": "ABDUOLSE6268",
+    "name": {
+        "title": "Mr",
+        "first": "Abdul",
+        "middle": "C",
+        "last": "Olsen",
+        "suffix": null
+    },
+    "address": {
+        "streetAddress": "8463 Short Canyon Way",
+        "buildingName": null,
+        "floor": null,
+        "roomAptCondoFlat": null,
+        "city": "Bishop Norton",
+        "stateProvince": "England",
+        "locality": "Lincolnshire",
+        "country": "GB",
+        "postalCode": "LN2",
+        "latitude": "53.2558",
+        "longitude": "-0.5077"
+    },
+    "contact": {
+        "email": "aolsen262@att.com",
+        "phone": "+61-262-249-6268",
+        "socMedia": {
+            "skype": "aolsen262@att.com@skype.com"
+        }
+    },
+    "login": {
+        "username": "aolsen",
+        "oauth2": "aolsen@skype.com",
+        "password": "$2y$10$3PCwTyZc9FnlIR..Kqd3Te2Jhw5cT8tllqe4qpFO5svF3nMpnb8qG"
+    },
+    "otherContact": {
+        "emails": [
+            "aolsen262@vodafone.com",
+            "aolsen262@centurylink.com"
+        ],
+        "phoneNumbers": [
+            "+61-262-811-6708",
+            "+61-262-003-6849"
+        ],
+        "socMedias": [
+            {
+                "facebook": "aolsen262@vodafone.com@facebook.com"
+            },
+            {
+                "linkedin": "aolsen262@centurylink.com@linkedin.com"
+            }
+        ]
+    },
+    "otherInfo": {
+        "gender": "M",
+        "dateOfBirth": "1983-07-19"
+    },
+    "totalBooked": 11,
+    "discount": 0
+});
+db.customers.insertOne(
+{
+    "customerKey": "NELIENRI3245",
+    "name": {
+        "title": "Ms",
+        "first": "Nelida",
+        "middle": "H",
+        "last": "Enriquez",
+        "suffix": null
+    },
+    "address": {
+        "streetAddress": "3472 Long Canyon Ride",
+        "buildingName": null,
+        "floor": null,
+        "roomAptCondoFlat": null,
+        "city": "Hounslow East",
+        "stateProvince": "England",
+        "locality": "Greater London",
+        "country": "GB",
+        "postalCode": "TW3",
+        "latitude": "51.4733",
+        "longitude": "-0.3568"
+    },
+    "contact": {
+        "email": "nenrique263@safaricom.com",
+        "phone": "+61-263-566-3245",
+        "socMedia": {
+            "google": "nenrique263@safaricom.com@google.com"
+        }
+    },
+    "login": {
+        "username": "nenrique",
+        "oauth2": "nenrique@google.com",
+        "password": "$2y$10$rQAV524IIiyNhU8b.r7wMuRYtq4eS9eB7VIoMGo9h.xA5sMG7Rj7q"
+    },
+    "otherContact": {
+        "emails": [
+            "nenrique263@orange.com",
+            "nenrique263@telesystems.com"
+        ],
+        "phoneNumbers": [
+            "+61-263-490-6660",
+            "+61-263-615-0335"
+        ],
+        "socMedias": [
+            {
+                "facebook": "nenrique263@orange.com@facebook.com"
+            },
+            {
+                "line": "nenrique263@telesystems.com@line.com"
+            }
+        ]
+    },
+    "otherInfo": {
+        "gender": "F",
+        "dateOfBirth": "1953-01-18"
+    },
+    "totalBooked": 20,
+    "discount": 0
+});
+db.customers.insertOne(
+{
+    "customerKey": "RICKPADI9335",
+    "name": {
+        "title": null,
+        "first": "Rickie",
+        "middle": null,
+        "last": "Padilla",
+        "suffix": null
+    },
+    "address": {
+        "streetAddress": "8379 Short River Circle",
+        "buildingName": null,
+        "floor": null,
+        "roomAptCondoFlat": "28",
+        "city": "Wangoo Laipham",
+        "stateProvince": "Nil",
+        "locality": "Thoubal",
+        "country": "IN",
+        "postalCode": "795103",
+        "latitude": "24.4779",
+        "longitude": "93.9396"
+    },
+    "contact": {
+        "email": "rpadilla264@safaricom.com",
+        "phone": "+61-264-258-9335",
+        "socMedia": []
+    },
+    "login": {
+        "username": "rpadilla",
+        "oauth2": null,
+        "password": "$2y$10$kpNqmlV9N5l9GuI33VTO8.KOQc32E2A.tduQAVobRUnWH4dNptZGm"
+    },
+    "otherContact": [],
+    "otherInfo": {
+        "gender": "M",
+        "dateOfBirth": "1982-07-08"
+    },
+    "totalBooked": 29,
+    "discount": 0.074
+});
+db.customers.insertOne(
+{
+    "customerKey": "JAMATRUO4169",
+    "name": {
+        "title": "Mr",
+        "first": "Jamar",
+        "middle": "Z",
+        "last": "Truong",
+        "suffix": null
+    },
+    "address": {
+        "streetAddress": "2166 Red Tree Road",
+        "buildingName": null,
+        "floor": null,
+        "roomAptCondoFlat": null,
+        "city": "Pracu\u00faba",
+        "stateProvince": "Amapa",
+        "locality": "Amapa",
+        "country": "BR",
+        "postalCode": "68918-000",
+        "latitude": "1.6708",
+        "longitude": "-51.2449"
+    },
+    "contact": {
+        "email": "jtruong265@algonet.com",
+        "phone": "+61-265-959-4169",
+        "socMedia": {
+            "linkedin": "jtruong265@algonet.com@linkedin.com"
+        }
+    },
+    "login": {
+        "username": "jtruong",
+        "oauth2": "jtruong@linkedin.com",
+        "password": "$2y$10$CIqNajc0rYSygeQ55v9VpetzWqkzKxmBduco7EfV49dFpbMHhCn8W"
+    },
+    "otherContact": [],
+    "otherInfo": {
+        "gender": "M",
+        "dateOfBirth": "1943-08-10"
+    },
+    "totalBooked": 12,
+    "discount": 0
+});
+db.customers.insertOne(
+{
+    "customerKey": "ELMIMATH9667",
+    "name": {
+        "title": "Ms",
+        "first": "Elmira",
+        "middle": "W",
+        "last": "Mathews",
+        "suffix": null
+    },
+    "address": {
+        "streetAddress": "9028 Red Bridge Way",
+        "buildingName": null,
+        "floor": null,
+        "roomAptCondoFlat": null,
+        "city": "Hill Top",
+        "stateProvince": "NSW",
+        "locality": "CAMPBELLTOWN",
+        "country": "AU",
+        "postalCode": "2575",
+        "latitude": "-34.3479",
+        "longitude": "150.4955"
+    },
+    "contact": {
+        "email": "emathews266@ooredoo.com",
+        "phone": "+61-266-978-9667",
+        "socMedia": {
+            "line": "emathews266@ooredoo.com@line.com"
+        }
+    },
+    "login": {
+        "username": "emathews",
+        "oauth2": "emathews@line.com",
+        "password": "$2y$10$WC\/HBRz\/\/9hdYKR8Lu6cKOm1\/gxgLg68n6fOYqXc6xXa4hzt4lgK6"
+    },
+    "otherContact": {
+        "emails": [
+            "emathews266@vivendi.com",
+            "emathews266@kpn.com"
+        ],
+        "phoneNumbers": [
+            "+61-266-518-5774",
+            "+61-266-800-2978"
+        ],
+        "socMedias": [
+            {
+                "google": "emathews266@vivendi.com@google.com"
+            },
+            {
+                "skype": "emathews266@kpn.com@skype.com"
+            }
+        ]
+    },
+    "otherInfo": {
+        "gender": "F",
+        "dateOfBirth": "1998-05-29"
+    },
+    "totalBooked": 80,
+    "discount": 0.194
+});
+db.customers.insertOne(
+{
+    "customerKey": "JODYMEYE7262",
+    "name": {
+        "title": null,
+        "first": "Jody",
+        "middle": null,
+        "last": "Meyer",
+        "suffix": null
+    },
+    "address": {
+        "streetAddress": "9902 Blue Hill Way",
+        "buildingName": null,
+        "floor": null,
+        "roomAptCondoFlat": null,
+        "city": "Vremski Britof",
+        "stateProvince": null,
+        "locality": null,
+        "country": "SI",
+        "postalCode": "6217",
+        "latitude": "45.6571",
+        "longitude": "14.0301"
+    },
+    "contact": {
+        "email": "jmeyer267@telesystems.com",
+        "phone": "+61-267-189-7262",
+        "socMedia": []
+    },
+    "login": {
+        "username": "jmeyer",
+        "oauth2": null,
+        "password": "$2y$10$vDJw7ZQnPVHHFrPiZ\/WXX.zzFoDFlnApphoY4QTwgh5CZfP.pmeTm"
+    },
+    "otherContact": {
+        "emails": [
+            "jmeyer267@worldnet.com"
+        ],
+        "phoneNumbers": [
+            "+61-267-633-0022"
+        ]
+    },
+    "otherInfo": {
+        "gender": "M",
+        "dateOfBirth": "1940-07-09"
+    },
+    "totalBooked": 27,
+    "discount": 0.015
+});
+db.customers.insertOne(
+{
+    "customerKey": "ABELSHEP0757",
+    "name": {
+        "title": "Mr",
+        "first": "Abel",
+        "middle": "J",
+        "last": "Shepherd",
+        "suffix": null
+    },
+    "address": {
+        "streetAddress": "3994 Short Ditch Street",
+        "buildingName": null,
+        "floor": null,
+        "roomAptCondoFlat": null,
+        "city": "Port Noarlunga",
+        "stateProvince": "SA",
+        "locality": "SA CITY SUBS",
+        "country": "AU",
+        "postalCode": "5167",
+        "latitude": "-35.148",
+        "longitude": "138.471"
+    },
+    "contact": {
+        "email": "ashepher268@telecomitalia.com",
+        "phone": "+61-268-090-0757",
+        "socMedia": {
+            "facebook": "ashepher268@telecomitalia.com@facebook.com"
+        }
+    },
+    "login": {
+        "username": "ashepher",
+        "oauth2": "ashepher@facebook.com",
+        "password": "$2y$10$jIuZbmyXxg1CIwc83pvkBODtt7zlm7uURPDQgkunXRRgBGunm0v66"
+    },
+    "otherContact": [],
+    "otherInfo": {
+        "gender": "M",
+        "dateOfBirth": "1965-03-19"
+    },
+    "totalBooked": 8,
+    "discount": 0
+});
+db.customers.insertOne(
+{
+    "customerKey": "LISBCHUR2678",
+    "name": {
+        "title": "Ms",
+        "first": "Lisbeth",
+        "middle": "U",
+        "last": "Church",
+        "suffix": null
+    },
+    "address": {
+        "streetAddress": "2189 Green Canyon Road",
         "buildingName": null,
         "floor": null,
         "roomAptCondoFlat": null,
@@ -7497,2836 +8704,1266 @@ db.customers.insertOne(
         "longitude": "12.5"
     },
     "contact": {
-        "phone": "+378-263-489-2995",
-        "email": "tpatrick263@nordnet.com",
-        "socMedia": null
-    },
-    "login": {
-        "username": "tpatrick",
-        "oauth2": null,
-        "password": "$2y$10$.ZgddMxfy2dP.NbPFV5gheJg44XcP3V4Rw1l6NE2SNUqBxKkOcbYe"
-    },
-    "otherContact": {
-        "emails": [],
-        "phoneNumbers": [
-            "+378-717-065-8200",
-            "+378-240-094-0770"
-        ],
-        "socMedias": []
-    },
-    "otherInfo": {
-        "gender": "M",
-        "dateOfBirth": "1958-08-25"
-    }
-});
-db.customers.insertOne(
-{
-    "customerKey": "REANBRAD7733",
-    "name": {
-        "title": null,
-        "first": "Reanna",
-        "middle": null,
-        "last": "Bradshaw",
-        "suffix": null
-    },
-    "address": {
-        "streetAddress": "8944 Big River Road",
-        "buildingName": null,
-        "floor": null,
-        "roomAptCondoFlat": null,
-        "city": "Langdyke",
-        "stateProvince": "Scotland",
-        "locality": "Fife",
-        "country": "GB",
-        "postalCode": "KY8",
-        "latitude": "56.2159",
-        "longitude": "-2.9716"
-    },
-    "contact": {
-        "phone": "+44-264-676-7733",
-        "email": "rbradsha264@orstom.com",
-        "socMedia": null
-    },
-    "login": {
-        "username": "rbradsha",
-        "oauth2": null,
-        "password": "$2y$10$zchfgzzIX\/jEtHex1GpA4OaSDkvohw2627M5JFx\/XWm3JIDb\/Pkfy"
-    },
-    "otherContact": {
-        "emails": [
-            "rbradsha@algonet.net",
-            "rbradsha@bt.net"
-        ],
-        "phoneNumbers": [],
-        "socMedias": []
-    },
-    "otherInfo": {
-        "gender": "F",
-        "dateOfBirth": "1935-08-16"
-    }
-});
-db.customers.insertOne(
-{
-    "customerKey": "CECIGRIF2192",
-    "name": {
-        "title": "Ms",
-        "first": "Cecilia",
-        "middle": "Q",
-        "last": "Griffith",
-        "suffix": null
-    },
-    "address": {
-        "streetAddress": "7470 Little Mountain Circle",
-        "buildingName": null,
-        "floor": null,
-        "roomAptCondoFlat": null,
-        "city": "Am\u0103r\u0103\u015ftii de Sus",
-        "stateProvince": "Dolj",
-        "locality": "Dolj",
-        "country": "RO",
-        "postalCode": "207025",
-        "latitude": "43.9833",
-        "longitude": "24.15"
-    },
-    "contact": {
-        "phone": "+40-265-064-2192",
-        "email": "cgriffit265@softbank.com",
-        "socMedia": null
-    },
-    "login": {
-        "username": "cgriffit",
-        "oauth2": null,
-        "password": "$2y$10$RaKfOKME\/f48.VWv26DzN.tHZyFL\/iBWt5WEjzligu9mUweBcXpNC"
-    },
-    "otherContact": {
-        "emails": [
-            "cgriffit@safaricom.net"
-        ],
-        "phoneNumbers": [
-            "+40-281-099-7575",
-            "+40-980-512-5994"
-        ],
-        "socMedias": []
-    },
-    "otherInfo": {
-        "gender": "F",
-        "dateOfBirth": "1932-03-22"
-    }
-});
-db.customers.insertOne(
-{
-    "customerKey": "GERRCHAR2674",
-    "name": {
-        "title": "Mr",
-        "first": "Gerry",
-        "middle": "X",
-        "last": "Charles",
-        "suffix": null
-    },
-    "address": {
-        "streetAddress": "2219 Long Stream Drive",
-        "buildingName": "Building 35",
-        "floor": null,
-        "roomAptCondoFlat": "5C",
-        "city": "London",
-        "stateProvince": "England",
-        "locality": "Greater London",
-        "country": "GB",
-        "postalCode": "EC1Y",
-        "latitude": "51.5232",
-        "longitude": "-0.0933"
-    },
-    "contact": {
-        "phone": "+44-266-992-2674",
-        "email": "gcharles266@verizon.com",
-        "socMedia": null
-    },
-    "login": {
-        "username": "gcharles",
-        "oauth2": null,
-        "password": "$2y$10$nXBG3mPgePswD3KVvcTdgOT4Di2zVA2L9a0t6elUixYEmbQpgWop2"
-    },
-    "otherContact": {
-        "emails": [
-            "gcharles@nii.net",
-            "gcharles@orstom.net"
-        ],
-        "phoneNumbers": [],
-        "socMedias": []
-    },
-    "otherInfo": {
-        "gender": "M",
-        "dateOfBirth": "1971-05-16"
-    }
-});
-db.customers.insertOne(
-{
-    "customerKey": "SERGSANT2180",
-    "name": {
-        "title": null,
-        "first": "Sergio",
-        "middle": null,
-        "last": "Santiago",
-        "suffix": null
-    },
-    "address": {
-        "streetAddress": "6224 Long Mountain Circle",
-        "buildingName": null,
-        "floor": null,
-        "roomAptCondoFlat": null,
-        "city": "Zidari\u0107i",
-        "stateProvince": "Malinska",
-        "locality": "Malinska",
-        "country": "HR",
-        "postalCode": "51511",
-        "latitude": "45.1077",
-        "longitude": "14.4957"
-    },
-    "contact": {
-        "phone": "+385-267-790-2180",
-        "email": "ssantiag267@relcom.com",
-        "socMedia": null
-    },
-    "login": {
-        "username": "ssantiag",
-        "oauth2": null,
-        "password": "$2y$10$XNVaxr0Cb4HQcluvY2B2ouaQgzCUBixNzve1JINNWJf\/XRUPxNFhu"
-    },
-    "otherContact": {
-        "emails": [],
-        "phoneNumbers": [
-            "+385-397-322-3891"
-        ],
-        "socMedias": []
-    },
-    "otherInfo": {
-        "gender": "M",
-        "dateOfBirth": "1979-10-15"
-    }
-});
-db.customers.insertOne(
-{
-    "customerKey": "EBONAYER3934",
-    "name": {
-        "title": "Ms",
-        "first": "Ebonie",
-        "middle": "N",
-        "last": "Ayers",
-        "suffix": null
-    },
-    "address": {
-        "streetAddress": "1045 Winding Mountain Drive",
-        "buildingName": null,
-        "floor": null,
-        "roomAptCondoFlat": null,
-        "city": "Salem",
-        "stateProvince": "OR",
-        "locality": "Marion",
-        "country": "US",
-        "postalCode": "97303",
-        "latitude": "44.9927",
-        "longitude": "-123.0167"
-    },
-    "contact": {
-        "phone": "+1-268-693-3934",
-        "email": "eayers268@relcom.com",
-        "socMedia": null
-    },
-    "login": {
-        "username": "eayers",
-        "oauth2": null,
-        "password": "$2y$10$wc1rxdFHR1kfkk\/Esuu2ROet3LAfX4mM8WDCt.zooS9pXlKQO6c3O"
-    },
-    "otherContact": {
-        "emails": [
-            "eayers@vimpelcom.net",
-            "eayers@ptcl.net"
-        ],
-        "phoneNumbers": [
-            "+1-342-479-4055"
-        ],
-        "socMedias": []
-    },
-    "otherInfo": {
-        "gender": "F",
-        "dateOfBirth": "1949-03-04"
-    }
-});
-db.customers.insertOne(
-{
-    "customerKey": "SHAUKNIG6165",
-    "name": {
-        "title": "Ms",
-        "first": "Shaunta",
-        "middle": "A",
-        "last": "Knight",
-        "suffix": null
-    },
-    "address": {
-        "streetAddress": "8815 Red Bough Road",
-        "buildingName": null,
-        "floor": null,
-        "roomAptCondoFlat": null,
-        "city": "Govt-Training School",
-        "stateProvince": "NWFP Peshawar",
-        "locality": "NWFP Peshawar",
-        "country": "PK",
-        "postalCode": "29051",
-        "latitude": "31.9225",
-        "longitude": "70.915"
-    },
-    "contact": {
-        "phone": "+92-269-229-6165",
-        "email": "sknight269@bifty.com",
-        "socMedia": null
-    },
-    "login": {
-        "username": "sknight",
-        "oauth2": null,
-        "password": "$2y$10$TpnWE1cItXFw2e8TJRsUbu2Yde.AKLpo\/OOnns.Jy2A41d4AzIjzG"
-    },
-    "otherContact": {
-        "emails": [],
-        "phoneNumbers": [],
-        "socMedias": []
-    },
-    "otherInfo": {
-        "gender": "F",
-        "dateOfBirth": "1974-12-09"
-    }
-});
-db.customers.insertOne(
-{
-    "customerKey": "STEVMADD6858",
-    "name": {
-        "title": null,
-        "first": "Stevie",
-        "middle": null,
-        "last": "Maddox",
-        "suffix": null
-    },
-    "address": {
-        "streetAddress": "7289 Big Mound Road",
-        "buildingName": null,
-        "floor": null,
-        "roomAptCondoFlat": null,
-        "city": "Bathurst Island",
-        "stateProvince": "NT",
-        "locality": "Northern Territory",
-        "country": "AU",
-        "postalCode": "0822",
-        "latitude": "-12.6978",
-        "longitude": "130.8459"
-    },
-    "contact": {
-        "phone": "+61-270-398-6858",
-        "email": "smaddox270@telefonica.com",
+        "email": "lchurch269@sprint.com",
+        "phone": "+61-269-534-2678",
         "socMedia": {
-            "facebook": "smaddox@facebook.com"
+            "google": "lchurch269@sprint.com@google.com"
         }
     },
     "login": {
-        "username": "smaddox",
-        "oauth2": "smaddox@facebook.com",
-        "password": "$2y$10$zk6bWgv93L3f\/yW2cYca.OUwRLuEFuEnjSdR8ILjvBCKuKxvxc92q"
+        "username": "lchurch",
+        "oauth2": "lchurch@google.com",
+        "password": "$2y$10$JvVHTFyK4AJssmvixRaeYOqQ.liThLa.2dFICu\/eFrgsfSbuKq8je"
     },
-    "otherContact": {
-        "emails": [
-            "smaddox@tt.net"
-        ],
-        "phoneNumbers": [
-            "+61-601-762-2274"
-        ],
-        "socMedias": {
-            "twitter": "smaddox@twitter.com",
-            "line": "smaddox@line.com",
-            "skype": "smaddox@skype.com"
-        }
-    },
-    "otherInfo": {
-        "gender": "M",
-        "dateOfBirth": "2000-11-10"
-    }
-});
-db.customers.insertOne(
-{
-    "customerKey": "MASOMITC3581",
-    "name": {
-        "title": "Mr",
-        "first": "Mason",
-        "middle": "Z",
-        "last": "Mitchell",
-        "suffix": null
-    },
-    "address": {
-        "streetAddress": "9780 Little Tree Circle",
-        "buildingName": null,
-        "floor": null,
-        "roomAptCondoFlat": null,
-        "city": "P\u00e5lsb\u00f6le",
-        "stateProvince": "Finstr\u00f6m",
-        "locality": "Finstr\u00f6m",
-        "country": "AX",
-        "postalCode": "22310",
-        "latitude": "60.2756",
-        "longitude": "19.9057"
-    },
-    "contact": {
-        "phone": "+35818-271-411-3581",
-        "email": "mmitchel271@ntt.com",
-        "socMedia": null
-    },
-    "login": {
-        "username": "mmitchel",
-        "oauth2": null,
-        "password": "$2y$10$DNYDKi8UjxPa1Huv65yMs.FMBdWtoLoI1XYpCunXNdI3x74WbZ5AO"
-    },
-    "otherContact": {
-        "emails": [],
-        "phoneNumbers": [
-            "+35818-433-353-9233",
-            "+35818-233-821-3572"
-        ],
-        "socMedias": []
-    },
-    "otherInfo": {
-        "gender": "M",
-        "dateOfBirth": "1994-07-23"
-    }
-});
-db.customers.insertOne(
-{
-    "customerKey": "FLAVWEBE3848",
-    "name": {
-        "title": "Ms",
-        "first": "Flavia",
-        "middle": "A",
-        "last": "Weber",
-        "suffix": null
-    },
-    "address": {
-        "streetAddress": "5218 Long Mound Street",
-        "buildingName": "Building 6E",
-        "floor": null,
-        "roomAptCondoFlat": "80",
-        "city": "Queens County (Shelburne)",
-        "stateProvince": "NS",
-        "locality": "Nova Scotia",
-        "country": "CA",
-        "postalCode": "B0T",
-        "latitude": "44.0802",
-        "longitude": "-65.1175"
-    },
-    "contact": {
-        "phone": "+1-272-644-3848",
-        "email": "fweber272@ooredoo.com",
-        "socMedia": null
-    },
-    "login": {
-        "username": "fweber",
-        "oauth2": null,
-        "password": "$2y$10$pFKgprzzAMQn\/O1pZFrBvOoc1qJ4co19FbSBPnQYqjIsNog6pqY1W"
-    },
-    "otherContact": {
-        "emails": [
-            "fweber@vivendi.net"
-        ],
-        "phoneNumbers": [
-            "+1-48-416-8164",
-            "+1-575-206-2898"
-        ],
-        "socMedias": []
-    },
+    "otherContact": [],
     "otherInfo": {
         "gender": "F",
-        "dateOfBirth": "1980-03-02"
-    }
+        "dateOfBirth": "1982-08-17"
+    },
+    "totalBooked": 6,
+    "discount": 0
 });
 db.customers.insertOne(
 {
-    "customerKey": "EUGECAMP9348",
+    "customerKey": "LESAMCCA7154",
     "name": {
         "title": null,
-        "first": "Eugenio",
+        "first": "Lesa",
         "middle": null,
-        "last": "Campbell",
-        "suffix": null
-    },
-    "address": {
-        "streetAddress": "2026 Winding Bend Boulevard",
-        "buildingName": null,
-        "floor": 9,
-        "roomAptCondoFlat": "0F",
-        "city": "Rudi\u0161ki\u0173 k.",
-        "stateProvince": "Marijampol\u0117s sav.",
-        "locality": "Marijampol\u0117s sav.",
-        "country": "LT",
-        "postalCode": "68001",
-        "latitude": "54.5667",
-        "longitude": "23.35"
-    },
-    "contact": {
-        "phone": "+370-273-444-9348",
-        "email": "ecampbel273@tt.com",
-        "socMedia": null
-    },
-    "login": {
-        "username": "ecampbel",
-        "oauth2": null,
-        "password": "$2y$10$V8Xp\/6bVZ8Ot7.x81uxa3eFFg6628DxXfJNJS2Jz7p\/VJRui2b182"
-    },
-    "otherContact": {
-        "emails": [
-            "ecampbel@safaricom.net",
-            "ecampbel@glasnet.net"
-        ],
-        "phoneNumbers": [
-            "+370-636-052-5658",
-            "+370-154-958-1372",
-            "+370-32-465-6670"
-        ],
-        "socMedias": []
-    },
-    "otherInfo": {
-        "gender": "M",
-        "dateOfBirth": "1970-05-02"
-    }
-});
-db.customers.insertOne(
-{
-    "customerKey": "WALLHESS6418",
-    "name": {
-        "title": "Mr",
-        "first": "Wally",
-        "middle": "Q",
-        "last": "Hess",
-        "suffix": null
-    },
-    "address": {
-        "streetAddress": "8290 Long Bough Street",
-        "buildingName": null,
-        "floor": null,
-        "roomAptCondoFlat": null,
-        "city": "Edmonton (West Mill Woods)",
-        "stateProvince": "AB",
-        "locality": "Edmonton",
-        "country": "CA",
-        "postalCode": "T6K",
-        "latitude": "53.4609",
-        "longitude": "-113.4519"
-    },
-    "contact": {
-        "phone": "+1-274-510-6418",
-        "email": "whess274@kpn.com",
-        "socMedia": null
-    },
-    "login": {
-        "username": "whess",
-        "oauth2": null,
-        "password": "$2y$10$UwUUfdf77fcVEwDNigl1beSZNi0bIC9bQG1bC8Tt7drWWQZBaQnI."
-    },
-    "otherContact": {
-        "emails": [
-            "whess@lookdata.net",
-            "whess@att.net"
-        ],
-        "phoneNumbers": [
-            "+1-58-528-4444"
-        ],
-        "socMedias": []
-    },
-    "otherInfo": {
-        "gender": "M",
-        "dateOfBirth": "1980-06-12"
-    }
-});
-db.customers.insertOne(
-{
-    "customerKey": "TYROJUAR3519",
-    "name": {
-        "title": "Mr",
-        "first": "Tyron",
-        "middle": "N",
-        "last": "Juarez",
-        "suffix": null
-    },
-    "address": {
-        "streetAddress": "9003 Big River Street",
-        "buildingName": null,
-        "floor": null,
-        "roomAptCondoFlat": null,
-        "city": "Cayenne",
-        "stateProvince": "GF",
-        "locality": "Guyane",
-        "country": "GF",
-        "postalCode": "97329 CEDEX",
-        "latitude": "4.9333",
-        "longitude": "-52.3333"
-    },
-    "contact": {
-        "phone": "+594-275-957-3519",
-        "email": "tjuarez275@ais.com",
-        "socMedia": null
-    },
-    "login": {
-        "username": "tjuarez",
-        "oauth2": null,
-        "password": "$2y$10$\/NFIpfyNV8TVekwIRo2o2uZ1i\/a\/kyNoE8FwOzo0aIuGArYzDut8e"
-    },
-    "otherContact": {
-        "emails": [
-            "tjuarez@ui.net"
-        ],
-        "phoneNumbers": [
-            "+594-565-872-8256"
-        ],
-        "socMedias": []
-    },
-    "otherInfo": {
-        "gender": "M",
-        "dateOfBirth": "1963-08-01"
-    }
-});
-db.customers.insertOne(
-{
-    "customerKey": "WILLMORA3586",
-    "name": {
-        "title": null,
-        "first": "Willard",
-        "middle": null,
-        "last": "Moran",
-        "suffix": null
-    },
-    "address": {
-        "streetAddress": "9128 Green Canyon Drive",
-        "buildingName": null,
-        "floor": null,
-        "roomAptCondoFlat": null,
-        "city": "Bosley",
-        "stateProvince": "England",
-        "locality": "Cheshire",
-        "country": "GB",
-        "postalCode": "SK11",
-        "latitude": "53.1901",
-        "longitude": "-2.1255"
-    },
-    "contact": {
-        "phone": "+44-276-484-3586",
-        "email": "wmoran276@millicom.com",
-        "socMedia": null
-    },
-    "login": {
-        "username": "wmoran",
-        "oauth2": null,
-        "password": "$2y$10$.YJ1ew0hKgMr\/D0iMg4yZuo0mnCAU8OY91qJTEZNgzBVBbFDf.Xzy"
-    },
-    "otherContact": {
-        "emails": [
-            "wmoran@apicnet.net"
-        ],
-        "phoneNumbers": [
-            "+44-175-802-0370"
-        ],
-        "socMedias": []
-    },
-    "otherInfo": {
-        "gender": "M",
-        "dateOfBirth": "1949-02-18"
-    }
-});
-db.customers.insertOne(
-{
-    "customerKey": "JERIBERR4959",
-    "name": {
-        "title": "Ms",
-        "first": "Jeri",
-        "middle": "U",
-        "last": "Berry",
-        "suffix": null
-    },
-    "address": {
-        "streetAddress": "6450 Red Stream Circle",
-        "buildingName": null,
-        "floor": null,
-        "roomAptCondoFlat": null,
-        "city": "\u0421\u0443\u0445\u0430\u0440\u0435\u0432\u043e",
-        "stateProvince": "\u041d\u0418\u0416\u041d\u0415\u041a\u0410\u041c\u0421\u041a\u0418\u0419 \u0420\u0410\u0419\u041e\u041d",
-        "locality": "\u041d\u0418\u0416\u041d\u0415\u041a\u0410\u041c\u0421\u041a\u0418\u0419 \u0420\u0410\u0419\u041e\u041d",
-        "country": "RU",
-        "postalCode": "423559",
-        "latitude": "56.1167",
-        "longitude": "54.0667"
-    },
-    "contact": {
-        "phone": "+7-277-185-4959",
-        "email": "jberry277@swisscom.com",
-        "socMedia": null
-    },
-    "login": {
-        "username": "jberry",
-        "oauth2": null,
-        "password": "$2y$10$2xWl3sWVzEFVHUbvPyoJ1ugsO7XtawklfwJ7YBFGbONXmkOy1YQcO"
-    },
-    "otherContact": {
-        "emails": [
-            "jberry@jio.net",
-            "jberry@netcom.net"
-        ],
-        "phoneNumbers": [
-            "+7-629-012-3813"
-        ],
-        "socMedias": []
-    },
-    "otherInfo": {
-        "gender": "F",
-        "dateOfBirth": "1968-10-05"
-    }
-});
-db.customers.insertOne(
-{
-    "customerKey": "CRAIYOUN5013",
-    "name": {
-        "title": "Mr",
-        "first": "Craig",
-        "middle": "A",
-        "last": "Young",
-        "suffix": null
-    },
-    "address": {
-        "streetAddress": "2434 Red River Street",
-        "buildingName": null,
-        "floor": null,
-        "roomAptCondoFlat": null,
-        "city": "Sherwood Park East",
-        "stateProvince": "AB",
-        "locality": "Sherwood Park ",
-        "country": "CA",
-        "postalCode": "T8G",
-        "latitude": "53.5052",
-        "longitude": "-112.9529"
-    },
-    "contact": {
-        "phone": "+1-278-058-5013",
-        "email": "cyoung278@nii.com",
-        "socMedia": null
-    },
-    "login": {
-        "username": "cyoung",
-        "oauth2": null,
-        "password": "$2y$10$OIgGy8YsY19N8ush5lbEHuJhq5O3sAAhVMawTfLPMnHkqigacCaxC"
-    },
-    "otherContact": {
-        "emails": [
-            "cyoung@oi.net"
-        ],
-        "phoneNumbers": [
-            "+1-216-618-2731"
-        ],
-        "socMedias": []
-    },
-    "otherInfo": {
-        "gender": "M",
-        "dateOfBirth": "1971-08-29"
-    }
-});
-db.customers.insertOne(
-{
-    "customerKey": "WILLCAMA0111",
-    "name": {
-        "title": null,
-        "first": "Williams",
-        "middle": null,
-        "last": "Camacho",
-        "suffix": null
-    },
-    "address": {
-        "streetAddress": "7960 Green Ridge Street",
-        "buildingName": null,
-        "floor": 7,
-        "roomAptCondoFlat": null,
-        "city": "St Thomas",
-        "stateProvince": "St. Thomas",
-        "locality": "St. Thomas",
-        "country": "VI",
-        "postalCode": "00802",
-        "latitude": "18.3387",
-        "longitude": "-64.916"
-    },
-    "contact": {
-        "phone": "+1340-279-603-0111",
-        "email": "wcamacho279@millicom.com",
-        "socMedia": null
-    },
-    "login": {
-        "username": "wcamacho",
-        "oauth2": null,
-        "password": "$2y$10$0LoE\/TElckdHsig9bGiF0uqLMTWcdQlyU1jOvcVPLBb8D0ZRYgISu"
-    },
-    "otherContact": {
-        "emails": [
-            "wcamacho@telesystems.net"
-        ],
-        "phoneNumbers": [
-            "+1340-540-417-5639"
-        ],
-        "socMedias": []
-    },
-    "otherInfo": {
-        "gender": "M",
-        "dateOfBirth": "1943-08-03"
-    }
-});
-db.customers.insertOne(
-{
-    "customerKey": "ANGELARS5041",
-    "name": {
-        "title": "Mr",
-        "first": "Angelo",
-        "middle": "G",
-        "last": "Larsen",
-        "suffix": null
-    },
-    "address": {
-        "streetAddress": "2029 Little River Drive",
-        "buildingName": null,
-        "floor": null,
-        "roomAptCondoFlat": "A3",
-        "city": "Depur",
-        "stateProvince": "Atmakur",
-        "locality": "Nellore",
-        "country": "IN",
-        "postalCode": "524322",
-        "latitude": "16.2947",
-        "longitude": "80.5913"
-    },
-    "contact": {
-        "phone": "+91-280-031-5041",
-        "email": "alarsen280@worldnet.com",
-        "socMedia": {
-            "skype": "alarsen@skype.com"
-        }
-    },
-    "login": {
-        "username": "alarsen",
-        "oauth2": "alarsen@skype.com",
-        "password": "$2y$10$w\/fBkVA2EBUhhKHlyCIaE.\/KjG39EjD8zVslXz1PyWOf15ZBAn8q2"
-    },
-    "otherContact": {
-        "emails": [],
-        "phoneNumbers": [
-            "+91-547-666-6290",
-            "+91-614-483-0951",
-            "+91-253-136-2676"
-        ],
-        "socMedias": {
-            "google": "alarsen@google.com",
-            "facebook": "alarsen@facebook.com",
-            "line": "alarsen@line.com",
-            "linkedin": "alarsen@linkedin.com"
-        }
-    },
-    "otherInfo": {
-        "gender": "M",
-        "dateOfBirth": "2000-07-21"
-    }
-});
-db.customers.insertOne(
-{
-    "customerKey": "MARCVAZQ5838",
-    "name": {
-        "title": "Ms",
-        "first": "Marci",
-        "middle": "X",
-        "last": "Vazquez",
-        "suffix": null
-    },
-    "address": {
-        "streetAddress": "6872 Long Hill Way",
-        "buildingName": null,
-        "floor": null,
-        "roomAptCondoFlat": null,
-        "city": "Cuchilla Alta Y El Galeon",
-        "stateProvince": "Canelones",
-        "locality": "Canelones",
-        "country": "UY",
-        "postalCode": "15400",
-        "latitude": "-34.7739",
-        "longitude": "-55.5164"
-    },
-    "contact": {
-        "phone": "+598-281-556-5838",
-        "email": "mvazquez281@telus.com",
-        "socMedia": null
-    },
-    "login": {
-        "username": "mvazquez",
-        "oauth2": null,
-        "password": "$2y$10$39m6fy6FuDJD9e62SlKy7.EdbDf6KgwL4ceBGSD.QZ2EJDfiGoC6W"
-    },
-    "otherContact": {
-        "emails": [
-            "mvazquez@singtel.net",
-            "mvazquez@ais.net"
-        ],
-        "phoneNumbers": [],
-        "socMedias": []
-    },
-    "otherInfo": {
-        "gender": "F",
-        "dateOfBirth": "1977-11-28"
-    }
-});
-db.customers.insertOne(
-{
-    "customerKey": "OTHAROSE5500",
-    "name": {
-        "title": null,
-        "first": "Otha",
-        "middle": null,
-        "last": "Rose",
-        "suffix": null
-    },
-    "address": {
-        "streetAddress": "3515 Short Gulch Ride",
-        "buildingName": null,
-        "floor": null,
-        "roomAptCondoFlat": null,
-        "city": "Saint-Laurent Southwest",
-        "stateProvince": "QC",
-        "locality": "Saint-Laurent",
-        "country": "CA",
-        "postalCode": "H4S",
-        "latitude": "45.4858",
-        "longitude": "-73.7433"
-    },
-    "contact": {
-        "phone": "+1-282-668-5500",
-        "email": "orose282@algonet.com",
-        "socMedia": null
-    },
-    "login": {
-        "username": "orose",
-        "oauth2": null,
-        "password": "$2y$10$Xhy55ujvjJrK4TgY0ckIkOTWUEOZI7hn3UTZBsPaSnxmE\/SeXh4gO"
-    },
-    "otherContact": {
-        "emails": [
-            "orose@centurylink.net"
-        ],
-        "phoneNumbers": [
-            "+1-683-322-7256"
-        ],
-        "socMedias": []
-    },
-    "otherInfo": {
-        "gender": "M",
-        "dateOfBirth": "1978-06-08"
-    }
-});
-db.customers.insertOne(
-{
-    "customerKey": "EMILWALT3093",
-    "name": {
-        "title": "Mr",
-        "first": "Emile",
-        "middle": "F",
-        "last": "Walters",
-        "suffix": null
-    },
-    "address": {
-        "streetAddress": "2123 Winding Canyon Avenue",
-        "buildingName": "Building 1B",
-        "floor": null,
-        "roomAptCondoFlat": null,
-        "city": "Aforadora SARH",
-        "stateProvince": "SON",
-        "locality": "Cajeme",
-        "country": "MX",
-        "postalCode": "85215",
-        "latitude": "28.0891",
-        "longitude": "-109.7894"
-    },
-    "contact": {
-        "phone": "+52-283-943-3093",
-        "email": "ewalters283@sktelecom.com",
-        "socMedia": null
-    },
-    "login": {
-        "username": "ewalters",
-        "oauth2": null,
-        "password": "$2y$10$7qr85pooU.qjqHK5hIjQHeJg6fcnLvuH5CuE43KFzFhEuCaWq87d2"
-    },
-    "otherContact": {
-        "emails": [],
-        "phoneNumbers": [],
-        "socMedias": []
-    },
-    "otherInfo": {
-        "gender": "M",
-        "dateOfBirth": "1955-10-17"
-    }
-});
-db.customers.insertOne(
-{
-    "customerKey": "WINFKLEI0906",
-    "name": {
-        "title": "Mr",
-        "first": "Winfred",
-        "middle": "V",
-        "last": "Klein",
-        "suffix": null
-    },
-    "address": {
-        "streetAddress": "4616 Big Mound Circle",
-        "buildingName": null,
-        "floor": null,
-        "roomAptCondoFlat": null,
-        "city": "Moundville",
-        "stateProvince": "AL",
-        "locality": "Hale",
-        "country": "US",
-        "postalCode": "35474",
-        "latitude": "32.9108",
-        "longitude": "-87.5935"
-    },
-    "contact": {
-        "phone": "+1-284-634-0906",
-        "email": "wklein284@nii.com",
-        "socMedia": null
-    },
-    "login": {
-        "username": "wklein",
-        "oauth2": null,
-        "password": "$2y$10$3CNXJUmjnR0gRkxdlv\/GxOmV6JXWA7DE.aGYTxuVsN5UdK7EhwtIK"
-    },
-    "otherContact": {
-        "emails": [],
-        "phoneNumbers": [],
-        "socMedias": []
-    },
-    "otherInfo": {
-        "gender": "M",
-        "dateOfBirth": "1981-07-10"
-    }
-});
-db.customers.insertOne(
-{
-    "customerKey": "PHEBBUCH7935",
-    "name": {
-        "title": null,
-        "first": "Phebe",
-        "middle": null,
-        "last": "Buchanan",
-        "suffix": null
-    },
-    "address": {
-        "streetAddress": "1528 Blue Stream Ride",
-        "buildingName": null,
-        "floor": null,
-        "roomAptCondoFlat": null,
-        "city": "Ribnita 4",
-        "stateProvince": "Ribnita Tr.",
-        "locality": "Ribnita Tr.",
-        "country": "MD",
-        "postalCode": "MD-5504",
-        "latitude": "47.7664",
-        "longitude": "29.0011"
-    },
-    "contact": {
-        "phone": "+373-285-678-7935",
-        "email": "pbuchana285@optus.com",
-        "socMedia": null
-    },
-    "login": {
-        "username": "pbuchana",
-        "oauth2": null,
-        "password": "$2y$10$OL9bzVnq80bQq8DdVLIaO.qGCloF\/g4Wijmm7bUPYbMBBt0A4RMsa"
-    },
-    "otherContact": {
-        "emails": [
-            "pbuchana@tm.net",
-            "pbuchana@sprint.net"
-        ],
-        "phoneNumbers": [],
-        "socMedias": []
-    },
-    "otherInfo": {
-        "gender": "F",
-        "dateOfBirth": "1946-08-02"
-    }
-});
-db.customers.insertOne(
-{
-    "customerKey": "SILALYON3874",
-    "name": {
-        "title": "Mr",
-        "first": "Silas",
-        "middle": "M",
-        "last": "Lyons",
-        "suffix": null
-    },
-    "address": {
-        "streetAddress": "4174 Green Mountain Street",
-        "buildingName": null,
-        "floor": 3,
-        "roomAptCondoFlat": null,
-        "city": "Gradyville",
-        "stateProvince": "KY",
-        "locality": "Adair",
-        "country": "US",
-        "postalCode": "42742",
-        "latitude": "37.0912",
-        "longitude": "-85.465"
-    },
-    "contact": {
-        "phone": "+1-286-432-3874",
-        "email": "slyons286@softbank.com",
-        "socMedia": null
-    },
-    "login": {
-        "username": "slyons",
-        "oauth2": null,
-        "password": "$2y$10$bkgL4DoIseKCoWocXl1m4OmQAMFjgOy593UE\/wIq\/EYnfMdtqMqDu"
-    },
-    "otherContact": {
-        "emails": [],
-        "phoneNumbers": [],
-        "socMedias": []
-    },
-    "otherInfo": {
-        "gender": "M",
-        "dateOfBirth": "2000-01-08"
-    }
-});
-db.customers.insertOne(
-{
-    "customerKey": "CASSFRAZ5465",
-    "name": {
-        "title": "Ms",
-        "first": "Cassondra",
-        "middle": "C",
-        "last": "Frazier",
-        "suffix": null
-    },
-    "address": {
-        "streetAddress": "752 Little Mound Ride",
-        "buildingName": null,
-        "floor": null,
-        "roomAptCondoFlat": null,
-        "city": "Alice",
-        "stateProvince": null,
-        "locality": null,
-        "country": "ZA",
-        "postalCode": "5705",
-        "latitude": "-32.7833",
-        "longitude": "26.8333"
-    },
-    "contact": {
-        "phone": "+27-287-445-5465",
-        "email": "cfrazier287@telecomitalia.com",
-        "socMedia": null
-    },
-    "login": {
-        "username": "cfrazier",
-        "oauth2": null,
-        "password": "$2y$10$TTVSmstdlLC6kc61Rikgs.fbKi0RcEYkPalxpXwdGpMPhfAWk2WiW"
-    },
-    "otherContact": {
-        "emails": [
-            "cfrazier@millicom.net"
-        ],
-        "phoneNumbers": [],
-        "socMedias": []
-    },
-    "otherInfo": {
-        "gender": "F",
-        "dateOfBirth": "1958-02-09"
-    }
-});
-db.customers.insertOne(
-{
-    "customerKey": "DEVIFREE7259",
-    "name": {
-        "title": null,
-        "first": "Devin",
-        "middle": null,
-        "last": "Freeman",
-        "suffix": null
-    },
-    "address": {
-        "streetAddress": "9654 Short Creek Circle",
-        "buildingName": null,
-        "floor": 14,
-        "roomAptCondoFlat": null,
-        "city": "Stannifer",
-        "stateProvince": "NSW",
-        "locality": "NSW NORTH COAST",
-        "country": "AU",
-        "postalCode": "2369",
-        "latitude": "-29.8833",
-        "longitude": "151.2167"
-    },
-    "contact": {
-        "phone": "+61-288-871-7259",
-        "email": "dfreeman288@access.com",
-        "socMedia": null
-    },
-    "login": {
-        "username": "dfreeman",
-        "oauth2": null,
-        "password": "$2y$10$BWBK3qSEe3cPrgjGy327vO8YZegZEBsKOb.LSQxM\/pu1QU.4Fg7rK"
-    },
-    "otherContact": {
-        "emails": [
-            "dfreeman@tata.net",
-            "dfreeman@maxcomm.net",
-            "dfreeman@apicnet.net"
-        ],
-        "phoneNumbers": [
-            "+61-209-054-8503"
-        ],
-        "socMedias": []
-    },
-    "otherInfo": {
-        "gender": "F",
-        "dateOfBirth": "1997-02-10"
-    }
-});
-db.customers.insertOne(
-{
-    "customerKey": "PEARMCCA2297",
-    "name": {
-        "title": "Ms",
-        "first": "Pearlene",
-        "middle": "Y",
         "last": "Mccarty",
         "suffix": null
     },
     "address": {
-        "streetAddress": "2301 Little Creek Drive",
-        "buildingName": null,
-        "floor": null,
-        "roomAptCondoFlat": null,
-        "city": "Hirvasvaara",
-        "stateProvince": "Salla",
-        "locality": "It\u00e4-Lappi",
-        "country": "FI",
-        "postalCode": "98760",
-        "latitude": "66.548",
-        "longitude": "28.5709"
-    },
-    "contact": {
-        "phone": "+358-289-335-2297",
-        "email": "pmccarty289@telus.com",
-        "socMedia": null
-    },
-    "login": {
-        "username": "pmccarty",
-        "oauth2": null,
-        "password": "$2y$10$my6uUbepfojvK4ZNOa3rJOrRMVcvBYPsHQUDqpiGaaQFP.QQ9E28O"
-    },
-    "otherContact": {
-        "emails": [
-            "pmccarty@unicom.net",
-            "pmccarty@bt.net",
-            "pmccarty@megafon.net"
-        ],
-        "phoneNumbers": [],
-        "socMedias": []
-    },
-    "otherInfo": {
-        "gender": "F",
-        "dateOfBirth": "1941-02-20"
-    }
-});
-db.customers.insertOne(
-{
-    "customerKey": "MICKFISC3248",
-    "name": {
-        "title": "Mr",
-        "first": "Mickey",
-        "middle": "Q",
-        "last": "Fischer",
-        "suffix": null
-    },
-    "address": {
-        "streetAddress": "1118 Blue River Way",
-        "buildingName": null,
-        "floor": null,
-        "roomAptCondoFlat": null,
-        "city": "Sanosari",
-        "stateProvince": "Jamkalyanpur",
-        "locality": "Jamnagar",
-        "country": "IN",
-        "postalCode": "361320",
-        "latitude": "22.1906",
-        "longitude": "69.5884"
-    },
-    "contact": {
-        "phone": "+91-290-314-3248",
-        "email": "mfischer290@seednet.com",
-        "socMedia": {
-            "google": "mfischer@google.com"
-        }
-    },
-    "login": {
-        "username": "mfischer",
-        "oauth2": "mfischer@google.com",
-        "password": "$2y$10$VLnR.n5w40NcPrQomzIz..WaQzT6C1E0B905CeDa3rjixri5dKZSe"
-    },
-    "otherContact": {
-        "emails": [
-            "mfischer@turkcell.net"
-        ],
-        "phoneNumbers": [],
-        "socMedias": {
-            "twitter": "mfischer@twitter.com"
-        }
-    },
-    "otherInfo": {
-        "gender": "M",
-        "dateOfBirth": "1932-12-05"
-    }
-});
-db.customers.insertOne(
-{
-    "customerKey": "BEULLONG5537",
-    "name": {
-        "title": null,
-        "first": "Beulah",
-        "middle": null,
-        "last": "Long",
-        "suffix": null
-    },
-    "address": {
-        "streetAddress": "7211 Long Stream Ride",
-        "buildingName": null,
-        "floor": null,
-        "roomAptCondoFlat": "62",
-        "city": "Veghel",
-        "stateProvince": "Meierijstad",
-        "locality": "Meierijstad",
-        "country": "NL",
-        "postalCode": "5463",
-        "latitude": "51.6091",
-        "longitude": "5.5489"
-    },
-    "contact": {
-        "phone": "+31-291-613-5537",
-        "email": "blong291@openworld.com",
-        "socMedia": null
-    },
-    "login": {
-        "username": "blong",
-        "oauth2": null,
-        "password": "$2y$10$6o1I5EExDMyOOWfMx\/yC9.3PUQ6rReK7c\/tS9E5FBuJwo71vd6Ip2"
-    },
-    "otherContact": {
-        "emails": [
-            "blong@ccs.net",
-            "blong@telecomitalia.net",
-            "blong@telecomitalia.net"
-        ],
-        "phoneNumbers": [
-            "+31-134-493-4425",
-            "+31-310-685-5802"
-        ],
-        "socMedias": []
-    },
-    "otherInfo": {
-        "gender": "F",
-        "dateOfBirth": "1942-08-10"
-    }
-});
-db.customers.insertOne(
-{
-    "customerKey": "ODISSHOR3174",
-    "name": {
-        "title": "Mr",
-        "first": "Odis",
-        "middle": "P",
-        "last": "Short",
-        "suffix": null
-    },
-    "address": {
-        "streetAddress": "6582 Little Ditch Road",
-        "buildingName": null,
-        "floor": null,
-        "roomAptCondoFlat": null,
-        "city": "Baira",
-        "stateProvince": "Kapkote",
-        "locality": "Bageshwar",
-        "country": "IN",
-        "postalCode": "263634",
-        "latitude": "30.5522",
-        "longitude": "77.8415"
-    },
-    "contact": {
-        "phone": "+91-292-505-3174",
-        "email": "oshort292@telecom.com",
-        "socMedia": null
-    },
-    "login": {
-        "username": "oshort",
-        "oauth2": null,
-        "password": "$2y$10$OfWdL3AW46ApAGuHnI21p.w6Sh3WSGuRAEvFMen\/M0neNnaIOHPgW"
-    },
-    "otherContact": {
-        "emails": [
-            "oshort@orange.net"
-        ],
-        "phoneNumbers": [],
-        "socMedias": []
-    },
-    "otherInfo": {
-        "gender": "M",
-        "dateOfBirth": "1968-01-02"
-    }
-});
-db.customers.insertOne(
-{
-    "customerKey": "RANDCHER6130",
-    "name": {
-        "title": null,
-        "first": "Randall",
-        "middle": null,
-        "last": "Cherry",
-        "suffix": null
-    },
-    "address": {
-        "streetAddress": "9852 Little Mountain Boulevard",
-        "buildingName": null,
-        "floor": null,
-        "roomAptCondoFlat": null,
-        "city": "Chilton",
-        "stateProvince": "England",
-        "locality": "Oxfordshire",
-        "country": "GB",
-        "postalCode": "OX11",
-        "latitude": "51.5694",
-        "longitude": "-1.2997"
-    },
-    "contact": {
-        "phone": "+44-294-352-6130",
-        "email": "rcherry294@ntt.com",
-        "socMedia": null
-    },
-    "login": {
-        "username": "rcherry",
-        "oauth2": null,
-        "password": "$2y$10$iaaOeHe3wfqaCvtSZkqFJ.SnUvKiIa\/kr8yV7wQ5tf.IDwtcldmFG"
-    },
-    "otherContact": {
-        "emails": [],
-        "phoneNumbers": [
-            "+44-677-775-6107",
-            "+44-8-323-2614"
-        ],
-        "socMedias": []
-    },
-    "otherInfo": {
-        "gender": "M",
-        "dateOfBirth": "1989-09-25"
-    }
-});
-db.customers.insertOne(
-{
-    "customerKey": "KENNWATT0569",
-    "name": {
-        "title": "Ms",
-        "first": "Kenneth",
-        "middle": "W",
-        "last": "Watts",
-        "suffix": null
-    },
-    "address": {
-        "streetAddress": "1309 Short Bridge Ride",
-        "buildingName": null,
-        "floor": null,
-        "roomAptCondoFlat": null,
-        "city": "Curl Curl",
-        "stateProvince": "NSW",
-        "locality": "WARRINGAH",
-        "country": "AU",
-        "postalCode": "2096",
-        "latitude": "-33.7689",
-        "longitude": "151.2889"
-    },
-    "contact": {
-        "phone": "+61-296-165-0569",
-        "email": "kwatts296@icom.com",
-        "socMedia": null
-    },
-    "login": {
-        "username": "kwatts",
-        "oauth2": null,
-        "password": "$2y$10$HzSPDMs7o2t.rq2Mj7le1uNxaxmOP6.QG.\/M1E1W.ENbtderGi0OO"
-    },
-    "otherContact": {
-        "emails": [
-            "kwatts@vodafone.net"
-        ],
-        "phoneNumbers": [
-            "+61-864-875-4516",
-            "+61-454-621-6968"
-        ],
-        "socMedias": []
-    },
-    "otherInfo": {
-        "gender": "F",
-        "dateOfBirth": "1946-02-16"
-    }
-});
-db.customers.insertOne(
-{
-    "customerKey": "KAYECALH4186",
-    "name": {
-        "title": null,
-        "first": "Kaye",
-        "middle": null,
-        "last": "Calhoun",
-        "suffix": null
-    },
-    "address": {
-        "streetAddress": "1532 Long Hill Drive",
-        "buildingName": null,
-        "floor": null,
-        "roomAptCondoFlat": null,
-        "city": "Sigave",
-        "stateProvince": "Circonscription de Sigave",
-        "locality": "Circonscription de Sigave",
-        "country": "WF",
-        "postalCode": "98620",
-        "latitude": "-14.2667",
-        "longitude": "-178.1667"
-    },
-    "contact": {
-        "phone": "+681-297-313-4186",
-        "email": "kcalhoun297@lookdata.com",
-        "socMedia": null
-    },
-    "login": {
-        "username": "kcalhoun",
-        "oauth2": null,
-        "password": "$2y$10$yRuibzVSVqs1GZEfmmSJN.KwhMqJDudSC5N9b\/4KRXIsQ5q3PNpHW"
-    },
-    "otherContact": {
-        "emails": [
-            "kcalhoun@relcom.net"
-        ],
-        "phoneNumbers": [],
-        "socMedias": []
-    },
-    "otherInfo": {
-        "gender": "F",
-        "dateOfBirth": "1999-11-27"
-    }
-});
-db.customers.insertOne(
-{
-    "customerKey": "SALVSTEV7451",
-    "name": {
-        "title": "Mr",
-        "first": "Salvatore",
-        "middle": "V",
-        "last": "Stevenson",
-        "suffix": null
-    },
-    "address": {
-        "streetAddress": "8543 Big Tree Drive",
-        "buildingName": null,
-        "floor": null,
-        "roomAptCondoFlat": null,
-        "city": "Cory",
-        "stateProvince": "IN",
-        "locality": "Clay",
-        "country": "US",
-        "postalCode": "47846",
-        "latitude": "39.3435",
-        "longitude": "-87.1956"
-    },
-    "contact": {
-        "phone": "+1-298-895-7451",
-        "email": "sstevens298@mtn.com",
-        "socMedia": null
-    },
-    "login": {
-        "username": "sstevens",
-        "oauth2": null,
-        "password": "$2y$10$Uz21YCkHp8pN8D0eFhS.8usWDr5RqHZdXGVqE9Hxtk.JmLAuGeh8a"
-    },
-    "otherContact": {
-        "emails": [
-            "sstevens@megafon.net"
-        ],
-        "phoneNumbers": [
-            "+1-584-931-8645"
-        ],
-        "socMedias": []
-    },
-    "otherInfo": {
-        "gender": "M",
-        "dateOfBirth": "1990-02-11"
-    }
-});
-db.customers.insertOne(
-{
-    "customerKey": "SHELMCIN2149",
-    "name": {
-        "title": "Ms",
-        "first": "Shella",
-        "middle": "J",
-        "last": "Mcintyre",
-        "suffix": null
-    },
-    "address": {
-        "streetAddress": "7306 Little Gully Drive",
-        "buildingName": null,
-        "floor": null,
-        "roomAptCondoFlat": null,
-        "city": "Agouni Moussi",
-        "stateProvince": "Tizi-Ouzou",
-        "locality": "Tizi-Ouzou",
-        "country": "DZ",
-        "postalCode": "15069",
-        "latitude": "36.8068",
-        "longitude": "4.3022"
-    },
-    "contact": {
-        "phone": "+213-299-339-2149",
-        "email": "smcintyr299@pldt.com",
-        "socMedia": null
-    },
-    "login": {
-        "username": "smcintyr",
-        "oauth2": null,
-        "password": "$2y$10$F7jf9dVfTLnZSjbE3SeYUOjMGI9Duo5Y.xYq4I8JE8eA7m4ygwGia"
-    },
-    "otherContact": {
-        "emails": [
-            "smcintyr@cerist.net",
-            "smcintyr@telia.net"
-        ],
-        "phoneNumbers": [
-            "+213-464-299-1559",
-            "+213-835-188-1221"
-        ],
-        "socMedias": []
-    },
-    "otherInfo": {
-        "gender": "F",
-        "dateOfBirth": "1979-03-02"
-    }
-});
-db.customers.insertOne(
-{
-    "customerKey": "SACHMIDD9155",
-    "name": {
-        "title": null,
-        "first": "Sacha",
-        "middle": null,
-        "last": "Middleton",
-        "suffix": null
-    },
-    "address": {
-        "streetAddress": "5940 Little River Avenue",
-        "buildingName": null,
-        "floor": null,
-        "roomAptCondoFlat": null,
-        "city": "Molloy Island",
-        "stateProvince": "WA",
-        "locality": "KALGOORLIE",
-        "country": "AU",
-        "postalCode": "6290",
-        "latitude": "-34.2684",
-        "longitude": "115.2097"
-    },
-    "contact": {
-        "phone": "+61-300-970-9155",
-        "email": "smiddlet300@uunet.com",
-        "socMedia": {
-            "line": "smiddlet@line.com"
-        }
-    },
-    "login": {
-        "username": "smiddlet",
-        "oauth2": "smiddlet@line.com",
-        "password": "$2y$10$TcH9tIEsb4HbH.074WUixePxLUunjfvOFXzDEUG7ppRNzxbSIr5OS"
-    },
-    "otherContact": {
-        "emails": [],
-        "phoneNumbers": [
-            "+61-26-013-7358",
-            "+61-374-689-9739",
-            "+61-949-694-8466"
-        ],
-        "socMedias": {
-            "google": "smiddlet@google.com",
-            "skype": "smiddlet@skype.com",
-            "linkedin": "smiddlet@linkedin.com"
-        }
-    },
-    "otherInfo": {
-        "gender": "F",
-        "dateOfBirth": "1953-08-20"
-    }
-});
-db.customers.insertOne(
-{
-    "customerKey": "JAZMHAYD9554",
-    "name": {
-        "title": "Ms",
-        "first": "Jazmine",
-        "middle": "N",
-        "last": "Hayden",
-        "suffix": null
-    },
-    "address": {
-        "streetAddress": "512 Winding Bough Road",
-        "buildingName": null,
-        "floor": null,
-        "roomAptCondoFlat": null,
-        "city": "Smithboro",
-        "stateProvince": "NY",
-        "locality": "Tioga",
-        "country": "US",
-        "postalCode": "13840",
-        "latitude": "42.0395",
-        "longitude": "-76.4004"
-    },
-    "contact": {
-        "phone": "+1-302-777-9554",
-        "email": "jhayden302@bifty.com",
-        "socMedia": null
-    },
-    "login": {
-        "username": "jhayden",
-        "oauth2": null,
-        "password": "$2y$10$AdxCILEjjvPTNIO8o1Ng9OH5XCj2BvBmZkNMmTQyFrQAoTJbB88ze"
-    },
-    "otherContact": {
-        "emails": [
-            "jhayden@ktc.net",
-            "jhayden@glasnet.net"
-        ],
-        "phoneNumbers": [],
-        "socMedias": []
-    },
-    "otherInfo": {
-        "gender": "F",
-        "dateOfBirth": "2000-08-30"
-    }
-});
-db.customers.insertOne(
-{
-    "customerKey": "EMAYATE6694",
-    "name": {
-        "title": null,
-        "first": "Ema",
-        "middle": null,
-        "last": "Yates",
-        "suffix": null
-    },
-    "address": {
-        "streetAddress": "5715 Short Gully Ride",
-        "buildingName": "Building 66",
-        "floor": null,
-        "roomAptCondoFlat": null,
-        "city": "Pohle",
-        "stateProvince": "NI",
-        "locality": "Landkreis Schaumburg",
-        "country": "DE",
-        "postalCode": "31867",
-        "latitude": "52.2663",
-        "longitude": "9.344"
-    },
-    "contact": {
-        "phone": "+49-303-625-6694",
-        "email": "eyates303@openworld.com",
-        "socMedia": null
-    },
-    "login": {
-        "username": "eyates",
-        "oauth2": null,
-        "password": "$2y$10$U65.n0VBSt1iHqTZttVK\/uNOybJ3r1g6SVlVlQyKw8rymvjrHBd8O"
-    },
-    "otherContact": {
-        "emails": [
-            "eyates@econnect.net"
-        ],
-        "phoneNumbers": [],
-        "socMedias": []
-    },
-    "otherInfo": {
-        "gender": "F",
-        "dateOfBirth": "1997-07-08"
-    }
-});
-db.customers.insertOne(
-{
-    "customerKey": "CATRKNAP6103",
-    "name": {
-        "title": "Ms",
-        "first": "Catrina",
-        "middle": "I",
-        "last": "Knapp",
-        "suffix": null
-    },
-    "address": {
-        "streetAddress": "4669 Winding Bridge Ride",
-        "buildingName": null,
-        "floor": 6,
-        "roomAptCondoFlat": null,
-        "city": "Larsen",
-        "stateProvince": "WI",
-        "locality": "Winnebago",
-        "country": "US",
-        "postalCode": "54947",
-        "latitude": "44.1984",
-        "longitude": "-88.6963"
-    },
-    "contact": {
-        "phone": "+1-304-745-6103",
-        "email": "cknapp304@bifty.com",
-        "socMedia": null
-    },
-    "login": {
-        "username": "cknapp",
-        "oauth2": null,
-        "password": "$2y$10$bUKysHg12cSb9jZq5pchTOUQX8bqI8MRJN512.hd64bOCa0LNYdTu"
-    },
-    "otherContact": {
-        "emails": [],
-        "phoneNumbers": [
-            "+1-491-197-1576",
-            "+1-265-059-5923",
-            "+1-356-762-0005"
-        ],
-        "socMedias": []
-    },
-    "otherInfo": {
-        "gender": "F",
-        "dateOfBirth": "1930-04-10"
-    }
-});
-db.customers.insertOne(
-{
-    "customerKey": "TYROTERR5899",
-    "name": {
-        "title": "Mr",
-        "first": "Tyron",
-        "middle": "A",
-        "last": "Terry",
-        "suffix": null
-    },
-    "address": {
-        "streetAddress": "5602 Little Canyon Road",
-        "buildingName": null,
-        "floor": null,
-        "roomAptCondoFlat": null,
-        "city": "Sigave",
-        "stateProvince": "Circonscription de Sigave",
-        "locality": "Circonscription de Sigave",
-        "country": "WF",
-        "postalCode": "98620",
-        "latitude": "-14.2667",
-        "longitude": "-178.1667"
-    },
-    "contact": {
-        "phone": "+681-305-620-5899",
-        "email": "tterry305@telefonica.com",
-        "socMedia": null
-    },
-    "login": {
-        "username": "tterry",
-        "oauth2": null,
-        "password": "$2y$10$JXfXrbJmZv.O23FheMokm.V9bLNJOirMVKVbSnuEZT7aZbCgS5p.."
-    },
-    "otherContact": {
-        "emails": [
-            "tterry@chunghwa.net",
-            "tterry@econnect.net"
-        ],
-        "phoneNumbers": [
-            "+681-785-173-1833"
-        ],
-        "socMedias": []
-    },
-    "otherInfo": {
-        "gender": "M",
-        "dateOfBirth": "1983-08-21"
-    }
-});
-db.customers.insertOne(
-{
-    "customerKey": "MICHJOSE7596",
-    "name": {
-        "title": null,
-        "first": "Michal",
-        "middle": null,
-        "last": "Joseph",
-        "suffix": null
-    },
-    "address": {
-        "streetAddress": "2964 Green Tree Boulevard",
-        "buildingName": null,
-        "floor": null,
-        "roomAptCondoFlat": null,
-        "city": "Motidevrupam",
-        "stateProvince": "Sagbara",
-        "locality": "Narmada",
-        "country": "IN",
-        "postalCode": "393050",
-        "latitude": "21.675",
-        "longitude": "73.8538"
-    },
-    "contact": {
-        "phone": "+91-306-927-7596",
-        "email": "mjoseph306@mtn.com",
-        "socMedia": null
-    },
-    "login": {
-        "username": "mjoseph",
-        "oauth2": null,
-        "password": "$2y$10$NL3.8VwLvTmn\/Dk8GM80UOe7Nn0r4svPQd4Z2X3pR7B3Aqx3NynqW"
-    },
-    "otherContact": {
-        "emails": [
-            "mjoseph@millicom.net"
-        ],
-        "phoneNumbers": [],
-        "socMedias": []
-    },
-    "otherInfo": {
-        "gender": "F",
-        "dateOfBirth": "1964-07-09"
-    }
-});
-db.customers.insertOne(
-{
-    "customerKey": "CEDRMOOR3270",
-    "name": {
-        "title": "Mr",
-        "first": "Cedrick",
-        "middle": "L",
-        "last": "Moore",
-        "suffix": null
-    },
-    "address": {
-        "streetAddress": "8119 Short Mountain Way",
-        "buildingName": null,
-        "floor": null,
-        "roomAptCondoFlat": null,
-        "city": "Tinian",
-        "stateProvince": "Tinian",
-        "locality": "Tinian",
-        "country": "MP",
-        "postalCode": "96952",
-        "latitude": "15.029",
-        "longitude": "145.616"
-    },
-    "contact": {
-        "phone": "+1670-307-308-3270",
-        "email": "cmoore307@sktelecom.com",
-        "socMedia": null
-    },
-    "login": {
-        "username": "cmoore",
-        "oauth2": null,
-        "password": "$2y$10$rHspXQSkPnwtuqi.3\/ie9.kgBUv4oit.og6ZPRjJw4AC53\/VOsW4u"
-    },
-    "otherContact": {
-        "emails": [
-            "cmoore@bce.net",
-            "cmoore@seednet.net",
-            "cmoore@centurylink.net"
-        ],
-        "phoneNumbers": [
-            "+1670-714-241-2744",
-            "+1670-429-225-3643"
-        ],
-        "socMedias": []
-    },
-    "otherInfo": {
-        "gender": "M",
-        "dateOfBirth": "2003-05-18"
-    }
-});
-db.customers.insertOne(
-{
-    "customerKey": "DAYLGIBB3746",
-    "name": {
-        "title": "Ms",
-        "first": "Dayle",
-        "middle": "A",
-        "last": "Gibbs",
-        "suffix": null
-    },
-    "address": {
-        "streetAddress": "2108 Red Tree Boulevard",
-        "buildingName": null,
-        "floor": null,
-        "roomAptCondoFlat": null,
-        "city": "Ong",
-        "stateProvince": "NE",
-        "locality": "Clay",
-        "country": "US",
-        "postalCode": "68452",
-        "latitude": "40.3968",
-        "longitude": "-97.861"
-    },
-    "contact": {
-        "phone": "+1-308-891-3746",
-        "email": "dgibbs308@seednet.com",
-        "socMedia": null
-    },
-    "login": {
-        "username": "dgibbs",
-        "oauth2": null,
-        "password": "$2y$10$EqDVkzs\/3fn7YMk8jB2Sr.yyBTq8XYdS24oFHbaIDoOcyfNdXGZ\/e"
-    },
-    "otherContact": {
-        "emails": [
-            "dgibbs@centurylink.net"
-        ],
-        "phoneNumbers": [
-            "+1-14-121-3129"
-        ],
-        "socMedias": []
-    },
-    "otherInfo": {
-        "gender": "F",
-        "dateOfBirth": "1976-05-26"
-    }
-});
-db.customers.insertOne(
-{
-    "customerKey": "COLLTATE8980",
-    "name": {
-        "title": null,
-        "first": "Collene",
-        "middle": null,
-        "last": "Tate",
-        "suffix": null
-    },
-    "address": {
-        "streetAddress": "832 Winding Gully Ride",
-        "buildingName": null,
-        "floor": null,
-        "roomAptCondoFlat": null,
-        "city": "La Agustina",
-        "stateProvince": null,
-        "locality": null,
-        "country": "DO",
-        "postalCode": "10516",
-        "latitude": "18.5",
-        "longitude": "-69.9333"
-    },
-    "contact": {
-        "phone": "+1809-309-334-8980",
-        "email": "ctate309@verizon.com",
-        "socMedia": null
-    },
-    "login": {
-        "username": "ctate",
-        "oauth2": null,
-        "password": "$2y$10$5a1I6QvOpJPU\/urM5iALPuhBCNpBPqgdTptAfDcy5kzVKCa5JEl66"
-    },
-    "otherContact": {
-        "emails": [
-            "ctate@nii.net",
-            "ctate@cubenet.net"
-        ],
-        "phoneNumbers": [
-            "+1809-90-716-5846",
-            "+1809-9-767-4008"
-        ],
-        "socMedias": []
-    },
-    "otherInfo": {
-        "gender": "F",
-        "dateOfBirth": "1977-04-15"
-    }
-});
-db.customers.insertOne(
-{
-    "customerKey": "AGUSFERN0064",
-    "name": {
-        "title": "Mr",
-        "first": "Agustin",
-        "middle": "E",
-        "last": "Fernandez",
-        "suffix": null
-    },
-    "address": {
-        "streetAddress": "6629 Red Gully Circle",
-        "buildingName": null,
-        "floor": null,
-        "roomAptCondoFlat": null,
-        "city": "Dipple",
-        "stateProvince": "Scotland",
-        "locality": "Moray",
-        "country": "GB",
-        "postalCode": "IV32",
-        "latitude": "57.6362",
-        "longitude": "-3.1136"
-    },
-    "contact": {
-        "phone": "+44-310-344-0064",
-        "email": "afernand310@softbank.com",
-        "socMedia": {
-            "twitter": "afernand@twitter.com"
-        }
-    },
-    "login": {
-        "username": "afernand",
-        "oauth2": "afernand@twitter.com",
-        "password": "$2y$10$d0DplSMc.kzFIUZ6P1dKh.r32ZE6SuGQaYYZ9uYNYp4iR4gkNGI1a"
-    },
-    "otherContact": {
-        "emails": [
-            "afernand@telus.net",
-            "afernand@vivendi.net",
-            "afernand@daxnet.net"
-        ],
-        "phoneNumbers": [
-            "+44-743-077-8370",
-            "+44-807-634-1012"
-        ],
-        "socMedias": {
-            "google": "afernand@google.com",
-            "skype": "afernand@skype.com"
-        }
-    },
-    "otherInfo": {
-        "gender": "M",
-        "dateOfBirth": "1960-04-08"
-    }
-});
-db.customers.insertOne(
-{
-    "customerKey": "LARIVENT0557",
-    "name": {
-        "title": "Ms",
-        "first": "Larita",
-        "middle": "B",
-        "last": "Ventura",
-        "suffix": null
-    },
-    "address": {
-        "streetAddress": "2507 Short Hill Road",
-        "buildingName": null,
-        "floor": null,
-        "roomAptCondoFlat": null,
-        "city": "Tinian",
-        "stateProvince": "Tinian",
-        "locality": "Tinian",
-        "country": "MP",
-        "postalCode": "96952",
-        "latitude": "15.029",
-        "longitude": "145.616"
-    },
-    "contact": {
-        "phone": "+1670-311-505-0557",
-        "email": "lventura311@orange.com",
-        "socMedia": null
-    },
-    "login": {
-        "username": "lventura",
-        "oauth2": null,
-        "password": "$2y$10$3YzvVCV.uYfkhj5nw4E1xeMGhcUabnSFucCdNSAHePx4TYLDujm56"
-    },
-    "otherContact": {
-        "emails": [
-            "lventura@centurylink.net"
-        ],
-        "phoneNumbers": [
-            "+1670-865-766-0319",
-            "+1670-912-606-3895"
-        ],
-        "socMedias": []
-    },
-    "otherInfo": {
-        "gender": "F",
-        "dateOfBirth": "1960-02-13"
-    }
-});
-db.customers.insertOne(
-{
-    "customerKey": "GARYNIXO0540",
-    "name": {
-        "title": null,
-        "first": "Gary",
-        "middle": null,
-        "last": "Nixon",
-        "suffix": null
-    },
-    "address": {
-        "streetAddress": "1466 Blue Bough Boulevard",
-        "buildingName": null,
-        "floor": null,
-        "roomAptCondoFlat": null,
-        "city": "Makthapuram",
-        "stateProvince": "Duvvur",
-        "locality": "Nellore",
-        "country": "IN",
-        "postalCode": "524306",
-        "latitude": "15.9985",
-        "longitude": "80.6911"
-    },
-    "contact": {
-        "phone": "+91-312-734-0540",
-        "email": "gnixon312@vodafone.com",
-        "socMedia": null
-    },
-    "login": {
-        "username": "gnixon",
-        "oauth2": null,
-        "password": "$2y$10$178fesgrUFsqN3khZGh8XOoA878PSek0GpTuVXRwVRQyNDX62oWNi"
-    },
-    "otherContact": {
-        "emails": [
-            "gnixon@unicom.net"
-        ],
-        "phoneNumbers": [
-            "+91-322-535-6091",
-            "+91-303-991-0998"
-        ],
-        "socMedias": []
-    },
-    "otherInfo": {
-        "gender": "M",
-        "dateOfBirth": "1988-09-27"
-    }
-});
-db.customers.insertOne(
-{
-    "customerKey": "JESSRAMI0157",
-    "name": {
-        "title": "Ms",
-        "first": "Jesse",
-        "middle": "W",
-        "last": "Ramirez",
-        "suffix": null
-    },
-    "address": {
-        "streetAddress": "2770 Red Bough Boulevard",
-        "buildingName": null,
-        "floor": 20,
-        "roomAptCondoFlat": null,
-        "city": "Fulton",
-        "stateProvince": "KY",
-        "locality": "Fulton",
-        "country": "US",
-        "postalCode": "42041",
-        "latitude": "36.5475",
-        "longitude": "-88.8749"
-    },
-    "contact": {
-        "phone": "+1-313-351-0157",
-        "email": "jramirez313@mtn.com",
-        "socMedia": null
-    },
-    "login": {
-        "username": "jramirez",
-        "oauth2": null,
-        "password": "$2y$10$k3Ed8pwzVOpswOLx4DEW2uWS10OoA5Y202hdPN64HG7Gn15RRh4Hy"
-    },
-    "otherContact": {
-        "emails": [
-            "jramirez@telstra.net",
-            "jramirez@singtel.net"
-        ],
-        "phoneNumbers": [
-            "+1-565-119-8600"
-        ],
-        "socMedias": []
-    },
-    "otherInfo": {
-        "gender": "F",
-        "dateOfBirth": "1939-09-15"
-    }
-});
-db.customers.insertOne(
-{
-    "customerKey": "MILOPHIL7662",
-    "name": {
-        "title": "Mr",
-        "first": "Milo",
-        "middle": "Q",
-        "last": "Phillips",
-        "suffix": null
-    },
-    "address": {
-        "streetAddress": "286 Blue River Avenue",
-        "buildingName": null,
-        "floor": null,
-        "roomAptCondoFlat": null,
-        "city": "Enniskillen",
-        "stateProvince": "Northern Ireland",
-        "locality": "Northern Ireland",
-        "country": "GB",
-        "postalCode": "BT94",
-        "latitude": "54.3462",
-        "longitude": "-7.6413"
-    },
-    "contact": {
-        "phone": "+44-314-730-7662",
-        "email": "mphillip314@telesystems.com",
-        "socMedia": null
-    },
-    "login": {
-        "username": "mphillip",
-        "oauth2": null,
-        "password": "$2y$10$EVkTcY5JLbe7mbZDlh5RW.NVqC13JFFwCkpNKgk95UM.Jw.fPKimK"
-    },
-    "otherContact": {
-        "emails": [
-            "mphillip@etisalat.net"
-        ],
-        "phoneNumbers": [
-            "+44-498-078-3409",
-            "+44-265-385-8100"
-        ],
-        "socMedias": []
-    },
-    "otherInfo": {
-        "gender": "M",
-        "dateOfBirth": "1999-12-06"
-    }
-});
-db.customers.insertOne(
-{
-    "customerKey": "HUNTDEAN7371",
-    "name": {
-        "title": null,
-        "first": "Hunter",
-        "middle": null,
-        "last": "Dean",
-        "suffix": null
-    },
-    "address": {
-        "streetAddress": "8598 Blue Woods Way",
-        "buildingName": null,
-        "floor": null,
-        "roomAptCondoFlat": null,
-        "city": "Pe\u00f1aflor",
-        "stateProvince": "Pe\u00f1aflor",
-        "locality": "Provincia de Talagante",
-        "country": "CL",
-        "postalCode": "9750000",
-        "latitude": "-33.6109",
-        "longitude": "-70.894"
-    },
-    "contact": {
-        "phone": "+56-315-221-7371",
-        "email": "hdean315@airtel.com",
-        "socMedia": null
-    },
-    "login": {
-        "username": "hdean",
-        "oauth2": null,
-        "password": "$2y$10$xfARESuvbaSIuibXej\/ukOcuX7JJPN7QbtKRt4ucoT3oBmO5Lejri"
-    },
-    "otherContact": {
-        "emails": [
-            "hdean@ote.net",
-            "hdean@orange.net"
-        ],
-        "phoneNumbers": [],
-        "socMedias": []
-    },
-    "otherInfo": {
-        "gender": "M",
-        "dateOfBirth": "1938-05-26"
-    }
-});
-db.customers.insertOne(
-{
-    "customerKey": "LYNDDEAN2866",
-    "name": {
-        "title": "Mr",
-        "first": "Lyndon",
-        "middle": "C",
-        "last": "Dean",
-        "suffix": null
-    },
-    "address": {
-        "streetAddress": "3418 Short Gulch Street",
-        "buildingName": null,
-        "floor": null,
-        "roomAptCondoFlat": null,
-        "city": "North Springfield",
-        "stateProvince": "VT",
-        "locality": "Windsor",
-        "country": "US",
-        "postalCode": "05150",
-        "latitude": "43.338",
-        "longitude": "-72.5277"
-    },
-    "contact": {
-        "phone": "+1-316-120-2866",
-        "email": "ldean316@tt.com",
-        "socMedia": null
-    },
-    "login": {
-        "username": "ldean",
-        "oauth2": null,
-        "password": "$2y$10$Yc.FZ0WrYXxgIrQ2Sw6ROuWTrETwT2LZawm0qxy\/oz9T2Rn0dHOYq"
-    },
-    "otherContact": {
-        "emails": [
-            "ldean@vimpelcom.net"
-        ],
-        "phoneNumbers": [],
-        "socMedias": []
-    },
-    "otherInfo": {
-        "gender": "M",
-        "dateOfBirth": "1998-05-26"
-    }
-});
-db.customers.insertOne(
-{
-    "customerKey": "LINCWOLF0106",
-    "name": {
-        "title": "Mr",
-        "first": "Lincoln",
-        "middle": "E",
-        "last": "Wolfe",
-        "suffix": null
-    },
-    "address": {
-        "streetAddress": "3070 Short Tree Street",
-        "buildingName": "Building 84",
-        "floor": null,
-        "roomAptCondoFlat": null,
-        "city": "Nuenen",
-        "stateProvince": "Nuenen, Gerwen en Nederwetten",
-        "locality": "Nuenen, Gerwen en Nederwetten",
-        "country": "NL",
-        "postalCode": "5674",
-        "latitude": "51.4762",
-        "longitude": "5.5469"
-    },
-    "contact": {
-        "phone": "+31-317-226-0106",
-        "email": "lwolfe317@sprint.com",
-        "socMedia": null
-    },
-    "login": {
-        "username": "lwolfe",
-        "oauth2": null,
-        "password": "$2y$10$n85bV1.fpFqg7CQnV4l0UOjWaYvivshMggYYQoC0PPMsuWAZNmvrK"
-    },
-    "otherContact": {
-        "emails": [
-            "lwolfe@icom.net"
-        ],
-        "phoneNumbers": [],
-        "socMedias": []
-    },
-    "otherInfo": {
-        "gender": "M",
-        "dateOfBirth": "1983-05-03"
-    }
-});
-db.customers.insertOne(
-{
-    "customerKey": "FERNHOWE0394",
-    "name": {
-        "title": null,
-        "first": "Fern",
-        "middle": null,
-        "last": "Howe",
-        "suffix": null
-    },
-    "address": {
-        "streetAddress": "8135 Big Ridge Circle",
-        "buildingName": null,
-        "floor": null,
-        "roomAptCondoFlat": null,
-        "city": "Benai",
-        "stateProvince": "Ghatal",
-        "locality": "West Midnapore",
-        "country": "IN",
-        "postalCode": "721212",
-        "latitude": "22.7356",
-        "longitude": "87.807"
-    },
-    "contact": {
-        "phone": "+91-318-306-0394",
-        "email": "fhowe318@movil.com",
-        "socMedia": null
-    },
-    "login": {
-        "username": "fhowe",
-        "oauth2": null,
-        "password": "$2y$10$v3t9qL.4Z8Hcdth\/B7h9nOkzad.DgS17.B77saUn2p6ezmAwL3iRy"
-    },
-    "otherContact": {
-        "emails": [],
-        "phoneNumbers": [
-            "+91-541-067-8672"
-        ],
-        "socMedias": []
-    },
-    "otherInfo": {
-        "gender": "F",
-        "dateOfBirth": "1970-09-29"
-    }
-});
-db.customers.insertOne(
-{
-    "customerKey": "ADAMBLAN5242",
-    "name": {
-        "title": "Mr",
-        "first": "Adam",
-        "middle": "F",
-        "last": "Blanchard",
-        "suffix": null
-    },
-    "address": {
-        "streetAddress": "8934 Long Ditch Boulevard",
-        "buildingName": null,
-        "floor": null,
-        "roomAptCondoFlat": null,
-        "city": "Hankensb\u00fcttel",
-        "stateProvince": "NI",
-        "locality": "Landkreis Gifhorn",
-        "country": "DE",
-        "postalCode": "29386",
-        "latitude": "52.7333",
-        "longitude": "10.6"
-    },
-    "contact": {
-        "phone": "+49-319-790-5242",
-        "email": "ablancha319@zain.com",
-        "socMedia": null
-    },
-    "login": {
-        "username": "ablancha",
-        "oauth2": null,
-        "password": "$2y$10$SGKN0K3QNoj4kTfof7aUd.Q0zb7Am4gAHA8uOeZgfrpbKKQv.YktC"
-    },
-    "otherContact": {
-        "emails": [],
-        "phoneNumbers": [
-            "+49-449-779-6508"
-        ],
-        "socMedias": []
-    },
-    "otherInfo": {
-        "gender": "M",
-        "dateOfBirth": "1981-04-17"
-    }
-});
-db.customers.insertOne(
-{
-    "customerKey": "ROGEROBB8364",
-    "name": {
-        "title": "Ms",
-        "first": "Rogelio",
-        "middle": "A",
-        "last": "Robbins",
-        "suffix": null
-    },
-    "address": {
-        "streetAddress": "7093 Big Woods Circle",
+        "streetAddress": "5680 Short Tree Road",
         "buildingName": null,
         "floor": 17,
-        "roomAptCondoFlat": null,
-        "city": "Calgary (Highfield \/ Burns Industrial)",
-        "stateProvince": "AB",
-        "locality": "Calgary",
-        "country": "CA",
-        "postalCode": "T2H",
-        "latitude": "50.9894",
-        "longitude": "-114.052"
+        "roomAptCondoFlat": "C2",
+        "city": "Boggstown",
+        "stateProvince": "IN",
+        "locality": "Shelby",
+        "country": "US",
+        "postalCode": "46110",
+        "latitude": "39.5666",
+        "longitude": "-85.9141"
     },
     "contact": {
-        "phone": "+1-320-661-8364",
-        "email": "rrobbins320@nii.com",
-        "socMedia": {
-            "skype": "rrobbins@skype.com"
-        }
+        "email": "lmccarty270@apicnet.com",
+        "phone": "+61-270-898-7154",
+        "socMedia": []
     },
     "login": {
-        "username": "rrobbins",
-        "oauth2": "rrobbins@skype.com",
-        "password": "$2y$10$UgpwEWTVaup5hgP91uJSgO36HM7au1Etc.0\/1w.JYw\/Pk.QivQph2"
-    },
-    "otherContact": {
-        "emails": [
-            "rrobbins@seednet.net"
-        ],
-        "phoneNumbers": [
-            "+1-266-489-4635",
-            "+1-401-301-9156"
-        ],
-        "socMedias": {
-            "line": "rrobbins@line.com"
-        }
-    },
-    "otherInfo": {
-        "gender": "X",
-        "dateOfBirth": "1962-08-16"
-    }
-});
-db.customers.insertOne(
-{
-    "customerKey": "FANNMOLI1227",
-    "name": {
-        "title": null,
-        "first": "Fanny",
-        "middle": null,
-        "last": "Molina",
-        "suffix": null
-    },
-    "address": {
-        "streetAddress": "4922 Big Woods Ride",
-        "buildingName": null,
-        "floor": null,
-        "roomAptCondoFlat": null,
-        "city": "Suddekunte",
-        "stateProvince": "Madhugiri",
-        "locality": "Tumkur",
-        "country": "IN",
-        "postalCode": "572127",
-        "latitude": "13.7844",
-        "longitude": "77.3716"
-    },
-    "contact": {
-        "phone": "+91-321-739-1227",
-        "email": "fmolina321@vimpelcom.com",
-        "socMedia": null
-    },
-    "login": {
-        "username": "fmolina",
+        "username": "lmccarty",
         "oauth2": null,
-        "password": "$2y$10$PzRXsoVVk9Dt5kUQ\/oEuNeE1TSHzutUpPV7kqoSYdVe0b0i46APPy"
+        "password": "$2y$10$xQg8S1n\/AlWDNWZBaHGdae\/fODeec3Tkuqnbsds\/66unUbGz0iy66"
     },
     "otherContact": {
         "emails": [
-            "fmolina@econnect.net",
-            "fmolina@ote.net"
+            "lmccarty270@bce.com",
+            "lmccarty270@bce.com"
         ],
         "phoneNumbers": [
-            "+91-511-598-7995",
-            "+91-658-455-8280"
-        ],
-        "socMedias": []
+            "+61-270-077-6800",
+            "+61-270-192-8271"
+        ]
     },
     "otherInfo": {
         "gender": "F",
-        "dateOfBirth": "1935-04-16"
-    }
+        "dateOfBirth": "1999-07-02"
+    },
+    "totalBooked": 7,
+    "discount": 0.027
 });
 db.customers.insertOne(
 {
-    "customerKey": "BARRGARR4564",
+    "customerKey": "XAVIBEAS5580",
     "name": {
         "title": "Mr",
-        "first": "Barry",
-        "middle": "L",
-        "last": "Garrett",
+        "first": "Xavier",
+        "middle": "D",
+        "last": "Beasley",
         "suffix": null
     },
     "address": {
-        "streetAddress": "8721 Little Ditch Ride",
-        "buildingName": "Building F0",
+        "streetAddress": "5913 Blue Bend Avenue",
+        "buildingName": null,
         "floor": null,
         "roomAptCondoFlat": null,
-        "city": "Ashendon",
-        "stateProvince": "WA",
-        "locality": "Western Australia",
-        "country": "AU",
-        "postalCode": "6111",
-        "latitude": "-32.1831",
-        "longitude": "116.1341"
+        "city": "Hyton",
+        "stateProvince": "England",
+        "locality": "Cumbria",
+        "country": "GB",
+        "postalCode": "LA19",
+        "latitude": "54.2759",
+        "longitude": "-3.3721"
     },
     "contact": {
-        "phone": "+61-322-647-4564",
-        "email": "bgarrett322@netcom.com",
-        "socMedia": null
+        "email": "xbeasley271@telstra.com",
+        "phone": "+61-271-724-5580",
+        "socMedia": {
+            "line": "xbeasley271@telstra.com@line.com"
+        }
     },
     "login": {
-        "username": "bgarrett",
-        "oauth2": null,
-        "password": "$2y$10$Qm70jJp5saXaO6kGBr9pSefK19MZk6FxuINVosZ7CnCRS060VkpcO"
+        "username": "xbeasley",
+        "oauth2": "xbeasley@line.com",
+        "password": "$2y$10$CiqoAdkYQS5b64ci4kc2SOFcGHiPPb7SiTBtLN04PRKkb9dokIbYe"
     },
     "otherContact": {
         "emails": [
-            "bgarrett@ktc.net",
-            "bgarrett@mtn.net"
+            "xbeasley271@orstom.com",
+            "xbeasley271@tata.com",
+            "xbeasley271@telecom.com"
         ],
         "phoneNumbers": [
-            "+61-137-235-7074",
-            "+61-474-716-0091"
+            "+61-271-432-6552",
+            "+61-271-033-9111",
+            "+61-271-195-6277"
         ],
-        "socMedias": []
+        "socMedias": [
+            {
+                "skype": "xbeasley271@orstom.com@skype.com"
+            },
+            {
+                "google": "xbeasley271@tata.com@google.com"
+            },
+            {
+                "line": "xbeasley271@telecom.com@line.com"
+            }
+        ]
     },
     "otherInfo": {
         "gender": "M",
-        "dateOfBirth": "1975-10-23"
-    }
+        "dateOfBirth": "1996-10-17"
+    },
+    "totalBooked": 2,
+    "discount": 0
 });
 db.customers.insertOne(
 {
-    "customerKey": "DAGNEVAN4122",
+    "customerKey": "MINNWATS9295",
     "name": {
-        "title": null,
-        "first": "Dagny",
-        "middle": null,
-        "last": "Evans",
+        "title": "Ms",
+        "first": "Minna",
+        "middle": "Y",
+        "last": "Watson",
         "suffix": null
     },
     "address": {
-        "streetAddress": "9899 Red Tree Way",
+        "streetAddress": "7867 Green Mountain Circle",
         "buildingName": null,
         "floor": null,
         "roomAptCondoFlat": null,
-        "city": "Pickering Southwest",
-        "stateProvince": "ON",
-        "locality": "Pickering",
-        "country": "CA",
-        "postalCode": "L1V",
-        "latitude": "43.8605",
-        "longitude": "-79.1618"
+        "city": "East-the-Water",
+        "stateProvince": "England",
+        "locality": "Devon",
+        "country": "GB",
+        "postalCode": "EX39",
+        "latitude": "50.9919",
+        "longitude": "-4.2474"
     },
     "contact": {
-        "phone": "+1-324-154-4122",
-        "email": "devans324@telenor.com",
-        "socMedia": null
+        "email": "mwatson272@att.com",
+        "phone": "+61-272-617-9295",
+        "socMedia": {
+            "google": "mwatson272@att.com@google.com"
+        }
     },
     "login": {
-        "username": "devans",
-        "oauth2": null,
-        "password": "$2y$10$JDLK30mu\/LPNmOP9anHxpOFd5pwYrqyxrJhVstzfKx3XwfZeAs.ZG"
+        "username": "mwatson",
+        "oauth2": "mwatson@google.com",
+        "password": "$2y$10$7EcgVDDkB9vgQDBWH7t\/ZuJ01fZLfrgqSNeBckGm4\/nCuLJXAje5a"
     },
     "otherContact": {
         "emails": [
-            "devans@icom.net"
+            "mwatson272@worldnet.com"
         ],
         "phoneNumbers": [
-            "+1-45-765-0655",
-            "+1-51-762-2727"
+            "+61-272-076-6930"
         ],
-        "socMedias": []
+        "socMedias": [
+            {
+                "twitter": "mwatson272@worldnet.com@twitter.com"
+            }
+        ]
     },
     "otherInfo": {
         "gender": "F",
-        "dateOfBirth": "1954-11-22"
-    }
+        "dateOfBirth": "1952-03-21"
+    },
+    "totalBooked": 1,
+    "discount": 0
 });
 db.customers.insertOne(
 {
-    "customerKey": "SHAYDURA9015",
+    "customerKey": "AHMENAVA9671",
     "name": {
-        "title": "Ms",
-        "first": "Shay",
-        "middle": "L",
-        "last": "Duran",
+        "title": null,
+        "first": "Ahmed",
+        "middle": null,
+        "last": "Nava",
         "suffix": null
     },
     "address": {
-        "streetAddress": "2365 Short River Avenue",
-        "buildingName": null,
+        "streetAddress": "4984 Red Stream Street",
+        "buildingName": "Building 78",
         "floor": null,
         "roomAptCondoFlat": null,
-        "city": "Recanati",
-        "stateProvince": "MH",
-        "locality": "Macerata",
-        "country": "IT",
-        "postalCode": "62019",
-        "latitude": "43.4038",
-        "longitude": "13.5538"
+        "city": "Nanortalik",
+        "stateProvince": null,
+        "locality": null,
+        "country": "GL",
+        "postalCode": "3922",
+        "latitude": "60.1167",
+        "longitude": "-45.2167"
     },
     "contact": {
-        "phone": "+39-325-228-9015",
-        "email": "sduran325@att.com",
-        "socMedia": null
+        "email": "anava273@nii.com",
+        "phone": "+61-273-178-9671",
+        "socMedia": []
     },
     "login": {
-        "username": "sduran",
+        "username": "anava",
         "oauth2": null,
-        "password": "$2y$10$Ju9URIv6ZlNzCiLPyAarJuWP6MhqCHWZseZmzS.fdgno3IJcRwJ\/u"
+        "password": "$2y$10$9CyevS3Zc.KyR8KVmlTv0.YSbuDEo3iurJK\/g8BPuEeGZ72FSjX3S"
     },
     "otherContact": {
-        "emails": [],
-        "phoneNumbers": [
-            "+39-947-889-3590"
+        "emails": [
+            "anava273@sktelecom.com",
+            "anava273@lguplus.com"
         ],
-        "socMedias": []
+        "phoneNumbers": [
+            "+61-273-006-1394",
+            "+61-273-237-6583"
+        ]
     },
     "otherInfo": {
-        "gender": "F",
-        "dateOfBirth": "1944-12-10"
-    }
+        "gender": "M",
+        "dateOfBirth": "1966-04-02"
+    },
+    "totalBooked": 11,
+    "discount": 0.035
 });
 db.customers.insertOne(
 {
-    "customerKey": "FLOYGRAN3374",
+    "customerKey": "JERIBARB1762",
     "name": {
-        "title": "Mr",
-        "first": "Floyd",
-        "middle": "R",
-        "last": "Grant",
+        "title": "Ms",
+        "first": "Jerica",
+        "middle": "G",
+        "last": "Barber",
         "suffix": null
     },
     "address": {
-        "streetAddress": "2671 Big Bough Drive",
+        "streetAddress": "7016 Green Gulch Road",
         "buildingName": null,
         "floor": null,
         "roomAptCondoFlat": null,
-        "city": "Althorpe",
+        "city": "Mc Intire",
+        "stateProvince": "IA",
+        "locality": "Mitchell",
+        "country": "US",
+        "postalCode": "50455",
+        "latitude": "43.45",
+        "longitude": "-92.6048"
+    },
+    "contact": {
+        "email": "jbarber274@telefonica.com",
+        "phone": "+61-274-163-1762",
+        "socMedia": {
+            "skype": "jbarber274@telefonica.com@skype.com"
+        }
+    },
+    "login": {
+        "username": "jbarber",
+        "oauth2": "jbarber@skype.com",
+        "password": "$2y$10$sNzwPsJjttXbuJff3r1A2.QlvvxYbK8Y5fvfFhgmgwaClDFsomN3W"
+    },
+    "otherContact": {
+        "emails": [
+            "jbarber274@tata.com",
+            "jbarber274@relcom.com"
+        ],
+        "phoneNumbers": [
+            "+61-274-301-2373",
+            "+61-274-486-6509"
+        ],
+        "socMedias": [
+            {
+                "skype": "jbarber274@tata.com@skype.com"
+            },
+            {
+                "line": "jbarber274@relcom.com@line.com"
+            }
+        ]
+    },
+    "otherInfo": {
+        "gender": "F",
+        "dateOfBirth": "1986-09-27"
+    },
+    "totalBooked": 15,
+    "discount": 0
+});
+db.customers.insertOne(
+{
+    "customerKey": "CHIHODG4473",
+    "name": {
+        "title": null,
+        "first": "Chi",
+        "middle": null,
+        "last": "Hodges",
+        "suffix": null
+    },
+    "address": {
+        "streetAddress": "3601 Short Bough Drive",
+        "buildingName": null,
+        "floor": null,
+        "roomAptCondoFlat": "F6",
+        "city": "L'\u00cele-Bizard Southwest",
+        "stateProvince": "QC",
+        "locality": "Quebec",
+        "country": "CA",
+        "postalCode": "H9E",
+        "latitude": "45.4865",
+        "longitude": "-73.9092"
+    },
+    "contact": {
+        "email": "chodges276@tt.com",
+        "phone": "+61-276-740-4473",
+        "socMedia": []
+    },
+    "login": {
+        "username": "chodges",
+        "oauth2": null,
+        "password": "$2y$10$mR9mDWjuZFu4d02XxzipnOltsq24P8FcWLY7aQbxVdHNgVLOF\/zOG"
+    },
+    "otherContact": {
+        "emails": [
+            "chodges276@bce.com"
+        ],
+        "phoneNumbers": [
+            "+61-276-490-8665"
+        ]
+    },
+    "otherInfo": {
+        "gender": "M",
+        "dateOfBirth": "1942-08-19"
+    },
+    "totalBooked": 14,
+    "discount": 0.093
+});
+db.customers.insertOne(
+{
+    "customerKey": "RONNGRAH9368",
+    "name": {
+        "title": "Ms",
+        "first": "Ronni",
+        "middle": "X",
+        "last": "Graham",
+        "suffix": null
+    },
+    "address": {
+        "streetAddress": "933 Blue Ridge Drive",
+        "buildingName": null,
+        "floor": null,
+        "roomAptCondoFlat": null,
+        "city": "Saint-Paul",
+        "stateProvince": "RE",
+        "locality": "R\u00e9union",
+        "country": "RE",
+        "postalCode": "97460",
+        "latitude": "-21.0096",
+        "longitude": "55.2707"
+    },
+    "contact": {
+        "email": "rgraham277@econnect.com",
+        "phone": "+61-277-741-9368",
+        "socMedia": {
+            "linkedin": "rgraham277@econnect.com@linkedin.com"
+        }
+    },
+    "login": {
+        "username": "rgraham",
+        "oauth2": "rgraham@linkedin.com",
+        "password": "$2y$10$pk5G1R5wPdXHaz6qKDe2Oev7jqo9SaknLVDwxhUZ2QRLRHdjr5r\/G"
+    },
+    "otherContact": {
+        "emails": [
+            "rgraham277@nii.com",
+            "rgraham277@access.com"
+        ],
+        "phoneNumbers": [
+            "+61-277-476-7332",
+            "+61-277-373-0437"
+        ],
+        "socMedias": [
+            {
+                "google": "rgraham277@nii.com@google.com"
+            },
+            {
+                "linkedin": "rgraham277@access.com@linkedin.com"
+            }
+        ]
+    },
+    "otherInfo": {
+        "gender": "F",
+        "dateOfBirth": "1936-11-14"
+    },
+    "totalBooked": 20,
+    "discount": 0
+});
+db.customers.insertOne(
+{
+    "customerKey": "CHRILYNN6725",
+    "name": {
+        "title": "Ms",
+        "first": "Christine",
+        "middle": "P",
+        "last": "Lynn",
+        "suffix": null
+    },
+    "address": {
+        "streetAddress": "3211 Red Mountain Ride",
+        "buildingName": null,
+        "floor": null,
+        "roomAptCondoFlat": null,
+        "city": "Powellton",
+        "stateProvince": "WV",
+        "locality": "Fayette",
+        "country": "US",
+        "postalCode": "25161",
+        "latitude": "38.099",
+        "longitude": "-81.324"
+    },
+    "contact": {
+        "email": "clynn278@vodafone.com",
+        "phone": "+61-278-634-6725",
+        "socMedia": {
+            "linkedin": "clynn278@vodafone.com@linkedin.com"
+        }
+    },
+    "login": {
+        "username": "clynn",
+        "oauth2": "clynn@linkedin.com",
+        "password": "$2y$10$k9uxQcXhIJSFai.GmmkHMumf5iSvoYMAHmM0bcKW8s3nXmrQ01DxK"
+    },
+    "otherContact": {
+        "emails": [
+            "clynn278@sprint.com",
+            "clynn278@bt.com"
+        ],
+        "phoneNumbers": [
+            "+61-278-128-1221",
+            "+61-278-599-2624"
+        ],
+        "socMedias": [
+            {
+                "twitter": "clynn278@sprint.com@twitter.com"
+            },
+            {
+                "line": "clynn278@bt.com@line.com"
+            }
+        ]
+    },
+    "otherInfo": {
+        "gender": "F",
+        "dateOfBirth": "1969-01-07"
+    },
+    "totalBooked": 17,
+    "discount": 0
+});
+db.customers.insertOne(
+{
+    "customerKey": "REYLARA2402",
+    "name": {
+        "title": null,
+        "first": "Rey",
+        "middle": null,
+        "last": "Lara",
+        "suffix": null
+    },
+    "address": {
+        "streetAddress": "2805 Blue Bough Avenue",
+        "buildingName": null,
+        "floor": 5,
+        "roomAptCondoFlat": null,
+        "city": "Schaan",
+        "stateProvince": "Schaan",
+        "locality": "Schaan",
+        "country": "LI",
+        "postalCode": "9494",
+        "latitude": "47.1746",
+        "longitude": "9.5247"
+    },
+    "contact": {
+        "email": "rlara279@kddi.com",
+        "phone": "+61-279-025-2402",
+        "socMedia": []
+    },
+    "login": {
+        "username": "rlara",
+        "oauth2": null,
+        "password": "$2y$10$tW11TEB2LvC9za7bgYXBv.ivDYYclkEai7g72do3E8JeIv5BrRPAi"
+    },
+    "otherContact": {
+        "emails": [
+            "rlara279@megafon.com",
+            "rlara279@orange.com",
+            "rlara279@telstra.com"
+        ],
+        "phoneNumbers": [
+            "+61-279-704-2429",
+            "+61-279-945-7983",
+            "+61-279-397-3820"
+        ]
+    },
+    "otherInfo": {
+        "gender": "M",
+        "dateOfBirth": "1959-09-21"
+    },
+    "totalBooked": 36,
+    "discount": 0.048
+});
+db.customers.insertOne(
+{
+    "customerKey": "THEDPARR5038",
+    "name": {
+        "title": "Ms",
+        "first": "Theda",
+        "middle": "T",
+        "last": "Parrish",
+        "suffix": null
+    },
+    "address": {
+        "streetAddress": "4185 Red Tree Way",
+        "buildingName": null,
+        "floor": null,
+        "roomAptCondoFlat": null,
+        "city": "North York (York Heights \/ Victoria Village \/ Parkway East)",
+        "stateProvince": "ON",
+        "locality": "North York ",
+        "country": "CA",
+        "postalCode": "M3A",
+        "latitude": "43.7545",
+        "longitude": "-79.33"
+    },
+    "contact": {
+        "email": "tparrish280@att.com",
+        "phone": "+61-280-472-5038",
+        "socMedia": {
+            "twitter": "tparrish280@att.com@twitter.com"
+        }
+    },
+    "login": {
+        "username": "tparrish",
+        "oauth2": "tparrish@twitter.com",
+        "password": "$2y$10$1sLBLAG4CbBUicZmzkUbj.JztzV1kZy5ZuITN0vD8KdQyAk\/JWnyO"
+    },
+    "otherContact": {
+        "emails": [
+            "tparrish280@ptcl.com"
+        ],
+        "phoneNumbers": [
+            "+61-280-434-2139"
+        ],
+        "socMedias": [
+            {
+                "facebook": "tparrish280@ptcl.com@facebook.com"
+            }
+        ]
+    },
+    "otherInfo": {
+        "gender": "F",
+        "dateOfBirth": "1939-06-06"
+    },
+    "totalBooked": 19,
+    "discount": 0.15
+});
+db.customers.insertOne(
+{
+    "customerKey": "GERASHEL7708",
+    "name": {
+        "title": "Mr",
+        "first": "Gerald",
+        "middle": "Z",
+        "last": "Shelton",
+        "suffix": null
+    },
+    "address": {
+        "streetAddress": "6137 Red Bough Avenue",
+        "buildingName": null,
+        "floor": null,
+        "roomAptCondoFlat": null,
+        "city": "Wilgamuwa",
+        "stateProvince": "Matale",
+        "locality": "Matale",
+        "country": "LK",
+        "postalCode": "21530",
+        "latitude": "7.6622",
+        "longitude": "80.7728"
+    },
+    "contact": {
+        "email": "gshelton281@telecomitalia.com",
+        "phone": "+61-281-892-7708",
+        "socMedia": {
+            "linkedin": "gshelton281@telecomitalia.com@linkedin.com"
+        }
+    },
+    "login": {
+        "username": "gshelton",
+        "oauth2": "gshelton@linkedin.com",
+        "password": "$2y$10$\/T3nd9innG00YWg3qup6qepWH3sK9TsCBaBP2aW14Z0BbrPbO\/FFu"
+    },
+    "otherContact": [],
+    "otherInfo": {
+        "gender": "M",
+        "dateOfBirth": "2001-01-26"
+    },
+    "totalBooked": 6,
+    "discount": 0
+});
+db.customers.insertOne(
+{
+    "customerKey": "LUCIBROW7366",
+    "name": {
+        "title": null,
+        "first": "Luciano",
+        "middle": null,
+        "last": "Browning",
+        "suffix": null
+    },
+    "address": {
+        "streetAddress": "5078 Blue Ditch Ride",
+        "buildingName": null,
+        "floor": null,
+        "roomAptCondoFlat": "FF",
+        "city": "Fillingham",
         "stateProvince": "England",
         "locality": "Lincolnshire",
         "country": "GB",
-        "postalCode": "DN17",
-        "latitude": "53.5774",
-        "longitude": "-0.7408"
+        "postalCode": "DN21",
+        "latitude": "53.3608",
+        "longitude": "-0.5743"
     },
     "contact": {
-        "phone": "+44-326-181-3374",
-        "email": "fgrant326@verizon.com",
-        "socMedia": null
+        "email": "lbrownin282@turkcell.com",
+        "phone": "+61-282-443-7366",
+        "socMedia": []
     },
     "login": {
-        "username": "fgrant",
+        "username": "lbrownin",
         "oauth2": null,
-        "password": "$2y$10$TeiIgGQSYv07lI0lXZOyKOr1dtTfFNYnZpPaKYYRZZoj.lQVB5pp2"
+        "password": "$2y$10$mtmRhLhEjRxi\/7m.tv.ALu2VinWY9.z\/aGTJN\/16fDE5DiNbU5YWa"
     },
     "otherContact": {
-        "emails": [],
-        "phoneNumbers": [
-            "+44-832-728-4238",
-            "+44-753-275-0123"
+        "emails": [
+            "lbrownin282@airtel.com",
+            "lbrownin282@uunet.com",
+            "lbrownin282@cerist.com"
         ],
-        "socMedias": []
+        "phoneNumbers": [
+            "+61-282-907-3358",
+            "+61-282-591-2924",
+            "+61-282-177-2359"
+        ]
     },
     "otherInfo": {
         "gender": "M",
-        "dateOfBirth": "1954-12-23"
-    }
+        "dateOfBirth": "1973-09-16"
+    },
+    "totalBooked": 10,
+    "discount": 0.064
 });
 db.customers.insertOne(
 {
-    "customerKey": "GLADNICH4299",
+    "customerKey": "ALLEBEAS6732",
     "name": {
-        "title": null,
-        "first": "Gladis",
-        "middle": null,
-        "last": "Nicholson",
+        "title": "Mr",
+        "first": "Allen",
+        "middle": "Z",
+        "last": "Beasley",
         "suffix": null
     },
     "address": {
-        "streetAddress": "7014 Long Ditch Way",
+        "streetAddress": "807 Blue Stream Street",
         "buildingName": null,
         "floor": null,
         "roomAptCondoFlat": null,
-        "city": "Pointe Focinana",
-        "stateProvince": "Monte-Carlo",
+        "city": "Pjelax",
+        "stateProvince": "N\u00e4rpes",
+        "locality": "Syd\u00f6sterbotten",
+        "country": "FI",
+        "postalCode": "64250",
+        "latitude": "62.3637",
+        "longitude": "21.3552"
+    },
+    "contact": {
+        "email": "abeasley283@bt.com",
+        "phone": "+61-283-223-6732",
+        "socMedia": {
+            "line": "abeasley283@bt.com@line.com"
+        }
+    },
+    "login": {
+        "username": "abeasley",
+        "oauth2": "abeasley@line.com",
+        "password": "$2y$10$Jls28iqTsDBonAMTS81M0ufTLeK7lWFiMivY8GGt4XjWrm6Uq5EJ2"
+    },
+    "otherContact": {
+        "emails": [
+            "abeasley283@bce.com"
+        ],
+        "phoneNumbers": [
+            "+61-283-996-8592"
+        ],
+        "socMedias": [
+            {
+                "line": "abeasley283@bce.com@line.com"
+            }
+        ]
+    },
+    "otherInfo": {
+        "gender": "M",
+        "dateOfBirth": "1946-09-18"
+    },
+    "totalBooked": 10,
+    "discount": 0
+});
+db.customers.insertOne(
+{
+    "customerKey": "NORRGUTI1697",
+    "name": {
+        "title": "Mr",
+        "first": "Norris",
+        "middle": "N",
+        "last": "Gutierrez",
+        "suffix": null
+    },
+    "address": {
+        "streetAddress": "922 Little Gulch Avenue",
+        "buildingName": null,
+        "floor": null,
+        "roomAptCondoFlat": null,
+        "city": "Seaford Rise",
+        "stateProvince": "SA",
+        "locality": "South Australia",
+        "country": "AU",
+        "postalCode": "5169",
+        "latitude": "-35.193",
+        "longitude": "138.4817"
+    },
+    "contact": {
+        "email": "ngutierr284@seednet.com",
+        "phone": "+61-284-599-1697",
+        "socMedia": {
+            "twitter": "ngutierr284@seednet.com@twitter.com"
+        }
+    },
+    "login": {
+        "username": "ngutierr",
+        "oauth2": "ngutierr@twitter.com",
+        "password": "$2y$10$r\/l4z.OmZ0y.hATzJ9oCoOHCBRBjmpFYoe5oQ1Q7Suacj12l.DSWS"
+    },
+    "otherContact": {
+        "emails": [
+            "ngutierr284@telesystems.com"
+        ],
+        "phoneNumbers": [
+            "+61-284-373-0950"
+        ],
+        "socMedias": [
+            {
+                "twitter": "ngutierr284@telesystems.com@twitter.com"
+            }
+        ]
+    },
+    "otherInfo": {
+        "gender": "M",
+        "dateOfBirth": "1936-11-18"
+    },
+    "totalBooked": 19,
+    "discount": 0
+});
+db.customers.insertOne(
+{
+    "customerKey": "CHASHARP0592",
+    "name": {
+        "title": null,
+        "first": "Chastity",
+        "middle": null,
+        "last": "Harper",
+        "suffix": null
+    },
+    "address": {
+        "streetAddress": "1307 Green Bridge Drive",
+        "buildingName": null,
+        "floor": null,
+        "roomAptCondoFlat": null,
+        "city": "Valdredo",
+        "stateProvince": "AS",
+        "locality": "Asturias",
+        "country": "ES",
+        "postalCode": "33157",
+        "latitude": "43.5706",
+        "longitude": "-6.2587"
+    },
+    "contact": {
+        "email": "charper285@kddi.com",
+        "phone": "+61-285-861-0592",
+        "socMedia": []
+    },
+    "login": {
+        "username": "charper",
+        "oauth2": null,
+        "password": "$2y$10$GqNYK0EjVxxjxGzMkR1kneJTpMfQvFAktmi9WNkovP7LRvUXsrsPG"
+    },
+    "otherContact": [],
+    "otherInfo": {
+        "gender": "F",
+        "dateOfBirth": "1982-05-02"
+    },
+    "totalBooked": 5,
+    "discount": 0.076
+});
+db.customers.insertOne(
+{
+    "customerKey": "OPALHAHN6314",
+    "name": {
+        "title": "Ms",
+        "first": "Opal",
+        "middle": "I",
+        "last": "Hahn",
+        "suffix": null
+    },
+    "address": {
+        "streetAddress": "9577 Winding Mountain Circle",
+        "buildingName": "Building 9C",
+        "floor": null,
+        "roomAptCondoFlat": null,
+        "city": "Oakenclough",
+        "stateProvince": "England",
+        "locality": "Lancashire",
+        "country": "GB",
+        "postalCode": "PR3",
+        "latitude": "53.9202",
+        "longitude": "-2.7036"
+    },
+    "contact": {
+        "email": "ohahn286@telkom.com",
+        "phone": "+61-286-412-6314",
+        "socMedia": {
+            "line": "ohahn286@telkom.com@line.com"
+        }
+    },
+    "login": {
+        "username": "ohahn",
+        "oauth2": "ohahn@line.com",
+        "password": "$2y$10$UkXx88KDV69El2ELyhm6DuKgGAxdsBeYwXwh6R3UdDNqBv0DgxjFu"
+    },
+    "otherContact": [],
+    "otherInfo": {
+        "gender": "F",
+        "dateOfBirth": "1987-04-27"
+    },
+    "totalBooked": 17,
+    "discount": 0
+});
+db.customers.insertOne(
+{
+    "customerKey": "LEANAGUI1968",
+    "name": {
+        "title": "Ms",
+        "first": "Leann",
+        "middle": "M",
+        "last": "Aguilar",
+        "suffix": null
+    },
+    "address": {
+        "streetAddress": "4223 Long Gulch Avenue",
+        "buildingName": null,
+        "floor": null,
+        "roomAptCondoFlat": null,
+        "city": "Azotea De Vera",
+        "stateProvince": "Soriano",
+        "locality": "Soriano",
+        "country": "UY",
+        "postalCode": "75000",
+        "latitude": "-33.3244",
+        "longitude": "-57.618"
+    },
+    "contact": {
+        "email": "laguilar287@turkcell.com",
+        "phone": "+61-287-089-1968",
+        "socMedia": {
+            "line": "laguilar287@turkcell.com@line.com"
+        }
+    },
+    "login": {
+        "username": "laguilar",
+        "oauth2": "laguilar@line.com",
+        "password": "$2y$10$Bc74I\/4LKL2GG2uf9buP4ehkBMGb\/tuxETuk9IiHDYn5MIb4fPHry"
+    },
+    "otherContact": {
+        "emails": [
+            "laguilar287@mtn.com",
+            "laguilar287@telecomitalia.com"
+        ],
+        "phoneNumbers": [
+            "+61-287-189-8206",
+            "+61-287-917-0265"
+        ],
+        "socMedias": [
+            {
+                "skype": "laguilar287@mtn.com@skype.com"
+            },
+            {
+                "line": "laguilar287@telecomitalia.com@line.com"
+            }
+        ]
+    },
+    "otherInfo": {
+        "gender": "F",
+        "dateOfBirth": "1937-05-18"
+    },
+    "totalBooked": 85,
+    "discount": 0.159
+});
+db.customers.insertOne(
+{
+    "customerKey": "DOMITRUJ0072",
+    "name": {
+        "title": null,
+        "first": "Dominique",
+        "middle": null,
+        "last": "Trujillo",
+        "suffix": null
+    },
+    "address": {
+        "streetAddress": "8647 Winding Gulch Circle",
+        "buildingName": null,
+        "floor": 4,
+        "roomAptCondoFlat": "43",
+        "city": "Minnivale",
+        "stateProvince": "WA",
+        "locality": "KALGOORLIE",
+        "country": "AU",
+        "postalCode": "6462",
+        "latitude": "-31.1383",
+        "longitude": "117.1809"
+    },
+    "contact": {
+        "email": "dtrujill288@telkom.com",
+        "phone": "+61-288-958-0072",
+        "socMedia": []
+    },
+    "login": {
+        "username": "dtrujill",
+        "oauth2": null,
+        "password": "$2y$10$XsPvJ3Fd4nPB70k.ebKWB.yn0r1s9og.dRtsI09O76jwYk4gW\/ocW"
+    },
+    "otherContact": {
+        "emails": [
+            "dtrujill288@ktc.com",
+            "dtrujill288@belgacom.com"
+        ],
+        "phoneNumbers": [
+            "+61-288-269-8258",
+            "+61-288-450-7133"
+        ]
+    },
+    "otherInfo": {
+        "gender": "F",
+        "dateOfBirth": "1967-05-30"
+    },
+    "totalBooked": 48,
+    "discount": 0.088
+});
+db.customers.insertOne(
+{
+    "customerKey": "LINDHERR9475",
+    "name": {
+        "title": "Ms",
+        "first": "Lindsay",
+        "middle": "Q",
+        "last": "Herring",
+        "suffix": null
+    },
+    "address": {
+        "streetAddress": "3313 Red Bridge Street",
+        "buildingName": null,
+        "floor": null,
+        "roomAptCondoFlat": null,
+        "city": "Rivertree",
+        "stateProvince": "NSW",
+        "locality": "New South Wales",
+        "country": "AU",
+        "postalCode": "2372",
+        "latitude": "-29.1538",
+        "longitude": "151.9669"
+    },
+    "contact": {
+        "email": "lherring290@ooredoo.com",
+        "phone": "+61-290-358-9475",
+        "socMedia": {
+            "linkedin": "lherring290@ooredoo.com@linkedin.com"
+        }
+    },
+    "login": {
+        "username": "lherring",
+        "oauth2": "lherring@linkedin.com",
+        "password": "$2y$10$R1vQlSEQssfY7Zwhh65rKeMWLZ7jC7Xx3VIl6HVgOAsVZxmdjcn.e"
+    },
+    "otherContact": [],
+    "otherInfo": {
+        "gender": "F",
+        "dateOfBirth": "1991-06-19"
+    },
+    "totalBooked": 11,
+    "discount": 0
+});
+db.customers.insertOne(
+{
+    "customerKey": "CLINROTH0269",
+    "name": {
+        "title": null,
+        "first": "Clint",
+        "middle": null,
+        "last": "Roth",
+        "suffix": null
+    },
+    "address": {
+        "streetAddress": "1291 Green Gulch Circle",
+        "buildingName": null,
+        "floor": null,
+        "roomAptCondoFlat": null,
+        "city": "Ye\u015filli",
+        "stateProvince": "Kir\u015fehir",
+        "locality": "Kir\u015fehir",
+        "country": "TR",
+        "postalCode": "40000",
+        "latitude": "39.1333",
+        "longitude": "33.8833"
+    },
+    "contact": {
+        "email": "croth291@etisalat.com",
+        "phone": "+61-291-201-0269",
+        "socMedia": []
+    },
+    "login": {
+        "username": "croth",
+        "oauth2": null,
+        "password": "$2y$10$yL3JcOVaOSjU6ob4Q9.B8eNFEK9ODy52dVm.y5y6VXbW.GHrtR7A6"
+    },
+    "otherContact": {
+        "emails": [
+            "croth291@telenor.com",
+            "croth291@telesystems.com",
+            "croth291@softbank.com"
+        ],
+        "phoneNumbers": [
+            "+61-291-382-7455",
+            "+61-291-716-3384",
+            "+61-291-074-9971"
+        ]
+    },
+    "otherInfo": {
+        "gender": "M",
+        "dateOfBirth": "1970-08-13"
+    },
+    "totalBooked": 27,
+    "discount": 0.08
+});
+db.customers.insertOne(
+{
+    "customerKey": "DANIGOLD3920",
+    "name": {
+        "title": "Mr",
+        "first": "Daniel",
+        "middle": "N",
+        "last": "Golden",
+        "suffix": null
+    },
+    "address": {
+        "streetAddress": "3282 Long Creek Street",
+        "buildingName": null,
+        "floor": null,
+        "roomAptCondoFlat": null,
+        "city": "Rhyndaston",
+        "stateProvince": "TAS",
+        "locality": "TASMANIA",
+        "country": "AU",
+        "postalCode": "7120",
+        "latitude": "-42.4789",
+        "longitude": "147.3837"
+    },
+    "contact": {
+        "email": "dgolden292@airtel.com",
+        "phone": "+61-292-767-3920",
+        "socMedia": {
+            "line": "dgolden292@airtel.com@line.com"
+        }
+    },
+    "login": {
+        "username": "dgolden",
+        "oauth2": "dgolden@line.com",
+        "password": "$2y$10$hBr\/SQWa\/cGF.QpW1YTlPuSrcoHeKYbHdZmWJ32MTXkLrz\/xvymp6"
+    },
+    "otherContact": {
+        "emails": [
+            "dgolden292@telecom.com",
+            "dgolden292@vimpelcom.com"
+        ],
+        "phoneNumbers": [
+            "+61-292-825-8854",
+            "+61-292-050-6957"
+        ],
+        "socMedias": [
+            {
+                "facebook": "dgolden292@telecom.com@facebook.com"
+            },
+            {
+                "facebook": "dgolden292@vimpelcom.com@facebook.com"
+            }
+        ]
+    },
+    "otherInfo": {
+        "gender": "M",
+        "dateOfBirth": "1996-03-26"
+    },
+    "totalBooked": 17,
+    "discount": 0
+});
+db.customers.insertOne(
+{
+    "customerKey": "SLYVLEVY8174",
+    "name": {
+        "title": "Ms",
+        "first": "Slyvia",
+        "middle": "T",
+        "last": "Levy",
+        "suffix": null
+    },
+    "address": {
+        "streetAddress": "8713 Big River Road",
+        "buildingName": null,
+        "floor": null,
+        "roomAptCondoFlat": null,
+        "city": "Sveagruva",
+        "stateProvince": "Spitsbergen",
+        "locality": "Spitsbergen",
+        "country": "SJ",
+        "postalCode": "9175",
+        "latitude": "77.9003",
+        "longitude": "16.7201"
+    },
+    "contact": {
+        "email": "slevy293@ote.com",
+        "phone": "+61-293-334-8174",
+        "socMedia": {
+            "facebook": "slevy293@ote.com@facebook.com"
+        }
+    },
+    "login": {
+        "username": "slevy",
+        "oauth2": "slevy@facebook.com",
+        "password": "$2y$10$yx.HIXvuEZJ4kR8\/yxw9z.r1UNjh2Vb.VKOZo.AabpBa\/UJR451IC"
+    },
+    "otherContact": {
+        "emails": [
+            "slevy293@nordnet.com",
+            "slevy293@cci.com",
+            "slevy293@greennet.com"
+        ],
+        "phoneNumbers": [
+            "+61-293-458-0177",
+            "+61-293-808-1087",
+            "+61-293-034-2555"
+        ],
+        "socMedias": [
+            {
+                "line": "slevy293@nordnet.com@line.com"
+            },
+            {
+                "line": "slevy293@cci.com@line.com"
+            },
+            {
+                "twitter": "slevy293@greennet.com@twitter.com"
+            }
+        ]
+    },
+    "otherInfo": {
+        "gender": "F",
+        "dateOfBirth": "1993-10-23"
+    },
+    "totalBooked": 20,
+    "discount": 0
+});
+db.customers.insertOne(
+{
+    "customerKey": "DARRDAVI0182",
+    "name": {
+        "title": null,
+        "first": "Darrick",
+        "middle": null,
+        "last": "Davila",
+        "suffix": null
+    },
+    "address": {
+        "streetAddress": "2218 Blue Bend Way",
+        "buildingName": null,
+        "floor": null,
+        "roomAptCondoFlat": "48",
+        "city": "Chowdergudem",
+        "stateProvince": "Kondurgu",
+        "locality": "Mahabub Nagar",
+        "country": "IN",
+        "postalCode": "509207",
+        "latitude": "17.0753",
+        "longitude": "78.0839"
+    },
+    "contact": {
+        "email": "ddavila294@centurylink.com",
+        "phone": "+61-294-873-0182",
+        "socMedia": []
+    },
+    "login": {
+        "username": "ddavila",
+        "oauth2": null,
+        "password": "$2y$10$pSIopSpXUaKgbsvUdFPaHOXPAJ9eW5xZ.PiKZM3QH5DSPNB3wIMJq"
+    },
+    "otherContact": {
+        "emails": [
+            "ddavila294@softbank.com",
+            "ddavila294@airtel.com"
+        ],
+        "phoneNumbers": [
+            "+61-294-589-2546",
+            "+61-294-816-3581"
+        ]
+    },
+    "otherInfo": {
+        "gender": "M",
+        "dateOfBirth": "1976-12-08"
+    },
+    "totalBooked": 26,
+    "discount": 0.185
+});
+db.customers.insertOne(
+{
+    "customerKey": "ZENIFORD5177",
+    "name": {
+        "title": "Ms",
+        "first": "Zenia",
+        "middle": "I",
+        "last": "Ford",
+        "suffix": null
+    },
+    "address": {
+        "streetAddress": "5090 Little Bridge Road",
+        "buildingName": null,
+        "floor": null,
+        "roomAptCondoFlat": null,
+        "city": "Plage du Larvotto",
+        "stateProvince": "Larvotto",
         "locality": "Monaco",
         "country": "MC",
         "postalCode": "98000",
@@ -10334,2872 +9971,2209 @@ db.customers.insertOne(
         "longitude": "7.4333"
     },
     "contact": {
-        "phone": "+377-327-747-4299",
-        "email": "gnichols327@belgacom.com",
-        "socMedia": null
+        "email": "zford295@ais.com",
+        "phone": "+61-295-248-5177",
+        "socMedia": {
+            "skype": "zford295@ais.com@skype.com"
+        }
     },
     "login": {
-        "username": "gnichols",
-        "oauth2": null,
-        "password": "$2y$10$twBNsLGJ3OeUGVEYURI5..buUW.skdNVuCUn3K1HvSBSY2imzVxPm"
+        "username": "zford",
+        "oauth2": "zford@skype.com",
+        "password": "$2y$10$\/Qs5MGrzvcS\/6e9HWgwUiuZYEZbziCrNbQPfUMum7ZCk.dm1752gS"
     },
-    "otherContact": {
-        "emails": [
-            "gnichols@mtn.net"
-        ],
-        "phoneNumbers": [
-            "+377-685-716-2828",
-            "+377-119-049-1916",
-            "+377-847-359-4384"
-        ],
-        "socMedias": []
-    },
+    "otherContact": [],
     "otherInfo": {
         "gender": "F",
-        "dateOfBirth": "1969-12-01"
-    }
+        "dateOfBirth": "1955-06-10"
+    },
+    "totalBooked": 13,
+    "discount": 0
 });
 db.customers.insertOne(
 {
-    "customerKey": "FRANCAST7384",
+    "customerKey": "MATHPRUI3407",
     "name": {
-        "title": "Ms",
-        "first": "Fransisca",
-        "middle": "A",
-        "last": "Castillo",
+        "title": "Mr",
+        "first": "Mathew",
+        "middle": "F",
+        "last": "Pruitt",
         "suffix": null
     },
     "address": {
-        "streetAddress": "8317 Little River Way",
+        "streetAddress": "9563 Winding River Drive",
         "buildingName": null,
         "floor": null,
         "roomAptCondoFlat": null,
-        "city": "Kariong",
-        "stateProvince": "NSW",
-        "locality": "PYMBLE",
-        "country": "AU",
-        "postalCode": "2250",
-        "latitude": "-33.4397",
-        "longitude": "151.2945"
+        "city": "Chicago",
+        "stateProvince": "IL",
+        "locality": "Cook",
+        "country": "US",
+        "postalCode": "60622",
+        "latitude": "41.9019",
+        "longitude": "-87.6779"
     },
     "contact": {
-        "phone": "+61-328-426-7384",
-        "email": "fcastill328@access.com",
-        "socMedia": null
+        "email": "mpruitt296@telenor.com",
+        "phone": "+61-296-896-3407",
+        "socMedia": {
+            "linkedin": "mpruitt296@telenor.com@linkedin.com"
+        }
     },
     "login": {
-        "username": "fcastill",
-        "oauth2": null,
-        "password": "$2y$10$hkTyix1C5yv\/1rOvFrzJNuSlJrF3ApCbEWEff7KzTyCYpkJc1jefy"
+        "username": "mpruitt",
+        "oauth2": "mpruitt@linkedin.com",
+        "password": "$2y$10$Mse6jjlRgQtIgaaCS7j2KuqwQUcfqPrWmmyNJlw9Q7XMBs8EDLyQq"
     },
-    "otherContact": {
-        "emails": [],
-        "phoneNumbers": [
-            "+61-77-819-4907",
-            "+61-185-269-2464",
-            "+61-271-256-6908"
-        ],
-        "socMedias": []
-    },
+    "otherContact": [],
     "otherInfo": {
-        "gender": "F",
-        "dateOfBirth": "1962-06-26"
-    }
+        "gender": "M",
+        "dateOfBirth": "1937-06-10"
+    },
+    "totalBooked": 12,
+    "discount": 0
 });
 db.customers.insertOne(
 {
-    "customerKey": "JOSEDOUG0904",
+    "customerKey": "MAYAGLAS3668",
     "name": {
         "title": null,
-        "first": "Josefa",
+        "first": "Maya",
         "middle": null,
-        "last": "Douglas",
+        "last": "Glass",
         "suffix": null
     },
     "address": {
-        "streetAddress": "6344 Red Hill Street",
+        "streetAddress": "722 Green River Avenue",
         "buildingName": null,
-        "floor": null,
+        "floor": 15,
         "roomAptCondoFlat": null,
-        "city": "Houston",
-        "stateProvince": "TX",
-        "locality": "Harris",
-        "country": "US",
-        "postalCode": "77205",
-        "latitude": "29.834",
-        "longitude": "-95.4342"
+        "city": "Johnsdorf",
+        "stateProvince": "Fehring",
+        "locality": "Politischer Bezirk S\u00fcdoststeiermark",
+        "country": "AT",
+        "postalCode": "8350",
+        "latitude": "46.8765",
+        "longitude": "15.9913"
     },
     "contact": {
-        "phone": "+1-330-307-0904",
-        "email": "jdouglas330@airtel.com",
-        "socMedia": {
-            "line": "jdouglas@line.com"
-        }
+        "email": "mglass297@telekom.com",
+        "phone": "+61-297-026-3668",
+        "socMedia": []
     },
     "login": {
-        "username": "jdouglas",
-        "oauth2": "jdouglas@line.com",
-        "password": "$2y$10$GTi6OriivgVoHBurRBhwOu\/CXOA1EzctCYb\/ZujygAYdcpTTOhbRK"
+        "username": "mglass",
+        "oauth2": null,
+        "password": "$2y$10$e5wvEYBolZmzcNonNPFE\/.zprM3vx4G.meveJWT5PHw5B6wUpZrJi"
     },
-    "otherContact": {
-        "emails": [
-            "jdouglas@turkcell.net"
-        ],
-        "phoneNumbers": [
-            "+1-641-522-5969"
-        ],
-        "socMedias": {
-            "twitter": "jdouglas@twitter.com",
-            "line": "jdouglas@line.com",
-            "skype": "jdouglas@skype.com"
-        }
-    },
+    "otherContact": [],
     "otherInfo": {
         "gender": "F",
-        "dateOfBirth": "1994-04-30"
-    }
+        "dateOfBirth": "1950-02-13"
+    },
+    "totalBooked": 21,
+    "discount": 0.096
 });
 db.customers.insertOne(
 {
-    "customerKey": "WANIARRO3073",
+    "customerKey": "YAJAHINT4195",
     "name": {
         "title": "Ms",
-        "first": "Wanita",
-        "middle": "M",
-        "last": "Arroyo",
+        "first": "Yajaira",
+        "middle": "O",
+        "last": "Hinton",
         "suffix": null
     },
     "address": {
-        "streetAddress": "8701 Winding Mound Way",
+        "streetAddress": "1940 Green Mound Ride",
         "buildingName": null,
         "floor": null,
         "roomAptCondoFlat": null,
-        "city": "Fiorentino",
+        "city": "Ram",
+        "stateProvince": "Wales",
+        "locality": "Carmarthenshire",
+        "country": "GB",
+        "postalCode": "SA48",
+        "latitude": "52.1541",
+        "longitude": "-4.1118"
+    },
+    "contact": {
+        "email": "yhinton298@tt.com",
+        "phone": "+61-298-158-4195",
+        "socMedia": {
+            "line": "yhinton298@tt.com@line.com"
+        }
+    },
+    "login": {
+        "username": "yhinton",
+        "oauth2": "yhinton@line.com",
+        "password": "$2y$10$r2MuzFvsH9zcC1E6PtGpWuMR9rUgJkltfQKgfNFIpHqZ3a5jUUpJS"
+    },
+    "otherContact": {
+        "emails": [
+            "yhinton298@pldt.com",
+            "yhinton298@orange.com"
+        ],
+        "phoneNumbers": [
+            "+61-298-529-8653",
+            "+61-298-049-5914"
+        ],
+        "socMedias": [
+            {
+                "facebook": "yhinton298@pldt.com@facebook.com"
+            },
+            {
+                "facebook": "yhinton298@orange.com@facebook.com"
+            }
+        ]
+    },
+    "otherInfo": {
+        "gender": "F",
+        "dateOfBirth": "1972-09-26"
+    },
+    "totalBooked": 1,
+    "discount": 0
+});
+db.customers.insertOne(
+{
+    "customerKey": "ARMALIVI6282",
+    "name": {
+        "title": "Ms",
+        "first": "Armandina",
+        "middle": "P",
+        "last": "Livingston",
+        "suffix": null
+    },
+    "address": {
+        "streetAddress": "736 Big Hill Drive",
+        "buildingName": "Building 88",
+        "floor": null,
+        "roomAptCondoFlat": null,
+        "city": "Encamp",
         "stateProvince": null,
         "locality": null,
-        "country": "SM",
-        "postalCode": "47897",
-        "latitude": "43.9",
-        "longitude": "12.45"
+        "country": "AD",
+        "postalCode": "AD200",
+        "latitude": "42.5333",
+        "longitude": "1.6333"
     },
     "contact": {
-        "phone": "+378-331-044-3073",
-        "email": "warroyo331@jio.com",
-        "socMedia": null
+        "email": "alivings299@eunet.com",
+        "phone": "+61-299-801-6282",
+        "socMedia": {
+            "skype": "alivings299@eunet.com@skype.com"
+        }
     },
     "login": {
-        "username": "warroyo",
-        "oauth2": null,
-        "password": "$2y$10$6g.2TMzKUKQOZw78sjQraeqgH\/0a5ObpGtX8Y9\/0tSrsB7QfwJNaW"
+        "username": "alivings",
+        "oauth2": "alivings@skype.com",
+        "password": "$2y$10$z0Pyqivx6r6ZjnTFKQk9tuk8iEf5a\/oJrJ0UPUlHeN598FFX6b.k2"
     },
     "otherContact": {
-        "emails": [],
-        "phoneNumbers": [],
-        "socMedias": []
+        "emails": [
+            "alivings299@jio.com",
+            "alivings299@ote.com",
+            "alivings299@rogers.com"
+        ],
+        "phoneNumbers": [
+            "+61-299-913-0675",
+            "+61-299-805-8825",
+            "+61-299-265-9838"
+        ],
+        "socMedias": [
+            {
+                "line": "alivings299@jio.com@line.com"
+            },
+            {
+                "linkedin": "alivings299@ote.com@linkedin.com"
+            },
+            {
+                "line": "alivings299@rogers.com@line.com"
+            }
+        ]
     },
     "otherInfo": {
         "gender": "F",
-        "dateOfBirth": "1959-06-29"
-    }
+        "dateOfBirth": "1974-01-06"
+    },
+    "totalBooked": 19,
+    "discount": 0
 });
 db.customers.insertOne(
 {
-    "customerKey": "WEIBYRD5430",
+    "customerKey": "BRENSIMP0311",
     "name": {
-        "title": "Ms",
-        "first": "Wei",
-        "middle": "G",
-        "last": "Byrd",
+        "title": null,
+        "first": "Brenton",
+        "middle": null,
+        "last": "Simpson",
         "suffix": null
     },
     "address": {
-        "streetAddress": "2244 Big Canyon Way",
+        "streetAddress": "8962 Red Ditch Ride",
+        "buildingName": null,
+        "floor": null,
+        "roomAptCondoFlat": "CE",
+        "city": "Whitehead",
+        "stateProvince": "Northern Ireland",
+        "locality": "County Antrim",
+        "country": "GB",
+        "postalCode": "BT38",
+        "latitude": "54.7537",
+        "longitude": "-5.7093"
+    },
+    "contact": {
+        "email": "bsimpson300@nordnet.com",
+        "phone": "+61-300-958-0311",
+        "socMedia": []
+    },
+    "login": {
+        "username": "bsimpson",
+        "oauth2": null,
+        "password": "$2y$10$wnMNAasVZGIc547cqgrvo.Y69yxgH5BgPvLkukZcaIOWwvuY0EY0i"
+    },
+    "otherContact": {
+        "emails": [
+            "bsimpson300@cubenet.com",
+            "bsimpson300@relcom.com"
+        ],
+        "phoneNumbers": [
+            "+61-300-173-6510",
+            "+61-300-948-3690"
+        ]
+    },
+    "otherInfo": {
+        "gender": "M",
+        "dateOfBirth": "1935-12-20"
+    },
+    "totalBooked": 30,
+    "discount": 0.012
+});
+db.customers.insertOne(
+{
+    "customerKey": "ANGERAYM6989",
+    "name": {
+        "title": "Ms",
+        "first": "Angele",
+        "middle": "Y",
+        "last": "Raymond",
+        "suffix": null
+    },
+    "address": {
+        "streetAddress": "9791 Green River Boulevard",
         "buildingName": null,
         "floor": null,
         "roomAptCondoFlat": null,
-        "city": "Lilydale",
-        "stateProvince": "TAS",
-        "locality": "TASMANIA",
+        "city": "Auning",
+        "stateProvince": "Syddjurs Kommune",
+        "locality": "Syddjurs Kommune",
+        "country": "DK",
+        "postalCode": "8963",
+        "latitude": "56.4308",
+        "longitude": "10.3782"
+    },
+    "contact": {
+        "email": "araymond301@apicnet.com",
+        "phone": "+61-301-076-6989",
+        "socMedia": {
+            "twitter": "araymond301@apicnet.com@twitter.com"
+        }
+    },
+    "login": {
+        "username": "araymond",
+        "oauth2": "araymond@twitter.com",
+        "password": "$2y$10$cJasDpDp7o3pi65lkuT4suYD2K4suILXEmmhvZsCDedfjynKI4JBq"
+    },
+    "otherContact": {
+        "emails": [
+            "araymond301@greennet.com",
+            "araymond301@movil.com",
+            "araymond301@ais.com"
+        ],
+        "phoneNumbers": [
+            "+61-301-830-2981",
+            "+61-301-906-6181",
+            "+61-301-723-3137"
+        ],
+        "socMedias": [
+            {
+                "google": "araymond301@greennet.com@google.com"
+            },
+            {
+                "google": "araymond301@movil.com@google.com"
+            },
+            {
+                "linkedin": "araymond301@ais.com@linkedin.com"
+            }
+        ]
+    },
+    "otherInfo": {
+        "gender": "F",
+        "dateOfBirth": "1931-12-03"
+    },
+    "totalBooked": 59,
+    "discount": 0.024
+});
+db.customers.insertOne(
+{
+    "customerKey": "SINALOWE6784",
+    "name": {
+        "title": "Ms",
+        "first": "Sina",
+        "middle": "M",
+        "last": "Lowe",
+        "suffix": null
+    },
+    "address": {
+        "streetAddress": "9196 Green Creek Way",
+        "buildingName": null,
+        "floor": null,
+        "roomAptCondoFlat": null,
+        "city": "Coningsby",
+        "stateProvince": "QLD",
+        "locality": "CENTRAL QLD",
         "country": "AU",
-        "postalCode": "7268",
-        "latitude": "-41.2503",
-        "longitude": "147.2176"
+        "postalCode": "4740",
+        "latitude": "-21.1",
+        "longitude": "149.0667"
     },
     "contact": {
-        "phone": "+61-332-181-5430",
-        "email": "wbyrd332@orstom.com",
-        "socMedia": null
+        "email": "slowe302@millicom.com",
+        "phone": "+61-302-689-6784",
+        "socMedia": {
+            "line": "slowe302@millicom.com@line.com"
+        }
     },
     "login": {
-        "username": "wbyrd",
-        "oauth2": null,
-        "password": "$2y$10$wE596Cq.Zamuf1pSh8hDrunWyWd\/rvMGkPEuakYhLDmsZCgnP\/e7e"
-    },
-    "otherContact": {
-        "emails": [],
-        "phoneNumbers": [
-            "+61-864-306-2916"
-        ],
-        "socMedias": []
-    },
-    "otherInfo": {
-        "gender": "F",
-        "dateOfBirth": "1978-05-21"
-    }
-});
-db.customers.insertOne(
-{
-    "customerKey": "KARLMAGA8008",
-    "name": {
-        "title": "Dr",
-        "first": "Karl",
-        "middle": null,
-        "last": "Magana",
-        "suffix": "PhD"
-    },
-    "address": {
-        "streetAddress": "9509 Long Canyon Street",
-        "buildingName": null,
-        "floor": null,
-        "roomAptCondoFlat": null,
-        "city": "Bucure\u015fti 51",
-        "stateProvince": "Sector 5",
-        "locality": "Bucure\u015fti",
-        "country": "RO",
-        "postalCode": "051157",
-        "latitude": "44.4022",
-        "longitude": "26.0624"
-    },
-    "contact": {
-        "phone": "+40-333-767-8008",
-        "email": "kmagana333@millicom.com",
-        "socMedia": null
-    },
-    "login": {
-        "username": "kmagana",
-        "oauth2": null,
-        "password": "$2y$10$afn9kmPMFPKzkaP\/c5OmWO4JjGlklCzhCrv.3WFZy1t4C6FUY.GOK"
+        "username": "slowe",
+        "oauth2": "slowe@line.com",
+        "password": "$2y$10$p1g3fSRrzuzuWqoC6rwudO3.QSt3RacDBcRBIAYREk.GemGnHWPCe"
     },
     "otherContact": {
         "emails": [
-            "kmagana@vodafone.net",
-            "kmagana@lookdata.net"
+            "slowe302@cci.com",
+            "slowe302@greennet.com",
+            "slowe302@telstra.com"
         ],
-        "phoneNumbers": [],
-        "socMedias": []
+        "phoneNumbers": [
+            "+61-302-067-2712",
+            "+61-302-313-1695",
+            "+61-302-972-7446"
+        ],
+        "socMedias": [
+            {
+                "line": "slowe302@cci.com@line.com"
+            },
+            {
+                "twitter": "slowe302@greennet.com@twitter.com"
+            },
+            {
+                "facebook": "slowe302@telstra.com@facebook.com"
+            }
+        ]
     },
+    "otherInfo": {
+        "gender": "F",
+        "dateOfBirth": "1945-11-03"
+    },
+    "totalBooked": 12,
+    "discount": 0
+});
+db.customers.insertOne(
+{
+    "customerKey": "EVERMOSL8264",
+    "name": {
+        "title": "Dr",
+        "first": "Everett",
+        "middle": null,
+        "last": "Mosley",
+        "suffix": "Jr"
+    },
+    "address": {
+        "streetAddress": "8252 Big River Boulevard",
+        "buildingName": null,
+        "floor": null,
+        "roomAptCondoFlat": null,
+        "city": "Wegowwa",
+        "stateProvince": "Gampaha",
+        "locality": "Gampaha",
+        "country": "LK",
+        "postalCode": "11562",
+        "latitude": "7.1715",
+        "longitude": "79.9665"
+    },
+    "contact": {
+        "email": "emosley303@vimpelcom.com",
+        "phone": "+61-303-848-8264",
+        "socMedia": []
+    },
+    "login": {
+        "username": "emosley",
+        "oauth2": null,
+        "password": "$2y$10$.tBPYSyCSW3a1gTcvyhDeu8Oo22h.NZEFdntDO8tKMfio6f\/dPkD."
+    },
+    "otherContact": [],
     "otherInfo": {
         "gender": "M",
-        "dateOfBirth": "1999-12-23"
-    }
+        "dateOfBirth": "1998-01-13"
+    },
+    "totalBooked": 41,
+    "discount": 0.027
 });
 db.customers.insertOne(
 {
-    "customerKey": "GRETSPEA5939",
+    "customerKey": "JENILEVY6493",
     "name": {
         "title": "Ms",
-        "first": "Greta",
-        "middle": "P",
-        "last": "Spears",
+        "first": "Jenifer",
+        "middle": "R",
+        "last": "Levy",
         "suffix": null
     },
     "address": {
-        "streetAddress": "5782 Green Bough Circle",
-        "buildingName": null,
-        "floor": null,
-        "roomAptCondoFlat": "EC",
-        "city": "Taraon",
-        "stateProvince": "Saidpur",
-        "locality": "Ghazipur",
-        "country": "IN",
-        "postalCode": "233306",
-        "latitude": "25.5995",
-        "longitude": "83.1061"
-    },
-    "contact": {
-        "phone": "+91-334-043-5939",
-        "email": "gspears334@sktelecom.com",
-        "socMedia": null
-    },
-    "login": {
-        "username": "gspears",
-        "oauth2": null,
-        "password": "$2y$10$LZQsc4Q1Sy66.XIAT4BmOur0ttGXhDjjEHpo48xVRLBxAqx8xp5XO"
-    },
-    "otherContact": {
-        "emails": [],
-        "phoneNumbers": [
-            "+91-409-235-4365",
-            "+91-905-442-3778"
-        ],
-        "socMedias": []
-    },
-    "otherInfo": {
-        "gender": "F",
-        "dateOfBirth": "1953-02-23"
-    }
-});
-db.customers.insertOne(
-{
-    "customerKey": "WAIKOCH6196",
-    "name": {
-        "title": "Ms",
-        "first": "Wai",
-        "middle": "K",
-        "last": "Koch",
-        "suffix": null
-    },
-    "address": {
-        "streetAddress": "7933 Red Ridge Drive",
+        "streetAddress": "8010 Little Ditch Drive",
         "buildingName": null,
         "floor": null,
         "roomAptCondoFlat": null,
-        "city": "Calas Covas",
-        "stateProvince": "IB",
-        "locality": "Baleares",
-        "country": "ES",
-        "postalCode": "07730",
-        "latitude": "39.9148",
-        "longitude": "3.9492"
-    },
-    "contact": {
-        "phone": "+34-335-147-6196",
-        "email": "wkoch335@kpn.com",
-        "socMedia": null
-    },
-    "login": {
-        "username": "wkoch",
-        "oauth2": null,
-        "password": "$2y$10$8iWbRbDgjfDmr2yQJVIsm.rDAVvq4X1ldL5K0eloDv4F9bHkWHLGi"
-    },
-    "otherContact": {
-        "emails": [
-            "wkoch@safaricom.net"
-        ],
-        "phoneNumbers": [
-            "+34-595-334-1903",
-            "+34-747-342-9527"
-        ],
-        "socMedias": []
-    },
-    "otherInfo": {
-        "gender": "F",
-        "dateOfBirth": "1990-01-22"
-    }
-});
-db.customers.insertOne(
-{
-    "customerKey": "MATHTRUJ8729",
-    "name": {
-        "title": "Dr",
-        "first": "Mathew",
-        "middle": null,
-        "last": "Trujillo",
-        "suffix": "DDS"
-    },
-    "address": {
-        "streetAddress": "5623 Red Mountain Circle",
-        "buildingName": null,
-        "floor": null,
-        "roomAptCondoFlat": null,
-        "city": "Blackville",
-        "stateProvince": "NB",
-        "locality": "New Brunswick",
+        "city": "Petite-Patrie Southwest",
+        "stateProvince": "QC",
+        "locality": "Petite-Patrie",
         "country": "CA",
-        "postalCode": "E9B",
-        "latitude": "46.7398",
-        "longitude": "-65.8319"
+        "postalCode": "H2S",
+        "latitude": "45.5354",
+        "longitude": "-73.6061"
     },
     "contact": {
-        "phone": "+1-336-044-8729",
-        "email": "mtrujill336@verizon.com",
-        "socMedia": null
+        "email": "jlevy304@telus.com",
+        "phone": "+61-304-837-6493",
+        "socMedia": {
+            "google": "jlevy304@telus.com@google.com"
+        }
     },
     "login": {
-        "username": "mtrujill",
-        "oauth2": null,
-        "password": "$2y$10$5NGWWOJjInHxLe41C8uv1uDSWh95xJ2LjYcP\/iXGYFz9OnPrE\/e4K"
+        "username": "jlevy",
+        "oauth2": "jlevy@google.com",
+        "password": "$2y$10$\/jQZDwxPk9d04q6ZzFVrEOjv095cABrjmKI5NaRvEQejRWjWkYWKq"
     },
     "otherContact": {
         "emails": [
-            "mtrujill@ptcl.net"
+            "jlevy304@pldt.com",
+            "jlevy304@vivendi.com"
         ],
         "phoneNumbers": [
-            "+1-803-115-6367",
-            "+1-548-561-3590"
+            "+61-304-489-3992",
+            "+61-304-192-0313"
         ],
-        "socMedias": []
+        "socMedias": [
+            {
+                "twitter": "jlevy304@pldt.com@twitter.com"
+            },
+            {
+                "line": "jlevy304@vivendi.com@line.com"
+            }
+        ]
     },
     "otherInfo": {
-        "gender": "M",
-        "dateOfBirth": "1978-01-09"
-    }
+        "gender": "F",
+        "dateOfBirth": "1977-03-26"
+    },
+    "totalBooked": 10,
+    "discount": 0
 });
 db.customers.insertOne(
 {
-    "customerKey": "INDIMCCO1379",
+    "customerKey": "ASAHUTC4273",
+    "name": {
+        "title": "Mr",
+        "first": "Asa",
+        "middle": "Q",
+        "last": "Hutchinson",
+        "suffix": null
+    },
+    "address": {
+        "streetAddress": "2469 Long River Way",
+        "buildingName": null,
+        "floor": null,
+        "roomAptCondoFlat": null,
+        "city": "San Antonio",
+        "stateProvince": "TX",
+        "locality": "Comal",
+        "country": "US",
+        "postalCode": "78266",
+        "latitude": "29.6643",
+        "longitude": "-98.3118"
+    },
+    "contact": {
+        "email": "ahutchin305@cubenet.com",
+        "phone": "+61-305-829-4273",
+        "socMedia": {
+            "skype": "ahutchin305@cubenet.com@skype.com"
+        }
+    },
+    "login": {
+        "username": "ahutchin",
+        "oauth2": "ahutchin@skype.com",
+        "password": "$2y$10$zJ5UM7PDOd4y31JKDyd9I.LoO7NZ5qjgv6cwjXVgWGJdSHoH82H4W"
+    },
+    "otherContact": {
+        "emails": [
+            "ahutchin305@ptcl.com"
+        ],
+        "phoneNumbers": [
+            "+61-305-802-5149"
+        ],
+        "socMedias": [
+            {
+                "facebook": "ahutchin305@ptcl.com@facebook.com"
+            }
+        ]
+    },
+    "otherInfo": {
+        "gender": "M",
+        "dateOfBirth": "1939-09-07"
+    },
+    "totalBooked": 3,
+    "discount": 0
+});
+db.customers.insertOne(
+{
+    "customerKey": "KEENHANS4320",
+    "name": {
+        "title": null,
+        "first": "Keena",
+        "middle": null,
+        "last": "Hansen",
+        "suffix": null
+    },
+    "address": {
+        "streetAddress": "3956 Long Bough Road",
+        "buildingName": null,
+        "floor": 13,
+        "roomAptCondoFlat": "CA",
+        "city": "Wendy",
+        "stateProvince": "England",
+        "locality": "Cambridgeshire",
+        "country": "GB",
+        "postalCode": "SG8",
+        "latitude": "52.1115",
+        "longitude": "-0.0692"
+    },
+    "contact": {
+        "email": "khansen306@sprint.com",
+        "phone": "+61-306-908-4320",
+        "socMedia": []
+    },
+    "login": {
+        "username": "khansen",
+        "oauth2": null,
+        "password": "$2y$10$nl94ICAIQmJKsXRaV1ue.uK.7AAhrgFDLm9qNRWcYIG7ZnXH09s1e"
+    },
+    "otherContact": {
+        "emails": [
+            "khansen306@daxnet.com",
+            "khansen306@turkcell.com"
+        ],
+        "phoneNumbers": [
+            "+61-306-591-2692",
+            "+61-306-110-0063"
+        ]
+    },
+    "otherInfo": {
+        "gender": "F",
+        "dateOfBirth": "2002-12-30"
+    },
+    "totalBooked": 18,
+    "discount": 0.035
+});
+db.customers.insertOne(
+{
+    "customerKey": "KELIBENN1813",
     "name": {
         "title": "Ms",
-        "first": "India",
+        "first": "Keli",
         "middle": "F",
+        "last": "Bennett",
+        "suffix": null
+    },
+    "address": {
+        "streetAddress": "2877 Green Creek Way",
+        "buildingName": null,
+        "floor": null,
+        "roomAptCondoFlat": null,
+        "city": "\u00dadavy",
+        "stateProvince": "Havl\u00ed\u010dk\u016fv Brod",
+        "locality": "Havl\u00ed\u010dk\u016fv Brod",
+        "country": "CZ",
+        "postalCode": "582 63",
+        "latitude": "49.7333",
+        "longitude": "15.8167"
+    },
+    "contact": {
+        "email": "kbennett307@kddi.com",
+        "phone": "+61-307-101-1813",
+        "socMedia": {
+            "skype": "kbennett307@kddi.com@skype.com"
+        }
+    },
+    "login": {
+        "username": "kbennett",
+        "oauth2": "kbennett@skype.com",
+        "password": "$2y$10$z7SjT5VPf1oiwU064e62WujYbe6cXDvMGoDdrKC0AJxou3CG.\/60G"
+    },
+    "otherContact": {
+        "emails": [
+            "kbennett307@bt.com"
+        ],
+        "phoneNumbers": [
+            "+61-307-477-9171"
+        ],
+        "socMedias": [
+            {
+                "linkedin": "kbennett307@bt.com@linkedin.com"
+            }
+        ]
+    },
+    "otherInfo": {
+        "gender": "F",
+        "dateOfBirth": "1987-10-04"
+    },
+    "totalBooked": 19,
+    "discount": 0
+});
+db.customers.insertOne(
+{
+    "customerKey": "TORRGRIF7782",
+    "name": {
+        "title": "Ms",
+        "first": "Torrie",
+        "middle": "F",
+        "last": "Griffin",
+        "suffix": null
+    },
+    "address": {
+        "streetAddress": "4585 Winding Mound Drive",
+        "buildingName": null,
+        "floor": null,
+        "roomAptCondoFlat": null,
+        "city": "Rivi\u00e8re-du-Loup",
+        "stateProvince": "QC",
+        "locality": "Bas-Saint-Laurent",
+        "country": "CA",
+        "postalCode": "G5R",
+        "latitude": "47.8304",
+        "longitude": "-69.5342"
+    },
+    "contact": {
+        "email": "tgriffin308@cubenet.com",
+        "phone": "+61-308-122-7782",
+        "socMedia": {
+            "skype": "tgriffin308@cubenet.com@skype.com"
+        }
+    },
+    "login": {
+        "username": "tgriffin",
+        "oauth2": "tgriffin@skype.com",
+        "password": "$2y$10$.86yLNBRvVPNBOOe\/ILlA.rx4RyGsLB73db1X1XxJjKoRXtbZefU2"
+    },
+    "otherContact": {
+        "emails": [
+            "tgriffin308@kpn.com"
+        ],
+        "phoneNumbers": [
+            "+61-308-865-1841"
+        ],
+        "socMedias": [
+            {
+                "skype": "tgriffin308@kpn.com@skype.com"
+            }
+        ]
+    },
+    "otherInfo": {
+        "gender": "F",
+        "dateOfBirth": "1963-04-03"
+    },
+    "totalBooked": 86,
+    "discount": 0.191
+});
+db.customers.insertOne(
+{
+    "customerKey": "KYMRHOD3954",
+    "name": {
+        "title": null,
+        "first": "Kym",
+        "middle": null,
+        "last": "Rhodes",
+        "suffix": null
+    },
+    "address": {
+        "streetAddress": "8521 Winding Creek Road",
+        "buildingName": null,
+        "floor": null,
+        "roomAptCondoFlat": null,
+        "city": "Sevilla",
+        "stateProvince": null,
+        "locality": null,
+        "country": "PH",
+        "postalCode": "6347",
+        "latitude": "16.5833",
+        "longitude": "120.3333"
+    },
+    "contact": {
+        "email": "krhodes309@worldnet.com",
+        "phone": "+61-309-858-3954",
+        "socMedia": []
+    },
+    "login": {
+        "username": "krhodes",
+        "oauth2": null,
+        "password": "$2y$10$jOeHJDavXofMfHec6zo4Pe0AdMCancrfKrmzI\/cESBYSg7LbklhoC"
+    },
+    "otherContact": {
+        "emails": [
+            "krhodes309@megafon.com"
+        ],
+        "phoneNumbers": [
+            "+61-309-257-7686"
+        ]
+    },
+    "otherInfo": {
+        "gender": "F",
+        "dateOfBirth": "1980-10-09"
+    },
+    "totalBooked": 21,
+    "discount": 0.076
+});
+db.customers.insertOne(
+{
+    "customerKey": "ALISTOK5580",
+    "name": {
+        "title": "Ms",
+        "first": "Ali",
+        "middle": "A",
+        "last": "Stokes",
+        "suffix": null
+    },
+    "address": {
+        "streetAddress": "1812 Red River Street",
+        "buildingName": null,
+        "floor": null,
+        "roomAptCondoFlat": null,
+        "city": "Sheringham",
+        "stateProvince": "England",
+        "locality": "Norfolk",
+        "country": "GB",
+        "postalCode": "NR26",
+        "latitude": "52.9408",
+        "longitude": "1.2093"
+    },
+    "contact": {
+        "email": "astokes310@softbank.com",
+        "phone": "+61-310-681-5580",
+        "socMedia": {
+            "google": "astokes310@softbank.com@google.com"
+        }
+    },
+    "login": {
+        "username": "astokes",
+        "oauth2": "astokes@google.com",
+        "password": "$2y$10$W073mEce2fjQV4tHQ06z1OGbYS1K7w75IHicGROqJqVd8nA5WL6re"
+    },
+    "otherContact": {
+        "emails": [
+            "astokes310@ote.com",
+            "astokes310@telecomitalia.com"
+        ],
+        "phoneNumbers": [
+            "+61-310-552-3035",
+            "+61-310-492-5706"
+        ],
+        "socMedias": [
+            {
+                "skype": "astokes310@ote.com@skype.com"
+            },
+            {
+                "facebook": "astokes310@telecomitalia.com@facebook.com"
+            }
+        ]
+    },
+    "otherInfo": {
+        "gender": "F",
+        "dateOfBirth": "1969-07-12"
+    },
+    "totalBooked": 4,
+    "discount": 0
+});
+db.customers.insertOne(
+{
+    "customerKey": "BRIDKANE5488",
+    "name": {
+        "title": "Ms",
+        "first": "Bridgett",
+        "middle": "X",
+        "last": "Kane",
+        "suffix": null
+    },
+    "address": {
+        "streetAddress": "9054 Long Canyon Street",
+        "buildingName": null,
+        "floor": null,
+        "roomAptCondoFlat": null,
+        "city": "Loureira",
+        "stateProvince": "Santa Catarina Da Serra",
+        "locality": "Leiria",
+        "country": "PT",
+        "postalCode": "2495-133",
+        "latitude": "39.66",
+        "longitude": "-8.6879"
+    },
+    "contact": {
+        "email": "bkane311@orstom.com",
+        "phone": "+61-311-252-5488",
+        "socMedia": {
+            "linkedin": "bkane311@orstom.com@linkedin.com"
+        }
+    },
+    "login": {
+        "username": "bkane",
+        "oauth2": "bkane@linkedin.com",
+        "password": "$2y$10$vQ42GrF6RWWw1C11hrdi9O\/rtc14tN5i39xL3\/OQlAXlbLQDkYWOi"
+    },
+    "otherContact": {
+        "emails": [
+            "bkane311@vodafone.com"
+        ],
+        "phoneNumbers": [
+            "+61-311-254-0855"
+        ],
+        "socMedias": [
+            {
+                "linkedin": "bkane311@vodafone.com@linkedin.com"
+            }
+        ]
+    },
+    "otherInfo": {
+        "gender": "F",
+        "dateOfBirth": "1974-07-30"
+    },
+    "totalBooked": 12,
+    "discount": 0
+});
+db.customers.insertOne(
+{
+    "customerKey": "THOMMIDD2238",
+    "name": {
+        "title": null,
+        "first": "Thomasina",
+        "middle": null,
+        "last": "Middleton",
+        "suffix": null
+    },
+    "address": {
+        "streetAddress": "3463 Big Bridge Road",
+        "buildingName": "Building 44",
+        "floor": null,
+        "roomAptCondoFlat": "F7",
+        "city": "Gabbada",
+        "stateProvince": "Narsipatnam",
+        "locality": "Visakhapatnam",
+        "country": "IN",
+        "postalCode": "531118",
+        "latitude": "17.7114",
+        "longitude": "82.592"
+    },
+    "contact": {
+        "email": "tmiddlet312@orange.com",
+        "phone": "+61-312-051-2238",
+        "socMedia": []
+    },
+    "login": {
+        "username": "tmiddlet",
+        "oauth2": null,
+        "password": "$2y$10$zNii7KNP.a1Kt7tHxCu6FOzrZEGX5OqeckwowQqZmBMcTKFkPHz\/C"
+    },
+    "otherContact": {
+        "emails": [
+            "tmiddlet312@chunghwa.com",
+            "tmiddlet312@nii.com"
+        ],
+        "phoneNumbers": [
+            "+61-312-614-8848",
+            "+61-312-146-0138"
+        ]
+    },
+    "otherInfo": {
+        "gender": "F",
+        "dateOfBirth": "1988-09-21"
+    },
+    "totalBooked": 22,
+    "discount": 0.059000000000000004
+});
+db.customers.insertOne(
+{
+    "customerKey": "SHELDAY3344",
+    "name": {
+        "title": "Mr",
+        "first": "Shelton",
+        "middle": "I",
+        "last": "Day",
+        "suffix": null
+    },
+    "address": {
+        "streetAddress": "2914 Winding Bough Drive",
+        "buildingName": null,
+        "floor": null,
+        "roomAptCondoFlat": null,
+        "city": "Engome",
+        "stateProvince": null,
+        "locality": null,
+        "country": "DO",
+        "postalCode": "10904",
+        "latitude": "18.45",
+        "longitude": "-69.9833"
+    },
+    "contact": {
+        "email": "sday313@telekom.com",
+        "phone": "+61-313-612-3344",
+        "socMedia": {
+            "facebook": "sday313@telekom.com@facebook.com"
+        }
+    },
+    "login": {
+        "username": "sday",
+        "oauth2": "sday@facebook.com",
+        "password": "$2y$10$zl.MEcL8A3hiO5L6QgxH2uWF3WOlwS8sJNfW1b0Gsa9Zim1cg.RXe"
+    },
+    "otherContact": [],
+    "otherInfo": {
+        "gender": "M",
+        "dateOfBirth": "1980-06-15"
+    },
+    "totalBooked": 8,
+    "discount": 0
+});
+db.customers.insertOne(
+{
+    "customerKey": "LACYPATT2118",
+    "name": {
+        "title": "Mr",
+        "first": "Lacy",
+        "middle": "B",
+        "last": "Patterson",
+        "suffix": null
+    },
+    "address": {
+        "streetAddress": "9873 Little Creek Road",
+        "buildingName": null,
+        "floor": null,
+        "roomAptCondoFlat": null,
+        "city": "Fork",
+        "stateProvince": "MD",
+        "locality": "Baltimore",
+        "country": "US",
+        "postalCode": "21051",
+        "latitude": "39.4731",
+        "longitude": "-76.4484"
+    },
+    "contact": {
+        "email": "lpatters314@zain.com",
+        "phone": "+61-314-039-2118",
+        "socMedia": {
+            "line": "lpatters314@zain.com@line.com"
+        }
+    },
+    "login": {
+        "username": "lpatters",
+        "oauth2": "lpatters@line.com",
+        "password": "$2y$10$N3qMpKs44BKyX0SQxSEn2uxLeyaG2J.T9ZuGm5odow5SSqHs\/\/KzC"
+    },
+    "otherContact": {
+        "emails": [
+            "lpatters314@bce.com"
+        ],
+        "phoneNumbers": [
+            "+61-314-161-1848"
+        ],
+        "socMedias": [
+            {
+                "facebook": "lpatters314@bce.com@facebook.com"
+            }
+        ]
+    },
+    "otherInfo": {
+        "gender": "M",
+        "dateOfBirth": "1986-06-09"
+    },
+    "totalBooked": 18,
+    "discount": 0
+});
+db.customers.insertOne(
+{
+    "customerKey": "DARYBRYA2038",
+    "name": {
+        "title": null,
+        "first": "Daryl",
+        "middle": null,
+        "last": "Bryan",
+        "suffix": null
+    },
+    "address": {
+        "streetAddress": "2824 Big Mound Avenue",
+        "buildingName": null,
+        "floor": 11,
+        "roomAptCondoFlat": null,
+        "city": "Godby",
+        "stateProvince": "Finstr\u00f6m",
+        "locality": "Finstr\u00f6m",
+        "country": "AX",
+        "postalCode": "22410",
+        "latitude": "60.2294",
+        "longitude": "19.982"
+    },
+    "contact": {
+        "email": "dbryan315@centurylink.com",
+        "phone": "+61-315-992-2038",
+        "socMedia": []
+    },
+    "login": {
+        "username": "dbryan",
+        "oauth2": null,
+        "password": "$2y$10$O7GG8yyeVqYWryy9G\/nmLe.e9tLv10uVamqnFdjuOeILwKXR4CXQy"
+    },
+    "otherContact": [],
+    "otherInfo": {
+        "gender": "M",
+        "dateOfBirth": "1955-01-06"
+    },
+    "totalBooked": 80,
+    "discount": 0.039
+});
+db.customers.insertOne(
+{
+    "customerKey": "MOHASTUA0052",
+    "name": {
+        "title": "Mr",
+        "first": "Mohamed",
+        "middle": "N",
+        "last": "Stuart",
+        "suffix": null
+    },
+    "address": {
+        "streetAddress": "3154 Long Bend Road",
+        "buildingName": null,
+        "floor": null,
+        "roomAptCondoFlat": null,
+        "city": "Palmers Channel",
+        "stateProvince": "NSW",
+        "locality": "New South Wales",
+        "country": "AU",
+        "postalCode": "2463",
+        "latitude": "-29.4726",
+        "longitude": "153.2191"
+    },
+    "contact": {
+        "email": "mstuart316@tata.com",
+        "phone": "+61-316-358-0052",
+        "socMedia": {
+            "line": "mstuart316@tata.com@line.com"
+        }
+    },
+    "login": {
+        "username": "mstuart",
+        "oauth2": "mstuart@line.com",
+        "password": "$2y$10$w6ClgTsDkhpuci1qoMpYUuyDliyZB0z0lgF4Po102q3WpXMj49MNa"
+    },
+    "otherContact": {
+        "emails": [
+            "mstuart316@mtn.com",
+            "mstuart316@ooredoo.com"
+        ],
+        "phoneNumbers": [
+            "+61-316-316-4051",
+            "+61-316-652-0615"
+        ],
+        "socMedias": [
+            {
+                "facebook": "mstuart316@mtn.com@facebook.com"
+            },
+            {
+                "twitter": "mstuart316@ooredoo.com@twitter.com"
+            }
+        ]
+    },
+    "otherInfo": {
+        "gender": "M",
+        "dateOfBirth": "1951-10-07"
+    },
+    "totalBooked": 16,
+    "discount": 0
+});
+db.customers.insertOne(
+{
+    "customerKey": "MAXWMCCO2403",
+    "name": {
+        "title": "Mr",
+        "first": "Maxwell",
+        "middle": "Q",
         "last": "Mccoy",
         "suffix": null
     },
     "address": {
-        "streetAddress": "5567 Blue Mountain Boulevard",
-        "buildingName": "Building 6F",
-        "floor": null,
-        "roomAptCondoFlat": null,
-        "city": "Wynona",
-        "stateProvince": "OK",
-        "locality": "Osage",
-        "country": "US",
-        "postalCode": "74084",
-        "latitude": "36.5462",
-        "longitude": "-96.3272"
-    },
-    "contact": {
-        "phone": "+1-337-482-1379",
-        "email": "imccoy337@seednet.com",
-        "socMedia": null
-    },
-    "login": {
-        "username": "imccoy",
-        "oauth2": null,
-        "password": "$2y$10$422Q\/oRgNq0XaQQelgrO4ewPhsREp.ijj0M8BZOLVPkYtkzZYWUSS"
-    },
-    "otherContact": {
-        "emails": [
-            "imccoy@ptcl.net",
-            "imccoy@jio.net"
-        ],
-        "phoneNumbers": [
-            "+1-455-137-0523",
-            "+1-48-493-6295",
-            "+1-453-114-7215"
-        ],
-        "socMedias": []
-    },
-    "otherInfo": {
-        "gender": "F",
-        "dateOfBirth": "1993-12-04"
-    }
-});
-db.customers.insertOne(
-{
-    "customerKey": "AMOSCOOP2951",
-    "name": {
-        "title": "Mr",
-        "first": "Amos",
-        "middle": "X",
-        "last": "Cooper",
-        "suffix": null
-    },
-    "address": {
-        "streetAddress": "857 Winding Woods Street",
+        "streetAddress": "3443 Long Ditch Avenue",
         "buildingName": null,
         "floor": null,
         "roomAptCondoFlat": null,
-        "city": "Kinnell",
-        "stateProvince": "Scotland",
-        "locality": "Stirling",
-        "country": "GB",
-        "postalCode": "FK21",
-        "latitude": "56.4657",
-        "longitude": "-4.321"
-    },
-    "contact": {
-        "phone": "+44-338-311-2951",
-        "email": "acooper338@seednet.com",
-        "socMedia": null
-    },
-    "login": {
-        "username": "acooper",
-        "oauth2": null,
-        "password": "$2y$10$cctNDvHDNYlvw4if2Ff3guosi3V0j7HEZqF7ccIEgjFjAjwBDbGi."
-    },
-    "otherContact": {
-        "emails": [
-            "acooper@att.net",
-            "acooper@airtel.net"
-        ],
-        "phoneNumbers": [],
-        "socMedias": []
-    },
-    "otherInfo": {
-        "gender": "M",
-        "dateOfBirth": "1940-01-21"
-    }
-});
-db.customers.insertOne(
-{
-    "customerKey": "SHONWOOD2275",
-    "name": {
-        "title": null,
-        "first": "Shon",
-        "middle": null,
-        "last": "Woodward",
-        "suffix": null
-    },
-    "address": {
-        "streetAddress": "1040 Winding Stream Ride",
-        "buildingName": null,
-        "floor": null,
-        "roomAptCondoFlat": null,
-        "city": "Lianga",
+        "city": "Chiesanuova",
         "stateProvince": null,
         "locality": null,
-        "country": "PH",
-        "postalCode": "8307",
-        "latitude": "8.6336",
-        "longitude": "126.0947"
+        "country": "SM",
+        "postalCode": "47894",
+        "latitude": "43.9167",
+        "longitude": "12.4167"
     },
     "contact": {
-        "phone": "+63-339-868-2275",
-        "email": "swoodwar339@icom.com",
-        "socMedia": null
-    },
-    "login": {
-        "username": "swoodwar",
-        "oauth2": null,
-        "password": "$2y$10$YP1rqhBpKBq\/fnjFkexcZ.n1hPGZYVuIJm1HkvJURH1vDPScOSdAe"
-    },
-    "otherContact": {
-        "emails": [
-            "swoodwar@vodafone.net",
-            "swoodwar@bt.net"
-        ],
-        "phoneNumbers": [
-            "+63-607-129-5104",
-            "+63-304-492-0006"
-        ],
-        "socMedias": []
-    },
-    "otherInfo": {
-        "gender": "M",
-        "dateOfBirth": "1968-12-12"
-    }
-});
-db.customers.insertOne(
-{
-    "customerKey": "DAHLBARN4747",
-    "name": {
-        "title": "Ms",
-        "first": "Dahlia",
-        "middle": "G",
-        "last": "Barnett",
-        "suffix": null
-    },
-    "address": {
-        "streetAddress": "8235 Green Canyon Circle",
-        "buildingName": "Building E7",
-        "floor": null,
-        "roomAptCondoFlat": null,
-        "city": "Courtenay Central",
-        "stateProvince": "BC",
-        "locality": "Courtenay",
-        "country": "CA",
-        "postalCode": "V9N",
-        "latitude": "49.6585",
-        "longitude": "-124.9835"
-    },
-    "contact": {
-        "phone": "+1-340-119-4747",
-        "email": "dbarnett340@tata.com",
+        "email": "mmccoy317@bt.com",
+        "phone": "+61-317-130-2403",
         "socMedia": {
-            "facebook": "dbarnett@facebook.com"
+            "facebook": "mmccoy317@bt.com@facebook.com"
         }
     },
     "login": {
-        "username": "dbarnett",
-        "oauth2": "dbarnett@facebook.com",
-        "password": "$2y$10$\/jcDYPPia86\/20kJglAVF.O7EXFN7sKI0VZ0JB.AoequfkNqzf\/BO"
+        "username": "mmccoy",
+        "oauth2": "mmccoy@facebook.com",
+        "password": "$2y$10$seQ6uZoe1ZiLwo0KU6eqKuG6zUUrGbv3.psYSG839SUuJSSlB7fpi"
     },
     "otherContact": {
         "emails": [
-            "dbarnett@sprint.net"
+            "mmccoy317@tt.com"
         ],
         "phoneNumbers": [
-            "+1-103-036-5758",
-            "+1-246-645-5064"
+            "+61-317-468-1604"
         ],
-        "socMedias": {
-            "google": "dbarnett@google.com"
-        }
+        "socMedias": [
+            {
+                "google": "mmccoy317@tt.com@google.com"
+            }
+        ]
     },
     "otherInfo": {
-        "gender": "F",
-        "dateOfBirth": "1947-04-27"
-    }
+        "gender": "M",
+        "dateOfBirth": "1988-05-27"
+    },
+    "totalBooked": 9,
+    "discount": 0
 });
 db.customers.insertOne(
 {
-    "customerKey": "TYESHART7980",
-    "name": {
-        "title": "Ms",
-        "first": "Tyesha",
-        "middle": "F",
-        "last": "Hartman",
-        "suffix": null
-    },
-    "address": {
-        "streetAddress": "6629 Blue Bough Way",
-        "buildingName": null,
-        "floor": null,
-        "roomAptCondoFlat": null,
-        "city": "Chiny Jamoigne",
-        "stateProvince": "WAL",
-        "locality": "Luxembourg",
-        "country": "BE",
-        "postalCode": "6810",
-        "latitude": "49.7",
-        "longitude": "5.4167"
-    },
-    "contact": {
-        "phone": "+32-341-283-7980",
-        "email": "thartman341@vimpelcom.com",
-        "socMedia": null
-    },
-    "login": {
-        "username": "thartman",
-        "oauth2": null,
-        "password": "$2y$10$YjeWNpCtiCk4WBv2SKkMRujcbNx8Y3A0LMqyJ6SQ516l3f\/Qfrh26"
-    },
-    "otherContact": {
-        "emails": [],
-        "phoneNumbers": [
-            "+32-711-595-6433"
-        ],
-        "socMedias": []
-    },
-    "otherInfo": {
-        "gender": "F",
-        "dateOfBirth": "1985-08-20"
-    }
-});
-db.customers.insertOne(
-{
-    "customerKey": "KEVIGALV7183",
+    "customerKey": "LATAALVA9488",
     "name": {
         "title": null,
-        "first": "Kevin",
+        "first": "Latarsha",
         "middle": null,
-        "last": "Galvan",
+        "last": "Alvarez",
         "suffix": null
     },
     "address": {
-        "streetAddress": "3298 Little Gully Boulevard",
+        "streetAddress": "6115 Green Canyon Circle",
         "buildingName": null,
         "floor": null,
-        "roomAptCondoFlat": null,
-        "city": "Heugh-head",
-        "stateProvince": "Scotland",
-        "locality": "Aberdeenshire",
-        "country": "GB",
-        "postalCode": "AB36",
-        "latitude": "57.197",
-        "longitude": "-3.0687"
-    },
-    "contact": {
-        "phone": "+44-342-817-7183",
-        "email": "kgalvan342@tt.com",
-        "socMedia": null
-    },
-    "login": {
-        "username": "kgalvan",
-        "oauth2": null,
-        "password": "$2y$10$Qy6ddpbHgz3.TpJpzIgyoO8IMAedss8LTaw2VxZrRG0QU0m3wq3Lu"
-    },
-    "otherContact": {
-        "emails": [
-            "kgalvan@chunghwa.net"
-        ],
-        "phoneNumbers": [
-            "+44-143-043-5352"
-        ],
-        "socMedias": []
-    },
-    "otherInfo": {
-        "gender": "M",
-        "dateOfBirth": "1966-03-12"
-    }
-});
-db.customers.insertOne(
-{
-    "customerKey": "SHANBLAK5181",
-    "name": {
-        "title": "Ms",
-        "first": "Shani",
-        "middle": "X",
-        "last": "Blake",
-        "suffix": null
-    },
-    "address": {
-        "streetAddress": "7669 Little Bough Circle",
-        "buildingName": null,
-        "floor": 12,
-        "roomAptCondoFlat": null,
-        "city": "\u0418\u0433\u043b\u0438\u043d\u043e 1",
-        "stateProvince": "\u0418\u0413\u041b\u0418\u041d\u0421\u041a\u0418\u0419 \u0420\u0410\u0419\u041e\u041d",
-        "locality": "\u0418\u0413\u041b\u0418\u041d\u0421\u041a\u0418\u0419 \u0420\u0410\u0419\u041e\u041d",
-        "country": "RU",
-        "postalCode": "452411",
-        "latitude": "54.7314",
-        "longitude": "56.4873"
-    },
-    "contact": {
-        "phone": "+7-343-749-5181",
-        "email": "sblake343@lookdata.com",
-        "socMedia": null
-    },
-    "login": {
-        "username": "sblake",
-        "oauth2": null,
-        "password": "$2y$10$FUPt2nj8qHlhWNsYc.1twesryC8AdJnKVNjMGl6h5GMRd9EAd64Z."
-    },
-    "otherContact": {
-        "emails": [],
-        "phoneNumbers": [],
-        "socMedias": []
-    },
-    "otherInfo": {
-        "gender": "F",
-        "dateOfBirth": "1954-03-14"
-    }
-});
-db.customers.insertOne(
-{
-    "customerKey": "MICHGILM6777",
-    "name": {
-        "title": "Mr",
-        "first": "Micheal",
-        "middle": "M",
-        "last": "Gilmore",
-        "suffix": null
-    },
-    "address": {
-        "streetAddress": "2591 Winding Gully Way",
-        "buildingName": null,
-        "floor": null,
-        "roomAptCondoFlat": null,
-        "city": "Malta",
-        "stateProvince": "OH",
-        "locality": "Morgan",
-        "country": "US",
-        "postalCode": "43758",
-        "latitude": "39.6482",
-        "longitude": "-81.9127"
-    },
-    "contact": {
-        "phone": "+1-344-505-6777",
-        "email": "mgilmore344@belgacom.com",
-        "socMedia": null
-    },
-    "login": {
-        "username": "mgilmore",
-        "oauth2": null,
-        "password": "$2y$10$RmFfwQFWBaLoQiIE7nrDrOe3iKUguPoQgJJOBZWuyJ4npmW.M4FHa"
-    },
-    "otherContact": {
-        "emails": [
-            "mgilmore@telefonica.net",
-            "mgilmore@pldt.net"
-        ],
-        "phoneNumbers": [
-            "+1-318-027-6874"
-        ],
-        "socMedias": []
-    },
-    "otherInfo": {
-        "gender": "M",
-        "dateOfBirth": "1963-09-15"
-    }
-});
-db.customers.insertOne(
-{
-    "customerKey": "TERRHALL1807",
-    "name": {
-        "title": "Ms",
-        "first": "Terra",
-        "middle": "R",
-        "last": "Hall",
-        "suffix": null
-    },
-    "address": {
-        "streetAddress": "7305 Short Gulch Boulevard",
-        "buildingName": null,
-        "floor": null,
-        "roomAptCondoFlat": null,
-        "city": "Suhans",
-        "stateProvince": "Weir",
-        "locality": "Bharatpur",
-        "country": "IN",
-        "postalCode": "321408",
-        "latitude": "26.5817",
-        "longitude": "76.5195"
-    },
-    "contact": {
-        "phone": "+91-346-662-1807",
-        "email": "thall346@tata.com",
-        "socMedia": null
-    },
-    "login": {
-        "username": "thall",
-        "oauth2": null,
-        "password": "$2y$10$KQy.PCkY22zimcmWegwEh.JyXB8MLRi4QGDQtwcnwzG6m6NNgb5se"
-    },
-    "otherContact": {
-        "emails": [
-            "thall@ptcl.net"
-        ],
-        "phoneNumbers": [
-            "+91-472-253-1199"
-        ],
-        "socMedias": []
-    },
-    "otherInfo": {
-        "gender": "F",
-        "dateOfBirth": "1984-02-06"
-    }
-});
-db.customers.insertOne(
-{
-    "customerKey": "ROYACHAP9402",
-    "name": {
-        "title": "Mr",
-        "first": "Royal",
-        "middle": "A",
-        "last": "Chapman",
-        "suffix": null
-    },
-    "address": {
-        "streetAddress": "8758 Blue Mound Circle",
-        "buildingName": null,
-        "floor": null,
-        "roomAptCondoFlat": null,
-        "city": "Paget",
-        "stateProvince": "Paget Parish",
-        "locality": "Paget Parish",
-        "country": "BM",
-        "postalCode": "PG 01",
-        "latitude": "32.2783",
-        "longitude": "-64.7817"
-    },
-    "contact": {
-        "phone": "+1441-347-056-9402",
-        "email": "rchapman347@daxnet.com",
-        "socMedia": null
-    },
-    "login": {
-        "username": "rchapman",
-        "oauth2": null,
-        "password": "$2y$10$cKNedZVxmOez6EH6Ne6QjOpqr7GJdBZSzBeN0x8mrfBE\/DLmpM5yq"
-    },
-    "otherContact": {
-        "emails": [
-            "rchapman@mtn.net",
-            "rchapman@ntt.net"
-        ],
-        "phoneNumbers": [
-            "+1441-959-929-7470",
-            "+1441-594-651-6596"
-        ],
-        "socMedias": []
-    },
-    "otherInfo": {
-        "gender": "M",
-        "dateOfBirth": "1981-04-26"
-    }
-});
-db.customers.insertOne(
-{
-    "customerKey": "DELMLARS7542",
-    "name": {
-        "title": null,
-        "first": "Delmer",
-        "middle": null,
-        "last": "Larsen",
-        "suffix": null
-    },
-    "address": {
-        "streetAddress": "9828 Little Stream Street",
-        "buildingName": null,
-        "floor": null,
-        "roomAptCondoFlat": null,
-        "city": "Wisemans Ferry",
-        "stateProvince": "NSW",
-        "locality": "RICHMOND",
+        "roomAptCondoFlat": "66",
+        "city": "Gympie",
+        "stateProvince": "QLD",
+        "locality": "SUNSHINE MT ISA",
         "country": "AU",
-        "postalCode": "2775",
-        "latitude": "-33.3833",
-        "longitude": "150.9833"
+        "postalCode": "4570",
+        "latitude": "-26.1898",
+        "longitude": "152.665"
     },
     "contact": {
-        "phone": "+61-348-354-7542",
-        "email": "dlarsen348@pldt.com",
-        "socMedia": null
+        "email": "lalvarez318@sprint.com",
+        "phone": "+61-318-761-9488",
+        "socMedia": []
     },
     "login": {
-        "username": "dlarsen",
+        "username": "lalvarez",
         "oauth2": null,
-        "password": "$2y$10$NuZKr0Ub9Hg3D.usMeCxQ.zm3WpuWexH8ZKHcz9\/wW3InYhFcmdP6"
+        "password": "$2y$10$ZyydmfcRBCAd0JDUxifspeC44q3\/4L7Fn\/YsmfW5tiZ3UzX56HeuS"
     },
     "otherContact": {
         "emails": [
-            "dlarsen@bce.net"
+            "lalvarez318@uunet.com",
+            "lalvarez318@millicom.com",
+            "lalvarez318@turkcell.com"
         ],
         "phoneNumbers": [
-            "+61-892-850-1233",
-            "+61-338-391-8116"
-        ],
-        "socMedias": []
-    },
-    "otherInfo": {
-        "gender": "M",
-        "dateOfBirth": "1972-02-05"
-    }
-});
-db.customers.insertOne(
-{
-    "customerKey": "GALEKEMP6205",
-    "name": {
-        "title": "Ms",
-        "first": "Gale",
-        "middle": "P",
-        "last": "Kemp",
-        "suffix": null
-    },
-    "address": {
-        "streetAddress": "4098 Little River Ride",
-        "buildingName": null,
-        "floor": null,
-        "roomAptCondoFlat": null,
-        "city": "North York (North Park \/ Maple Leaf Park \/ Upwood Park)",
-        "stateProvince": "ON",
-        "locality": "North York ",
-        "country": "CA",
-        "postalCode": "M6L",
-        "latitude": "43.7137",
-        "longitude": "-79.4869"
-    },
-    "contact": {
-        "phone": "+1-350-183-6205",
-        "email": "gkemp350@relcom.com",
-        "socMedia": {
-            "line": "gkemp@line.com"
-        }
-    },
-    "login": {
-        "username": "gkemp",
-        "oauth2": "gkemp@line.com",
-        "password": "$2y$10$Zy\/aXbXrmVzyFmZYrw2VM.ujerKiTnFFBHpq9KHBHrYWtD.Cte8UG"
-    },
-    "otherContact": {
-        "emails": [],
-        "phoneNumbers": [],
-        "socMedias": {
-            "google": "gkemp@google.com",
-            "skype": "gkemp@skype.com"
-        }
+            "+61-318-736-6013",
+            "+61-318-257-2642",
+            "+61-318-515-7583"
+        ]
     },
     "otherInfo": {
         "gender": "F",
-        "dateOfBirth": "1934-02-08"
-    }
+        "dateOfBirth": "1977-01-27"
+    },
+    "totalBooked": 18,
+    "discount": 0.016
 });
 db.customers.insertOne(
 {
-    "customerKey": "REFUTANG6793",
+    "customerKey": "BETHTRUO5396",
     "name": {
-        "title": null,
-        "first": "Refugio",
-        "middle": null,
-        "last": "Tang",
+        "title": "Ms",
+        "first": "Bethanie",
+        "middle": "E",
+        "last": "Truong",
         "suffix": null
     },
     "address": {
-        "streetAddress": "287 Big Bough Boulevard",
+        "streetAddress": "3211 Short Ridge Ride",
         "buildingName": null,
         "floor": null,
         "roomAptCondoFlat": null,
-        "city": "Venadillo",
-        "stateProvince": "Venadillo",
-        "locality": "Venadillo",
-        "country": "CO",
-        "postalCode": "730587",
-        "latitude": "4.7193",
-        "longitude": "-74.9292"
+        "city": "Au\u00dferschmirn",
+        "stateProvince": "Schmirn",
+        "locality": "Politischer Bezirk Innsbruck Land",
+        "country": "AT",
+        "postalCode": "6154",
+        "latitude": "47.0833",
+        "longitude": "11.5333"
     },
     "contact": {
-        "phone": "+57-351-475-6793",
-        "email": "rtang351@maxcomm.com",
-        "socMedia": null
+        "email": "btruong319@seednet.com",
+        "phone": "+61-319-066-5396",
+        "socMedia": {
+            "line": "btruong319@seednet.com@line.com"
+        }
     },
     "login": {
-        "username": "rtang",
-        "oauth2": null,
-        "password": "$2y$10$Q9.liUeZ8ahUafX6IN6pOuMF0O3jnbu3Vm2Nc1G9ATLlMCrnAUYMe"
+        "username": "btruong",
+        "oauth2": "btruong@line.com",
+        "password": "$2y$10$\/9Pj\/eepsRDn.mNsyDcwzeEhuRrF2JcyNZSHyJgOCrmWg5gcP5reW"
     },
     "otherContact": {
         "emails": [
-            "rtang@lguplus.net",
-            "rtang@seednet.net",
-            "rtang@vivendi.net"
+            "btruong319@lguplus.com",
+            "btruong319@tm.com"
         ],
         "phoneNumbers": [
-            "+57-608-829-5965",
-            "+57-274-163-2578"
+            "+61-319-774-8498",
+            "+61-319-945-6645"
         ],
-        "socMedias": []
+        "socMedias": [
+            {
+                "linkedin": "btruong319@lguplus.com@linkedin.com"
+            },
+            {
+                "facebook": "btruong319@tm.com@facebook.com"
+            }
+        ]
     },
     "otherInfo": {
-        "gender": "M",
-        "dateOfBirth": "1937-03-08"
-    }
+        "gender": "F",
+        "dateOfBirth": "1996-01-23"
+    },
+    "totalBooked": 9,
+    "discount": 0
 });
 db.customers.insertOne(
 {
-    "customerKey": "MAURSTAR7895",
+    "customerKey": "RENAALLE1379",
+    "name": {
+        "title": "Ms",
+        "first": "Renato",
+        "middle": "H",
+        "last": "Allen",
+        "suffix": null
+    },
+    "address": {
+        "streetAddress": "950 Big Woods Ride",
+        "buildingName": null,
+        "floor": null,
+        "roomAptCondoFlat": null,
+        "city": "Chhipaner",
+        "stateProvince": "Nasrullaganj",
+        "locality": "Sehore",
+        "country": "IN",
+        "postalCode": "466331",
+        "latitude": "22.5801",
+        "longitude": "77.1487"
+    },
+    "contact": {
+        "email": "rallen320@telekom.com",
+        "phone": "+61-320-128-1379",
+        "socMedia": {
+            "facebook": "rallen320@telekom.com@facebook.com"
+        }
+    },
+    "login": {
+        "username": "rallen",
+        "oauth2": "rallen@facebook.com",
+        "password": "$2y$10$RNSslAxOnDDDsJA8HW6Lee9\/rawJvRGQf5TIpuOFc63ihX2zP07aG"
+    },
+    "otherContact": {
+        "emails": [
+            "rallen320@singtel.com"
+        ],
+        "phoneNumbers": [
+            "+61-320-704-6333"
+        ],
+        "socMedias": [
+            {
+                "google": "rallen320@singtel.com@google.com"
+            }
+        ]
+    },
+    "otherInfo": {
+        "gender": "X",
+        "dateOfBirth": "1964-01-30"
+    },
+    "totalBooked": 14,
+    "discount": 0
+});
+db.customers.insertOne(
+{
+    "customerKey": "THUHOWE7470",
+    "name": {
+        "title": null,
+        "first": "Thu",
+        "middle": null,
+        "last": "Howell",
+        "suffix": null
+    },
+    "address": {
+        "streetAddress": "8146 Red Gully Drive",
+        "buildingName": null,
+        "floor": null,
+        "roomAptCondoFlat": null,
+        "city": "Capit\u00e3o Le\u00f4nidas Marques",
+        "stateProvince": "Parana",
+        "locality": "Parana",
+        "country": "BR",
+        "postalCode": "85790-000",
+        "latitude": "-25.48",
+        "longitude": "-53.588"
+    },
+    "contact": {
+        "email": "thowell321@kpn.com",
+        "phone": "+61-321-313-7470",
+        "socMedia": []
+    },
+    "login": {
+        "username": "thowell",
+        "oauth2": null,
+        "password": "$2y$10$Jw2WM1Z\/eIFgOfHl7h.svemG\/cFfsVaIKEJB6NM5KrPma8M7C4vG."
+    },
+    "otherContact": [],
+    "otherInfo": {
+        "gender": "F",
+        "dateOfBirth": "2002-03-14"
+    },
+    "totalBooked": 11,
+    "discount": 0.021
+});
+db.customers.insertOne(
+{
+    "customerKey": "NATHYANG0489",
     "name": {
         "title": "Mr",
-        "first": "Maurice",
-        "middle": "P",
+        "first": "Nathanael",
+        "middle": "S",
+        "last": "Yang",
+        "suffix": null
+    },
+    "address": {
+        "streetAddress": "9119 Big Bridge Street",
+        "buildingName": null,
+        "floor": null,
+        "roomAptCondoFlat": null,
+        "city": "Silputa Tiniali",
+        "stateProvince": "Diphu",
+        "locality": "Karbi Anglong",
+        "country": "IN",
+        "postalCode": "782482",
+        "latitude": "26.05",
+        "longitude": "92.8679"
+    },
+    "contact": {
+        "email": "nyang322@belgacom.com",
+        "phone": "+61-322-327-0489",
+        "socMedia": {
+            "skype": "nyang322@belgacom.com@skype.com"
+        }
+    },
+    "login": {
+        "username": "nyang",
+        "oauth2": "nyang@skype.com",
+        "password": "$2y$10$ksgC4BHTZ5TpyciIHUTE3OxXCTiHkL0ze\/gmnZeHZQNM1pQ5No1CO"
+    },
+    "otherContact": {
+        "emails": [
+            "nyang322@vodafone.com"
+        ],
+        "phoneNumbers": [
+            "+61-322-003-5210"
+        ],
+        "socMedias": [
+            {
+                "facebook": "nyang322@vodafone.com@facebook.com"
+            }
+        ]
+    },
+    "otherInfo": {
+        "gender": "M",
+        "dateOfBirth": "1996-09-13"
+    },
+    "totalBooked": 40,
+    "discount": 0.076
+});
+db.customers.insertOne(
+{
+    "customerKey": "FRANSWEE7619",
+    "name": {
+        "title": "Mr",
+        "first": "Franklin",
+        "middle": "N",
+        "last": "Sweeney",
+        "suffix": null
+    },
+    "address": {
+        "streetAddress": "3560 Green Gulch Avenue",
+        "buildingName": null,
+        "floor": null,
+        "roomAptCondoFlat": null,
+        "city": "Rubu\u013ci",
+        "stateProvince": "Ozolaines pag.",
+        "locality": "Ozolaines pag.",
+        "country": "LV",
+        "postalCode": "LV-4633",
+        "latitude": "56.4523",
+        "longitude": "27.2135"
+    },
+    "contact": {
+        "email": "fsweeney323@telenor.com",
+        "phone": "+61-323-212-7619",
+        "socMedia": {
+            "skype": "fsweeney323@telenor.com@skype.com"
+        }
+    },
+    "login": {
+        "username": "fsweeney",
+        "oauth2": "fsweeney@skype.com",
+        "password": "$2y$10$ItpSGADceLLBB23ALrzW4O6wTHqgRFIGg724WP7A48uHwkWQWEJiS"
+    },
+    "otherContact": {
+        "emails": [
+            "fsweeney323@optus.com"
+        ],
+        "phoneNumbers": [
+            "+61-323-170-0449"
+        ],
+        "socMedias": [
+            {
+                "linkedin": "fsweeney323@optus.com@linkedin.com"
+            }
+        ]
+    },
+    "otherInfo": {
+        "gender": "M",
+        "dateOfBirth": "1956-05-26"
+    },
+    "totalBooked": 6,
+    "discount": 0
+});
+db.customers.insertOne(
+{
+    "customerKey": "PERRDOUG5404",
+    "name": {
+        "title": null,
+        "first": "Perry",
+        "middle": null,
+        "last": "Dougherty",
+        "suffix": null
+    },
+    "address": {
+        "streetAddress": "6912 Big Tree Way",
+        "buildingName": null,
+        "floor": 4,
+        "roomAptCondoFlat": "D0",
+        "city": "Castlegar",
+        "stateProvince": "BC",
+        "locality": "British Columbia",
+        "country": "CA",
+        "postalCode": "V1N",
+        "latitude": "49.2998",
+        "longitude": "-117.6689"
+    },
+    "contact": {
+        "email": "pdougher324@airtel.com",
+        "phone": "+61-324-941-5404",
+        "socMedia": []
+    },
+    "login": {
+        "username": "pdougher",
+        "oauth2": null,
+        "password": "$2y$10$chSOBRGmtMXgMClrEVD96.tIh18gzOLn\/O17d3x0O.TN9hrB7nTDu"
+    },
+    "otherContact": {
+        "emails": [
+            "pdougher324@bifty.com",
+            "pdougher324@kddi.com",
+            "pdougher324@turkcell.com"
+        ],
+        "phoneNumbers": [
+            "+61-324-927-4396",
+            "+61-324-008-9282",
+            "+61-324-072-4538"
+        ]
+    },
+    "otherInfo": {
+        "gender": "M",
+        "dateOfBirth": "1933-06-20"
+    },
+    "totalBooked": 42,
+    "discount": 0.09
+});
+db.customers.insertOne(
+{
+    "customerKey": "ALLERUSS1620",
+    "name": {
+        "title": "Ms",
+        "first": "Alleen",
+        "middle": "O",
+        "last": "Russo",
+        "suffix": null
+    },
+    "address": {
+        "streetAddress": "512 Short Creek Road",
+        "buildingName": "Building 49",
+        "floor": null,
+        "roomAptCondoFlat": null,
+        "city": "Dolores",
+        "stateProvince": "HID",
+        "locality": "Mineral del Monte",
+        "country": "MX",
+        "postalCode": "42134",
+        "latitude": "19.9842",
+        "longitude": "-98.6128"
+    },
+    "contact": {
+        "email": "arusso325@glasnet.com",
+        "phone": "+61-325-958-1620",
+        "socMedia": {
+            "skype": "arusso325@glasnet.com@skype.com"
+        }
+    },
+    "login": {
+        "username": "arusso",
+        "oauth2": "arusso@skype.com",
+        "password": "$2y$10$uMGnEFZ1MPofdcBV8pcoSOx2hS2lKu14athxIOs0X0pVjoRRFqige"
+    },
+    "otherContact": [],
+    "otherInfo": {
+        "gender": "F",
+        "dateOfBirth": "1980-04-24"
+    },
+    "totalBooked": 7,
+    "discount": 0
+});
+db.customers.insertOne(
+{
+    "customerKey": "JOSUMERR1857",
+    "name": {
+        "title": "Mr",
+        "first": "Josue",
+        "middle": "L",
+        "last": "Merritt",
+        "suffix": null
+    },
+    "address": {
+        "streetAddress": "1321 Green Canyon Avenue",
+        "buildingName": null,
+        "floor": null,
+        "roomAptCondoFlat": null,
+        "city": "Whitfield",
+        "stateProvince": "England",
+        "locality": "Northumberland",
+        "country": "GB",
+        "postalCode": "NE47",
+        "latitude": "54.9",
+        "longitude": "-2.3333"
+    },
+    "contact": {
+        "email": "jmerritt326@turkcell.com",
+        "phone": "+61-326-482-1857",
+        "socMedia": {
+            "line": "jmerritt326@turkcell.com@line.com"
+        }
+    },
+    "login": {
+        "username": "jmerritt",
+        "oauth2": "jmerritt@line.com",
+        "password": "$2y$10$pKDydgPbmjm.6acRmbV.seVqI6QDZ2mRWMPvWBCzZizDNI70FV4mO"
+    },
+    "otherContact": {
+        "emails": [
+            "jmerritt326@bifty.com",
+            "jmerritt326@optus.com"
+        ],
+        "phoneNumbers": [
+            "+61-326-019-1647",
+            "+61-326-872-4405"
+        ],
+        "socMedias": [
+            {
+                "skype": "jmerritt326@bifty.com@skype.com"
+            },
+            {
+                "google": "jmerritt326@optus.com@google.com"
+            }
+        ]
+    },
+    "otherInfo": {
+        "gender": "M",
+        "dateOfBirth": "1998-10-02"
+    },
+    "totalBooked": 9,
+    "discount": 0
+});
+db.customers.insertOne(
+{
+    "customerKey": "DEWIWALL5536",
+    "name": {
+        "title": null,
+        "first": "Dewitt",
+        "middle": null,
+        "last": "Wall",
+        "suffix": null
+    },
+    "address": {
+        "streetAddress": "7364 Green Mountain Road",
+        "buildingName": null,
+        "floor": null,
+        "roomAptCondoFlat": null,
+        "city": "Boveresse",
+        "stateProvince": "NE",
+        "locality": "Val-de-Travers District",
+        "country": "CH",
+        "postalCode": "2113",
+        "latitude": "46.9182",
+        "longitude": "6.6006"
+    },
+    "contact": {
+        "email": "dwall327@tata.com",
+        "phone": "+61-327-858-5536",
+        "socMedia": []
+    },
+    "login": {
+        "username": "dwall",
+        "oauth2": null,
+        "password": "$2y$10$53qfvWRFpc\/OtEJPQ2DTy.T0zBAA2xvug644nf2GdgQbL8Nv8i.3C"
+    },
+    "otherContact": {
+        "emails": [
+            "dwall327@bifty.com",
+            "dwall327@bce.com"
+        ],
+        "phoneNumbers": [
+            "+61-327-040-0949",
+            "+61-327-562-4647"
+        ]
+    },
+    "otherInfo": {
+        "gender": "M",
+        "dateOfBirth": "1986-05-29"
+    },
+    "totalBooked": 30,
+    "discount": 0.084
+});
+db.customers.insertOne(
+{
+    "customerKey": "HANSWHIT7412",
+    "name": {
+        "title": "Mr",
+        "first": "Hans",
+        "middle": "G",
+        "last": "White",
+        "suffix": null
+    },
+    "address": {
+        "streetAddress": "8132 Red Mound Drive",
+        "buildingName": null,
+        "floor": null,
+        "roomAptCondoFlat": null,
+        "city": "Khopati",
+        "stateProvince": "Debitola",
+        "locality": "Dhubri",
+        "country": "IN",
+        "postalCode": "783339",
+        "latitude": "26.3833",
+        "longitude": "91.9667"
+    },
+    "contact": {
+        "email": "hwhite328@millicom.com",
+        "phone": "+61-328-184-7412",
+        "socMedia": {
+            "skype": "hwhite328@millicom.com@skype.com"
+        }
+    },
+    "login": {
+        "username": "hwhite",
+        "oauth2": "hwhite@skype.com",
+        "password": "$2y$10$PV7rclbDPFlqY1YkGuXz1uixxSnqJOfj1nv0ZeQO8PoDkG6GmpZ8."
+    },
+    "otherContact": {
+        "emails": [
+            "hwhite328@oi.com",
+            "hwhite328@maxcomm.com"
+        ],
+        "phoneNumbers": [
+            "+61-328-288-2543",
+            "+61-328-946-0560"
+        ],
+        "socMedias": [
+            {
+                "line": "hwhite328@oi.com@line.com"
+            },
+            {
+                "facebook": "hwhite328@maxcomm.com@facebook.com"
+            }
+        ]
+    },
+    "otherInfo": {
+        "gender": "M",
+        "dateOfBirth": "1949-12-30"
+    },
+    "totalBooked": 15,
+    "discount": 0
+});
+db.customers.insertOne(
+{
+    "customerKey": "WINSYANG7360",
+    "name": {
+        "title": "Mr",
+        "first": "Winston",
+        "middle": "C",
+        "last": "Yang",
+        "suffix": null
+    },
+    "address": {
+        "streetAddress": "2085 Blue Bend Street",
+        "buildingName": null,
+        "floor": null,
+        "roomAptCondoFlat": null,
+        "city": "Szklana",
+        "stateProvince": "Sierakowice",
+        "locality": "Powiat kartuski",
+        "country": "PL",
+        "postalCode": "83-334",
+        "latitude": "54.3139",
+        "longitude": "17.9417"
+    },
+    "contact": {
+        "email": "wyang329@vodafone.com",
+        "phone": "+61-329-161-7360",
+        "socMedia": {
+            "facebook": "wyang329@vodafone.com@facebook.com"
+        }
+    },
+    "login": {
+        "username": "wyang",
+        "oauth2": "wyang@facebook.com",
+        "password": "$2y$10$qTiAIURdKKUSmupIOlfiNuMj3U\/6G.gR2z9dacuVzJWLN47pA.efK"
+    },
+    "otherContact": {
+        "emails": [
+            "wyang329@openworld.com",
+            "wyang329@frontier.com"
+        ],
+        "phoneNumbers": [
+            "+61-329-269-1085",
+            "+61-329-257-5982"
+        ],
+        "socMedias": [
+            {
+                "line": "wyang329@openworld.com@line.com"
+            },
+            {
+                "google": "wyang329@frontier.com@google.com"
+            }
+        ]
+    },
+    "otherInfo": {
+        "gender": "M",
+        "dateOfBirth": "1942-02-17"
+    },
+    "totalBooked": 77,
+    "discount": 0.121
+});
+db.customers.insertOne(
+{
+    "customerKey": "NATAHUBB8885",
+    "name": {
+        "title": null,
+        "first": "Natashia",
+        "middle": null,
+        "last": "Hubbard",
+        "suffix": null
+    },
+    "address": {
+        "streetAddress": "2873 Winding Bend Street",
+        "buildingName": null,
+        "floor": null,
+        "roomAptCondoFlat": "55",
+        "city": "Dominion",
+        "stateProvince": "NS",
+        "locality": "Nova Scotia",
+        "country": "CA",
+        "postalCode": "B1G",
+        "latitude": "46.2168",
+        "longitude": "-60.0151"
+    },
+    "contact": {
+        "email": "nhubbard330@netcom.com",
+        "phone": "+61-330-881-8885",
+        "socMedia": []
+    },
+    "login": {
+        "username": "nhubbard",
+        "oauth2": null,
+        "password": "$2y$10$dwiUkB5xbn5T\/71MbHNNFuuGETdqdwVi8M.aV4aQ01uHMu5fesX26"
+    },
+    "otherContact": {
+        "emails": [
+            "nhubbard330@orange.com",
+            "nhubbard330@frontier.com",
+            "nhubbard330@millicom.com"
+        ],
+        "phoneNumbers": [
+            "+61-330-817-9493",
+            "+61-330-294-7062",
+            "+61-330-090-8083"
+        ]
+    },
+    "otherInfo": {
+        "gender": "F",
+        "dateOfBirth": "1998-10-07"
+    },
+    "totalBooked": 9,
+    "discount": 0.046
+});
+db.customers.insertOne(
+{
+    "customerKey": "LOURHENS4224",
+    "name": {
+        "title": "Ms",
+        "first": "Lourie",
+        "middle": "S",
+        "last": "Henson",
+        "suffix": null
+    },
+    "address": {
+        "streetAddress": "6818 Green Hill Boulevard",
+        "buildingName": null,
+        "floor": null,
+        "roomAptCondoFlat": null,
+        "city": "Oslo",
+        "stateProvince": "Oslo",
+        "locality": "Oslo",
+        "country": "NO",
+        "postalCode": "0483",
+        "latitude": "59.9127",
+        "longitude": "10.7461"
+    },
+    "contact": {
+        "email": "lhenson331@relcom.com",
+        "phone": "+61-331-230-4224",
+        "socMedia": {
+            "google": "lhenson331@relcom.com@google.com"
+        }
+    },
+    "login": {
+        "username": "lhenson",
+        "oauth2": "lhenson@google.com",
+        "password": "$2y$10$bRAjtt\/I.pIhP\/acpfkMt.VvelExTl\/IYXtLb9K1YoB6ckaVo5oUy"
+    },
+    "otherContact": {
+        "emails": [
+            "lhenson331@singtel.com",
+            "lhenson331@ooredoo.com",
+            "lhenson331@verizon.com"
+        ],
+        "phoneNumbers": [
+            "+61-331-604-6922",
+            "+61-331-093-2668",
+            "+61-331-983-5434"
+        ],
+        "socMedias": [
+            {
+                "line": "lhenson331@singtel.com@line.com"
+            },
+            {
+                "facebook": "lhenson331@ooredoo.com@facebook.com"
+            },
+            {
+                "skype": "lhenson331@verizon.com@skype.com"
+            }
+        ]
+    },
+    "otherInfo": {
+        "gender": "F",
+        "dateOfBirth": "1960-11-13"
+    },
+    "totalBooked": 16,
+    "discount": 0
+});
+db.customers.insertOne(
+{
+    "customerKey": "MARGARRO4680",
+    "name": {
+        "title": "Ms",
+        "first": "Margret",
+        "middle": "Z",
+        "last": "Arroyo",
+        "suffix": null
+    },
+    "address": {
+        "streetAddress": "9522 Blue Woods Circle",
+        "buildingName": null,
+        "floor": null,
+        "roomAptCondoFlat": null,
+        "city": "Nitrahalli",
+        "stateProvince": "Madhugiri",
+        "locality": "Tumkur",
+        "country": "IN",
+        "postalCode": "572132",
+        "latitude": "13.6267",
+        "longitude": "77.323"
+    },
+    "contact": {
+        "email": "marroyo332@orange.com",
+        "phone": "+61-332-079-4680",
+        "socMedia": {
+            "linkedin": "marroyo332@orange.com@linkedin.com"
+        }
+    },
+    "login": {
+        "username": "marroyo",
+        "oauth2": "marroyo@linkedin.com",
+        "password": "$2y$10$o\/c8\/pl6Y2apVoELGZMDbOkrAw9p\/PIulkgHWSFFR46x9BEyXcuUW"
+    },
+    "otherContact": {
+        "emails": [
+            "marroyo332@pldt.com",
+            "marroyo332@bt.com",
+            "marroyo332@pldt.com"
+        ],
+        "phoneNumbers": [
+            "+61-332-279-2952",
+            "+61-332-264-0976",
+            "+61-332-652-1541"
+        ],
+        "socMedias": [
+            {
+                "skype": "marroyo332@pldt.com@skype.com"
+            },
+            {
+                "linkedin": "marroyo332@bt.com@linkedin.com"
+            },
+            {
+                "skype": "marroyo332@pldt.com@skype.com"
+            }
+        ]
+    },
+    "otherInfo": {
+        "gender": "F",
+        "dateOfBirth": "2001-06-22"
+    },
+    "totalBooked": 4,
+    "discount": 0
+});
+db.customers.insertOne(
+{
+    "customerKey": "SHIZSTAR3154",
+    "name": {
+        "title": null,
+        "first": "Shizue",
+        "middle": null,
         "last": "Stark",
         "suffix": null
     },
     "address": {
-        "streetAddress": "6523 Little Woods Road",
+        "streetAddress": "4664 Winding Gulch Street",
         "buildingName": null,
-        "floor": null,
+        "floor": 12,
         "roomAptCondoFlat": null,
-        "city": "Chapel Haddlesey",
-        "stateProvince": "England",
-        "locality": "North Yorkshire",
-        "country": "GB",
-        "postalCode": "YO8",
-        "latitude": "53.7297",
-        "longitude": "-1.1209"
+        "city": "Gyula",
+        "stateProvince": "BE",
+        "locality": "B\u00e9k\u00e9s",
+        "country": "HU",
+        "postalCode": "5701",
+        "latitude": "46.65",
+        "longitude": "21.2833"
     },
     "contact": {
-        "phone": "+44-352-306-7895",
-        "email": "mstark352@jio.com",
-        "socMedia": null
+        "email": "sstark333@unicom.com",
+        "phone": "+61-333-078-3154",
+        "socMedia": []
     },
     "login": {
-        "username": "mstark",
+        "username": "sstark",
         "oauth2": null,
-        "password": "$2y$10$WjL3CQbC51jwD.3E7ToVJOmPba5QUyzKcvnFtxM9TXFN1bs4UZrx2"
+        "password": "$2y$10$0G6axWdpvJt4\/ZPwPE3kVunMZg.ZBd7SvnSNEZm.dpDcMAgfFGq5G"
     },
     "otherContact": {
         "emails": [
-            "mstark@bifty.net"
+            "sstark333@seednet.com"
         ],
         "phoneNumbers": [
-            "+44-222-437-1603",
-            "+44-375-947-6415"
-        ],
-        "socMedias": []
+            "+61-333-573-2630"
+        ]
     },
     "otherInfo": {
-        "gender": "M",
-        "dateOfBirth": "1965-12-07"
-    }
+        "gender": "F",
+        "dateOfBirth": "1944-12-12"
+    },
+    "totalBooked": 5,
+    "discount": 0.099
 });
 db.customers.insertOne(
 {
-    "customerKey": "JUDEQUIN2804",
+    "customerKey": "JANECUEV1070",
     "name": {
-        "title": "Mr",
-        "first": "Jude",
-        "middle": "T",
-        "last": "Quintero",
-        "suffix": null
-    },
-    "address": {
-        "streetAddress": "9573 Little Bough Avenue",
-        "buildingName": null,
-        "floor": null,
-        "roomAptCondoFlat": null,
-        "city": "\u0411\u0443\u0431\u043d\u0456\u0432\u0441\u044c\u043a\u0430 \u0421\u043b\u043e\u0431\u0456\u0434\u043a\u0430",
-        "stateProvince": "Zolotoniskyi",
-        "locality": "Zolotoniskyi",
-        "country": "UA",
-        "postalCode": "19750",
-        "latitude": "49.7039",
-        "longitude": "31.7084"
-    },
-    "contact": {
-        "phone": "+380-353-952-2804",
-        "email": "jquinter353@turkcell.com",
-        "socMedia": null
-    },
-    "login": {
-        "username": "jquinter",
-        "oauth2": null,
-        "password": "$2y$10$FczH0RgxhdCJExjO\/1kqH.inUVd2o7r51RwUF58KsDikgROVSs41."
-    },
-    "otherContact": {
-        "emails": [
-            "jquinter@sktelecom.net",
-            "jquinter@greennet.net",
-            "jquinter@telkom.net"
-        ],
-        "phoneNumbers": [
-            "+380-19-831-2705"
-        ],
-        "socMedias": []
-    },
-    "otherInfo": {
-        "gender": "M",
-        "dateOfBirth": "1963-04-16"
-    }
-});
-db.customers.insertOne(
-{
-    "customerKey": "FRANMCFA9622",
-    "name": {
-        "title": null,
-        "first": "Francesco",
-        "middle": null,
-        "last": "Mcfarland",
-        "suffix": null
-    },
-    "address": {
-        "streetAddress": "7840 Winding Ridge Ride",
-        "buildingName": null,
-        "floor": null,
-        "roomAptCondoFlat": null,
-        "city": "New Harbor",
-        "stateProvince": "ME",
-        "locality": "Lincoln",
-        "country": "US",
-        "postalCode": "04554",
-        "latitude": "43.8605",
-        "longitude": "-69.5079"
-    },
-    "contact": {
-        "phone": "+1-354-470-9622",
-        "email": "fmcfarla354@openworld.com",
-        "socMedia": null
-    },
-    "login": {
-        "username": "fmcfarla",
-        "oauth2": null,
-        "password": "$2y$10$dvYGqPkyZHTPB9t9TGzdj.AwFcZuZCLa.z6W5UJv.WKvssIlbd6.2"
-    },
-    "otherContact": {
-        "emails": [
-            "fmcfarla@vimpelcom.net"
-        ],
-        "phoneNumbers": [
-            "+1-626-601-3931",
-            "+1-518-840-9918"
-        ],
-        "socMedias": []
-    },
-    "otherInfo": {
-        "gender": "M",
-        "dateOfBirth": "1980-04-04"
-    }
-});
-db.customers.insertOne(
-{
-    "customerKey": "BRENGIBS4474",
-    "name": {
-        "title": "Mr",
-        "first": "Brenton",
+        "title": "Ms",
+        "first": "Janeen",
         "middle": "Z",
-        "last": "Gibson",
+        "last": "Cuevas",
         "suffix": null
     },
     "address": {
-        "streetAddress": "9727 Green Tree Boulevard",
+        "streetAddress": "9584 Big Bridge Road",
         "buildingName": null,
         "floor": null,
         "roomAptCondoFlat": null,
-        "city": "Finsbury",
-        "stateProvince": "England",
-        "locality": "Greater London",
-        "country": "GB",
-        "postalCode": "EC1",
-        "latitude": "51.5279",
-        "longitude": "-0.1072"
+        "city": "Moose Jaw Northeast",
+        "stateProvince": "SK",
+        "locality": "Moose Jaw ",
+        "country": "CA",
+        "postalCode": "S6J",
+        "latitude": "50.4185",
+        "longitude": "-105.5393"
     },
     "contact": {
-        "phone": "+44-356-490-4474",
-        "email": "bgibson356@icom.com",
-        "socMedia": null
-    },
-    "login": {
-        "username": "bgibson",
-        "oauth2": null,
-        "password": "$2y$10$nV32v2fosau3jEGblQRmnuMSGllLAHKOgkieYSVmHhhSTRNN2hqay"
-    },
-    "otherContact": {
-        "emails": [
-            "bgibson@relcom.net"
-        ],
-        "phoneNumbers": [
-            "+44-498-568-4810"
-        ],
-        "socMedias": []
-    },
-    "otherInfo": {
-        "gender": "M",
-        "dateOfBirth": "1945-05-17"
-    }
-});
-db.customers.insertOne(
-{
-    "customerKey": "TOMMHUFF9336",
-    "name": {
-        "title": null,
-        "first": "Tommie",
-        "middle": null,
-        "last": "Huffman",
-        "suffix": null
-    },
-    "address": {
-        "streetAddress": "2095 Big River Avenue",
-        "buildingName": null,
-        "floor": 15,
-        "roomAptCondoFlat": null,
-        "city": "San Antonio",
-        "stateProvince": "San Antonio",
-        "locality": "Escaz\u00fa",
-        "country": "CR",
-        "postalCode": "10202",
-        "latitude": "9.894",
-        "longitude": "-84.14"
-    },
-    "contact": {
-        "phone": "+506-357-523-9336",
-        "email": "thuffman357@centurylink.com",
-        "socMedia": null
-    },
-    "login": {
-        "username": "thuffman",
-        "oauth2": null,
-        "password": "$2y$10$FicfxXt.LQI8THJzu.poXunalQ0RxomzWaPkNsFMk1L1b5OtClEpS"
-    },
-    "otherContact": {
-        "emails": [
-            "thuffman@ptcl.net"
-        ],
-        "phoneNumbers": [
-            "+506-175-680-6536"
-        ],
-        "socMedias": []
-    },
-    "otherInfo": {
-        "gender": "M",
-        "dateOfBirth": "1960-06-03"
-    }
-});
-db.customers.insertOne(
-{
-    "customerKey": "ARCHCORT4818",
-    "name": {
-        "title": "Mr",
-        "first": "Archie",
-        "middle": "K",
-        "last": "Cortez",
-        "suffix": null
-    },
-    "address": {
-        "streetAddress": "3861 Green Hill Ride",
-        "buildingName": null,
-        "floor": null,
-        "roomAptCondoFlat": null,
-        "city": "Denver",
-        "stateProvince": "CO",
-        "locality": "Adams",
-        "country": "US",
-        "postalCode": "80221",
-        "latitude": "39.838",
-        "longitude": "-104.9988"
-    },
-    "contact": {
-        "phone": "+1-358-898-4818",
-        "email": "acortez358@jio.com",
-        "socMedia": null
-    },
-    "login": {
-        "username": "acortez",
-        "oauth2": null,
-        "password": "$2y$10$tBJsfJwXGRzaS7.kF1muFuc63PI77kvhXDYUV8e\/7eJ85g7.zCV2e"
-    },
-    "otherContact": {
-        "emails": [
-            "acortez@vimpelcom.net",
-            "acortez@bifty.net"
-        ],
-        "phoneNumbers": [
-            "+1-551-402-7150",
-            "+1-178-350-4914",
-            "+1-595-794-7703"
-        ],
-        "socMedias": []
-    },
-    "otherInfo": {
-        "gender": "M",
-        "dateOfBirth": "1996-09-26"
-    }
-});
-db.customers.insertOne(
-{
-    "customerKey": "MARIPADI9475",
-    "name": {
-        "title": "Mr",
-        "first": "Mariano",
-        "middle": "M",
-        "last": "Padilla",
-        "suffix": null
-    },
-    "address": {
-        "streetAddress": "9842 Long Ditch Way",
-        "buildingName": "Building 3F",
-        "floor": 5,
-        "roomAptCondoFlat": "DC",
-        "city": "Chuuk",
-        "stateProvince": "State of Chuuk",
-        "locality": "State of Chuuk",
-        "country": "FM",
-        "postalCode": "96942",
-        "latitude": "7.1383",
-        "longitude": "151.5031"
-    },
-    "contact": {
-        "phone": "+691-359-670-9475",
-        "email": "mpadilla359@telus.com",
-        "socMedia": null
-    },
-    "login": {
-        "username": "mpadilla",
-        "oauth2": null,
-        "password": "$2y$10$57fWe8uGV4l6tFZ1kr2GaO6mn\/6krsyy4CMHu89VbcK1pRGltI2Vi"
-    },
-    "otherContact": {
-        "emails": [],
-        "phoneNumbers": [
-            "+691-921-683-1033"
-        ],
-        "socMedias": []
-    },
-    "otherInfo": {
-        "gender": "M",
-        "dateOfBirth": "1981-06-16"
-    }
-});
-db.customers.insertOne(
-{
-    "customerKey": "AYANMYER9602",
-    "name": {
-        "title": "Dr",
-        "first": "Ayana",
-        "middle": null,
-        "last": "Myers",
-        "suffix": "MSD"
-    },
-    "address": {
-        "streetAddress": "685 Big Ditch Boulevard",
-        "buildingName": null,
-        "floor": null,
-        "roomAptCondoFlat": null,
-        "city": "Mackay Harbour",
-        "stateProvince": "QLD",
-        "locality": "Queensland",
-        "country": "AU",
-        "postalCode": "4740",
-        "latitude": "-21.1088",
-        "longitude": "149.2113"
-    },
-    "contact": {
-        "phone": "+61-360-216-9602",
-        "email": "amyers360@tt.com",
+        "email": "jcuevas334@telenor.com",
+        "phone": "+61-334-911-1070",
         "socMedia": {
-            "linkedin": "amyers@linkedin.com"
+            "twitter": "jcuevas334@telenor.com@twitter.com"
         }
     },
     "login": {
-        "username": "amyers",
-        "oauth2": "amyers@linkedin.com",
-        "password": "$2y$10$rTAoMYjKUHianfEjWgERx.tV\/whfMCPW2f3iN8DrCbZuo0Exm9PlG"
+        "username": "jcuevas",
+        "oauth2": "jcuevas@twitter.com",
+        "password": "$2y$10$j0IQWHa\/tCst9Aaqg5nrgOEYZffRiFyhoq9BO8fGDaSSx2vI6mm\/W"
     },
-    "otherContact": {
-        "emails": [],
-        "phoneNumbers": [
-            "+61-431-948-8388"
-        ],
-        "socMedias": {
-            "google": "amyers@google.com",
-            "facebook": "amyers@facebook.com",
-            "line": "amyers@line.com"
-        }
-    },
+    "otherContact": [],
     "otherInfo": {
         "gender": "F",
-        "dateOfBirth": "1996-03-18"
-    }
+        "dateOfBirth": "1966-01-19"
+    },
+    "totalBooked": 18,
+    "discount": 0
 });
 db.customers.insertOne(
 {
-    "customerKey": "BEREESPI3642",
+    "customerKey": "LONNMARS3258",
     "name": {
         "title": "Ms",
-        "first": "Berenice",
-        "middle": "C",
-        "last": "Espinosa",
-        "suffix": null
-    },
-    "address": {
-        "streetAddress": "451 Big Woods Ride",
-        "buildingName": null,
-        "floor": 13,
-        "roomAptCondoFlat": "22",
-        "city": "Senadla",
-        "stateProvince": "Bejaia",
-        "locality": "Bejaia",
-        "country": "DZ",
-        "postalCode": "06004",
-        "latitude": "36.4877",
-        "longitude": "5.3085"
-    },
-    "contact": {
-        "phone": "+213-361-310-3642",
-        "email": "bespinos361@telecom.com",
-        "socMedia": null
-    },
-    "login": {
-        "username": "bespinos",
-        "oauth2": null,
-        "password": "$2y$10$DVVx0ipJX9eJBOQhwJ2VUOfaVacY8ivY3lWxoMCSPUhoEgkoID6yS"
-    },
-    "otherContact": {
-        "emails": [
-            "bespinos@ccs.net",
-            "bespinos@softbank.net",
-            "bespinos@netcom.net"
-        ],
-        "phoneNumbers": [],
-        "socMedias": []
-    },
-    "otherInfo": {
-        "gender": "F",
-        "dateOfBirth": "1974-07-21"
-    }
-});
-db.customers.insertOne(
-{
-    "customerKey": "EDDIBEST0169",
-    "name": {
-        "title": "Mr",
-        "first": "Eddie",
-        "middle": "R",
-        "last": "Best",
-        "suffix": null
-    },
-    "address": {
-        "streetAddress": "619 Blue Creek Avenue",
-        "buildingName": null,
-        "floor": 19,
-        "roomAptCondoFlat": null,
-        "city": "Vancouver (NW Arbutus Ridge)",
-        "stateProvince": "BC",
-        "locality": "Vancouver",
-        "country": "CA",
-        "postalCode": "V6L",
-        "latitude": "49.2497",
-        "longitude": "-123.166"
-    },
-    "contact": {
-        "phone": "+1-362-743-0169",
-        "email": "ebest362@icom.com",
-        "socMedia": null
-    },
-    "login": {
-        "username": "ebest",
-        "oauth2": null,
-        "password": "$2y$10$5lZxiEJUi30NKCdOnAPiyecxX78BJ46IeYrTHQD6rlP7wid6T2xdm"
-    },
-    "otherContact": {
-        "emails": [],
-        "phoneNumbers": [
-            "+1-321-067-2524"
-        ],
-        "socMedias": []
-    },
-    "otherInfo": {
-        "gender": "M",
-        "dateOfBirth": "1985-07-13"
-    }
-});
-db.customers.insertOne(
-{
-    "customerKey": "AUSTHOUS5052",
-    "name": {
-        "title": null,
-        "first": "Austin",
-        "middle": null,
-        "last": "House",
-        "suffix": null
-    },
-    "address": {
-        "streetAddress": "757 Short Hill Drive",
-        "buildingName": null,
-        "floor": null,
-        "roomAptCondoFlat": null,
-        "city": "Merzhausen",
-        "stateProvince": "BW",
-        "locality": "Freiburg Region",
-        "country": "DE",
-        "postalCode": "79249",
-        "latitude": "47.9667",
-        "longitude": "7.8333"
-    },
-    "contact": {
-        "phone": "+49-363-927-5052",
-        "email": "ahouse363@cci.com",
-        "socMedia": null
-    },
-    "login": {
-        "username": "ahouse",
-        "oauth2": null,
-        "password": "$2y$10$449j8MFXegfy3svRlf46\/OOFVxQmlhotLziY20NIYLdP33HTrYTIS"
-    },
-    "otherContact": {
-        "emails": [
-            "ahouse@access.net"
-        ],
-        "phoneNumbers": [
-            "+49-917-694-2909"
-        ],
-        "socMedias": []
-    },
-    "otherInfo": {
-        "gender": "M",
-        "dateOfBirth": "1932-03-16"
-    }
-});
-db.customers.insertOne(
-{
-    "customerKey": "HAZEHEND9038",
-    "name": {
-        "title": "Ms",
-        "first": "Hazel",
-        "middle": "P",
-        "last": "Hendrix",
-        "suffix": null
-    },
-    "address": {
-        "streetAddress": "6702 Big Tree Avenue",
-        "buildingName": null,
-        "floor": 8,
-        "roomAptCondoFlat": null,
-        "city": "Wool Bay",
-        "stateProvince": "SA",
-        "locality": "SA SUBS NEAR 1",
-        "country": "AU",
-        "postalCode": "5575",
-        "latitude": "-34.9911",
-        "longitude": "137.7567"
-    },
-    "contact": {
-        "phone": "+61-364-613-9038",
-        "email": "hhendrix364@econnect.com",
-        "socMedia": null
-    },
-    "login": {
-        "username": "hhendrix",
-        "oauth2": null,
-        "password": "$2y$10$l81jUM843Bfo93T6AYIk1OnYEC2kN69vTiLXz7WIajzLDuqKRHySO"
-    },
-    "otherContact": {
-        "emails": [],
-        "phoneNumbers": [],
-        "socMedias": []
-    },
-    "otherInfo": {
-        "gender": "F",
-        "dateOfBirth": "1963-06-08"
-    }
-});
-db.customers.insertOne(
-{
-    "customerKey": "SHALPRIN5107",
-    "name": {
-        "title": "Ms",
-        "first": "Shalon",
-        "middle": "X",
-        "last": "Prince",
-        "suffix": null
-    },
-    "address": {
-        "streetAddress": "46 Little Bend Boulevard",
-        "buildingName": null,
-        "floor": null,
-        "roomAptCondoFlat": null,
-        "city": "Betong",
-        "stateProvince": "Yala",
-        "locality": "Yala",
-        "country": "TH",
-        "postalCode": "95110",
-        "latitude": "5.75",
-        "longitude": "101.0833"
-    },
-    "contact": {
-        "phone": "+66-365-005-5107",
-        "email": "sprince365@ui.com",
-        "socMedia": null
-    },
-    "login": {
-        "username": "sprince",
-        "oauth2": null,
-        "password": "$2y$10$W2LQpipz\/Vi05TOBi0Oo0O67j9Bzw2L.8ukAyVHWybxYuKM0uCOfy"
-    },
-    "otherContact": {
-        "emails": [
-            "sprince@ccs.net"
-        ],
-        "phoneNumbers": [
-            "+66-954-514-7069"
-        ],
-        "socMedias": []
-    },
-    "otherInfo": {
-        "gender": "F",
-        "dateOfBirth": "1960-10-25"
-    }
-});
-db.customers.insertOne(
-{
-    "customerKey": "KIMIAVAL0539",
-    "name": {
-        "title": null,
-        "first": "Kimi",
-        "middle": null,
-        "last": "Avalos",
-        "suffix": null
-    },
-    "address": {
-        "streetAddress": "6259 Green Stream Ride",
-        "buildingName": "Building 82",
-        "floor": null,
-        "roomAptCondoFlat": null,
-        "city": "Olds",
-        "stateProvince": "AB",
-        "locality": "Alberta",
-        "country": "CA",
-        "postalCode": "T4H",
-        "latitude": "51.7834",
-        "longitude": "-114.102"
-    },
-    "contact": {
-        "phone": "+1-366-886-0539",
-        "email": "kavalos366@telekom.com",
-        "socMedia": null
-    },
-    "login": {
-        "username": "kavalos",
-        "oauth2": null,
-        "password": "$2y$10$g7o5DBAilzbN1tcaWAPIZ.e4ZBZNtq2ylTwno3SZ700lfb4P9kB8y"
-    },
-    "otherContact": {
-        "emails": [
-            "kavalos@kddi.net"
-        ],
-        "phoneNumbers": [],
-        "socMedias": []
-    },
-    "otherInfo": {
-        "gender": "F",
-        "dateOfBirth": "1965-05-27"
-    }
-});
-db.customers.insertOne(
-{
-    "customerKey": "LONNGIBB9405",
-    "name": {
-        "title": "Mr",
         "first": "Lonnie",
-        "middle": "L",
-        "last": "Gibbs",
+        "middle": "F",
+        "last": "Marshall",
         "suffix": null
     },
     "address": {
-        "streetAddress": "4143 Short Mountain Way",
-        "buildingName": "Building 65",
-        "floor": null,
-        "roomAptCondoFlat": null,
-        "city": "S\u00e9vaz",
-        "stateProvince": "FR",
-        "locality": "Broye District",
-        "country": "CH",
-        "postalCode": "1541",
-        "latitude": "46.8398",
-        "longitude": "6.877"
-    },
-    "contact": {
-        "phone": "+41-367-053-9405",
-        "email": "lgibbs367@uunet.com",
-        "socMedia": null
-    },
-    "login": {
-        "username": "lgibbs",
-        "oauth2": null,
-        "password": "$2y$10$UJ8\/zFUsgrW7lEjGhCbJnOn7ML3qH.Uc6qmm612M.yTMnunQ6Y5ti"
-    },
-    "otherContact": {
-        "emails": [
-            "lgibbs@netcom.net"
-        ],
-        "phoneNumbers": [],
-        "socMedias": []
-    },
-    "otherInfo": {
-        "gender": "M",
-        "dateOfBirth": "1968-12-18"
-    }
-});
-db.customers.insertOne(
-{
-    "customerKey": "MEGHMORR6610",
-    "name": {
-        "title": "Ms",
-        "first": "Meghann",
-        "middle": "M",
-        "last": "Morrow",
-        "suffix": null
-    },
-    "address": {
-        "streetAddress": "2355 Short Bough Drive",
-        "buildingName": null,
-        "floor": null,
-        "roomAptCondoFlat": "B7",
-        "city": "Highlands",
-        "stateProvince": "VIC",
-        "locality": "Victoria",
-        "country": "AU",
-        "postalCode": "3660",
-        "latitude": "-37.1",
-        "longitude": "145.4"
-    },
-    "contact": {
-        "phone": "+61-368-156-6610",
-        "email": "mmorrow368@etisalat.com",
-        "socMedia": null
-    },
-    "login": {
-        "username": "mmorrow",
-        "oauth2": null,
-        "password": "$2y$10$DXXA5IeVgFas\/4PWW5LxXup2nfli\/vWa3dvUMao5y1cAUOo0xq5A6"
-    },
-    "otherContact": {
-        "emails": [
-            "mmorrow@maxcomm.net"
-        ],
-        "phoneNumbers": [
-            "+61-385-304-0420",
-            "+61-403-567-6814"
-        ],
-        "socMedias": []
-    },
-    "otherInfo": {
-        "gender": "F",
-        "dateOfBirth": "1991-11-23"
-    }
-});
-db.customers.insertOne(
-{
-    "customerKey": "ISIACHRI9384",
-    "name": {
-        "title": null,
-        "first": "Isiah",
-        "middle": null,
-        "last": "Christian",
-        "suffix": null
-    },
-    "address": {
-        "streetAddress": "2897 Short Mound Way",
+        "streetAddress": "752 Big Mountain Drive",
         "buildingName": null,
         "floor": null,
         "roomAptCondoFlat": null,
-        "city": "Torre De Valdealmendras",
-        "stateProvince": "CM",
-        "locality": "Guadalajara",
-        "country": "ES",
-        "postalCode": "19269",
-        "latitude": "41.15",
-        "longitude": "-2.65"
-    },
-    "contact": {
-        "phone": "+34-369-956-9384",
-        "email": "ichristi369@safaricom.com",
-        "socMedia": null
-    },
-    "login": {
-        "username": "ichristi",
-        "oauth2": null,
-        "password": "$2y$10$SgF4TILiLFfTe2E6iCxx\/udMWxbE\/o7WCVFhg9esrjPbl0.7gzUQC"
-    },
-    "otherContact": {
-        "emails": [
-            "ichristi@vimpelcom.net",
-            "ichristi@telecomitalia.net"
-        ],
-        "phoneNumbers": [
-            "+34-745-886-1845",
-            "+34-22-501-5841",
-            "+34-269-619-3883"
-        ],
-        "socMedias": []
-    },
-    "otherInfo": {
-        "gender": "M",
-        "dateOfBirth": "1938-07-23"
-    }
-});
-db.customers.insertOne(
-{
-    "customerKey": "JONIDILL9329",
-    "name": {
-        "title": "Ms",
-        "first": "Joni",
-        "middle": "K",
-        "last": "Dillon",
-        "suffix": null
-    },
-    "address": {
-        "streetAddress": "7185 Blue Bend Circle",
-        "buildingName": null,
-        "floor": null,
-        "roomAptCondoFlat": null,
-        "city": "Halifax South",
-        "stateProvince": "NS",
-        "locality": "Halifax",
-        "country": "CA",
-        "postalCode": "B3R",
-        "latitude": "44.5939",
-        "longitude": "-63.6031"
-    },
-    "contact": {
-        "phone": "+1-370-803-9329",
-        "email": "jdillon370@bt.com",
-        "socMedia": {
-            "google": "jdillon@google.com"
-        }
-    },
-    "login": {
-        "username": "jdillon",
-        "oauth2": "jdillon@google.com",
-        "password": "$2y$10$OpjvPnvDJXh.Vz6MiJTBJ.hkroR\/g3ap0kdfxMY80Qyxn1SScuoWC"
-    },
-    "otherContact": {
-        "emails": [
-            "jdillon@lguplus.net"
-        ],
-        "phoneNumbers": [
-            "+1-980-812-9819"
-        ],
-        "socMedias": []
-    },
-    "otherInfo": {
-        "gender": "F",
-        "dateOfBirth": "1975-02-24"
-    }
-});
-db.customers.insertOne(
-{
-    "customerKey": "PETEBOWE8062",
-    "name": {
-        "title": "Ms",
-        "first": "Peter",
-        "middle": "J",
-        "last": "Bowen",
-        "suffix": null
-    },
-    "address": {
-        "streetAddress": "2289 Blue Creek Street",
-        "buildingName": "Building 13",
-        "floor": null,
-        "roomAptCondoFlat": "BE",
-        "city": "Bonillos",
-        "stateProvince": "CL",
-        "locality": "Le\u00f3n",
-        "country": "ES",
-        "postalCode": "24714",
-        "latitude": "42.4893",
-        "longitude": "-6.091"
-    },
-    "contact": {
-        "phone": "+34-371-987-8062",
-        "email": "pbowen371@seednet.com",
-        "socMedia": null
-    },
-    "login": {
-        "username": "pbowen",
-        "oauth2": null,
-        "password": "$2y$10$mfbulOeufDgoTOrZqU2WQOYL4MdeztIMVXqm\/cxciN9oNTWVUYS3O"
-    },
-    "otherContact": {
-        "emails": [
-            "pbowen@nii.net"
-        ],
-        "phoneNumbers": [
-            "+34-986-589-5517"
-        ],
-        "socMedias": []
-    },
-    "otherInfo": {
-        "gender": "F",
-        "dateOfBirth": "1995-09-08"
-    }
-});
-db.customers.insertOne(
-{
-    "customerKey": "JAMESTAF8125",
-    "name": {
-        "title": null,
-        "first": "Jame",
-        "middle": null,
-        "last": "Stafford",
-        "suffix": null
-    },
-    "address": {
-        "streetAddress": "4556 Winding Hill Way",
-        "buildingName": null,
-        "floor": null,
-        "roomAptCondoFlat": null,
-        "city": "Sandalwood",
-        "stateProvince": "SA",
-        "locality": "SA SUBS NEAR 2",
-        "country": "AU",
-        "postalCode": "5309",
-        "latitude": "-34.95",
-        "longitude": "140.1333"
-    },
-    "contact": {
-        "phone": "+61-372-776-8125",
-        "email": "jstaffor372@icom.com",
-        "socMedia": null
-    },
-    "login": {
-        "username": "jstaffor",
-        "oauth2": null,
-        "password": "$2y$10$OOlGKrvGU6gWxP3\/1ux1Ke1GyGA83\/\/tC4cU\/rv22WpE05X1JHS8e"
-    },
-    "otherContact": {
-        "emails": [],
-        "phoneNumbers": [
-            "+61-354-813-6786",
-            "+61-67-441-6825"
-        ],
-        "socMedias": []
-    },
-    "otherInfo": {
-        "gender": "M",
-        "dateOfBirth": "1951-05-07"
-    }
-});
-db.customers.insertOne(
-{
-    "customerKey": "EVONLOVE4277",
-    "name": {
-        "title": "Ms",
-        "first": "Evon",
-        "middle": "H",
-        "last": "Love",
-        "suffix": null
-    },
-    "address": {
-        "streetAddress": "9832 Short Bough Way",
-        "buildingName": null,
-        "floor": null,
-        "roomAptCondoFlat": null,
-        "city": "\u0421\u0442\u0430\u043d\u0438\u0441\u043b\u0430\u0432\u0446\u044b",
-        "stateProvince": "Dokchitsy",
-        "locality": "Dokchitsy",
-        "country": "BY",
-        "postalCode": "211715",
-        "latitude": "54.8617",
-        "longitude": "27.6157"
-    },
-    "contact": {
-        "phone": "+375-373-737-4277",
-        "email": "elove373@vodafone.com",
-        "socMedia": null
-    },
-    "login": {
-        "username": "elove",
-        "oauth2": null,
-        "password": "$2y$10$fAzn1dq8qHS6vjDQ5hR0CeSWnpXct714mJItsZ80CuD3nUIiout9m"
-    },
-    "otherContact": {
-        "emails": [
-            "elove@chunghwa.net",
-            "elove@zain.net"
-        ],
-        "phoneNumbers": [
-            "+375-469-299-8190"
-        ],
-        "socMedias": []
-    },
-    "otherInfo": {
-        "gender": "F",
-        "dateOfBirth": "1960-06-17"
-    }
-});
-db.customers.insertOne(
-{
-    "customerKey": "ORENHUAN5682",
-    "name": {
-        "title": "Mr",
-        "first": "Oren",
-        "middle": "Y",
-        "last": "Huang",
-        "suffix": null
-    },
-    "address": {
-        "streetAddress": "7960 Big Mountain Circle",
-        "buildingName": null,
-        "floor": null,
-        "roomAptCondoFlat": null,
-        "city": "Santa Ana",
-        "stateProvince": "CA",
-        "locality": "Orange",
-        "country": "US",
-        "postalCode": "92703",
-        "latitude": "33.7489",
-        "longitude": "-117.9072"
-    },
-    "contact": {
-        "phone": "+1-374-566-5682",
-        "email": "ohuang374@worldnet.com",
-        "socMedia": null
-    },
-    "login": {
-        "username": "ohuang",
-        "oauth2": null,
-        "password": "$2y$10$8Ihc.wFiPQZJTbx7i67eSOqKpkuqw7RoEWFX1VNOS6S4.citSYMtO"
-    },
-    "otherContact": {
-        "emails": [
-            "ohuang@softbank.net",
-            "ohuang@openworld.net"
-        ],
-        "phoneNumbers": [],
-        "socMedias": []
-    },
-    "otherInfo": {
-        "gender": "M",
-        "dateOfBirth": "1998-04-05"
-    }
-});
-db.customers.insertOne(
-{
-    "customerKey": "CHERGALL2224",
-    "name": {
-        "title": null,
-        "first": "Cheree",
-        "middle": null,
-        "last": "Gallegos",
-        "suffix": null
-    },
-    "address": {
-        "streetAddress": "3874 Blue Mountain Street",
-        "buildingName": null,
-        "floor": null,
-        "roomAptCondoFlat": "55",
-        "city": "Saint-Pierre",
-        "stateProvince": "Saint-Pierre",
-        "locality": "Saint-Pierre",
-        "country": "PM",
-        "postalCode": "97500",
-        "latitude": "46.7809",
-        "longitude": "-56.172"
-    },
-    "contact": {
-        "phone": "+508-375-727-2224",
-        "email": "cgallego375@telkom.com",
-        "socMedia": null
-    },
-    "login": {
-        "username": "cgallego",
-        "oauth2": null,
-        "password": "$2y$10$74IDk8hwIdoZWC34wm0ve.4maMTfAaWMkt0.AMK9pEI2mfgStKcEu"
-    },
-    "otherContact": {
-        "emails": [],
-        "phoneNumbers": [
-            "+508-137-116-5145",
-            "+508-348-265-6195",
-            "+508-364-414-1212"
-        ],
-        "socMedias": []
-    },
-    "otherInfo": {
-        "gender": "F",
-        "dateOfBirth": "1932-07-13"
-    }
-});
-db.customers.insertOne(
-{
-    "customerKey": "DONAWALT6242",
-    "name": {
-        "title": "Mr",
-        "first": "Donald",
-        "middle": "O",
-        "last": "Walter",
-        "suffix": null
-    },
-    "address": {
-        "streetAddress": "8920 Short Bend Road",
-        "buildingName": null,
-        "floor": null,
-        "roomAptCondoFlat": null,
-        "city": "Bullumwaal",
-        "stateProvince": "VIC",
-        "locality": "Victoria",
-        "country": "AU",
-        "postalCode": "3875",
-        "latitude": "-37.6333",
-        "longitude": "147.5333"
-    },
-    "contact": {
-        "phone": "+61-376-772-6242",
-        "email": "dwalter376@cerist.com",
-        "socMedia": null
-    },
-    "login": {
-        "username": "dwalter",
-        "oauth2": null,
-        "password": "$2y$10$7YtdszkJBKlXCqzxX2xkK.yjzPhlvEJBpkbLUbZxT.M6nWHLWDIba"
-    },
-    "otherContact": {
-        "emails": [
-            "dwalter@oi.net",
-            "dwalter@bce.net"
-        ],
-        "phoneNumbers": [
-            "+61-423-407-9930"
-        ],
-        "socMedias": []
-    },
-    "otherInfo": {
-        "gender": "M",
-        "dateOfBirth": "1958-01-27"
-    }
-});
-db.customers.insertOne(
-{
-    "customerKey": "LYNEPRES0614",
-    "name": {
-        "title": "Ms",
-        "first": "Lynetta",
-        "middle": "A",
-        "last": "Preston",
-        "suffix": null
-    },
-    "address": {
-        "streetAddress": "5459 Little Ditch Street",
-        "buildingName": null,
-        "floor": null,
-        "roomAptCondoFlat": null,
-        "city": "\u00d6stersund",
-        "stateProvince": "Z",
-        "locality": "J\u00e4mtland",
-        "country": "SE",
-        "postalCode": "839 45",
-        "latitude": "63.1792",
-        "longitude": "14.6357"
-    },
-    "contact": {
-        "phone": "+46-377-131-0614",
-        "email": "lpreston377@telkom.com",
-        "socMedia": null
-    },
-    "login": {
-        "username": "lpreston",
-        "oauth2": null,
-        "password": "$2y$10$1gVaMkSyVhFzUrljVXHrQe9YBGa2Itm730ctfMoX5oroNPEZDdly."
-    },
-    "otherContact": {
-        "emails": [],
-        "phoneNumbers": [
-            "+46-493-864-8679",
-            "+46-276-334-4505"
-        ],
-        "socMedias": []
-    },
-    "otherInfo": {
-        "gender": "F",
-        "dateOfBirth": "1996-09-20"
-    }
-});
-db.customers.insertOne(
-{
-    "customerKey": "JOAQBLAN1207",
-    "name": {
-        "title": null,
-        "first": "Joaquin",
-        "middle": null,
-        "last": "Blanchard",
-        "suffix": null
-    },
-    "address": {
-        "streetAddress": "5255 Big Bridge Circle",
-        "buildingName": null,
-        "floor": null,
-        "roomAptCondoFlat": null,
-        "city": "Silpho",
+        "city": "St Ann's Chapel",
         "stateProvince": "England",
-        "locality": "North Yorkshire",
+        "locality": "Devon",
         "country": "GB",
-        "postalCode": "YO13",
-        "latitude": "54.3205",
-        "longitude": "-0.5174"
+        "postalCode": "TQ7",
+        "latitude": "50.2825",
+        "longitude": "-3.7841"
     },
     "contact": {
-        "phone": "+44-378-920-1207",
-        "email": "jblancha378@mtn.com",
-        "socMedia": null
-    },
-    "login": {
-        "username": "jblancha",
-        "oauth2": null,
-        "password": "$2y$10$SiJPjv\/CB5nGeUinteIjU.e7mOt4fl1m3xS5fQyg\/VFX0dxgBN9Ha"
-    },
-    "otherContact": {
-        "emails": [],
-        "phoneNumbers": [],
-        "socMedias": []
-    },
-    "otherInfo": {
-        "gender": "M",
-        "dateOfBirth": "1949-06-29"
-    }
-});
-db.customers.insertOne(
-{
-    "customerKey": "PASQMORA3076",
-    "name": {
-        "title": "Mr",
-        "first": "Pasquale",
-        "middle": "B",
-        "last": "Moran",
-        "suffix": null
-    },
-    "address": {
-        "streetAddress": "9292 Blue Mountain Street",
-        "buildingName": null,
-        "floor": null,
-        "roomAptCondoFlat": null,
-        "city": "Chana",
-        "stateProvince": "Songkhla",
-        "locality": "Songkhla",
-        "country": "TH",
-        "postalCode": "90130",
-        "latitude": "6.9167",
-        "longitude": "100.7333"
-    },
-    "contact": {
-        "phone": "+66-379-536-3076",
-        "email": "pmoran379@worldnet.com",
-        "socMedia": null
-    },
-    "login": {
-        "username": "pmoran",
-        "oauth2": null,
-        "password": "$2y$10$Vib.QV1qAGtgkigOEZRYKuHYkj\/TUyc4KBXR5qG0SQdBDODDfUtV6"
-    },
-    "otherContact": {
-        "emails": [
-            "pmoran@vodafone.net",
-            "pmoran@lguplus.net",
-            "pmoran@worldnet.net"
-        ],
-        "phoneNumbers": [
-            "+66-686-375-1207",
-            "+66-238-114-8382"
-        ],
-        "socMedias": []
-    },
-    "otherInfo": {
-        "gender": "M",
-        "dateOfBirth": "1969-09-11"
-    }
-});
-db.customers.insertOne(
-{
-    "customerKey": "ELLABELT3866",
-    "name": {
-        "title": "Ms",
-        "first": "Ellamae",
-        "middle": "O",
-        "last": "Beltran",
-        "suffix": null
-    },
-    "address": {
-        "streetAddress": "5973 Green Tree Circle",
-        "buildingName": null,
-        "floor": null,
-        "roomAptCondoFlat": null,
-        "city": "Fourchu",
-        "stateProvince": "NS",
-        "locality": "Nova Scotia",
-        "country": "CA",
-        "postalCode": "B2J",
-        "latitude": "45.707",
-        "longitude": "-60.4665"
-    },
-    "contact": {
-        "phone": "+1-380-201-3866",
-        "email": "ebeltran380@daxnet.com",
+        "email": "lmarshal335@worldnet.com",
+        "phone": "+61-335-338-3258",
         "socMedia": {
-            "facebook": "ebeltran@facebook.com"
+            "linkedin": "lmarshal335@worldnet.com@linkedin.com"
         }
     },
     "login": {
-        "username": "ebeltran",
-        "oauth2": "ebeltran@facebook.com",
-        "password": "$2y$10$ZD.yye.h2sSeeDPDeaB5dOdtULMURhMaaVNzZhnQo55UZr8qEyUZy"
+        "username": "lmarshal",
+        "oauth2": "lmarshal@linkedin.com",
+        "password": "$2y$10$OAVzYionITk5Ox62vjGx4e\/SNCBZL.\/obeY7\/GUxauANhODeDQIFO"
     },
-    "otherContact": {
-        "emails": [
-            "ebeltran@vodafone.net"
-        ],
-        "phoneNumbers": [],
-        "socMedias": []
-    },
+    "otherContact": [],
     "otherInfo": {
         "gender": "F",
-        "dateOfBirth": "1976-03-20"
-    }
+        "dateOfBirth": "1946-04-10"
+    },
+    "totalBooked": 2,
+    "discount": 0
 });
 db.customers.insertOne(
 {
-    "customerKey": "TEMPSTAN0319",
+    "customerKey": "MICHJAME3555",
     "name": {
         "title": null,
-        "first": "Temple",
+        "first": "Michelina",
         "middle": null,
-        "last": "Stanley",
+        "last": "James",
         "suffix": null
     },
     "address": {
-        "streetAddress": "1225 Green Tree Circle",
+        "streetAddress": "8021 Green Gully Ride",
         "buildingName": null,
         "floor": null,
-        "roomAptCondoFlat": null,
-        "city": "Bukoni\u0173 k.",
-        "stateProvince": "Jonavos r. sav.",
-        "locality": "Jonavos r. sav.",
-        "country": "LT",
-        "postalCode": "55052",
-        "latitude": "55.1833",
-        "longitude": "24.4333"
-    },
-    "contact": {
-        "phone": "+370-381-622-0319",
-        "email": "tstanley381@cubenet.com",
-        "socMedia": null
-    },
-    "login": {
-        "username": "tstanley",
-        "oauth2": null,
-        "password": "$2y$10$NaX7qsuBNCbA3\/nqoJp59Oua0qloHIrLgCxWyknawpol6\/0gXImQO"
-    },
-    "otherContact": {
-        "emails": [],
-        "phoneNumbers": [],
-        "socMedias": []
-    },
-    "otherInfo": {
-        "gender": "F",
-        "dateOfBirth": "1974-04-03"
-    }
-});
-db.customers.insertOne(
-{
-    "customerKey": "LESLPATR1449",
-    "name": {
-        "title": "Ms",
-        "first": "Lesli",
-        "middle": "D",
-        "last": "Patrick",
-        "suffix": null
-    },
-    "address": {
-        "streetAddress": "3716 Short Gulch Street",
-        "buildingName": null,
-        "floor": null,
-        "roomAptCondoFlat": null,
-        "city": "Trois-Rivi\u00e8res East",
-        "stateProvince": "QC",
-        "locality": "Trois-Rivi\u00e8res",
-        "country": "CA",
-        "postalCode": "G9A",
-        "latitude": "46.3695",
-        "longitude": "-72.6789"
-    },
-    "contact": {
-        "phone": "+1-382-810-1449",
-        "email": "lpatrick382@ptcl.com",
-        "socMedia": null
-    },
-    "login": {
-        "username": "lpatrick",
-        "oauth2": null,
-        "password": "$2y$10$aDQko5tct687tOLLxdS1B.hDgb9cN5Do5Ne4v4znuKA3f9Wi.6Bo6"
-    },
-    "otherContact": {
-        "emails": [],
-        "phoneNumbers": [
-            "+1-731-127-5369"
-        ],
-        "socMedias": []
-    },
-    "otherInfo": {
-        "gender": "F",
-        "dateOfBirth": "1957-11-03"
-    }
-});
-db.customers.insertOne(
-{
-    "customerKey": "LUDIDAVI6752",
-    "name": {
-        "title": "Ms",
-        "first": "Ludivina",
-        "middle": "L",
-        "last": "Davila",
-        "suffix": null
-    },
-    "address": {
-        "streetAddress": "53 Blue Bend Circle",
-        "buildingName": null,
-        "floor": null,
-        "roomAptCondoFlat": null,
-        "city": "Eac Si Krez",
-        "stateProvince": "Tipaza",
-        "locality": "Tipaza",
-        "country": "DZ",
-        "postalCode": "42040",
-        "latitude": "36.5614",
-        "longitude": "2.5325"
-    },
-    "contact": {
-        "phone": "+213-383-575-6752",
-        "email": "ldavila383@greennet.com",
-        "socMedia": null
-    },
-    "login": {
-        "username": "ldavila",
-        "oauth2": null,
-        "password": "$2y$10$hc23d9tDwAD8djyq2O53X.asmdgI7R8DnQ3L6mCaVRzMWmqYulKmy"
-    },
-    "otherContact": {
-        "emails": [],
-        "phoneNumbers": [],
-        "socMedias": []
-    },
-    "otherInfo": {
-        "gender": "F",
-        "dateOfBirth": "1944-09-27"
-    }
-});
-db.customers.insertOne(
-{
-    "customerKey": "YEVEKIM5310",
-    "name": {
-        "title": null,
-        "first": "Yevette",
-        "middle": null,
-        "last": "Kim",
-        "suffix": null
-    },
-    "address": {
-        "streetAddress": "1887 Long Hill Street",
-        "buildingName": null,
-        "floor": null,
-        "roomAptCondoFlat": null,
-        "city": "Korora",
-        "stateProvince": "NSW",
-        "locality": "NSW NORTH COAST",
-        "country": "AU",
-        "postalCode": "2450",
-        "latitude": "-30.259",
-        "longitude": "153.1306"
-    },
-    "contact": {
-        "phone": "+61-384-764-5310",
-        "email": "ykim384@telkom.com",
-        "socMedia": null
-    },
-    "login": {
-        "username": "ykim",
-        "oauth2": null,
-        "password": "$2y$10$OddG7BDl8R4gIv9pChk\/Y.2YhbDEf1aXJxvagqHfQlbUxl82NuIzq"
-    },
-    "otherContact": {
-        "emails": [
-            "ykim@telus.net"
-        ],
-        "phoneNumbers": [
-            "+61-299-835-6345",
-            "+61-37-021-1165"
-        ],
-        "socMedias": []
-    },
-    "otherInfo": {
-        "gender": "F",
-        "dateOfBirth": "1941-06-04"
-    }
-});
-db.customers.insertOne(
-{
-    "customerKey": "JEFFEDWA6788",
-    "name": {
-        "title": "Mr",
-        "first": "Jeffrey",
-        "middle": "I",
-        "last": "Edwards",
-        "suffix": null
-    },
-    "address": {
-        "streetAddress": "7528 Little Gully Way",
-        "buildingName": null,
-        "floor": 8,
-        "roomAptCondoFlat": null,
-        "city": "Florissant",
-        "stateProvince": "MO",
-        "locality": "St. Louis",
-        "country": "US",
-        "postalCode": "63034",
-        "latitude": "38.8338",
-        "longitude": "-90.2936"
-    },
-    "contact": {
-        "phone": "+1-386-371-6788",
-        "email": "jedwards386@worldnet.com",
-        "socMedia": null
-    },
-    "login": {
-        "username": "jedwards",
-        "oauth2": null,
-        "password": "$2y$10$Z6N\/I\/2EHpCKxE2eq9Qi9el7hyEEvrp4x9jy0hutZQvOa3mUjPTrS"
-    },
-    "otherContact": {
-        "emails": [
-            "jedwards@telecom.net",
-            "jedwards@access.net",
-            "jedwards@netcom.net"
-        ],
-        "phoneNumbers": [],
-        "socMedias": []
-    },
-    "otherInfo": {
-        "gender": "M",
-        "dateOfBirth": "1955-04-28"
-    }
-});
-db.customers.insertOne(
-{
-    "customerKey": "ZENAKELL1963",
-    "name": {
-        "title": null,
-        "first": "Zena",
-        "middle": null,
-        "last": "Kelley",
-        "suffix": null
-    },
-    "address": {
-        "streetAddress": "605 Long Bridge Way",
-        "buildingName": null,
-        "floor": null,
-        "roomAptCondoFlat": null,
-        "city": "Enklinge",
-        "stateProvince": "Kumlinge",
-        "locality": "Kumlinge",
-        "country": "AX",
-        "postalCode": "22830",
-        "latitude": "60.3349",
-        "longitude": "20.758"
-    },
-    "contact": {
-        "phone": "+35818-387-687-1963",
-        "email": "zkelley387@rogers.com",
-        "socMedia": null
-    },
-    "login": {
-        "username": "zkelley",
-        "oauth2": null,
-        "password": "$2y$10$EP35PTKGoTitVtf9VhF\/Du6D1FpoOd3Z97UJ95Ueln.ay7Ga6vJIm"
-    },
-    "otherContact": {
-        "emails": [
-            "zkelley@ktc.net",
-            "zkelley@telenor.net"
-        ],
-        "phoneNumbers": [
-            "+35818-332-289-9692"
-        ],
-        "socMedias": []
-    },
-    "otherInfo": {
-        "gender": "F",
-        "dateOfBirth": "1959-08-09"
-    }
-});
-db.customers.insertOne(
-{
-    "customerKey": "ELLAREYN9244",
-    "name": {
-        "title": "Ms",
-        "first": "Ella",
-        "middle": "W",
-        "last": "Reynolds",
-        "suffix": null
-    },
-    "address": {
-        "streetAddress": "7105 Blue River Circle",
-        "buildingName": null,
-        "floor": null,
-        "roomAptCondoFlat": "1D",
-        "city": "Alexandria",
-        "stateProvince": "VA",
-        "locality": "City of Alexandria",
-        "country": "US",
-        "postalCode": "22302",
-        "latitude": "38.8276",
-        "longitude": "-77.0896"
-    },
-    "contact": {
-        "phone": "+1-388-132-9244",
-        "email": "ereynold388@swisscom.com",
-        "socMedia": null
-    },
-    "login": {
-        "username": "ereynold",
-        "oauth2": null,
-        "password": "$2y$10$zY10f18Ws3xHBekYKr4yReZQrG\/ehR2Y0AF.ThEWndQzet2oSwJM."
-    },
-    "otherContact": {
-        "emails": [
-            "ereynold@vimpelcom.net",
-            "ereynold@chunghwa.net"
-        ],
-        "phoneNumbers": [],
-        "socMedias": []
-    },
-    "otherInfo": {
-        "gender": "F",
-        "dateOfBirth": "1976-04-11"
-    }
-});
-db.customers.insertOne(
-{
-    "customerKey": "MERNKENN5687",
-    "name": {
-        "title": "Ms",
-        "first": "Merna",
-        "middle": "Q",
-        "last": "Kennedy",
-        "suffix": null
-    },
-    "address": {
-        "streetAddress": "8926 Little Woods Street",
-        "buildingName": null,
-        "floor": null,
-        "roomAptCondoFlat": null,
-        "city": "Lakki R.Station",
-        "stateProvince": "NWFP Peshawar",
-        "locality": "NWFP Peshawar",
-        "country": "PK",
-        "postalCode": "28421",
-        "latitude": "32.5036",
-        "longitude": "70.919"
-    },
-    "contact": {
-        "phone": "+92-389-583-5687",
-        "email": "mkennedy389@vodafone.com",
-        "socMedia": null
-    },
-    "login": {
-        "username": "mkennedy",
-        "oauth2": null,
-        "password": "$2y$10$1i8SoTdEMkfjYNhrqhWi5uRR6iYhS6\/XizFGR1M7sQSDOt0ZnS2VK"
-    },
-    "otherContact": {
-        "emails": [
-            "mkennedy@cci.net",
-            "mkennedy@econnect.net",
-            "mkennedy@telkom.net"
-        ],
-        "phoneNumbers": [],
-        "socMedias": []
-    },
-    "otherInfo": {
-        "gender": "F",
-        "dateOfBirth": "1942-02-17"
-    }
-});
-db.customers.insertOne(
-{
-    "customerKey": "EDDIMOYE4691",
-    "name": {
-        "title": null,
-        "first": "Eddie",
-        "middle": null,
-        "last": "Moyer",
-        "suffix": null
-    },
-    "address": {
-        "streetAddress": "5783 Winding Canyon Drive",
-        "buildingName": "Building 9C",
-        "floor": null,
-        "roomAptCondoFlat": null,
-        "city": "Rochester",
-        "stateProvince": "MN",
-        "locality": "Olmsted",
-        "country": "US",
-        "postalCode": "55903",
-        "latitude": "43.9966",
-        "longitude": "-92.5409"
-    },
-    "contact": {
-        "phone": "+1-390-281-4691",
-        "email": "emoyer390@telia.com",
-        "socMedia": {
-            "line": "emoyer@line.com"
-        }
-    },
-    "login": {
-        "username": "emoyer",
-        "oauth2": "emoyer@line.com",
-        "password": "$2y$10$DiRt2L3SLdqVkZPuF1NkkenLU5Btyv5WuUHcs1XGsK8aih8lF\/fgW"
-    },
-    "otherContact": {
-        "emails": [
-            "emoyer@turkcell.net"
-        ],
-        "phoneNumbers": [
-            "+1-443-547-9663",
-            "+1-81-723-0719"
-        ],
-        "socMedias": {
-            "line": "emoyer@line.com"
-        }
-    },
-    "otherInfo": {
-        "gender": "M",
-        "dateOfBirth": "1970-03-26"
-    }
-});
-db.customers.insertOne(
-{
-    "customerKey": "WOODRAMS6856",
-    "name": {
-        "title": "Mr",
-        "first": "Woodrow",
-        "middle": "D",
-        "last": "Ramsey",
-        "suffix": null
-    },
-    "address": {
-        "streetAddress": "8268 Winding Bough Road",
-        "buildingName": "Building D9",
-        "floor": null,
-        "roomAptCondoFlat": null,
-        "city": "Dalv\u00edk",
-        "stateProvince": null,
-        "locality": null,
-        "country": "IS",
-        "postalCode": "621",
-        "latitude": "65.9702",
-        "longitude": "-18.5286"
-    },
-    "contact": {
-        "phone": "+354-391-497-6856",
-        "email": "wramsey391@belgacom.com",
-        "socMedia": null
-    },
-    "login": {
-        "username": "wramsey",
-        "oauth2": null,
-        "password": "$2y$10$eod3pKhGViFuWV0TA3qRZuyKQspHBOFh4bl4LdXc.eztqb39ieslG"
-    },
-    "otherContact": {
-        "emails": [],
-        "phoneNumbers": [
-            "+354-397-706-4451",
-            "+354-905-017-9349"
-        ],
-        "socMedias": []
-    },
-    "otherInfo": {
-        "gender": "M",
-        "dateOfBirth": "1952-07-15"
-    }
-});
-db.customers.insertOne(
-{
-    "customerKey": "MAPLPALM6041",
-    "name": {
-        "title": "Ms",
-        "first": "Maple",
-        "middle": "M",
-        "last": "Palmer",
-        "suffix": null
-    },
-    "address": {
-        "streetAddress": "7824 Winding Bridge Road",
-        "buildingName": null,
-        "floor": null,
-        "roomAptCondoFlat": null,
-        "city": "St Dogmaels",
-        "stateProvince": "Wales",
-        "locality": "Pembrokeshire",
+        "roomAptCondoFlat": "23",
+        "city": "Shepton Mallet",
+        "stateProvince": "England",
+        "locality": "Somerset",
         "country": "GB",
-        "postalCode": "SA43",
-        "latitude": "52.0816",
-        "longitude": "-4.6849"
+        "postalCode": "BA4",
+        "latitude": "51.1897",
+        "longitude": "-2.5472"
     },
     "contact": {
-        "phone": "+44-392-569-6041",
-        "email": "mpalmer392@verizon.com",
-        "socMedia": null
+        "email": "mjames336@zain.com",
+        "phone": "+61-336-400-3555",
+        "socMedia": []
     },
     "login": {
-        "username": "mpalmer",
+        "username": "mjames",
         "oauth2": null,
-        "password": "$2y$10$rO\/oODY\/AGkJmdrIBFTm2.C1Q9HpBtf8NynMwnXKYruEDcAZRfl.S"
+        "password": "$2y$10$P2TlnkuOy2lsgkeKvGemqeW6UsM5eZOjcUwXRM.f5xM7dXKDBRFV6"
     },
-    "otherContact": {
-        "emails": [
-            "mpalmer@ccs.net"
-        ],
-        "phoneNumbers": [
-            "+44-260-435-1723"
-        ],
-        "socMedias": []
-    },
+    "otherContact": [],
     "otherInfo": {
         "gender": "F",
-        "dateOfBirth": "1997-04-29"
-    }
+        "dateOfBirth": "2000-02-10"
+    },
+    "totalBooked": 48,
+    "discount": 0.147
 });
 db.customers.insertOne(
 {
-    "customerKey": "SILACLAY2643",
+    "customerKey": "LEANOWEN1929",
     "name": {
-        "title": null,
-        "first": "Silas",
-        "middle": null,
-        "last": "Clayton",
+        "title": "Ms",
+        "first": "Leann",
+        "middle": "D",
+        "last": "Owen",
         "suffix": null
     },
     "address": {
-        "streetAddress": "3825 Winding Ditch Road",
+        "streetAddress": "6534 Blue Hill Road",
         "buildingName": null,
         "floor": null,
         "roomAptCondoFlat": null,
@@ -13212,305 +12186,3210 @@ db.customers.insertOne(
         "longitude": "-2.6"
     },
     "contact": {
-        "phone": "+441481-393-001-2643",
-        "email": "sclayton393@sktelecom.com",
-        "socMedia": null
+        "email": "lowen337@bifty.com",
+        "phone": "+61-337-442-1929",
+        "socMedia": {
+            "facebook": "lowen337@bifty.com@facebook.com"
+        }
     },
     "login": {
-        "username": "sclayton",
-        "oauth2": null,
-        "password": "$2y$10$ns03SQ9R3kNEcCJVEBqho.xs.cGvvpiiDf\/1e63VMqAUsHHxoLnIO"
+        "username": "lowen",
+        "oauth2": "lowen@facebook.com",
+        "password": "$2y$10$tzGZiO2ARP...OqcNwue3OCvKNV0v0\/8fUu2gunnMqNg4HYRWb88G"
     },
     "otherContact": {
         "emails": [
-            "sclayton@tata.net",
-            "sclayton@telesystems.net"
+            "lowen337@daxnet.com"
         ],
         "phoneNumbers": [
-            "+441481-801-019-1973"
+            "+61-337-673-5445"
         ],
-        "socMedias": []
+        "socMedias": [
+            {
+                "facebook": "lowen337@daxnet.com@facebook.com"
+            }
+        ]
     },
     "otherInfo": {
-        "gender": "M",
-        "dateOfBirth": "1944-02-21"
-    }
+        "gender": "F",
+        "dateOfBirth": "1959-09-19"
+    },
+    "totalBooked": 14,
+    "discount": 0
 });
 db.customers.insertOne(
 {
-    "customerKey": "HUBENICH6857",
+    "customerKey": "EMERGONZ3899",
     "name": {
         "title": "Mr",
-        "first": "Hubert",
-        "middle": "O",
-        "last": "Nichols",
+        "first": "Emery",
+        "middle": "Y",
+        "last": "Gonzalez",
         "suffix": null
     },
     "address": {
-        "streetAddress": "7855 Short Hill Ride",
+        "streetAddress": "4368 Big Stream Circle",
+        "buildingName": "Building B9",
+        "floor": null,
+        "roomAptCondoFlat": null,
+        "city": "Raukkan",
+        "stateProvince": "SA",
+        "locality": "SA SUBS NEAR 2",
+        "country": "AU",
+        "postalCode": "5259",
+        "latitude": "-35.4358",
+        "longitude": "139.2417"
+    },
+    "contact": {
+        "email": "egonzale338@access.com",
+        "phone": "+61-338-693-3899",
+        "socMedia": {
+            "linkedin": "egonzale338@access.com@linkedin.com"
+        }
+    },
+    "login": {
+        "username": "egonzale",
+        "oauth2": "egonzale@linkedin.com",
+        "password": "$2y$10$CMoyetQt\/7loGlgeyrBzsurZdFQKmpWqRPyT7CLQqk\/IrHnWfn\/aK"
+    },
+    "otherContact": {
+        "emails": [
+            "egonzale338@apicnet.com",
+            "egonzale338@jio.com",
+            "egonzale338@mtn.com"
+        ],
+        "phoneNumbers": [
+            "+61-338-412-3416",
+            "+61-338-737-5333",
+            "+61-338-728-8102"
+        ],
+        "socMedias": [
+            {
+                "linkedin": "egonzale338@apicnet.com@linkedin.com"
+            },
+            {
+                "google": "egonzale338@jio.com@google.com"
+            },
+            {
+                "linkedin": "egonzale338@mtn.com@linkedin.com"
+            }
+        ]
+    },
+    "otherInfo": {
+        "gender": "M",
+        "dateOfBirth": "1943-09-30"
+    },
+    "totalBooked": 16,
+    "discount": 0
+});
+db.customers.insertOne(
+{
+    "customerKey": "HIENESPI5819",
+    "name": {
+        "title": null,
+        "first": "Hien",
+        "middle": null,
+        "last": "Espinosa",
+        "suffix": null
+    },
+    "address": {
+        "streetAddress": "851 Big Tree Road",
         "buildingName": null,
         "floor": null,
         "roomAptCondoFlat": null,
-        "city": "L'\u00c9piphanie",
+        "city": "Kavadarci",
+        "stateProvince": null,
+        "locality": null,
+        "country": "MK",
+        "postalCode": "1430",
+        "latitude": "41.4331",
+        "longitude": "22.0119"
+    },
+    "contact": {
+        "email": "hespinos339@ooredoo.com",
+        "phone": "+61-339-211-5819",
+        "socMedia": []
+    },
+    "login": {
+        "username": "hespinos",
+        "oauth2": null,
+        "password": "$2y$10$\/AhbXPWi5HN5KSP6LxXkwuBO6n1EZF.\/yeFJgWgn7u6vqsqMqU4jG"
+    },
+    "otherContact": {
+        "emails": [
+            "hespinos339@airtel.com"
+        ],
+        "phoneNumbers": [
+            "+61-339-704-1854"
+        ]
+    },
+    "otherInfo": {
+        "gender": "F",
+        "dateOfBirth": "1951-06-29"
+    },
+    "totalBooked": 33,
+    "discount": 0.017
+});
+db.customers.insertOne(
+{
+    "customerKey": "JERRBLAN0678",
+    "name": {
+        "title": "Ms",
+        "first": "Jerry",
+        "middle": "W",
+        "last": "Blankenship",
+        "suffix": null
+    },
+    "address": {
+        "streetAddress": "5534 Big Gully Avenue",
+        "buildingName": null,
+        "floor": null,
+        "roomAptCondoFlat": null,
+        "city": "Yorkton Region (Melville)",
+        "stateProvince": "SK",
+        "locality": "Saskatchewan",
+        "country": "CA",
+        "postalCode": "S0A",
+        "latitude": "51.4818",
+        "longitude": "-102.9065"
+    },
+    "contact": {
+        "email": "jblanken340@chunghwa.com",
+        "phone": "+61-340-137-0678",
+        "socMedia": {
+            "line": "jblanken340@chunghwa.com@line.com"
+        }
+    },
+    "login": {
+        "username": "jblanken",
+        "oauth2": "jblanken@line.com",
+        "password": "$2y$10$NFY2W.gcdPS9JXz\/nVKRPeIM8DGCBvK.wleFH.LhoVSnHSxRoeYIC"
+    },
+    "otherContact": {
+        "emails": [
+            "jblanken340@mtn.com"
+        ],
+        "phoneNumbers": [
+            "+61-340-168-9223"
+        ],
+        "socMedias": [
+            {
+                "line": "jblanken340@mtn.com@line.com"
+            }
+        ]
+    },
+    "otherInfo": {
+        "gender": "F",
+        "dateOfBirth": "1996-08-29"
+    },
+    "totalBooked": 3,
+    "discount": 0
+});
+db.customers.insertOne(
+{
+    "customerKey": "VIVICALH4593",
+    "name": {
+        "title": "Ms",
+        "first": "Vivian",
+        "middle": "O",
+        "last": "Calhoun",
+        "suffix": null
+    },
+    "address": {
+        "streetAddress": "7516 Long Woods Ride",
+        "buildingName": null,
+        "floor": null,
+        "roomAptCondoFlat": null,
+        "city": "Shinanocho",
+        "stateProvince": "Seto Shi",
+        "locality": "Seto Shi",
+        "country": "JP",
+        "postalCode": "480-1207",
+        "latitude": "35.25",
+        "longitude": "137.1333"
+    },
+    "contact": {
+        "email": "vcalhoun341@kddi.com",
+        "phone": "+61-341-194-4593",
+        "socMedia": {
+            "line": "vcalhoun341@kddi.com@line.com"
+        }
+    },
+    "login": {
+        "username": "vcalhoun",
+        "oauth2": "vcalhoun@line.com",
+        "password": "$2y$10$zmb7sXfMYxSoPMZu6l14WeJ7tLF5sQDsnAAAFAl0jcb4OOessueiG"
+    },
+    "otherContact": {
+        "emails": [
+            "vcalhoun341@vodafone.com",
+            "vcalhoun341@sprint.com",
+            "vcalhoun341@oi.com"
+        ],
+        "phoneNumbers": [
+            "+61-341-224-5528",
+            "+61-341-775-7890",
+            "+61-341-940-8306"
+        ],
+        "socMedias": [
+            {
+                "twitter": "vcalhoun341@vodafone.com@twitter.com"
+            },
+            {
+                "facebook": "vcalhoun341@sprint.com@facebook.com"
+            },
+            {
+                "google": "vcalhoun341@oi.com@google.com"
+            }
+        ]
+    },
+    "otherInfo": {
+        "gender": "F",
+        "dateOfBirth": "1930-10-06"
+    },
+    "totalBooked": 4,
+    "discount": 0
+});
+db.customers.insertOne(
+{
+    "customerKey": "DELMBRAD4571",
+    "name": {
+        "title": "Dr",
+        "first": "Delma",
+        "middle": null,
+        "last": "Brady",
+        "suffix": "Jr"
+    },
+    "address": {
+        "streetAddress": "8674 Big Ridge Avenue",
+        "buildingName": null,
+        "floor": 16,
+        "roomAptCondoFlat": "4B",
+        "city": "Bilborough",
+        "stateProvince": "England",
+        "locality": "Nottinghamshire",
+        "country": "GB",
+        "postalCode": "NG8",
+        "latitude": "52.9648",
+        "longitude": "-1.2132"
+    },
+    "contact": {
+        "email": "dbrady342@econnect.com",
+        "phone": "+61-342-657-4571",
+        "socMedia": []
+    },
+    "login": {
+        "username": "dbrady",
+        "oauth2": null,
+        "password": "$2y$10$NlPm4UImd6gEMJLIFE.SKOt3tFpkJHcGyUrYzQLrjtrYug02Ibvla"
+    },
+    "otherContact": [],
+    "otherInfo": {
+        "gender": "F",
+        "dateOfBirth": "1964-01-10"
+    },
+    "totalBooked": 5,
+    "discount": 0.083
+});
+db.customers.insertOne(
+{
+    "customerKey": "NYLAHOUS6262",
+    "name": {
+        "title": "Ms",
+        "first": "Nyla",
+        "middle": "V",
+        "last": "Houston",
+        "suffix": null
+    },
+    "address": {
+        "streetAddress": "6910 Little Gulch Boulevard",
+        "buildingName": null,
+        "floor": null,
+        "roomAptCondoFlat": null,
+        "city": "Curanilahue",
+        "stateProvince": "Curanilahue",
+        "locality": "Provincia de Arauco",
+        "country": "CL",
+        "postalCode": "4370000",
+        "latitude": "-37.483",
+        "longitude": "-73.2351"
+    },
+    "contact": {
+        "email": "nhouston343@netcom.com",
+        "phone": "+61-343-174-6262",
+        "socMedia": {
+            "skype": "nhouston343@netcom.com@skype.com"
+        }
+    },
+    "login": {
+        "username": "nhouston",
+        "oauth2": "nhouston@skype.com",
+        "password": "$2y$10$\/lFn8jT3Oc8x\/dOxRXLTveFalD1Wy5.HwBHv9.KGSz6GEyOO\/a5T2"
+    },
+    "otherContact": {
+        "emails": [
+            "nhouston343@seednet.com",
+            "nhouston343@verizon.com",
+            "nhouston343@singtel.com"
+        ],
+        "phoneNumbers": [
+            "+61-343-172-2429",
+            "+61-343-221-4721",
+            "+61-343-919-9834"
+        ],
+        "socMedias": [
+            {
+                "linkedin": "nhouston343@seednet.com@linkedin.com"
+            },
+            {
+                "line": "nhouston343@verizon.com@line.com"
+            },
+            {
+                "facebook": "nhouston343@singtel.com@facebook.com"
+            }
+        ]
+    },
+    "otherInfo": {
+        "gender": "F",
+        "dateOfBirth": "1949-05-02"
+    },
+    "totalBooked": 74,
+    "discount": 0.095
+});
+db.customers.insertOne(
+{
+    "customerKey": "GENNLAMB1649",
+    "name": {
+        "title": "Ms",
+        "first": "Gennie",
+        "middle": "O",
+        "last": "Lamb",
+        "suffix": null
+    },
+    "address": {
+        "streetAddress": "1352 Short Creek Way",
+        "buildingName": null,
+        "floor": null,
+        "roomAptCondoFlat": null,
+        "city": "Dunkirk",
+        "stateProvince": "IN",
+        "locality": "Jay",
+        "country": "US",
+        "postalCode": "47336",
+        "latitude": "40.3883",
+        "longitude": "-85.2255"
+    },
+    "contact": {
+        "email": "glamb344@maxcomm.com",
+        "phone": "+61-344-717-1649",
+        "socMedia": {
+            "linkedin": "glamb344@maxcomm.com@linkedin.com"
+        }
+    },
+    "login": {
+        "username": "glamb",
+        "oauth2": "glamb@linkedin.com",
+        "password": "$2y$10$tssQkmNibmPRIoDkSdMe0eZaRD5Z7eVkCYm6TFGEfekjNn5OEg2RO"
+    },
+    "otherContact": {
+        "emails": [
+            "glamb344@ais.com"
+        ],
+        "phoneNumbers": [
+            "+61-344-754-1104"
+        ],
+        "socMedias": [
+            {
+                "line": "glamb344@ais.com@line.com"
+            }
+        ]
+    },
+    "otherInfo": {
+        "gender": "F",
+        "dateOfBirth": "1962-10-20"
+    },
+    "totalBooked": 15,
+    "discount": 0
+});
+db.customers.insertOne(
+{
+    "customerKey": "CASESING9120",
+    "name": {
+        "title": "Mr",
+        "first": "Casey",
+        "middle": "J",
+        "last": "Singleton",
+        "suffix": null
+    },
+    "address": {
+        "streetAddress": "4491 Little Bough Avenue",
+        "buildingName": null,
+        "floor": null,
+        "roomAptCondoFlat": null,
+        "city": "South Walpole",
+        "stateProvince": "MA",
+        "locality": "Norfolk",
+        "country": "US",
+        "postalCode": "02071",
+        "latitude": "42.0992",
+        "longitude": "-71.2752"
+    },
+    "contact": {
+        "email": "csinglet346@airtel.com",
+        "phone": "+61-346-603-9120",
+        "socMedia": {
+            "facebook": "csinglet346@airtel.com@facebook.com"
+        }
+    },
+    "login": {
+        "username": "csinglet",
+        "oauth2": "csinglet@facebook.com",
+        "password": "$2y$10$d6466.7yFf8.OgT1X1FlIe0LzZk1rlnzx52l84nicvq1DkXJIwjqO"
+    },
+    "otherContact": {
+        "emails": [
+            "csinglet346@airtel.com",
+            "csinglet346@orstom.com"
+        ],
+        "phoneNumbers": [
+            "+61-346-540-5545",
+            "+61-346-267-9112"
+        ],
+        "socMedias": [
+            {
+                "twitter": "csinglet346@airtel.com@twitter.com"
+            },
+            {
+                "line": "csinglet346@orstom.com@line.com"
+            }
+        ]
+    },
+    "otherInfo": {
+        "gender": "M",
+        "dateOfBirth": "1981-03-02"
+    },
+    "totalBooked": 5,
+    "discount": 0
+});
+db.customers.insertOne(
+{
+    "customerKey": "HOUSTOWN8905",
+    "name": {
+        "title": "Mr",
+        "first": "Houston",
+        "middle": "X",
+        "last": "Townsend",
+        "suffix": null
+    },
+    "address": {
+        "streetAddress": "7274 Green Hill Ride",
+        "buildingName": null,
+        "floor": null,
+        "roomAptCondoFlat": null,
+        "city": "Ume\u00e5",
+        "stateProvince": "AC",
+        "locality": "Ume\u00e5",
+        "country": "SE",
+        "postalCode": "903 55",
+        "latitude": "63.8284",
+        "longitude": "20.2597"
+    },
+    "contact": {
+        "email": "htownsen347@kpn.com",
+        "phone": "+61-347-866-8905",
+        "socMedia": {
+            "google": "htownsen347@kpn.com@google.com"
+        }
+    },
+    "login": {
+        "username": "htownsen",
+        "oauth2": "htownsen@google.com",
+        "password": "$2y$10$eFxDH4xoxtwPgjhlPfXQkuNZtTur4QtEhU4\/5gCTn.Qyzo2Vh0iZW"
+    },
+    "otherContact": {
+        "emails": [
+            "htownsen347@algonet.com",
+            "htownsen347@tt.com"
+        ],
+        "phoneNumbers": [
+            "+61-347-698-6208",
+            "+61-347-641-0063"
+        ],
+        "socMedias": [
+            {
+                "skype": "htownsen347@algonet.com@skype.com"
+            },
+            {
+                "facebook": "htownsen347@tt.com@facebook.com"
+            }
+        ]
+    },
+    "otherInfo": {
+        "gender": "M",
+        "dateOfBirth": "1935-06-14"
+    },
+    "totalBooked": 6,
+    "discount": 0
+});
+db.customers.insertOne(
+{
+    "customerKey": "HIRADILL9504",
+    "name": {
+        "title": null,
+        "first": "Hiram",
+        "middle": null,
+        "last": "Dillon",
+        "suffix": null
+    },
+    "address": {
+        "streetAddress": "725 Little Gully Circle",
+        "buildingName": null,
+        "floor": null,
+        "roomAptCondoFlat": "F7",
+        "city": "Babaganj",
+        "stateProvince": "Lalganj",
+        "locality": "Pratapgarh",
+        "country": "IN",
+        "postalCode": "230143",
+        "latitude": "25.8333",
+        "longitude": "81.8725"
+    },
+    "contact": {
+        "email": "hdillon348@softbank.com",
+        "phone": "+61-348-763-9504",
+        "socMedia": []
+    },
+    "login": {
+        "username": "hdillon",
+        "oauth2": null,
+        "password": "$2y$10$tnxV4ntMVr97M8NuEM8mk.p6vbVlDQcJJPVzOE\/4\/5OAJC4awfMQ."
+    },
+    "otherContact": {
+        "emails": [
+            "hdillon348@ais.com"
+        ],
+        "phoneNumbers": [
+            "+61-348-041-6126"
+        ]
+    },
+    "otherInfo": {
+        "gender": "M",
+        "dateOfBirth": "1971-03-11"
+    },
+    "totalBooked": 17,
+    "discount": 0.019
+});
+db.customers.insertOne(
+{
+    "customerKey": "PHILOCON9591",
+    "name": {
+        "title": "Mr",
+        "first": "Phil",
+        "middle": "M",
+        "last": "Oconnor",
+        "suffix": null
+    },
+    "address": {
+        "streetAddress": "2359 Long Ridge Circle",
+        "buildingName": null,
+        "floor": null,
+        "roomAptCondoFlat": null,
+        "city": "Chuuk",
+        "stateProvince": "State of Chuuk",
+        "locality": "State of Chuuk",
+        "country": "FM",
+        "postalCode": "96942",
+        "latitude": "7.1383",
+        "longitude": "151.5031"
+    },
+    "contact": {
+        "email": "poconnor349@unicom.com",
+        "phone": "+61-349-460-9591",
+        "socMedia": {
+            "twitter": "poconnor349@unicom.com@twitter.com"
+        }
+    },
+    "login": {
+        "username": "poconnor",
+        "oauth2": "poconnor@twitter.com",
+        "password": "$2y$10$FPtHxIRzZeTkkNKc2gzSOuQUmXsRVZJ\/i1\/EjBQywVU.Z5gxBxor2"
+    },
+    "otherContact": [],
+    "otherInfo": {
+        "gender": "M",
+        "dateOfBirth": "1969-03-11"
+    },
+    "totalBooked": 16,
+    "discount": 0
+});
+db.customers.insertOne(
+{
+    "customerKey": "NADEGAIN8327",
+    "name": {
+        "title": "Ms",
+        "first": "Nadene",
+        "middle": "R",
+        "last": "Gaines",
+        "suffix": null
+    },
+    "address": {
+        "streetAddress": "6816 Long Bridge Avenue",
+        "buildingName": null,
+        "floor": null,
+        "roomAptCondoFlat": null,
+        "city": "Port Orange",
+        "stateProvince": "FL",
+        "locality": "Volusia",
+        "country": "US",
+        "postalCode": "32128",
+        "latitude": "29.1383",
+        "longitude": "-80.9956"
+    },
+    "contact": {
+        "email": "ngaines350@algonet.com",
+        "phone": "+61-350-532-8327",
+        "socMedia": {
+            "twitter": "ngaines350@algonet.com@twitter.com"
+        }
+    },
+    "login": {
+        "username": "ngaines",
+        "oauth2": "ngaines@twitter.com",
+        "password": "$2y$10$qjFhY2J8Huljs8TknXd6O.JekXJjsjxLmnbS1Ukaj18D5BWrBjUQe"
+    },
+    "otherContact": [],
+    "otherInfo": {
+        "gender": "F",
+        "dateOfBirth": "1946-06-20"
+    },
+    "totalBooked": 13,
+    "discount": 0.07
+});
+db.customers.insertOne(
+{
+    "customerKey": "DANNCONL8401",
+    "name": {
+        "title": null,
+        "first": "Dann",
+        "middle": null,
+        "last": "Conley",
+        "suffix": null
+    },
+    "address": {
+        "streetAddress": "8239 Red Tree Avenue",
+        "buildingName": "Building 17",
+        "floor": 14,
+        "roomAptCondoFlat": null,
+        "city": "Fort-de-France",
+        "stateProvince": "MQ",
+        "locality": "Martinique",
+        "country": "MQ",
+        "postalCode": "97269 CEDEX",
+        "latitude": "14.6089",
+        "longitude": "-61.0733"
+    },
+    "contact": {
+        "email": "dconley351@nii.com",
+        "phone": "+61-351-864-8401",
+        "socMedia": []
+    },
+    "login": {
+        "username": "dconley",
+        "oauth2": null,
+        "password": "$2y$10$YD2NQUsQ\/O5HX0Stp\/QBuOVt7wLdLfSl3gjJdmWD2aXyhf9JRCF4."
+    },
+    "otherContact": {
+        "emails": [
+            "dconley351@glasnet.com"
+        ],
+        "phoneNumbers": [
+            "+61-351-854-1758"
+        ]
+    },
+    "otherInfo": {
+        "gender": "F",
+        "dateOfBirth": "1983-09-06"
+    },
+    "totalBooked": 29,
+    "discount": 0.078
+});
+db.customers.insertOne(
+{
+    "customerKey": "LANAVIL4757",
+    "name": {
+        "title": "Ms",
+        "first": "Lan",
+        "middle": "W",
+        "last": "Avila",
+        "suffix": null
+    },
+    "address": {
+        "streetAddress": "6837 Blue Mound Road",
+        "buildingName": null,
+        "floor": null,
+        "roomAptCondoFlat": null,
+        "city": "Kentville",
+        "stateProvince": "NS",
+        "locality": "Nova Scotia",
+        "country": "CA",
+        "postalCode": "B4N",
+        "latitude": "45.0834",
+        "longitude": "-64.4988"
+    },
+    "contact": {
+        "email": "lavila352@tata.com",
+        "phone": "+61-352-690-4757",
+        "socMedia": {
+            "line": "lavila352@tata.com@line.com"
+        }
+    },
+    "login": {
+        "username": "lavila",
+        "oauth2": "lavila@line.com",
+        "password": "$2y$10$rof23JwY4JLCcVyXYBTC0uhFAnbqVWclcAxajlwSGcBq9gRrTb4Oa"
+    },
+    "otherContact": {
+        "emails": [
+            "lavila352@relcom.com",
+            "lavila352@singtel.com"
+        ],
+        "phoneNumbers": [
+            "+61-352-445-5298",
+            "+61-352-994-9184"
+        ],
+        "socMedias": [
+            {
+                "twitter": "lavila352@relcom.com@twitter.com"
+            },
+            {
+                "line": "lavila352@singtel.com@line.com"
+            }
+        ]
+    },
+    "otherInfo": {
+        "gender": "F",
+        "dateOfBirth": "1989-06-19"
+    },
+    "totalBooked": 11,
+    "discount": 0
+});
+db.customers.insertOne(
+{
+    "customerKey": "SHANBALL1387",
+    "name": {
+        "title": "Mr",
+        "first": "Shannon",
+        "middle": "C",
+        "last": "Ballard",
+        "suffix": null
+    },
+    "address": {
+        "streetAddress": "1275 Big Canyon Boulevard",
+        "buildingName": null,
+        "floor": null,
+        "roomAptCondoFlat": null,
+        "city": "Jyv\u00e4skyl\u00e4",
+        "stateProvince": "Jyv\u00e4skyl\u00e4",
+        "locality": "Jyv\u00e4skyl\u00e4",
+        "country": "FI",
+        "postalCode": "40350",
+        "latitude": "62.2913",
+        "longitude": "25.8026"
+    },
+    "contact": {
+        "email": "sballard353@sktelecom.com",
+        "phone": "+61-353-158-1387",
+        "socMedia": {
+            "google": "sballard353@sktelecom.com@google.com"
+        }
+    },
+    "login": {
+        "username": "sballard",
+        "oauth2": "sballard@google.com",
+        "password": "$2y$10$jMrhgW.xVnpUlmCzt6BEjOdJmgprwbG9WPfjePjEoTydCvGtMJbJu"
+    },
+    "otherContact": {
+        "emails": [
+            "sballard353@relcom.com"
+        ],
+        "phoneNumbers": [
+            "+61-353-665-9148"
+        ],
+        "socMedias": [
+            {
+                "linkedin": "sballard353@relcom.com@linkedin.com"
+            }
+        ]
+    },
+    "otherInfo": {
+        "gender": "M",
+        "dateOfBirth": "1964-01-23"
+    },
+    "totalBooked": 9,
+    "discount": 0
+});
+db.customers.insertOne(
+{
+    "customerKey": "HAYDOLIV4651",
+    "name": {
+        "title": null,
+        "first": "Hayden",
+        "middle": null,
+        "last": "Oliver",
+        "suffix": null
+    },
+    "address": {
+        "streetAddress": "9296 Red Stream Circle",
+        "buildingName": null,
+        "floor": null,
+        "roomAptCondoFlat": "88",
+        "city": "Belleville West",
+        "stateProvince": "ON",
+        "locality": "Belleville",
+        "country": "CA",
+        "postalCode": "K8P",
+        "latitude": "44.1665",
+        "longitude": "-77.4037"
+    },
+    "contact": {
+        "email": "holiver354@telia.com",
+        "phone": "+61-354-986-4651",
+        "socMedia": []
+    },
+    "login": {
+        "username": "holiver",
+        "oauth2": null,
+        "password": "$2y$10$462vMffZ.PO7ORHL42QNQOsUoUH0qSEMN12wG1e6qwwv\/SroHKvuq"
+    },
+    "otherContact": {
+        "emails": [
+            "holiver354@seednet.com"
+        ],
+        "phoneNumbers": [
+            "+61-354-222-3140"
+        ]
+    },
+    "otherInfo": {
+        "gender": "M",
+        "dateOfBirth": "1932-04-17"
+    },
+    "totalBooked": 29,
+    "discount": 0.084
+});
+db.customers.insertOne(
+{
+    "customerKey": "BOYDBALL3714",
+    "name": {
+        "title": "Mr",
+        "first": "Boyd",
+        "middle": "J",
+        "last": "Ballard",
+        "suffix": null
+    },
+    "address": {
+        "streetAddress": "4851 Green Creek Street",
+        "buildingName": null,
+        "floor": null,
+        "roomAptCondoFlat": null,
+        "city": "Oakland",
+        "stateProvince": "AR",
+        "locality": "Marion",
+        "country": "US",
+        "postalCode": "72661",
+        "latitude": "36.4442",
+        "longitude": "-92.5832"
+    },
+    "contact": {
+        "email": "bballard355@sprint.com",
+        "phone": "+61-355-819-3714",
+        "socMedia": {
+            "linkedin": "bballard355@sprint.com@linkedin.com"
+        }
+    },
+    "login": {
+        "username": "bballard",
+        "oauth2": "bballard@linkedin.com",
+        "password": "$2y$10$PCXJBulg2rEkVj\/R6uFJ\/.E9IHE8G\/zJHY87\/CK8K3Tl4eUyus1o2"
+    },
+    "otherContact": {
+        "emails": [
+            "bballard355@centurylink.com"
+        ],
+        "phoneNumbers": [
+            "+61-355-900-7952"
+        ],
+        "socMedias": [
+            {
+                "skype": "bballard355@centurylink.com@skype.com"
+            }
+        ]
+    },
+    "otherInfo": {
+        "gender": "M",
+        "dateOfBirth": "1969-08-20"
+    },
+    "totalBooked": 3,
+    "discount": 0
+});
+db.customers.insertOne(
+{
+    "customerKey": "FRANMAYO3936",
+    "name": {
+        "title": "Mr",
+        "first": "Frank",
+        "middle": "W",
+        "last": "Mayo",
+        "suffix": null
+    },
+    "address": {
+        "streetAddress": "1399 Big Gully Road",
+        "buildingName": null,
+        "floor": null,
+        "roomAptCondoFlat": null,
+        "city": "Waterloo",
+        "stateProvince": "IA",
+        "locality": "Black Hawk",
+        "country": "US",
+        "postalCode": "50704",
+        "latitude": "42.4698",
+        "longitude": "-92.3095"
+    },
+    "contact": {
+        "email": "fmayo356@safaricom.com",
+        "phone": "+61-356-200-3936",
+        "socMedia": {
+            "facebook": "fmayo356@safaricom.com@facebook.com"
+        }
+    },
+    "login": {
+        "username": "fmayo",
+        "oauth2": "fmayo@facebook.com",
+        "password": "$2y$10$OOvdVTh50C9zn4CMrEB0Bu0lSLM.QEh3Jp\/VMdYuHMifga.M1OHai"
+    },
+    "otherContact": {
+        "emails": [
+            "fmayo356@frontier.com"
+        ],
+        "phoneNumbers": [
+            "+61-356-998-3437"
+        ],
+        "socMedias": [
+            {
+                "line": "fmayo356@frontier.com@line.com"
+            }
+        ]
+    },
+    "otherInfo": {
+        "gender": "M",
+        "dateOfBirth": "1987-10-12"
+    },
+    "totalBooked": 6,
+    "discount": 0
+});
+db.customers.insertOne(
+{
+    "customerKey": "CLEVLUGO7444",
+    "name": {
+        "title": null,
+        "first": "Cleveland",
+        "middle": null,
+        "last": "Lugo",
+        "suffix": null
+    },
+    "address": {
+        "streetAddress": "6516 Long Mound Ride",
+        "buildingName": null,
+        "floor": null,
+        "roomAptCondoFlat": null,
+        "city": "Schoelcher",
+        "stateProvince": "MQ",
+        "locality": "Martinique",
+        "country": "MQ",
+        "postalCode": "97277 CEDEX",
+        "latitude": "14.6177",
+        "longitude": "-61.099"
+    },
+    "contact": {
+        "email": "clugo357@ktc.com",
+        "phone": "+61-357-326-7444",
+        "socMedia": []
+    },
+    "login": {
+        "username": "clugo",
+        "oauth2": null,
+        "password": "$2y$10$RmDFuOXseJAb9pBZUccd0.NqB7D5YYFbTjDsgOnrmg44T.UJBLT9e"
+    },
+    "otherContact": {
+        "emails": [
+            "clugo357@ktc.com",
+            "clugo357@telesystems.com"
+        ],
+        "phoneNumbers": [
+            "+61-357-794-0493",
+            "+61-357-321-0835"
+        ]
+    },
+    "otherInfo": {
+        "gender": "M",
+        "dateOfBirth": "1965-01-18"
+    },
+    "totalBooked": 79,
+    "discount": 0.158
+});
+db.customers.insertOne(
+{
+    "customerKey": "DELMHOOV3483",
+    "name": {
+        "title": "Mr",
+        "first": "Delmer",
+        "middle": "E",
+        "last": "Hoover",
+        "suffix": null
+    },
+    "address": {
+        "streetAddress": "9350 Big Creek Way",
+        "buildingName": null,
+        "floor": null,
+        "roomAptCondoFlat": null,
+        "city": "Hoveringham",
+        "stateProvince": "England",
+        "locality": "Nottinghamshire",
+        "country": "GB",
+        "postalCode": "NG14",
+        "latitude": "53.0129",
+        "longitude": "-0.9594"
+    },
+    "contact": {
+        "email": "dhoover358@cerist.com",
+        "phone": "+61-358-605-3483",
+        "socMedia": {
+            "skype": "dhoover358@cerist.com@skype.com"
+        }
+    },
+    "login": {
+        "username": "dhoover",
+        "oauth2": "dhoover@skype.com",
+        "password": "$2y$10$kLEpOf20LmKtwT6qHbH2ietEfcXSDyM46g53RjmVxRgaKR65gnc1y"
+    },
+    "otherContact": {
+        "emails": [
+            "dhoover358@ntt.com",
+            "dhoover358@bce.com",
+            "dhoover358@nii.com"
+        ],
+        "phoneNumbers": [
+            "+61-358-327-6633",
+            "+61-358-304-6049",
+            "+61-358-971-5951"
+        ],
+        "socMedias": [
+            {
+                "skype": "dhoover358@ntt.com@skype.com"
+            },
+            {
+                "facebook": "dhoover358@bce.com@facebook.com"
+            },
+            {
+                "line": "dhoover358@nii.com@line.com"
+            }
+        ]
+    },
+    "otherInfo": {
+        "gender": "M",
+        "dateOfBirth": "1943-11-03"
+    },
+    "totalBooked": 20,
+    "discount": 0
+});
+db.customers.insertOne(
+{
+    "customerKey": "DAMILOWE5203",
+    "name": {
+        "title": "Mr",
+        "first": "Damian",
+        "middle": "K",
+        "last": "Lowe",
+        "suffix": null
+    },
+    "address": {
+        "streetAddress": "1793 Blue Gulch Boulevard",
+        "buildingName": null,
+        "floor": null,
+        "roomAptCondoFlat": null,
+        "city": "M'Tsangamouji",
+        "stateProvince": "M'Tsangamouji",
+        "locality": "M'Tsangamouji",
+        "country": "YT",
+        "postalCode": "97650",
+        "latitude": "-12.7594",
+        "longitude": "45.0836"
+    },
+    "contact": {
+        "email": "dlowe359@cubenet.com",
+        "phone": "+61-359-713-5203",
+        "socMedia": {
+            "linkedin": "dlowe359@cubenet.com@linkedin.com"
+        }
+    },
+    "login": {
+        "username": "dlowe",
+        "oauth2": "dlowe@linkedin.com",
+        "password": "$2y$10$ZzOVlfwxzZq8pP5fzfFDQeMa\/mIYlenT3hvzypn90Lfui6.ZXndKq"
+    },
+    "otherContact": [],
+    "otherInfo": {
+        "gender": "M",
+        "dateOfBirth": "1978-11-10"
+    },
+    "totalBooked": 20,
+    "discount": 0
+});
+db.customers.insertOne(
+{
+    "customerKey": "COLEFLOY7423",
+    "name": {
+        "title": null,
+        "first": "Coleman",
+        "middle": null,
+        "last": "Floyd",
+        "suffix": null
+    },
+    "address": {
+        "streetAddress": "4913 Little Mound Drive",
+        "buildingName": null,
+        "floor": 17,
+        "roomAptCondoFlat": "20",
+        "city": "Halifax Lower Harbour",
+        "stateProvince": "NS",
+        "locality": "Halifax",
+        "country": "CA",
+        "postalCode": "B3H",
+        "latitude": "44.6344",
+        "longitude": "-63.5822"
+    },
+    "contact": {
+        "email": "cfloyd360@bce.com",
+        "phone": "+61-360-856-7423",
+        "socMedia": []
+    },
+    "login": {
+        "username": "cfloyd",
+        "oauth2": null,
+        "password": "$2y$10$ZtNQ394r7\/Qw2c0em8oSqOUI\/np0DC7.KOooS9DMzcle\/2HcGAzDy"
+    },
+    "otherContact": {
+        "emails": [
+            "cfloyd360@eunet.com"
+        ],
+        "phoneNumbers": [
+            "+61-360-211-3505"
+        ]
+    },
+    "otherInfo": {
+        "gender": "M",
+        "dateOfBirth": "1942-04-23"
+    },
+    "totalBooked": 49,
+    "discount": 0.061
+});
+db.customers.insertOne(
+{
+    "customerKey": "EILEBRAD7474",
+    "name": {
+        "title": "Ms",
+        "first": "Eilene",
+        "middle": "T",
+        "last": "Bradford",
+        "suffix": null
+    },
+    "address": {
+        "streetAddress": "4162 Winding Bough Drive",
+        "buildingName": null,
+        "floor": null,
+        "roomAptCondoFlat": null,
+        "city": "Pasig Ortigas CTR-PO Box# 4500 to 4599",
+        "stateProvince": null,
+        "locality": null,
+        "country": "PH",
+        "postalCode": "1685",
+        "latitude": "14.5934",
+        "longitude": "121.0281"
+    },
+    "contact": {
+        "email": "ebradfor361@sprint.com",
+        "phone": "+61-361-983-7474",
+        "socMedia": {
+            "twitter": "ebradfor361@sprint.com@twitter.com"
+        }
+    },
+    "login": {
+        "username": "ebradfor",
+        "oauth2": "ebradfor@twitter.com",
+        "password": "$2y$10$ALGfdk0sSvMyuAB7hcKKDumxisrMW8mDybZFt4s2YTk3rxYcxUTy."
+    },
+    "otherContact": {
+        "emails": [
+            "ebradfor361@vodafone.com",
+            "ebradfor361@jio.com",
+            "ebradfor361@eunet.com"
+        ],
+        "phoneNumbers": [
+            "+61-361-928-0401",
+            "+61-361-521-3368",
+            "+61-361-477-6871"
+        ],
+        "socMedias": [
+            {
+                "google": "ebradfor361@vodafone.com@google.com"
+            },
+            {
+                "line": "ebradfor361@jio.com@line.com"
+            },
+            {
+                "twitter": "ebradfor361@eunet.com@twitter.com"
+            }
+        ]
+    },
+    "otherInfo": {
+        "gender": "F",
+        "dateOfBirth": "1999-06-13"
+    },
+    "totalBooked": 5,
+    "discount": 0
+});
+db.customers.insertOne(
+{
+    "customerKey": "CAITHALL7994",
+    "name": {
+        "title": "Ms",
+        "first": "Caitlin",
+        "middle": "C",
+        "last": "Hall",
+        "suffix": null
+    },
+    "address": {
+        "streetAddress": "4431 Green Canyon Avenue",
+        "buildingName": null,
+        "floor": null,
+        "roomAptCondoFlat": null,
+        "city": "Burswood",
+        "stateProvince": "WA",
+        "locality": "TANGNEY",
+        "country": "AU",
+        "postalCode": "6100",
+        "latitude": "-31.9587",
+        "longitude": "115.904"
+    },
+    "contact": {
+        "email": "chall362@singtel.com",
+        "phone": "+61-362-455-7994",
+        "socMedia": {
+            "google": "chall362@singtel.com@google.com"
+        }
+    },
+    "login": {
+        "username": "chall",
+        "oauth2": "chall@google.com",
+        "password": "$2y$10$twZItWJizjUWlGDD1wPIx.\/JdQh5siWgjK7wghNlWVLMRC0\/Dzh1K"
+    },
+    "otherContact": {
+        "emails": [
+            "chall362@cerist.com"
+        ],
+        "phoneNumbers": [
+            "+61-362-181-6517"
+        ],
+        "socMedias": [
+            {
+                "facebook": "chall362@cerist.com@facebook.com"
+            }
+        ]
+    },
+    "otherInfo": {
+        "gender": "F",
+        "dateOfBirth": "1941-11-05"
+    },
+    "totalBooked": 15,
+    "discount": 0
+});
+db.customers.insertOne(
+{
+    "customerKey": "JODEMORR1003",
+    "name": {
+        "title": "Dr",
+        "first": "Jodee",
+        "middle": null,
+        "last": "Morrow",
+        "suffix": "Sr"
+    },
+    "address": {
+        "streetAddress": "9843 Blue Creek Street",
+        "buildingName": null,
+        "floor": null,
+        "roomAptCondoFlat": null,
+        "city": "Melaselvanur",
+        "stateProvince": "Kadaladi",
+        "locality": "Ramanathapuram",
+        "country": "IN",
+        "postalCode": "623703",
+        "latitude": "9.6723",
+        "longitude": "78.0203"
+    },
+    "contact": {
+        "email": "jmorrow363@tt.com",
+        "phone": "+61-363-723-1003",
+        "socMedia": []
+    },
+    "login": {
+        "username": "jmorrow",
+        "oauth2": null,
+        "password": "$2y$10$8DAkFat\/7TLhirHAlCyn5.W9Rr2ME.XTr8NGfoIT2yRiQzrBHelRy"
+    },
+    "otherContact": {
+        "emails": [
+            "jmorrow363@tata.com",
+            "jmorrow363@orstom.com",
+            "jmorrow363@frontier.com"
+        ],
+        "phoneNumbers": [
+            "+61-363-629-9393",
+            "+61-363-162-8433",
+            "+61-363-813-0906"
+        ]
+    },
+    "otherInfo": {
+        "gender": "F",
+        "dateOfBirth": "1994-01-22"
+    },
+    "totalBooked": 16,
+    "discount": 0.037
+});
+db.customers.insertOne(
+{
+    "customerKey": "GEORGRAN0706",
+    "name": {
+        "title": "Ms",
+        "first": "Georgette",
+        "middle": "X",
+        "last": "Grant",
+        "suffix": null
+    },
+    "address": {
+        "streetAddress": "4411 Blue Bough Road",
+        "buildingName": "Building 61",
+        "floor": null,
+        "roomAptCondoFlat": null,
+        "city": "Stenhousemuir",
+        "stateProvince": "Scotland",
+        "locality": "Falkirk",
+        "country": "GB",
+        "postalCode": "FK5",
+        "latitude": "56.0269",
+        "longitude": "-3.8218"
+    },
+    "contact": {
+        "email": "ggrant364@ktc.com",
+        "phone": "+61-364-461-0706",
+        "socMedia": {
+            "skype": "ggrant364@ktc.com@skype.com"
+        }
+    },
+    "login": {
+        "username": "ggrant",
+        "oauth2": "ggrant@skype.com",
+        "password": "$2y$10$b56LKMfz5e4LD7vh9fV8A.HZBPROSy1xXCW7jPam535PrNL3Jokde"
+    },
+    "otherContact": [],
+    "otherInfo": {
+        "gender": "F",
+        "dateOfBirth": "1971-10-26"
+    },
+    "totalBooked": 22,
+    "discount": 0.153
+});
+db.customers.insertOne(
+{
+    "customerKey": "VENIPHAN6332",
+    "name": {
+        "title": "Ms",
+        "first": "Venice",
+        "middle": "S",
+        "last": "Phan",
+        "suffix": null
+    },
+    "address": {
+        "streetAddress": "2356 Big Bough Way",
+        "buildingName": null,
+        "floor": null,
+        "roomAptCondoFlat": null,
+        "city": "COLONIA PINTO",
+        "stateProvince": "G",
+        "locality": "Santiago Del Estero",
+        "country": "AR",
+        "postalCode": "4313",
+        "latitude": "-28.425",
+        "longitude": "-63.7542"
+    },
+    "contact": {
+        "email": "vphan365@tm.com",
+        "phone": "+61-365-095-6332",
+        "socMedia": {
+            "facebook": "vphan365@tm.com@facebook.com"
+        }
+    },
+    "login": {
+        "username": "vphan",
+        "oauth2": "vphan@facebook.com",
+        "password": "$2y$10$kq5yxtFaLQMsxrDBUN9zf.JGbgJOwBN7zveOS0YfZPfdC69FcI.PS"
+    },
+    "otherContact": [],
+    "otherInfo": {
+        "gender": "F",
+        "dateOfBirth": "1935-11-09"
+    },
+    "totalBooked": 17,
+    "discount": 0
+});
+db.customers.insertOne(
+{
+    "customerKey": "BRADTHOR6515",
+    "name": {
+        "title": null,
+        "first": "Bradly",
+        "middle": null,
+        "last": "Thornton",
+        "suffix": null
+    },
+    "address": {
+        "streetAddress": "3998 Blue Ditch Way",
+        "buildingName": null,
+        "floor": null,
+        "roomAptCondoFlat": "5D",
+        "city": "Cicero",
+        "stateProvince": "IN",
+        "locality": "Hamilton",
+        "country": "US",
+        "postalCode": "46034",
+        "latitude": "40.1298",
+        "longitude": "-86.0381"
+    },
+    "contact": {
+        "email": "bthornto366@vodafone.com",
+        "phone": "+61-366-262-6515",
+        "socMedia": []
+    },
+    "login": {
+        "username": "bthornto",
+        "oauth2": null,
+        "password": "$2y$10$fX0F11quieYJj4c9vYVKlONlaEEOuBM\/RtRoIEDm4FID2IQpelJ2i"
+    },
+    "otherContact": [],
+    "otherInfo": {
+        "gender": "M",
+        "dateOfBirth": "1968-09-19"
+    },
+    "totalBooked": 40,
+    "discount": 0.052000000000000005
+});
+db.customers.insertOne(
+{
+    "customerKey": "JUANCOFF6227",
+    "name": {
+        "title": "Ms",
+        "first": "Juanita",
+        "middle": "K",
+        "last": "Coffey",
+        "suffix": null
+    },
+    "address": {
+        "streetAddress": "1172 Red Mountain Avenue",
+        "buildingName": null,
+        "floor": null,
+        "roomAptCondoFlat": null,
+        "city": "Alor Setar",
+        "stateProvince": "KDH",
+        "locality": "Kedah",
+        "country": "MY",
+        "postalCode": "05506",
+        "latitude": "6.1194",
+        "longitude": "100.3677"
+    },
+    "contact": {
+        "email": "jcoffey367@telkom.com",
+        "phone": "+61-367-254-6227",
+        "socMedia": {
+            "twitter": "jcoffey367@telkom.com@twitter.com"
+        }
+    },
+    "login": {
+        "username": "jcoffey",
+        "oauth2": "jcoffey@twitter.com",
+        "password": "$2y$10$Fkq6tQ91teMU7MbyNDL\/WOq\/LpTqCQdcz7ojHoUlswM1ZfvtlM0Cy"
+    },
+    "otherContact": {
+        "emails": [
+            "jcoffey367@vodafone.com",
+            "jcoffey367@sktelecom.com",
+            "jcoffey367@orange.com"
+        ],
+        "phoneNumbers": [
+            "+61-367-248-8131",
+            "+61-367-827-9455",
+            "+61-367-022-6325"
+        ],
+        "socMedias": [
+            {
+                "facebook": "jcoffey367@vodafone.com@facebook.com"
+            },
+            {
+                "linkedin": "jcoffey367@sktelecom.com@linkedin.com"
+            },
+            {
+                "skype": "jcoffey367@orange.com@skype.com"
+            }
+        ]
+    },
+    "otherInfo": {
+        "gender": "F",
+        "dateOfBirth": "1937-10-03"
+    },
+    "totalBooked": 19,
+    "discount": 0
+});
+db.customers.insertOne(
+{
+    "customerKey": "JANISOLI8095",
+    "name": {
+        "title": "Ms",
+        "first": "Janine",
+        "middle": "T",
+        "last": "Solis",
+        "suffix": null
+    },
+    "address": {
+        "streetAddress": "5136 Blue Bough Ride",
+        "buildingName": null,
+        "floor": null,
+        "roomAptCondoFlat": null,
+        "city": "Kirkland",
+        "stateProvince": "QC",
+        "locality": "Montr\u00e9al",
+        "country": "CA",
+        "postalCode": "H9J",
+        "latitude": "45.4501",
+        "longitude": "-73.8659"
+    },
+    "contact": {
+        "email": "jsolis368@jio.com",
+        "phone": "+61-368-460-8095",
+        "socMedia": {
+            "linkedin": "jsolis368@jio.com@linkedin.com"
+        }
+    },
+    "login": {
+        "username": "jsolis",
+        "oauth2": "jsolis@linkedin.com",
+        "password": "$2y$10$T2kI2fvWi9KdvUUeCeqBBOnU4YNALu8.yPYkliBrsYzdcNX.Z8HXa"
+    },
+    "otherContact": {
+        "emails": [
+            "jsolis368@greennet.com",
+            "jsolis368@glasnet.com"
+        ],
+        "phoneNumbers": [
+            "+61-368-739-1969",
+            "+61-368-106-5624"
+        ],
+        "socMedias": [
+            {
+                "skype": "jsolis368@greennet.com@skype.com"
+            },
+            {
+                "skype": "jsolis368@glasnet.com@skype.com"
+            }
+        ]
+    },
+    "otherInfo": {
+        "gender": "F",
+        "dateOfBirth": "1943-03-11"
+    },
+    "totalBooked": 2,
+    "discount": 0
+});
+db.customers.insertOne(
+{
+    "customerKey": "OSVAROBL4565",
+    "name": {
+        "title": null,
+        "first": "Osvaldo",
+        "middle": null,
+        "last": "Robles",
+        "suffix": null
+    },
+    "address": {
+        "streetAddress": "6674 Green Creek Street",
+        "buildingName": null,
+        "floor": 11,
+        "roomAptCondoFlat": null,
+        "city": "Dewal",
+        "stateProvince": "Norhern Punajb Rawalpindi",
+        "locality": "Norhern Punajb Rawalpindi",
+        "country": "PK",
+        "postalCode": "48081",
+        "latitude": "32.8083",
+        "longitude": "73.8583"
+    },
+    "contact": {
+        "email": "orobles369@telefonica.com",
+        "phone": "+61-369-400-4565",
+        "socMedia": []
+    },
+    "login": {
+        "username": "orobles",
+        "oauth2": null,
+        "password": "$2y$10$nF28T9wQcTZDx6U1W0W1Ke.kTZfkZNtXzyHwKDPgQzGXlLfng3z\/G"
+    },
+    "otherContact": {
+        "emails": [
+            "orobles369@daxnet.com",
+            "orobles369@singtel.com"
+        ],
+        "phoneNumbers": [
+            "+61-369-710-8311",
+            "+61-369-063-1998"
+        ]
+    },
+    "otherInfo": {
+        "gender": "M",
+        "dateOfBirth": "1994-12-05"
+    },
+    "totalBooked": 38,
+    "discount": 0.043000000000000003
+});
+db.customers.insertOne(
+{
+    "customerKey": "MARLHESS5079",
+    "name": {
+        "title": "Ms",
+        "first": "Marlin",
+        "middle": "E",
+        "last": "Hess",
+        "suffix": null
+    },
+    "address": {
+        "streetAddress": "9498 Winding Creek Boulevard",
+        "buildingName": null,
+        "floor": null,
+        "roomAptCondoFlat": null,
+        "city": "Kandhala Guru",
+        "stateProvince": "Jalandhar",
+        "locality": "Jalandhar",
+        "country": "IN",
+        "postalCode": "144303",
+        "latitude": "31.6708",
+        "longitude": "75.7745"
+    },
+    "contact": {
+        "email": "mhess370@econnect.com",
+        "phone": "+61-370-781-5079",
+        "socMedia": {
+            "facebook": "mhess370@econnect.com@facebook.com"
+        }
+    },
+    "login": {
+        "username": "mhess",
+        "oauth2": "mhess@facebook.com",
+        "password": "$2y$10$D\/iF411D5vKwvqflr.Ha1Oq0Awv8vlYXmsQu5i5oH2dx00uTXyx5C"
+    },
+    "otherContact": {
+        "emails": [
+            "mhess370@cci.com",
+            "mhess370@greennet.com",
+            "mhess370@lookdata.com"
+        ],
+        "phoneNumbers": [
+            "+61-370-614-0158",
+            "+61-370-426-3937",
+            "+61-370-532-9910"
+        ],
+        "socMedias": [
+            {
+                "twitter": "mhess370@cci.com@twitter.com"
+            },
+            {
+                "line": "mhess370@greennet.com@line.com"
+            },
+            {
+                "google": "mhess370@lookdata.com@google.com"
+            }
+        ]
+    },
+    "otherInfo": {
+        "gender": "F",
+        "dateOfBirth": "1944-02-13"
+    },
+    "totalBooked": 7,
+    "discount": 0
+});
+db.customers.insertOne(
+{
+    "customerKey": "ELDOREYN9172",
+    "name": {
+        "title": "Mr",
+        "first": "Eldon",
+        "middle": "M",
+        "last": "Reynolds",
+        "suffix": null
+    },
+    "address": {
+        "streetAddress": "1459 Little Hill Way",
+        "buildingName": null,
+        "floor": null,
+        "roomAptCondoFlat": null,
+        "city": "St Thomas",
+        "stateProvince": "St. Thomas",
+        "locality": "St. Thomas",
+        "country": "VI",
+        "postalCode": "00802",
+        "latitude": "18.3387",
+        "longitude": "-64.916"
+    },
+    "contact": {
+        "email": "ereynold371@ntt.com",
+        "phone": "+61-371-203-9172",
+        "socMedia": {
+            "line": "ereynold371@ntt.com@line.com"
+        }
+    },
+    "login": {
+        "username": "ereynold",
+        "oauth2": "ereynold@line.com",
+        "password": "$2y$10$lzOmRDeoWiYci.BO8DW5aeCmzicSjouuqjZ5E94Vx884P8sOKi65a"
+    },
+    "otherContact": {
+        "emails": [
+            "ereynold371@vodafone.com"
+        ],
+        "phoneNumbers": [
+            "+61-371-409-6700"
+        ],
+        "socMedias": [
+            {
+                "twitter": "ereynold371@vodafone.com@twitter.com"
+            }
+        ]
+    },
+    "otherInfo": {
+        "gender": "M",
+        "dateOfBirth": "1989-10-14"
+    },
+    "totalBooked": 90,
+    "discount": 0.059000000000000004
+});
+db.customers.insertOne(
+{
+    "customerKey": "ASHLHEND8705",
+    "name": {
+        "title": null,
+        "first": "Ashlea",
+        "middle": null,
+        "last": "Henderson",
+        "suffix": null
+    },
+    "address": {
+        "streetAddress": "7002 Long Woods Boulevard",
+        "buildingName": null,
+        "floor": null,
+        "roomAptCondoFlat": "04",
+        "city": "Ampthill",
+        "stateProvince": "England",
+        "locality": "Bedfordshire",
+        "country": "GB",
+        "postalCode": "MK45",
+        "latitude": "52.0269",
+        "longitude": "-0.4957"
+    },
+    "contact": {
+        "email": "ahenders372@econnect.com",
+        "phone": "+61-372-817-8705",
+        "socMedia": []
+    },
+    "login": {
+        "username": "ahenders",
+        "oauth2": null,
+        "password": "$2y$10$CPtGL2hiqywpMYjD1kSDJ.swNmO6i9CFt7oETuDz5MNQaafeO5D4q"
+    },
+    "otherContact": {
+        "emails": [
+            "ahenders372@seednet.com",
+            "ahenders372@seednet.com",
+            "ahenders372@bifty.com"
+        ],
+        "phoneNumbers": [
+            "+61-372-294-4140",
+            "+61-372-991-3413",
+            "+61-372-216-4394"
+        ]
+    },
+    "otherInfo": {
+        "gender": "F",
+        "dateOfBirth": "2001-11-19"
+    },
+    "totalBooked": 15,
+    "discount": 0.029
+});
+db.customers.insertOne(
+{
+    "customerKey": "GAVIMURI2884",
+    "name": {
+        "title": "Mr",
+        "first": "Gavin",
+        "middle": "P",
+        "last": "Murillo",
+        "suffix": null
+    },
+    "address": {
+        "streetAddress": "3214 Winding Ridge Road",
+        "buildingName": null,
+        "floor": null,
+        "roomAptCondoFlat": null,
+        "city": "Ghersunovca",
+        "stateProvince": "Ribnita Tr.",
+        "locality": "Ribnita Tr.",
+        "country": "MD",
+        "postalCode": "MD-5535",
+        "latitude": "47.7211",
+        "longitude": "29.1683"
+    },
+    "contact": {
+        "email": "gmurillo373@access.com",
+        "phone": "+61-373-509-2884",
+        "socMedia": {
+            "line": "gmurillo373@access.com@line.com"
+        }
+    },
+    "login": {
+        "username": "gmurillo",
+        "oauth2": "gmurillo@line.com",
+        "password": "$2y$10$c19Ii56aVep7OQTkdfcw7eZ\/wKzPKy7Qxbp6CRNQnVU9\/oeyRK4Hi"
+    },
+    "otherContact": {
+        "emails": [
+            "gmurillo373@ote.com"
+        ],
+        "phoneNumbers": [
+            "+61-373-073-8020"
+        ],
+        "socMedias": [
+            {
+                "twitter": "gmurillo373@ote.com@twitter.com"
+            }
+        ]
+    },
+    "otherInfo": {
+        "gender": "M",
+        "dateOfBirth": "1945-12-22"
+    },
+    "totalBooked": 19,
+    "discount": 0
+});
+db.customers.insertOne(
+{
+    "customerKey": "KORIBERR2751",
+    "name": {
+        "title": "Ms",
+        "first": "Kori",
+        "middle": "T",
+        "last": "Berry",
+        "suffix": null
+    },
+    "address": {
+        "streetAddress": "6805 Long Woods Boulevard",
+        "buildingName": null,
+        "floor": null,
+        "roomAptCondoFlat": null,
+        "city": "Hail Creek",
+        "stateProvince": "QLD",
+        "locality": "CENTRAL QLD",
+        "country": "AU",
+        "postalCode": "4742",
+        "latitude": "-21.7372",
+        "longitude": "148.4658"
+    },
+    "contact": {
+        "email": "kberry374@softbank.com",
+        "phone": "+61-374-395-2751",
+        "socMedia": {
+            "skype": "kberry374@softbank.com@skype.com"
+        }
+    },
+    "login": {
+        "username": "kberry",
+        "oauth2": "kberry@skype.com",
+        "password": "$2y$10$7yNK6WdGHD8QhkA02Au0j.tnXfnRC47FJ8OWL7YNP4De4sPBqIjcG"
+    },
+    "otherContact": {
+        "emails": [
+            "kberry374@cci.com"
+        ],
+        "phoneNumbers": [
+            "+61-374-350-5458"
+        ],
+        "socMedias": [
+            {
+                "google": "kberry374@cci.com@google.com"
+            }
+        ]
+    },
+    "otherInfo": {
+        "gender": "F",
+        "dateOfBirth": "2000-07-06"
+    },
+    "totalBooked": 10,
+    "discount": 0
+});
+db.customers.insertOne(
+{
+    "customerKey": "ANGETRUO4767",
+    "name": {
+        "title": null,
+        "first": "Angelia",
+        "middle": null,
+        "last": "Truong",
+        "suffix": null
+    },
+    "address": {
+        "streetAddress": "964 Red Bend Street",
+        "buildingName": null,
+        "floor": null,
+        "roomAptCondoFlat": null,
+        "city": "Coen",
+        "stateProvince": "QLD",
+        "locality": "NORTH QLD",
+        "country": "AU",
+        "postalCode": "4871",
+        "latitude": "-13.9456",
+        "longitude": "143.199"
+    },
+    "contact": {
+        "email": "atruong375@ntt.com",
+        "phone": "+61-375-912-4767",
+        "socMedia": []
+    },
+    "login": {
+        "username": "atruong",
+        "oauth2": null,
+        "password": "$2y$10$SBUqs7tk6daEkZt\/I7Gt\/OzdAxJ\/vYBAMvBJy2S5bhMsVT9DGy4Qi"
+    },
+    "otherContact": [],
+    "otherInfo": {
+        "gender": "F",
+        "dateOfBirth": "1956-09-19"
+    },
+    "totalBooked": 39,
+    "discount": 0.015
+});
+db.customers.insertOne(
+{
+    "customerKey": "WILFCALH6563",
+    "name": {
+        "title": "Mr",
+        "first": "Wilfred",
+        "middle": "V",
+        "last": "Calhoun",
+        "suffix": null
+    },
+    "address": {
+        "streetAddress": "2088 Winding Stream Ride",
+        "buildingName": null,
+        "floor": null,
+        "roomAptCondoFlat": null,
+        "city": "Canary Wharf",
+        "stateProvince": "England",
+        "locality": "Greater London",
+        "country": "GB",
+        "postalCode": "SE16",
+        "latitude": "51.4965",
+        "longitude": "-0.0537"
+    },
+    "contact": {
+        "email": "wcalhoun376@oi.com",
+        "phone": "+61-376-816-6563",
+        "socMedia": {
+            "linkedin": "wcalhoun376@oi.com@linkedin.com"
+        }
+    },
+    "login": {
+        "username": "wcalhoun",
+        "oauth2": "wcalhoun@linkedin.com",
+        "password": "$2y$10$WcLF4wMlVAW1VFwygAUN1.6whL3JePR6O4jWFW2bjpvagwNAOa8sK"
+    },
+    "otherContact": {
+        "emails": [
+            "wcalhoun376@millicom.com"
+        ],
+        "phoneNumbers": [
+            "+61-376-091-2420"
+        ],
+        "socMedias": [
+            {
+                "twitter": "wcalhoun376@millicom.com@twitter.com"
+            }
+        ]
+    },
+    "otherInfo": {
+        "gender": "M",
+        "dateOfBirth": "1979-05-25"
+    },
+    "totalBooked": 18,
+    "discount": 0
+});
+db.customers.insertOne(
+{
+    "customerKey": "ARLEZUNI1523",
+    "name": {
+        "title": "Ms",
+        "first": "Arlena",
+        "middle": "M",
+        "last": "Zuniga",
+        "suffix": null
+    },
+    "address": {
+        "streetAddress": "9420 Little Mountain Boulevard",
+        "buildingName": "Building 11",
+        "floor": null,
+        "roomAptCondoFlat": null,
+        "city": "La Rosa",
+        "stateProvince": null,
+        "locality": null,
+        "country": "DO",
+        "postalCode": "11004",
+        "latitude": "19.1333",
+        "longitude": "-71.2833"
+    },
+    "contact": {
+        "email": "azuniga377@apicnet.com",
+        "phone": "+61-377-844-1523",
+        "socMedia": {
+            "twitter": "azuniga377@apicnet.com@twitter.com"
+        }
+    },
+    "login": {
+        "username": "azuniga",
+        "oauth2": "azuniga@twitter.com",
+        "password": "$2y$10$yjJC4oMk0syFMN4r.dQVDOHkb6GbZRKWuvVFHGaOAxzq\/eP1PfOV2"
+    },
+    "otherContact": {
+        "emails": [
+            "azuniga377@verizon.com"
+        ],
+        "phoneNumbers": [
+            "+61-377-528-9730"
+        ],
+        "socMedias": [
+            {
+                "skype": "azuniga377@verizon.com@skype.com"
+            }
+        ]
+    },
+    "otherInfo": {
+        "gender": "F",
+        "dateOfBirth": "1999-02-07"
+    },
+    "totalBooked": 7,
+    "discount": 0
+});
+db.customers.insertOne(
+{
+    "customerKey": "CRISTURN6168",
+    "name": {
+        "title": null,
+        "first": "Cristin",
+        "middle": null,
+        "last": "Turner",
+        "suffix": null
+    },
+    "address": {
+        "streetAddress": "4890 Short Canyon Way",
+        "buildingName": null,
+        "floor": 19,
+        "roomAptCondoFlat": "F1",
+        "city": "Camberwell",
+        "stateProvince": "VIC",
+        "locality": "Victoria",
+        "country": "AU",
+        "postalCode": "8627",
+        "latitude": "-37.8421",
+        "longitude": "145.0694"
+    },
+    "contact": {
+        "email": "cturner378@softbank.com",
+        "phone": "+61-378-122-6168",
+        "socMedia": []
+    },
+    "login": {
+        "username": "cturner",
+        "oauth2": null,
+        "password": "$2y$10$t4hP66r8eGy8RIxpMdxNa.5dXzF0Y\/Iaw0yi.7PWLVtobkf3ZpAnG"
+    },
+    "otherContact": {
+        "emails": [
+            "cturner378@orange.com"
+        ],
+        "phoneNumbers": [
+            "+61-378-244-7914"
+        ]
+    },
+    "otherInfo": {
+        "gender": "F",
+        "dateOfBirth": "1979-08-24"
+    },
+    "totalBooked": 48,
+    "discount": 0.13
+});
+db.customers.insertOne(
+{
+    "customerKey": "ANTOHANS7873",
+    "name": {
+        "title": "Mr",
+        "first": "Antonia",
+        "middle": "E",
+        "last": "Hansen",
+        "suffix": null
+    },
+    "address": {
+        "streetAddress": "3698 Short Gulch Street",
+        "buildingName": null,
+        "floor": null,
+        "roomAptCondoFlat": null,
+        "city": "Bottens",
+        "stateProvince": "VD",
+        "locality": "Gros-de-Vaud District",
+        "country": "CH",
+        "postalCode": "1041",
+        "latitude": "46.616",
+        "longitude": "6.6615"
+    },
+    "contact": {
+        "email": "ahansen379@frontier.com",
+        "phone": "+61-379-464-7873",
+        "socMedia": {
+            "skype": "ahansen379@frontier.com@skype.com"
+        }
+    },
+    "login": {
+        "username": "ahansen",
+        "oauth2": "ahansen@skype.com",
+        "password": "$2y$10$JsVEgZHntRkUfqVRbRPcgesch00pT7OBemMe62N6e5anZ8F2vTWOS"
+    },
+    "otherContact": {
+        "emails": [
+            "ahansen379@worldnet.com",
+            "ahansen379@pldt.com",
+            "ahansen379@oi.com"
+        ],
+        "phoneNumbers": [
+            "+61-379-428-0313",
+            "+61-379-632-1938",
+            "+61-379-462-8325"
+        ],
+        "socMedias": [
+            {
+                "google": "ahansen379@worldnet.com@google.com"
+            },
+            {
+                "linkedin": "ahansen379@pldt.com@linkedin.com"
+            },
+            {
+                "skype": "ahansen379@oi.com@skype.com"
+            }
+        ]
+    },
+    "otherInfo": {
+        "gender": "M",
+        "dateOfBirth": "1980-08-24"
+    },
+    "totalBooked": 19,
+    "discount": 0
+});
+db.customers.insertOne(
+{
+    "customerKey": "STACCONW1330",
+    "name": {
+        "title": "Mr",
+        "first": "Stacy",
+        "middle": "B",
+        "last": "Conway",
+        "suffix": null
+    },
+    "address": {
+        "streetAddress": "2396 Winding Hill Way",
+        "buildingName": null,
+        "floor": null,
+        "roomAptCondoFlat": null,
+        "city": "Mittabaspalle",
+        "stateProvince": "Rangareddy",
+        "locality": "K.V.Rangareddy",
+        "country": "IN",
+        "postalCode": "501158",
+        "latitude": "17.3122",
+        "longitude": "77.8234"
+    },
+    "contact": {
+        "email": "sconway380@tt.com",
+        "phone": "+61-380-640-1330",
+        "socMedia": {
+            "linkedin": "sconway380@tt.com@linkedin.com"
+        }
+    },
+    "login": {
+        "username": "sconway",
+        "oauth2": "sconway@linkedin.com",
+        "password": "$2y$10$76SkHvh9cZedtAfukIALZeKg3OZbX7AmijhpnrL\/9PUlNSSx0FPEu"
+    },
+    "otherContact": {
+        "emails": [
+            "sconway380@access.com"
+        ],
+        "phoneNumbers": [
+            "+61-380-362-9456"
+        ],
+        "socMedias": [
+            {
+                "linkedin": "sconway380@access.com@linkedin.com"
+            }
+        ]
+    },
+    "otherInfo": {
+        "gender": "M",
+        "dateOfBirth": "1981-05-08"
+    },
+    "totalBooked": 10,
+    "discount": 0
+});
+db.customers.insertOne(
+{
+    "customerKey": "NORAROBI8613",
+    "name": {
+        "title": null,
+        "first": "Norah",
+        "middle": null,
+        "last": "Robinson",
+        "suffix": null
+    },
+    "address": {
+        "streetAddress": "3817 Big Woods Boulevard",
+        "buildingName": null,
+        "floor": null,
+        "roomAptCondoFlat": null,
+        "city": "Paget",
+        "stateProvince": "Paget Parish",
+        "locality": "Paget Parish",
+        "country": "BM",
+        "postalCode": "PG 03",
+        "latitude": "32.2783",
+        "longitude": "-64.7817"
+    },
+    "contact": {
+        "email": "nrobinso381@vivendi.com",
+        "phone": "+61-381-349-8613",
+        "socMedia": []
+    },
+    "login": {
+        "username": "nrobinso",
+        "oauth2": null,
+        "password": "$2y$10$C.ItpUkWRRHfJzoS6Rw5Se.FPL4oK7WYFb.X0QKuhn8\/uj5uR9Dtq"
+    },
+    "otherContact": [],
+    "otherInfo": {
+        "gender": "F",
+        "dateOfBirth": "1980-02-27"
+    },
+    "totalBooked": 14,
+    "discount": 0.053
+});
+db.customers.insertOne(
+{
+    "customerKey": "VALELOGA2780",
+    "name": {
+        "title": "Mr",
+        "first": "Valentine",
+        "middle": "P",
+        "last": "Logan",
+        "suffix": null
+    },
+    "address": {
+        "streetAddress": "7327 Short Gulch Avenue",
+        "buildingName": null,
+        "floor": null,
+        "roomAptCondoFlat": null,
+        "city": "Rid",
+        "stateProvince": "Degana",
+        "locality": "Nagaur",
+        "country": "IN",
+        "postalCode": "341503",
+        "latitude": "26.42",
+        "longitude": "73.9764"
+    },
+    "contact": {
+        "email": "vlogan382@telkom.com",
+        "phone": "+61-382-827-2780",
+        "socMedia": {
+            "twitter": "vlogan382@telkom.com@twitter.com"
+        }
+    },
+    "login": {
+        "username": "vlogan",
+        "oauth2": "vlogan@twitter.com",
+        "password": "$2y$10$ks2AU6Ri.xX4PpKwlGj8Cu7qxvDk20\/1eyg0OGDSvDGqcaQwsGmLu"
+    },
+    "otherContact": {
+        "emails": [
+            "vlogan382@sprint.com"
+        ],
+        "phoneNumbers": [
+            "+61-382-982-5487"
+        ],
+        "socMedias": [
+            {
+                "twitter": "vlogan382@sprint.com@twitter.com"
+            }
+        ]
+    },
+    "otherInfo": {
+        "gender": "M",
+        "dateOfBirth": "1968-09-13"
+    },
+    "totalBooked": 12,
+    "discount": 0
+});
+db.customers.insertOne(
+{
+    "customerKey": "NATHJENK4215",
+    "name": {
+        "title": "Mr",
+        "first": "Nathanial",
+        "middle": "H",
+        "last": "Jenkins",
+        "suffix": null
+    },
+    "address": {
+        "streetAddress": "292 Short Stream Avenue",
+        "buildingName": null,
+        "floor": null,
+        "roomAptCondoFlat": null,
+        "city": "16 de Agosto",
+        "stateProvince": null,
+        "locality": null,
+        "country": "DO",
+        "postalCode": "11101",
+        "latitude": "18.65",
+        "longitude": "-69.75"
+    },
+    "contact": {
+        "email": "njenkins383@greennet.com",
+        "phone": "+61-383-803-4215",
+        "socMedia": {
+            "linkedin": "njenkins383@greennet.com@linkedin.com"
+        }
+    },
+    "login": {
+        "username": "njenkins",
+        "oauth2": "njenkins@linkedin.com",
+        "password": "$2y$10$DCaJEcx3VvxqxwwVb8PlmOhZSdcVh6z5qJ82v15v\/gnfEROn7L1Ru"
+    },
+    "otherContact": {
+        "emails": [
+            "njenkins383@orange.com",
+            "njenkins383@ais.com",
+            "njenkins383@sktelecom.com"
+        ],
+        "phoneNumbers": [
+            "+61-383-862-6153",
+            "+61-383-900-7071",
+            "+61-383-732-5190"
+        ],
+        "socMedias": [
+            {
+                "line": "njenkins383@orange.com@line.com"
+            },
+            {
+                "google": "njenkins383@ais.com@google.com"
+            },
+            {
+                "twitter": "njenkins383@sktelecom.com@twitter.com"
+            }
+        ]
+    },
+    "otherInfo": {
+        "gender": "M",
+        "dateOfBirth": "1955-09-22"
+    },
+    "totalBooked": 6,
+    "discount": 0
+});
+db.customers.insertOne(
+{
+    "customerKey": "TESHSIER3510",
+    "name": {
+        "title": null,
+        "first": "Tesha",
+        "middle": null,
+        "last": "Sierra",
+        "suffix": null
+    },
+    "address": {
+        "streetAddress": "8427 Short Hill Boulevard",
+        "buildingName": null,
+        "floor": null,
+        "roomAptCondoFlat": "65",
+        "city": "Munster",
+        "stateProvince": "IN",
+        "locality": "Lake",
+        "country": "US",
+        "postalCode": "46321",
+        "latitude": "41.5544",
+        "longitude": "-87.5011"
+    },
+    "contact": {
+        "email": "tsierra384@unicom.com",
+        "phone": "+61-384-061-3510",
+        "socMedia": []
+    },
+    "login": {
+        "username": "tsierra",
+        "oauth2": null,
+        "password": "$2y$10$hny1SoFw35tsPlMXR5m5QuU1aNS.RsgiVSxepB0EKGmgougvo8sDi"
+    },
+    "otherContact": {
+        "emails": [
+            "tsierra384@etisalat.com",
+            "tsierra384@ktc.com",
+            "tsierra384@vodafone.com"
+        ],
+        "phoneNumbers": [
+            "+61-384-725-4106",
+            "+61-384-545-0147",
+            "+61-384-987-9019"
+        ]
+    },
+    "otherInfo": {
+        "gender": "F",
+        "dateOfBirth": "1946-10-28"
+    },
+    "totalBooked": 10,
+    "discount": 0.044
+});
+db.customers.insertOne(
+{
+    "customerKey": "HUMBMORR2407",
+    "name": {
+        "title": "Mr",
+        "first": "Humberto",
+        "middle": "O",
+        "last": "Morris",
+        "suffix": null
+    },
+    "address": {
+        "streetAddress": "3473 Green Gully Avenue",
+        "buildingName": null,
+        "floor": null,
+        "roomAptCondoFlat": null,
+        "city": "Tollesby",
+        "stateProvince": "England",
+        "locality": "North Yorkshire",
+        "country": "GB",
+        "postalCode": "TS7",
+        "latitude": "54.529",
+        "longitude": "-1.1935"
+    },
+    "contact": {
+        "email": "hmorris385@singtel.com",
+        "phone": "+61-385-257-2407",
+        "socMedia": {
+            "skype": "hmorris385@singtel.com@skype.com"
+        }
+    },
+    "login": {
+        "username": "hmorris",
+        "oauth2": "hmorris@skype.com",
+        "password": "$2y$10$bohliQHJpxqTRBmRXHHOpOHhJ.YsYlFgmCWU9ozDSuJ7Z5Eu\/xHyi"
+    },
+    "otherContact": {
+        "emails": [
+            "hmorris385@ptcl.com",
+            "hmorris385@airtel.com",
+            "hmorris385@vodafone.com"
+        ],
+        "phoneNumbers": [
+            "+61-385-725-5482",
+            "+61-385-448-4890",
+            "+61-385-516-7881"
+        ],
+        "socMedias": [
+            {
+                "skype": "hmorris385@ptcl.com@skype.com"
+            },
+            {
+                "facebook": "hmorris385@airtel.com@facebook.com"
+            },
+            {
+                "linkedin": "hmorris385@vodafone.com@linkedin.com"
+            }
+        ]
+    },
+    "otherInfo": {
+        "gender": "M",
+        "dateOfBirth": "1972-03-14"
+    },
+    "totalBooked": 48,
+    "discount": 0.07200000000000001
+});
+db.customers.insertOne(
+{
+    "customerKey": "ANDECOLL8584",
+    "name": {
+        "title": "Mr",
+        "first": "Anderson",
+        "middle": "C",
+        "last": "Collins",
+        "suffix": null
+    },
+    "address": {
+        "streetAddress": "7755 Blue Tree Circle",
+        "buildingName": null,
+        "floor": null,
+        "roomAptCondoFlat": null,
+        "city": "Central Toronto (The Annex \/ North Midtown \/ Yorkville)",
+        "stateProvince": "ON",
+        "locality": "Toronto",
+        "country": "CA",
+        "postalCode": "M5R",
+        "latitude": "43.6736",
+        "longitude": "-79.4035"
+    },
+    "contact": {
+        "email": "acollins386@vodafone.com",
+        "phone": "+61-386-327-8584",
+        "socMedia": {
+            "line": "acollins386@vodafone.com@line.com"
+        }
+    },
+    "login": {
+        "username": "acollins",
+        "oauth2": "acollins@line.com",
+        "password": "$2y$10$4gptTPdclL7\/\/xtY5hID6uic1bEgSxUJeQoKDNRZwV9HQ5vj.0fKe"
+    },
+    "otherContact": [],
+    "otherInfo": {
+        "gender": "M",
+        "dateOfBirth": "1945-01-15"
+    },
+    "totalBooked": 12,
+    "discount": 0
+});
+db.customers.insertOne(
+{
+    "customerKey": "BERRDUNL6042",
+    "name": {
+        "title": null,
+        "first": "Berry",
+        "middle": null,
+        "last": "Dunlap",
+        "suffix": null
+    },
+    "address": {
+        "streetAddress": "6545 Long Creek Road",
+        "buildingName": null,
+        "floor": 15,
+        "roomAptCondoFlat": null,
+        "city": "Tob\u00f8l",
+        "stateProvince": "Eidskog",
+        "locality": "Eidskog",
+        "country": "NO",
+        "postalCode": "2232",
+        "latitude": "59.972",
+        "longitude": "12.0555"
+    },
+    "contact": {
+        "email": "bdunlap387@ktc.com",
+        "phone": "+61-387-269-6042",
+        "socMedia": []
+    },
+    "login": {
+        "username": "bdunlap",
+        "oauth2": null,
+        "password": "$2y$10$ZAcJECmBC5PsOr4ddFQjku4JlS8kCw5a2.VFdNrldJwKGbb\/JZJbq"
+    },
+    "otherContact": [],
+    "otherInfo": {
+        "gender": "M",
+        "dateOfBirth": "1951-09-26"
+    },
+    "totalBooked": 43,
+    "discount": 0.085
+});
+db.customers.insertOne(
+{
+    "customerKey": "SADITOWN8890",
+    "name": {
+        "title": "Ms",
+        "first": "Sadie",
+        "middle": "H",
+        "last": "Townsend",
+        "suffix": null
+    },
+    "address": {
+        "streetAddress": "1723 Blue Canyon Way",
+        "buildingName": null,
+        "floor": null,
+        "roomAptCondoFlat": null,
+        "city": "Glenwood",
+        "stateProvince": "QLD",
+        "locality": "SUNSHINE MT ISA",
+        "country": "AU",
+        "postalCode": "4570",
+        "latitude": "-26.1931",
+        "longitude": "152.5564"
+    },
+    "contact": {
+        "email": "stownsen388@relcom.com",
+        "phone": "+61-388-600-8890",
+        "socMedia": {
+            "twitter": "stownsen388@relcom.com@twitter.com"
+        }
+    },
+    "login": {
+        "username": "stownsen",
+        "oauth2": "stownsen@twitter.com",
+        "password": "$2y$10$VCFVVCmMr8mXPu5ksOsLHuzUhjbo.mXY2isk4Fpj.zHtE9F0XrL2K"
+    },
+    "otherContact": [],
+    "otherInfo": {
+        "gender": "F",
+        "dateOfBirth": "1949-10-15"
+    },
+    "totalBooked": 19,
+    "discount": 0
+});
+db.customers.insertOne(
+{
+    "customerKey": "COLTHUNT4049",
+    "name": {
+        "title": "Mr",
+        "first": "Colton",
+        "middle": "Y",
+        "last": "Hunter",
+        "suffix": null
+    },
+    "address": {
+        "streetAddress": "907 Big Ditch Drive",
+        "buildingName": null,
+        "floor": null,
+        "roomAptCondoFlat": null,
+        "city": "Kota Bharu",
+        "stateProvince": "KTN",
+        "locality": "Kelantan",
+        "country": "MY",
+        "postalCode": "16010",
+        "latitude": "6.0064",
+        "longitude": "102.218"
+    },
+    "contact": {
+        "email": "chunter389@kpn.com",
+        "phone": "+61-389-568-4049",
+        "socMedia": {
+            "facebook": "chunter389@kpn.com@facebook.com"
+        }
+    },
+    "login": {
+        "username": "chunter",
+        "oauth2": "chunter@facebook.com",
+        "password": "$2y$10$JBvyKJ2hCpT2hB2wkL1KjuflIpQDRRNM91KtDXrrlP5fQSLB7vpUG"
+    },
+    "otherContact": {
+        "emails": [
+            "chunter389@telefonica.com",
+            "chunter389@mtn.com"
+        ],
+        "phoneNumbers": [
+            "+61-389-584-1289",
+            "+61-389-479-6447"
+        ],
+        "socMedias": [
+            {
+                "google": "chunter389@telefonica.com@google.com"
+            },
+            {
+                "skype": "chunter389@mtn.com@skype.com"
+            }
+        ]
+    },
+    "otherInfo": {
+        "gender": "M",
+        "dateOfBirth": "1994-08-02"
+    },
+    "totalBooked": 4,
+    "discount": 0
+});
+db.customers.insertOne(
+{
+    "customerKey": "JOHNRUSS2647",
+    "name": {
+        "title": null,
+        "first": "Johnnie",
+        "middle": null,
+        "last": "Russell",
+        "suffix": null
+    },
+    "address": {
+        "streetAddress": "8303 Red Tree Circle",
+        "buildingName": "Building BE",
+        "floor": null,
+        "roomAptCondoFlat": "90",
+        "city": "Middlewich",
+        "stateProvince": "England",
+        "locality": "Cheshire",
+        "country": "GB",
+        "postalCode": "CW10",
+        "latitude": "53.193",
+        "longitude": "-2.444"
+    },
+    "contact": {
+        "email": "jrussell390@telia.com",
+        "phone": "+61-390-166-2647",
+        "socMedia": []
+    },
+    "login": {
+        "username": "jrussell",
+        "oauth2": null,
+        "password": "$2y$10$JflaKtmWVHJc9QpaJcxDBuiXruXCpA487pxwNaog.ZxP7t7XvA1ZO"
+    },
+    "otherContact": [],
+    "otherInfo": {
+        "gender": "M",
+        "dateOfBirth": "1995-02-17"
+    },
+    "totalBooked": 23,
+    "discount": 0.014
+});
+db.customers.insertOne(
+{
+    "customerKey": "BENNPARR3839",
+    "name": {
+        "title": "Mr",
+        "first": "Benny",
+        "middle": "L",
+        "last": "Parrish",
+        "suffix": null
+    },
+    "address": {
+        "streetAddress": "37 Little Hill Circle",
+        "buildingName": null,
+        "floor": null,
+        "roomAptCondoFlat": null,
+        "city": "Leesburg",
+        "stateProvince": "FL",
+        "locality": "Lake",
+        "country": "US",
+        "postalCode": "34749",
+        "latitude": "28.8108",
+        "longitude": "-81.8779"
+    },
+    "contact": {
+        "email": "bparrish392@cerist.com",
+        "phone": "+61-392-274-3839",
+        "socMedia": {
+            "line": "bparrish392@cerist.com@line.com"
+        }
+    },
+    "login": {
+        "username": "bparrish",
+        "oauth2": "bparrish@line.com",
+        "password": "$2y$10$KzSxbnGPvF8F06HKMqZeCeJgs.p60CqckUrHFanBFtC5mruuJ\/KuC"
+    },
+    "otherContact": {
+        "emails": [
+            "bparrish392@chunghwa.com",
+            "bparrish392@glasnet.com"
+        ],
+        "phoneNumbers": [
+            "+61-392-238-3212",
+            "+61-392-852-3813"
+        ],
+        "socMedias": [
+            {
+                "linkedin": "bparrish392@chunghwa.com@linkedin.com"
+            },
+            {
+                "google": "bparrish392@glasnet.com@google.com"
+            }
+        ]
+    },
+    "otherInfo": {
+        "gender": "M",
+        "dateOfBirth": "1969-01-18"
+    },
+    "totalBooked": 94,
+    "discount": 0.077
+});
+db.customers.insertOne(
+{
+    "customerKey": "GALEDEAN4769",
+    "name": {
+        "title": null,
+        "first": "Galen",
+        "middle": null,
+        "last": "Dean",
+        "suffix": null
+    },
+    "address": {
+        "streetAddress": "4854 Big Creek Road",
+        "buildingName": null,
+        "floor": null,
+        "roomAptCondoFlat": null,
+        "city": "Prilep",
+        "stateProvince": null,
+        "locality": null,
+        "country": "MK",
+        "postalCode": "7500",
+        "latitude": "41.3464",
+        "longitude": "21.5544"
+    },
+    "contact": {
+        "email": "gdean393@telecom.com",
+        "phone": "+61-393-168-4769",
+        "socMedia": []
+    },
+    "login": {
+        "username": "gdean",
+        "oauth2": null,
+        "password": "$2y$10$qBtQylZw8bedsGK8Po\/unOI6s7P0j2111Ww33jXEe\/WO77599nzhi"
+    },
+    "otherContact": [],
+    "otherInfo": {
+        "gender": "M",
+        "dateOfBirth": "1934-02-17"
+    },
+    "totalBooked": 46,
+    "discount": 0.011
+});
+db.customers.insertOne(
+{
+    "customerKey": "LEIFMCCA5128",
+    "name": {
+        "title": "Mr",
+        "first": "Leif",
+        "middle": "I",
+        "last": "Mccall",
+        "suffix": null
+    },
+    "address": {
+        "streetAddress": "6328 Red Mound Ride",
+        "buildingName": null,
+        "floor": null,
+        "roomAptCondoFlat": null,
+        "city": "Torryburn",
+        "stateProvince": "NSW",
+        "locality": "New South Wales",
+        "country": "AU",
+        "postalCode": "2421",
+        "latitude": "-30.45",
+        "longitude": "151.2167"
+    },
+    "contact": {
+        "email": "lmccall394@ntt.com",
+        "phone": "+61-394-137-5128",
+        "socMedia": {
+            "linkedin": "lmccall394@ntt.com@linkedin.com"
+        }
+    },
+    "login": {
+        "username": "lmccall",
+        "oauth2": "lmccall@linkedin.com",
+        "password": "$2y$10$UQ.64.QnZb0u\/dL5yX3MDOwySjO7yuJiwilBsFZJqVClBgJKesYdW"
+    },
+    "otherContact": {
+        "emails": [
+            "lmccall394@telecom.com",
+            "lmccall394@kpn.com",
+            "lmccall394@econnect.com"
+        ],
+        "phoneNumbers": [
+            "+61-394-492-4880",
+            "+61-394-702-5233",
+            "+61-394-893-1621"
+        ],
+        "socMedias": [
+            {
+                "skype": "lmccall394@telecom.com@skype.com"
+            },
+            {
+                "google": "lmccall394@kpn.com@google.com"
+            },
+            {
+                "twitter": "lmccall394@econnect.com@twitter.com"
+            }
+        ]
+    },
+    "otherInfo": {
+        "gender": "M",
+        "dateOfBirth": "1965-01-25"
+    },
+    "totalBooked": 7,
+    "discount": 0
+});
+db.customers.insertOne(
+{
+    "customerKey": "LLOYMCKE1757",
+    "name": {
+        "title": "Mr",
+        "first": "Lloyd",
+        "middle": "R",
+        "last": "Mckee",
+        "suffix": null
+    },
+    "address": {
+        "streetAddress": "1496 Long Hill Road",
+        "buildingName": null,
+        "floor": null,
+        "roomAptCondoFlat": null,
+        "city": "E\u011filmez",
+        "stateProvince": "Karaman",
+        "locality": "Karaman",
+        "country": "TR",
+        "postalCode": "70000",
+        "latitude": "37.5299",
+        "longitude": "33.1752"
+    },
+    "contact": {
+        "email": "lmckee395@telefonica.com",
+        "phone": "+61-395-542-1757",
+        "socMedia": {
+            "skype": "lmckee395@telefonica.com@skype.com"
+        }
+    },
+    "login": {
+        "username": "lmckee",
+        "oauth2": "lmckee@skype.com",
+        "password": "$2y$10$.6zqjvtw3P\/8HeL6eMOQP.d5e1PY97pZoutSsXUScYgwVTUYQU1UW"
+    },
+    "otherContact": [],
+    "otherInfo": {
+        "gender": "M",
+        "dateOfBirth": "1941-01-04"
+    },
+    "totalBooked": 4,
+    "discount": 0
+});
+db.customers.insertOne(
+{
+    "customerKey": "DOMEFUEN9510",
+    "name": {
+        "title": null,
+        "first": "Domenic",
+        "middle": null,
+        "last": "Fuentes",
+        "suffix": null
+    },
+    "address": {
+        "streetAddress": "4473 Long Hill Boulevard",
+        "buildingName": null,
+        "floor": 8,
+        "roomAptCondoFlat": "FC",
+        "city": "Raleigh",
+        "stateProvince": "NC",
+        "locality": "Wake",
+        "country": "US",
+        "postalCode": "27697",
+        "latitude": "35.7721",
+        "longitude": "-78.6386"
+    },
+    "contact": {
+        "email": "dfuentes396@ntt.com",
+        "phone": "+61-396-634-9510",
+        "socMedia": []
+    },
+    "login": {
+        "username": "dfuentes",
+        "oauth2": null,
+        "password": "$2y$10$q.XvtAhI41QZStfYiBPLm.xOwNMW28nUaQ56topSNrs5NyibDYCSS"
+    },
+    "otherContact": {
+        "emails": [
+            "dfuentes396@vodafone.com",
+            "dfuentes396@telecomitalia.com"
+        ],
+        "phoneNumbers": [
+            "+61-396-043-7852",
+            "+61-396-467-4683"
+        ]
+    },
+    "otherInfo": {
+        "gender": "M",
+        "dateOfBirth": "1933-07-22"
+    },
+    "totalBooked": 8,
+    "discount": 0.019
+});
+db.customers.insertOne(
+{
+    "customerKey": "DARRBOWE4505",
+    "name": {
+        "title": "Mr",
+        "first": "Darrel",
+        "middle": "V",
+        "last": "Bowen",
+        "suffix": null
+    },
+    "address": {
+        "streetAddress": "1295 Short Canyon Avenue",
+        "buildingName": null,
+        "floor": null,
+        "roomAptCondoFlat": null,
+        "city": "Polangui",
+        "stateProvince": null,
+        "locality": null,
+        "country": "PH",
+        "postalCode": "4506",
+        "latitude": "13.2944",
+        "longitude": "123.4872"
+    },
+    "contact": {
+        "email": "dbowen397@glasnet.com",
+        "phone": "+61-397-239-4505",
+        "socMedia": {
+            "line": "dbowen397@glasnet.com@line.com"
+        }
+    },
+    "login": {
+        "username": "dbowen",
+        "oauth2": "dbowen@line.com",
+        "password": "$2y$10$Nyr\/ixLZNgJABWykQtwnT.8QNmDorWqM5kjnLK.Y8cBO23.1xT6hu"
+    },
+    "otherContact": {
+        "emails": [
+            "dbowen397@nordnet.com",
+            "dbowen397@greennet.com",
+            "dbowen397@daxnet.com"
+        ],
+        "phoneNumbers": [
+            "+61-397-467-1354",
+            "+61-397-710-5238",
+            "+61-397-668-1561"
+        ],
+        "socMedias": [
+            {
+                "facebook": "dbowen397@nordnet.com@facebook.com"
+            },
+            {
+                "line": "dbowen397@greennet.com@line.com"
+            },
+            {
+                "facebook": "dbowen397@daxnet.com@facebook.com"
+            }
+        ]
+    },
+    "otherInfo": {
+        "gender": "M",
+        "dateOfBirth": "1963-12-22"
+    },
+    "totalBooked": 13,
+    "discount": 0
+});
+db.customers.insertOne(
+{
+    "customerKey": "VIRGCOLE6698",
+    "name": {
+        "title": "Ms",
+        "first": "Virgie",
+        "middle": "M",
+        "last": "Coleman",
+        "suffix": null
+    },
+    "address": {
+        "streetAddress": "3125 Winding Ridge Avenue",
+        "buildingName": null,
+        "floor": null,
+        "roomAptCondoFlat": null,
+        "city": "Terrebonne Northwest",
         "stateProvince": "QC",
         "locality": "Lanaudi\u00e8re",
         "country": "CA",
-        "postalCode": "J5X",
-        "latitude": "45.8501",
-        "longitude": "-73.4825"
+        "postalCode": "J6X",
+        "latitude": "45.7275",
+        "longitude": "-73.7062"
     },
     "contact": {
-        "phone": "+1-394-635-6857",
-        "email": "hnichols394@unicom.com",
-        "socMedia": null
+        "email": "vcoleman398@etisalat.com",
+        "phone": "+61-398-500-6698",
+        "socMedia": {
+            "facebook": "vcoleman398@etisalat.com@facebook.com"
+        }
     },
     "login": {
-        "username": "hnichols",
-        "oauth2": null,
-        "password": "$2y$10$jFUgCjL8fDp0jR81igkowO0eTCqhLLYuOnwMVJhkM9\/OpQgi7HlNu"
+        "username": "vcoleman",
+        "oauth2": "vcoleman@facebook.com",
+        "password": "$2y$10$zuUiTYh8RVwrQsN3aSRmPue30LJIR7aKbiE83PikmGj3q7pTScn4m"
     },
     "otherContact": {
         "emails": [
-            "hnichols@telus.net"
-        ],
-        "phoneNumbers": [],
-        "socMedias": []
-    },
-    "otherInfo": {
-        "gender": "M",
-        "dateOfBirth": "1978-04-21"
-    }
-});
-db.customers.insertOne(
-{
-    "customerKey": "JULIRASM5116",
-    "name": {
-        "title": "Mr",
-        "first": "Julius",
-        "middle": "C",
-        "last": "Rasmussen",
-        "suffix": null
-    },
-    "address": {
-        "streetAddress": "8750 Long Gully Road",
-        "buildingName": null,
-        "floor": 18,
-        "roomAptCondoFlat": null,
-        "city": "Ple\u00dfberg",
-        "stateProvince": "Kautzen",
-        "locality": "Politischer Bezirk Waidhofen an der Thaya",
-        "country": "AT",
-        "postalCode": "3851",
-        "latitude": "48.9167",
-        "longitude": "15.2667"
-    },
-    "contact": {
-        "phone": "+43-395-867-5116",
-        "email": "jrasmuss395@cubenet.com",
-        "socMedia": null
-    },
-    "login": {
-        "username": "jrasmuss",
-        "oauth2": null,
-        "password": "$2y$10$eBLvXCV065HC66g7Uu032.Lu\/Cn0deQaXvQWGn5ZilIfC\/26NcJW6"
-    },
-    "otherContact": {
-        "emails": [
-            "jrasmuss@eunet.net",
-            "jrasmuss@telkom.net"
+            "vcoleman398@icom.com"
         ],
         "phoneNumbers": [
-            "+43-857-787-9637"
+            "+61-398-491-9334"
         ],
-        "socMedias": []
-    },
-    "otherInfo": {
-        "gender": "M",
-        "dateOfBirth": "1972-08-27"
-    }
-});
-db.customers.insertOne(
-{
-    "customerKey": "ILASTEP9508",
-    "name": {
-        "title": null,
-        "first": "Ila",
-        "middle": null,
-        "last": "Stephenson",
-        "suffix": null
-    },
-    "address": {
-        "streetAddress": "1949 Long Bough Circle",
-        "buildingName": null,
-        "floor": null,
-        "roomAptCondoFlat": null,
-        "city": "Victoria",
-        "stateProvince": "TX",
-        "locality": "Victoria",
-        "country": "US",
-        "postalCode": "77905",
-        "latitude": "28.7525",
-        "longitude": "-97.0338"
-    },
-    "contact": {
-        "phone": "+1-396-599-9508",
-        "email": "istephen396@kpn.com",
-        "socMedia": null
-    },
-    "login": {
-        "username": "istephen",
-        "oauth2": null,
-        "password": "$2y$10$06bwaqXFboLtaRoQZeDoBePfatzQkXxVttN1kN6e1yPGr\/gVG0oGa"
-    },
-    "otherContact": {
-        "emails": [
-            "istephen@movil.net",
-            "istephen@telus.net"
-        ],
-        "phoneNumbers": [
-            "+1-333-122-2557"
-        ],
-        "socMedias": []
+        "socMedias": [
+            {
+                "skype": "vcoleman398@icom.com@skype.com"
+            }
+        ]
     },
     "otherInfo": {
         "gender": "F",
-        "dateOfBirth": "1950-09-27"
-    }
+        "dateOfBirth": "1954-04-04"
+    },
+    "totalBooked": 13,
+    "discount": 0
 });
 db.customers.insertOne(
 {
-    "customerKey": "ALANMILL7541",
-    "name": {
-        "title": "Mr",
-        "first": "Alan",
-        "middle": "T",
-        "last": "Miller",
-        "suffix": null
-    },
-    "address": {
-        "streetAddress": "6562 Long Stream Way",
-        "buildingName": null,
-        "floor": null,
-        "roomAptCondoFlat": null,
-        "city": "Schaan",
-        "stateProvince": "Schaan",
-        "locality": "Schaan",
-        "country": "LI",
-        "postalCode": "9494",
-        "latitude": "47.1746",
-        "longitude": "9.5247"
-    },
-    "contact": {
-        "phone": "+423-397-521-7541",
-        "email": "amiller397@ktc.com",
-        "socMedia": null
-    },
-    "login": {
-        "username": "amiller",
-        "oauth2": null,
-        "password": "$2y$10$uq.kyKnDcACB0.kw7d.clOCLeuYXeGJ8FvMDOeCudcyHbh9Cao4.e"
-    },
-    "otherContact": {
-        "emails": [
-            "amiller@glasnet.net"
-        ],
-        "phoneNumbers": [],
-        "socMedias": []
-    },
-    "otherInfo": {
-        "gender": "M",
-        "dateOfBirth": "1991-07-04"
-    }
-});
-db.customers.insertOne(
-{
-    "customerKey": "JENNDEJE4428",
-    "name": {
-        "title": "Ms",
-        "first": "Jenniffer",
-        "middle": "C",
-        "last": "Dejesus",
-        "suffix": null
-    },
-    "address": {
-        "streetAddress": "4799 Short Stream Street",
-        "buildingName": null,
-        "floor": null,
-        "roomAptCondoFlat": null,
-        "city": "New Glarus",
-        "stateProvince": "WI",
-        "locality": "Green",
-        "country": "US",
-        "postalCode": "53574",
-        "latitude": "42.8143",
-        "longitude": "-89.6437"
-    },
-    "contact": {
-        "phone": "+1-398-741-4428",
-        "email": "jdejesus398@swisscom.com",
-        "socMedia": null
-    },
-    "login": {
-        "username": "jdejesus",
-        "oauth2": null,
-        "password": "$2y$10$xXTx4q\/H3zgPlh1LaOzJy.LcPND9XMnpdkVy8.323asprHpVnu28G"
-    },
-    "otherContact": {
-        "emails": [],
-        "phoneNumbers": [
-            "+1-382-499-6140"
-        ],
-        "socMedias": []
-    },
-    "otherInfo": {
-        "gender": "F",
-        "dateOfBirth": "1998-02-04"
-    }
-});
-db.customers.insertOne(
-{
-    "customerKey": "ALANKAUR9696",
+    "customerKey": "EFREOLSE4321",
     "name": {
         "title": null,
-        "first": "Alan",
+        "first": "Efren",
         "middle": null,
-        "last": "Kaur",
+        "last": "Olsen",
         "suffix": null
     },
     "address": {
-        "streetAddress": "8894 Green Bend Ride",
+        "streetAddress": "9151 Big Woods Street",
         "buildingName": null,
         "floor": null,
-        "roomAptCondoFlat": "C6",
-        "city": "Ebeye",
-        "stateProvince": "Ailinginae",
-        "locality": "Ailinginae",
-        "country": "MH",
-        "postalCode": "96970",
-        "latitude": "11.1405",
-        "longitude": "166.4103"
+        "roomAptCondoFlat": null,
+        "city": "Ba\u011flica",
+        "stateProvince": "Ili\u00e7(\u0130li\u00e7)",
+        "locality": "Ili\u00e7(\u0130li\u00e7)",
+        "country": "TR",
+        "postalCode": "24710",
+        "latitude": "39.4727",
+        "longitude": "38.3886"
     },
     "contact": {
-        "phone": "+692-399-380-9696",
-        "email": "akaur399@tt.com",
-        "socMedia": null
+        "email": "eolsen399@bt.com",
+        "phone": "+61-399-959-4321",
+        "socMedia": []
     },
     "login": {
-        "username": "akaur",
+        "username": "eolsen",
         "oauth2": null,
-        "password": "$2y$10$f07nnt1H\/wKzfohcFI.6fOqiO6A3FbYL5OldYrzURg6L5CPqYo8pa"
+        "password": "$2y$10$v6UWpvbGuqWmVOxIhDw\/geCxrpGbGJ.g7\/sANtZunXYnur\/oxdE3C"
     },
-    "otherContact": {
-        "emails": [
-            "akaur@econnect.net"
-        ],
-        "phoneNumbers": [
-            "+692-744-631-5623"
-        ],
-        "socMedias": []
-    },
+    "otherContact": [],
     "otherInfo": {
         "gender": "M",
-        "dateOfBirth": "1931-04-29"
-    }
+        "dateOfBirth": "2001-07-06"
+    },
+    "totalBooked": 29,
+    "discount": 0.139
 });

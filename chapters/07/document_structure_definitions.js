@@ -174,7 +174,7 @@ Common = [
     { "facilityType" : ['outdoor pool','indoor pool','free parking','WiFi',etc.],
     { "chain"        : ['Accor','Hyatt','Hilton',etc.] },
     { "roomType"     : ['premium','standard','poolside',etc.] },
-    { "bedType"      : ['single','double','queen','king'] },
+    { "bedType"      : ['single','double','single','double','queen','king'] },
     { "rsvStatus"    : ['pending','confirmed','cancelled'] },
     { "payStatus"    : ['pending','confirmed','refunded'] },
     { "currency"     : ['AUD','CAD','EUR','GBP','INR','NZD','SGD','USD'] },

@@ -1,0 +1,65 @@
+{% load static %}
+<style>
+.check_horizontal {
+    list-style: none;
+    display: inline-flex;
+}
+li label,input {
+    display:block;
+    margin-right: 20px;
+}
+</style>
+<div class="row">
+    <div class="col-md-3">&nbsp;</div>
+    <div class="col-md-8">
+        <h3>Room Type</h3>
+        Add rooms to the property {{ prop_name }}
+        <form action="/property/room/add/{{ prop_key }}/" method="post">
+            {% csrf_token %}
+            <div class="row">
+                <div class="col-md-2">{{ form.room_type_type.label_tag }}</div>
+                <div class="col-md-4">{{ form.room_type_type }}</div>
+                <div class="col-md-4">{{ form.room_type_type.errors }}</div>
+            </div>
+            <div class="row">
+                <div class="col-md-2">{{ form.room_type_view.label_tag }}</div>
+                <div class="col-md-4">{{ form.room_type_view }}</div>
+                <div class="col-md-4">{{ form.room_type_view.errors }}</div>
+            </div>
+            <div class="row">
+                <div class="col-md-2">{{ form.room_type_description.label_tag }}</div>
+                <div class="col-md-6">{{ form.room_type_description }}<br>{{ form.room_type_description.errors }}</div>
+            </div>
+            <div class="row">
+                <div class="col-md-2">{{ form.room_type_numAvailable.label_tag }}</div>
+                <div class="col-md-4">{{ form.room_type_numAvailable }}</div>
+                <div class="col-md-4">{{ form.room_type_numAvailable.errors }}</div>
+            </div>
+            <div class="row">
+                <div class="col-md-2">{{ form.room_type_price.label_tag }}</div>
+                <div class="col-md-4">{{ form.room_type_price }}</div>
+                <div class="col-md-4">{{ form.room_type_price.errors }}</div>
+            </div>
+            <div class="row">
+                <div class="col-md-2">{{ form.room_type_beds.label_tag }}</div>
+                <div class="col-md-6">{{ form.room_type_beds }}<br>{{ form.room_type_beds.errors }}</div>
+            </div>
+            <div class="row">
+                <div class="col-md-2">&nbsp;</div>
+                <div class="col-md-6">
+                    <table>
+                        <tr>
+                            <td><input type="submit" name="add" value="Add Room" {% if error_flag %} disabled {% endif %} ></td>
+                            <td><input type="submit" name="done" value="Done"></td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </form>
+        {% if error_flag %}
+            <b style="color:red;">{{ message }}</b>
+        {% else %}
+            {{ message }}
+        {% endif %}
+    </div>
+</div>

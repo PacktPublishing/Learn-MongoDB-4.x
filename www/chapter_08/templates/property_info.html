@@ -1,0 +1,40 @@
+    {% load static %}
+    <h3>Property Info</h3>
+    <div class="row">
+        <div class="col-md-3">{{ form.info_type.label_tag }}</div>
+        <div class="col-md-4">{{ form.info_type }}</div>
+        <div class="col-md-4">{{ form.info_type.errors }}</div>
+    </div>
+    <div class="row">
+        <div class="col-md-3">{{ form.info_chain.label_tag }}</div>
+        <div class="col-md-4">{{ form.info_chain }}</div>
+        <div class="col-md-4">{{ form.info_chain.errors }}</div>
+    </div>
+    <div class="row">
+        <div class="col-md-3">{{ form.info_photos.label_tag }}</div>
+        <div class="col-md-4">{{ form.info_photos }}</div>
+        <div class="col-md-4">{{ form.info_photos.errors }}</div>
+    </div>
+    <div class="row">
+        <div class="col-md-3">{{ form.info_facilities.label_tag }}</div>
+        <div class="col-md-6" id="check">{{ form.info_facilities }}<br>{{ form.info_facilities.errors }}</div>
+    </div>
+    <div class="row">
+        <div class="col-md-3">{{ form.info_other_fac.label_tag }}</div>
+        <div class="col-md-4">{{ form.info_other_fac }}</div>
+        <div class="col-md-4">{{ form.info_other_fac.errors }}</div>
+    </div>
+    <div class="row">
+        <div class="col-md-3">{{ form.info_currency.label_tag }}</div>
+        <div class="col-md-4">{{ form.info_currency }}</div>
+        <div class="col-md-4">{{ form.info_currency.errors }}</div>
+    </div>
+    <div class="row">
+        <div class="col-md-3">{{ form.info_taxFee.label_tag }}</div>
+        <div class="col-md-4">{{ form.info_taxFee }}</div>
+        <div class="col-md-4">{{ form.info_taxFee.errors }}</div>
+    </div>
+    <div class="row">
+        <div class="col-md-3">{{ form.info_description.label_tag }}</div>
+        <div class="col-md-6">{{ form.info_description }}<br>{{ form.info_description.errors }}</div>
+    </div>

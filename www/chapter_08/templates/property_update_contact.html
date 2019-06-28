@@ -1,0 +1,90 @@
+{% load static %}
+<style>
+    .check_horizontal {
+        list-style: none;
+        display: inline-flex;
+        margin-left: -40px;
+    }
+    li label,input {
+        display:block;
+        margin-right: 20px;
+    }
+    .extra {
+        padding-bottom: 20px;
+    }
+</style>
+<section class="section transheader homepage parallax" data-stellar-background-ratio="0.5" style="background-color: #BFBFBF;">
+    <div class="container" style="margin-top: -100px;">
+        <form action="/property/contact/update/" method="post">
+            {% csrf_token %}
+            <h1>Update Property Contact</h1>
+            <div class="row extra" style="background-color: #C8C8EE;">
+                <div class="col-md-6">
+                    {{ choose_part_form }}
+                </div><!-- end col -->
+                <div class="col-md-6">
+                    <label>Property:</label>
+                    <select name="prop_propertyKey" id="ddlProperties" >
+                        <option value="0">Choose Partner First</option>
+                    </select>
+                </div><!-- end col -->
+            </div><!-- end row -->
+            <div class="row extra" style="background-color: #E6E6FA;">
+                <div class="col-md-6">
+                    {{ name_form_html }}
+                </div><!-- end col -->
+                <div class="col-md-6" style="background-color: #D6D6F0;">
+                    {{ contact_form_html }}
+                </div><!-- end col -->
+            </div><!-- end row -->
+        <input type="submit" value="Submit">
+        </form>
+        {{ message }}
+    </div><!-- end container -->
+</section><!-- end section -->
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+<script>
+$(document).ready(function() {
+    $("#id_prop_partnerKey").change(function() {
+        var partKey = $(this).val();
+        console.log( "partner key: " + partKey );
+        $("#ddlProperties").empty();
+        $.ajax({
+            type: "GET",
+            url: "/property/json/by_part/" + partKey + "/",
+            dataType: 'json',
+            success: function(data){
+                // Parse the returned json data
+                $.each(data, function(i, d) {
+                    $("#ddlProperties").append(
+                        '<option value="' + d.propertyKey + '">'
+                        + d.propName
+                        + '</option>');
+                });
+            }
+        });
+    });
+    $("#ddlProperties").change(function() {
+        var propKey = $(this).val();
+        console.log( "property key: " + propKey );
+        $.ajax({
+            type: "GET",
+            url: "/property/json/update_contact/" + propKey + "/",
+            dataType: 'json',
+            success: function(data){
+                $("#id_name_title").val(data['contactName']['title']);
+                $("#id_name_first").val(data['contactName']['first']);
+                $("#id_name_last").val(data['contactName']['last']);
+                $("#id_name_suffix").val(data['contactName']['suffix']);
+                $("#id_contact_email").val(data['contactInfo']['email']);
+                $("#id_contact_phone").val(data['contactInfo']['phone']);
+                var socMedia = data['contactInfo']['socMedia'];
+                for (var k in socMedia) {
+                    $("#id_contact_soc_type").val(k);
+                    $("#id_contact_soc_addr").val(socMedia[k]);
+                }
+            }
+        });
+    });
+});
+</script>

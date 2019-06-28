@@ -3,2127 +3,2788 @@ db = conn.getDB("booksomeplace");
 db.partners.drop();
 db.partners.insertOne(
 {
-    "partnerKey": "SHELROSE1404",
-    "businessName": "Industrious Industries LLC",
-    "revenueSplit": 0.23,
-    "acctBalance": 834815.63,
+    "partnerKey": "AFFOSVAU8218",
+    "businessName": "Affordable Partners Inc",
+    "revenueSplit": 0.33,
+    "acctBalance": 658324.91,
     "name": {
         "title": "Ms",
-        "first": "Shelba",
-        "middle": "U",
-        "last": "Rose",
+        "first": "Shonna",
+        "middle": "N",
+        "last": "Vaughn",
         "suffix": null
     },
     "address": {
-        "streetAddress": "9760 Winding Hill Drive",
+        "streetAddress": "4975 Long Stream Street",
         "buildingName": null,
         "floor": null,
         "roomAptCondoFlat": null,
-        "city": "Mackay South",
-        "stateProvince": "QLD",
-        "locality": "Queensland",
+        "city": "East Pingelly",
+        "stateProvince": "WA",
+        "locality": "KALGOORLIE",
         "country": "AU",
-        "postalCode": "4740",
-        "latitude": "-21.65",
-        "longitude": "149.2333"
+        "postalCode": "6308",
+        "latitude": "-32.5103",
+        "longitude": "117.1464"
     },
     "contact": {
-        "phone": "+61-100-670-1404",
-        "email": "srose100@oi.com",
+        "email": "svaughn100@nii.com",
+        "phone": "+61-100-831-8218",
         "socMedia": {
-            "linkedin": "srose@linkedin.com"
+            "skype": "svaughn100@nii.com@skype.com"
         }
     },
     "login": {
-        "username": "srose",
-        "oauth2": "srose@linkedin.com",
-        "password": "$2y$10$A.opXDGO4tPCUlUyym.jzuiHruVo4haEL9TBksV.PCaPlp6ztfP46"
+        "username": "svaughn",
+        "oauth2": "svaughn@skype.com",
+        "password": "$2y$10$efV\/b5Bj4UHjclyhJ4hREe3MeGMm\/l.8\/o0.h5uyydbVROI6y1S2u"
     },
     "otherContact": {
         "emails": [
-            "srose@vodafone.net"
+            "svaughn100@ktc.com"
         ],
         "phoneNumbers": [
-            "+61-576-560-7723",
-            "+61-667-711-8458"
+            "+61-100-016-3335"
         ],
-        "socMedias": {
-            "facebook": "srose@facebook.com"
-        }
+        "socMedias": [
+            {
+                "skype": "svaughn100@ktc.com@skype.com"
+            }
+        ]
     },
     "otherInfo": {
         "gender": "F",
-        "dateOfBirth": "1944-10-11"
+        "dateOfBirth": "1943-06-27"
     }
 });
 db.partners.insertOne(
 {
-    "partnerKey": "ROBIREID6513",
-    "businessName": "Friendly Business Ltd",
+    "partnerKey": "AFFOECOL4536",
+    "businessName": "Affordable Industries ",
     "revenueSplit": 0.31,
-    "acctBalance": 408694.52,
-    "name": {
-        "title": "Mr",
-        "first": "Robin",
-        "middle": "K",
-        "last": "Reid",
-        "suffix": null
-    },
-    "address": {
-        "streetAddress": "7317 Red Mountain Avenue",
-        "buildingName": null,
-        "floor": null,
-        "roomAptCondoFlat": "CB",
-        "city": "Lisboa",
-        "stateProvince": "Lisboa",
-        "locality": "Lisboa",
-        "country": "PT",
-        "postalCode": "1200-706",
-        "latitude": "38.7167",
-        "longitude": "-9.1333"
-    },
-    "contact": {
-        "phone": "+351-101-571-6513",
-        "email": "rreid101@orstom.com",
-        "socMedia": null
-    },
-    "login": {
-        "username": "rreid",
-        "oauth2": null,
-        "password": "$2y$10$dkZsEMMgVAJTZsEALS37OOXB8Ud4v7bDYYGA0YB7\/EWsVlvCZr4Nm"
-    },
-    "otherContact": {
-        "emails": [
-            "rreid@kpn.net"
-        ],
-        "phoneNumbers": [
-            "+351-991-006-3876"
-        ],
-        "socMedias": []
-    },
-    "otherInfo": {
-        "gender": "M",
-        "dateOfBirth": "1986-04-17"
-    }
-});
-db.partners.insertOne(
-{
-    "partnerKey": "MAGNMEND0473",
-    "businessName": "Industrious Trust Inc",
-    "revenueSplit": 0.02,
-    "acctBalance": 326820.81,
-    "name": {
-        "title": null,
-        "first": "Magnolia",
-        "middle": null,
-        "last": "Mendoza",
-        "suffix": null
-    },
-    "address": {
-        "streetAddress": "3813 Big Ditch Circle",
-        "buildingName": "Building 56",
-        "floor": null,
-        "roomAptCondoFlat": null,
-        "city": "Sakore",
-        "stateProvince": "Nandgaon",
-        "locality": "Nashik",
-        "country": "IN",
-        "postalCode": "423106",
-        "latitude": "20.6425",
-        "longitude": "74.0157"
-    },
-    "contact": {
-        "phone": "+91-102-603-0473",
-        "email": "mmendoza102@mtn.com",
-        "socMedia": null
-    },
-    "login": {
-        "username": "mmendoza",
-        "oauth2": null,
-        "password": "$2y$10$Trq4GIAs2zJpxE.p2xob0.2lr9k6WOdXksi5ObBiiiJwp4exGWJk6"
-    },
-    "otherContact": {
-        "emails": [
-            "mmendoza@lguplus.net",
-            "mmendoza@telecom.net",
-            "mmendoza@openworld.net"
-        ],
-        "phoneNumbers": [
-            "+91-794-538-4538"
-        ],
-        "socMedias": []
-    },
-    "otherInfo": {
-        "gender": "F",
-        "dateOfBirth": "1990-06-13"
-    }
-});
-db.partners.insertOne(
-{
-    "partnerKey": "LINFREN5067",
-    "businessName": "Industrious Trust Inc",
-    "revenueSplit": 0.48,
-    "acctBalance": 526735.92,
+    "acctBalance": 796231.5700000001,
     "name": {
         "title": "Ms",
-        "first": "Lin",
-        "middle": "T",
-        "last": "French",
+        "first": "Eleni",
+        "middle": "G",
+        "last": "Cole",
         "suffix": null
     },
     "address": {
-        "streetAddress": "4240 Long Bough Street",
+        "streetAddress": "5476 Winding Mound Street",
         "buildingName": null,
         "floor": null,
         "roomAptCondoFlat": null,
-        "city": "Birkirkara",
-        "stateProvince": "Birkirkara",
-        "locality": "Birkirkara",
-        "country": "MT",
-        "postalCode": "BKR",
-        "latitude": "35.8972",
-        "longitude": "14.4653"
+        "city": "Seglinge",
+        "stateProvince": "Kumlinge",
+        "locality": "Kumlinge",
+        "country": "AX",
+        "postalCode": "22810",
+        "latitude": "60.2018",
+        "longitude": "20.7098"
     },
     "contact": {
-        "phone": "+356-103-207-5067",
-        "email": "lfrench103@glasnet.com",
-        "socMedia": null
+        "email": "ecole101@uunet.com",
+        "phone": "+61-101-157-4536",
+        "socMedia": {
+            "line": "ecole101@uunet.com@line.com"
+        }
     },
     "login": {
-        "username": "lfrench",
-        "oauth2": null,
-        "password": "$2y$10$bCTieekuv4fzj0jR6Xr2HOjWGABNJUlVvTNKzJGkFrftmhJ9k\/ofS"
+        "username": "ecole",
+        "oauth2": "ecole@line.com",
+        "password": "$2y$10$SplVGJWlqMH3S4GW9KvoO.LNta36ZLoLLCEPagbo6QN1n3w3eY2Ue"
     },
-    "otherContact": {
-        "emails": [
-            "lfrench@nii.net"
-        ],
-        "phoneNumbers": [
-            "+356-134-051-7321",
-            "+356-7-125-7385"
-        ],
-        "socMedias": []
-    },
+    "otherContact": [],
     "otherInfo": {
         "gender": "F",
-        "dateOfBirth": "1953-05-19"
+        "dateOfBirth": "1969-04-12"
     }
 });
 db.partners.insertOne(
 {
-    "partnerKey": "HAYDGOLD6110",
-    "businessName": "Fat Cats Trust Inc",
-    "revenueSplit": 0.09,
-    "acctBalance": 29722.690000000002,
-    "name": {
-        "title": "Mr",
-        "first": "Hayden",
-        "middle": "V",
-        "last": "Golden",
-        "suffix": null
-    },
-    "address": {
-        "streetAddress": "3263 Short Creek Drive",
-        "buildingName": null,
-        "floor": null,
-        "roomAptCondoFlat": null,
-        "city": "Sainte-Th\u00e9r\u00e8se-de-Blainville Central",
-        "stateProvince": "QC",
-        "locality": "Laurentides",
-        "country": "CA",
-        "postalCode": "J7E",
-        "latitude": "45.6442",
-        "longitude": "-73.8448"
-    },
-    "contact": {
-        "phone": "+1-104-715-6110",
-        "email": "hgolden104@megafon.com",
-        "socMedia": null
-    },
-    "login": {
-        "username": "hgolden",
-        "oauth2": null,
-        "password": "$2y$10$Bj\/PhMtzTUFfMNQfTqby..WWWjraVYYXJSjwJgrpuaQjaNkEeke.2"
-    },
-    "otherContact": {
-        "emails": [
-            "hgolden@vimpelcom.net"
-        ],
-        "phoneNumbers": [
-            "+1-394-520-3379"
-        ],
-        "socMedias": []
-    },
-    "otherInfo": {
-        "gender": "M",
-        "dateOfBirth": "1930-07-12"
-    }
-});
-db.partners.insertOne(
-{
-    "partnerKey": "CLAUMEYE6414",
-    "businessName": "Friendly Industries Company",
-    "revenueSplit": 0.12,
-    "acctBalance": 197122.80000000002,
+    "partnerKey": "UPBEBMAH2175",
+    "businessName": "Upbeat Industries Inc",
+    "revenueSplit": 0.31,
+    "acctBalance": 158371.06,
     "name": {
         "title": null,
-        "first": "Claude",
+        "first": "Bradly",
         "middle": null,
-        "last": "Meyer",
+        "last": "Mahoney",
         "suffix": null
     },
     "address": {
-        "streetAddress": "6029 Red Gulch Drive",
+        "streetAddress": "5817 Big Ridge Way",
         "buildingName": null,
         "floor": null,
-        "roomAptCondoFlat": null,
-        "city": "Tangerm\u00fcnde",
-        "stateProvince": "ST",
-        "locality": "Landkreis Stendal",
-        "country": "DE",
-        "postalCode": "39590",
-        "latitude": "52.5446",
-        "longitude": "11.9765"
+        "roomAptCondoFlat": "11",
+        "city": "Rhyd-rosser",
+        "stateProvince": "Wales",
+        "locality": "Ceredigion",
+        "country": "GB",
+        "postalCode": "SY23",
+        "latitude": "52.3358",
+        "longitude": "-3.9639"
     },
     "contact": {
-        "phone": "+49-105-785-6414",
-        "email": "cmeyer105@verizon.com",
-        "socMedia": null
+        "email": "bmahoney102@tata.com",
+        "phone": "+61-102-924-2175",
+        "socMedia": []
     },
     "login": {
-        "username": "cmeyer",
+        "username": "bmahoney",
         "oauth2": null,
-        "password": "$2y$10$Cmo8PwrCUPOcABJsdSTQFuYnhp11q\/FQfVEqyhCoenXeQruZVfXVW"
+        "password": "$2y$10$wxfMLc6xNFHcyuRLogUmze.cRWeXk0qItyzs3oZqz3JToDU4mG43u"
     },
     "otherContact": {
         "emails": [
-            "cmeyer@etisalat.net",
-            "cmeyer@rogers.net"
+            "bmahoney102@telia.com"
         ],
         "phoneNumbers": [
-            "+49-856-484-2072"
-        ],
-        "socMedias": []
+            "+61-102-169-5097"
+        ]
     },
     "otherInfo": {
         "gender": "M",
-        "dateOfBirth": "1939-04-25"
+        "dateOfBirth": "1935-06-06"
     }
 });
 db.partners.insertOne(
 {
-    "partnerKey": "MELVSALA6027",
-    "businessName": "Serious Business LLC",
-    "revenueSplit": 0.41000000000000003,
-    "acctBalance": 743314.4400000001,
-    "name": {
-        "title": "Ms",
-        "first": "Melvina",
-        "middle": "L",
-        "last": "Salazar",
-        "suffix": null
-    },
-    "address": {
-        "streetAddress": "3673 Green Mountain Boulevard",
-        "buildingName": "Building 42",
-        "floor": null,
-        "roomAptCondoFlat": null,
-        "city": "Loveday",
-        "stateProvince": "SA",
-        "locality": "SA FAR",
-        "country": "AU",
-        "postalCode": "5345",
-        "latitude": "-34.2833",
-        "longitude": "140.4333"
-    },
-    "contact": {
-        "phone": "+61-106-844-6027",
-        "email": "msalazar106@orange.com",
-        "socMedia": null
-    },
-    "login": {
-        "username": "msalazar",
-        "oauth2": null,
-        "password": "$2y$10$SveEYPvVUDgkr.VhFHuTzudryqdjs9eHRHa8M5uHqe4OK0Ovie8V6"
-    },
-    "otherContact": {
-        "emails": [
-            "msalazar@rogers.net"
-        ],
-        "phoneNumbers": [
-            "+61-907-997-3181",
-            "+61-39-866-0728"
-        ],
-        "socMedias": []
-    },
-    "otherInfo": {
-        "gender": "F",
-        "dateOfBirth": "1976-08-28"
-    }
-});
-db.partners.insertOne(
-{
-    "partnerKey": "VALKLEI6812",
-    "businessName": "Industrious Associates LLC",
-    "revenueSplit": 0.13,
-    "acctBalance": 841808.37,
+    "partnerKey": "BUDGLTHO8854",
+    "businessName": "Budget Associates Ltd",
+    "revenueSplit": 0.2,
+    "acctBalance": 324580.21,
     "name": {
         "title": "Mr",
-        "first": "Val",
-        "middle": "R",
-        "last": "Klein",
+        "first": "Leopoldo",
+        "middle": "O",
+        "last": "Thomas",
         "suffix": null
     },
     "address": {
-        "streetAddress": "262 Short Hill Circle",
-        "buildingName": null,
+        "streetAddress": "3407 Big Creek Way",
+        "buildingName": "Building D9",
         "floor": null,
         "roomAptCondoFlat": null,
-        "city": "Veljunski Ponorac",
-        "stateProvince": "Veljun",
-        "locality": "Veljun",
-        "country": "HR",
-        "postalCode": "47243",
-        "latitude": "45.2097",
-        "longitude": "15.5896"
+        "city": "Westmorland",
+        "stateProvince": "CA",
+        "locality": "Imperial",
+        "country": "US",
+        "postalCode": "92281",
+        "latitude": "33.038",
+        "longitude": "-115.5914"
     },
     "contact": {
-        "phone": "+385-107-925-6812",
-        "email": "vklein107@worldnet.com",
-        "socMedia": null
+        "email": "lthomas104@telkom.com",
+        "phone": "+61-104-437-8854",
+        "socMedia": {
+            "skype": "lthomas104@telkom.com@skype.com"
+        }
     },
     "login": {
-        "username": "vklein",
-        "oauth2": null,
-        "password": "$2y$10$evmKJPSbFVKSeYwmAUUdmuXkT0NYlF.U3ZZWl6lsUu9muVb7BUS7q"
+        "username": "lthomas",
+        "oauth2": "lthomas@skype.com",
+        "password": "$2y$10$F7cREScaLXeWbyQHeF1YfeCjKHwcBC8UZ9riy.mPJXqRxfXGJuOXe"
     },
-    "otherContact": {
-        "emails": [
-            "vklein@optus.net",
-            "vklein@lookdata.net"
-        ],
-        "phoneNumbers": [
-            "+385-678-767-5413"
-        ],
-        "socMedias": []
-    },
+    "otherContact": [],
     "otherInfo": {
         "gender": "M",
-        "dateOfBirth": "1951-08-01"
+        "dateOfBirth": "1946-04-03"
     }
 });
 db.partners.insertOne(
 {
-    "partnerKey": "KENNKRAM7829",
-    "businessName": "Industrious Business Company",
-    "revenueSplit": 0.25,
-    "acctBalance": 971547.18,
+    "partnerKey": "BUDGKSTE3846",
+    "businessName": "Budget Agency Inc",
+    "revenueSplit": 0.31,
+    "acctBalance": 462013.92,
     "name": {
         "title": null,
         "first": "Kennith",
         "middle": null,
-        "last": "Kramer",
+        "last": "Steele",
         "suffix": null
     },
     "address": {
-        "streetAddress": "3905 Winding Gulch Ride",
+        "streetAddress": "5620 Winding Creek Boulevard",
         "buildingName": null,
         "floor": null,
         "roomAptCondoFlat": null,
-        "city": "Narot Mehra",
-        "stateProvince": "Pathankot",
-        "locality": "Gurdaspur",
-        "country": "IN",
-        "postalCode": "145025",
-        "latitude": "32.2673",
-        "longitude": "75.5647"
-    },
-    "contact": {
-        "phone": "+91-108-487-7829",
-        "email": "kkramer108@bifty.com",
-        "socMedia": null
-    },
-    "login": {
-        "username": "kkramer",
-        "oauth2": null,
-        "password": "$2y$10$ZRyHNN0JhV5UzdZu7AOTDOiYx12eCPoSFbD1kmHmv673oZeT48n.C"
-    },
-    "otherContact": {
-        "emails": [
-            "kkramer@eunet.net"
-        ],
-        "phoneNumbers": [
-            "+91-88-673-8068",
-            "+91-456-037-8882"
-        ],
-        "socMedias": []
-    },
-    "otherInfo": {
-        "gender": "M",
-        "dateOfBirth": "1963-07-28"
-    }
-});
-db.partners.insertOne(
-{
-    "partnerKey": "THADFARR6514",
-    "businessName": "Friendly Business Company",
-    "revenueSplit": 0.17,
-    "acctBalance": 378476.88,
-    "name": {
-        "title": "Mr",
-        "first": "Thad",
-        "middle": "O",
-        "last": "Farrell",
-        "suffix": null
-    },
-    "address": {
-        "streetAddress": "1626 Big Bridge Road",
-        "buildingName": null,
-        "floor": null,
-        "roomAptCondoFlat": null,
-        "city": "Jesenice na Dolenjskem",
+        "city": "Nuevo Amanecer",
         "stateProvince": null,
         "locality": null,
-        "country": "SI",
-        "postalCode": "8261",
-        "latitude": "45.8917",
-        "longitude": "15.5397"
+        "country": "DO",
+        "postalCode": "10805",
+        "latitude": "18.7333",
+        "longitude": "-71.1833"
     },
     "contact": {
-        "phone": "+386-109-974-6514",
-        "email": "tfarrell109@optus.com",
-        "socMedia": null
+        "email": "ksteele105@frontier.com",
+        "phone": "+61-105-881-3846",
+        "socMedia": []
     },
     "login": {
-        "username": "tfarrell",
+        "username": "ksteele",
         "oauth2": null,
-        "password": "$2y$10$uQjRgSMYt2TJk00DHK89wescBPWS3TkN8AE.SPLNbJ6CdBgkdPLFq"
+        "password": "$2y$10$x1K505tbVbay99AEjWsQaOIUI2NVhxpZKgZVT8lCRg0ekpi8Sebgu"
     },
     "otherContact": {
         "emails": [
-            "tfarrell@openworld.net"
+            "ksteele105@millicom.com",
+            "ksteele105@maxcomm.com",
+            "ksteele105@turkcell.com"
         ],
-        "phoneNumbers": [],
-        "socMedias": []
+        "phoneNumbers": [
+            "+61-105-559-6847",
+            "+61-105-539-6016",
+            "+61-105-323-1861"
+        ]
     },
     "otherInfo": {
         "gender": "M",
-        "dateOfBirth": "1966-02-01"
+        "dateOfBirth": "1952-09-12"
     }
 });
 db.partners.insertOne(
 {
-    "partnerKey": "LEONWELC3450",
-    "businessName": "Industrious Industries LLC",
-    "revenueSplit": 0.35000000000000003,
-    "acctBalance": 979187.97,
+    "partnerKey": "SLEEAPEN4184",
+    "businessName": "Sleep Right Trust Inc",
+    "revenueSplit": 0.05,
+    "acctBalance": 339844.48,
     "name": {
         "title": "Mr",
-        "first": "Leonard",
-        "middle": "S",
-        "last": "Welch",
+        "first": "Adrian",
+        "middle": "U",
+        "last": "Pena",
         "suffix": null
     },
     "address": {
-        "streetAddress": "8514 Big Hill Road",
+        "streetAddress": "922 Winding Mound Avenue",
         "buildingName": null,
         "floor": null,
         "roomAptCondoFlat": null,
-        "city": "Baile nan Cailleach",
-        "stateProvince": "Scotland",
-        "locality": "Western Isles",
-        "country": "GB",
-        "postalCode": "HS7",
-        "latitude": "57.4465",
-        "longitude": "-7.3401"
+        "city": "Sainte-Rose",
+        "stateProvince": "QC",
+        "locality": "Quebec",
+        "country": "CA",
+        "postalCode": "H7L",
+        "latitude": "45.6168",
+        "longitude": "-73.7825"
     },
     "contact": {
-        "phone": "+44-110-858-3450",
-        "email": "lwelch110@telstra.com",
+        "email": "apena106@icom.com",
+        "phone": "+61-106-032-4184",
         "socMedia": {
-            "line": "lwelch@line.com"
+            "line": "apena106@icom.com@line.com"
         }
     },
     "login": {
-        "username": "lwelch",
-        "oauth2": "lwelch@line.com",
-        "password": "$2y$10$8WTPM8KLwwZZdFTxACQF7em5TvQyjlNz.A2tX0SVwDGA7WvgXf8lK"
+        "username": "apena",
+        "oauth2": "apena@line.com",
+        "password": "$2y$10$4vbcJeYFPQ.u2q5GkJRuf.I3l8MhhxWC69IrKZHRakPvrLbKaBfCu"
     },
     "otherContact": {
-        "emails": [],
-        "phoneNumbers": [
-            "+44-565-022-7059"
+        "emails": [
+            "apena106@orange.com",
+            "apena106@orstom.com"
         ],
-        "socMedias": []
+        "phoneNumbers": [
+            "+61-106-251-0066",
+            "+61-106-781-7954"
+        ],
+        "socMedias": [
+            {
+                "google": "apena106@orange.com@google.com"
+            },
+            {
+                "google": "apena106@orstom.com@google.com"
+            }
+        ]
     },
     "otherInfo": {
         "gender": "M",
-        "dateOfBirth": "1988-02-14"
+        "dateOfBirth": "1965-01-15"
     }
 });
 db.partners.insertOne(
 {
-    "partnerKey": "BELVMORR8903",
-    "businessName": "Serious Industries Company",
-    "revenueSplit": 0.2,
-    "acctBalance": 493663.82,
-    "name": {
-        "title": null,
-        "first": "Belva",
-        "middle": null,
-        "last": "Morrison",
-        "suffix": null
-    },
-    "address": {
-        "streetAddress": "5249 Red Bough Street",
-        "buildingName": null,
-        "floor": null,
-        "roomAptCondoFlat": "26",
-        "city": "Grand Falls",
-        "stateProvince": "NL",
-        "locality": "Newfoundland and Labrador",
-        "country": "CA",
-        "postalCode": "A2A",
-        "latitude": "48.9332",
-        "longitude": "-55.6649"
-    },
-    "contact": {
-        "phone": "+1-111-625-8903",
-        "email": "bmorriso111@ais.com",
-        "socMedia": null
-    },
-    "login": {
-        "username": "bmorriso",
-        "oauth2": null,
-        "password": "$2y$10$SexbsDLnN5kWrkRnEBjt4OMtjaoWCkHaYKxaHTxZdDWuArhFzIl3G"
-    },
-    "otherContact": {
-        "emails": [],
-        "phoneNumbers": [
-            "+1-609-379-4376"
-        ],
-        "socMedias": []
-    },
-    "otherInfo": {
-        "gender": "F",
-        "dateOfBirth": "1947-07-19"
-    }
-});
-db.partners.insertOne(
-{
-    "partnerKey": "NEREDUDL1620",
-    "businessName": "Serious Business Company",
-    "revenueSplit": 0.02,
-    "acctBalance": 252966.02000000002,
-    "name": {
-        "title": "Ms",
-        "first": "Nereida",
-        "middle": "M",
-        "last": "Dudley",
-        "suffix": null
-    },
-    "address": {
-        "streetAddress": "8900 Red Creek Way",
-        "buildingName": null,
-        "floor": null,
-        "roomAptCondoFlat": null,
-        "city": "Kelowna Central",
-        "stateProvince": "BC",
-        "locality": "Kelowna",
-        "country": "CA",
-        "postalCode": "V1Y",
-        "latitude": "49.8928",
-        "longitude": "-119.4852"
-    },
-    "contact": {
-        "phone": "+1-112-708-1620",
-        "email": "ndudley112@telekom.com",
-        "socMedia": null
-    },
-    "login": {
-        "username": "ndudley",
-        "oauth2": null,
-        "password": "$2y$10$PU9p.IYnNYcjEh.Ig0\/IJeJpDtnc7zpBQrfc05G78fpkJNtkT3oT2"
-    },
-    "otherContact": {
-        "emails": [
-            "ndudley@bifty.net"
-        ],
-        "phoneNumbers": [
-            "+1-651-694-0283"
-        ],
-        "socMedias": []
-    },
-    "otherInfo": {
-        "gender": "F",
-        "dateOfBirth": "1975-02-23"
-    }
-});
-db.partners.insertOne(
-{
-    "partnerKey": "LAMOCOLL8457",
-    "businessName": "Fat Cats Trust Ltd",
-    "revenueSplit": 0.09,
-    "acctBalance": 690437.18,
-    "name": {
-        "title": "Mr",
-        "first": "Lamont",
-        "middle": "K",
-        "last": "Collins",
-        "suffix": null
-    },
-    "address": {
-        "streetAddress": "2101 Red Ridge Boulevard",
-        "buildingName": null,
-        "floor": null,
-        "roomAptCondoFlat": null,
-        "city": "Roodepoort",
-        "stateProvince": null,
-        "locality": null,
-        "country": "ZA",
-        "postalCode": "1794",
-        "latitude": "-26.1667",
-        "longitude": "27.8667"
-    },
-    "contact": {
-        "phone": "+27-113-539-8457",
-        "email": "lcollins113@nordnet.com",
-        "socMedia": null
-    },
-    "login": {
-        "username": "lcollins",
-        "oauth2": null,
-        "password": "$2y$10$wq7DQLinHg6Z8il1\/P2GpOtIQ7BWAX3n04n98xEkY7HBX\/gJzOdqm"
-    },
-    "otherContact": {
-        "emails": [
-            "lcollins@sktelecom.net"
-        ],
-        "phoneNumbers": [
-            "+27-729-820-1104"
-        ],
-        "socMedias": []
-    },
-    "otherInfo": {
-        "gender": "M",
-        "dateOfBirth": "1992-04-02"
-    }
-});
-db.partners.insertOne(
-{
-    "partnerKey": "LEBECK8077",
-    "businessName": "Serious Trust LLC",
-    "revenueSplit": 0.21,
-    "acctBalance": 100724.31,
-    "name": {
-        "title": null,
-        "first": "Le",
-        "middle": null,
-        "last": "Beck",
-        "suffix": null
-    },
-    "address": {
-        "streetAddress": "7158 Red Hill Ride",
-        "buildingName": null,
-        "floor": null,
-        "roomAptCondoFlat": null,
-        "city": "Christmas Island",
-        "stateProvince": "WA",
-        "locality": "KALGOORLIE",
-        "country": "AU",
-        "postalCode": "6798",
-        "latitude": "-10.4854",
-        "longitude": "105.6365"
-    },
-    "contact": {
-        "phone": "+61-114-340-8077",
-        "email": "lbeck114@singtel.com",
-        "socMedia": null
-    },
-    "login": {
-        "username": "lbeck",
-        "oauth2": null,
-        "password": "$2y$10$hs0QchKg0m2oczuCD9CebeyFYA0YU7Se4M61XNTHhVjvtmTnqB29."
-    },
-    "otherContact": {
-        "emails": [
-            "lbeck@mtn.net"
-        ],
-        "phoneNumbers": [
-            "+61-168-503-4543"
-        ],
-        "socMedias": []
-    },
-    "otherInfo": {
-        "gender": "F",
-        "dateOfBirth": "1973-05-17"
-    }
-});
-db.partners.insertOne(
-{
-    "partnerKey": "NATHWALT3231",
-    "businessName": "Serious Associates LLC",
-    "revenueSplit": 0.38,
-    "acctBalance": 555232.75,
-    "name": {
-        "title": "Mr",
-        "first": "Nathan",
-        "middle": "S",
-        "last": "Walter",
-        "suffix": null
-    },
-    "address": {
-        "streetAddress": "6989 Little Tree Avenue",
-        "buildingName": null,
-        "floor": null,
-        "roomAptCondoFlat": null,
-        "city": "Enfield",
-        "stateProvince": null,
-        "locality": null,
-        "country": "IE",
-        "postalCode": "A83",
-        "latitude": "53.4142",
-        "longitude": "-6.8323"
-    },
-    "contact": {
-        "phone": "+353-115-533-3231",
-        "email": "nwalter115@singtel.com",
-        "socMedia": null
-    },
-    "login": {
-        "username": "nwalter",
-        "oauth2": null,
-        "password": "$2y$10$s4.uC19yA6GI9heD7amYG.v26.RT8uSPFoKrNUX.Av.\/c\/ADpf292"
-    },
-    "otherContact": {
-        "emails": [
-            "nwalter@openworld.net",
-            "nwalter@safaricom.net"
-        ],
-        "phoneNumbers": [
-            "+353-598-292-6489",
-            "+353-322-131-4273"
-        ],
-        "socMedias": []
-    },
-    "otherInfo": {
-        "gender": "M",
-        "dateOfBirth": "1995-06-08"
-    }
-});
-db.partners.insertOne(
-{
-    "partnerKey": "NIKIPHAM5027",
-    "businessName": "Industrious Industries Ltd",
-    "revenueSplit": 0.41000000000000003,
-    "acctBalance": 338399.18,
-    "name": {
-        "title": "Ms",
-        "first": "Niki",
-        "middle": "P",
-        "last": "Pham",
-        "suffix": null
-    },
-    "address": {
-        "streetAddress": "2727 Little River Boulevard",
-        "buildingName": null,
-        "floor": null,
-        "roomAptCondoFlat": null,
-        "city": "Perth",
-        "stateProvince": "WA",
-        "locality": "CURTIN",
-        "country": "AU",
-        "postalCode": "6837",
-        "latitude": "-31.9522",
-        "longitude": "115.8614"
-    },
-    "contact": {
-        "phone": "+61-116-992-5027",
-        "email": "npham116@maxcomm.com",
-        "socMedia": null
-    },
-    "login": {
-        "username": "npham",
-        "oauth2": null,
-        "password": "$2y$10$.wGKbiZ9ZtPXaeoI1fz9l.3bqaGBkbK2jTqGmOoc7rhHVSv4ofIwS"
-    },
-    "otherContact": {
-        "emails": [
-            "npham@centurylink.net"
-        ],
-        "phoneNumbers": [
-            "+61-496-414-5446",
-            "+61-697-102-1876",
-            "+61-517-408-3328"
-        ],
-        "socMedias": []
-    },
-    "otherInfo": {
-        "gender": "F",
-        "dateOfBirth": "1971-09-19"
-    }
-});
-db.partners.insertOne(
-{
-    "partnerKey": "VONNCORR6637",
-    "businessName": "Industrious Trust Company",
-    "revenueSplit": 0.36,
-    "acctBalance": 554908.64,
-    "name": {
-        "title": null,
-        "first": "Vonnie",
-        "middle": null,
-        "last": "Correa",
-        "suffix": null
-    },
-    "address": {
-        "streetAddress": "3273 Red Mound Road",
-        "buildingName": null,
-        "floor": null,
-        "roomAptCondoFlat": null,
-        "city": "Uv\u00e9a",
-        "stateProvince": "Circonscription d'Uv\u00e9a",
-        "locality": "Circonscription d'Uv\u00e9a",
-        "country": "WF",
-        "postalCode": "98600",
-        "latitude": "-13.2988",
-        "longitude": "-176.2205"
-    },
-    "contact": {
-        "phone": "+681-117-655-6637",
-        "email": "vcorrea117@openworld.com",
-        "socMedia": null
-    },
-    "login": {
-        "username": "vcorrea",
-        "oauth2": null,
-        "password": "$2y$10$vLiEJROY0XXzgNRBIVthlek\/jQj\/vd45Oh4ob0bWUz4MOESatC1IO"
-    },
-    "otherContact": {
-        "emails": [],
-        "phoneNumbers": [
-            "+681-312-531-0624",
-            "+681-294-726-9477"
-        ],
-        "socMedias": []
-    },
-    "otherInfo": {
-        "gender": "F",
-        "dateOfBirth": "1952-10-04"
-    }
-});
-db.partners.insertOne(
-{
-    "partnerKey": "KATIBRYA4997",
-    "businessName": "Industrious Industries Inc",
-    "revenueSplit": 0.39,
-    "acctBalance": 464066.08,
-    "name": {
-        "title": "Ms",
-        "first": "Katia",
-        "middle": "B",
-        "last": "Bryant",
-        "suffix": null
-    },
-    "address": {
-        "streetAddress": "8679 Big Gully Ride",
-        "buildingName": null,
-        "floor": null,
-        "roomAptCondoFlat": null,
-        "city": "Edmonton (South Bonnie Doon \/ East University)",
-        "stateProvince": "AB",
-        "locality": "Edmonton",
-        "country": "CA",
-        "postalCode": "T6E",
-        "latitude": "53.4914",
-        "longitude": "-113.4802"
-    },
-    "contact": {
-        "phone": "+1-118-601-4997",
-        "email": "kbryant118@ktc.com",
-        "socMedia": null
-    },
-    "login": {
-        "username": "kbryant",
-        "oauth2": null,
-        "password": "$2y$10$7dFRFFj6QaLRExO7U1B4U.1GKeDHe1GlpORzciHw0HOUJyXKCKRDm"
-    },
-    "otherContact": {
-        "emails": [],
-        "phoneNumbers": [
-            "+1-644-906-8843",
-            "+1-845-838-6758"
-        ],
-        "socMedias": []
-    },
-    "otherInfo": {
-        "gender": "F",
-        "dateOfBirth": "1989-06-18"
-    }
-});
-db.partners.insertOne(
-{
-    "partnerKey": "VIRGMOYE8616",
-    "businessName": "Fat Cats Industries Inc",
-    "revenueSplit": 0.07,
-    "acctBalance": 349104.49,
-    "name": {
-        "title": "Ms",
-        "first": "Virgie",
-        "middle": "A",
-        "last": "Moyer",
-        "suffix": null
-    },
-    "address": {
-        "streetAddress": "6096 Green Bough Boulevard",
-        "buildingName": null,
-        "floor": null,
-        "roomAptCondoFlat": "2E",
-        "city": "St Helier",
-        "stateProvince": "Jersey Channel Islands",
-        "locality": "Jersey Channel Islands",
-        "country": "JE",
-        "postalCode": "JE2",
-        "latitude": "49.2",
-        "longitude": "-2.1333"
-    },
-    "contact": {
-        "phone": "+441534-119-549-8616",
-        "email": "vmoyer119@ccs.com",
-        "socMedia": null
-    },
-    "login": {
-        "username": "vmoyer",
-        "oauth2": null,
-        "password": "$2y$10$l.rXzEexffgoclnFrbadzulPaszLJpiHpEbLASeBqi3yeyKt5ngK."
-    },
-    "otherContact": {
-        "emails": [],
-        "phoneNumbers": [
-            "+441534-300-623-7385"
-        ],
-        "socMedias": []
-    },
-    "otherInfo": {
-        "gender": "F",
-        "dateOfBirth": "1944-08-01"
-    }
-});
-db.partners.insertOne(
-{
-    "partnerKey": "AFTOCRAN8737",
-    "businessName": "Serious Industries Inc",
-    "revenueSplit": 0.47000000000000003,
-    "acctBalance": 642275.79,
-    "name": {
-        "title": null,
-        "first": "Afton",
-        "middle": null,
-        "last": "Crane",
-        "suffix": null
-    },
-    "address": {
-        "streetAddress": "1500 Winding Creek Boulevard",
-        "buildingName": null,
-        "floor": 5,
-        "roomAptCondoFlat": null,
-        "city": "Craig",
-        "stateProvince": "Scotland",
-        "locality": "Dumfries and Galloway",
-        "country": "GB",
-        "postalCode": "DG7",
-        "latitude": "54.9842",
-        "longitude": "-3.9638"
-    },
-    "contact": {
-        "phone": "+44-120-638-8737",
-        "email": "acrane120@swisscom.com",
-        "socMedia": {
-            "twitter": "acrane@twitter.com"
-        }
-    },
-    "login": {
-        "username": "acrane",
-        "oauth2": "acrane@twitter.com",
-        "password": "$2y$10$mV4HgNzalvdKfTbCCIoXr.KPHmZE7twq00pOsrc\/RbCE4OgVkw0ru"
-    },
-    "otherContact": {
-        "emails": [
-            "acrane@cubenet.net"
-        ],
-        "phoneNumbers": [
-            "+44-227-275-8528"
-        ],
-        "socMedias": {
-            "twitter": "acrane@twitter.com"
-        }
-    },
-    "otherInfo": {
-        "gender": "F",
-        "dateOfBirth": "1954-09-13"
-    }
-});
-db.partners.insertOne(
-{
-    "partnerKey": "JACIHOLT3603",
-    "businessName": "Industrious Trust Inc",
-    "revenueSplit": 0.18,
-    "acctBalance": 153102.67,
-    "name": {
-        "title": "Mr",
-        "first": "Jacinto",
-        "middle": "T",
-        "last": "Holt",
-        "suffix": null
-    },
-    "address": {
-        "streetAddress": "4157 Long Mountain Street",
-        "buildingName": null,
-        "floor": null,
-        "roomAptCondoFlat": null,
-        "city": "Rinyaszentkir\u00e1ly",
-        "stateProvince": "SO",
-        "locality": "Somogy",
-        "country": "HU",
-        "postalCode": "7513",
-        "latitude": "46.15",
-        "longitude": "17.4"
-    },
-    "contact": {
-        "phone": "+36-121-797-3603",
-        "email": "jholt121@greennet.com",
-        "socMedia": null
-    },
-    "login": {
-        "username": "jholt",
-        "oauth2": null,
-        "password": "$2y$10$88OG\/oNFA01E7ffSBENHR.h2LmoZzf28zwUqJOmhiwYwS1andmLua"
-    },
-    "otherContact": {
-        "emails": [],
-        "phoneNumbers": [
-            "+36-752-487-5405"
-        ],
-        "socMedias": []
-    },
-    "otherInfo": {
-        "gender": "M",
-        "dateOfBirth": "1937-11-16"
-    }
-});
-db.partners.insertOne(
-{
-    "partnerKey": "MARGMURI5079",
-    "businessName": "Industrious Associates Ltd",
-    "revenueSplit": 0.24,
-    "acctBalance": 259320.5,
-    "name": {
-        "title": "Mr",
-        "first": "Margarito",
-        "middle": "G",
-        "last": "Murillo",
-        "suffix": null
-    },
-    "address": {
-        "streetAddress": "5735 Big Mountain Circle",
-        "buildingName": null,
-        "floor": null,
-        "roomAptCondoFlat": null,
-        "city": "Satley",
-        "stateProvince": "England",
-        "locality": "Durham",
-        "country": "GB",
-        "postalCode": "DL13",
-        "latitude": "54.7849",
-        "longitude": "-1.8182"
-    },
-    "contact": {
-        "phone": "+44-122-723-5079",
-        "email": "mmurillo122@ote.com",
-        "socMedia": null
-    },
-    "login": {
-        "username": "mmurillo",
-        "oauth2": null,
-        "password": "$2y$10$zMqFsMXONg5WxXh1igiRIuZ27vBgm.rx2A9LKCJ9P3UBjXQw5Qm\/2"
-    },
-    "otherContact": {
-        "emails": [
-            "mmurillo@lguplus.net"
-        ],
-        "phoneNumbers": [],
-        "socMedias": []
-    },
-    "otherInfo": {
-        "gender": "M",
-        "dateOfBirth": "1937-04-29"
-    }
-});
-db.partners.insertOne(
-{
-    "partnerKey": "ARMABAUT7502",
-    "businessName": "Industrious Trust LLC",
-    "revenueSplit": 0.4,
-    "acctBalance": 327772.26,
-    "name": {
-        "title": null,
-        "first": "Armand",
-        "middle": null,
-        "last": "Bautista",
-        "suffix": null
-    },
-    "address": {
-        "streetAddress": "6146 Big Bend Boulevard",
-        "buildingName": null,
-        "floor": null,
-        "roomAptCondoFlat": null,
-        "city": "Ittoqqortoormiit",
-        "stateProvince": null,
-        "locality": null,
-        "country": "GL",
-        "postalCode": "3980",
-        "latitude": "70.4846",
-        "longitude": "-21.9622"
-    },
-    "contact": {
-        "phone": "+299-123-118-7502",
-        "email": "abautist123@chunghwa.com",
-        "socMedia": null
-    },
-    "login": {
-        "username": "abautist",
-        "oauth2": null,
-        "password": "$2y$10$B\/N1MMOve2aAw8I1rxkAHO0cEl96knziIwHSeQM3Mv6mBBbijXe6y"
-    },
-    "otherContact": {
-        "emails": [
-            "abautist@ui.net"
-        ],
-        "phoneNumbers": [],
-        "socMedias": []
-    },
-    "otherInfo": {
-        "gender": "M",
-        "dateOfBirth": "1941-11-27"
-    }
-});
-db.partners.insertOne(
-{
-    "partnerKey": "LORRSTOU3284",
-    "businessName": "Serious Trust Inc",
-    "revenueSplit": 0.34,
-    "acctBalance": 587139.1,
-    "name": {
-        "title": "Ms",
-        "first": "Lorretta",
-        "middle": "Q",
-        "last": "Stout",
-        "suffix": null
-    },
-    "address": {
-        "streetAddress": "3250 Winding Gully Ride",
-        "buildingName": null,
-        "floor": null,
-        "roomAptCondoFlat": null,
-        "city": "Gallanach",
-        "stateProvince": "Scotland",
-        "locality": "Argyll and Bute",
-        "country": "GB",
-        "postalCode": "PA34",
-        "latitude": "56.3937",
-        "longitude": "-5.4884"
-    },
-    "contact": {
-        "phone": "+44-124-166-3284",
-        "email": "lstout124@eunet.com",
-        "socMedia": null
-    },
-    "login": {
-        "username": "lstout",
-        "oauth2": null,
-        "password": "$2y$10$FKhA.FDi4zpQpKqlXsk11.fKZQN6BRc0Scu5oBcmcAppFpp0ghtQ2"
-    },
-    "otherContact": {
-        "emails": [
-            "lstout@swisscom.net"
-        ],
-        "phoneNumbers": [],
-        "socMedias": []
-    },
-    "otherInfo": {
-        "gender": "F",
-        "dateOfBirth": "1938-12-02"
-    }
-});
-db.partners.insertOne(
-{
-    "partnerKey": "THIPARK7401",
-    "businessName": "Industrious Industries Ltd",
-    "revenueSplit": 0.06,
-    "acctBalance": 34519.12,
-    "name": {
-        "title": null,
-        "first": "Thi",
-        "middle": null,
-        "last": "Parks",
-        "suffix": null
-    },
-    "address": {
-        "streetAddress": "1224 Long Creek Way",
-        "buildingName": null,
-        "floor": null,
-        "roomAptCondoFlat": null,
-        "city": "Melbourne",
-        "stateProvince": "VIC",
-        "locality": "Victoria",
-        "country": "AU",
-        "postalCode": "8070",
-        "latitude": "-37.814",
-        "longitude": "144.9633"
-    },
-    "contact": {
-        "phone": "+61-126-373-7401",
-        "email": "tparks126@rogers.com",
-        "socMedia": null
-    },
-    "login": {
-        "username": "tparks",
-        "oauth2": null,
-        "password": "$2y$10$PfHmg00.ePO4ZsyMOPesT.XEbAE052skeW5X5j09dLYoMDggB14Hm"
-    },
-    "otherContact": {
-        "emails": [
-            "tparks@telkom.net"
-        ],
-        "phoneNumbers": [
-            "+61-570-556-3850",
-            "+61-203-157-1046",
-            "+61-658-245-9923"
-        ],
-        "socMedias": []
-    },
-    "otherInfo": {
-        "gender": "F",
-        "dateOfBirth": "1996-07-16"
-    }
-});
-db.partners.insertOne(
-{
-    "partnerKey": "MINNPUGH7663",
-    "businessName": "Fat Cats Industries Inc",
-    "revenueSplit": 0.36,
-    "acctBalance": 1236.74,
-    "name": {
-        "title": "Ms",
-        "first": "Minnie",
-        "middle": "V",
-        "last": "Pugh",
-        "suffix": null
-    },
-    "address": {
-        "streetAddress": "1137 Winding Bridge Circle",
-        "buildingName": null,
-        "floor": 2,
-        "roomAptCondoFlat": null,
-        "city": "Gornji Ladu\u010d",
-        "stateProvince": "\u0160enkovec",
-        "locality": "\u0160enkovec",
-        "country": "HR",
-        "postalCode": "10292",
-        "latitude": "45.8833",
-        "longitude": "15.7333"
-    },
-    "contact": {
-        "phone": "+385-127-959-7663",
-        "email": "mpugh127@relcom.com",
-        "socMedia": null
-    },
-    "login": {
-        "username": "mpugh",
-        "oauth2": null,
-        "password": "$2y$10$ozDfjmVowxP22uDMvXHglufBTdRq62kOf2qUfl4789ll8crjS9bYa"
-    },
-    "otherContact": {
-        "emails": [
-            "mpugh@softbank.net",
-            "mpugh@apicnet.net"
-        ],
-        "phoneNumbers": [],
-        "socMedias": []
-    },
-    "otherInfo": {
-        "gender": "F",
-        "dateOfBirth": "1949-09-14"
-    }
-});
-db.partners.insertOne(
-{
-    "partnerKey": "STEPCARL6002",
-    "businessName": "Friendly Industries Inc",
-    "revenueSplit": 0.12,
-    "acctBalance": 648708.31,
-    "name": {
-        "title": "Mr",
-        "first": "Stephen",
-        "middle": "Z",
-        "last": "Carlson",
-        "suffix": null
-    },
-    "address": {
-        "streetAddress": "336 Long Hill Road",
-        "buildingName": null,
-        "floor": null,
-        "roomAptCondoFlat": null,
-        "city": "Scarborough (Dorset Park \/ Wexford Heights \/ Scarborough Town Centre)",
-        "stateProvince": "ON",
-        "locality": "Scarborough",
-        "country": "CA",
-        "postalCode": "M1P",
-        "latitude": "43.7612",
-        "longitude": "-79.2707"
-    },
-    "contact": {
-        "phone": "+1-128-858-6002",
-        "email": "scarlson128@megafon.com",
-        "socMedia": null
-    },
-    "login": {
-        "username": "scarlson",
-        "oauth2": null,
-        "password": "$2y$10$D1tJu\/DFYWNHkYZw7a5.iuvsAW3Gb0dZ7aZJB5DY9L4sM.Ad9qdbC"
-    },
-    "otherContact": {
-        "emails": [],
-        "phoneNumbers": [
-            "+1-391-667-5740",
-            "+1-313-515-8026",
-            "+1-411-635-5014"
-        ],
-        "socMedias": []
-    },
-    "otherInfo": {
-        "gender": "M",
-        "dateOfBirth": "1930-04-19"
-    }
-});
-db.partners.insertOne(
-{
-    "partnerKey": "PATRMOSS9875",
-    "businessName": "Serious Trust LLC",
-    "revenueSplit": 0.43,
-    "acctBalance": 257934.69,
-    "name": {
-        "title": null,
-        "first": "Patrick",
-        "middle": null,
-        "last": "Moss",
-        "suffix": null
-    },
-    "address": {
-        "streetAddress": "881 Winding Woods Road",
-        "buildingName": null,
-        "floor": null,
-        "roomAptCondoFlat": null,
-        "city": "Terchov\u00e1",
-        "stateProvince": "ZI",
-        "locality": "\u017dilina",
-        "country": "SK",
-        "postalCode": "013 06",
-        "latitude": "49.259",
-        "longitude": "19.0294"
-    },
-    "contact": {
-        "phone": "+421-129-202-9875",
-        "email": "pmoss129@kddi.com",
-        "socMedia": null
-    },
-    "login": {
-        "username": "pmoss",
-        "oauth2": null,
-        "password": "$2y$10$3JtnQOapjbP.H2HrJcRdZ.xuk1M36OjBT.ksOdcofWo7bkQFseLrK"
-    },
-    "otherContact": {
-        "emails": [
-            "pmoss@tata.net",
-            "pmoss@pldt.net",
-            "pmoss@safaricom.net"
-        ],
-        "phoneNumbers": [
-            "+421-719-551-1684",
-            "+421-925-806-4640"
-        ],
-        "socMedias": []
-    },
-    "otherInfo": {
-        "gender": "F",
-        "dateOfBirth": "1931-11-28"
-    }
-});
-db.partners.insertOne(
-{
-    "partnerKey": "ORALWATS4815",
-    "businessName": "Serious Industries Company",
-    "revenueSplit": 0.39,
-    "acctBalance": 346393.76,
-    "name": {
-        "title": "Ms",
-        "first": "Oralee",
-        "middle": "B",
-        "last": "Watson",
-        "suffix": null
-    },
-    "address": {
-        "streetAddress": "3664 Red Hill Way",
-        "buildingName": null,
-        "floor": null,
-        "roomAptCondoFlat": null,
-        "city": "Fletchertown",
-        "stateProvince": "England",
-        "locality": "Cumbria",
-        "country": "GB",
-        "postalCode": "CA5",
-        "latitude": "54.855",
-        "longitude": "-3.0184"
-    },
-    "contact": {
-        "phone": "+44-130-157-4815",
-        "email": "owatson130@belgacom.com",
-        "socMedia": {
-            "linkedin": "owatson@linkedin.com"
-        }
-    },
-    "login": {
-        "username": "owatson",
-        "oauth2": "owatson@linkedin.com",
-        "password": "$2y$10$sEZnKH568\/Z4W8Cn6UxgcOInV8xwtJH1fmJuUvU0f26J9U.T6qy.i"
-    },
-    "otherContact": {
-        "emails": [
-            "owatson@bifty.net",
-            "owatson@maxcomm.net"
-        ],
-        "phoneNumbers": [],
-        "socMedias": {
-            "google": "owatson@google.com",
-            "twitter": "owatson@twitter.com"
-        }
-    },
-    "otherInfo": {
-        "gender": "F",
-        "dateOfBirth": "1937-01-07"
-    }
-});
-db.partners.insertOne(
-{
-    "partnerKey": "WMBALL2185",
-    "businessName": "Industrious Associates Ltd",
-    "revenueSplit": 0.19,
-    "acctBalance": 684553.9400000001,
-    "name": {
-        "title": "Mr",
-        "first": "Wm",
-        "middle": "H",
-        "last": "Ballard",
-        "suffix": null
-    },
-    "address": {
-        "streetAddress": "8496 Red River Street",
-        "buildingName": null,
-        "floor": null,
-        "roomAptCondoFlat": null,
-        "city": "Pointe-Noire",
-        "stateProvince": "GP",
-        "locality": "Guadeloupe",
-        "country": "GP",
-        "postalCode": "97116",
-        "latitude": "16.2309",
-        "longitude": "-61.7878"
-    },
-    "contact": {
-        "phone": "+590-131-960-2185",
-        "email": "wballard131@verizon.com",
-        "socMedia": null
-    },
-    "login": {
-        "username": "wballard",
-        "oauth2": null,
-        "password": "$2y$10$yU60VPVyG5WFK4hA2mmDz.O6cXMPT67HM9KM6X2eUA5R7UKFc1pAe"
-    },
-    "otherContact": {
-        "emails": [
-            "wballard@telekom.net"
-        ],
-        "phoneNumbers": [
-            "+590-419-719-8429",
-            "+590-634-657-2514"
-        ],
-        "socMedias": []
-    },
-    "otherInfo": {
-        "gender": "M",
-        "dateOfBirth": "1975-02-18"
-    }
-});
-db.partners.insertOne(
-{
-    "partnerKey": "KISHSCOT6991",
-    "businessName": "Serious Associates Inc",
-    "revenueSplit": 0.01,
-    "acctBalance": 959378.5800000001,
-    "name": {
-        "title": null,
-        "first": "Kisha",
-        "middle": null,
-        "last": "Scott",
-        "suffix": null
-    },
-    "address": {
-        "streetAddress": "867 Big Ridge Way",
-        "buildingName": null,
-        "floor": 13,
-        "roomAptCondoFlat": null,
-        "city": "FPO AA",
-        "stateProvince": null,
-        "locality": null,
-        "country": "US",
-        "postalCode": "96522",
-        "latitude": "22.2783",
-        "longitude": "114.1747"
-    },
-    "contact": {
-        "phone": "+1-132-972-6991",
-        "email": "kscott132@tata.com",
-        "socMedia": null
-    },
-    "login": {
-        "username": "kscott",
-        "oauth2": null,
-        "password": "$2y$10$aAPWRa3qaSg.f8E\/mCINVeKaJF6ahe4ikPsCicibSl9uqDzOlOsJG"
-    },
-    "otherContact": {
-        "emails": [
-            "kscott@sprint.net"
-        ],
-        "phoneNumbers": [],
-        "socMedias": []
-    },
-    "otherInfo": {
-        "gender": "F",
-        "dateOfBirth": "1932-09-07"
-    }
-});
-db.partners.insertOne(
-{
-    "partnerKey": "COLEWOLF8014",
-    "businessName": "Serious Associates LLC",
-    "revenueSplit": 0.39,
-    "acctBalance": 19346.52,
-    "name": {
-        "title": "Mr",
-        "first": "Coleman",
-        "middle": "X",
-        "last": "Wolfe",
-        "suffix": null
-    },
-    "address": {
-        "streetAddress": "5720 Short Stream Way",
-        "buildingName": null,
-        "floor": null,
-        "roomAptCondoFlat": null,
-        "city": "Congaz 1",
-        "stateProvince": "Comrat",
-        "locality": "Comrat",
-        "country": "MD",
-        "postalCode": "MD-3815",
-        "latitude": "46.1606",
-        "longitude": "28.5136"
-    },
-    "contact": {
-        "phone": "+373-133-830-8014",
-        "email": "cwolfe133@mtn.com",
-        "socMedia": null
-    },
-    "login": {
-        "username": "cwolfe",
-        "oauth2": null,
-        "password": "$2y$10$m8ztXQFo9CDZhyn5GvH6j.w7EdxZE\/ujlr\/UZifZyUer.TKBju5k2"
-    },
-    "otherContact": {
-        "emails": [
-            "cwolfe@ccs.net"
-        ],
-        "phoneNumbers": [
-            "+373-488-043-7444"
-        ],
-        "socMedias": []
-    },
-    "otherInfo": {
-        "gender": "M",
-        "dateOfBirth": "1974-05-08"
-    }
-});
-db.partners.insertOne(
-{
-    "partnerKey": "KORYSOLO6768",
-    "businessName": "Industrious Trust Inc",
+    "partnerKey": "SERIMRAN3593",
+    "businessName": "Serious Rooms LLC",
     "revenueSplit": 0.45,
-    "acctBalance": 605455.41,
-    "name": {
-        "title": "Mr",
-        "first": "Kory",
-        "middle": "B",
-        "last": "Solomon",
-        "suffix": null
-    },
-    "address": {
-        "streetAddress": "4033 Little Canyon Circle",
-        "buildingName": null,
-        "floor": null,
-        "roomAptCondoFlat": null,
-        "city": "Holborough",
-        "stateProvince": "England",
-        "locality": "Kent",
-        "country": "GB",
-        "postalCode": "ME2",
-        "latitude": "51.3921",
-        "longitude": "0.4824"
-    },
-    "contact": {
-        "phone": "+44-134-943-6768",
-        "email": "ksolomon134@lookdata.com",
-        "socMedia": null
-    },
-    "login": {
-        "username": "ksolomon",
-        "oauth2": null,
-        "password": "$2y$10$OqkDxAwrBNRNrZ93NZwe8.U6GHDBRBaIJDz3Oe2Kv4.RzU6rwP0Mq"
-    },
-    "otherContact": {
-        "emails": [],
-        "phoneNumbers": [],
-        "socMedias": []
-    },
-    "otherInfo": {
-        "gender": "M",
-        "dateOfBirth": "1978-02-20"
-    }
-});
-db.partners.insertOne(
-{
-    "partnerKey": "LOYDJACO6533",
-    "businessName": "Industrious Trust Ltd",
-    "revenueSplit": 0.09,
-    "acctBalance": 663624.4,
-    "name": {
-        "title": null,
-        "first": "Loyd",
-        "middle": null,
-        "last": "Jacobson",
-        "suffix": null
-    },
-    "address": {
-        "streetAddress": "7797 Long Stream Avenue",
-        "buildingName": null,
-        "floor": null,
-        "roomAptCondoFlat": null,
-        "city": "UGARTECHE",
-        "stateProvince": "M",
-        "locality": "Mendoza",
-        "country": "AR",
-        "postalCode": "5509",
-        "latitude": "-33.2167",
-        "longitude": "-68.8833"
-    },
-    "contact": {
-        "phone": "+54-135-332-6533",
-        "email": "ljacobso135@tm.com",
-        "socMedia": null
-    },
-    "login": {
-        "username": "ljacobso",
-        "oauth2": null,
-        "password": "$2y$10$gAh2G.56YGbmiU6HDfcXsehEr0A5ljP1TRmTQHBOBwO.jr9Cda6.O"
-    },
-    "otherContact": {
-        "emails": [],
-        "phoneNumbers": [
-            "+54-972-984-3551",
-            "+54-339-460-9930"
-        ],
-        "socMedias": []
-    },
-    "otherInfo": {
-        "gender": "M",
-        "dateOfBirth": "2003-08-09"
-    }
-});
-db.partners.insertOne(
-{
-    "partnerKey": "CARLCONL5422",
-    "businessName": "Friendly Associates Inc",
-    "revenueSplit": 0.04,
-    "acctBalance": 555166.49,
+    "acctBalance": 798207.22,
     "name": {
         "title": "Ms",
-        "first": "Carlyn",
-        "middle": "V",
-        "last": "Conley",
+        "first": "Meri",
+        "middle": "K",
+        "last": "Randall",
         "suffix": null
     },
     "address": {
-        "streetAddress": "8844 Winding Gulch Road",
+        "streetAddress": "1695 Big Creek Street",
         "buildingName": null,
         "floor": null,
         "roomAptCondoFlat": null,
-        "city": "Seafield",
-        "stateProvince": "Scotland",
-        "locality": "West Lothian",
-        "country": "GB",
-        "postalCode": "EH47",
-        "latitude": "55.8586",
-        "longitude": "-3.6649"
+        "city": "V\u0113veri",
+        "stateProvince": "K\u0101r\u0137u pag.",
+        "locality": "K\u0101r\u0137u pag.",
+        "country": "LV",
+        "postalCode": "LV-4716",
+        "latitude": "57.7783",
+        "longitude": "25.7013"
     },
     "contact": {
-        "phone": "+44-136-899-5422",
-        "email": "cconley136@vodafone.com",
-        "socMedia": null
+        "email": "mrandall107@lguplus.com",
+        "phone": "+61-107-531-3593",
+        "socMedia": {
+            "google": "mrandall107@lguplus.com@google.com"
+        }
     },
     "login": {
-        "username": "cconley",
-        "oauth2": null,
-        "password": "$2y$10$OvZ9dP84swMd9gY3fy5Dh.PRIl65gu27w5BYNBqLohWG\/VazuNLhe"
-    },
-    "otherContact": {
-        "emails": [],
-        "phoneNumbers": [
-            "+44-330-666-0843"
-        ],
-        "socMedias": []
-    },
-    "otherInfo": {
-        "gender": "F",
-        "dateOfBirth": "1957-07-13"
-    }
-});
-db.partners.insertOne(
-{
-    "partnerKey": "PAULPROC1949",
-    "businessName": "Serious Associates LLC",
-    "revenueSplit": 0.37,
-    "acctBalance": 986886.88,
-    "name": {
-        "title": "Ms",
-        "first": "Pauletta",
-        "middle": "T",
-        "last": "Proctor",
-        "suffix": null
-    },
-    "address": {
-        "streetAddress": "5894 Little Bough Street",
-        "buildingName": null,
-        "floor": null,
-        "roomAptCondoFlat": null,
-        "city": "Kaustaj\u00e4rvi",
-        "stateProvince": "Tohmaj\u00e4rvi",
-        "locality": "Keski-Karjala",
-        "country": "FI",
-        "postalCode": "82770",
-        "latitude": "62.2616",
-        "longitude": "30.7427"
-    },
-    "contact": {
-        "phone": "+358-137-935-1949",
-        "email": "pproctor137@telesystems.com",
-        "socMedia": null
-    },
-    "login": {
-        "username": "pproctor",
-        "oauth2": null,
-        "password": "$2y$10$PpczD6wYoOpFIWafj1M6ru\/rBw7Zeekpf0J08GpTJ8T7.pts1Cote"
+        "username": "mrandall",
+        "oauth2": "mrandall@google.com",
+        "password": "$2y$10$bkHQhY8SzkzWJyqcgr\/WN.e72NlDNWwi5AiEBc58rD0XLS4Gj9ie2"
     },
     "otherContact": {
         "emails": [
-            "pproctor@algonet.net"
+            "mrandall107@worldnet.com",
+            "mrandall107@millicom.com"
         ],
         "phoneNumbers": [
-            "+358-726-637-7045"
+            "+61-107-823-7878",
+            "+61-107-656-9420"
         ],
-        "socMedias": []
+        "socMedias": [
+            {
+                "facebook": "mrandall107@worldnet.com@facebook.com"
+            },
+            {
+                "google": "mrandall107@millicom.com@google.com"
+            }
+        ]
     },
     "otherInfo": {
         "gender": "F",
-        "dateOfBirth": "1972-09-04"
+        "dateOfBirth": "1932-03-01"
     }
 });
 db.partners.insertOne(
 {
-    "partnerKey": "KERRFRY1587",
-    "businessName": "Fat Cats Industries Inc",
-    "revenueSplit": 0.21,
-    "acctBalance": 451832.32,
+    "partnerKey": "ACCOHWEI3408",
+    "businessName": "Accomodation Industries Inc",
+    "revenueSplit": 0.46,
+    "acctBalance": 750338.38,
     "name": {
         "title": "Dr",
-        "first": "Kerry",
+        "first": "Hilario",
         "middle": null,
-        "last": "Fry",
-        "suffix": "LSD"
+        "last": "Weiss",
+        "suffix": "Jr"
     },
     "address": {
-        "streetAddress": "2005 Big Bend Road",
+        "streetAddress": "6628 Red Hill Avenue",
         "buildingName": null,
-        "floor": null,
-        "roomAptCondoFlat": null,
-        "city": "Cap-Pel\u00e9",
-        "stateProvince": "NB",
-        "locality": "New Brunswick",
-        "country": "CA",
-        "postalCode": "E4N",
-        "latitude": "46.2129",
-        "longitude": "-64.2784"
+        "floor": 14,
+        "roomAptCondoFlat": "EF",
+        "city": "North Aston",
+        "stateProvince": "England",
+        "locality": "Oxfordshire",
+        "country": "GB",
+        "postalCode": "OX6",
+        "latitude": "51.9558",
+        "longitude": "-1.3087"
     },
     "contact": {
-        "phone": "+1-138-316-1587",
-        "email": "kfry138@tm.com",
-        "socMedia": null
+        "email": "hweiss108@ntt.com",
+        "phone": "+61-108-991-3408",
+        "socMedia": []
     },
     "login": {
-        "username": "kfry",
+        "username": "hweiss",
         "oauth2": null,
-        "password": "$2y$10$d1reQ2TrhegY6vgylrAPmuMZcGEAcb\/voVfwbFUdJWo\/Ln8OLGSEG"
+        "password": "$2y$10$ynb70WYFf6JJySCWitmVruAgTPmHIY\/Shbjp4P5l8L3UWw0OC4gZ."
     },
     "otherContact": {
         "emails": [
-            "kfry@cerist.net"
+            "hweiss108@telia.com"
         ],
         "phoneNumbers": [
-            "+1-821-528-9065",
-            "+1-806-972-7441"
-        ],
-        "socMedias": []
+            "+61-108-597-1207"
+        ]
     },
     "otherInfo": {
         "gender": "M",
-        "dateOfBirth": "1972-10-01"
+        "dateOfBirth": "1970-02-24"
     }
 });
 db.partners.insertOne(
 {
-    "partnerKey": "WILMKEIT7770",
-    "businessName": "Fat Cats Trust Ltd",
-    "revenueSplit": 0.13,
-    "acctBalance": 492186.94,
+    "partnerKey": "UPBEEMCC0579",
+    "businessName": "Upbeat Rooms Ltd",
+    "revenueSplit": 0.43,
+    "acctBalance": 720013.41,
     "name": {
-        "title": "Mr",
-        "first": "Wilmer",
-        "middle": "Z",
-        "last": "Keith",
+        "title": "Ms",
+        "first": "Elvira",
+        "middle": "H",
+        "last": "Mccall",
         "suffix": null
     },
     "address": {
-        "streetAddress": "9649 Blue Bough Ride",
+        "streetAddress": "76 Big Bridge Ride",
         "buildingName": null,
         "floor": null,
         "roomAptCondoFlat": null,
-        "city": "Sabana Seca",
-        "stateProvince": "Toa Baja",
-        "locality": "Toa Baja",
-        "country": "PR",
-        "postalCode": "00952",
-        "latitude": "18.4269",
-        "longitude": "-66.1846"
+        "city": "Marsalforn",
+        "stateProvince": "I\u017c-\u017bebbu\u0121",
+        "locality": "I\u017c-\u017bebbu\u0121",
+        "country": "MT",
+        "postalCode": "MFN",
+        "latitude": "36.0667",
+        "longitude": "14.2444"
     },
     "contact": {
-        "phone": "+1787-139-842-7770",
-        "email": "wkeith139@millicom.com",
-        "socMedia": null
-    },
-    "login": {
-        "username": "wkeith",
-        "oauth2": null,
-        "password": "$2y$10$KYQx.MXmzXg3vvoM2DUi5uqu\/16mI6lUEdZxg0vyA0tx9TNxgF9.C"
-    },
-    "otherContact": {
-        "emails": [
-            "wkeith@tm.net",
-            "wkeith@telecom.net"
-        ],
-        "phoneNumbers": [
-            "+1787-758-628-9760"
-        ],
-        "socMedias": []
-    },
-    "otherInfo": {
-        "gender": "M",
-        "dateOfBirth": "1974-04-08"
-    }
-});
-db.partners.insertOne(
-{
-    "partnerKey": "NOEVILL9495",
-    "businessName": "Industrious Associates Ltd",
-    "revenueSplit": 0.42,
-    "acctBalance": 322180.24,
-    "name": {
-        "title": "Mr",
-        "first": "Noe",
-        "middle": "D",
-        "last": "Villarreal",
-        "suffix": null
-    },
-    "address": {
-        "streetAddress": "1899 Blue Creek Drive",
-        "buildingName": null,
-        "floor": null,
-        "roomAptCondoFlat": null,
-        "city": "Timiskaming North (Iroquois Falls A)",
-        "stateProvince": "ON",
-        "locality": "Timiskaming",
-        "country": "CA",
-        "postalCode": "P0K",
-        "latitude": "48.5234",
-        "longitude": "-80.3081"
-    },
-    "contact": {
-        "phone": "+1-140-676-9495",
-        "email": "nvillarr140@telesystems.com",
+        "email": "emccall109@ccs.com",
+        "phone": "+61-109-109-0579",
         "socMedia": {
-            "skype": "nvillarr@skype.com"
+            "linkedin": "emccall109@ccs.com@linkedin.com"
         }
     },
     "login": {
-        "username": "nvillarr",
-        "oauth2": "nvillarr@skype.com",
-        "password": "$2y$10$FfJhsqSECQnZI6yCR8a.Z.WV6Uwq0KcA53OBDKxV7SxRTauebCCWi"
+        "username": "emccall",
+        "oauth2": "emccall@linkedin.com",
+        "password": "$2y$10$B9BdDK9Z7\/Fgf8Ons5HSk.pC25QYiGogHbU4AS7Xkvl.LDqq1.R7C"
     },
     "otherContact": {
-        "emails": [],
-        "phoneNumbers": [
-            "+1-828-019-0885"
+        "emails": [
+            "emccall109@tt.com",
+            "emccall109@access.com"
         ],
-        "socMedias": {
-            "facebook": "nvillarr@facebook.com",
-            "linkedin": "nvillarr@linkedin.com"
-        }
+        "phoneNumbers": [
+            "+61-109-650-0921",
+            "+61-109-678-7566"
+        ],
+        "socMedias": [
+            {
+                "google": "emccall109@tt.com@google.com"
+            },
+            {
+                "line": "emccall109@access.com@line.com"
+            }
+        ]
     },
     "otherInfo": {
-        "gender": "M",
-        "dateOfBirth": "1939-02-16"
+        "gender": "F",
+        "dateOfBirth": "2000-01-21"
     }
 });
 db.partners.insertOne(
 {
-    "partnerKey": "LATORAMO7570",
-    "businessName": "Friendly Business Ltd",
-    "revenueSplit": 0.2,
-    "acctBalance": 260.04,
+    "partnerKey": "LEISFWAT0257",
+    "businessName": "Leisure Agency LLC",
+    "revenueSplit": 0.43,
+    "acctBalance": 465299.18,
+    "name": {
+        "title": "Mr",
+        "first": "Francesco",
+        "middle": "X",
+        "last": "Watts",
+        "suffix": null
+    },
+    "address": {
+        "streetAddress": "5468 Long Gulch Ride",
+        "buildingName": null,
+        "floor": null,
+        "roomAptCondoFlat": null,
+        "city": "Outaouais-Sud (Thurso)",
+        "stateProvince": "QC",
+        "locality": "Outaouais",
+        "country": "CA",
+        "postalCode": "J0X",
+        "latitude": "46.307",
+        "longitude": "-76.7653"
+    },
+    "contact": {
+        "email": "fwatts110@att.com",
+        "phone": "+61-110-518-0257",
+        "socMedia": {
+            "linkedin": "fwatts110@att.com@linkedin.com"
+        }
+    },
+    "login": {
+        "username": "fwatts",
+        "oauth2": "fwatts@linkedin.com",
+        "password": "$2y$10$MUTzLubeIJEzJ9jnBnyNgu4UpKxiRxvJ3aycwGtnuvIe2W\/x5\/j5m"
+    },
+    "otherContact": {
+        "emails": [
+            "fwatts110@nii.com"
+        ],
+        "phoneNumbers": [
+            "+61-110-320-8155"
+        ],
+        "socMedias": [
+            {
+                "linkedin": "fwatts110@nii.com@linkedin.com"
+            }
+        ]
+    },
+    "otherInfo": {
+        "gender": "M",
+        "dateOfBirth": "1935-10-08"
+    }
+});
+db.partners.insertOne(
+{
+    "partnerKey": "BUDGRABB3900",
+    "businessName": "Budget Rooms ",
+    "revenueSplit": 0.19,
+    "acctBalance": 303841.2,
     "name": {
         "title": null,
-        "first": "Latonia",
+        "first": "Renato",
         "middle": null,
-        "last": "Ramos",
+        "last": "Abbott",
         "suffix": null
     },
     "address": {
-        "streetAddress": "5112 Short Bridge Drive",
-        "buildingName": "Building B2",
-        "floor": 10,
-        "roomAptCondoFlat": "AC",
-        "city": "\u041d\u043e\u0432\u043e\u0442\u0443\u043b\u043a\u0430",
-        "stateProvince": "\u041f\u0418\u0422\u0415\u0420\u0421\u041a\u0418\u0419 \u0420\u0410\u0419\u041e\u041d",
-        "locality": "\u041f\u0418\u0422\u0415\u0420\u0421\u041a\u0418\u0419 \u0420\u0410\u0419\u041e\u041d",
-        "country": "RU",
-        "postalCode": "413323",
-        "latitude": "50.8333",
-        "longitude": "47.5667"
-    },
-    "contact": {
-        "phone": "+7-141-985-7570",
-        "email": "lramos141@vivendi.com",
-        "socMedia": null
-    },
-    "login": {
-        "username": "lramos",
-        "oauth2": null,
-        "password": "$2y$10$VCn2YQlAoJpu4TLF8rkJGu.oSRaUEhq2Ze7pDa1UBPyqXgQKz\/pEu"
-    },
-    "otherContact": {
-        "emails": [
-            "lramos@cubenet.net"
-        ],
-        "phoneNumbers": [
-            "+7-536-493-4184"
-        ],
-        "socMedias": []
-    },
-    "otherInfo": {
-        "gender": "F",
-        "dateOfBirth": "1952-11-23"
-    }
-});
-db.partners.insertOne(
-{
-    "partnerKey": "DAWNHERN6090",
-    "businessName": "Serious Associates Inc",
-    "revenueSplit": 0.12,
-    "acctBalance": 155460.35,
-    "name": {
-        "title": "Ms",
-        "first": "Dawne",
-        "middle": "Z",
-        "last": "Hernandez",
-        "suffix": null
-    },
-    "address": {
-        "streetAddress": "5977 Long Ridge Drive",
+        "streetAddress": "2341 Red Mound Ride",
         "buildingName": null,
         "floor": null,
         "roomAptCondoFlat": null,
-        "city": "Eolia",
-        "stateProvince": "KY",
-        "locality": "Letcher",
-        "country": "US",
-        "postalCode": "40826",
-        "latitude": "37.0618",
-        "longitude": "-82.7706"
+        "city": "Batagolladeniya",
+        "stateProvince": "Kandy",
+        "locality": "Kandy",
+        "country": "LK",
+        "postalCode": "20154",
+        "latitude": "7.4173",
+        "longitude": "80.5617"
     },
     "contact": {
-        "phone": "+1-142-694-6090",
-        "email": "dhernand142@millicom.com",
-        "socMedia": null
+        "email": "rabbott111@vodafone.com",
+        "phone": "+61-111-418-3900",
+        "socMedia": []
     },
     "login": {
-        "username": "dhernand",
+        "username": "rabbott",
         "oauth2": null,
-        "password": "$2y$10$yLnjrHK2yaILTDSs8UHUHenlzqw0RWuwfsph4GDR7fxaeImydnaWa"
+        "password": "$2y$10$Z1DBq.fODSSG5dnQBrRNmez94wx5J\/bNV01WhXlRvI2ru5iS5.CoC"
     },
     "otherContact": {
-        "emails": [],
-        "phoneNumbers": [
-            "+1-859-459-7525",
-            "+1-104-741-6170"
+        "emails": [
+            "rabbott111@millicom.com",
+            "rabbott111@tt.com"
         ],
-        "socMedias": []
+        "phoneNumbers": [
+            "+61-111-294-9636",
+            "+61-111-504-7380"
+        ]
     },
     "otherInfo": {
-        "gender": "F",
-        "dateOfBirth": "1990-06-04"
+        "gender": "M",
+        "dateOfBirth": "1963-12-19"
     }
 });
 db.partners.insertOne(
 {
-    "partnerKey": "QUIASTON0800",
-    "businessName": "Industrious Industries Company",
-    "revenueSplit": 0.08,
-    "acctBalance": 244566.62,
+    "partnerKey": "BOUTSSAN6406",
+    "businessName": "Boutique Trust Inc",
+    "revenueSplit": 0.2,
+    "acctBalance": 67631.93000000001,
+    "name": {
+        "title": "Mr",
+        "first": "Sheldon",
+        "middle": "Q",
+        "last": "Sandoval",
+        "suffix": null
+    },
+    "address": {
+        "streetAddress": "3045 Red River Way",
+        "buildingName": null,
+        "floor": null,
+        "roomAptCondoFlat": null,
+        "city": "Underwood",
+        "stateProvince": "TAS",
+        "locality": "TASMANIA",
+        "country": "AU",
+        "postalCode": "7268",
+        "latitude": "-41.288",
+        "longitude": "147.2136"
+    },
+    "contact": {
+        "email": "ssandova112@vodafone.com",
+        "phone": "+61-112-957-6406",
+        "socMedia": {
+            "twitter": "ssandova112@vodafone.com@twitter.com"
+        }
+    },
+    "login": {
+        "username": "ssandova",
+        "oauth2": "ssandova@twitter.com",
+        "password": "$2y$10$PAXK6qeVsz4sJZNoiCtTJOGjuzrrWB\/V7ja78Fa4Hs2LFmlK9DrFK"
+    },
+    "otherContact": [],
+    "otherInfo": {
+        "gender": "M",
+        "dateOfBirth": "1996-11-19"
+    }
+});
+db.partners.insertOne(
+{
+    "partnerKey": "SUCCFBUR8453",
+    "businessName": "Success Business Inc",
+    "revenueSplit": 0.02,
+    "acctBalance": 333300.93,
     "name": {
         "title": "Ms",
-        "first": "Quiana",
-        "middle": "Y",
+        "first": "Fannie",
+        "middle": "T",
+        "last": "Burke",
+        "suffix": null
+    },
+    "address": {
+        "streetAddress": "2539 Little Bridge Ride",
+        "buildingName": null,
+        "floor": null,
+        "roomAptCondoFlat": null,
+        "city": "\u017deleznice",
+        "stateProvince": "Ji\u010d\u00edn",
+        "locality": "Ji\u010d\u00edn",
+        "country": "CZ",
+        "postalCode": "507 13",
+        "latitude": "50.4703",
+        "longitude": "15.3806"
+    },
+    "contact": {
+        "email": "fburke113@telecomitalia.com",
+        "phone": "+61-113-546-8453",
+        "socMedia": {
+            "line": "fburke113@telecomitalia.com@line.com"
+        }
+    },
+    "login": {
+        "username": "fburke",
+        "oauth2": "fburke@line.com",
+        "password": "$2y$10$Cql.Xd3eQdQL9ka9slFGnOOe9jCC\/ZFuBgfLlX17LA.i8GqXt2JzK"
+    },
+    "otherContact": {
+        "emails": [
+            "fburke113@megafon.com"
+        ],
+        "phoneNumbers": [
+            "+61-113-007-7979"
+        ],
+        "socMedias": [
+            {
+                "line": "fburke113@megafon.com@line.com"
+            }
+        ]
+    },
+    "otherInfo": {
+        "gender": "F",
+        "dateOfBirth": "1952-05-02"
+    }
+});
+db.partners.insertOne(
+{
+    "partnerKey": "INDUSJOS1717",
+    "businessName": "Industrious Trust Inc",
+    "revenueSplit": 0.02,
+    "acctBalance": 38990.96,
+    "name": {
+        "title": null,
+        "first": "Sommer",
+        "middle": null,
+        "last": "Joseph",
+        "suffix": null
+    },
+    "address": {
+        "streetAddress": "9842 Red Bend Road",
+        "buildingName": null,
+        "floor": null,
+        "roomAptCondoFlat": "54",
+        "city": "Granby East",
+        "stateProvince": "QC",
+        "locality": "Mont\u00e9r\u00e9gie",
+        "country": "CA",
+        "postalCode": "J2H",
+        "latitude": "45.3938",
+        "longitude": "-72.7005"
+    },
+    "contact": {
+        "email": "sjoseph114@oi.com",
+        "phone": "+61-114-578-1717",
+        "socMedia": []
+    },
+    "login": {
+        "username": "sjoseph",
+        "oauth2": null,
+        "password": "$2y$10$V6MupzLxhTp8VQ0XaJZOE.phdJNeiUeUNoauRKkJflY0WgpDNeG\/."
+    },
+    "otherContact": {
+        "emails": [
+            "sjoseph114@eunet.com",
+            "sjoseph114@millicom.com"
+        ],
+        "phoneNumbers": [
+            "+61-114-702-4895",
+            "+61-114-574-3675"
+        ]
+    },
+    "otherInfo": {
+        "gender": "F",
+        "dateOfBirth": "1940-01-22"
+    }
+});
+db.partners.insertOne(
+{
+    "partnerKey": "AFFOLSTO1061",
+    "businessName": "Affordable Associates Company",
+    "revenueSplit": 0.4,
+    "acctBalance": 250478.22,
+    "name": {
+        "title": "Ms",
+        "first": "Leonarda",
+        "middle": "T",
         "last": "Stone",
         "suffix": null
     },
     "address": {
-        "streetAddress": "4894 Short Mound Avenue",
+        "streetAddress": "645 Green Mound Way",
+        "buildingName": null,
+        "floor": null,
+        "roomAptCondoFlat": null,
+        "city": "Close Clark",
+        "stateProvince": "Isle of Man",
+        "locality": "Isle of Man",
+        "country": "IM",
+        "postalCode": "IM9",
+        "latitude": "54.0951",
+        "longitude": "-4.6929"
+    },
+    "contact": {
+        "email": "lstone115@telstra.com",
+        "phone": "+61-115-523-1061",
+        "socMedia": {
+            "google": "lstone115@telstra.com@google.com"
+        }
+    },
+    "login": {
+        "username": "lstone",
+        "oauth2": "lstone@google.com",
+        "password": "$2y$10$oBO\/ZXWu4euJY2ZYeOqOpuXhAnhM5lz6oVKdhj\/t2ylohv3PB1Yw."
+    },
+    "otherContact": {
+        "emails": [
+            "lstone115@jio.com"
+        ],
+        "phoneNumbers": [
+            "+61-115-617-0776"
+        ],
+        "socMedias": [
+            {
+                "line": "lstone115@jio.com@line.com"
+            }
+        ]
+    },
+    "otherInfo": {
+        "gender": "F",
+        "dateOfBirth": "1946-11-13"
+    }
+});
+db.partners.insertOne(
+{
+    "partnerKey": "BUDGDWIL0019",
+    "businessName": "Budget Trust ",
+    "revenueSplit": 0.39,
+    "acctBalance": 254399.46,
+    "name": {
+        "title": "Ms",
+        "first": "Daphne",
+        "middle": "J",
+        "last": "Wilson",
+        "suffix": null
+    },
+    "address": {
+        "streetAddress": "8727 Green River Circle",
+        "buildingName": null,
+        "floor": null,
+        "roomAptCondoFlat": null,
+        "city": "Ballya",
+        "stateProvince": "Puttur",
+        "locality": "Dakshina Kannada",
+        "country": "IN",
+        "postalCode": "574221",
+        "latitude": "12.7267",
+        "longitude": "75.4685"
+    },
+    "contact": {
+        "email": "dwilson116@nordnet.com",
+        "phone": "+61-116-679-0019",
+        "socMedia": {
+            "linkedin": "dwilson116@nordnet.com@linkedin.com"
+        }
+    },
+    "login": {
+        "username": "dwilson",
+        "oauth2": "dwilson@linkedin.com",
+        "password": "$2y$10$8xpunS0v0RgfJBUDCfsR\/ebcV3m1Ao95hSWv6GH2QF5h3BYK.9UCi"
+    },
+    "otherContact": [],
+    "otherInfo": {
+        "gender": "F",
+        "dateOfBirth": "1988-09-08"
+    }
+});
+db.partners.insertOne(
+{
+    "partnerKey": "BOUTWFOX8543",
+    "businessName": "Boutique Trust Ltd",
+    "revenueSplit": 0.03,
+    "acctBalance": 696109.1,
+    "name": {
+        "title": null,
+        "first": "Windy",
+        "middle": null,
+        "last": "Fox",
+        "suffix": null
+    },
+    "address": {
+        "streetAddress": "516 Short Tree Way",
+        "buildingName": "Building E6",
+        "floor": 8,
+        "roomAptCondoFlat": null,
+        "city": "Stoak",
+        "stateProvince": "England",
+        "locality": "Cheshire",
+        "country": "GB",
+        "postalCode": "CH2",
+        "latitude": "53.2798",
+        "longitude": "-2.8937"
+    },
+    "contact": {
+        "email": "wfox117@rogers.com",
+        "phone": "+61-117-703-8543",
+        "socMedia": []
+    },
+    "login": {
+        "username": "wfox",
+        "oauth2": null,
+        "password": "$2y$10$nR.ERy22cW.UaIsCbmw1duiLwoU6Nt9CPhx5T1uVklDPhkmRPKjcq"
+    },
+    "otherContact": {
+        "emails": [
+            "wfox117@telus.com",
+            "wfox117@pldt.com",
+            "wfox117@bt.com"
+        ],
+        "phoneNumbers": [
+            "+61-117-932-5075",
+            "+61-117-108-4236",
+            "+61-117-522-2656"
+        ]
+    },
+    "otherInfo": {
+        "gender": "F",
+        "dateOfBirth": "1982-04-09"
+    }
+});
+db.partners.insertOne(
+{
+    "partnerKey": "SLEEDGUE2679",
+    "businessName": "Sleep Right Rooms LLC",
+    "revenueSplit": 0.14,
+    "acctBalance": 508491.18,
+    "name": {
+        "title": "Ms",
+        "first": "Delta",
+        "middle": "C",
+        "last": "Guevara",
+        "suffix": null
+    },
+    "address": {
+        "streetAddress": "212 Blue Ridge Way",
+        "buildingName": null,
+        "floor": null,
+        "roomAptCondoFlat": null,
+        "city": "Clydey",
+        "stateProvince": "Wales",
+        "locality": "Pembrokeshire",
+        "country": "GB",
+        "postalCode": "SA35",
+        "latitude": "51.9858",
+        "longitude": "-4.5499"
+    },
+    "contact": {
+        "email": "dguevara118@relcom.com",
+        "phone": "+61-118-025-2679",
+        "socMedia": {
+            "linkedin": "dguevara118@relcom.com@linkedin.com"
+        }
+    },
+    "login": {
+        "username": "dguevara",
+        "oauth2": "dguevara@linkedin.com",
+        "password": "$2y$10$iVUxdBEPZOjoqcvXDc.GOOEnzWAX2GYIAZQqqAAf1xfTC5RJNJ64m"
+    },
+    "otherContact": {
+        "emails": [
+            "dguevara118@icom.com",
+            "dguevara118@jio.com"
+        ],
+        "phoneNumbers": [
+            "+61-118-758-2243",
+            "+61-118-900-6665"
+        ],
+        "socMedias": [
+            {
+                "linkedin": "dguevara118@icom.com@linkedin.com"
+            },
+            {
+                "google": "dguevara118@jio.com@google.com"
+            }
+        ]
+    },
+    "otherInfo": {
+        "gender": "F",
+        "dateOfBirth": "1984-10-12"
+    }
+});
+db.partners.insertOne(
+{
+    "partnerKey": "SUCCJBAX4363",
+    "businessName": "Success Business Company",
+    "revenueSplit": 0.27,
+    "acctBalance": 687576.81,
+    "name": {
+        "title": null,
+        "first": "Jenise",
+        "middle": null,
+        "last": "Baxter",
+        "suffix": null
+    },
+    "address": {
+        "streetAddress": "745 Big Creek Drive",
+        "buildingName": null,
+        "floor": null,
+        "roomAptCondoFlat": "BC",
+        "city": "Jarkha",
+        "stateProvince": "Paliganj",
+        "locality": "Patna",
+        "country": "IN",
+        "postalCode": "801110",
+        "latitude": "25.278",
+        "longitude": "84.8411"
+    },
+    "contact": {
+        "email": "jbaxter120@zain.com",
+        "phone": "+61-120-120-4363",
+        "socMedia": []
+    },
+    "login": {
+        "username": "jbaxter",
+        "oauth2": null,
+        "password": "$2y$10$0muWfnPsEu6P8w1xtMBk6OwLmuJVs7YbTE71VgJADvvaC9j3DEMPm"
+    },
+    "otherContact": {
+        "emails": [
+            "jbaxter120@cerist.com",
+            "jbaxter120@worldnet.com",
+            "jbaxter120@tm.com"
+        ],
+        "phoneNumbers": [
+            "+61-120-880-3960",
+            "+61-120-501-4379",
+            "+61-120-682-4250"
+        ]
+    },
+    "otherInfo": {
+        "gender": "F",
+        "dateOfBirth": "1967-06-25"
+    }
+});
+db.partners.insertOne(
+{
+    "partnerKey": "STAYECAS2893",
+    "businessName": "Stay Awhile Agency Inc",
+    "revenueSplit": 0.28,
+    "acctBalance": 936711.23,
+    "name": {
+        "title": "Mr",
+        "first": "Earl",
+        "middle": "R",
+        "last": "Castillo",
+        "suffix": null
+    },
+    "address": {
+        "streetAddress": "310 Red Creek Ride",
+        "buildingName": null,
+        "floor": null,
+        "roomAptCondoFlat": null,
+        "city": "New Park",
+        "stateProvince": "England",
+        "locality": "Cornwall",
+        "country": "GB",
+        "postalCode": "PL15",
+        "latitude": "50.6331",
+        "longitude": "-4.3975"
+    },
+    "contact": {
+        "email": "ecastill122@cerist.com",
+        "phone": "+61-122-633-2893",
+        "socMedia": {
+            "skype": "ecastill122@cerist.com@skype.com"
+        }
+    },
+    "login": {
+        "username": "ecastill",
+        "oauth2": "ecastill@skype.com",
+        "password": "$2y$10$\/sEKZSnPoI\/4FgbEl98EXOf9WoQA2641i8im3jpucJ5ox\/0zIlCpG"
+    },
+    "otherContact": [],
+    "otherInfo": {
+        "gender": "M",
+        "dateOfBirth": "1964-12-08"
+    }
+});
+db.partners.insertOne(
+{
+    "partnerKey": "LAZYAMUR8505",
+    "businessName": "Lazy Bird Trust Inc",
+    "revenueSplit": 0.12,
+    "acctBalance": 444793.85000000003,
+    "name": {
+        "title": null,
+        "first": "Adaline",
+        "middle": null,
+        "last": "Murillo",
+        "suffix": null
+    },
+    "address": {
+        "streetAddress": "5836 Little Bend Way",
+        "buildingName": null,
+        "floor": null,
+        "roomAptCondoFlat": null,
+        "city": "Singureni",
+        "stateProvince": "Riscani",
+        "locality": "Riscani",
+        "country": "MD",
+        "postalCode": "MD-5616",
+        "latitude": "47.8242",
+        "longitude": "27.8544"
+    },
+    "contact": {
+        "email": "amurillo123@apicnet.com",
+        "phone": "+61-123-799-8505",
+        "socMedia": []
+    },
+    "login": {
+        "username": "amurillo",
+        "oauth2": null,
+        "password": "$2y$10$MHfsx9fNtRGeFNbT1r6QyO8d84BShZ9M5ibwM5ci2w.gbayp42lzm"
+    },
+    "otherContact": [],
+    "otherInfo": {
+        "gender": "F",
+        "dateOfBirth": "1950-03-30"
+    }
+});
+db.partners.insertOne(
+{
+    "partnerKey": "UPBELWAT0930",
+    "businessName": "Upbeat Agency Inc",
+    "revenueSplit": 0.12,
+    "acctBalance": 802436.52,
+    "name": {
+        "title": "Mr",
+        "first": "Long",
+        "middle": "D",
+        "last": "Watts",
+        "suffix": null
+    },
+    "address": {
+        "streetAddress": "4433 Blue Gully Circle",
+        "buildingName": null,
+        "floor": null,
+        "roomAptCondoFlat": null,
+        "city": "Hebbalaguppe",
+        "stateProvince": "H D Kote",
+        "locality": "Mysore",
+        "country": "IN",
+        "postalCode": "571114",
+        "latitude": "12.0588",
+        "longitude": "76.3917"
+    },
+    "contact": {
+        "email": "lwatts124@vivendi.com",
+        "phone": "+61-124-394-0930",
+        "socMedia": {
+            "facebook": "lwatts124@vivendi.com@facebook.com"
+        }
+    },
+    "login": {
+        "username": "lwatts",
+        "oauth2": "lwatts@facebook.com",
+        "password": "$2y$10$6Et8VCHj6cR7j.X0wH8P..ppxPq\/7vwzbJXnXnEgMeikwz8XkCVzO"
+    },
+    "otherContact": [],
+    "otherInfo": {
+        "gender": "M",
+        "dateOfBirth": "1970-06-13"
+    }
+});
+db.partners.insertOne(
+{
+    "partnerKey": "ACCOMCLE5285",
+    "businessName": "Accomodation Business Ltd",
+    "revenueSplit": 0.43,
+    "acctBalance": 574653.6900000001,
+    "name": {
+        "title": "Ms",
+        "first": "Machelle",
+        "middle": "K",
+        "last": "Clements",
+        "suffix": null
+    },
+    "address": {
+        "streetAddress": "2360 Short Tree Circle",
+        "buildingName": null,
+        "floor": null,
+        "roomAptCondoFlat": null,
+        "city": "\u041f\u0430\u0434\u043e\u0432\u043a\u0430",
+        "stateProvince": "\u041f\u0415\u0421\u0422\u0420\u0410\u0412\u0421\u041a\u0418\u0419 \u0420\u0410\u0419\u041e\u041d",
+        "locality": "\u041f\u0415\u0421\u0422\u0420\u0410\u0412\u0421\u041a\u0418\u0419 \u0420\u0410\u0419\u041e\u041d",
+        "country": "RU",
+        "postalCode": "446173",
+        "latitude": "52.4683",
+        "longitude": "49.5056"
+    },
+    "contact": {
+        "email": "mclement125@ooredoo.com",
+        "phone": "+61-125-312-5285",
+        "socMedia": {
+            "facebook": "mclement125@ooredoo.com@facebook.com"
+        }
+    },
+    "login": {
+        "username": "mclement",
+        "oauth2": "mclement@facebook.com",
+        "password": "$2y$10$Fqg6NBbbjJJEc1W2yljUceNEuGm7yDoVPFQjb1NA4jkmwyMy8bi8i"
+    },
+    "otherContact": {
+        "emails": [
+            "mclement125@centurylink.com",
+            "mclement125@megafon.com"
+        ],
+        "phoneNumbers": [
+            "+61-125-321-4935",
+            "+61-125-924-1935"
+        ],
+        "socMedias": [
+            {
+                "google": "mclement125@centurylink.com@google.com"
+            },
+            {
+                "twitter": "mclement125@megafon.com@twitter.com"
+            }
+        ]
+    },
+    "otherInfo": {
+        "gender": "F",
+        "dateOfBirth": "1984-05-15"
+    }
+});
+db.partners.insertOne(
+{
+    "partnerKey": "SUCCFMIR3590",
+    "businessName": "Success Partners LLC",
+    "revenueSplit": 0.14,
+    "acctBalance": 937052.65,
+    "name": {
+        "title": null,
+        "first": "Fabian",
+        "middle": null,
+        "last": "Miranda",
+        "suffix": null
+    },
+    "address": {
+        "streetAddress": "7721 Winding Mountain Way",
+        "buildingName": null,
+        "floor": 5,
+        "roomAptCondoFlat": "88",
+        "city": "Freeborn",
+        "stateProvince": "MN",
+        "locality": "Freeborn",
+        "country": "US",
+        "postalCode": "56032",
+        "latitude": "43.7658",
+        "longitude": "-93.5641"
+    },
+    "contact": {
+        "email": "fmiranda126@belgacom.com",
+        "phone": "+61-126-212-3590",
+        "socMedia": []
+    },
+    "login": {
+        "username": "fmiranda",
+        "oauth2": null,
+        "password": "$2y$10$pmsvYzO26M6sv5VZkLRtn.ZQNmxi2cCQn1AmEEn3yTFbTXPWGheWO"
+    },
+    "otherContact": {
+        "emails": [
+            "fmiranda126@algonet.com",
+            "fmiranda126@icom.com"
+        ],
+        "phoneNumbers": [
+            "+61-126-977-7963",
+            "+61-126-598-5940"
+        ]
+    },
+    "otherInfo": {
+        "gender": "M",
+        "dateOfBirth": "1950-03-20"
+    }
+});
+db.partners.insertOne(
+{
+    "partnerKey": "COMFLCOL2889",
+    "businessName": "Comfort Business LLC",
+    "revenueSplit": 0.26,
+    "acctBalance": 374113.19,
+    "name": {
+        "title": "Ms",
+        "first": "Lolita",
+        "middle": "T",
+        "last": "Coleman",
+        "suffix": null
+    },
+    "address": {
+        "streetAddress": "8907 Short Creek Circle",
+        "buildingName": null,
+        "floor": null,
+        "roomAptCondoFlat": null,
+        "city": "Apatou",
+        "stateProvince": "GF",
+        "locality": "Guyane",
+        "country": "GF",
+        "postalCode": "97317",
+        "latitude": "5.1553",
+        "longitude": "-54.3431"
+    },
+    "contact": {
+        "email": "lcoleman127@nii.com",
+        "phone": "+61-127-734-2889",
+        "socMedia": {
+            "line": "lcoleman127@nii.com@line.com"
+        }
+    },
+    "login": {
+        "username": "lcoleman",
+        "oauth2": "lcoleman@line.com",
+        "password": "$2y$10$S1qKQCDZ9UqOrakL2I8YSeFqpRU\/WZSYqYJNnsqrJyB4WwFU3SKPe"
+    },
+    "otherContact": {
+        "emails": [
+            "lcoleman127@openworld.com",
+            "lcoleman127@tm.com",
+            "lcoleman127@mtn.com"
+        ],
+        "phoneNumbers": [
+            "+61-127-784-8170",
+            "+61-127-869-1109",
+            "+61-127-255-8879"
+        ],
+        "socMedias": [
+            {
+                "facebook": "lcoleman127@openworld.com@facebook.com"
+            },
+            {
+                "line": "lcoleman127@tm.com@line.com"
+            },
+            {
+                "google": "lcoleman127@mtn.com@google.com"
+            }
+        ]
+    },
+    "otherInfo": {
+        "gender": "F",
+        "dateOfBirth": "1940-06-12"
+    }
+});
+db.partners.insertOne(
+{
+    "partnerKey": "COMPPCRA0140",
+    "businessName": "Competitive Accomdations Company",
+    "revenueSplit": 0.37,
+    "acctBalance": 28060.54,
+    "name": {
+        "title": "Ms",
+        "first": "Providencia",
+        "middle": "L",
+        "last": "Crane",
+        "suffix": null
+    },
+    "address": {
+        "streetAddress": "4645 Green Woods Road",
+        "buildingName": null,
+        "floor": null,
+        "roomAptCondoFlat": null,
+        "city": "Annapolis",
+        "stateProvince": "IL",
+        "locality": "Crawford",
+        "country": "US",
+        "postalCode": "62413",
+        "latitude": "39.1179",
+        "longitude": "-87.8029"
+    },
+    "contact": {
+        "email": "pcrane128@belgacom.com",
+        "phone": "+61-128-404-0140",
+        "socMedia": {
+            "skype": "pcrane128@belgacom.com@skype.com"
+        }
+    },
+    "login": {
+        "username": "pcrane",
+        "oauth2": "pcrane@skype.com",
+        "password": "$2y$10$\/Tzno6J\/ILtP\/Pea5MoM1eWc4venwb2gzjjuGsQYgrievk4GOMUy2"
+    },
+    "otherContact": {
+        "emails": [
+            "pcrane128@ui.com"
+        ],
+        "phoneNumbers": [
+            "+61-128-411-5269"
+        ],
+        "socMedias": [
+            {
+                "google": "pcrane128@ui.com@google.com"
+            }
+        ]
+    },
+    "otherInfo": {
+        "gender": "F",
+        "dateOfBirth": "2003-02-19"
+    }
+});
+db.partners.insertOne(
+{
+    "partnerKey": "BUDGCNOL8360",
+    "businessName": "Budget Rooms LLC",
+    "revenueSplit": 0.4,
+    "acctBalance": 320442.71,
+    "name": {
+        "title": "Mr",
+        "first": "Clifford",
+        "middle": "R",
+        "last": "Nolan",
+        "suffix": null
+    },
+    "address": {
+        "streetAddress": "6416 Green Ditch Boulevard",
+        "buildingName": "Building 14",
+        "floor": null,
+        "roomAptCondoFlat": null,
+        "city": "Raceview",
+        "stateProvince": "QLD",
+        "locality": "TOOWOOMBA SE CNR",
+        "country": "AU",
+        "postalCode": "4305",
+        "latitude": "-27.6347",
+        "longitude": "152.7752"
+    },
+    "contact": {
+        "email": "cnolan130@glasnet.com",
+        "phone": "+61-130-690-8360",
+        "socMedia": {
+            "skype": "cnolan130@glasnet.com@skype.com"
+        }
+    },
+    "login": {
+        "username": "cnolan",
+        "oauth2": "cnolan@skype.com",
+        "password": "$2y$10$iMoDr4iuX4OuHiIDc3Ua9Oo5iltWUvWnIWZj1YRog8ck4tf0OQVq."
+    },
+    "otherContact": {
+        "emails": [
+            "cnolan130@ptcl.com",
+            "cnolan130@mtn.com",
+            "cnolan130@lguplus.com"
+        ],
+        "phoneNumbers": [
+            "+61-130-798-5846",
+            "+61-130-014-2193",
+            "+61-130-335-4286"
+        ],
+        "socMedias": [
+            {
+                "facebook": "cnolan130@ptcl.com@facebook.com"
+            },
+            {
+                "line": "cnolan130@mtn.com@line.com"
+            },
+            {
+                "skype": "cnolan130@lguplus.com@skype.com"
+            }
+        ]
+    },
+    "otherInfo": {
+        "gender": "M",
+        "dateOfBirth": "1961-03-05"
+    }
+});
+db.partners.insertOne(
+{
+    "partnerKey": "STAYJMCM8132",
+    "businessName": "Stay Awhile Partners ",
+    "revenueSplit": 0.25,
+    "acctBalance": 933932.34,
+    "name": {
+        "title": "Mr",
+        "first": "Jeff",
+        "middle": "E",
+        "last": "Mcmillan",
+        "suffix": null
+    },
+    "address": {
+        "streetAddress": "2727 Winding Creek Ride",
+        "buildingName": null,
+        "floor": null,
+        "roomAptCondoFlat": null,
+        "city": "Serdang",
+        "stateProvince": "KDH",
+        "locality": "Kedah",
+        "country": "MY",
+        "postalCode": "09810",
+        "latitude": "5.3649",
+        "longitude": "100.6151"
+    },
+    "contact": {
+        "email": "jmcmilla131@cubenet.com",
+        "phone": "+61-131-717-8132",
+        "socMedia": {
+            "linkedin": "jmcmilla131@cubenet.com@linkedin.com"
+        }
+    },
+    "login": {
+        "username": "jmcmilla",
+        "oauth2": "jmcmilla@linkedin.com",
+        "password": "$2y$10$dMDkse50U7uEU75iSp.e9.6.WLO..bpXAB7kCBPnOW4DJfQpg6zEW"
+    },
+    "otherContact": [],
+    "otherInfo": {
+        "gender": "M",
+        "dateOfBirth": "1975-09-25"
+    }
+});
+db.partners.insertOne(
+{
+    "partnerKey": "SLEECCAR3514",
+    "businessName": "Sleep Right Partners ",
+    "revenueSplit": 0.19,
+    "acctBalance": 36063.05,
+    "name": {
+        "title": null,
+        "first": "Carline",
+        "middle": null,
+        "last": "Carlson",
+        "suffix": null
+    },
+    "address": {
+        "streetAddress": "57 Little Canyon Street",
+        "buildingName": null,
+        "floor": null,
+        "roomAptCondoFlat": "BC",
+        "city": "Richmond Southeast",
+        "stateProvince": "BC",
+        "locality": "Richmond",
+        "country": "CA",
+        "postalCode": "V6W",
+        "latitude": "49.1534",
+        "longitude": "-123.048"
+    },
+    "contact": {
+        "email": "ccarlson132@zain.com",
+        "phone": "+61-132-859-3514",
+        "socMedia": []
+    },
+    "login": {
+        "username": "ccarlson",
+        "oauth2": null,
+        "password": "$2y$10$3iEhxHpsFOLkVDt8nRYFb.eaTpSV0PdpHEBfbFskNbuRSQbxPGOSW"
+    },
+    "otherContact": {
+        "emails": [
+            "ccarlson132@unicom.com",
+            "ccarlson132@relcom.com",
+            "ccarlson132@uunet.com"
+        ],
+        "phoneNumbers": [
+            "+61-132-120-4135",
+            "+61-132-372-6482",
+            "+61-132-903-9429"
+        ]
+    },
+    "otherInfo": {
+        "gender": "F",
+        "dateOfBirth": "1989-12-11"
+    }
+});
+db.partners.insertOne(
+{
+    "partnerKey": "SERIRBEN2796",
+    "businessName": "Serious Associates Ltd",
+    "revenueSplit": 0.02,
+    "acctBalance": 791519.4400000001,
+    "name": {
+        "title": "Ms",
+        "first": "Rachel",
+        "middle": "D",
+        "last": "Benson",
+        "suffix": null
+    },
+    "address": {
+        "streetAddress": "6010 Red Gully Circle",
+        "buildingName": null,
+        "floor": null,
+        "roomAptCondoFlat": null,
+        "city": "LAS CA\u00d1AS",
+        "stateProvince": "S",
+        "locality": "Santa Fe",
+        "country": "AR",
+        "postalCode": "3046",
+        "latitude": "-31.0167",
+        "longitude": "-60.3"
+    },
+    "contact": {
+        "email": "rbenson133@uunet.com",
+        "phone": "+61-133-786-2796",
+        "socMedia": {
+            "facebook": "rbenson133@uunet.com@facebook.com"
+        }
+    },
+    "login": {
+        "username": "rbenson",
+        "oauth2": "rbenson@facebook.com",
+        "password": "$2y$10$N3WPV3vzYZlLexY4\/JYWiuZz6HYQtZZ5Yk2tQ2hd1RjIvYnirInby"
+    },
+    "otherContact": {
+        "emails": [
+            "rbenson133@telecomitalia.com",
+            "rbenson133@bce.com",
+            "rbenson133@openworld.com"
+        ],
+        "phoneNumbers": [
+            "+61-133-084-1441",
+            "+61-133-008-3724",
+            "+61-133-686-5446"
+        ],
+        "socMedias": [
+            {
+                "twitter": "rbenson133@telecomitalia.com@twitter.com"
+            },
+            {
+                "line": "rbenson133@bce.com@line.com"
+            },
+            {
+                "line": "rbenson133@openworld.com@line.com"
+            }
+        ]
+    },
+    "otherInfo": {
+        "gender": "F",
+        "dateOfBirth": "1982-07-18"
+    }
+});
+db.partners.insertOne(
+{
+    "partnerKey": "FRIEMSTA7772",
+    "businessName": "Friendly Business LLC",
+    "revenueSplit": 0.45,
+    "acctBalance": 242585.67,
+    "name": {
+        "title": "Mr",
+        "first": "Milo",
+        "middle": "X",
+        "last": "Stafford",
+        "suffix": null
+    },
+    "address": {
+        "streetAddress": "497 Green River Circle",
+        "buildingName": null,
+        "floor": null,
+        "roomAptCondoFlat": null,
+        "city": "Harrison Lake Region (Agassiz)",
+        "stateProvince": "BC",
+        "locality": "British Columbia",
+        "country": "CA",
+        "postalCode": "V0M",
+        "latitude": "49.6346",
+        "longitude": "-122.038"
+    },
+    "contact": {
+        "email": "mstaffor134@telkom.com",
+        "phone": "+61-134-000-7772",
+        "socMedia": {
+            "skype": "mstaffor134@telkom.com@skype.com"
+        }
+    },
+    "login": {
+        "username": "mstaffor",
+        "oauth2": "mstaffor@skype.com",
+        "password": "$2y$10$Nc0qUj1c0J3zX7e0NoD3K.XWPPmww89c\/b\/.PlyJn.4Z1sr1VCGLO"
+    },
+    "otherContact": {
+        "emails": [
+            "mstaffor134@telecom.com",
+            "mstaffor134@softbank.com"
+        ],
+        "phoneNumbers": [
+            "+61-134-092-7480",
+            "+61-134-975-0177"
+        ],
+        "socMedias": [
+            {
+                "skype": "mstaffor134@telecom.com@skype.com"
+            },
+            {
+                "linkedin": "mstaffor134@softbank.com@linkedin.com"
+            }
+        ]
+    },
+    "otherInfo": {
+        "gender": "M",
+        "dateOfBirth": "1966-04-03"
+    }
+});
+db.partners.insertOne(
+{
+    "partnerKey": "BOUTTPAR4236",
+    "businessName": "Boutique Associates Company",
+    "revenueSplit": 0.18,
+    "acctBalance": 746558.43,
+    "name": {
+        "title": null,
+        "first": "Taunya",
+        "middle": null,
+        "last": "Parsons",
+        "suffix": null
+    },
+    "address": {
+        "streetAddress": "7326 Short Ditch Boulevard",
+        "buildingName": null,
+        "floor": 9,
+        "roomAptCondoFlat": null,
+        "city": "Brumunddal",
+        "stateProvince": "Ringsaker",
+        "locality": "Ringsaker",
+        "country": "NO",
+        "postalCode": "2382",
+        "latitude": "60.8809",
+        "longitude": "10.9395"
+    },
+    "contact": {
+        "email": "tparsons135@maxcomm.com",
+        "phone": "+61-135-294-4236",
+        "socMedia": []
+    },
+    "login": {
+        "username": "tparsons",
+        "oauth2": null,
+        "password": "$2y$10$aAx84z4Ghok8SzqCeyDU6O0j6FIEkOjpT1jIDOCsnPjPaJFS8Hk6a"
+    },
+    "otherContact": {
+        "emails": [
+            "tparsons135@bce.com"
+        ],
+        "phoneNumbers": [
+            "+61-135-490-6014"
+        ]
+    },
+    "otherInfo": {
+        "gender": "F",
+        "dateOfBirth": "1946-08-29"
+    }
+});
+db.partners.insertOne(
+{
+    "partnerKey": "BUDGLGLA4084",
+    "businessName": "Budget Accomdations LLC",
+    "revenueSplit": 0.27,
+    "acctBalance": 66384.78,
+    "name": {
+        "title": "Mr",
+        "first": "Leland",
+        "middle": "C",
+        "last": "Glass",
+        "suffix": null
+    },
+    "address": {
+        "streetAddress": "4766 Red Gully Road",
+        "buildingName": null,
+        "floor": null,
+        "roomAptCondoFlat": null,
+        "city": "Biniguy",
+        "stateProvince": "NSW",
+        "locality": "New South Wales",
+        "country": "AU",
+        "postalCode": "2399",
+        "latitude": "-29.5435",
+        "longitude": "150.2033"
+    },
+    "contact": {
+        "email": "lglass136@megafon.com",
+        "phone": "+61-136-410-4084",
+        "socMedia": {
+            "line": "lglass136@megafon.com@line.com"
+        }
+    },
+    "login": {
+        "username": "lglass",
+        "oauth2": "lglass@line.com",
+        "password": "$2y$10$xoxGCgMtDdR0O34fXDS.bural0j1J0ZF55RAPh4ihyBTjyjjUa1Zu"
+    },
+    "otherContact": {
+        "emails": [
+            "lglass136@tm.com"
+        ],
+        "phoneNumbers": [
+            "+61-136-676-3694"
+        ],
+        "socMedias": [
+            {
+                "linkedin": "lglass136@tm.com@linkedin.com"
+            }
+        ]
+    },
+    "otherInfo": {
+        "gender": "M",
+        "dateOfBirth": "1986-03-22"
+    }
+});
+db.partners.insertOne(
+{
+    "partnerKey": "BUDGCMAN2218",
+    "businessName": "Budget Industries ",
+    "revenueSplit": 0.2,
+    "acctBalance": 383835.86,
+    "name": {
+        "title": "Mr",
+        "first": "Cristopher",
+        "middle": "T",
+        "last": "Mann",
+        "suffix": null
+    },
+    "address": {
+        "streetAddress": "9939 Big Bough Road",
+        "buildingName": null,
+        "floor": null,
+        "roomAptCondoFlat": null,
+        "city": "Kaala-Gom\u00e9n",
+        "stateProvince": "Kaala-Gom\u00e9n",
+        "locality": "Kaala-Gom\u00e9n",
+        "country": "NC",
+        "postalCode": "98817",
+        "latitude": "-20.6694",
+        "longitude": "164.3977"
+    },
+    "contact": {
+        "email": "cmann137@apicnet.com",
+        "phone": "+61-137-220-2218",
+        "socMedia": {
+            "skype": "cmann137@apicnet.com@skype.com"
+        }
+    },
+    "login": {
+        "username": "cmann",
+        "oauth2": "cmann@skype.com",
+        "password": "$2y$10$v30rXv9n.99VeCHIZsX4..pOrHNGAQ1mqV4V\/CrmTNmCUfIpI\/Zlq"
+    },
+    "otherContact": {
+        "emails": [
+            "cmann137@vodafone.com",
+            "cmann137@oi.com",
+            "cmann137@sktelecom.com"
+        ],
+        "phoneNumbers": [
+            "+61-137-172-0239",
+            "+61-137-319-4103",
+            "+61-137-428-0467"
+        ],
+        "socMedias": [
+            {
+                "linkedin": "cmann137@vodafone.com@linkedin.com"
+            },
+            {
+                "google": "cmann137@oi.com@google.com"
+            },
+            {
+                "line": "cmann137@sktelecom.com@line.com"
+            }
+        ]
+    },
+    "otherInfo": {
+        "gender": "M",
+        "dateOfBirth": "1981-10-10"
+    }
+});
+db.partners.insertOne(
+{
+    "partnerKey": "ACCOLBON8787",
+    "businessName": "Accomodation Agency Company",
+    "revenueSplit": 0.24,
+    "acctBalance": 355003.58,
+    "name": {
+        "title": null,
+        "first": "Larry",
+        "middle": null,
+        "last": "Bond",
+        "suffix": null
+    },
+    "address": {
+        "streetAddress": "263 Short River Boulevard",
+        "buildingName": null,
+        "floor": null,
+        "roomAptCondoFlat": "33",
+        "city": "Kamloops Northwest",
+        "stateProvince": "BC",
+        "locality": "Kamloops",
+        "country": "CA",
+        "postalCode": "V2B",
+        "latitude": "50.8869",
+        "longitude": "-120.7357"
+    },
+    "contact": {
+        "email": "lbond138@mtn.com",
+        "phone": "+61-138-715-8787",
+        "socMedia": []
+    },
+    "login": {
+        "username": "lbond",
+        "oauth2": null,
+        "password": "$2y$10$ADSZJnGIkxaOS\/1wlbqh1.peDxQL9flcXdRSfulvOXCCPObMiKqPm"
+    },
+    "otherContact": {
+        "emails": [
+            "lbond138@sktelecom.com",
+            "lbond138@uunet.com",
+            "lbond138@singtel.com"
+        ],
+        "phoneNumbers": [
+            "+61-138-993-8496",
+            "+61-138-879-9829",
+            "+61-138-682-2123"
+        ]
+    },
+    "otherInfo": {
+        "gender": "F",
+        "dateOfBirth": "1972-09-29"
+    }
+});
+db.partners.insertOne(
+{
+    "partnerKey": "FRIERRAM2118",
+    "businessName": "Friendly Associates Inc",
+    "revenueSplit": 0.02,
+    "acctBalance": 802357.66,
+    "name": {
+        "title": "Mr",
+        "first": "Roderick",
+        "middle": "F",
+        "last": "Ramos",
+        "suffix": null
+    },
+    "address": {
+        "streetAddress": "1285 Green River Road",
+        "buildingName": null,
+        "floor": null,
+        "roomAptCondoFlat": null,
+        "city": "Residencial Rancho Alegre",
+        "stateProvince": "COA",
+        "locality": "Torre\u00f3n",
+        "country": "MX",
+        "postalCode": "27430",
+        "latitude": "25.5172",
+        "longitude": "-103.3366"
+    },
+    "contact": {
+        "email": "rramos139@verizon.com",
+        "phone": "+61-139-083-2118",
+        "socMedia": {
+            "google": "rramos139@verizon.com@google.com"
+        }
+    },
+    "login": {
+        "username": "rramos",
+        "oauth2": "rramos@google.com",
+        "password": "$2y$10$gCUMg0w3O37yM6bkQoquMOZ90mM1z3poWKe64W7gjv5RY\/uvero7a"
+    },
+    "otherContact": {
+        "emails": [
+            "rramos139@telstra.com",
+            "rramos139@telecomitalia.com"
+        ],
+        "phoneNumbers": [
+            "+61-139-218-1021",
+            "+61-139-612-0517"
+        ],
+        "socMedias": [
+            {
+                "line": "rramos139@telstra.com@line.com"
+            },
+            {
+                "google": "rramos139@telecomitalia.com@google.com"
+            }
+        ]
+    },
+    "otherInfo": {
+        "gender": "M",
+        "dateOfBirth": "1940-05-02"
+    }
+});
+db.partners.insertOne(
+{
+    "partnerKey": "STAYACRA6826",
+    "businessName": "Stay Awhile Industries Company",
+    "revenueSplit": 0.4,
+    "acctBalance": 201125.36000000002,
+    "name": {
+        "title": "Mr",
+        "first": "Allan",
+        "middle": "L",
+        "last": "Craig",
+        "suffix": null
+    },
+    "address": {
+        "streetAddress": "6628 Green Hill Road",
+        "buildingName": null,
+        "floor": null,
+        "roomAptCondoFlat": null,
+        "city": "Bank End",
+        "stateProvince": "England",
+        "locality": "Cumbria",
+        "country": "GB",
+        "postalCode": "LA20",
+        "latitude": "54.3713",
+        "longitude": "-3.1958"
+    },
+    "contact": {
+        "email": "acraig140@lookdata.com",
+        "phone": "+61-140-394-6826",
+        "socMedia": {
+            "linkedin": "acraig140@lookdata.com@linkedin.com"
+        }
+    },
+    "login": {
+        "username": "acraig",
+        "oauth2": "acraig@linkedin.com",
+        "password": "$2y$10$UfEwXIohGpUUxWI.Yc3vNeIWlh7BpAGCDWMSTNJTrKC.obXr4vvnq"
+    },
+    "otherContact": {
+        "emails": [
+            "acraig140@worldnet.com",
+            "acraig140@verizon.com"
+        ],
+        "phoneNumbers": [
+            "+61-140-019-6270",
+            "+61-140-367-5968"
+        ],
+        "socMedias": [
+            {
+                "facebook": "acraig140@worldnet.com@facebook.com"
+            },
+            {
+                "line": "acraig140@verizon.com@line.com"
+            }
+        ]
+    },
+    "otherInfo": {
+        "gender": "M",
+        "dateOfBirth": "1975-11-29"
+    }
+});
+db.partners.insertOne(
+{
+    "partnerKey": "UPBEMHIL6424",
+    "businessName": "Upbeat Associates ",
+    "revenueSplit": 0.3,
+    "acctBalance": 298293.46,
+    "name": {
+        "title": null,
+        "first": "Marquetta",
+        "middle": null,
+        "last": "Hill",
+        "suffix": null
+    },
+    "address": {
+        "streetAddress": "1133 Little Ditch Ride",
+        "buildingName": null,
+        "floor": null,
+        "roomAptCondoFlat": null,
+        "city": "Barch\u016fvek",
+        "stateProvince": "Hradec Kr\u00e1lov\u00e9",
+        "locality": "Hradec Kr\u00e1lov\u00e9",
+        "country": "CZ",
+        "postalCode": "504 01",
+        "latitude": "50.2167",
+        "longitude": "15.55"
+    },
+    "contact": {
+        "email": "mhill141@telefonica.com",
+        "phone": "+61-141-435-6424",
+        "socMedia": []
+    },
+    "login": {
+        "username": "mhill",
+        "oauth2": null,
+        "password": "$2y$10$lv1QGd.LhyYDgNwUwhs5eusIebiVn9.JUjwqFNKsb6XfXvqh.pqkm"
+    },
+    "otherContact": {
+        "emails": [
+            "mhill141@openworld.com",
+            "mhill141@access.com"
+        ],
+        "phoneNumbers": [
+            "+61-141-602-9646",
+            "+61-141-696-6578"
+        ]
+    },
+    "otherInfo": {
+        "gender": "F",
+        "dateOfBirth": "1985-04-05"
+    }
+});
+db.partners.insertOne(
+{
+    "partnerKey": "SUCCSWOO4509",
+    "businessName": "Success Business Ltd",
+    "revenueSplit": 0.3,
+    "acctBalance": 150081.59,
+    "name": {
+        "title": "Mr",
+        "first": "Shaun",
+        "middle": "R",
+        "last": "Woodward",
+        "suffix": null
+    },
+    "address": {
+        "streetAddress": "6055 Little Bend Boulevard",
+        "buildingName": null,
+        "floor": null,
+        "roomAptCondoFlat": null,
+        "city": "Muncie",
+        "stateProvince": "IL",
+        "locality": "Vermilion",
+        "country": "US",
+        "postalCode": "61857",
+        "latitude": "40.1165",
+        "longitude": "-87.8447"
+    },
+    "contact": {
+        "email": "swoodwar142@millicom.com",
+        "phone": "+61-142-266-4509",
+        "socMedia": {
+            "skype": "swoodwar142@millicom.com@skype.com"
+        }
+    },
+    "login": {
+        "username": "swoodwar",
+        "oauth2": "swoodwar@skype.com",
+        "password": "$2y$10$vF03WRKkdZER3gNwjMaHMeH36JUJrNs3qDYOgCaZQ\/OzapbLg\/RLW"
+    },
+    "otherContact": {
+        "emails": [
+            "swoodwar142@nordnet.com"
+        ],
+        "phoneNumbers": [
+            "+61-142-611-1708"
+        ],
+        "socMedias": [
+            {
+                "line": "swoodwar142@nordnet.com@line.com"
+            }
+        ]
+    },
+    "otherInfo": {
+        "gender": "M",
+        "dateOfBirth": "1968-07-28"
+    }
+});
+db.partners.insertOne(
+{
+    "partnerKey": "STAYMHAR9657",
+    "businessName": "Stay Awhile Trust Company",
+    "revenueSplit": 0.13,
+    "acctBalance": 669330.71,
+    "name": {
+        "title": "Ms",
+        "first": "Mitsuko",
+        "middle": "X",
+        "last": "Harrell",
+        "suffix": null
+    },
+    "address": {
+        "streetAddress": "9255 Little Bend Ride",
+        "buildingName": "Building 95",
+        "floor": null,
+        "roomAptCondoFlat": null,
+        "city": "Monasterevin",
+        "stateProvince": null,
+        "locality": null,
+        "country": "IE",
+        "postalCode": "W34",
+        "latitude": "53.1406",
+        "longitude": "-7.0664"
+    },
+    "contact": {
+        "email": "mharrell143@telenor.com",
+        "phone": "+61-143-400-9657",
+        "socMedia": {
+            "skype": "mharrell143@telenor.com@skype.com"
+        }
+    },
+    "login": {
+        "username": "mharrell",
+        "oauth2": "mharrell@skype.com",
+        "password": "$2y$10$IFi7Zz4Ib1TkvfchhrVJNOdkoOB4y6fSUpIxNn4tnfEgkCFrY4m3e"
+    },
+    "otherContact": [],
+    "otherInfo": {
+        "gender": "F",
+        "dateOfBirth": "2002-12-06"
+    }
+});
+db.partners.insertOne(
+{
+    "partnerKey": "INDUBFER1855",
+    "businessName": "Industrious Agency Inc",
+    "revenueSplit": 0.44,
+    "acctBalance": 810649.34,
+    "name": {
+        "title": "Dr",
+        "first": "Bernard",
+        "middle": null,
+        "last": "Fernandez",
+        "suffix": "Sr"
+    },
+    "address": {
+        "streetAddress": "7580 Winding Canyon Boulevard",
+        "buildingName": null,
+        "floor": 13,
+        "roomAptCondoFlat": "F9",
+        "city": "Burlington South",
+        "stateProvince": "ON",
+        "locality": "Burlington",
+        "country": "CA",
+        "postalCode": "L7S",
+        "latitude": "43.323",
+        "longitude": "-79.8092"
+    },
+    "contact": {
+        "email": "bfernand144@swisscom.com",
+        "phone": "+61-144-370-1855",
+        "socMedia": []
+    },
+    "login": {
+        "username": "bfernand",
+        "oauth2": null,
+        "password": "$2y$10$74EtZ6Y1ntPe57k4KVW3ruofDSkBAXzLh\/v72h8tG5CJS.07iUoui"
+    },
+    "otherContact": {
+        "emails": [
+            "bfernand144@att.com"
+        ],
+        "phoneNumbers": [
+            "+61-144-056-4605"
+        ]
+    },
+    "otherInfo": {
+        "gender": "M",
+        "dateOfBirth": "1967-10-22"
+    }
+});
+db.partners.insertOne(
+{
+    "partnerKey": "INDUTASH0920",
+    "businessName": "Industrious Industries Ltd",
+    "revenueSplit": 0.27,
+    "acctBalance": 694133.35,
+    "name": {
+        "title": "Mr",
+        "first": "Toney",
+        "middle": "J",
+        "last": "Ashley",
+        "suffix": null
+    },
+    "address": {
+        "streetAddress": "4750 Blue Tree Boulevard",
+        "buildingName": null,
+        "floor": null,
+        "roomAptCondoFlat": null,
+        "city": "Eravur",
+        "stateProvince": "Batticaloa",
+        "locality": "Batticaloa",
+        "country": "LK",
+        "postalCode": "30300",
+        "latitude": "7.7782",
+        "longitude": "81.6038"
+    },
+    "contact": {
+        "email": "tashley145@unicom.com",
+        "phone": "+61-145-976-0920",
+        "socMedia": {
+            "linkedin": "tashley145@unicom.com@linkedin.com"
+        }
+    },
+    "login": {
+        "username": "tashley",
+        "oauth2": "tashley@linkedin.com",
+        "password": "$2y$10$BjbEO4JyE9hG3whteHCErOVcXB2ZlBpnj7z13eubg3abZtbKxqJtC"
+    },
+    "otherContact": {
+        "emails": [
+            "tashley145@ccs.com",
+            "tashley145@megafon.com",
+            "tashley145@relcom.com"
+        ],
+        "phoneNumbers": [
+            "+61-145-053-6445",
+            "+61-145-202-9636",
+            "+61-145-678-1708"
+        ],
+        "socMedias": [
+            {
+                "linkedin": "tashley145@ccs.com@linkedin.com"
+            },
+            {
+                "line": "tashley145@megafon.com@line.com"
+            },
+            {
+                "line": "tashley145@relcom.com@line.com"
+            }
+        ]
+    },
+    "otherInfo": {
+        "gender": "M",
+        "dateOfBirth": "1939-01-17"
+    }
+});
+db.partners.insertOne(
+{
+    "partnerKey": "BOUTDWAG7767",
+    "businessName": "Boutique Agency Ltd",
+    "revenueSplit": 0.22,
+    "acctBalance": 539426.45,
+    "name": {
+        "title": "Mr",
+        "first": "Delmar",
+        "middle": "E",
+        "last": "Wagner",
+        "suffix": null
+    },
+    "address": {
+        "streetAddress": "8577 Little River Avenue",
+        "buildingName": null,
+        "floor": null,
+        "roomAptCondoFlat": null,
+        "city": "Sydney North",
+        "stateProvince": "NS",
+        "locality": "Sydney",
+        "country": "CA",
+        "postalCode": "B1N",
+        "latitude": "46.1975",
+        "longitude": "-60.1559"
+    },
+    "contact": {
+        "email": "dwagner146@icom.com",
+        "phone": "+61-146-253-7767",
+        "socMedia": {
+            "twitter": "dwagner146@icom.com@twitter.com"
+        }
+    },
+    "login": {
+        "username": "dwagner",
+        "oauth2": "dwagner@twitter.com",
+        "password": "$2y$10$0iskXRELcsv5dm4lH2sDmOoJVRAvLWaFzRmYwUoRrWMOiLX09KW1W"
+    },
+    "otherContact": {
+        "emails": [
+            "dwagner146@telekom.com",
+            "dwagner146@safaricom.com",
+            "dwagner146@chunghwa.com"
+        ],
+        "phoneNumbers": [
+            "+61-146-058-6364",
+            "+61-146-590-7207",
+            "+61-146-326-0601"
+        ],
+        "socMedias": [
+            {
+                "skype": "dwagner146@telekom.com@skype.com"
+            },
+            {
+                "facebook": "dwagner146@safaricom.com@facebook.com"
+            },
+            {
+                "twitter": "dwagner146@chunghwa.com@twitter.com"
+            }
+        ]
+    },
+    "otherInfo": {
+        "gender": "M",
+        "dateOfBirth": "1992-08-29"
+    }
+});
+db.partners.insertOne(
+{
+    "partnerKey": "LAZYJCUM9702",
+    "businessName": "Lazy Bird Business LLC",
+    "revenueSplit": 0.01,
+    "acctBalance": 7406.64,
+    "name": {
+        "title": null,
+        "first": "Jonathan",
+        "middle": null,
+        "last": "Cummings",
+        "suffix": null
+    },
+    "address": {
+        "streetAddress": "1133 Long Gulch Street",
+        "buildingName": null,
+        "floor": null,
+        "roomAptCondoFlat": null,
+        "city": "Esch-sur-Alzette",
+        "stateProvince": "ES",
+        "locality": "Esch-sur-Alzette",
+        "country": "LU",
+        "postalCode": "L-4130",
+        "latitude": "49.4956",
+        "longitude": "5.982"
+    },
+    "contact": {
+        "email": "jcumming147@safaricom.com",
+        "phone": "+61-147-867-9702",
+        "socMedia": []
+    },
+    "login": {
+        "username": "jcumming",
+        "oauth2": null,
+        "password": "$2y$10$k78V2UEVrh7JMt6BaLhYkOvg9vaT1.VKWUeMyUIk3HUBqevkj1hgm"
+    },
+    "otherContact": {
+        "emails": [
+            "jcumming147@millicom.com",
+            "jcumming147@eunet.com"
+        ],
+        "phoneNumbers": [
+            "+61-147-672-9376",
+            "+61-147-350-5370"
+        ]
+    },
+    "otherInfo": {
+        "gender": "M",
+        "dateOfBirth": "1963-04-16"
+    }
+});
+db.partners.insertOne(
+{
+    "partnerKey": "SUCCQNAS1093",
+    "businessName": "Success Industries ",
+    "revenueSplit": 0.11,
+    "acctBalance": 663593.52,
+    "name": {
+        "title": "Mr",
+        "first": "Quinn",
+        "middle": "V",
+        "last": "Nash",
+        "suffix": null
+    },
+    "address": {
+        "streetAddress": "4942 Blue Bough Boulevard",
+        "buildingName": null,
+        "floor": null,
+        "roomAptCondoFlat": null,
+        "city": "Southfleet",
+        "stateProvince": "England",
+        "locality": "Kent",
+        "country": "GB",
+        "postalCode": "DA13",
+        "latitude": "51.4163",
+        "longitude": "0.3203"
+    },
+    "contact": {
+        "email": "qnash148@econnect.com",
+        "phone": "+61-148-776-1093",
+        "socMedia": {
+            "linkedin": "qnash148@econnect.com@linkedin.com"
+        }
+    },
+    "login": {
+        "username": "qnash",
+        "oauth2": "qnash@linkedin.com",
+        "password": "$2y$10$HlHcaATAS4SH7HTPx86MVONc\/SJNtdo.UE3YmfCYEWyfSIoJHiLu."
+    },
+    "otherContact": {
+        "emails": [
+            "qnash148@sprint.com"
+        ],
+        "phoneNumbers": [
+            "+61-148-284-7318"
+        ],
+        "socMedias": [
+            {
+                "line": "qnash148@sprint.com@line.com"
+            }
+        ]
+    },
+    "otherInfo": {
+        "gender": "M",
+        "dateOfBirth": "1978-11-24"
+    }
+});
+db.partners.insertOne(
+{
+    "partnerKey": "ACCOTHOO0166",
+    "businessName": "Accomodation Trust LLC",
+    "revenueSplit": 0.42,
+    "acctBalance": 341576.59,
+    "name": {
+        "title": "Mr",
+        "first": "Tanner",
+        "middle": "M",
+        "last": "Hoover",
+        "suffix": null
+    },
+    "address": {
+        "streetAddress": "6159 Green Gully Road",
+        "buildingName": null,
+        "floor": null,
+        "roomAptCondoFlat": null,
+        "city": "Carmona",
+        "stateProvince": "Carmona",
+        "locality": "Nandayure",
+        "country": "CR",
+        "postalCode": "50901",
+        "latitude": "9.9889",
+        "longitude": "-85.2599"
+    },
+    "contact": {
+        "email": "thoover149@tt.com",
+        "phone": "+61-149-052-0166",
+        "socMedia": {
+            "line": "thoover149@tt.com@line.com"
+        }
+    },
+    "login": {
+        "username": "thoover",
+        "oauth2": "thoover@line.com",
+        "password": "$2y$10$4ubRHNU7NJ5NgurNy\/DIF.RvKrX11MpSO\/7I10f2x9rljPC6RT86i"
+    },
+    "otherContact": {
+        "emails": [
+            "thoover149@econnect.com",
+            "thoover149@chunghwa.com"
+        ],
+        "phoneNumbers": [
+            "+61-149-833-9996",
+            "+61-149-726-9357"
+        ],
+        "socMedias": [
+            {
+                "linkedin": "thoover149@econnect.com@linkedin.com"
+            },
+            {
+                "facebook": "thoover149@chunghwa.com@facebook.com"
+            }
+        ]
+    },
+    "otherInfo": {
+        "gender": "M",
+        "dateOfBirth": "1937-05-28"
+    }
+});
+db.partners.insertOne(
+{
+    "partnerKey": "ACCOSWIS4863",
+    "businessName": "Accomodation Business LLC",
+    "revenueSplit": 0.14,
+    "acctBalance": 305297.3,
+    "name": {
+        "title": null,
+        "first": "Sheron",
+        "middle": null,
+        "last": "Wise",
+        "suffix": null
+    },
+    "address": {
+        "streetAddress": "8151 Little Tree Ride",
+        "buildingName": null,
+        "floor": null,
+        "roomAptCondoFlat": "67",
+        "city": "Mississauga (West Rathwood \/ East Hurontario \/ SE Gateway)",
+        "stateProvince": "ON",
+        "locality": "Mississauga",
+        "country": "CA",
+        "postalCode": "L4Z",
+        "latitude": "43.6192",
+        "longitude": "-79.6538"
+    },
+    "contact": {
+        "email": "swise150@vimpelcom.com",
+        "phone": "+61-150-131-4863",
+        "socMedia": []
+    },
+    "login": {
+        "username": "swise",
+        "oauth2": null,
+        "password": "$2y$10$HnJGcxdp2R9QTN5LKvN\/z.bPcd.MWtEo7\/Ml0QLZvGjP.vKISLlbO"
+    },
+    "otherContact": {
+        "emails": [
+            "swise150@relcom.com",
+            "swise150@bifty.com",
+            "swise150@icom.com"
+        ],
+        "phoneNumbers": [
+            "+61-150-946-6526",
+            "+61-150-699-2353",
+            "+61-150-446-9108"
+        ]
+    },
+    "otherInfo": {
+        "gender": "F",
+        "dateOfBirth": "1949-05-13"
+    }
+});
+db.partners.insertOne(
+{
+    "partnerKey": "COMFLSTR9995",
+    "businessName": "Comfort Accomdations Inc",
+    "revenueSplit": 0.44,
+    "acctBalance": 616086.76,
+    "name": {
+        "title": "Ms",
+        "first": "Loria",
+        "middle": "O",
+        "last": "Strong",
+        "suffix": null
+    },
+    "address": {
+        "streetAddress": "3055 Little Woods Circle",
+        "buildingName": null,
+        "floor": null,
+        "roomAptCondoFlat": null,
+        "city": "Tinian",
+        "stateProvince": "Tinian",
+        "locality": "Tinian",
+        "country": "MP",
+        "postalCode": "96952",
+        "latitude": "15.029",
+        "longitude": "145.616"
+    },
+    "contact": {
+        "email": "lstrong151@frontier.com",
+        "phone": "+61-151-280-9995",
+        "socMedia": {
+            "linkedin": "lstrong151@frontier.com@linkedin.com"
+        }
+    },
+    "login": {
+        "username": "lstrong",
+        "oauth2": "lstrong@linkedin.com",
+        "password": "$2y$10$7Et3aTa2yvewAoqiRSarauEs5RjgzdVqLAvEyio1K2WD\/DwzBpitK"
+    },
+    "otherContact": {
+        "emails": [
+            "lstrong151@singtel.com",
+            "lstrong151@kddi.com",
+            "lstrong151@worldnet.com"
+        ],
+        "phoneNumbers": [
+            "+61-151-222-5722",
+            "+61-151-388-3037",
+            "+61-151-620-8659"
+        ],
+        "socMedias": [
+            {
+                "linkedin": "lstrong151@singtel.com@linkedin.com"
+            },
+            {
+                "linkedin": "lstrong151@kddi.com@linkedin.com"
+            },
+            {
+                "facebook": "lstrong151@worldnet.com@facebook.com"
+            }
+        ]
+    },
+    "otherInfo": {
+        "gender": "F",
+        "dateOfBirth": "1964-10-08"
+    }
+});
+db.partners.insertOne(
+{
+    "partnerKey": "ACCOPZUN2938",
+    "businessName": "Accomodation Accomdations LLC",
+    "revenueSplit": 0.39,
+    "acctBalance": 557566.29,
+    "name": {
+        "title": "Mr",
+        "first": "Paris",
+        "middle": "T",
+        "last": "Zuniga",
+        "suffix": null
+    },
+    "address": {
+        "streetAddress": "4839 Big Stream Ride",
+        "buildingName": null,
+        "floor": null,
+        "roomAptCondoFlat": null,
+        "city": "Coachford",
+        "stateProvince": "Scotland",
+        "locality": "Aberdeenshire",
+        "country": "GB",
+        "postalCode": "AB54",
+        "latitude": "57.3709",
+        "longitude": "-2.8293"
+    },
+    "contact": {
+        "email": "pzuniga152@kddi.com",
+        "phone": "+61-152-708-2938",
+        "socMedia": {
+            "skype": "pzuniga152@kddi.com@skype.com"
+        }
+    },
+    "login": {
+        "username": "pzuniga",
+        "oauth2": "pzuniga@skype.com",
+        "password": "$2y$10$vryZyBpJXhX47VUIO9GeNudu8OKsMClIbkHdxdpAGx\/8EEpSjRvp6"
+    },
+    "otherContact": [],
+    "otherInfo": {
+        "gender": "M",
+        "dateOfBirth": "1980-10-29"
+    }
+});
+db.partners.insertOne(
+{
+    "partnerKey": "AFFONGIL2558",
+    "businessName": "Affordable Business Company",
+    "revenueSplit": 0.24,
+    "acctBalance": 842895.93,
+    "name": {
+        "title": null,
+        "first": "Nancie",
+        "middle": null,
+        "last": "Giles",
+        "suffix": null
+    },
+    "address": {
+        "streetAddress": "9085 Green Gulch Circle",
+        "buildingName": null,
+        "floor": 7,
+        "roomAptCondoFlat": null,
+        "city": "\u017dinkovy",
+        "stateProvince": "Plze\u0148-jih",
+        "locality": "Plze\u0148-jih",
+        "country": "CZ",
+        "postalCode": "335 54",
+        "latitude": "49.5",
+        "longitude": "13.5"
+    },
+    "contact": {
+        "email": "ngiles153@ui.com",
+        "phone": "+61-153-272-2558",
+        "socMedia": []
+    },
+    "login": {
+        "username": "ngiles",
+        "oauth2": null,
+        "password": "$2y$10$yuupfUo6ZOgbzDn15CHq4edzdbIyLWjul5n2ZOeg7Rt9b7hfXv6cu"
+    },
+    "otherContact": [],
+    "otherInfo": {
+        "gender": "F",
+        "dateOfBirth": "1976-08-12"
+    }
+});
+db.partners.insertOne(
+{
+    "partnerKey": "LAZYIBRU9246",
+    "businessName": "Lazy Bird Rooms ",
+    "revenueSplit": 0.36,
+    "acctBalance": 631654.42,
+    "name": {
+        "title": "Ms",
+        "first": "Ileen",
+        "middle": "I",
+        "last": "Bruce",
+        "suffix": null
+    },
+    "address": {
+        "streetAddress": "5912 Red Mound Ride",
+        "buildingName": null,
+        "floor": null,
+        "roomAptCondoFlat": null,
+        "city": "Giffard",
+        "stateProvince": "VIC",
+        "locality": "Victoria",
+        "country": "AU",
+        "postalCode": "3851",
+        "latitude": "-38.4167",
+        "longitude": "147.0833"
+    },
+    "contact": {
+        "email": "ibruce154@movil.com",
+        "phone": "+61-154-690-9246",
+        "socMedia": {
+            "line": "ibruce154@movil.com@line.com"
+        }
+    },
+    "login": {
+        "username": "ibruce",
+        "oauth2": "ibruce@line.com",
+        "password": "$2y$10$\/\/Fr.3vtqO0DrMgduGpaYOwUyLjl85SWmrDfWwB2qvsSIdki7yTzS"
+    },
+    "otherContact": {
+        "emails": [
+            "ibruce154@telesystems.com",
+            "ibruce154@bt.com"
+        ],
+        "phoneNumbers": [
+            "+61-154-162-3492",
+            "+61-154-570-6826"
+        ],
+        "socMedias": [
+            {
+                "facebook": "ibruce154@telesystems.com@facebook.com"
+            },
+            {
+                "skype": "ibruce154@bt.com@skype.com"
+            }
+        ]
+    },
+    "otherInfo": {
+        "gender": "F",
+        "dateOfBirth": "1947-02-20"
+    }
+});
+db.partners.insertOne(
+{
+    "partnerKey": "ACCOTREI2365",
+    "businessName": "Accomodation Accomdations ",
+    "revenueSplit": 0.11,
+    "acctBalance": 651213.9,
+    "name": {
+        "title": "Ms",
+        "first": "Tatiana",
+        "middle": "E",
+        "last": "Reilly",
+        "suffix": null
+    },
+    "address": {
+        "streetAddress": "5292 Little Bridge Way",
         "buildingName": null,
         "floor": null,
         "roomAptCondoFlat": null,
@@ -2136,2796 +2797,2307 @@ db.partners.insertOne(
         "longitude": "145.7408"
     },
     "contact": {
-        "phone": "+1670-143-688-0800",
-        "email": "qstone143@ui.com",
-        "socMedia": null
+        "email": "treilly155@ccs.com",
+        "phone": "+61-155-259-2365",
+        "socMedia": {
+            "linkedin": "treilly155@ccs.com@linkedin.com"
+        }
     },
     "login": {
-        "username": "qstone",
-        "oauth2": null,
-        "password": "$2y$10$G9xOLgb1XfZEnQDNyGB2OuvKqdoatCyX62lG1q\/ufKKfzKGBD2wCO"
+        "username": "treilly",
+        "oauth2": "treilly@linkedin.com",
+        "password": "$2y$10$IHVIxMEaoQ8vHfpO4bH26ujnHoYop3o\/G2JzclOVrW1RhRwSiiyRu"
     },
     "otherContact": {
         "emails": [
-            "qstone@eunet.net"
+            "treilly155@vimpelcom.com",
+            "treilly155@telenor.com"
         ],
         "phoneNumbers": [
-            "+1670-431-293-0801",
-            "+1670-35-426-2941"
+            "+61-155-304-5397",
+            "+61-155-118-0555"
         ],
-        "socMedias": []
+        "socMedias": [
+            {
+                "skype": "treilly155@vimpelcom.com@skype.com"
+            },
+            {
+                "linkedin": "treilly155@telenor.com@linkedin.com"
+            }
+        ]
     },
     "otherInfo": {
         "gender": "F",
-        "dateOfBirth": "1993-12-14"
+        "dateOfBirth": "1941-05-07"
     }
 });
 db.partners.insertOne(
 {
-    "partnerKey": "SHELSPEN4863",
-    "businessName": "Friendly Industries Company",
-    "revenueSplit": 0.38,
-    "acctBalance": 53738.29,
-    "name": {
-        "title": null,
-        "first": "Shelby",
-        "middle": null,
-        "last": "Spence",
-        "suffix": null
-    },
-    "address": {
-        "streetAddress": "4724 Winding Ridge Ride",
-        "buildingName": null,
-        "floor": null,
-        "roomAptCondoFlat": "3D",
-        "city": "Barkstead",
-        "stateProvince": "VIC",
-        "locality": "Victoria",
-        "country": "AU",
-        "postalCode": "3364",
-        "latitude": "-37.45",
-        "longitude": "144.1"
-    },
-    "contact": {
-        "phone": "+61-144-599-4863",
-        "email": "sspence144@rogers.com",
-        "socMedia": null
-    },
-    "login": {
-        "username": "sspence",
-        "oauth2": null,
-        "password": "$2y$10$qJOyzO7R.4fKNCen6vDog.Vpa8KMB1nG2f1WmalxQPDupr.68T1yu"
-    },
-    "otherContact": {
-        "emails": [
-            "sspence@zain.net"
-        ],
-        "phoneNumbers": [
-            "+61-15-766-7254"
-        ],
-        "socMedias": []
-    },
-    "otherInfo": {
-        "gender": "F",
-        "dateOfBirth": "1952-11-26"
-    }
-});
-db.partners.insertOne(
-{
-    "partnerKey": "NANESTAN2712",
-    "businessName": "Serious Trust Inc",
-    "revenueSplit": 0.28,
-    "acctBalance": 239212.37,
-    "name": {
-        "title": "Ms",
-        "first": "Nanette",
-        "middle": "C",
-        "last": "Stanley",
-        "suffix": null
-    },
-    "address": {
-        "streetAddress": "3937 Big Hill Way",
-        "buildingName": null,
-        "floor": 10,
-        "roomAptCondoFlat": null,
-        "city": "Butuceni",
-        "stateProvince": "Orhei",
-        "locality": "Orhei",
-        "country": "MD",
-        "postalCode": "MD-3552",
-        "latitude": "47.3014",
-        "longitude": "28.9725"
-    },
-    "contact": {
-        "phone": "+373-145-509-2712",
-        "email": "nstanley145@bifty.com",
-        "socMedia": null
-    },
-    "login": {
-        "username": "nstanley",
-        "oauth2": null,
-        "password": "$2y$10$HLVokGa8Nfjt7LIQz8bAbOOIEhEpAXxpOeC344c6frbs26MP\/bZm6"
-    },
-    "otherContact": {
-        "emails": [
-            "nstanley@airtel.net",
-            "nstanley@pldt.net"
-        ],
-        "phoneNumbers": [
-            "+373-535-729-8926"
-        ],
-        "socMedias": []
-    },
-    "otherInfo": {
-        "gender": "F",
-        "dateOfBirth": "1972-05-07"
-    }
-});
-db.partners.insertOne(
-{
-    "partnerKey": "MADDCHAP0629",
-    "businessName": "Friendly Industries Inc",
-    "revenueSplit": 0.02,
-    "acctBalance": 324629.19,
-    "name": {
-        "title": "Ms",
-        "first": "Maddie",
-        "middle": "V",
-        "last": "Chapman",
-        "suffix": null
-    },
-    "address": {
-        "streetAddress": "7241 Short Creek Boulevard",
-        "buildingName": null,
-        "floor": null,
-        "roomAptCondoFlat": null,
-        "city": "Uttar Asda",
-        "stateProvince": "Uttar Asda",
-        "locality": "East Midnapore",
-        "country": "IN",
-        "postalCode": "721443",
-        "latitude": "21.9467",
-        "longitude": "87.4938"
-    },
-    "contact": {
-        "phone": "+91-146-027-0629",
-        "email": "mchapman146@bt.com",
-        "socMedia": null
-    },
-    "login": {
-        "username": "mchapman",
-        "oauth2": null,
-        "password": "$2y$10$EyMUPN2uGzYveOvHAaYDR.uOXDFcoGJ8fua89NE.bja5KVsLingwy"
-    },
-    "otherContact": {
-        "emails": [
-            "mchapman@vimpelcom.net",
-            "mchapman@bt.net"
-        ],
-        "phoneNumbers": [],
-        "socMedias": []
-    },
-    "otherInfo": {
-        "gender": "F",
-        "dateOfBirth": "1938-04-10"
-    }
-});
-db.partners.insertOne(
-{
-    "partnerKey": "SELISANC0895",
-    "businessName": "Friendly Industries Ltd",
-    "revenueSplit": 0.3,
-    "acctBalance": 284419.42,
-    "name": {
-        "title": null,
-        "first": "Selina",
-        "middle": null,
-        "last": "Sanchez",
-        "suffix": null
-    },
-    "address": {
-        "streetAddress": "6586 Red Tree Drive",
-        "buildingName": null,
-        "floor": null,
-        "roomAptCondoFlat": null,
-        "city": "Semeni",
-        "stateProvince": "Ungheni",
-        "locality": "Ungheni",
-        "country": "MD",
-        "postalCode": "MD-3645",
-        "latitude": "47.2686",
-        "longitude": "27.7519"
-    },
-    "contact": {
-        "phone": "+373-147-456-0895",
-        "email": "ssanchez147@vivendi.com",
-        "socMedia": null
-    },
-    "login": {
-        "username": "ssanchez",
-        "oauth2": null,
-        "password": "$2y$10$w8xDuIF.bLtCZ1IHns.Z6.0LRBq8qeiMX6E05VCgMUByaHol70c2e"
-    },
-    "otherContact": {
-        "emails": [],
-        "phoneNumbers": [],
-        "socMedias": []
-    },
-    "otherInfo": {
-        "gender": "F",
-        "dateOfBirth": "1934-03-26"
-    }
-});
-db.partners.insertOne(
-{
-    "partnerKey": "RENAPARR3168",
-    "businessName": "Friendly Industries Ltd",
+    "partnerKey": "SLEEMWEA0868",
+    "businessName": "Sleep Right Agency Ltd",
     "revenueSplit": 0.06,
-    "acctBalance": 594212.01,
-    "name": {
-        "title": "Mr",
-        "first": "Renaldo",
-        "middle": "P",
-        "last": "Parrish",
-        "suffix": null
-    },
-    "address": {
-        "streetAddress": "6247 Short Ridge Drive",
-        "buildingName": "Building 80",
-        "floor": null,
-        "roomAptCondoFlat": null,
-        "city": "Adare",
-        "stateProvince": "QLD",
-        "locality": "TOOWOOMBA SE CNR",
-        "country": "AU",
-        "postalCode": "4343",
-        "latitude": "-27.5127",
-        "longitude": "152.2954"
-    },
-    "contact": {
-        "phone": "+61-148-088-3168",
-        "email": "rparrish148@vodafone.com",
-        "socMedia": null
-    },
-    "login": {
-        "username": "rparrish",
-        "oauth2": null,
-        "password": "$2y$10$KYiTpQQD4tPeQrWOvYT4YuSEIBxdUKzdThVHR8rS9pGXWJ6TqyDCK"
-    },
-    "otherContact": {
-        "emails": [
-            "rparrish@icom.net",
-            "rparrish@ntt.net"
-        ],
-        "phoneNumbers": [
-            "+61-7-769-3338"
-        ],
-        "socMedias": []
-    },
-    "otherInfo": {
-        "gender": "M",
-        "dateOfBirth": "1954-10-10"
-    }
-});
-db.partners.insertOne(
-{
-    "partnerKey": "TERAGENT7786",
-    "businessName": "Serious Industries Inc",
-    "revenueSplit": 0.47000000000000003,
-    "acctBalance": 634026.92,
-    "name": {
-        "title": "Ms",
-        "first": "Tera",
-        "middle": "Y",
-        "last": "Gentry",
-        "suffix": null
-    },
-    "address": {
-        "streetAddress": "3729 Big Creek Drive",
-        "buildingName": null,
-        "floor": null,
-        "roomAptCondoFlat": null,
-        "city": "T\u00f8nsberg",
-        "stateProvince": "T\u00f8nsberg",
-        "locality": "T\u00f8nsberg",
-        "country": "NO",
-        "postalCode": "3112",
-        "latitude": "59.2675",
-        "longitude": "10.4076"
-    },
-    "contact": {
-        "phone": "+47-149-069-7786",
-        "email": "tgentry149@kpn.com",
-        "socMedia": null
-    },
-    "login": {
-        "username": "tgentry",
-        "oauth2": null,
-        "password": "$2y$10$XvHoFz3lRfQLCwpVzMwmJeGe\/PSaFWjQCC7Ny\/6CWsG9GaKuXtf2e"
-    },
-    "otherContact": {
-        "emails": [
-            "tgentry@telecom.net",
-            "tgentry@cci.net"
-        ],
-        "phoneNumbers": [
-            "+47-277-356-2618",
-            "+47-263-125-1767"
-        ],
-        "socMedias": []
-    },
-    "otherInfo": {
-        "gender": "F",
-        "dateOfBirth": "1981-08-27"
-    }
-});
-db.partners.insertOne(
-{
-    "partnerKey": "CIERCONL2209",
-    "businessName": "Fat Cats Industries Inc",
-    "revenueSplit": 0.17,
-    "acctBalance": 939179.16,
+    "acctBalance": 737130.81,
     "name": {
         "title": null,
-        "first": "Cierra",
+        "first": "Mickey",
         "middle": null,
-        "last": "Conley",
+        "last": "Weaver",
         "suffix": null
     },
     "address": {
-        "streetAddress": "6871 Big Mountain Street",
-        "buildingName": null,
+        "streetAddress": "2010 Little Canyon Avenue",
+        "buildingName": "Building D7",
         "floor": null,
-        "roomAptCondoFlat": "9F",
-        "city": "Kenora Region (Keewatin)",
-        "stateProvince": "ON",
-        "locality": "Ontario",
-        "country": "CA",
-        "postalCode": "P0X",
-        "latitude": "50.9293",
-        "longitude": "-93.3095"
-    },
-    "contact": {
-        "phone": "+1-150-539-2209",
-        "email": "cconley150@pldt.com",
-        "socMedia": {
-            "line": "cconley@line.com"
-        }
-    },
-    "login": {
-        "username": "cconley",
-        "oauth2": "cconley@line.com",
-        "password": "$2y$10$gTOD2TTHAz6sQuVpgC334.V4dyykn0ye2A.biiCcSbICRdYM284Rm"
-    },
-    "otherContact": {
-        "emails": [
-            "cconley@orstom.net",
-            "cconley@telstra.net"
-        ],
-        "phoneNumbers": [
-            "+1-984-071-6191"
-        ],
-        "socMedias": {
-            "facebook": "cconley@facebook.com",
-            "line": "cconley@line.com"
-        }
-    },
-    "otherInfo": {
-        "gender": "F",
-        "dateOfBirth": "1978-01-27"
-    }
-});
-db.partners.insertOne(
-{
-    "partnerKey": "JASOWATE3038",
-    "businessName": "Industrious Associates Inc",
-    "revenueSplit": 0.13,
-    "acctBalance": 112773.45,
-    "name": {
-        "title": "Mr",
-        "first": "Jason",
-        "middle": "F",
-        "last": "Waters",
-        "suffix": null
-    },
-    "address": {
-        "streetAddress": "8792 Long Bend Circle",
-        "buildingName": null,
-        "floor": null,
-        "roomAptCondoFlat": null,
-        "city": "Warwick",
-        "stateProvince": "Warwick Parish",
-        "locality": "Warwick Parish",
-        "country": "BM",
-        "postalCode": "WK 03",
-        "latitude": "32.2658",
-        "longitude": "-64.8072"
-    },
-    "contact": {
-        "phone": "+1441-151-039-3038",
-        "email": "jwaters151@cerist.com",
-        "socMedia": null
-    },
-    "login": {
-        "username": "jwaters",
-        "oauth2": null,
-        "password": "$2y$10$sicWKXRajsmBucDdiWSaGOz.yOy3oXyZ1wfXh\/SpBYkIHnwQgNb2K"
-    },
-    "otherContact": {
-        "emails": [
-            "jwaters@maxcomm.net"
-        ],
-        "phoneNumbers": [
-            "+1441-135-624-9379"
-        ],
-        "socMedias": []
-    },
-    "otherInfo": {
-        "gender": "M",
-        "dateOfBirth": "1944-11-09"
-    }
-});
-db.partners.insertOne(
-{
-    "partnerKey": "MYRNSALG7692",
-    "businessName": "Fat Cats Industries Inc",
-    "revenueSplit": 0.49,
-    "acctBalance": 342877.59,
-    "name": {
-        "title": "Ms",
-        "first": "Myrna",
-        "middle": "L",
-        "last": "Salgado",
-        "suffix": null
-    },
-    "address": {
-        "streetAddress": "902 Long Canyon Drive",
-        "buildingName": null,
-        "floor": null,
-        "roomAptCondoFlat": null,
-        "city": "Shyampura",
-        "stateProvince": "Shyampura",
-        "locality": "Mahendragarh",
-        "country": "IN",
-        "postalCode": "123024",
-        "latitude": "28.4268",
-        "longitude": "75.9414"
-    },
-    "contact": {
-        "phone": "+91-152-629-7692",
-        "email": "msalgado152@access.com",
-        "socMedia": null
-    },
-    "login": {
-        "username": "msalgado",
-        "oauth2": null,
-        "password": "$2y$10$rZW1Y4vbaxkwWq59KmyVdO26sk5eYPj.NTB2baIkhwSt.36MUM.l2"
-    },
-    "otherContact": {
-        "emails": [
-            "msalgado@jio.net"
-        ],
-        "phoneNumbers": [],
-        "socMedias": []
-    },
-    "otherInfo": {
-        "gender": "F",
-        "dateOfBirth": "1987-10-05"
-    }
-});
-db.partners.insertOne(
-{
-    "partnerKey": "LEANBOYD3746",
-    "businessName": "Friendly Trust Company",
-    "revenueSplit": 0.07,
-    "acctBalance": 747990.4500000001,
-    "name": {
-        "title": null,
-        "first": "Leandro",
-        "middle": null,
-        "last": "Boyd",
-        "suffix": null
-    },
-    "address": {
-        "streetAddress": "4297 Red Mountain Circle",
-        "buildingName": null,
-        "floor": null,
-        "roomAptCondoFlat": null,
-        "city": "Berresoug",
-        "stateProvince": "Tlemcen",
-        "locality": "Tlemcen",
-        "country": "DZ",
-        "postalCode": "13019",
-        "latitude": "35.0694",
-        "longitude": "-1.1371"
-    },
-    "contact": {
-        "phone": "+213-153-718-3746",
-        "email": "lboyd153@ktc.com",
-        "socMedia": null
-    },
-    "login": {
-        "username": "lboyd",
-        "oauth2": null,
-        "password": "$2y$10$s4Po9OhePktUUDTueeulAOtNqYc\/qp3uaJbVIyekzsASn4Ra7QLYy"
-    },
-    "otherContact": {
-        "emails": [
-            "lboyd@telefonica.net",
-            "lboyd@megafon.net",
-            "lboyd@verizon.net"
-        ],
-        "phoneNumbers": [],
-        "socMedias": []
-    },
-    "otherInfo": {
-        "gender": "M",
-        "dateOfBirth": "1941-02-09"
-    }
-});
-db.partners.insertOne(
-{
-    "partnerKey": "ALFRMEYE0648",
-    "businessName": "Friendly Industries Company",
-    "revenueSplit": 0.26,
-    "acctBalance": 944191.41,
-    "name": {
-        "title": "Mr",
-        "first": "Alfredo",
-        "middle": "S",
-        "last": "Meyers",
-        "suffix": null
-    },
-    "address": {
-        "streetAddress": "5712 Long Ridge Ride",
-        "buildingName": null,
-        "floor": null,
-        "roomAptCondoFlat": null,
-        "city": "Paris",
-        "stateProvince": "TX",
-        "locality": "Lamar",
+        "roomAptCondoFlat": "82",
+        "city": "North Wales",
+        "stateProvince": "PA",
+        "locality": "Montgomery",
         "country": "US",
-        "postalCode": "75460",
-        "latitude": "33.6581",
-        "longitude": "-95.5379"
+        "postalCode": "19455",
+        "latitude": "40.2109",
+        "longitude": "-75.2782"
     },
     "contact": {
-        "phone": "+1-154-190-0648",
-        "email": "ameyers154@telia.com",
-        "socMedia": null
+        "email": "mweaver156@eunet.com",
+        "phone": "+61-156-112-0868",
+        "socMedia": []
     },
     "login": {
-        "username": "ameyers",
+        "username": "mweaver",
         "oauth2": null,
-        "password": "$2y$10$ZADJA3KjeSX9BXKrogCnfeYvDFVvhx9wf3dnq9xxJA8tS4JCgqCK."
+        "password": "$2y$10$7zyl\/zQNBsSOkNSq4iMhNu87RwdQliMblEtvWUrd4spl8FH3jEapa"
     },
     "otherContact": {
         "emails": [
-            "ameyers@apicnet.net",
-            "ameyers@maxcomm.net"
+            "mweaver156@chunghwa.com"
         ],
         "phoneNumbers": [
-            "+1-448-980-3471",
-            "+1-906-263-2167",
-            "+1-670-880-2797"
-        ],
-        "socMedias": []
+            "+61-156-643-6771"
+        ]
     },
     "otherInfo": {
         "gender": "M",
-        "dateOfBirth": "1960-08-24"
+        "dateOfBirth": "1940-12-06"
     }
 });
 db.partners.insertOne(
 {
-    "partnerKey": "LELADAVI1498",
-    "businessName": "Fat Cats Trust LLC",
-    "revenueSplit": 0.36,
-    "acctBalance": 840821.99,
+    "partnerKey": "BOUTNTYL6979",
+    "businessName": "Boutique Associates LLC",
+    "revenueSplit": 0.4,
+    "acctBalance": 60877.37,
     "name": {
         "title": "Mr",
-        "first": "Leland",
-        "middle": "Y",
-        "last": "Davidson",
-        "suffix": null
-    },
-    "address": {
-        "streetAddress": "9319 Red Bough Way",
-        "buildingName": null,
-        "floor": null,
-        "roomAptCondoFlat": null,
-        "city": "Kourou",
-        "stateProvince": "GF",
-        "locality": "Guyane",
-        "country": "GF",
-        "postalCode": "97372 CEDEX",
-        "latitude": "5.1628",
-        "longitude": "-52.6427"
-    },
-    "contact": {
-        "phone": "+594-155-594-1498",
-        "email": "ldavidso155@softbank.com",
-        "socMedia": null
-    },
-    "login": {
-        "username": "ldavidso",
-        "oauth2": null,
-        "password": "$2y$10$Ne\/XTUacpKV9jkyPCreTVO63xnWwPyNCRn8an6I3EHOIz6RAd35U2"
-    },
-    "otherContact": {
-        "emails": [],
-        "phoneNumbers": [
-            "+594-716-686-7203"
-        ],
-        "socMedias": []
-    },
-    "otherInfo": {
-        "gender": "M",
-        "dateOfBirth": "1963-06-10"
-    }
-});
-db.partners.insertOne(
-{
-    "partnerKey": "TERRBANK4942",
-    "businessName": "Fat Cats Associates LLC",
-    "revenueSplit": 0.03,
-    "acctBalance": 979829.34,
-    "name": {
-        "title": null,
-        "first": "Terrell",
-        "middle": null,
-        "last": "Banks",
-        "suffix": null
-    },
-    "address": {
-        "streetAddress": "9549 Little Bough Circle",
-        "buildingName": null,
-        "floor": null,
-        "roomAptCondoFlat": null,
-        "city": "Ch\u00e2teauguay South",
-        "stateProvince": "QC",
-        "locality": "Mont\u00e9r\u00e9gie",
-        "country": "CA",
-        "postalCode": "J6K",
-        "latitude": "45.3526",
-        "longitude": "-73.7305"
-    },
-    "contact": {
-        "phone": "+1-156-827-4942",
-        "email": "tbanks156@apicnet.com",
-        "socMedia": null
-    },
-    "login": {
-        "username": "tbanks",
-        "oauth2": null,
-        "password": "$2y$10$NE.3YRJDXkgqJa2rjcTvOudHvOOXGDlc36tpgaToiBSObD.AC0H\/q"
-    },
-    "otherContact": {
-        "emails": [
-            "tbanks@orstom.net"
-        ],
-        "phoneNumbers": [
-            "+1-252-017-0346"
-        ],
-        "socMedias": []
-    },
-    "otherInfo": {
-        "gender": "M",
-        "dateOfBirth": "1945-10-18"
-    }
-});
-db.partners.insertOne(
-{
-    "partnerKey": "BOYDSCHM9225",
-    "businessName": "Fat Cats Associates Ltd",
-    "revenueSplit": 0.26,
-    "acctBalance": 525015.08,
-    "name": {
-        "title": "Mr",
-        "first": "Boyd",
+        "first": "Nicolas",
         "middle": "U",
-        "last": "Schmidt",
+        "last": "Tyler",
         "suffix": null
     },
     "address": {
-        "streetAddress": "9384 Big Gulch Drive",
+        "streetAddress": "5787 Winding Bend Road",
         "buildingName": null,
         "floor": null,
         "roomAptCondoFlat": null,
-        "city": "Sveagruva",
-        "stateProvince": "Spitsbergen",
-        "locality": "Spitsbergen",
-        "country": "SJ",
-        "postalCode": "9175",
-        "latitude": "77.9003",
-        "longitude": "16.7201"
+        "city": "Dogana",
+        "stateProvince": null,
+        "locality": null,
+        "country": "SM",
+        "postalCode": "47891",
+        "latitude": "43.9803",
+        "longitude": "12.4905"
     },
     "contact": {
-        "phone": "+47-157-006-9225",
-        "email": "bschmidt157@bt.com",
-        "socMedia": null
+        "email": "ntyler157@tt.com",
+        "phone": "+61-157-890-6979",
+        "socMedia": {
+            "skype": "ntyler157@tt.com@skype.com"
+        }
     },
     "login": {
-        "username": "bschmidt",
-        "oauth2": null,
-        "password": "$2y$10$VjXMcZpWHDV2226004zjxetzLvI2jGjjsQbCuOHPNHVbqw0uQzNhG"
+        "username": "ntyler",
+        "oauth2": "ntyler@skype.com",
+        "password": "$2y$10$b94AgXbzZzF2g.FsX.NgFeI3tFN.Rt8l.KDs23DqKZn0QyfpTIn0m"
     },
     "otherContact": {
         "emails": [
-            "bschmidt@tm.net",
-            "bschmidt@verizon.net"
+            "ntyler157@telecom.com"
         ],
         "phoneNumbers": [
-            "+47-399-045-1049"
+            "+61-157-917-6079"
         ],
-        "socMedias": []
+        "socMedias": [
+            {
+                "google": "ntyler157@telecom.com@google.com"
+            }
+        ]
     },
     "otherInfo": {
         "gender": "M",
-        "dateOfBirth": "1964-04-06"
+        "dateOfBirth": "1956-03-14"
     }
 });
 db.partners.insertOne(
 {
-    "partnerKey": "INESRAY3819",
-    "businessName": "Serious Associates Ltd",
-    "revenueSplit": 0.18,
-    "acctBalance": 711314.04,
+    "partnerKey": "LEISPJAC5713",
+    "businessName": "Leisure Industries ",
+    "revenueSplit": 0.12,
+    "acctBalance": 624441.6,
     "name": {
         "title": "Ms",
-        "first": "Ines",
-        "middle": "N",
-        "last": "Ray",
+        "first": "Pamula",
+        "middle": "X",
+        "last": "Jacobson",
         "suffix": null
     },
     "address": {
-        "streetAddress": "9104 Long Ditch Ride",
+        "streetAddress": "2567 Green Bend Boulevard",
         "buildingName": null,
         "floor": null,
         "roomAptCondoFlat": null,
-        "city": "Auldana",
-        "stateProvince": "SA",
-        "locality": "SA SUBS NEAR 2",
-        "country": "AU",
-        "postalCode": "5072",
-        "latitude": "-34.918",
-        "longitude": "138.6869"
+        "city": "Ascreavie",
+        "stateProvince": "Scotland",
+        "locality": "Angus",
+        "country": "GB",
+        "postalCode": "DD8",
+        "latitude": "56.5818",
+        "longitude": "-3"
     },
     "contact": {
-        "phone": "+61-158-754-3819",
-        "email": "iray158@belgacom.com",
-        "socMedia": null
+        "email": "pjacobso158@ais.com",
+        "phone": "+61-158-868-5713",
+        "socMedia": {
+            "linkedin": "pjacobso158@ais.com@linkedin.com"
+        }
     },
     "login": {
-        "username": "iray",
-        "oauth2": null,
-        "password": "$2y$10$b9AHP6L3RMtzgkgo8N.so.6St4IiPetabf4zWIzAufgMIlM0dG7gC"
+        "username": "pjacobso",
+        "oauth2": "pjacobso@linkedin.com",
+        "password": "$2y$10$mZJrxcJWG.EXuKuI6L9AC.xgQBCFggW5hykeqscCSPFN0FPxi24iW"
     },
-    "otherContact": {
-        "emails": [
-            "iray@telesystems.net",
-            "iray@centurylink.net"
-        ],
-        "phoneNumbers": [],
-        "socMedias": []
-    },
+    "otherContact": [],
     "otherInfo": {
         "gender": "F",
-        "dateOfBirth": "1965-09-11"
+        "dateOfBirth": "1936-02-24"
     }
 });
 db.partners.insertOne(
 {
-    "partnerKey": "AMBRMALD5007",
-    "businessName": "Serious Trust Ltd",
-    "revenueSplit": 0.4,
-    "acctBalance": 856316.15,
+    "partnerKey": "LAZYFPUG7129",
+    "businessName": "Lazy Bird Business Ltd",
+    "revenueSplit": 0.46,
+    "acctBalance": 219488.46,
     "name": {
         "title": null,
-        "first": "Ambrose",
+        "first": "Fannie",
         "middle": null,
-        "last": "Maldonado",
+        "last": "Pugh",
         "suffix": null
     },
     "address": {
-        "streetAddress": "1432 Red Mound Ride",
+        "streetAddress": "3137 Blue Woods Street",
         "buildingName": null,
-        "floor": 15,
+        "floor": null,
         "roomAptCondoFlat": null,
-        "city": "Le Tampon",
-        "stateProvince": "RE",
-        "locality": "R\u00e9union",
-        "country": "RE",
-        "postalCode": "97837 CEDEX",
-        "latitude": "-21.2831",
-        "longitude": "55.518"
+        "city": "Ron Taluk Kut",
+        "stateProvince": "NA",
+        "locality": "Gadag",
+        "country": "IN",
+        "postalCode": "582209",
+        "latitude": "15.5827",
+        "longitude": "75.5057"
     },
     "contact": {
-        "phone": "+262-159-260-5007",
-        "email": "amaldona159@telstra.com",
-        "socMedia": null
+        "email": "fpugh159@worldnet.com",
+        "phone": "+61-159-688-7129",
+        "socMedia": []
     },
     "login": {
-        "username": "amaldona",
+        "username": "fpugh",
         "oauth2": null,
-        "password": "$2y$10$19evea\/Vl2xGrQQfErlxvuFW42TylyZGBdwo3Vyl2OH6kLY67mXSC"
+        "password": "$2y$10$cL4mIRCm89Zd.VvmeXME1OeuOwrJX.QcyBaK2AehffqJFQ86B1Xci"
     },
-    "otherContact": {
-        "emails": [
-            "amaldona@safaricom.net",
-            "amaldona@ccs.net",
-            "amaldona@ntt.net"
-        ],
-        "phoneNumbers": [
-            "+262-869-678-9471",
-            "+262-493-329-5446"
-        ],
-        "socMedias": []
-    },
+    "otherContact": [],
     "otherInfo": {
-        "gender": "M",
-        "dateOfBirth": "1963-12-24"
+        "gender": "F",
+        "dateOfBirth": "1982-01-15"
     }
 });
 db.partners.insertOne(
 {
-    "partnerKey": "FABIMOOR4537",
-    "businessName": "Friendly Business Inc",
-    "revenueSplit": 0.11,
-    "acctBalance": 813102.97,
+    "partnerKey": "SERICDEL9334",
+    "businessName": "Serious Agency Inc",
+    "revenueSplit": 0.07,
+    "acctBalance": 645248.76,
     "name": {
         "title": "Ms",
-        "first": "Fabian",
-        "middle": "T",
-        "last": "Moore",
+        "first": "Clyde",
+        "middle": "L",
+        "last": "Delgado",
         "suffix": null
     },
     "address": {
-        "streetAddress": "8637 Blue Gully Way",
+        "streetAddress": "3486 Green Mountain Circle",
         "buildingName": null,
-        "floor": 2,
+        "floor": null,
         "roomAptCondoFlat": null,
-        "city": "Dawesley",
-        "stateProvince": "SA",
-        "locality": "South Australia",
-        "country": "AU",
-        "postalCode": "5252",
-        "latitude": "-35.0419",
-        "longitude": "138.9535"
+        "city": "Bijron",
+        "stateProvince": "Baldeogarh",
+        "locality": "Tikamgarh",
+        "country": "IN",
+        "postalCode": "472339",
+        "latitude": "24.7868",
+        "longitude": "79.0972"
     },
     "contact": {
-        "phone": "+61-160-846-4537",
-        "email": "fmoore160@orange.com",
+        "email": "cdelgado160@ptcl.com",
+        "phone": "+61-160-483-9334",
         "socMedia": {
-            "linkedin": "fmoore@linkedin.com"
+            "facebook": "cdelgado160@ptcl.com@facebook.com"
         }
     },
     "login": {
-        "username": "fmoore",
-        "oauth2": "fmoore@linkedin.com",
-        "password": "$2y$10$FShz8vMIwZ.0tglbm6OR1OP3v04dJkO9Oo10yGQdhmPEeBYIZ3xya"
+        "username": "cdelgado",
+        "oauth2": "cdelgado@facebook.com",
+        "password": "$2y$10$Gj7usOcsj9rYLERkP3\/VPOQORYah2oPeV38gYyrzykc9.gHDg6\/PC"
     },
-    "otherContact": {
-        "emails": [],
-        "phoneNumbers": [
-            "+61-187-892-5520",
-            "+61-488-153-0857"
-        ],
-        "socMedias": {
-            "facebook": "fmoore@facebook.com",
-            "skype": "fmoore@skype.com"
-        }
-    },
+    "otherContact": [],
     "otherInfo": {
         "gender": "X",
-        "dateOfBirth": "1968-12-20"
+        "dateOfBirth": "1938-06-16"
     }
 });
 db.partners.insertOne(
 {
-    "partnerKey": "GABRHILL2253",
-    "businessName": "Fat Cats Business Ltd",
-    "revenueSplit": 0.04,
-    "acctBalance": 735849.9400000001,
-    "name": {
-        "title": "Ms",
-        "first": "Gabrielle",
-        "middle": "N",
-        "last": "Hill",
-        "suffix": null
-    },
-    "address": {
-        "streetAddress": "2841 Big Hill Circle",
-        "buildingName": null,
-        "floor": null,
-        "roomAptCondoFlat": null,
-        "city": "Patreksfir\u00f0i",
-        "stateProvince": null,
-        "locality": null,
-        "country": "IS",
-        "postalCode": "450",
-        "latitude": "65.5978",
-        "longitude": "-23.996"
-    },
-    "contact": {
-        "phone": "+354-161-985-2253",
-        "email": "ghill161@tata.com",
-        "socMedia": null
-    },
-    "login": {
-        "username": "ghill",
-        "oauth2": null,
-        "password": "$2y$10$98kENRIemwMa86\/ovDNXeOwaOUWjqbB2OYpvXvEIlkInmuP5ZLZdO"
-    },
-    "otherContact": {
-        "emails": [
-            "ghill@vodafone.net"
-        ],
-        "phoneNumbers": [
-            "+354-819-049-3293"
-        ],
-        "socMedias": []
-    },
-    "otherInfo": {
-        "gender": "F",
-        "dateOfBirth": "2000-08-21"
-    }
-});
-db.partners.insertOne(
-{
-    "partnerKey": "JIMHENS7014",
-    "businessName": "Serious Industries Inc",
-    "revenueSplit": 0.05,
-    "acctBalance": 338096.61,
-    "name": {
-        "title": null,
-        "first": "Jim",
-        "middle": null,
-        "last": "Hensley",
-        "suffix": null
-    },
-    "address": {
-        "streetAddress": "5760 Red Creek Road",
-        "buildingName": null,
-        "floor": null,
-        "roomAptCondoFlat": null,
-        "city": "St. Martins",
-        "stateProvince": "NB",
-        "locality": "New Brunswick",
-        "country": "CA",
-        "postalCode": "E5R",
-        "latitude": "45.351",
-        "longitude": "-65.5457"
-    },
-    "contact": {
-        "phone": "+1-162-906-7014",
-        "email": "jhensley162@airtel.com",
-        "socMedia": null
-    },
-    "login": {
-        "username": "jhensley",
-        "oauth2": null,
-        "password": "$2y$10$XNHHuuVPVPXNis.N8PyBDOEQ88lcY.GGwsvSbadyh97UHv3Xdscf."
-    },
-    "otherContact": {
-        "emails": [
-            "jhensley@worldnet.net"
-        ],
-        "phoneNumbers": [
-            "+1-746-121-2712",
-            "+1-809-408-4034"
-        ],
-        "socMedias": []
-    },
-    "otherInfo": {
-        "gender": "M",
-        "dateOfBirth": "2001-09-09"
-    }
-});
-db.partners.insertOne(
-{
-    "partnerKey": "DEBRBRAD1578",
-    "businessName": "Serious Industries LLC",
-    "revenueSplit": 0.49,
-    "acctBalance": 373256.53,
-    "name": {
-        "title": "Ms",
-        "first": "Debroah",
-        "middle": "M",
-        "last": "Bradford",
-        "suffix": null
-    },
-    "address": {
-        "streetAddress": "9957 Little Ridge Street",
-        "buildingName": null,
-        "floor": null,
-        "roomAptCondoFlat": null,
-        "city": "Alaincourt",
-        "stateProvince": "Arrondissement de Saint-Quentin",
-        "locality": "Aisne",
-        "country": "FR",
-        "postalCode": "02240",
-        "latitude": "49.7655",
-        "longitude": "3.3764"
-    },
-    "contact": {
-        "phone": "+33-163-617-1578",
-        "email": "dbradfor163@ote.com",
-        "socMedia": null
-    },
-    "login": {
-        "username": "dbradfor",
-        "oauth2": null,
-        "password": "$2y$10$BoPchtB99PEOsYnmLNAJz.uYuRtd7SNCzfs7vIuwtA7fjuvaH0UfC"
-    },
-    "otherContact": {
-        "emails": [
-            "dbradfor@telekom.net",
-            "dbradfor@ptcl.net"
-        ],
-        "phoneNumbers": [],
-        "socMedias": []
-    },
-    "otherInfo": {
-        "gender": "F",
-        "dateOfBirth": "1945-08-23"
-    }
-});
-db.partners.insertOne(
-{
-    "partnerKey": "IVANOCON1332",
-    "businessName": "Friendly Business Company",
-    "revenueSplit": 0.38,
-    "acctBalance": 882336.49,
+    "partnerKey": "AFFOWHEA5776",
+    "businessName": "Affordable Partners ",
+    "revenueSplit": 0.36,
+    "acctBalance": 520562.60000000003,
     "name": {
         "title": "Mr",
-        "first": "Ivan",
-        "middle": "W",
-        "last": "Oconnor",
-        "suffix": null
-    },
-    "address": {
-        "streetAddress": "9378 Long Woods Circle",
-        "buildingName": null,
-        "floor": null,
-        "roomAptCondoFlat": null,
-        "city": "Anton's Gowt",
-        "stateProvince": "England",
-        "locality": "Lincolnshire",
-        "country": "GB",
-        "postalCode": "PE22",
-        "latitude": "53.0613",
-        "longitude": "0.0142"
-    },
-    "contact": {
-        "phone": "+44-164-048-1332",
-        "email": "ioconnor164@bifty.com",
-        "socMedia": null
-    },
-    "login": {
-        "username": "ioconnor",
-        "oauth2": null,
-        "password": "$2y$10$ZUSk\/ID3m4v7ClScEjC.xOcdlmZn9cjsSuUEQU4\/vXrCQCeizZaUS"
-    },
-    "otherContact": {
-        "emails": [
-            "ioconnor@bifty.net"
-        ],
-        "phoneNumbers": [
-            "+44-159-495-7245"
-        ],
-        "socMedias": []
-    },
-    "otherInfo": {
-        "gender": "M",
-        "dateOfBirth": "1992-01-17"
-    }
-});
-db.partners.insertOne(
-{
-    "partnerKey": "GWYNMORR1513",
-    "businessName": "Serious Associates Company",
-    "revenueSplit": 0.08,
-    "acctBalance": 178148.16,
-    "name": {
-        "title": null,
-        "first": "Gwyn",
-        "middle": null,
-        "last": "Morris",
-        "suffix": null
-    },
-    "address": {
-        "streetAddress": "5410 Green Bend Avenue",
-        "buildingName": null,
-        "floor": null,
-        "roomAptCondoFlat": "41",
-        "city": "Oslo",
-        "stateProvince": "Oslo",
-        "locality": "Oslo",
-        "country": "NO",
-        "postalCode": "0682",
-        "latitude": "59.9127",
-        "longitude": "10.7461"
-    },
-    "contact": {
-        "phone": "+47-165-028-1513",
-        "email": "gmorris165@rogers.com",
-        "socMedia": null
-    },
-    "login": {
-        "username": "gmorris",
-        "oauth2": null,
-        "password": "$2y$10$d942p1MCju\/nFnbQXBIFO.No4J48x71pQ5HkeE3rwkTo7XOechfaW"
-    },
-    "otherContact": {
-        "emails": [],
-        "phoneNumbers": [
-            "+47-945-640-6437"
-        ],
-        "socMedias": []
-    },
-    "otherInfo": {
-        "gender": "F",
-        "dateOfBirth": "1936-05-30"
-    }
-});
-db.partners.insertOne(
-{
-    "partnerKey": "EMILMCGU0885",
-    "businessName": "Fat Cats Associates LLC",
-    "revenueSplit": 0.45,
-    "acctBalance": 755778.65,
-    "name": {
-        "title": "Mr",
-        "first": "Emil",
-        "middle": "X",
-        "last": "Mcguire",
-        "suffix": null
-    },
-    "address": {
-        "streetAddress": "9100 Big Bend Boulevard",
-        "buildingName": null,
-        "floor": 5,
-        "roomAptCondoFlat": null,
-        "city": "Sherborne St John",
-        "stateProvince": "England",
-        "locality": "Hampshire",
-        "country": "GB",
-        "postalCode": "RG24",
-        "latitude": "51.2971",
-        "longitude": "-1.1139"
-    },
-    "contact": {
-        "phone": "+44-166-753-0885",
-        "email": "emcguire166@eunet.com",
-        "socMedia": null
-    },
-    "login": {
-        "username": "emcguire",
-        "oauth2": null,
-        "password": "$2y$10$rRe0n2l66XZPf1KFbzVSpuPS5AJAjS6yTwCWZHDHr4N4M3hZ6sQkS"
-    },
-    "otherContact": {
-        "emails": [
-            "emcguire@mtn.net",
-            "emcguire@telesystems.net",
-            "emcguire@millicom.net"
-        ],
-        "phoneNumbers": [
-            "+44-402-625-0799",
-            "+44-350-109-3223",
-            "+44-811-903-8890"
-        ],
-        "socMedias": []
-    },
-    "otherInfo": {
-        "gender": "M",
-        "dateOfBirth": "1999-08-24"
-    }
-});
-db.partners.insertOne(
-{
-    "partnerKey": "DENNDOYL1278",
-    "businessName": "Fat Cats Industries Company",
-    "revenueSplit": 0.1,
-    "acctBalance": 806506.2000000001,
-    "name": {
-        "title": "Ms",
-        "first": "Dennis",
-        "middle": "G",
-        "last": "Doyle",
-        "suffix": null
-    },
-    "address": {
-        "streetAddress": "644 Winding Canyon Circle",
-        "buildingName": null,
-        "floor": null,
-        "roomAptCondoFlat": null,
-        "city": "CABANAS",
-        "stateProvince": "DEPTO DE ZACAPA",
-        "locality": "DEPTO DE ZACAPA",
-        "country": "GT",
-        "postalCode": "19007",
-        "latitude": "14.9333",
-        "longitude": "-89.8"
-    },
-    "contact": {
-        "phone": "+502-167-436-1278",
-        "email": "ddoyle167@turkcell.com",
-        "socMedia": null
-    },
-    "login": {
-        "username": "ddoyle",
-        "oauth2": null,
-        "password": "$2y$10$IedRQtHcDTjyF.tDP9eDEOvQO6Hli0.SrhaJj6ev2xNibGeg50E0S"
-    },
-    "otherContact": {
-        "emails": [],
-        "phoneNumbers": [
-            "+502-191-105-6303"
-        ],
-        "socMedias": []
-    },
-    "otherInfo": {
-        "gender": "F",
-        "dateOfBirth": "1950-07-16"
-    }
-});
-db.partners.insertOne(
-{
-    "partnerKey": "DANICHAS6840",
-    "businessName": "Serious Trust Company",
-    "revenueSplit": 0.4,
-    "acctBalance": 968707.84,
-    "name": {
-        "title": null,
-        "first": "Daniel",
-        "middle": null,
-        "last": "Chase",
-        "suffix": null
-    },
-    "address": {
-        "streetAddress": "7635 Little Woods Boulevard",
-        "buildingName": null,
-        "floor": null,
-        "roomAptCondoFlat": null,
-        "city": "Inyokern",
-        "stateProvince": "CA",
-        "locality": "Kern",
-        "country": "US",
-        "postalCode": "93527",
-        "latitude": "35.6397",
-        "longitude": "-117.857"
-    },
-    "contact": {
-        "phone": "+1-168-731-6840",
-        "email": "dchase168@algonet.com",
-        "socMedia": null
-    },
-    "login": {
-        "username": "dchase",
-        "oauth2": null,
-        "password": "$2y$10$bpweaeMblj2xSmJm5iTkseiTNJ9svxS3YN2AIND9d6Ywo3ZA5qDMC"
-    },
-    "otherContact": {
-        "emails": [
-            "dchase@ktc.net"
-        ],
-        "phoneNumbers": [
-            "+1-566-015-1515"
-        ],
-        "socMedias": []
-    },
-    "otherInfo": {
-        "gender": "M",
-        "dateOfBirth": "1982-07-13"
-    }
-});
-db.partners.insertOne(
-{
-    "partnerKey": "REINTORR6281",
-    "businessName": "Friendly Trust LLC",
-    "revenueSplit": 0.23,
-    "acctBalance": 789092.98,
-    "name": {
-        "title": "Mr",
-        "first": "Reinaldo",
-        "middle": "W",
-        "last": "Torres",
-        "suffix": null
-    },
-    "address": {
-        "streetAddress": "7739 Short Stream Way",
-        "buildingName": null,
-        "floor": null,
-        "roomAptCondoFlat": null,
-        "city": "Langasandur",
-        "stateProvince": null,
-        "locality": null,
-        "country": "FO",
-        "postalCode": "438",
-        "latitude": "62.2333",
-        "longitude": "-7.0333"
-    },
-    "contact": {
-        "phone": "+298-169-889-6281",
-        "email": "rtorres169@telus.com",
-        "socMedia": null
-    },
-    "login": {
-        "username": "rtorres",
-        "oauth2": null,
-        "password": "$2y$10$rguPLSAEN6WdJuT5lAuHU.O5q8nZDMlyHKbAuuzQLWFAyfnu3gbg6"
-    },
-    "otherContact": {
-        "emails": [],
-        "phoneNumbers": [
-            "+298-612-628-1178",
-            "+298-495-174-6209"
-        ],
-        "socMedias": []
-    },
-    "otherInfo": {
-        "gender": "M",
-        "dateOfBirth": "1982-08-09"
-    }
-});
-db.partners.insertOne(
-{
-    "partnerKey": "TRANMARS1193",
-    "businessName": "Fat Cats Trust Inc",
-    "revenueSplit": 0.42,
-    "acctBalance": 31277.21,
-    "name": {
-        "title": "Ms",
-        "first": "Tran",
-        "middle": "P",
-        "last": "Marshall",
-        "suffix": null
-    },
-    "address": {
-        "streetAddress": "1786 Big Ditch Boulevard",
-        "buildingName": null,
-        "floor": null,
-        "roomAptCondoFlat": null,
-        "city": "Obum Obum",
-        "stateProvince": "QLD",
-        "locality": "Queensland",
-        "country": "AU",
-        "postalCode": "4309",
-        "latitude": "-27.9158",
-        "longitude": "152.652"
-    },
-    "contact": {
-        "phone": "+61-170-422-1193",
-        "email": "tmarshal170@centurylink.com",
-        "socMedia": {
-            "facebook": "tmarshal@facebook.com"
-        }
-    },
-    "login": {
-        "username": "tmarshal",
-        "oauth2": "tmarshal@facebook.com",
-        "password": "$2y$10$n2DQDYbUpPpQ7I3HqAg8HeMG8U9fshaLpF84R.to5wstXhvSCEEqG"
-    },
-    "otherContact": {
-        "emails": [
-            "tmarshal@maxcomm.net",
-            "tmarshal@etisalat.net"
-        ],
-        "phoneNumbers": [
-            "+61-216-875-4800"
-        ],
-        "socMedias": {
-            "google": "tmarshal@google.com",
-            "facebook": "tmarshal@facebook.com",
-            "skype": "tmarshal@skype.com"
-        }
-    },
-    "otherInfo": {
-        "gender": "F",
-        "dateOfBirth": "1965-02-05"
-    }
-});
-db.partners.insertOne(
-{
-    "partnerKey": "SCOTWHEE3888",
-    "businessName": "Fat Cats Business Inc",
-    "revenueSplit": 0.46,
-    "acctBalance": 175341.21,
-    "name": {
-        "title": null,
-        "first": "Scott",
-        "middle": null,
-        "last": "Wheeler",
-        "suffix": null
-    },
-    "address": {
-        "streetAddress": "3354 Red Stream Boulevard",
-        "buildingName": null,
-        "floor": null,
-        "roomAptCondoFlat": null,
-        "city": "Maxov",
-        "stateProvince": "Doma\u017elice",
-        "locality": "Doma\u017elice",
-        "country": "CZ",
-        "postalCode": "344 01",
-        "latitude": "49.35",
-        "longitude": "12.9333"
-    },
-    "contact": {
-        "phone": "+420-171-608-3888",
-        "email": "swheeler171@tt.com",
-        "socMedia": null
-    },
-    "login": {
-        "username": "swheeler",
-        "oauth2": null,
-        "password": "$2y$10$JwYfXiHsN7tXQWtMyfrxH.M1D53dagxK5kPGGxXBu\/Lcan24k8KX."
-    },
-    "otherContact": {
-        "emails": [
-            "swheeler@verizon.net"
-        ],
-        "phoneNumbers": [
-            "+420-933-449-5316"
-        ],
-        "socMedias": []
-    },
-    "otherInfo": {
-        "gender": "M",
-        "dateOfBirth": "1994-06-20"
-    }
-});
-db.partners.insertOne(
-{
-    "partnerKey": "ILDAKOCH3869",
-    "businessName": "Industrious Industries Ltd",
-    "revenueSplit": 0.15,
-    "acctBalance": 585910.52,
-    "name": {
-        "title": "Ms",
-        "first": "Ilda",
-        "middle": "L",
-        "last": "Koch",
-        "suffix": null
-    },
-    "address": {
-        "streetAddress": "532 Winding Hill Road",
-        "buildingName": null,
-        "floor": 14,
-        "roomAptCondoFlat": null,
-        "city": "Petford",
-        "stateProvince": "QLD",
-        "locality": "Queensland",
-        "country": "AU",
-        "postalCode": "4871",
-        "latitude": "-17.35",
-        "longitude": "144.9333"
-    },
-    "contact": {
-        "phone": "+61-172-874-3869",
-        "email": "ikoch172@sktelecom.com",
-        "socMedia": null
-    },
-    "login": {
-        "username": "ikoch",
-        "oauth2": null,
-        "password": "$2y$10$6ag0t30tAOcht1veCDQ1Du\/lxr7Vu9sDXXebV74mJr3G.duvfkX4i"
-    },
-    "otherContact": {
-        "emails": [],
-        "phoneNumbers": [],
-        "socMedias": []
-    },
-    "otherInfo": {
-        "gender": "F",
-        "dateOfBirth": "1992-04-21"
-    }
-});
-db.partners.insertOne(
-{
-    "partnerKey": "TANAHERM4251",
-    "businessName": "Industrious Associates LLC",
-    "revenueSplit": 0.12,
-    "acctBalance": 807926.66,
-    "name": {
-        "title": "Ms",
-        "first": "Tana",
-        "middle": "K",
-        "last": "Herman",
-        "suffix": null
-    },
-    "address": {
-        "streetAddress": "7718 Blue Ditch Boulevard",
-        "buildingName": null,
-        "floor": null,
-        "roomAptCondoFlat": null,
-        "city": "Barrigada",
-        "stateProvince": "Guam",
-        "locality": "Guam",
-        "country": "GU",
-        "postalCode": "96921",
-        "latitude": "13.4593",
-        "longitude": "144.7942"
-    },
-    "contact": {
-        "phone": "+1671-173-091-4251",
-        "email": "therman173@telus.com",
-        "socMedia": null
-    },
-    "login": {
-        "username": "therman",
-        "oauth2": null,
-        "password": "$2y$10$B7dm3c0Y2Md.izi1T1YnMOh181psSPm\/uHxIsQlCGMUlCK57WHJIO"
-    },
-    "otherContact": {
-        "emails": [
-            "therman@vimpelcom.net"
-        ],
-        "phoneNumbers": [
-            "+1671-325-271-8711"
-        ],
-        "socMedias": []
-    },
-    "otherInfo": {
-        "gender": "F",
-        "dateOfBirth": "1953-11-29"
-    }
-});
-db.partners.insertOne(
-{
-    "partnerKey": "MAGDRIVE0071",
-    "businessName": "Friendly Industries Company",
-    "revenueSplit": 0.31,
-    "acctBalance": 82532.71,
-    "name": {
-        "title": null,
-        "first": "Magda",
-        "middle": null,
-        "last": "Rivera",
-        "suffix": null
-    },
-    "address": {
-        "streetAddress": "606 Little Canyon Street",
-        "buildingName": null,
-        "floor": null,
-        "roomAptCondoFlat": null,
-        "city": "Khapa Bazar",
-        "stateProvince": "Keolari",
-        "locality": "Seoni",
-        "country": "IN",
-        "postalCode": "480991",
-        "latitude": "22.493",
-        "longitude": "79.5589"
-    },
-    "contact": {
-        "phone": "+91-174-925-0071",
-        "email": "mrivera174@telecomitalia.com",
-        "socMedia": null
-    },
-    "login": {
-        "username": "mrivera",
-        "oauth2": null,
-        "password": "$2y$10$o0XF5xotHCkIlB\/4QqENhOEQw4gvgScuivHFXLRPAmG0GwEP4rKhe"
-    },
-    "otherContact": {
-        "emails": [],
-        "phoneNumbers": [],
-        "socMedias": []
-    },
-    "otherInfo": {
-        "gender": "F",
-        "dateOfBirth": "2003-06-30"
-    }
-});
-db.partners.insertOne(
-{
-    "partnerKey": "XAVICLAY8691",
-    "businessName": "Fat Cats Business Inc",
-    "revenueSplit": 0.37,
-    "acctBalance": 675402.93,
-    "name": {
-        "title": "Mr",
-        "first": "Xavier",
-        "middle": "I",
-        "last": "Clay",
-        "suffix": null
-    },
-    "address": {
-        "streetAddress": "9978 Big Mound Circle",
-        "buildingName": null,
-        "floor": null,
-        "roomAptCondoFlat": null,
-        "city": "Manton",
-        "stateProvince": "NSW",
-        "locality": "New South Wales",
-        "country": "AU",
-        "postalCode": "2582",
-        "latitude": "-34.7363",
-        "longitude": "148.8274"
-    },
-    "contact": {
-        "phone": "+61-175-555-8691",
-        "email": "xclay175@icom.com",
-        "socMedia": null
-    },
-    "login": {
-        "username": "xclay",
-        "oauth2": null,
-        "password": "$2y$10$oyIgP9PbiR91qhAtCCOTh.3fk9tvfBRsXtgYCOJYVpQDQlVvM7rtq"
-    },
-    "otherContact": {
-        "emails": [
-            "xclay@ptcl.net"
-        ],
-        "phoneNumbers": [],
-        "socMedias": []
-    },
-    "otherInfo": {
-        "gender": "M",
-        "dateOfBirth": "1997-08-05"
-    }
-});
-db.partners.insertOne(
-{
-    "partnerKey": "LAVEHOWE7023",
-    "businessName": "Fat Cats Associates Ltd",
-    "revenueSplit": 0.34,
-    "acctBalance": 12285.79,
-    "name": {
-        "title": "Mr",
-        "first": "Laverne",
-        "middle": "R",
-        "last": "Howell",
-        "suffix": null
-    },
-    "address": {
-        "streetAddress": "8512 Winding Woods Boulevard",
-        "buildingName": null,
-        "floor": 20,
-        "roomAptCondoFlat": null,
-        "city": "Mount Hicks",
-        "stateProvince": "TAS",
-        "locality": "TASMANIA",
-        "country": "AU",
-        "postalCode": "7325",
-        "latitude": "-41.0949",
-        "longitude": "145.6115"
-    },
-    "contact": {
-        "phone": "+61-176-435-7023",
-        "email": "lhowell176@uunet.com",
-        "socMedia": null
-    },
-    "login": {
-        "username": "lhowell",
-        "oauth2": null,
-        "password": "$2y$10$FEfVFDghsR7IvoFBArQnFOy2209sUg58b54l01uf5X6fmNFZhNdG."
-    },
-    "otherContact": {
-        "emails": [],
-        "phoneNumbers": [
-            "+61-969-453-0963",
-            "+61-252-014-8432"
-        ],
-        "socMedias": []
-    },
-    "otherInfo": {
-        "gender": "M",
-        "dateOfBirth": "2002-05-26"
-    }
-});
-db.partners.insertOne(
-{
-    "partnerKey": "DALTHO4428",
-    "businessName": "Fat Cats Associates LLC",
-    "revenueSplit": 0.06,
-    "acctBalance": 22111.11,
-    "name": {
-        "title": null,
-        "first": "Dalton",
-        "middle": null,
-        "last": "Ho",
-        "suffix": null
-    },
-    "address": {
-        "streetAddress": "5593 Short Gulch Ride",
-        "buildingName": null,
-        "floor": null,
-        "roomAptCondoFlat": "6E",
-        "city": "Berlev\u00e5g",
-        "stateProvince": "Berlev\u00e5g",
-        "locality": "Berlev\u00e5g",
-        "country": "NO",
-        "postalCode": "9980",
-        "latitude": "70.8578",
-        "longitude": "29.0864"
-    },
-    "contact": {
-        "phone": "+47-177-869-4428",
-        "email": "dho177@telecom.com",
-        "socMedia": null
-    },
-    "login": {
-        "username": "dho",
-        "oauth2": null,
-        "password": "$2y$10$rGJ.KNe1nxUOsVoJtqDCb.tSFJnkj5Ej1apJtyGolLhnCRAWx3Udu"
-    },
-    "otherContact": {
-        "emails": [
-            "dho@vodafone.net",
-            "dho@tm.net"
-        ],
-        "phoneNumbers": [],
-        "socMedias": []
-    },
-    "otherInfo": {
-        "gender": "M",
-        "dateOfBirth": "1997-06-25"
-    }
-});
-db.partners.insertOne(
-{
-    "partnerKey": "RAFACROS7519",
-    "businessName": "Serious Associates Ltd",
-    "revenueSplit": 0.2,
-    "acctBalance": 797971.53,
-    "name": {
-        "title": "Ms",
-        "first": "Rafaela",
-        "middle": "E",
-        "last": "Crosby",
-        "suffix": null
-    },
-    "address": {
-        "streetAddress": "8092 Big Creek Ride",
-        "buildingName": "Building 04",
-        "floor": null,
-        "roomAptCondoFlat": null,
-        "city": "Patratu Tps",
-        "stateProvince": "Patratu",
-        "locality": "Ramgarh",
-        "country": "IN",
-        "postalCode": "829119",
-        "latitude": "24.4228",
-        "longitude": "85.6799"
-    },
-    "contact": {
-        "phone": "+91-178-860-7519",
-        "email": "rcrosby178@frontier.com",
-        "socMedia": null
-    },
-    "login": {
-        "username": "rcrosby",
-        "oauth2": null,
-        "password": "$2y$10$.064Abx1.b0COi7ZmbNcMOsqYaZC\/MJtG.EhJiF.lZqSwXxaeAUWe"
-    },
-    "otherContact": {
-        "emails": [
-            "rcrosby@ais.net"
-        ],
-        "phoneNumbers": [],
-        "socMedias": []
-    },
-    "otherInfo": {
-        "gender": "F",
-        "dateOfBirth": "1946-09-17"
-    }
-});
-db.partners.insertOne(
-{
-    "partnerKey": "SHERSCHA0071",
-    "businessName": "Serious Industries Company",
-    "revenueSplit": 0.3,
-    "acctBalance": 822301.63,
-    "name": {
-        "title": "Mr",
-        "first": "Sherman",
-        "middle": "E",
-        "last": "Schaefer",
-        "suffix": null
-    },
-    "address": {
-        "streetAddress": "1665 Little Bough Ride",
-        "buildingName": null,
-        "floor": null,
-        "roomAptCondoFlat": null,
-        "city": "Mangattidam",
-        "stateProvince": "Thalassery",
-        "locality": "Kannur",
-        "country": "IN",
-        "postalCode": "670643",
-        "latitude": "11.8408",
-        "longitude": "75.6093"
-    },
-    "contact": {
-        "phone": "+91-179-603-0071",
-        "email": "sschaefe179@netcom.com",
-        "socMedia": null
-    },
-    "login": {
-        "username": "sschaefe",
-        "oauth2": null,
-        "password": "$2y$10$py.S3E2cUM1aU3WAbLAS0eAo2AZZiFhCf.AA5.0K.FvyirTJsMWem"
-    },
-    "otherContact": {
-        "emails": [
-            "sschaefe@bifty.net",
-            "sschaefe@ooredoo.net",
-            "sschaefe@econnect.net"
-        ],
-        "phoneNumbers": [],
-        "socMedias": []
-    },
-    "otherInfo": {
-        "gender": "M",
-        "dateOfBirth": "1941-09-26"
-    }
-});
-db.partners.insertOne(
-{
-    "partnerKey": "CHANGIBB1304",
-    "businessName": "Industrious Trust Ltd",
-    "revenueSplit": 0.16,
-    "acctBalance": 989595.79,
-    "name": {
-        "title": null,
-        "first": "Chantay",
-        "middle": null,
-        "last": "Gibbs",
-        "suffix": null
-    },
-    "address": {
-        "streetAddress": "1189 Winding Ridge Road",
-        "buildingName": null,
-        "floor": null,
-        "roomAptCondoFlat": null,
-        "city": "Cambridge East",
-        "stateProvince": "ON",
-        "locality": "Cambridge",
-        "country": "CA",
-        "postalCode": "N1T",
-        "latitude": "43.3849",
-        "longitude": "-80.2833"
-    },
-    "contact": {
-        "phone": "+1-180-173-1304",
-        "email": "cgibbs180@bce.com",
-        "socMedia": {
-            "facebook": "cgibbs@facebook.com"
-        }
-    },
-    "login": {
-        "username": "cgibbs",
-        "oauth2": "cgibbs@facebook.com",
-        "password": "$2y$10$Kp2W7\/ImahI8mamsvjtfN.KvcloIACAgt8c\/iG4J6k.SalqGNpzam"
-    },
-    "otherContact": {
-        "emails": [
-            "cgibbs@greennet.net"
-        ],
-        "phoneNumbers": [
-            "+1-792-978-3369",
-            "+1-503-746-6557"
-        ],
-        "socMedias": {
-            "facebook": "cgibbs@facebook.com",
-            "line": "cgibbs@line.com",
-            "linkedin": "cgibbs@linkedin.com"
-        }
-    },
-    "otherInfo": {
-        "gender": "F",
-        "dateOfBirth": "1961-02-14"
-    }
-});
-db.partners.insertOne(
-{
-    "partnerKey": "CHANHEAT8598",
-    "businessName": "Serious Industries Company",
-    "revenueSplit": 0.14,
-    "acctBalance": 300103.09,
-    "name": {
-        "title": "Mr",
-        "first": "Chance",
-        "middle": "B",
+        "first": "Werner",
+        "middle": "Y",
         "last": "Heath",
         "suffix": null
     },
     "address": {
-        "streetAddress": "3465 Red Stream Street",
+        "streetAddress": "690 Little Gulch Street",
         "buildingName": null,
         "floor": null,
         "roomAptCondoFlat": null,
-        "city": "Ittoqqortoormiit",
+        "city": "Cortland",
+        "stateProvince": "OH",
+        "locality": "Trumbull",
+        "country": "US",
+        "postalCode": "44410",
+        "latitude": "41.3251",
+        "longitude": "-80.7327"
+    },
+    "contact": {
+        "email": "wheath161@etisalat.com",
+        "phone": "+61-161-502-5776",
+        "socMedia": {
+            "twitter": "wheath161@etisalat.com@twitter.com"
+        }
+    },
+    "login": {
+        "username": "wheath",
+        "oauth2": "wheath@twitter.com",
+        "password": "$2y$10$DN5qSdw65s0D30QpU4FkvesMqOvpnTjyVzwrVdGhuvlcKlMv78gM2"
+    },
+    "otherContact": {
+        "emails": [
+            "wheath161@oi.com",
+            "wheath161@airtel.com",
+            "wheath161@telia.com"
+        ],
+        "phoneNumbers": [
+            "+61-161-246-8189",
+            "+61-161-252-7911",
+            "+61-161-100-5803"
+        ],
+        "socMedias": [
+            {
+                "linkedin": "wheath161@oi.com@linkedin.com"
+            },
+            {
+                "twitter": "wheath161@airtel.com@twitter.com"
+            },
+            {
+                "twitter": "wheath161@telia.com@twitter.com"
+            }
+        ]
+    },
+    "otherInfo": {
+        "gender": "M",
+        "dateOfBirth": "1934-10-27"
+    }
+});
+db.partners.insertOne(
+{
+    "partnerKey": "BOUTRCHA7912",
+    "businessName": "Boutique Agency Inc",
+    "revenueSplit": 0.01,
+    "acctBalance": 396432.84,
+    "name": {
+        "title": null,
+        "first": "Rob",
+        "middle": null,
+        "last": "Chandler",
+        "suffix": null
+    },
+    "address": {
+        "streetAddress": "9383 Green River Circle",
+        "buildingName": null,
+        "floor": 6,
+        "roomAptCondoFlat": "78",
+        "city": "Stuttgart",
+        "stateProvince": "AR",
+        "locality": "Arkansas",
+        "country": "US",
+        "postalCode": "72160",
+        "latitude": "34.4854",
+        "longitude": "-91.5487"
+    },
+    "contact": {
+        "email": "rchandle162@movil.com",
+        "phone": "+61-162-615-7912",
+        "socMedia": []
+    },
+    "login": {
+        "username": "rchandle",
+        "oauth2": null,
+        "password": "$2y$10$62vxDp7GTS5ZyAPn1pJZauhVzNy1jpL70x\/yg3w6xXcjt0O6pSyjy"
+    },
+    "otherContact": {
+        "emails": [
+            "rchandle162@sprint.com",
+            "rchandle162@kpn.com",
+            "rchandle162@optus.com"
+        ],
+        "phoneNumbers": [
+            "+61-162-880-1906",
+            "+61-162-724-9695",
+            "+61-162-802-0348"
+        ]
+    },
+    "otherInfo": {
+        "gender": "M",
+        "dateOfBirth": "1969-06-23"
+    }
+});
+db.partners.insertOne(
+{
+    "partnerKey": "LAZYEPOW5162",
+    "businessName": "Lazy Bird Partners Company",
+    "revenueSplit": 0.14,
+    "acctBalance": 150075.52,
+    "name": {
+        "title": "Ms",
+        "first": "Elyse",
+        "middle": "C",
+        "last": "Powell",
+        "suffix": null
+    },
+    "address": {
+        "streetAddress": "1366 Long Canyon Ride",
+        "buildingName": null,
+        "floor": null,
+        "roomAptCondoFlat": null,
+        "city": "Grobelno",
         "stateProvince": null,
         "locality": null,
-        "country": "GL",
-        "postalCode": "3980",
-        "latitude": "70.4846",
-        "longitude": "-21.9622"
+        "country": "SI",
+        "postalCode": "3231",
+        "latitude": "46.2117",
+        "longitude": "15.4447"
     },
     "contact": {
-        "phone": "+299-181-852-8598",
-        "email": "cheath181@jio.com",
-        "socMedia": null
+        "email": "epowell163@turkcell.com",
+        "phone": "+61-163-362-5162",
+        "socMedia": {
+            "linkedin": "epowell163@turkcell.com@linkedin.com"
+        }
     },
     "login": {
-        "username": "cheath",
-        "oauth2": null,
-        "password": "$2y$10$97N1.bFMYTY\/EOF6e1OZmu6cJzTfXuRySYafPqUbLgEbKQN4ZX21m"
+        "username": "epowell",
+        "oauth2": "epowell@linkedin.com",
+        "password": "$2y$10$DofMLFNQzTekev99Q1G0XeyRnIJUPBC99YKMYMaMuid13hYERjqje"
     },
     "otherContact": {
         "emails": [
-            "cheath@vivendi.net",
-            "cheath@seednet.net"
+            "epowell163@airtel.com",
+            "epowell163@telesystems.com",
+            "epowell163@singtel.com"
         ],
         "phoneNumbers": [
-            "+299-257-266-7399",
-            "+299-701-740-1565"
+            "+61-163-141-9820",
+            "+61-163-663-5935",
+            "+61-163-251-5927"
         ],
-        "socMedias": []
+        "socMedias": [
+            {
+                "linkedin": "epowell163@airtel.com@linkedin.com"
+            },
+            {
+                "twitter": "epowell163@telesystems.com@twitter.com"
+            },
+            {
+                "twitter": "epowell163@singtel.com@twitter.com"
+            }
+        ]
     },
     "otherInfo": {
-        "gender": "M",
-        "dateOfBirth": "1949-10-30"
+        "gender": "F",
+        "dateOfBirth": "1993-09-06"
     }
 });
 db.partners.insertOne(
 {
-    "partnerKey": "DELMENRI7429",
-    "businessName": "Serious Trust Ltd",
-    "revenueSplit": 0.06,
-    "acctBalance": 702091.63,
-    "name": {
-        "title": "Mr",
-        "first": "Delmer",
-        "middle": "W",
-        "last": "Enriquez",
-        "suffix": null
-    },
-    "address": {
-        "streetAddress": "6681 Red Bend Ride",
-        "buildingName": null,
-        "floor": null,
-        "roomAptCondoFlat": null,
-        "city": "San Tan Valley",
-        "stateProvince": "AZ",
-        "locality": "Pinal",
-        "country": "US",
-        "postalCode": "85143",
-        "latitude": "33.1911",
-        "longitude": "-111.528"
-    },
-    "contact": {
-        "phone": "+1-182-068-7429",
-        "email": "denrique182@oi.com",
-        "socMedia": null
-    },
-    "login": {
-        "username": "denrique",
-        "oauth2": null,
-        "password": "$2y$10$UT\/DwV33lHnlvhHFtca8Le0PPfrSBeBa5tkfHz5d75tWlVgkhnPwS"
-    },
-    "otherContact": {
-        "emails": [
-            "denrique@vodafone.net"
-        ],
-        "phoneNumbers": [
-            "+1-14-354-6116"
-        ],
-        "socMedias": []
-    },
-    "otherInfo": {
-        "gender": "M",
-        "dateOfBirth": "1987-09-11"
-    }
-});
-db.partners.insertOne(
-{
-    "partnerKey": "LORESALG4975",
-    "businessName": "Fat Cats Trust LLC",
-    "revenueSplit": 0.07,
-    "acctBalance": 353857.46,
-    "name": {
-        "title": null,
-        "first": "Loren",
-        "middle": null,
-        "last": "Salgado",
-        "suffix": null
-    },
-    "address": {
-        "streetAddress": "2325 Big Hill Avenue",
-        "buildingName": null,
-        "floor": null,
-        "roomAptCondoFlat": null,
-        "city": "SAN LORENZO (HUEHUETENANGO)",
-        "stateProvince": "DEPTO DE HUEHUETENANGO",
-        "locality": "DEPTO DE HUEHUETENANGO",
-        "country": "GT",
-        "postalCode": "13033",
-        "latitude": "15.2894",
-        "longitude": "-91.4603"
-    },
-    "contact": {
-        "phone": "+502-183-725-4975",
-        "email": "lsalgado183@vivendi.com",
-        "socMedia": null
-    },
-    "login": {
-        "username": "lsalgado",
-        "oauth2": null,
-        "password": "$2y$10$r3lL0dyNh3qDQbi3Fa9lrensmjLWvP9u8.CgbmAK9TrnqLgm4vbhS"
-    },
-    "otherContact": {
-        "emails": [
-            "lsalgado@icom.net",
-            "lsalgado@tata.net"
-        ],
-        "phoneNumbers": [
-            "+502-527-720-9552",
-            "+502-438-239-1859"
-        ],
-        "socMedias": []
-    },
-    "otherInfo": {
-        "gender": "M",
-        "dateOfBirth": "1945-03-02"
-    }
-});
-db.partners.insertOne(
-{
-    "partnerKey": "HARRMEAD5746",
-    "businessName": "Fat Cats Industries Ltd",
-    "revenueSplit": 0.23,
-    "acctBalance": 69499.95,
+    "partnerKey": "FRIEALEA7902",
+    "businessName": "Friendly Trust Inc",
+    "revenueSplit": 0.02,
+    "acctBalance": 356640.86,
     "name": {
         "title": "Ms",
-        "first": "Harriet",
-        "middle": "W",
-        "last": "Meadows",
+        "first": "Ariane",
+        "middle": "T",
+        "last": "Leach",
         "suffix": null
     },
     "address": {
-        "streetAddress": "7938 Long Tree Boulevard",
+        "streetAddress": "1135 Little Bough Way",
         "buildingName": null,
-        "floor": 18,
+        "floor": null,
         "roomAptCondoFlat": null,
-        "city": "Sikandarpur Bazha",
-        "stateProvince": "Karchhana",
-        "locality": "Allahabad",
+        "city": "Valasapalle",
+        "stateProvince": "Madanapalle",
+        "locality": "Chittoor",
         "country": "IN",
-        "postalCode": "212213",
-        "latitude": "25.5157",
-        "longitude": "81.6236"
+        "postalCode": "517326",
+        "latitude": "14.0987",
+        "longitude": "78.3306"
     },
     "contact": {
-        "phone": "+91-184-935-5746",
-        "email": "hmeadows184@cerist.com",
-        "socMedia": null
+        "email": "aleach164@telstra.com",
+        "phone": "+61-164-348-7902",
+        "socMedia": {
+            "linkedin": "aleach164@telstra.com@linkedin.com"
+        }
     },
     "login": {
-        "username": "hmeadows",
-        "oauth2": null,
-        "password": "$2y$10$K\/F9yHb.96rRtMq8L\/I6Ierx.3n3D2XOzjaiYtfrpnSPN\/0sbHgma"
+        "username": "aleach",
+        "oauth2": "aleach@linkedin.com",
+        "password": "$2y$10$NoIrEAJ9Ax.vzjl2mYNpdOMHg32iMQLOoj5uzp5mI1y9vISbi8Qie"
     },
     "otherContact": {
         "emails": [
-            "hmeadows@vimpelcom.net"
+            "aleach164@daxnet.com",
+            "aleach164@swisscom.com",
+            "aleach164@zain.com"
         ],
         "phoneNumbers": [
-            "+91-367-433-0356"
+            "+61-164-603-2098",
+            "+61-164-417-9129",
+            "+61-164-564-6144"
         ],
-        "socMedias": []
+        "socMedias": [
+            {
+                "google": "aleach164@daxnet.com@google.com"
+            },
+            {
+                "facebook": "aleach164@swisscom.com@facebook.com"
+            },
+            {
+                "twitter": "aleach164@zain.com@twitter.com"
+            }
+        ]
     },
     "otherInfo": {
         "gender": "F",
-        "dateOfBirth": "1987-01-14"
+        "dateOfBirth": "1947-11-10"
     }
 });
 db.partners.insertOne(
 {
-    "partnerKey": "KIMBSTRO8755",
-    "businessName": "Serious Business Inc",
-    "revenueSplit": 0.19,
-    "acctBalance": 565896.36,
-    "name": {
-        "title": "Ms",
-        "first": "Kimberely",
-        "middle": "G",
-        "last": "Strong",
-        "suffix": null
-    },
-    "address": {
-        "streetAddress": "4346 Big Hill Street",
-        "buildingName": null,
-        "floor": null,
-        "roomAptCondoFlat": null,
-        "city": "Pointe Focinana",
-        "stateProvince": "Monte-Carlo",
-        "locality": "Monaco",
-        "country": "MC",
-        "postalCode": "98000",
-        "latitude": "43.7333",
-        "longitude": "7.4333"
-    },
-    "contact": {
-        "phone": "+377-185-146-8755",
-        "email": "kstrong185@telecom.com",
-        "socMedia": null
-    },
-    "login": {
-        "username": "kstrong",
-        "oauth2": null,
-        "password": "$2y$10$sQARndV8n0\/OPPX7g78yWeUyBm.szrp0FAG3RLriN\/GDgzqmjNOCS"
-    },
-    "otherContact": {
-        "emails": [
-            "kstrong@zain.net"
-        ],
-        "phoneNumbers": [
-            "+377-394-856-6457"
-        ],
-        "socMedias": []
-    },
-    "otherInfo": {
-        "gender": "F",
-        "dateOfBirth": "1957-03-09"
-    }
-});
-db.partners.insertOne(
-{
-    "partnerKey": "CHANRICE4491",
-    "businessName": "Fat Cats Business Inc",
-    "revenueSplit": 0.27,
-    "acctBalance": 256283.59,
+    "partnerKey": "LAZYOWYA6238",
+    "businessName": "Lazy Bird Agency Ltd",
+    "revenueSplit": 0.08,
+    "acctBalance": 99875.5,
     "name": {
         "title": null,
-        "first": "Chang",
+        "first": "Octavio",
         "middle": null,
-        "last": "Rice",
+        "last": "Wyatt",
         "suffix": null
     },
     "address": {
-        "streetAddress": "2135 Short Bough Way",
+        "streetAddress": "4002 Little Tree Circle",
         "buildingName": null,
         "floor": null,
         "roomAptCondoFlat": null,
-        "city": "Dinero",
-        "stateProvince": "TX",
-        "locality": "Live Oak",
-        "country": "US",
-        "postalCode": "78350",
-        "latitude": "28.2264",
-        "longitude": "-97.9617"
+        "city": "Nadur",
+        "stateProvince": "In-Nadur",
+        "locality": "In-Nadur",
+        "country": "MT",
+        "postalCode": "NDR",
+        "latitude": "36.0486",
+        "longitude": "14.2944"
     },
     "contact": {
-        "phone": "+1-186-143-4491",
-        "email": "crice186@icom.com",
-        "socMedia": null
+        "email": "owyatt165@rogers.com",
+        "phone": "+61-165-201-6238",
+        "socMedia": []
     },
     "login": {
-        "username": "crice",
+        "username": "owyatt",
         "oauth2": null,
-        "password": "$2y$10$eBosOKMfNOLqfxo2QwrEx.dCCzxy8UM5GKj9QBOF66wpHSLCmwj\/m"
+        "password": "$2y$10$wZpS20iJKJ.YT6ZkcpSWZ.\/vUn1WduRmO1YaEd33lLE5Bs\/TnCzUW"
     },
     "otherContact": {
         "emails": [
-            "crice@lguplus.net"
+            "owyatt165@bt.com",
+            "owyatt165@bt.com",
+            "owyatt165@ktc.com"
         ],
         "phoneNumbers": [
-            "+1-999-455-0473",
-            "+1-894-160-2267",
-            "+1-738-987-8323"
-        ],
-        "socMedias": []
+            "+61-165-385-4106",
+            "+61-165-413-8438",
+            "+61-165-681-8269"
+        ]
     },
     "otherInfo": {
         "gender": "M",
-        "dateOfBirth": "1965-12-17"
+        "dateOfBirth": "1996-09-07"
     }
 });
 db.partners.insertOne(
 {
-    "partnerKey": "CALVFARR7317",
-    "businessName": "Fat Cats Associates Company",
+    "partnerKey": "LEISMBRA5372",
+    "businessName": "Leisure Partners ",
     "revenueSplit": 0.27,
-    "acctBalance": 896905.43,
+    "acctBalance": 337864,
     "name": {
         "title": "Mr",
-        "first": "Calvin",
-        "middle": "J",
-        "last": "Farrell",
+        "first": "Merlin",
+        "middle": "Z",
+        "last": "Bradley",
         "suffix": null
     },
     "address": {
-        "streetAddress": "8279 Long Stream Boulevard",
+        "streetAddress": "9158 Big Gully Way",
         "buildingName": null,
         "floor": null,
-        "roomAptCondoFlat": "C7",
-        "city": "Les Abymes",
-        "stateProvince": "GP",
-        "locality": "Guadeloupe",
-        "country": "GP",
-        "postalCode": "97177 CEDEX",
-        "latitude": "16.271",
-        "longitude": "-61.5045"
+        "roomAptCondoFlat": null,
+        "city": "Lowell",
+        "stateProvince": "VT",
+        "locality": "Orleans",
+        "country": "US",
+        "postalCode": "05847",
+        "latitude": "44.7961",
+        "longitude": "-72.4501"
     },
     "contact": {
-        "phone": "+590-187-234-7317",
-        "email": "cfarrell187@rogers.com",
-        "socMedia": null
+        "email": "mbradley166@turkcell.com",
+        "phone": "+61-166-865-5372",
+        "socMedia": {
+            "line": "mbradley166@turkcell.com@line.com"
+        }
     },
     "login": {
-        "username": "cfarrell",
-        "oauth2": null,
-        "password": "$2y$10$Zt9R7b0\/maY.DmMgqV5B0.RKl7Y1ldU2duQHaTtMVXkcIC.uLt5XK"
+        "username": "mbradley",
+        "oauth2": "mbradley@line.com",
+        "password": "$2y$10$IiyegLs9tmwjBH9HlcSUhO1EsvWhYo9zEiRALeT.bTrAeDgPvtg5a"
     },
     "otherContact": {
-        "emails": [],
-        "phoneNumbers": [
-            "+590-460-086-7017"
+        "emails": [
+            "mbradley166@sprint.com",
+            "mbradley166@uunet.com",
+            "mbradley166@ccs.com"
         ],
-        "socMedias": []
+        "phoneNumbers": [
+            "+61-166-379-4501",
+            "+61-166-621-7049",
+            "+61-166-686-3516"
+        ],
+        "socMedias": [
+            {
+                "skype": "mbradley166@sprint.com@skype.com"
+            },
+            {
+                "line": "mbradley166@uunet.com@line.com"
+            },
+            {
+                "linkedin": "mbradley166@ccs.com@linkedin.com"
+            }
+        ]
     },
     "otherInfo": {
         "gender": "M",
-        "dateOfBirth": "1961-06-03"
+        "dateOfBirth": "1964-09-06"
     }
 });
 db.partners.insertOne(
 {
-    "partnerKey": "NOELLI4687",
-    "businessName": "Serious Associates Ltd",
+    "partnerKey": "FRIEAMAT6494",
+    "businessName": "Friendly Business ",
     "revenueSplit": 0.38,
-    "acctBalance": 761870.9500000001,
+    "acctBalance": 883537.37,
     "name": {
         "title": "Mr",
-        "first": "Noel",
-        "middle": "O",
+        "first": "Andy",
+        "middle": "T",
+        "last": "Mata",
+        "suffix": null
+    },
+    "address": {
+        "streetAddress": "1897 Long Hill Road",
+        "buildingName": null,
+        "floor": null,
+        "roomAptCondoFlat": null,
+        "city": "Smith\u2019s",
+        "stateProvince": "Smith\u2019s Parish",
+        "locality": "Smith\u2019s Parish",
+        "country": "BM",
+        "postalCode": "HS 02",
+        "latitude": "32.354",
+        "longitude": "-64.7096"
+    },
+    "contact": {
+        "email": "amata167@ccs.com",
+        "phone": "+61-167-180-6494",
+        "socMedia": {
+            "line": "amata167@ccs.com@line.com"
+        }
+    },
+    "login": {
+        "username": "amata",
+        "oauth2": "amata@line.com",
+        "password": "$2y$10$NMPukojg0ZrTYC1Ly1996epDh6HtLNnFLpZsqAMO6EAWgzjvgWTrO"
+    },
+    "otherContact": [],
+    "otherInfo": {
+        "gender": "M",
+        "dateOfBirth": "1930-06-05"
+    }
+});
+db.partners.insertOne(
+{
+    "partnerKey": "UPBEAWON3729",
+    "businessName": "Upbeat Industries Ltd",
+    "revenueSplit": 0.02,
+    "acctBalance": 105001.63,
+    "name": {
+        "title": null,
+        "first": "Alberta",
+        "middle": null,
+        "last": "Wong",
+        "suffix": null
+    },
+    "address": {
+        "streetAddress": "9171 Winding Woods Boulevard",
+        "buildingName": null,
+        "floor": null,
+        "roomAptCondoFlat": "76",
+        "city": "Canteen Creek",
+        "stateProvince": "NT",
+        "locality": "Northern Territory",
+        "country": "AU",
+        "postalCode": "0872",
+        "latitude": "-20.6403",
+        "longitude": "135.5865"
+    },
+    "contact": {
+        "email": "awong168@orstom.com",
+        "phone": "+61-168-481-3729",
+        "socMedia": []
+    },
+    "login": {
+        "username": "awong",
+        "oauth2": null,
+        "password": "$2y$10$sM.757wcLRuAyL4PIm8LF.boyOafVrDCbF2A1wk2naVbC84yZSV4W"
+    },
+    "otherContact": {
+        "emails": [
+            "awong168@telus.com",
+            "awong168@greennet.com"
+        ],
+        "phoneNumbers": [
+            "+61-168-543-0173",
+            "+61-168-840-2607"
+        ]
+    },
+    "otherInfo": {
+        "gender": "F",
+        "dateOfBirth": "1972-07-15"
+    }
+});
+db.partners.insertOne(
+{
+    "partnerKey": "SERILPAY2595",
+    "businessName": "Serious Business Company",
+    "revenueSplit": 0.06,
+    "acctBalance": 857920.64,
+    "name": {
+        "title": "Ms",
+        "first": "Laure",
+        "middle": "R",
+        "last": "Payne",
+        "suffix": null
+    },
+    "address": {
+        "streetAddress": "7551 Little Woods Boulevard",
+        "buildingName": null,
+        "floor": null,
+        "roomAptCondoFlat": null,
+        "city": "Chicago",
+        "stateProvince": "IL",
+        "locality": "Cook",
+        "country": "US",
+        "postalCode": "60611",
+        "latitude": "41.8971",
+        "longitude": "-87.6223"
+    },
+    "contact": {
+        "email": "lpayne170@greennet.com",
+        "phone": "+61-170-031-2595",
+        "socMedia": {
+            "twitter": "lpayne170@greennet.com@twitter.com"
+        }
+    },
+    "login": {
+        "username": "lpayne",
+        "oauth2": "lpayne@twitter.com",
+        "password": "$2y$10$yOw9Qc8p9fueL7a5fIZrueum5Oe0szTujdGz1Iz4Y\/hLUnNSZb7vG"
+    },
+    "otherContact": {
+        "emails": [
+            "lpayne170@ais.com"
+        ],
+        "phoneNumbers": [
+            "+61-170-263-2721"
+        ],
+        "socMedias": [
+            {
+                "line": "lpayne170@ais.com@line.com"
+            }
+        ]
+    },
+    "otherInfo": {
+        "gender": "F",
+        "dateOfBirth": "1992-08-16"
+    }
+});
+db.partners.insertOne(
+{
+    "partnerKey": "COMPMMOS2026",
+    "businessName": "Competitive Business ",
+    "revenueSplit": 0.01,
+    "acctBalance": 478734.65,
+    "name": {
+        "title": null,
+        "first": "Maxima",
+        "middle": null,
+        "last": "Moss",
+        "suffix": null
+    },
+    "address": {
+        "streetAddress": "6620 Green Tree Ride",
+        "buildingName": null,
+        "floor": 9,
+        "roomAptCondoFlat": null,
+        "city": "Maunabo",
+        "stateProvince": "Maunabo",
+        "locality": "Maunabo",
+        "country": "PR",
+        "postalCode": "00707",
+        "latitude": "18.0072",
+        "longitude": "-65.8993"
+    },
+    "contact": {
+        "email": "mmoss171@telecom.com",
+        "phone": "+61-171-828-2026",
+        "socMedia": []
+    },
+    "login": {
+        "username": "mmoss",
+        "oauth2": null,
+        "password": "$2y$10$pvGchJ6AUhuHv.J9KYIM\/e3M1S9PyLShNquvRn42A4rwlNhnhpv5G"
+    },
+    "otherContact": {
+        "emails": [
+            "mmoss171@swisscom.com",
+            "mmoss171@verizon.com",
+            "mmoss171@ptcl.com"
+        ],
+        "phoneNumbers": [
+            "+61-171-140-0973",
+            "+61-171-848-8096",
+            "+61-171-786-4738"
+        ]
+    },
+    "otherInfo": {
+        "gender": "F",
+        "dateOfBirth": "1948-02-05"
+    }
+});
+db.partners.insertOne(
+{
+    "partnerKey": "LAZYEELL8701",
+    "businessName": "Lazy Bird Agency ",
+    "revenueSplit": 0.23,
+    "acctBalance": 492886.64,
+    "name": {
+        "title": "Ms",
+        "first": "Edwina",
+        "middle": "E",
+        "last": "Ellis",
+        "suffix": null
+    },
+    "address": {
+        "streetAddress": "7728 Blue Bend Street",
+        "buildingName": null,
+        "floor": null,
+        "roomAptCondoFlat": null,
+        "city": "West Wollongong",
+        "stateProvince": "NSW",
+        "locality": "New South Wales",
+        "country": "AU",
+        "postalCode": "2500",
+        "latitude": "-34.4248",
+        "longitude": "150.8642"
+    },
+    "contact": {
+        "email": "eellis172@bifty.com",
+        "phone": "+61-172-893-8701",
+        "socMedia": {
+            "line": "eellis172@bifty.com@line.com"
+        }
+    },
+    "login": {
+        "username": "eellis",
+        "oauth2": "eellis@line.com",
+        "password": "$2y$10$eCIPPpnaaZHEEWYQjmAjS.Ub3\/vpnuEwyRGqRPldy6gzGJ3q0peD."
+    },
+    "otherContact": {
+        "emails": [
+            "eellis172@relcom.com",
+            "eellis172@cerist.com"
+        ],
+        "phoneNumbers": [
+            "+61-172-482-9075",
+            "+61-172-482-2102"
+        ],
+        "socMedias": [
+            {
+                "linkedin": "eellis172@relcom.com@linkedin.com"
+            },
+            {
+                "google": "eellis172@cerist.com@google.com"
+            }
+        ]
+    },
+    "otherInfo": {
+        "gender": "F",
+        "dateOfBirth": "1990-07-22"
+    }
+});
+db.partners.insertOne(
+{
+    "partnerKey": "ACCOTBAL8136",
+    "businessName": "Accomodation Agency Ltd",
+    "revenueSplit": 0.25,
+    "acctBalance": 58982.85,
+    "name": {
+        "title": "Ms",
+        "first": "Taneka",
+        "middle": "Q",
+        "last": "Ballard",
+        "suffix": null
+    },
+    "address": {
+        "streetAddress": "1860 Red Mountain Boulevard",
+        "buildingName": null,
+        "floor": null,
+        "roomAptCondoFlat": null,
+        "city": "Kingshill",
+        "stateProvince": "St. Croix",
+        "locality": "St. Croix",
+        "country": "VI",
+        "postalCode": "00851",
+        "latitude": "17.7099",
+        "longitude": "-64.7009"
+    },
+    "contact": {
+        "email": "tballard173@tm.com",
+        "phone": "+61-173-356-8136",
+        "socMedia": {
+            "google": "tballard173@tm.com@google.com"
+        }
+    },
+    "login": {
+        "username": "tballard",
+        "oauth2": "tballard@google.com",
+        "password": "$2y$10$2mtRzl81t1QHAR\/ExryPauBlwKjtRRpzC6w\/UsQhWUOTN8.Jfv.We"
+    },
+    "otherContact": [],
+    "otherInfo": {
+        "gender": "F",
+        "dateOfBirth": "1982-11-06"
+    }
+});
+db.partners.insertOne(
+{
+    "partnerKey": "LEISALI4311",
+    "businessName": "Leisure Rooms LLC",
+    "revenueSplit": 0.28,
+    "acctBalance": 490840.95,
+    "name": {
+        "title": null,
+        "first": "Ayanna",
+        "middle": null,
         "last": "Li",
         "suffix": null
     },
     "address": {
-        "streetAddress": "7811 Green Bridge Road",
+        "streetAddress": "4203 Little Woods Ride",
         "buildingName": null,
         "floor": null,
-        "roomAptCondoFlat": "73",
-        "city": "Hammond",
-        "stateProvince": "LA",
-        "locality": "Tangipahoa",
-        "country": "US",
-        "postalCode": "70404",
-        "latitude": "30.5046",
-        "longitude": "-90.4629"
+        "roomAptCondoFlat": "47",
+        "city": "Kuthera Jaswalan",
+        "stateProvince": "Amb(T)",
+        "locality": "Una",
+        "country": "IN",
+        "postalCode": "177206",
+        "latitude": "31.5432",
+        "longitude": "76.5342"
     },
     "contact": {
-        "phone": "+1-188-713-4687",
-        "email": "nli188@orange.com",
-        "socMedia": null
+        "email": "ali174@greennet.com",
+        "phone": "+61-174-110-4311",
+        "socMedia": []
     },
     "login": {
-        "username": "nli",
+        "username": "ali",
         "oauth2": null,
-        "password": "$2y$10$oWzS5JzUFemH2GfMi5a9gOLcOU2GQDqR8\/j69.KtsuuV7ANpmQp5i"
+        "password": "$2y$10$FiNvrq9X9M7HcVaXyFJvFOQPv6KgxmpljSA7xp9cro.ui7xk1KEKG"
     },
     "otherContact": {
         "emails": [
-            "nli@telus.net"
+            "ali174@ote.com",
+            "ali174@ccs.com"
         ],
-        "phoneNumbers": [],
-        "socMedias": []
+        "phoneNumbers": [
+            "+61-174-367-8579",
+            "+61-174-341-5516"
+        ]
     },
     "otherInfo": {
-        "gender": "M",
-        "dateOfBirth": "1939-07-18"
+        "gender": "F",
+        "dateOfBirth": "1958-12-30"
     }
 });
 db.partners.insertOne(
 {
-    "partnerKey": "LATRBELL7391",
-    "businessName": "Friendly Trust Ltd",
-    "revenueSplit": 0.43,
-    "acctBalance": 817886.46,
+    "partnerKey": "AFFOLSNY6878",
+    "businessName": "Affordable Rooms ",
+    "revenueSplit": 0.2,
+    "acctBalance": 245318.32,
     "name": {
         "title": "Ms",
-        "first": "Latrice",
-        "middle": "T",
-        "last": "Bell",
+        "first": "Lorina",
+        "middle": "J",
+        "last": "Snyder",
         "suffix": null
     },
     "address": {
-        "streetAddress": "365 Blue Gully Street",
-        "buildingName": "Building 40",
+        "streetAddress": "4515 Long Creek Boulevard",
+        "buildingName": null,
         "floor": null,
         "roomAptCondoFlat": null,
-        "city": "Llanybydder",
-        "stateProvince": "Wales",
-        "locality": "Carmarthenshire",
-        "country": "GB",
-        "postalCode": "SA40",
-        "latitude": "52.0748",
-        "longitude": "-4.1576"
+        "city": "Malayinkil",
+        "stateProvince": "Neyyattinkara",
+        "locality": "Thiruvananthapuram",
+        "country": "IN",
+        "postalCode": "695571",
+        "latitude": "8.5106",
+        "longitude": "77.0519"
     },
     "contact": {
-        "phone": "+44-190-977-7391",
-        "email": "lbell190@relcom.com",
+        "email": "lsnyder175@seednet.com",
+        "phone": "+61-175-069-6878",
         "socMedia": {
-            "linkedin": "lbell@linkedin.com"
+            "twitter": "lsnyder175@seednet.com@twitter.com"
         }
     },
     "login": {
-        "username": "lbell",
-        "oauth2": "lbell@linkedin.com",
-        "password": "$2y$10$xrb8ZtzHbbUNUN9kbC4.j.CV3CsqchN7316aJyV5RwiwdTkr4YiJm"
+        "username": "lsnyder",
+        "oauth2": "lsnyder@twitter.com",
+        "password": "$2y$10$hrVIR1yb00R\/THa0gbdTHO1FfHlk3fwAeSYDz18RODy3QKwtAmgRC"
     },
     "otherContact": {
         "emails": [
-            "lbell@belgacom.net",
-            "lbell@telenor.net"
+            "lsnyder175@ui.com"
         ],
-        "phoneNumbers": [],
-        "socMedias": {
-            "facebook": "lbell@facebook.com",
-            "line": "lbell@line.com"
-        }
+        "phoneNumbers": [
+            "+61-175-676-6674"
+        ],
+        "socMedias": [
+            {
+                "linkedin": "lsnyder175@ui.com@linkedin.com"
+            }
+        ]
     },
     "otherInfo": {
         "gender": "F",
-        "dateOfBirth": "1981-04-19"
+        "dateOfBirth": "2003-07-18"
     }
 });
 db.partners.insertOne(
 {
-    "partnerKey": "RALPDRAK9628",
-    "businessName": "Industrious Business Company",
-    "revenueSplit": 0.44,
-    "acctBalance": 97143.46,
-    "name": {
-        "title": "Mr",
-        "first": "Ralph",
-        "middle": "W",
-        "last": "Drake",
-        "suffix": null
-    },
-    "address": {
-        "streetAddress": "4257 Blue Stream Boulevard",
-        "buildingName": null,
-        "floor": null,
-        "roomAptCondoFlat": null,
-        "city": "Yap",
-        "stateProvince": "State of Yap",
-        "locality": "State of Yap",
-        "country": "FM",
-        "postalCode": "96943",
-        "latitude": "7.1383",
-        "longitude": "151.5031"
-    },
-    "contact": {
-        "phone": "+691-191-265-9628",
-        "email": "rdrake191@att.com",
-        "socMedia": null
-    },
-    "login": {
-        "username": "rdrake",
-        "oauth2": null,
-        "password": "$2y$10$e2u8HIJ2yMpy1oqQuaJUReURDQ46ImX8IsUu0CBBuc9rTCXtRLAKy"
-    },
-    "otherContact": {
-        "emails": [
-            "rdrake@lguplus.net",
-            "rdrake@safaricom.net"
-        ],
-        "phoneNumbers": [
-            "+691-24-268-4065"
-        ],
-        "socMedias": []
-    },
-    "otherInfo": {
-        "gender": "M",
-        "dateOfBirth": "1945-11-05"
-    }
-});
-db.partners.insertOne(
-{
-    "partnerKey": "MORTWARR5267",
-    "businessName": "Serious Industries Inc",
-    "revenueSplit": 0.4,
-    "acctBalance": 780921.25,
-    "name": {
-        "title": null,
-        "first": "Morton",
-        "middle": null,
-        "last": "Warren",
-        "suffix": null
-    },
-    "address": {
-        "streetAddress": "858 Long Stream Street",
-        "buildingName": null,
-        "floor": null,
-        "roomAptCondoFlat": null,
-        "city": "Scourie More",
-        "stateProvince": "Scotland",
-        "locality": "Highland",
-        "country": "GB",
-        "postalCode": "IV27",
-        "latitude": "58.1966",
-        "longitude": "-4.888"
-    },
-    "contact": {
-        "phone": "+44-192-475-5267",
-        "email": "mwarren192@telecom.com",
-        "socMedia": null
-    },
-    "login": {
-        "username": "mwarren",
-        "oauth2": null,
-        "password": "$2y$10$41.0G\/FuedJLQBwqr2qT0ulcnBYVuKtc7pInLWrwwx1mRKHisBhXq"
-    },
-    "otherContact": {
-        "emails": [
-            "mwarren@ccs.net",
-            "mwarren@relcom.net"
-        ],
-        "phoneNumbers": [
-            "+44-660-205-6590"
-        ],
-        "socMedias": []
-    },
-    "otherInfo": {
-        "gender": "M",
-        "dateOfBirth": "1944-02-12"
-    }
-});
-db.partners.insertOne(
-{
-    "partnerKey": "TASIROWE3812",
-    "businessName": "Serious Associates Ltd",
-    "revenueSplit": 0.18,
-    "acctBalance": 799918.65,
+    "partnerKey": "SERIZATK4701",
+    "businessName": "Serious Agency ",
+    "revenueSplit": 0.11,
+    "acctBalance": 144512.15,
     "name": {
         "title": "Ms",
-        "first": "Tasia",
-        "middle": "Z",
-        "last": "Rowe",
+        "first": "Zella",
+        "middle": "T",
+        "last": "Atkinson",
         "suffix": null
     },
     "address": {
-        "streetAddress": "5158 Little Gulch Drive",
+        "streetAddress": "313 Winding Ditch Way",
         "buildingName": null,
         "floor": null,
         "roomAptCondoFlat": null,
-        "city": "Colicauti",
-        "stateProvince": "Briceni",
-        "locality": "Briceni",
-        "country": "MD",
-        "postalCode": "MD-4719",
-        "latitude": "48.3089",
-        "longitude": "27.1539"
-    },
-    "contact": {
-        "phone": "+373-193-213-3812",
-        "email": "trowe193@telenor.com",
-        "socMedia": null
-    },
-    "login": {
-        "username": "trowe",
-        "oauth2": null,
-        "password": "$2y$10$NbODi0Zhw5a3g.ftO2ULz.\/tzBkIt4YuX5dVFzHkLMbOUNqaN7m3S"
-    },
-    "otherContact": {
-        "emails": [
-            "trowe@airtel.net",
-            "trowe@nii.net"
-        ],
-        "phoneNumbers": [
-            "+373-184-926-6393",
-            "+373-51-610-8093"
-        ],
-        "socMedias": []
-    },
-    "otherInfo": {
-        "gender": "F",
-        "dateOfBirth": "1976-03-01"
-    }
-});
-db.partners.insertOne(
-{
-    "partnerKey": "IDALHUMP6203",
-    "businessName": "Fat Cats Associates Ltd",
-    "revenueSplit": 0.18,
-    "acctBalance": 869859.02,
-    "name": {
-        "title": "Ms",
-        "first": "Idalia",
-        "middle": "U",
-        "last": "Humphrey",
-        "suffix": null
-    },
-    "address": {
-        "streetAddress": "1158 Big Mound Avenue",
-        "buildingName": null,
-        "floor": null,
-        "roomAptCondoFlat": "37",
-        "city": "Columbus",
-        "stateProvince": "GA",
-        "locality": "Muscogee",
-        "country": "US",
-        "postalCode": "31998",
-        "latitude": "32.491",
-        "longitude": "-84.8741"
-    },
-    "contact": {
-        "phone": "+1-194-117-6203",
-        "email": "ihumphre194@seednet.com",
-        "socMedia": null
-    },
-    "login": {
-        "username": "ihumphre",
-        "oauth2": null,
-        "password": "$2y$10$O5YgXfy3uoDDfCPjiDFsaeYu2.x6eLYZwlCiEOjAz5JwEdOf\/zhbG"
-    },
-    "otherContact": {
-        "emails": [],
-        "phoneNumbers": [
-            "+1-670-653-9744",
-            "+1-760-491-9672"
-        ],
-        "socMedias": []
-    },
-    "otherInfo": {
-        "gender": "F",
-        "dateOfBirth": "1931-08-27"
-    }
-});
-db.partners.insertOne(
-{
-    "partnerKey": "THOMSHEL0531",
-    "businessName": "Fat Cats Associates Inc",
-    "revenueSplit": 0.14,
-    "acctBalance": 863470.17,
-    "name": {
-        "title": null,
-        "first": "Thomasine",
-        "middle": null,
-        "last": "Shelton",
-        "suffix": null
-    },
-    "address": {
-        "streetAddress": "4524 Short Ditch Boulevard",
-        "buildingName": null,
-        "floor": null,
-        "roomAptCondoFlat": null,
-        "city": "Wrzeczko",
-        "stateProvince": "\u0141yszkowice",
-        "locality": "powiat \u0141owicki",
-        "country": "PL",
-        "postalCode": "99-420",
-        "latitude": "52.0041",
-        "longitude": "19.9033"
-    },
-    "contact": {
-        "phone": "+48-195-086-0531",
-        "email": "tshelton195@lookdata.com",
-        "socMedia": null
-    },
-    "login": {
-        "username": "tshelton",
-        "oauth2": null,
-        "password": "$2y$10$avqSF5P\/ya8NozMdl6LN1ulOUxMB9NCVVyTSBJ42DnWr\/nz5zeC2q"
-    },
-    "otherContact": {
-        "emails": [
-            "tshelton@cerist.net",
-            "tshelton@tm.net",
-            "tshelton@centurylink.net"
-        ],
-        "phoneNumbers": [
-            "+48-602-790-1314"
-        ],
-        "socMedias": []
-    },
-    "otherInfo": {
-        "gender": "F",
-        "dateOfBirth": "1968-01-01"
-    }
-});
-db.partners.insertOne(
-{
-    "partnerKey": "ROLLWILK2932",
-    "businessName": "Friendly Industries Ltd",
-    "revenueSplit": 0.24,
-    "acctBalance": 789679.6900000001,
-    "name": {
-        "title": "Mr",
-        "first": "Rolland",
-        "middle": "K",
-        "last": "Wilkins",
-        "suffix": null
-    },
-    "address": {
-        "streetAddress": "1854 Winding Bend Ride",
-        "buildingName": null,
-        "floor": null,
-        "roomAptCondoFlat": null,
-        "city": "Prince County (Portage)",
-        "stateProvince": "PE",
-        "locality": "Prince County",
-        "country": "CA",
-        "postalCode": "C0B",
-        "latitude": "46.6023",
-        "longitude": "-63.9583"
-    },
-    "contact": {
-        "phone": "+1-196-985-2932",
-        "email": "rwilkins196@telesystems.com",
-        "socMedia": null
-    },
-    "login": {
-        "username": "rwilkins",
-        "oauth2": null,
-        "password": "$2y$10$lPX6c2Tg1Ctn96TbPWMC3OPZAMrJlvynvoLdWITwHLf\/WaX1Rn.Au"
-    },
-    "otherContact": {
-        "emails": [
-            "rwilkins@centurylink.net"
-        ],
-        "phoneNumbers": [
-            "+1-946-300-8948"
-        ],
-        "socMedias": []
-    },
-    "otherInfo": {
-        "gender": "M",
-        "dateOfBirth": "1977-02-18"
-    }
-});
-db.partners.insertOne(
-{
-    "partnerKey": "LISSNORR4243",
-    "businessName": "Friendly Business Company",
-    "revenueSplit": 0.02,
-    "acctBalance": 308103.86,
-    "name": {
-        "title": "Ms",
-        "first": "Lissette",
-        "middle": "D",
-        "last": "Norris",
-        "suffix": null
-    },
-    "address": {
-        "streetAddress": "3916 Winding Mound Ride",
-        "buildingName": null,
-        "floor": null,
-        "roomAptCondoFlat": "BD",
-        "city": "Rio Blanco",
-        "stateProvince": "Naguabo",
-        "locality": "Naguabo",
-        "country": "PR",
-        "postalCode": "00744",
-        "latitude": "18.2183",
-        "longitude": "-65.7885"
-    },
-    "contact": {
-        "phone": "+1787-197-194-4243",
-        "email": "lnorris197@relcom.com",
-        "socMedia": null
-    },
-    "login": {
-        "username": "lnorris",
-        "oauth2": null,
-        "password": "$2y$10$GefMqQ7ed0tBEZsjXTNmEe3ba4W425QfMRCtTfG16B2hFpaTgxvM."
-    },
-    "otherContact": {
-        "emails": [
-            "lnorris@relcom.net"
-        ],
-        "phoneNumbers": [
-            "+1787-777-729-8822"
-        ],
-        "socMedias": []
-    },
-    "otherInfo": {
-        "gender": "F",
-        "dateOfBirth": "1939-12-27"
-    }
-});
-db.partners.insertOne(
-{
-    "partnerKey": "SIMOHARP5467",
-    "businessName": "Friendly Associates Inc",
-    "revenueSplit": 0.16,
-    "acctBalance": 326953.01,
-    "name": {
-        "title": null,
-        "first": "Simonne",
-        "middle": null,
-        "last": "Harper",
-        "suffix": null
-    },
-    "address": {
-        "streetAddress": "2117 Big Stream Road",
-        "buildingName": null,
-        "floor": null,
-        "roomAptCondoFlat": null,
-        "city": "Westgate",
+        "city": "Harrow",
         "stateProvince": "England",
-        "locality": "Norfolk",
+        "locality": "Greater London",
         "country": "GB",
-        "postalCode": "NR21",
-        "latitude": "52.8403",
-        "longitude": "0.8588"
+        "postalCode": "HA2",
+        "latitude": "51.5783",
+        "longitude": "-0.3321"
     },
     "contact": {
-        "phone": "+44-198-967-5467",
-        "email": "sharper198@telus.com",
-        "socMedia": null
+        "email": "zatkinso176@etisalat.com",
+        "phone": "+61-176-700-4701",
+        "socMedia": {
+            "google": "zatkinso176@etisalat.com@google.com"
+        }
     },
     "login": {
-        "username": "sharper",
-        "oauth2": null,
-        "password": "$2y$10$YB8cSMx4ePbWjZH0FrdYwec66pIX9Hvs5gMnu1bqKr9XowcxM9GIa"
+        "username": "zatkinso",
+        "oauth2": "zatkinso@google.com",
+        "password": "$2y$10$bAwYCfMb.KYL2Wu4FZuTWuAafP0.l0X7ilBmUibiIoOz\/NaCGFe7."
     },
-    "otherContact": {
-        "emails": [
-            "sharper@safaricom.net",
-            "sharper@ptcl.net"
-        ],
-        "phoneNumbers": [
-            "+44-488-341-8467",
-            "+44-594-941-5877"
-        ],
-        "socMedias": []
-    },
+    "otherContact": [],
     "otherInfo": {
         "gender": "F",
-        "dateOfBirth": "2001-12-02"
+        "dateOfBirth": "1946-12-24"
     }
 });
 db.partners.insertOne(
 {
-    "partnerKey": "DARRMEND4290",
-    "businessName": "Industrious Trust Ltd",
-    "revenueSplit": 0.44,
-    "acctBalance": 206369.41,
+    "partnerKey": "BUDGRCOB9390",
+    "businessName": "Budget Associates ",
+    "revenueSplit": 0.33,
+    "acctBalance": 848289.1,
     "name": {
-        "title": "Mr",
-        "first": "Darrin",
-        "middle": "E",
-        "last": "Mendoza",
+        "title": null,
+        "first": "Rolland",
+        "middle": null,
+        "last": "Cobb",
         "suffix": null
     },
     "address": {
-        "streetAddress": "7567 Short Tree Road",
+        "streetAddress": "9640 Short Stream Drive",
         "buildingName": null,
         "floor": null,
         "roomAptCondoFlat": null,
-        "city": "Woodstock North",
-        "stateProvince": "ON",
-        "locality": "Woodstock",
-        "country": "CA",
-        "postalCode": "N4T",
-        "latitude": "43.1485",
-        "longitude": "-80.7319"
+        "city": "Lotificacion del Este",
+        "stateProvince": null,
+        "locality": null,
+        "country": "DO",
+        "postalCode": "11707",
+        "latitude": "18.4667",
+        "longitude": "-69.825"
     },
     "contact": {
-        "phone": "+1-199-493-4290",
-        "email": "dmendoza199@att.com",
-        "socMedia": null
+        "email": "rcobb177@econnect.com",
+        "phone": "+61-177-624-9390",
+        "socMedia": []
     },
     "login": {
-        "username": "dmendoza",
+        "username": "rcobb",
         "oauth2": null,
-        "password": "$2y$10$k5WRXZsuO.e1KfSuKkOOieyP8PoHyrAqOAKiXOhlnwvBkRD5Sbgce"
+        "password": "$2y$10$nqutadeutIX6aGxINcyytOXD1lSdO7EVqAooiU49NRaZnuS0AsMh."
+    },
+    "otherContact": [],
+    "otherInfo": {
+        "gender": "M",
+        "dateOfBirth": "1966-05-08"
+    }
+});
+db.partners.insertOne(
+{
+    "partnerKey": "STAYSSPE4744",
+    "businessName": "Stay Awhile Trust ",
+    "revenueSplit": 0.28,
+    "acctBalance": 475152.63,
+    "name": {
+        "title": "Mr",
+        "first": "Stanley",
+        "middle": "F",
+        "last": "Spence",
+        "suffix": null
+    },
+    "address": {
+        "streetAddress": "9647 Little Hill Street",
+        "buildingName": null,
+        "floor": null,
+        "roomAptCondoFlat": null,
+        "city": "Oakley",
+        "stateProvince": "England",
+        "locality": "Suffolk",
+        "country": "GB",
+        "postalCode": "IP21",
+        "latitude": "52.3648",
+        "longitude": "1.2354"
+    },
+    "contact": {
+        "email": "sspence178@apicnet.com",
+        "phone": "+61-178-028-4744",
+        "socMedia": {
+            "linkedin": "sspence178@apicnet.com@linkedin.com"
+        }
+    },
+    "login": {
+        "username": "sspence",
+        "oauth2": "sspence@linkedin.com",
+        "password": "$2y$10$qIMt9v2w5CF972b5W2TKyOgSuJ\/7XoFWMF9y\/8g69snR0nR.qBeYm"
     },
     "otherContact": {
-        "emails": [],
-        "phoneNumbers": [],
-        "socMedias": []
+        "emails": [
+            "sspence178@pldt.com",
+            "sspence178@bt.com",
+            "sspence178@telefonica.com"
+        ],
+        "phoneNumbers": [
+            "+61-178-889-5138",
+            "+61-178-400-0097",
+            "+61-178-424-1101"
+        ],
+        "socMedias": [
+            {
+                "google": "sspence178@pldt.com@google.com"
+            },
+            {
+                "facebook": "sspence178@bt.com@facebook.com"
+            },
+            {
+                "linkedin": "sspence178@telefonica.com@linkedin.com"
+            }
+        ]
     },
     "otherInfo": {
         "gender": "M",
-        "dateOfBirth": "1963-10-14"
+        "dateOfBirth": "1938-08-22"
+    }
+});
+db.partners.insertOne(
+{
+    "partnerKey": "SUCCECAS0005",
+    "businessName": "Success Industries Ltd",
+    "revenueSplit": 0.02,
+    "acctBalance": 324417.59,
+    "name": {
+        "title": "Ms",
+        "first": "Eleanor",
+        "middle": "R",
+        "last": "Casey",
+        "suffix": null
+    },
+    "address": {
+        "streetAddress": "2923 Blue Creek Street",
+        "buildingName": null,
+        "floor": null,
+        "roomAptCondoFlat": null,
+        "city": "Svatsum",
+        "stateProvince": "Gausdal",
+        "locality": "Gausdal",
+        "country": "NO",
+        "postalCode": "2657",
+        "latitude": "61.3196",
+        "longitude": "9.8606"
+    },
+    "contact": {
+        "email": "ecasey179@softbank.com",
+        "phone": "+61-179-661-0005",
+        "socMedia": {
+            "skype": "ecasey179@softbank.com@skype.com"
+        }
+    },
+    "login": {
+        "username": "ecasey",
+        "oauth2": "ecasey@skype.com",
+        "password": "$2y$10$DyFFsUTLm\/BHjeB8IB0Uy.hP3cOj8E6xb8IlUDPRX3fhmUPUF5e92"
+    },
+    "otherContact": {
+        "emails": [
+            "ecasey179@glasnet.com",
+            "ecasey179@telecom.com"
+        ],
+        "phoneNumbers": [
+            "+61-179-325-7301",
+            "+61-179-211-2488"
+        ],
+        "socMedias": [
+            {
+                "skype": "ecasey179@glasnet.com@skype.com"
+            },
+            {
+                "linkedin": "ecasey179@telecom.com@linkedin.com"
+            }
+        ]
+    },
+    "otherInfo": {
+        "gender": "F",
+        "dateOfBirth": "1948-03-03"
+    }
+});
+db.partners.insertOne(
+{
+    "partnerKey": "FATCWCAR4516",
+    "businessName": "Fat Cats Accomdations Ltd",
+    "revenueSplit": 0.44,
+    "acctBalance": 980968.15,
+    "name": {
+        "title": null,
+        "first": "Wyatt",
+        "middle": null,
+        "last": "Carpenter",
+        "suffix": null
+    },
+    "address": {
+        "streetAddress": "580 Winding Hill Avenue",
+        "buildingName": null,
+        "floor": 18,
+        "roomAptCondoFlat": "E4",
+        "city": "Madahalli",
+        "stateProvince": "Malavalli",
+        "locality": "Mandya",
+        "country": "IN",
+        "postalCode": "571430",
+        "latitude": "12.8355",
+        "longitude": "76.8077"
+    },
+    "contact": {
+        "email": "wcarpent180@centurylink.com",
+        "phone": "+61-180-014-4516",
+        "socMedia": []
+    },
+    "login": {
+        "username": "wcarpent",
+        "oauth2": null,
+        "password": "$2y$10$3ViUwv6EQfZ2LYF3wxXzl.tETOmiPMilELP94HzDqzKSbdot0uPXi"
+    },
+    "otherContact": {
+        "emails": [
+            "wcarpent180@bce.com",
+            "wcarpent180@jio.com",
+            "wcarpent180@telecom.com"
+        ],
+        "phoneNumbers": [
+            "+61-180-738-3647",
+            "+61-180-878-8962",
+            "+61-180-474-4884"
+        ]
+    },
+    "otherInfo": {
+        "gender": "M",
+        "dateOfBirth": "1981-09-20"
+    }
+});
+db.partners.insertOne(
+{
+    "partnerKey": "BUDGKSAV2607",
+    "businessName": "Budget Agency LLC",
+    "revenueSplit": 0.26,
+    "acctBalance": 115060.61,
+    "name": {
+        "title": "Mr",
+        "first": "Kip",
+        "middle": "E",
+        "last": "Savage",
+        "suffix": null
+    },
+    "address": {
+        "streetAddress": "7556 Short Gully Boulevard",
+        "buildingName": null,
+        "floor": null,
+        "roomAptCondoFlat": null,
+        "city": "\u00deorl\u00e1ksh\u00f6fn",
+        "stateProvince": null,
+        "locality": null,
+        "country": "IS",
+        "postalCode": "815",
+        "latitude": "63.8559",
+        "longitude": "-21.3834"
+    },
+    "contact": {
+        "email": "ksavage181@airtel.com",
+        "phone": "+61-181-819-2607",
+        "socMedia": {
+            "google": "ksavage181@airtel.com@google.com"
+        }
+    },
+    "login": {
+        "username": "ksavage",
+        "oauth2": "ksavage@google.com",
+        "password": "$2y$10$HDzxI13k0qklX6SY8Q9AxuZH\/a\/bhxHVzdEqNLH69uhFamfUcUsvS"
+    },
+    "otherContact": [],
+    "otherInfo": {
+        "gender": "M",
+        "dateOfBirth": "1946-01-08"
+    }
+});
+db.partners.insertOne(
+{
+    "partnerKey": "ACCOCLUC2968",
+    "businessName": "Accomodation Associates Company",
+    "revenueSplit": 0.19,
+    "acctBalance": 316117.07,
+    "name": {
+        "title": "Mr",
+        "first": "Clair",
+        "middle": "M",
+        "last": "Lucero",
+        "suffix": null
+    },
+    "address": {
+        "streetAddress": "401 Green Tree Circle",
+        "buildingName": "Building 7B",
+        "floor": null,
+        "roomAptCondoFlat": null,
+        "city": "Almo",
+        "stateProvince": "KY",
+        "locality": "Calloway",
+        "country": "US",
+        "postalCode": "42020",
+        "latitude": "36.6923",
+        "longitude": "-88.2929"
+    },
+    "contact": {
+        "email": "clucero182@telstra.com",
+        "phone": "+61-182-002-2968",
+        "socMedia": {
+            "google": "clucero182@telstra.com@google.com"
+        }
+    },
+    "login": {
+        "username": "clucero",
+        "oauth2": "clucero@google.com",
+        "password": "$2y$10$HB.01fMXMjXmM8iWm\/tri.T5R41QTFSuZNtw.j0AiHO\/dUzxB0jcK"
+    },
+    "otherContact": {
+        "emails": [
+            "clucero182@orange.com",
+            "clucero182@megafon.com"
+        ],
+        "phoneNumbers": [
+            "+61-182-759-4202",
+            "+61-182-766-3268"
+        ],
+        "socMedias": [
+            {
+                "line": "clucero182@orange.com@line.com"
+            },
+            {
+                "line": "clucero182@megafon.com@line.com"
+            }
+        ]
+    },
+    "otherInfo": {
+        "gender": "M",
+        "dateOfBirth": "1965-04-06"
+    }
+});
+db.partners.insertOne(
+{
+    "partnerKey": "SUCCASHA8699",
+    "businessName": "Success Associates ",
+    "revenueSplit": 0.38,
+    "acctBalance": 230399.16,
+    "name": {
+        "title": null,
+        "first": "Antone",
+        "middle": null,
+        "last": "Sharp",
+        "suffix": null
+    },
+    "address": {
+        "streetAddress": "2367 Little Creek Ride",
+        "buildingName": null,
+        "floor": null,
+        "roomAptCondoFlat": null,
+        "city": "San Souci",
+        "stateProvince": null,
+        "locality": null,
+        "country": "DO",
+        "postalCode": "11603",
+        "latitude": "18.4722",
+        "longitude": "-69.9167"
+    },
+    "contact": {
+        "email": "asharp183@bt.com",
+        "phone": "+61-183-611-8699",
+        "socMedia": []
+    },
+    "login": {
+        "username": "asharp",
+        "oauth2": null,
+        "password": "$2y$10$\/fGcniYk5jvOvJzcB\/\/3mOW3Hxfu9luZL6fJnsN9dtmMIAjI216pS"
+    },
+    "otherContact": {
+        "emails": [
+            "asharp183@apicnet.com",
+            "asharp183@access.com",
+            "asharp183@sktelecom.com"
+        ],
+        "phoneNumbers": [
+            "+61-183-497-9412",
+            "+61-183-332-6332",
+            "+61-183-381-2166"
+        ]
+    },
+    "otherInfo": {
+        "gender": "M",
+        "dateOfBirth": "1954-12-23"
+    }
+});
+db.partners.insertOne(
+{
+    "partnerKey": "STAYTBUR8922",
+    "businessName": "Stay Awhile Agency Ltd",
+    "revenueSplit": 0.48,
+    "acctBalance": 35238.05,
+    "name": {
+        "title": "Ms",
+        "first": "Tonja",
+        "middle": "I",
+        "last": "Burns",
+        "suffix": null
+    },
+    "address": {
+        "streetAddress": "7671 Long Creek Road",
+        "buildingName": null,
+        "floor": null,
+        "roomAptCondoFlat": null,
+        "city": "Corpus Christi",
+        "stateProvince": "TX",
+        "locality": "Nueces",
+        "country": "US",
+        "postalCode": "78465",
+        "latitude": "27.777",
+        "longitude": "-97.4632"
+    },
+    "contact": {
+        "email": "tburns184@telus.com",
+        "phone": "+61-184-189-8922",
+        "socMedia": {
+            "skype": "tburns184@telus.com@skype.com"
+        }
+    },
+    "login": {
+        "username": "tburns",
+        "oauth2": "tburns@skype.com",
+        "password": "$2y$10$OkqyNQ6\/bP7Tqe9JAQ5brOsruuEXh8zH\/kHASCkaGqaCipqKK95ga"
+    },
+    "otherContact": {
+        "emails": [
+            "tburns184@ais.com",
+            "tburns184@econnect.com"
+        ],
+        "phoneNumbers": [
+            "+61-184-820-7926",
+            "+61-184-767-0025"
+        ],
+        "socMedias": [
+            {
+                "skype": "tburns184@ais.com@skype.com"
+            },
+            {
+                "google": "tburns184@econnect.com@google.com"
+            }
+        ]
+    },
+    "otherInfo": {
+        "gender": "F",
+        "dateOfBirth": "1953-01-20"
+    }
+});
+db.partners.insertOne(
+{
+    "partnerKey": "FATCAVAL0185",
+    "businessName": "Fat Cats Associates ",
+    "revenueSplit": 0.45,
+    "acctBalance": 505236.71,
+    "name": {
+        "title": "Ms",
+        "first": "Alana",
+        "middle": "T",
+        "last": "Valdez",
+        "suffix": null
+    },
+    "address": {
+        "streetAddress": "3623 Red Ridge Way",
+        "buildingName": null,
+        "floor": null,
+        "roomAptCondoFlat": null,
+        "city": "Obatacho Shimura",
+        "stateProvince": "Ise Shi",
+        "locality": "Ise Shi",
+        "country": "JP",
+        "postalCode": "519-0507",
+        "latitude": "34.8515",
+        "longitude": "136.4496"
+    },
+    "contact": {
+        "email": "avaldez185@nii.com",
+        "phone": "+61-185-440-0185",
+        "socMedia": {
+            "twitter": "avaldez185@nii.com@twitter.com"
+        }
+    },
+    "login": {
+        "username": "avaldez",
+        "oauth2": "avaldez@twitter.com",
+        "password": "$2y$10$8veVqY5ozivBGellO9HEp.YmkeDm\/QoWf9eV0fSzpPGlYMYhu4nw."
+    },
+    "otherContact": {
+        "emails": [
+            "avaldez185@icom.com"
+        ],
+        "phoneNumbers": [
+            "+61-185-720-9447"
+        ],
+        "socMedias": [
+            {
+                "facebook": "avaldez185@icom.com@facebook.com"
+            }
+        ]
+    },
+    "otherInfo": {
+        "gender": "F",
+        "dateOfBirth": "1977-03-22"
+    }
+});
+db.partners.insertOne(
+{
+    "partnerKey": "SLEEDFAR5194",
+    "businessName": "Sleep Right Business Company",
+    "revenueSplit": 0.06,
+    "acctBalance": 766042,
+    "name": {
+        "title": null,
+        "first": "Dane",
+        "middle": null,
+        "last": "Farley",
+        "suffix": null
+    },
+    "address": {
+        "streetAddress": "6504 Long Creek Drive",
+        "buildingName": null,
+        "floor": null,
+        "roomAptCondoFlat": "7D",
+        "city": "Barrow Nook",
+        "stateProvince": "England",
+        "locality": "Lancashire",
+        "country": "GB",
+        "postalCode": "L39",
+        "latitude": "53.5556",
+        "longitude": "-2.9094"
+    },
+    "contact": {
+        "email": "dfarley186@ote.com",
+        "phone": "+61-186-846-5194",
+        "socMedia": []
+    },
+    "login": {
+        "username": "dfarley",
+        "oauth2": null,
+        "password": "$2y$10$fm\/oGjvv4ca2j2xPAUu7aOjw8ZBnoRbbVWAMmIDqKSqFjsl3V7QZS"
+    },
+    "otherContact": {
+        "emails": [
+            "dfarley186@pldt.com",
+            "dfarley186@movil.com"
+        ],
+        "phoneNumbers": [
+            "+61-186-081-7177",
+            "+61-186-106-4037"
+        ]
+    },
+    "otherInfo": {
+        "gender": "M",
+        "dateOfBirth": "1942-05-01"
+    }
+});
+db.partners.insertOne(
+{
+    "partnerKey": "BUDGEWON6817",
+    "businessName": "Budget Rooms Ltd",
+    "revenueSplit": 0.46,
+    "acctBalance": 766043.77,
+    "name": {
+        "title": "Mr",
+        "first": "Ernie",
+        "middle": "H",
+        "last": "Wong",
+        "suffix": null
+    },
+    "address": {
+        "streetAddress": "6303 Big Mound Road",
+        "buildingName": null,
+        "floor": null,
+        "roomAptCondoFlat": null,
+        "city": "Miguel de La Madrid",
+        "stateProvince": "COL",
+        "locality": "Manzanillo",
+        "country": "MX",
+        "postalCode": "28800",
+        "latitude": "19.1341",
+        "longitude": "-104.1235"
+    },
+    "contact": {
+        "email": "ewong187@jio.com",
+        "phone": "+61-187-981-6817",
+        "socMedia": {
+            "twitter": "ewong187@jio.com@twitter.com"
+        }
+    },
+    "login": {
+        "username": "ewong",
+        "oauth2": "ewong@twitter.com",
+        "password": "$2y$10$G6CZ1eP7g5d38F6c1cfQUO8DpWGzBH8sGzb4eQZX3BjIAkGSPM4K."
+    },
+    "otherContact": {
+        "emails": [
+            "ewong187@frontier.com"
+        ],
+        "phoneNumbers": [
+            "+61-187-660-3446"
+        ],
+        "socMedias": [
+            {
+                "google": "ewong187@frontier.com@google.com"
+            }
+        ]
+    },
+    "otherInfo": {
+        "gender": "M",
+        "dateOfBirth": "1960-10-12"
+    }
+});
+db.partners.insertOne(
+{
+    "partnerKey": "LEISCSEL9788",
+    "businessName": "Leisure Business Ltd",
+    "revenueSplit": 0.08,
+    "acctBalance": 753307.12,
+    "name": {
+        "title": "Mr",
+        "first": "Christopher",
+        "middle": "H",
+        "last": "Sellers",
+        "suffix": null
+    },
+    "address": {
+        "streetAddress": "2448 Winding Canyon Way",
+        "buildingName": null,
+        "floor": null,
+        "roomAptCondoFlat": null,
+        "city": "Willaura North",
+        "stateProvince": "VIC",
+        "locality": "Victoria",
+        "country": "AU",
+        "postalCode": "3379",
+        "latitude": "-37.6717",
+        "longitude": "142.6812"
+    },
+    "contact": {
+        "email": "csellers188@ccs.com",
+        "phone": "+61-188-268-9788",
+        "socMedia": {
+            "linkedin": "csellers188@ccs.com@linkedin.com"
+        }
+    },
+    "login": {
+        "username": "csellers",
+        "oauth2": "csellers@linkedin.com",
+        "password": "$2y$10$Fml2cDU5UXugeL5ly3\/vQ.t.xxvb2sFWlihIfyb6ELycv9tdjrnlO"
+    },
+    "otherContact": [],
+    "otherInfo": {
+        "gender": "M",
+        "dateOfBirth": "1957-04-24"
+    }
+});
+db.partners.insertOne(
+{
+    "partnerKey": "STAYABER8653",
+    "businessName": "Stay Awhile Trust Inc",
+    "revenueSplit": 0.05,
+    "acctBalance": 428777.02,
+    "name": {
+        "title": "Mr",
+        "first": "Abram",
+        "middle": "O",
+        "last": "Berger",
+        "suffix": null
+    },
+    "address": {
+        "streetAddress": "8303 Big Gully Boulevard",
+        "buildingName": null,
+        "floor": null,
+        "roomAptCondoFlat": null,
+        "city": "Eskasoni",
+        "stateProvince": "NS",
+        "locality": "Nova Scotia",
+        "country": "CA",
+        "postalCode": "B1W",
+        "latitude": "45.9328",
+        "longitude": "-60.6438"
+    },
+    "contact": {
+        "email": "aberger190@orange.com",
+        "phone": "+61-190-868-8653",
+        "socMedia": {
+            "line": "aberger190@orange.com@line.com"
+        }
+    },
+    "login": {
+        "username": "aberger",
+        "oauth2": "aberger@line.com",
+        "password": "$2y$10$xBmLTd7PKG6.Gqhz0J.Mb.WyjYIHbD4wkT.pLB2WLazxstz6otlYK"
+    },
+    "otherContact": [],
+    "otherInfo": {
+        "gender": "M",
+        "dateOfBirth": "1970-01-05"
+    }
+});
+db.partners.insertOne(
+{
+    "partnerKey": "UPBESGAI8907",
+    "businessName": "Upbeat Accomdations ",
+    "revenueSplit": 0.22,
+    "acctBalance": 190721.31,
+    "name": {
+        "title": "Mr",
+        "first": "Stacy",
+        "middle": "E",
+        "last": "Gaines",
+        "suffix": null
+    },
+    "address": {
+        "streetAddress": "3764 Red Bend Street",
+        "buildingName": null,
+        "floor": null,
+        "roomAptCondoFlat": null,
+        "city": "Vila Nova de Gaia",
+        "stateProvince": "Vila Nova De Gaia",
+        "locality": "Vila Nova de Gaia",
+        "country": "PT",
+        "postalCode": "4405-907",
+        "latitude": "41.1336",
+        "longitude": "-8.6174"
+    },
+    "contact": {
+        "email": "sgaines191@cubenet.com",
+        "phone": "+61-191-498-8907",
+        "socMedia": {
+            "line": "sgaines191@cubenet.com@line.com"
+        }
+    },
+    "login": {
+        "username": "sgaines",
+        "oauth2": "sgaines@line.com",
+        "password": "$2y$10$BgQqfLhjUWeY7Y2Eg5BGF.sb.hbDSPA1CnCaBOxlxOO5diVPM03n2"
+    },
+    "otherContact": {
+        "emails": [
+            "sgaines191@verizon.com",
+            "sgaines191@pldt.com",
+            "sgaines191@telus.com"
+        ],
+        "phoneNumbers": [
+            "+61-191-475-9027",
+            "+61-191-607-8365",
+            "+61-191-466-0771"
+        ],
+        "socMedias": [
+            {
+                "google": "sgaines191@verizon.com@google.com"
+            },
+            {
+                "linkedin": "sgaines191@pldt.com@linkedin.com"
+            },
+            {
+                "facebook": "sgaines191@telus.com@facebook.com"
+            }
+        ]
+    },
+    "otherInfo": {
+        "gender": "M",
+        "dateOfBirth": "1992-06-27"
+    }
+});
+db.partners.insertOne(
+{
+    "partnerKey": "AFFOESAL5620",
+    "businessName": "Affordable Agency Ltd",
+    "revenueSplit": 0.17,
+    "acctBalance": 692417.4400000001,
+    "name": {
+        "title": null,
+        "first": "Elza",
+        "middle": null,
+        "last": "Salinas",
+        "suffix": null
+    },
+    "address": {
+        "streetAddress": "3270 Little Woods Circle",
+        "buildingName": null,
+        "floor": null,
+        "roomAptCondoFlat": "AC",
+        "city": "North York (Jane and Finch)",
+        "stateProvince": "ON",
+        "locality": "North York ",
+        "country": "CA",
+        "postalCode": "M3N",
+        "latitude": "43.7568",
+        "longitude": "-79.521"
+    },
+    "contact": {
+        "email": "esalinas192@frontier.com",
+        "phone": "+61-192-733-5620",
+        "socMedia": []
+    },
+    "login": {
+        "username": "esalinas",
+        "oauth2": null,
+        "password": "$2y$10$E8NpjvCE6TSycA0XZ8cuw.lz8wUraGiQr\/cnnlY\/16hNZceuJ\/N1G"
+    },
+    "otherContact": {
+        "emails": [
+            "esalinas192@swisscom.com",
+            "esalinas192@telesystems.com",
+            "esalinas192@telekom.com"
+        ],
+        "phoneNumbers": [
+            "+61-192-683-2901",
+            "+61-192-671-6920",
+            "+61-192-225-8783"
+        ]
+    },
+    "otherInfo": {
+        "gender": "F",
+        "dateOfBirth": "1938-02-20"
+    }
+});
+db.partners.insertOne(
+{
+    "partnerKey": "AFFOCLE0341",
+    "businessName": "Affordable Business ",
+    "revenueSplit": 0.29,
+    "acctBalance": 255506.63,
+    "name": {
+        "title": "Mr",
+        "first": "Clay",
+        "middle": "A",
+        "last": "Le",
+        "suffix": null
+    },
+    "address": {
+        "streetAddress": "3925 Winding River Ride",
+        "buildingName": null,
+        "floor": null,
+        "roomAptCondoFlat": null,
+        "city": "Iacanga",
+        "stateProvince": "Sao Paulo",
+        "locality": "Sao Paulo",
+        "country": "BR",
+        "postalCode": "17180-000",
+        "latitude": "-21.9074",
+        "longitude": "-49.0592"
+    },
+    "contact": {
+        "email": "cle193@apicnet.com",
+        "phone": "+61-193-046-0341",
+        "socMedia": {
+            "facebook": "cle193@apicnet.com@facebook.com"
+        }
+    },
+    "login": {
+        "username": "cle",
+        "oauth2": "cle@facebook.com",
+        "password": "$2y$10$Qnu7VIsEwhiuUHzQacvp9ezEV045WANp7cKOHvV9hwbOuXDocJ44m"
+    },
+    "otherContact": {
+        "emails": [
+            "cle193@att.com",
+            "cle193@telstra.com",
+            "cle193@lookdata.com"
+        ],
+        "phoneNumbers": [
+            "+61-193-588-7977",
+            "+61-193-710-1235",
+            "+61-193-922-4784"
+        ],
+        "socMedias": [
+            {
+                "twitter": "cle193@att.com@twitter.com"
+            },
+            {
+                "facebook": "cle193@telstra.com@facebook.com"
+            },
+            {
+                "facebook": "cle193@lookdata.com@facebook.com"
+            }
+        ]
+    },
+    "otherInfo": {
+        "gender": "M",
+        "dateOfBirth": "1967-09-07"
+    }
+});
+db.partners.insertOne(
+{
+    "partnerKey": "SLEELWAL3341",
+    "businessName": "Sleep Right Accomdations ",
+    "revenueSplit": 0.22,
+    "acctBalance": 543566.22,
+    "name": {
+        "title": "Mr",
+        "first": "Lee",
+        "middle": "H",
+        "last": "Walsh",
+        "suffix": null
+    },
+    "address": {
+        "streetAddress": "370 Long Gully Drive",
+        "buildingName": null,
+        "floor": null,
+        "roomAptCondoFlat": null,
+        "city": "Beresford",
+        "stateProvince": "NB",
+        "locality": "New Brunswick",
+        "country": "CA",
+        "postalCode": "E8K",
+        "latitude": "47.6913",
+        "longitude": "-65.6989"
+    },
+    "contact": {
+        "email": "lwalsh194@openworld.com",
+        "phone": "+61-194-644-3341",
+        "socMedia": {
+            "facebook": "lwalsh194@openworld.com@facebook.com"
+        }
+    },
+    "login": {
+        "username": "lwalsh",
+        "oauth2": "lwalsh@facebook.com",
+        "password": "$2y$10$Ul7BdLupCcoDa2jc1NzXUe5btYXi5YxEDo4iwi5NHoJXSDwD74OCm"
+    },
+    "otherContact": [],
+    "otherInfo": {
+        "gender": "M",
+        "dateOfBirth": "1932-06-01"
+    }
+});
+db.partners.insertOne(
+{
+    "partnerKey": "LEISDFRA1362",
+    "businessName": "Leisure Associates Inc",
+    "revenueSplit": 0.27,
+    "acctBalance": 663577.16,
+    "name": {
+        "title": null,
+        "first": "Darrel",
+        "middle": null,
+        "last": "Franklin",
+        "suffix": null
+    },
+    "address": {
+        "streetAddress": "9707 Red Hill Road",
+        "buildingName": "Building 0A",
+        "floor": null,
+        "roomAptCondoFlat": null,
+        "city": "Valdragone",
+        "stateProvince": null,
+        "locality": null,
+        "country": "SM",
+        "postalCode": "47893",
+        "latitude": "43.9419",
+        "longitude": "12.4474"
+    },
+    "contact": {
+        "email": "dfrankli195@singtel.com",
+        "phone": "+61-195-503-1362",
+        "socMedia": []
+    },
+    "login": {
+        "username": "dfrankli",
+        "oauth2": null,
+        "password": "$2y$10$wj\/nfUx3qyfh5BCP3dcrHuwfmxzKX211KDnOaoXW\/bd3CZ77UV3ve"
+    },
+    "otherContact": {
+        "emails": [
+            "dfrankli195@maxcomm.com",
+            "dfrankli195@telkom.com",
+            "dfrankli195@mtn.com"
+        ],
+        "phoneNumbers": [
+            "+61-195-124-2545",
+            "+61-195-490-2820",
+            "+61-195-841-0846"
+        ]
+    },
+    "otherInfo": {
+        "gender": "M",
+        "dateOfBirth": "1935-12-25"
+    }
+});
+db.partners.insertOne(
+{
+    "partnerKey": "LEISLCAN4710",
+    "businessName": "Leisure Associates ",
+    "revenueSplit": 0.06,
+    "acctBalance": 520000.55,
+    "name": {
+        "title": "Mr",
+        "first": "Lon",
+        "middle": "A",
+        "last": "Cantu",
+        "suffix": null
+    },
+    "address": {
+        "streetAddress": "8015 Short Hill Circle",
+        "buildingName": null,
+        "floor": null,
+        "roomAptCondoFlat": null,
+        "city": "Centre-du-Qu\u00e9bec-Est (Saint-Val\u00e8re)",
+        "stateProvince": "QC",
+        "locality": "Centre-du-Qu\u00e9bec",
+        "country": "CA",
+        "postalCode": "G0P",
+        "latitude": "46.0119",
+        "longitude": "-71.7199"
+    },
+    "contact": {
+        "email": "lcantu196@etisalat.com",
+        "phone": "+61-196-373-4710",
+        "socMedia": {
+            "line": "lcantu196@etisalat.com@line.com"
+        }
+    },
+    "login": {
+        "username": "lcantu",
+        "oauth2": "lcantu@line.com",
+        "password": "$2y$10$JX50ljIrBsc3qhhDzkYB5.Oz7B8tivaqqBwxSghkIW12L.y.5hnxW"
+    },
+    "otherContact": {
+        "emails": [
+            "lcantu196@vodafone.com",
+            "lcantu196@oi.com"
+        ],
+        "phoneNumbers": [
+            "+61-196-458-6062",
+            "+61-196-335-0562"
+        ],
+        "socMedias": [
+            {
+                "skype": "lcantu196@vodafone.com@skype.com"
+            },
+            {
+                "twitter": "lcantu196@oi.com@twitter.com"
+            }
+        ]
+    },
+    "otherInfo": {
+        "gender": "M",
+        "dateOfBirth": "1945-02-10"
+    }
+});
+db.partners.insertOne(
+{
+    "partnerKey": "SLEEWNOL2505",
+    "businessName": "Sleep Right Trust Company",
+    "revenueSplit": 0.18,
+    "acctBalance": 21333.66,
+    "name": {
+        "title": "Mr",
+        "first": "Winford",
+        "middle": "O",
+        "last": "Nolan",
+        "suffix": null
+    },
+    "address": {
+        "streetAddress": "2918 Little Bough Drive",
+        "buildingName": null,
+        "floor": null,
+        "roomAptCondoFlat": null,
+        "city": "Sedliacka Dubov\u00e1",
+        "stateProvince": "ZI",
+        "locality": "Doln\u00fd Kub\u00edn",
+        "country": "SK",
+        "postalCode": "027 55",
+        "latitude": "49.2605",
+        "longitude": "19.4299"
+    },
+    "contact": {
+        "email": "wnolan197@ktc.com",
+        "phone": "+61-197-571-2505",
+        "socMedia": {
+            "twitter": "wnolan197@ktc.com@twitter.com"
+        }
+    },
+    "login": {
+        "username": "wnolan",
+        "oauth2": "wnolan@twitter.com",
+        "password": "$2y$10$ZiBw7TLj\/B8XBujwiH4Jq.djGxsrJrrCjLR.gLZ6VrP7ybymWMJIu"
+    },
+    "otherContact": {
+        "emails": [
+            "wnolan197@tt.com"
+        ],
+        "phoneNumbers": [
+            "+61-197-269-7394"
+        ],
+        "socMedias": [
+            {
+                "twitter": "wnolan197@tt.com@twitter.com"
+            }
+        ]
+    },
+    "otherInfo": {
+        "gender": "M",
+        "dateOfBirth": "1935-06-24"
+    }
+});
+db.partners.insertOne(
+{
+    "partnerKey": "SUCCEMEA9744",
+    "businessName": "Success Associates LLC",
+    "revenueSplit": 0.32,
+    "acctBalance": 123820.32,
+    "name": {
+        "title": null,
+        "first": "Ed",
+        "middle": null,
+        "last": "Meadows",
+        "suffix": null
+    },
+    "address": {
+        "streetAddress": "4898 Long Ditch Drive",
+        "buildingName": null,
+        "floor": 10,
+        "roomAptCondoFlat": "A3",
+        "city": "New York",
+        "stateProvince": "NY",
+        "locality": "New York",
+        "country": "US",
+        "postalCode": "10168",
+        "latitude": "40.7519",
+        "longitude": "-73.9768"
+    },
+    "contact": {
+        "email": "emeadows198@nordnet.com",
+        "phone": "+61-198-134-9744",
+        "socMedia": []
+    },
+    "login": {
+        "username": "emeadows",
+        "oauth2": null,
+        "password": "$2y$10$a5Xd3jdbv\/zERPLn\/fk6S.PRRBs.e9EJjLZVY.p67Ren8TT7SfsPu"
+    },
+    "otherContact": {
+        "emails": [
+            "emeadows198@orange.com",
+            "emeadows198@zain.com",
+            "emeadows198@telecom.com"
+        ],
+        "phoneNumbers": [
+            "+61-198-022-4946",
+            "+61-198-357-5722",
+            "+61-198-679-9307"
+        ]
+    },
+    "otherInfo": {
+        "gender": "M",
+        "dateOfBirth": "1985-09-21"
+    }
+});
+db.partners.insertOne(
+{
+    "partnerKey": "STAYLVAU3953",
+    "businessName": "Stay Awhile Partners Ltd",
+    "revenueSplit": 0.3,
+    "acctBalance": 358168.42,
+    "name": {
+        "title": "Mr",
+        "first": "Lane",
+        "middle": "K",
+        "last": "Vaughan",
+        "suffix": null
+    },
+    "address": {
+        "streetAddress": "7405 Big Woods Road",
+        "buildingName": null,
+        "floor": null,
+        "roomAptCondoFlat": null,
+        "city": "Tinian",
+        "stateProvince": "Tinian",
+        "locality": "Tinian",
+        "country": "MP",
+        "postalCode": "96952",
+        "latitude": "15.029",
+        "longitude": "145.616"
+    },
+    "contact": {
+        "email": "lvaughan199@swisscom.com",
+        "phone": "+61-199-692-3953",
+        "socMedia": {
+            "line": "lvaughan199@swisscom.com@line.com"
+        }
+    },
+    "login": {
+        "username": "lvaughan",
+        "oauth2": "lvaughan@line.com",
+        "password": "$2y$10$qsI9eVs69rJ700KYGgA7cuN..1jru4YN8iEoapI1pWz7iKr4KaokK"
+    },
+    "otherContact": {
+        "emails": [
+            "lvaughan199@relcom.com",
+            "lvaughan199@telenor.com"
+        ],
+        "phoneNumbers": [
+            "+61-199-457-0924",
+            "+61-199-705-4760"
+        ],
+        "socMedias": [
+            {
+                "facebook": "lvaughan199@relcom.com@facebook.com"
+            },
+            {
+                "line": "lvaughan199@telenor.com@line.com"
+            }
+        ]
+    },
+    "otherInfo": {
+        "gender": "M",
+        "dateOfBirth": "1952-02-08"
     }
 });

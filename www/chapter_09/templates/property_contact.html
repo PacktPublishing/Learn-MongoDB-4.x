@@ -1,0 +1,23 @@
+    {% load static %}
+    <h3>Contact Info</h3>
+    <div class="row">
+        <div class="col-md-4">{{ form.contact_email.label_tag }}</div>
+        <div class="col-md-4">{{ form.contact_email }}</div>
+        <div class="col-md-4">{{ form.contact_email.errors }}</div>
+    </div>
+    <div class="row">
+        <div class="col-md-4">{{ form.contact_phone.label_tag }}</div>
+        <div class="col-md-4">{{ form.contact_phone }}</div>
+        <div class="col-md-4">{{ form.contact_phone.errors }}</div>
+    </div>
+    <div class="row">
+        <div class="col-md-4">{{ form.contact_soc_type.label_tag }}</div>
+        <div class="col-md-4">{{ form.contact_soc_type }}</div>
+        <div class="col-md-4">{{ form.contact_soc_type.errors }}</div>
+    </div>
+    <div class="row">
+        <div class="col-md-4">{{ form.contact_soc_addr.label_tag }}</div>
+        <div class="col-md-4">{{ form.contact_soc_addr }}</div>
+        <div class="col-md-4">{{ form.contact_soc_addr.errors }}</div>
+    </div>
+

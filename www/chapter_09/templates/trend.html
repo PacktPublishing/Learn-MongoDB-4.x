@@ -1,0 +1,113 @@
+{% load static %}
+<style>
+    li label,input {
+        display:block;
+        margin-right: 20px;
+    }
+    .extra {
+        padding-bottom: 20px;
+    }
+</style>
+<section class="section transheader homepage parallax" data-stellar-background-ratio="0.5" style="background-color: #E5E5E5;">
+    <div class="container" style="margin-top: -100px;">
+        <div class="row">
+            <div class="col-md-12">
+                <h1>Future Revenue Trends by Property Location</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="row">
+                    <div class="col-md-12">
+                    <h3>Enter Trend Data</h3>
+                    <form action="/trends/future/" method="post">
+                    {% csrf_token %}
+                    <div class="row">
+                        <div class="col-md-3">{{ form.trend_city.label_tag }}</div>
+                        <div class="col-md-4">{{ form.trend_city }}</div>
+                        <div class="col-md-4">{{ form.trend_city.errors }}</div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-3">{{ form.trend_region.label_tag }}</div>
+                        <div class="col-md-4">{{ form.trend_region }}</div>
+                        <div class="col-md-4">{{ form.trend_region.errors }}</div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-3">{{ form.trend_locality.label_tag }}</div>
+                        <div class="col-md-4">{{ form.trend_locality }}</div>
+                        <div class="col-md-4">{{ form.trend_locality.errors }}</div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-3">{{ form.trend_country.label_tag }}</div>
+                        <div class="col-md-4">{{ form.trend_country }}</div>
+                        <div class="col-md-4">{{ form.trend_country.errors }}</div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-3">{{ form.trend_factor.label_tag }}</div>
+                        <div class="col-md-4">{{ form.trend_factor }}</div>
+                        <div class="col-md-4">{{ form.trend_factor.errors }}</div>
+                    </div>
+                    <input type="submit" value="Refresh" />
+                    </form>
+                    Make changes to the report parameters to update the chart
+                    </div>
+                </div><!-- end row -->
+            </div>
+            <div class="col-md-6">
+                <div class="ct-chart ct-perfect-fourth"></div>
+            </div>
+        </div>
+    </div><!-- end container -->
+</section><!-- end section -->
+
+{% block extra_head %}
+<link rel="stylesheet" href="//cdn.jsdelivr.net/chartist.js/latest/chartist.min.css">
+<style>
+.ct-label {
+    color: black;
+    font-weight: bold;
+    font-size: 9pt;
+}
+</style>
+{% endblock %}
+<script src="//cdn.jsdelivr.net/chartist.js/latest/chartist.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+<script type="text/javascript" charset="utf8">
+// CREDITS: JavaScript provided by chartist.js (http://gionkunz.github.io/chartist-js/index.html)
+// LICENSE: MIT license (no strings attached, no restrictions)
+// data: { labels: [x,y,z], series: [1,2,3] }
+function doChart(data)
+{
+    var plot = { labels:data.labels, series:data.series };
+    new Chartist.Line('.ct-chart', plot);
+}
+function ajaxCall()
+{
+    $.ajax({
+        type: "POST",
+        url: "/trends/future/json/",
+        dataType: 'json',
+        data: {
+            'trend_city'     : $('#id_trend_city').val() ,
+            'trend_region'   : $('#id_trend_region').val() ,
+            'trend_locality' : $('#id_trend_locality').val() ,
+            'trend_country'  : $('#id_trend_country').val() ,
+            'trend_factor'   : $('#id_trend_factor').val() ,
+        },
+        success: function (data) {
+            //data = $.parseJSON(data);
+            console.log("request succeeded");
+            console.log(data);
+            doChart(data);
+        }
+    });
+}
+$(document).ready(function() {
+    ajaxCall();
+    $("#id_trend_city").change(function() { ajaxCall(); });
+    $("#id_trend_region").change(function() { ajaxCall(); });
+    $("#id_trend_locality").change(function() { ajaxCall(); });
+    $("#id_trend_country").change(function() { ajaxCall(); });
+    $("#id_trend_factor",).change(function() { ajaxCall(); });
+});
+</script>

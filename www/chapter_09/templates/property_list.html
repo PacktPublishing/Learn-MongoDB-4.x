@@ -1,0 +1,79 @@
+{% load static %}
+<style>
+    .check_horizontal {
+        list-style: none;
+        display: inline-flex;
+        margin-left: -40px;
+    }
+    li label,input {
+        display:block;
+        margin-right: 20px;
+    }
+    .extra {
+        padding-bottom: 20px;
+    }
+</style>
+<section class="section transheader homepage parallax" data-stellar-background-ratio="0.5" style="background-color: #E5E5E5;">
+    <div class="container" style="margin-top: -100px;">
+        <div class="row">
+            <div class="col-md-6">
+                <h1>Property Listing</h1>
+                <div class="row extra">
+                    <div class="col-md-2"><b>Name</b></div>
+                    <div class="col-md-4">{{ prop_name }}</div>
+                </div><!-- end row -->
+                <div class="row extra">
+                    <div class="col-md-2"><b>Type</b></div>
+                    <div class="col-md-4">{{ prop_type }}</div>
+                </div><!-- end row -->
+                <div class="row extra">
+                    <div class="col-md-2"><b>Description</b></div>
+                    <div class="col-md-4">{{ prop_des }}</div>
+                </div><!-- end row -->
+            </div>
+            <div class="col-md-6">
+                <img src="{% static 'images/hotel_korat_jun_2019.jpg' %}" style="width:100%;"/>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+            <h3>Room Types</h3>
+            <table id="data_table" class="display" width="100%">
+                <thead>
+                    <tr>
+                        <th>Type</th>
+                        <th>View</th>
+                        <th>Beds</th>
+                        <th>Available</th>
+                        <th>Info</th>
+                    </tr>
+                </thead>
+            </table>
+            {{ message }}
+            </div>
+        </div><!-- end row -->
+    </div><!-- end container -->
+</section><!-- end section -->
+
+{% block extra_head %}
+<script type="text/javascript" charset="utf8" src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+{% endblock %}
+<script type="text/javascript" charset="utf8">
+$(document).ready( function () {
+    $.ajax({
+        'type'     : 'GET',
+        'url'      : '/property/json/rooms/{{ prop_key }}/',
+        'dataType' : 'json',
+        'success'  : function(data){
+            $.each(data, function(i,row) {
+                item = '<tr><td>' + row.type + '</td>'
+                item += '<td>' + row.view + '</td>'
+                item += '<td>' + row.beds + '</td>'
+                item += '<td>' + row.available + '</td>'
+                item += '<td>' + row.link + '</td></tr>'
+                $('#data_table').append(item);
+            });
+        }
+    });
+});
+</script>

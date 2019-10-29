@@ -1,0 +1,118 @@
+{% load static %}
+<style>
+    .td-left {
+        text-align: left;
+    }
+    .td-right {
+        text-align: right;
+    }
+    .th-right {
+        text-align: right;
+        padding: 10px;
+    }
+</style>
+<h2>Loan Maintenance</h2>
+<hr>
+<table>
+    <tr>
+        <!-- get borrower and accept payment -->
+        <td width="50%">
+            <h3>Loan Payment</h3>
+            <form action="/maintenance/payments/" method="post" enctype="multipart/form-data">
+            <table>
+                <tr>
+                    <th class="th-right">&nbsp;</th>
+                    <td class="td-left">
+                        <select name="borrowerKey">
+                        {% if borrowerKey and borrowerName %}
+                            <option value="{{ borrowerKey }}">{{ borrowerName }}</option>
+                        {% endif %}
+                        {% for user in borrowers %}
+                            <option value="{{ user.key }}">{{ user.name }}</option>
+                        {% endfor %}
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <th class="th-right">Borrower</th>
+                    <td class="td-left">{{ borrowerName }}</td>
+                </tr>
+                <tr>
+                    <th class="th-right">Overpayment</th>
+                    <td class="td-left">{{ overpayment|floatformat:2 }}</td>
+                </tr>
+                <tr>
+                    <th class="th-right">Payment Amount</th>
+                    <td class="td-left">{{ amountDue|floatformat:2 }}</td>
+                </tr>
+                <tr>
+                    <th class="th-right">Amount Paid</th>
+                    <td class="td-left"><input type="text" size="10" name="amount_paid" value="0.00" /></td>
+                </tr>
+                <tr>
+                    <th class="th-right">Total Amount Due</th>
+                    <td class="td-left">{{ totalDue|floatformat:2 }}</td>
+                </tr>
+                <tr>
+                    <th class="th-right">Total Amount Paid</th>
+                    <td class="td-left">{{ totalPaid|floatformat:2 }}</td>
+                </tr>
+                {% if not borrowerKey %}
+                <tr>
+                    <th class="th-right">&nbsp;</th>
+                    <td class="td-left"><input type="submit" name="payment" value="Select" /></td>
+                </tr>
+                <tr>
+                    <td colspan=2>Select the borrower</td>
+                </tr>
+                {% else %}
+                <tr>
+                    <th class="th-right">Loan Documents Stored</th>
+                    <td class="td-left">
+                        {% for name in loan_docs %}
+                            <br>{{ name }}
+                        {% endfor %}
+                    </td>
+                </tr>
+                <tr>
+                    <th class="th-right">Upload Loan Document</th>
+                    <td class="td-left"><input type="file" name="loan_doc" /></td>
+                </tr>
+                <tr>
+                    <td colspan=2>Enter payment amount</td>
+                </tr>
+                <tr>
+                    <th class="th-right">&nbsp;</th>
+                    <td class="td-left">
+                        <input type="submit" name="payment" value="Process" />
+                        <input type="hidden" name="borrowerKey" value="{{ borrowerKey }}" />
+                    </td>
+                </tr>
+                {% endif %}
+            </table>
+            </form>
+            <br>{{ message }}
+            <hr>
+            <a href="/maintenance/totals/">Totals</a>
+        </td>
+        <!-- payment schedule -->
+        <td width="50%">
+            <h3>Payment Schedule</h3>
+            {% if payments %}
+            <table>
+                <tr>
+                    <th style="text-align:right;padding-right:10px;">Paid</th><th>Due</th><th>Status</th>
+                    <th style="text-align:right;padding-right:10px;">Paid</th><th>Due</th><th>Status</th>
+                </tr>
+                {% for doc in payments %}
+                    {% if forloop.counter0|divisibleby:2 %}
+                        <tr><td style="text-align:right;padding-right:10px;">{{ doc.amountPaid|floatformat:2 }}</td><td>{{ doc.dueDate }}</td><td>{{ doc.status }}</td>
+                    {% else %}
+                        <td style="text-align:right;padding-right:10px;">{{ doc.amountPaid|floatformat:2 }}</td><td>{{ doc.dueDate }}</td><td>{{ doc.status }}</td></tr>
+                    {% endif %}
+                {% endfor %}
+            </table>
+            {% endif %}
+        </td>
+    </tr>
+</table>

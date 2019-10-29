@@ -107,13 +107,11 @@ CACHES = {
 }
 
 SRC_DIR = os.path.realpath(BASE_DIR + '/../../chapters/07/src')
-
+TEMPLATE_DIR = os.path.realpath(BASE_DIR + '/templates')
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [
-            '/home/jed/Repos/learn-mongodb/www/chapter_07/templates',
-        ],
+        'DIRS': [ TEMPLATE_DIR ],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [

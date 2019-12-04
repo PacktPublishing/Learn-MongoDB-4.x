@@ -1,0 +1,5 @@
+MongoDB SSL Cert for Testing
+
+* https://docs.mongodb.com/manual/appendix/security/appendixA-openssl-ca/
+
+

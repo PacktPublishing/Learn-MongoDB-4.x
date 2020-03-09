@@ -1,4 +1,4 @@
-version: "3.7"
+version: "3"
 services:
   learn-monbodb-replication-member-1:
     container_name: learn-mongo-member-1

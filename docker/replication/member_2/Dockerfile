@@ -14,4 +14,5 @@ RUN \
     apt-get -y upgrade && \
     apt-get -y install git && \
     apt-get -y install vim && \
+    apt-get -y install iputils-ping && \
     apt-get -y install net-tools

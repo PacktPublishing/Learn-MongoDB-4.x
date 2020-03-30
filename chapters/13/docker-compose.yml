@@ -1,0 +1,67 @@
+version: "3"
+services:
+  learn-mongodb-replication-member-1:
+    container_name: learn-mongo-member-1
+    hostname: member1
+    image: mongo/bionic:latest
+    volumes:
+     - db_data_member_1:/data/db
+     - ./common_data:/data/common
+     - ./common_data/hosts:/etc/hosts
+     - ./common_data/mongod.conf:/etc/mongod.conf
+    ports:
+     - 27111:27017
+    build: ./member_1
+    restart: always
+    command: -f /etc/mongod.conf
+    networks:
+      app_net:
+        ipv4_address: 172.16.0.11
+
+  learn-mongodb-replication-member-2:
+    container_name: learn-mongo-member-2
+    hostname: member2
+    image: mongo/bionic:latest
+    volumes:
+     - db_data_member_2:/data/db
+     - ./common_data:/data/common
+     - ./common_data/hosts:/etc/hosts
+     - ./common_data/mongod.conf:/etc/mongod.conf
+    ports:
+     - 27222:27017
+    build: ./member_2
+    restart: always
+    command: -f /etc/mongod.conf
+    networks:
+      app_net:
+        ipv4_address: 172.16.0.22
+
+  learn-mongodb-replication-member-3:
+    container_name: learn-mongo-member-3
+    hostname: member3
+    image: mongo/bionic:latest
+    volumes:
+     - db_data_member_3:/data/db
+     - ./common_data:/data/common
+     - ./common_data/hosts:/etc/hosts
+     - ./common_data/mongod.conf:/etc/mongod.conf
+    ports:
+     - 27333:27017
+    build: ./member_3
+    restart: always
+    command: -f /etc/mongod.conf
+    networks:
+      app_net:
+        ipv4_address: 172.16.0.33
+
+networks:
+  app_net:
+    ipam:
+      driver: default
+      config:
+        - subnet: "172.16.0.0/24"
+
+volumes:
+  db_data_member_1: {}
+  db_data_member_2: {}
+  db_data_member_3: {}

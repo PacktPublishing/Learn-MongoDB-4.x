@@ -3,7 +3,7 @@ services:
   learn-mongodb-replication-member-1:
     container_name: learn-mongo-member-1
     hostname: member1
-    image: mongo/bionic:latest
+    image: learn-mongodb/replication-member-1
     volumes:
      - db_data_member_1:/data/db
      - ./common_data:/data/common
@@ -21,7 +21,7 @@ services:
   learn-mongodb-replication-member-2:
     container_name: learn-mongo-member-2
     hostname: member2
-    image: mongo/bionic:latest
+    image: learn-mongodb/replication-member-2
     volumes:
      - db_data_member_2:/data/db
      - ./common_data:/data/common
@@ -39,7 +39,7 @@ services:
   learn-mongodb-replication-member-3:
     container_name: learn-mongo-member-3
     hostname: member3
-    image: mongo/bionic:latest
+    image: learn-mongodb/replication-member-3
     volumes:
      - db_data_member_3:/data/db
      - ./common_data:/data/common

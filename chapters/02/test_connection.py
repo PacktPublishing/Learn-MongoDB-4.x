@@ -11,7 +11,7 @@ import pprint
 from pymongo import MongoClient
 
 # set up client
-client = MongoClient('localhost')
+client = MongoClient('172.16.0.11:27017')
 
 # create point to database: "test"
 test_db = client.test

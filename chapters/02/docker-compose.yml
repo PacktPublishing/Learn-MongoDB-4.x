@@ -1,0 +1,28 @@
+version: "3"
+services:
+  learn-mongodb-installation:
+    container_name: learn-mongo-installation-1
+    hostname: installation1
+    image: learn-mongodb/installation-1
+    volumes:
+     - db_data_installation:/data/db
+     - ./common_data:/data/common
+     - ./common_data/hosts:/etc/hosts
+    ports:
+     - 27111:27017
+    build: ./installation_1
+    stdin_open: true
+    tty: true
+    networks:
+      app_net:
+        ipv4_address: 172.16.2.11
+
+networks:
+  app_net:
+    ipam:
+      driver: default
+      config:
+        - subnet: "172.16.2.0/24"
+
+volumes:
+  db_data_installation: {}

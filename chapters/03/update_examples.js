@@ -20,6 +20,26 @@ db.customers.updateOne(
     }
 );
 
+// get a list where "buildingName" is NULL; make a note of the 1st customer key
+db.customers.find({"buildingName":{"$type":"null"}},{"customerKey":1,"buildingName":1});
+// make a note of the 1st customer key: e.g.
+key = "PATRYODE9823"
+// update the first buildingName to ""
+db.customers.updateOne(
+    {"buildingName":{"$type":"null"},"customerKey":key},
+    {"$set":{"buildingName":""}}
+);
+// retrieve the customer key noted above and confirm the change
+db.customers.findOne(
+    {"buildingName":{"$type":"null"},"customerKey":key},
+    {"customerKey":1,"buildingName":1}
+);
+
+// get a count where "buildingName" is NULL
+db.customers.find({"buildingName":{"$type":"null"}}).count();
+// update buildingName to "" where "buildingName" is NULL
+db.customers.updateMany({"buildingName":{"$type":"null"}},{"$set":{"buildingName":""}});
+
 // define the "Error" product JavaScript var
 error_product =
 {

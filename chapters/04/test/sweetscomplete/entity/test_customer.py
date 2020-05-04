@@ -2,8 +2,14 @@
 
 # tell python where to find module source code
 import os,sys
-sys.path.append(os.path.realpath("../../../src"))
-
+include_path = os.path.realpath('./src')
+if not os.path.exists(include_path) :
+    include_path = os.path.realpath('../src')
+    if not os.path.exists(include_path) :
+        include_path = os.path.realpath('../../src')
+        if not os.path.exists(include_path) :
+            include_path = os.path.realpath('../../../src')
+sys.path.append(include_path)
 import json
 import unittest
 from sweetscomplete.entity.customer import Customer
@@ -37,7 +43,7 @@ class TestCustomer(unittest.TestCase) :
         'dateOfBirth'             : '0000-00-00',
         'gender'                  : 'M'
     })
-        
+
     testJson = '''{
         "customerKey"             : "00000000",
         "firstName"               : "Fred",
@@ -66,7 +72,7 @@ class TestCustomer(unittest.TestCase) :
         self.customerFromDict = Customer(self.testDict)
         self.customerDefaults = Customer(True)
         self.customerFromJson = Customer(self.testJson)
-        
+
     def test_customer_from_dict(self) :
         expected = '00000000'
         actual   = self.customerFromDict.getKey()

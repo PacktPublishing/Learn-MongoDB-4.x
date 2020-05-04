@@ -4,7 +4,8 @@ Description: module that leverages PyPubSub
 IMPORTANT: use "pip3" to install PyPubPub for this to work!
 """
 
-from pubsub import pub
+#from pubsub import pub
+import pubsub
 
 class Publisher :
 
@@ -17,7 +18,7 @@ class Publisher :
     @return void
     """
     def attach(self, topic, listener) :
-        pub.subscribe(listener, topic)
+        pubsub.subscribe(listener, topic)
 
     """
     Sends message about topic
@@ -26,4 +27,4 @@ class Publisher :
     @return void
     """
     def trigger(self, topic, obj) :
-        pub.sendMessage(topic, arg=obj)
+        pubsub.sendMessage(topic, arg=obj)

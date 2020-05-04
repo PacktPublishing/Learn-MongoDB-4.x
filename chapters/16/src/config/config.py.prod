@@ -1,0 +1,17 @@
+# configuration file for production
+
+from config.base import Base
+
+class Config(Base) :
+    config = dict({
+        'db' : {
+            'host'     : 'localhost',
+            'port'     : 27017,
+            'kwargs'   : {
+                'username':'biglittle_reader',
+                'password':'password',
+                'authSource':'biglittle',
+                'authMechanism':'SCRAM-SHA-256'
+            },
+        }
+    })

@@ -1,0 +1,14 @@
+# configuration file for development: no security
+
+from config.base import Base
+
+class Config(Base) :
+    config = dict({
+        'db' : {
+            'host'     : 'localhost',
+            'port'     : 27017,
+            'kwargs'   : {
+                'maxPoolSize':100
+            },
+        }
+    })

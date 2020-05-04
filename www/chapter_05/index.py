@@ -1,5 +1,4 @@
-#!/usr/bin/python
-
+#!/usr/bin/python3
 import os,sys
 src_path = os.path.realpath("../../chapters/05/src")
 sys.path.append(src_path)
@@ -19,7 +18,7 @@ html_out = Html('templates/index.html')
 import cgi
 form = cgi.FieldStorage()
 if 'username' in form and 'password' in form :
-    # pull username and pasword
+    # pull username (email address) and pasword
     username = form['username'].value
     password = form['password'].value
     # do imports for authentication
@@ -38,7 +37,7 @@ if 'username' in form and 'password' in form :
         message = "<b>HOORAY!  Successful Login.</b>"
     else :
         message = "<b>SORRY!  Unable to Login.</b>"
-   
+
 # output login form + message
 html_out.addInsert('%message%', message)
 print(html_out.render())

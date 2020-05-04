@@ -5,14 +5,14 @@ import os,sys
 sys.path.append(os.path.realpath("src"))
 
 import pprint
-import db.mongodb.connection
+from db.mongodb.connection import Connection
 
 from datetime import date
 from sweetscomplete.entity.product import Product
 from sweetscomplete.domain.product import ProductService
 
 # setting up the connection + collection
-conn = db.mongodb.connection.Connection('localhost',27017,Product)
+conn = Connection('localhost',27017,Product)
 service = ProductService(conn, 'sweetscomplete')
 
 # initialize test data

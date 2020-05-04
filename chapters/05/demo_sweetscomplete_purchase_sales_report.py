@@ -4,14 +4,14 @@
 import os,sys
 sys.path.append(os.path.realpath("src"))
 
-import db.mongodb.connection
+from db.mongodb.connection import Connection
 
 from bson.regex import Regex
 from sweetscomplete.entity.purchase import Purchase
 from sweetscomplete.domain.purchase import PurchaseService
 
 # setting up the connection + collection
-conn = db.mongodb.connection.Connection('localhost',27017,Purchase)
+conn = Connection('localhost',27017,Purchase)
 service = PurchaseService(conn, 'sweetscomplete')
 
 # running a fetch based on date
@@ -34,7 +34,7 @@ for doc in service.genericFetch(query, proj, order) :
             price = temp[month] + doc['extendedPrice']
         else :
             price = doc['extendedPrice']
-        temp.update({month:price})            
+        temp.update({month:price})
     else :
         results.update({country:{month:doc['extendedPrice']}})
 

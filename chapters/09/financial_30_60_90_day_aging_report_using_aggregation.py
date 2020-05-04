@@ -56,7 +56,7 @@ pipeline  = [ project, match, sort, bucket ]
 result = service.fetchAggregate(pipeline)
 
 # display results: days aging, amount from aggregation, amount from a sum of pushed amounts
-days  = 90;
+days  = 90
 total = 0.00
 dbTot = 0.00
 pattern_line = "{:20}\t{:10.2f}\t{:10.2f}"

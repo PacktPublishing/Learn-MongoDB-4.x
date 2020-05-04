@@ -12,10 +12,10 @@ from sweetscomplete.entity.customer import Customer
 class SimpleAuth :
 
     service     = None
-    session     = None    
+    session     = None
     custSessKey = 'custKey'
     identity    = None
-    
+
     """
     @param sweetscomplete.domain.customer.CustomerService service
     @param string baseDir
@@ -34,18 +34,20 @@ class SimpleAuth :
     def authByEmail(self, email, password) :
         success  = False
         customer = self.service.fetchByEmail(email)
-        if customer  and isinstance(customer, Customer) :
-            success = bcrypt.checkpw(password.encode('utf8'), customer.get('password').encode('utf8'))
+        if customer :
+            pwd_db   = customer.get('password')
+            pwd_form = password
+            success = bcrypt.checkpw(pwd_form.encode('utf-8'), pwd_db.encode('utf-8'))
         return customer if success else False
- 
+
     """
     @param string password : plain text
     @return string hashed password
     """
     def genHash(self, password) :
-        newPass = bcrypt.hashpw(password.encode('utf8'),bcrypt.gensalt())
+        newPass = bcrypt.hashpw(bytes(password),bcrypt.gensalt())
         return newPass
- 
+
     """
     @return string token
     """
@@ -64,8 +66,13 @@ class SimpleAuth :
             self.identity = self.service.fetchByKey(custKey)
         return self.identity
 
-    def authenticate(self, username, password) :
-        cust = self.authByEmail(username, password)
+    """
+    @param string email
+    @param string password : plain text
+    @return False | Customer : customer entity restored from JSON
+    """
+    def authenticate(self, email, password) :
+        cust = self.authByEmail(email, password)
         # if auth is successful, get token, and store customer info in authfile
         if (cust) :
             # generate token

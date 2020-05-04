@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/python3
 
 # tell python where to find source code
 import os,sys
@@ -56,7 +56,7 @@ if 'purchase' in form :
     fname = cust.get('firstName')
     lname = cust.get('lastName')
     transactionId  = ymd + fname[0:4] + lname[0:4] + str(random.randint(0, 9999))
-    
+
     # create Purchase entity
     purchase = Purchase()
     purchase.set('transactionId',  transactionId)
@@ -68,7 +68,7 @@ if 'purchase' in form :
     purchase.set('lastName',      cust.get('lastName'))
     purchase.set('phoneNumber',   cust.get('phoneNumber'))
     purchase.set('email',         cust.get('email'))
-    purchase.set('streetAddressOfBuilding', 
+    purchase.set('streetAddressOfBuilding',
                  cust.get('streetAddressOfBuilding'))
     purchase.set('city',          cust.get('city'))
     purchase.set('stateProvince', cust.get('stateProvince'))
@@ -92,13 +92,13 @@ if 'purchase' in form :
                     prodPurch = ProductPurchased(prodInfo.toJson())
                     prodPurch.set('qtyPurchased', qty)
                     productsPurchased[prodKey] = prodPurch
-        
+
     # set list of ProductPurchased objects into the Purchase object
     purchase.set('productsPurchased', productsPurchased)
 
     # save to the database
     purch_service.addOne(purchase)
-    
+
 # output
 if cust :
     html_out.addInsert('%name%', cust.getFullName())
@@ -115,7 +115,7 @@ if cust :
                 html_out.addInsert('%message%', '<b>Purchase cancelled.</b>')
             else :
                 html_out.addInsert('%message%', '<b>Sorry! Unable to cancel purchase.</b>')
-        else :        
+        else :
             html_out.addInsert('%message%', '<b>Thanks for your purchase!</b>')
 else :
     html_out.addInsert('%name%', 'guest')

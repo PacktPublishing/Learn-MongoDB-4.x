@@ -75596,8 +75596,6 @@ db.properties.insertOne(
     "totalBooked": 81
 });
 db.properties.insertOne(
-);
-db.properties.insertOne(
 {
     "propertyKey": "ROMA5669",
     "partnerKey": "INDUSJOS1717",

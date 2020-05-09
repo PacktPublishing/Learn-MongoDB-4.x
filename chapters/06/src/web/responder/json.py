@@ -9,7 +9,7 @@ class JsonResponder :
 
     headers   = []
     data      = dict()
-        
+
     """
     Initializes JSON response header
     """
@@ -17,14 +17,14 @@ class JsonResponder :
         self.addHeader('Content-Type: application/json')
 
     def addHeader(self, header) :
-        self.headers.extend([header]) 
-        
+        self.headers.extend([header])
+
     def addData(self, key, value) :
         self.data[key] = value
 
-    def addProductKeyTitlePrice(self, key, data) :
+    def addProductKeyTitlePrice(self, key, lookup) :
         temp = []
-        for product in data :
+        for product in lookup :
             prodKey = product.get('productKey')
             title   = '<a href="/chapter_06/details.py?product=' + prodKey + '">' + product.get('title') + '</a>'
             price   = product.get('price')

@@ -11,7 +11,8 @@ import pprint
 from pymongo import MongoClient
 
 # set up client
-client = MongoClient('172.16.0.11:27017')
+# NOTE: assumes you have the docker container described in this chapter up and running
+client = MongoClient('learning.mongodb.local:27017')
 
 # create point to database: "test"
 test_db = client.test
@@ -20,7 +21,7 @@ test_db = client.test
 test_db.test_collection.delete_many({})
 
 # add a document to the "test_collection" collection
-insert_result = test_db.test_collection.insert_one(data)
+insert_result = test_db.test_collection.insert_one(data).inserted_id
 
 # retrieve the same document
 find_result = test_db.test_collection.find_one()

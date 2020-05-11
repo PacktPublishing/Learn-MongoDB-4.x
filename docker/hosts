@@ -5,6 +5,7 @@ ff00::0	ip6-mcastprefix
 ff02::1	ip6-allnodes
 ff02::2	ip6-allrouters
 172.16.0.11   learning.mongodb.local
+172.16.0.11   booksomeplace.local
 172.16.0.11   chap07.booksomeplace.local
 172.16.0.11   chap08.booksomeplace.local
 172.16.0.11   chap09.booksomeplace.local

@@ -21,10 +21,11 @@ test_db = client.test
 test_db.test_collection.delete_many({})
 
 # add a document to the "test_collection" collection
+# return the last auto-generated ID
 insert_result = test_db.test_collection.insert_one(data).inserted_id
 
-# retrieve the same document
-find_result = test_db.test_collection.find_one()
+# retrieve the new document
+find_result = test_db.test_collection.find_one({"_id":insert_result})
 
 # display results
 print("\nInsert Result:")

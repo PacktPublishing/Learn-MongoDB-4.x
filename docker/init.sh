@@ -14,6 +14,7 @@ a2enmod wsgi
 
 echo "Adding virtual host config files for chapters 5 through 10 ..."
 a2ensite learning.mongodb.local.conf
+a2ensite booksomeplace.local.conf
 a2ensite chap07.booksomeplace.local.conf
 a2ensite chap09.booksomeplace.local.conf
 a2ensite chap08.booksomeplace.local.conf
@@ -47,8 +48,6 @@ then
 fi
 ln -s $PY_LINK /usr/bin/python3
 
-echo "Assigning rights to web server user www-data ..."
-chown -R www-data /repo/www
 echo 'From outside Docker, on your host computer:'
 echo '    (1) To initialize Apache run this script:'
 echo '        /path/to/repo/restart_apache_outside.sh"'

@@ -1,3 +1,4 @@
 #!/bin/bash
-service apache2 stop
-service apache2 start
+echo "Assigning rights to web server user www-data ..."
+chown -R www-data /repo/www
+service apache2 restart

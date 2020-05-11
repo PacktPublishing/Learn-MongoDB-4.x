@@ -8,6 +8,7 @@ FROM unlikelysource/mongodb_python
 # Set up init script
 COPY ./init.sh /tmp/init.sh
 COPY ./learning.mongodb.local.conf /etc/apache2/sites-available/
+COPY ./booksomeplace.local.conf /etc/apache2/sites-available/
 COPY ./chap07.booksomeplace.local.conf /etc/apache2/sites-available/
 COPY ./chap09.booksomeplace.local.conf /etc/apache2/sites-available/
 COPY ./chap08.booksomeplace.local.conf /etc/apache2/sites-available/

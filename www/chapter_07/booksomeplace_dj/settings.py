@@ -97,7 +97,7 @@ USE_TZ = True
 
 # Book Someplace Project Settings
 
-ALLOWED_HOSTS = ['booksomeplace.local']
+ALLOWED_HOSTS = ['booksomeplace.local','chap07.booksomeplace.local']
 
 # Disable cache
 CACHES = {

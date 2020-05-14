@@ -94,9 +94,7 @@ USE_L10N = True
 
 USE_TZ = True
 
-
 # Book Someplace Project Settings
-
 ALLOWED_HOSTS = ['booksomeplace.local','chap07.booksomeplace.local','chap08.booksomeplace.local']
 
 # Disable cache

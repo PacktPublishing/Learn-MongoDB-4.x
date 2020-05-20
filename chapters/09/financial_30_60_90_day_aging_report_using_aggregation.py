@@ -12,7 +12,7 @@ from booksomeplace.domain.booking import BookingService
 
 # setting up the connection + collection
 service = BookingService(Config())
-year   = '2019'
+year   = '2020'
 target = year + '-12-01'
 now    = date.fromisoformat(target)
 aging  = {
@@ -52,15 +52,23 @@ bucket = {
     }
 }
 
-pipeline  = [ project, match, sort, bucket ]
-result = service.fetchAggregate(pipeline)
 
-# display results: days aging, amount from aggregation, amount from a sum of pushed amounts
+# set values
 days  = 90
 total = 0.00
 dbTot = 0.00
 pattern_line = "{:20}\t{:10.2f}\t{:10.2f}"
 pattern_text = "{:20}\t{:10}\t{:10}"
+pipeline  = [ project, match, sort, bucket ]
+
+# exec operation
+result = service.fetchAggregate(pipeline)
+
+# display results: days aging, amount from aggregation, amount from a sum of pushed amounts
+print('..................................................')
+print('FROM: ' + target)
+print('30: ' + aging['30'] + ' | 60: ' + aging['60'] + ' | 90: ' + aging['90'])
+print('..................................................')
 print(pattern_text.format('Aging in Days','From Aggr','From Amts'))
 print(pattern_text.format('--------------------','----------','----------'))
 import pprint
@@ -82,5 +90,4 @@ for doc in result :
 # print total
 print(pattern_text.format('====================','==========','=========='))
 print(pattern_line.format('TOTAL',total,dbTot))
-print(pattern_text.format('--------------------','----------','----------'))
-print(pattern_line.format('90+ DAYS (YEAR ' + year + ')',amt_plus,dbl_plus))
+print('..................................................')

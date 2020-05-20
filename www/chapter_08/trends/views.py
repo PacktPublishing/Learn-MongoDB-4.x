@@ -4,7 +4,7 @@ from .forms import TrendForm
 
 # tell python where to find module source code
 import os,sys
-sys.path.append(os.path.realpath("../../../chapters/08/src"))
+#sys.path.append(os.path.realpath("../../../chapters/08/src"))
 from config.config import Config
 from booksomeplace.domain.booking import BookingService
 

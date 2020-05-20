@@ -10,7 +10,7 @@ class Config :
             'database' : 'booksomeplace'
         },
         'rooms' : {
-            'details_url' : 'http://chap08.booksomeplace.local/property/room/details/',
+            'details_url' : 'http://chap09.booksomeplace.local/property/room/details/',
         },
     })
 

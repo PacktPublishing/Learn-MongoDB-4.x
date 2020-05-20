@@ -15,14 +15,14 @@ from booksomeplace.domain.booking import BookingService
 service = BookingService(Config())
 
 # formulate query
-target = '2019-12-01'
+year = '2020'
+target = year + '-12-01'
 query  = {
     "$and":
     [
         { "bookingInfo.paymentStatus":"pending",
-          "bookingInfo.arrivalDate":{"$regex":"^2019"},
+          "bookingInfo.arrivalDate":{"$regex":"^" + year},
           "bookingInfo.arrivalDate":{"$lt":target},
-
         }
     ]
 }
@@ -31,12 +31,15 @@ sort   = [('bookingInfo.arrivalDate',pymongo.ASCENDING)]
 result = service.fetch(query, proj, sort)
 
 # init vars
-now = date.fromisoformat(target)
-aging = {
-    '30' : {'date' : now - timedelta(days=30), 'amount' : 0},
-    '60' : {'date' : now - timedelta(days=60), 'amount' : 0},
-    '90' : {'date' : now - timedelta(days=90), 'amount' : 0}
-};
+year   = '2020'
+target = year + '-12-01'
+now    = date.fromisoformat(target)
+aging  = {
+    '30' : {'date' : (now - timedelta(days=30)), 'amount' : 0},
+    '60' : {'date' : (now - timedelta(days=60)), 'amount' : 0},
+    '90' : {'date' : (now - timedelta(days=90)), 'amount' : 0},
+    '00' : {'date' : (now - timedelta(days=120)), 'amount' : 0}
+}
 total = 0
 cutoff = 0
 
@@ -49,31 +52,39 @@ for doc in result :
     # grab information out of the return document
     a_date = doc['bookingInfo']['arrivalDate']
     price  = doc['totalPrice']
-    total += price
     # check aging of payment
     checkDate = date.fromisoformat(a_date[0:10])
-    if checkDate < aging['90']['date'] :
-        aging['90']['amount'] += price
+    if checkDate < aging['00']['date'] :
+        aging['00']['amount'] += price
         if cutoff == 0 :
+            cutoff += 1
+    elif checkDate < aging['90']['date'] :
+        aging['90']['amount'] += price
+        total += price
+        if cutoff == 1 :
+            print(pattern_text.format('--------------------','----------'))
             print(pattern_text.format('--- 90 DAY CUTOFF --','----------'))
             print(pattern_text.format('--------------------','----------'))
             cutoff += 1
     elif checkDate < aging['60']['date'] :
         aging['60']['amount'] += price
-        if cutoff == 1 :
+        total += price
+        if cutoff == 2 :
             print(pattern_text.format('--------------------','----------'))
             print(pattern_text.format('--- 60 DAY CUTOFF --','----------'))
             print(pattern_text.format('--------------------','----------'))
             cutoff += 1
     elif checkDate < aging['30']['date'] :
         aging['30']['amount'] += price
-        if cutoff == 2 :
+        total += price
+        if cutoff == 3 :
             print(pattern_text.format('--------------------','----------'))
             print(pattern_text.format('--- 30 DAY CUTOFF --','----------'))
             print(pattern_text.format('--------------------','----------'))
             cutoff += 1
     if checkDate < now :
-        print(pattern_line.format(a_date, price))
+        if cutoff > 1 :
+            print(pattern_line.format(a_date, price))
 
 # print total
 print(pattern_text.format('--------------------','----------'))
@@ -84,4 +95,6 @@ print(pattern_text.format('--------------------','----------'))
 print(pattern_line.format('90 Days Late:',aging['90']['amount']))
 print(pattern_text.format('====================','=========='))
 print(pattern_line.format('TOTAL',total))
+print(pattern_text.format('--------------------','----------'))
+print(pattern_line.format('90+ days',aging['00']['amount']))
 

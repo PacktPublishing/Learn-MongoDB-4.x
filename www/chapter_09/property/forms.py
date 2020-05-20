@@ -4,7 +4,7 @@ from django.core.validators import RegexValidator, EmailValidator
 
 # tell python where to find module source code
 import os,sys
-sys.path.append(os.path.realpath("../../../chapters/08/src"))
+#sys.path.append(os.path.realpath("../../../chapters/09/src"))
 from config.config import Config
 from booksomeplace.entity.base import Name, Location, Contact
 from booksomeplace.entity.property import Property, PropInfo, RoomType

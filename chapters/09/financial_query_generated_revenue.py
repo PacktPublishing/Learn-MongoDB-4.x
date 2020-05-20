@@ -6,7 +6,7 @@ db.bookings.aggregate(
 [
     { $match :
         { "$and":[
-            { "bookingInfo.arrivalDate":{"$regex":"^2018"},
+            { "bookingInfo.arrivalDate":{"$regex":"^2019"},
               "bookingInfo.paymentStatus":"confirmed"
             }
         ] }
@@ -14,8 +14,8 @@ db.bookings.aggregate(
    { $bucket:
        {
             groupBy: "$bookingInfo.arrivalDate",
-            boundaries: [ '2018-01-01', '2018-04-01', '2018-07-01', '2018-10-01' ],
-            default: "2018-10-01",
+            boundaries: [ '2019-01-01', '2019-04-01', '2019-07-01', '2019-10-01' ],
+            default: "2019-10-01",
             output: {
                 "totals": { $sum : "$totalPrice" },
                 "amounts" : { $push : "$totalPrice" }
@@ -39,7 +39,7 @@ service = BookingService(Config())
 pipeline  = [
     { '$match' :
         { '$and':[
-            { 'bookingInfo.arrivalDate':{'$regex':'^2018'},
+            { 'bookingInfo.arrivalDate':{'$regex':'^2019'},
               'bookingInfo.paymentStatus':'confirmed'
             }
         ] }
@@ -47,8 +47,8 @@ pipeline  = [
    { '$bucket' :
        {
             'groupBy'    : '$bookingInfo.arrivalDate',
-            'boundaries' : [ '2018-01-01', '2018-04-01', '2018-07-01', '2018-10-01' ],
-            'default'    : '2018-10-01',
+            'boundaries' : [ '2019-01-01', '2019-04-01', '2019-07-01', '2019-10-01' ],
+            'default'    : '2019-10-01',
             'output'     : {
                 'totals'  : { '$sum' : '$totalPrice' },
                 'amounts' : { '$push' : '$totalPrice' }
@@ -60,10 +60,10 @@ result = service.fetchAggregate(pipeline)
 
 # display results
 total = 0
-quarters = { '2018-01-01' : 'Q1', '2018-04-01' : 'Q2', '2018-07-01' : 'Q3', '2018-10-01' : 'Q4' }
+quarters = { '2019-01-01' : 'Q1', '2019-04-01' : 'Q2', '2019-07-01' : 'Q3', '2019-10-01' : 'Q4' }
 pattern_line = "{:20}\t{:10.2f}"
 pattern_text = "{:20}\t{:10}"
-print(pattern_text.format('Quarter','Amount'))
+print(pattern_text.format('2019 Quarter','Amount'))
 print(pattern_text.format('--------------------','----------'))
 for doc in result :
     label = quarters[doc['_id']]

@@ -24,7 +24,7 @@ SECRET_KEY = 'y7rtrgxer!jsv$((-ag0ipok#3xrnw#e$*chji6s9+h8txxp90'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 ALLOWED_HOSTS = ['biglittle.local','chap10.biglittle.local']
-SRC_DIR = os.path.join(BASE_DIR, '..', '..', 'chapters', '10', 'src')
+SRC_DIR = os.path.realpath(BASE_DIR + '/../../chapters/10/src')
 
 # Template Settings
 TEMPLATE_DIR = os.path.realpath(BASE_DIR + '/templates')

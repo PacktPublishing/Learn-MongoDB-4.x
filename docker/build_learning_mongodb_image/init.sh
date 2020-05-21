@@ -1,5 +1,6 @@
 #!/bin/bash
 apt-get update
+apt-get -y install unzip
 apt-get -y install apache2-utils
 apt-get -y install apache2-dev
 apt-get -y install libapache2-mod-wsgi
@@ -54,6 +55,7 @@ pip3 install --upgrade setuptools
 echo "Installing mod-wsgi and django ..."
 pip3 install django
 pip3 install mod-wsgi
+pip3 install pubsub
 
 echo "Copying new wsgi modules into Apache module structure ..."
 export MOD_WSGI=`find /usr/local/lib -name *mod_wsgi*gnu.so`

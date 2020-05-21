@@ -14,7 +14,7 @@ services:
      - 27111:27017
     build: ./docker
     restart: always
-    command: -f /etc/mongod.conf
+    command: /tmp/run_services.sh
     networks:
       app_net:
         ipv4_address: 172.16.0.11

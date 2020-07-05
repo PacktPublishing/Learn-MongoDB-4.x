@@ -44,3 +44,10 @@ rwAll = {
   mechanisms: [ "SCRAM-SHA-256" ]
 }
 db.createUser(rwAll);
+
+// test rwAll
+use sweetscomplete;
+db.test.insertOne({"entry_date" : "2020-06-01"});
+
+use biglittle;
+db.users.findOne({},{"name":1});

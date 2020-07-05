@@ -1,4 +1,4 @@
-conn = new Mongo("localhost:27018");
+conn = new Mongo();
 db = conn.getDB("biglittle");
 db.users.drop();
 db.users.insertOne(

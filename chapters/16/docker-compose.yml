@@ -1,0 +1,103 @@
+version: "3"
+services:
+  learn-mongodb-shard-1:
+    container_name: learn-mongo-shard-1
+    hostname: shard1
+    image: learn-mongodb/shard-1
+    volumes:
+     - db_data_shard_1:/data/db
+     - ./common_data:/data/common
+     - ./common_data/hosts:/etc/hosts
+     - ./common_data/mongod_shard_1.conf:/etc/mongod.conf
+    ports:
+     - 27111:27018
+    build: ./shard_1
+    restart: always
+    command: -f /etc/mongod.conf
+    networks:
+      app_net:
+        ipv4_address: 172.16.1.11
+
+  learn-mongodb-shard-2:
+    container_name: learn-mongo-shard-2
+    hostname: shard2
+    image: learn-mongodb/shard-2
+    volumes:
+     - db_data_shard_2:/data/db
+     - ./common_data:/data/common
+     - ./common_data/hosts:/etc/hosts
+     - ./common_data/mongod_shard_2.conf:/etc/mongod.conf
+    ports:
+     - 27222:27018
+    build: ./shard_2
+    restart: always
+    command: -f /etc/mongod.conf
+    networks:
+      app_net:
+        ipv4_address: 172.16.1.22
+
+  learn-mongodb-shard-3:
+    container_name: learn-mongo-shard-3
+    hostname: shard3
+    image: learn-mongodb/shard-3
+    volumes:
+     - db_data_shard_3:/data/db
+     - ./common_data:/data/common
+     - ./common_data/hosts:/etc/hosts
+     - ./common_data/mongod_shard_3.conf:/etc/mongod.conf
+    ports:
+     - 27333:27018
+    build: ./shard_3
+    restart: always
+    command: -f /etc/mongod.conf
+    networks:
+      app_net:
+        ipv4_address: 172.16.1.33
+
+  learn-mongodb-config-svr:
+    container_name: learn-mongo-config
+    hostname: config1
+    image: learn-mongodb/config-1
+    volumes:
+     - db_data_config:/data/db
+     - ./common_data:/data/common
+     - ./common_data/hosts:/etc/hosts
+     - ./common_data/mongod_config.conf:/etc/mongod.conf
+    ports:
+     - 27444:27019
+    build: ./config_svr
+    restart: always
+    command: -f /etc/mongod.conf
+    networks:
+      app_net:
+        ipv4_address: 172.16.1.44
+
+  learn-mongodb-mongos:
+    container_name: learn-mongo-mongos
+    hostname: mongos1
+    image: learn-mongodb/mongos-1
+    volumes:
+     - ./common_data:/data/common
+     - ./common_data/hosts:/etc/hosts
+     - ./common_data/mongos.conf:/etc/mongos.conf
+    ports:
+     - 27555:27020
+    build: ./mongos
+    restart: always
+    command: mongos -f /etc/mongos.conf
+    networks:
+      app_net:
+        ipv4_address: 172.16.1.55
+
+networks:
+  app_net:
+    ipam:
+      driver: default
+      config:
+        - subnet: "172.16.1.0/24"
+
+volumes:
+  db_data_shard_1: {}
+  db_data_shard_2: {}
+  db_data_shard_3: {}
+  db_data_config: {}

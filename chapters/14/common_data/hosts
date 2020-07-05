@@ -4,8 +4,6 @@ fe00::0	ip6-localnet
 ff00::0	ip6-mcastprefix
 ff02::1	ip6-allnodes
 ff02::2	ip6-allrouters
-172.16.1.11     shard1.biglittle.local
-172.16.1.22     shard2.biglittle.local
-172.16.1.33     shard3.biglittle.local
-172.16.1.44     config1.biglittle.local
-172.16.1.55     mongos1.biglittle.local
+172.16.0.11     member1.biglittle.local
+172.16.0.22     member2.biglittle.local
+172.16.0.33     member3.biglittle.local

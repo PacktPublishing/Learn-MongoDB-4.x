@@ -2,7 +2,14 @@
 
 # tell python where to find module source code
 import os,sys
-sys.path.append(os.path.realpath("../../../src"))
+include_path = os.path.realpath('./src')
+if not os.path.exists(include_path) :
+    include_path = os.path.realpath('../src')
+    if not os.path.exists(include_path) :
+        include_path = os.path.realpath('../../src')
+        if not os.path.exists(include_path) :
+            include_path = os.path.realpath('../../../src')
+sys.path.append(include_path)
 
 import json
 import unittest
@@ -13,7 +20,7 @@ class TestPurchase(unittest.TestCase) :
     purchaseFromDict = None
     purchaseDefaults = None
     purchaseFromJson = None
-    
+
     testDict = dict({
         # purchase info
         'transactionId'           : '00000000',
@@ -67,7 +74,7 @@ class TestPurchase(unittest.TestCase) :
         self.purchaseFromDict = Purchase(self.testDict)
         self.purchaseDefaults = Purchase(True)
         self.purchaseFromJson = Purchase(self.testJson)
-        
+
     def test_purchase_from_dict(self) :
         expected = '00000000'
         actual   = self.purchaseFromDict.getKey()
@@ -80,8 +87,8 @@ class TestPurchase(unittest.TestCase) :
         self.assertEqual(expected, actual)
 
     def test_purchase_from_dict_to_json(self) :
-        expected = json.loads(self.testJson)
-        actual   = json.loads(self.purchaseFromDict.toJson())
+        expected = self.purchaseFromDict
+        actual   = self.purchaseFromJson
         self.assertEqual(expected, actual)
 
     def test_purchase_from_json(self) :

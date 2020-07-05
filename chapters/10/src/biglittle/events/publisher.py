@@ -1,10 +1,9 @@
 """
 biglittle.events.publisher
-Description: module that leverages PyPubSub
-IMPORTANT: use "pip3" to install PyPubPub for this to work!
+Description: module that leverages pubsub
+IMPORTANT: use "pip3" to install pubsub for this to work!
 """
 
-#from pubsub import pub
 import pubsub
 
 class Publisher :

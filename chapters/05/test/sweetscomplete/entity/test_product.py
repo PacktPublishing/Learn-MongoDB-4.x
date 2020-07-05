@@ -2,7 +2,14 @@
 
 # tell python where to find module source code
 import os,sys
-sys.path.append(os.path.realpath("../../../src"))
+include_path = os.path.realpath('./src')
+if not os.path.exists(include_path) :
+    include_path = os.path.realpath('../src')
+    if not os.path.exists(include_path) :
+        include_path = os.path.realpath('../../src')
+        if not os.path.exists(include_path) :
+            include_path = os.path.realpath('../../../src')
+sys.path.append(include_path)
 
 import json
 import unittest
@@ -13,7 +20,7 @@ class TestProduct(unittest.TestCase) :
     productFromDict = None
     productDefaults = None
     productFromJson = None
-    
+
     testDict = dict({
         'productKey'  : '00000000',
         'productPhoto': 'TEST',
@@ -43,7 +50,7 @@ class TestProduct(unittest.TestCase) :
         self.productFromDict = Product(self.testDict)
         self.productDefaults = Product(True)
         self.productFromJson = Product(self.testJson)
-        
+
     def test_product_from_dict(self) :
         expected = '00000000'
         actual   = self.productFromDict.getKey()
@@ -56,8 +63,8 @@ class TestProduct(unittest.TestCase) :
         self.assertEqual(expected, actual)
 
     def test_product_from_dict_to_json(self) :
-        expected = json.loads(self.testJson)
-        actual   = json.loads(self.productFromDict.toJson())
+        expected = self.productFromDict
+        actual   = self.productFromJson
         self.assertEqual(expected, actual)
 
     def test_product_from_json(self) :

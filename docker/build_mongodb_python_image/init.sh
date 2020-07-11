@@ -8,6 +8,7 @@ apt-get -y upgrade
 apt-get -y install vim
 apt-get -y install inetutils-ping
 apt-get -y install net-tools
+apt-get -y install curl
 apt-get -y install apache2
 apt-get -y install wget
 apt-get -y install python`echo $PY_VER`
@@ -26,7 +27,10 @@ ln -s -v $PY_PATH /usr/bin/python
 ln -s -v $PY_PATH /usr/bin/python3
 
 # install pip3 + pymongo + bcrypt
+echo "Installing pip3 ... "
 wget -O /tmp/get-pip.py https://bootstrap.pypa.io/get-pip.py
 python /tmp/get-pip.py
+pip3 install --upgrade pip
+pip3 install --upgrade setuptools
 pip3 install pymongo
 pip3 install bcrypt

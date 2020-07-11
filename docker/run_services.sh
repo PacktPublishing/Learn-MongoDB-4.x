@@ -1,5 +1,9 @@
 #!/bin/bash
 
+# Assign rights
+chgrp -R www-data /repo
+chmod -R 775 /repo
+
 # Start the first process
 /usr/bin/mongod -f /etc/mongod.conf --bind_ip_all &
 status=$?

@@ -3,7 +3,7 @@
 #
 
 # Pull base image.
-FROM unlikelysource/mongodb_python
+FROM unlikelysource/mongodb_python:latest
 
 # Copy Apache vhost config files
 COPY ./learning.mongodb.local.conf /etc/apache2/sites-available/

@@ -1,4 +1,5 @@
 #!/bin/bash
+apt --fix-broken -y install
 apt-get update
 apt-get -y install unzip
 apt-get -y install apache2-utils
@@ -7,6 +8,7 @@ apt-get -y install libapache2-mod-wsgi
 apt-get -y install python3-dev
 
 echo "ServerName server1" >>/etc/apache2/apache2.conf
+echo "HttpProtocolOptions Unsafe"  >>/etc/apache2/apache2.conf
 a2enmod cgid
 a2enmod wsgi
 
@@ -47,10 +49,6 @@ then
     rm -v /usr/bin/python3
 fi
 ln -s -v $PY_LINK /usr/bin/python3
-
-echo "Upgrading pip ... "
-pip3 install --upgrade pip
-pip3 install --upgrade setuptools
 
 echo "Installing mod-wsgi and django ..."
 pip3 install django

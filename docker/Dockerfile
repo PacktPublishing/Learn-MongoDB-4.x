@@ -3,7 +3,7 @@
 #
 
 # Pull base image.
-FROM unlikelysource/learning_mongodb
+FROM unlikelysource/learning_mongodb:latest
 COPY ./init.sh /tmp/init.sh
 RUN  chmod +x /tmp/init.sh
 RUN  /tmp/init.sh

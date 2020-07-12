@@ -1,8 +1,8 @@
-# booksomeplace.entity.customer.Name test
+# booksomeplace.domain.property.PropertyService test
 
 # tell python where to find module source code
 import os,sys
-sys.path.append(os.path.realpath("../../../src"))
+sys.path.append(os.path.realpath("/repo/chapters/07/src"))
 
 import json
 import unittest

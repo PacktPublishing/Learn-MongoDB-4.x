@@ -2,7 +2,7 @@
 
 # tell python where to find module source code
 import os,sys
-sys.path.append(os.path.realpath("src"))
+sys.path.append(os.path.realpath("/repo/chapters/07/src"))
 
 from booksomeplace.entity.base import Name
 
@@ -25,6 +25,3 @@ pprint.pprint(name)
 
 print("\nJSON\n")
 print(name.toJson())
-
-print("\ndir()\n")
-name.getVars()

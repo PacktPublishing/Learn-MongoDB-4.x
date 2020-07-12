@@ -2,7 +2,8 @@
 
 # tell python where to find module source code
 import os,sys
-sys.path.append(os.path.realpath("src"))
+import os,sys
+sys.path.append(os.path.realpath("/repo/chapters/07/src"))
 
 from sweetscomplete.entity.common import Common
 

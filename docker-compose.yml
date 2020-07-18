@@ -7,8 +7,6 @@ services:
     volumes:
      - db_data_server_1:/data/db
      - .:/repo
-     - ./docker/hosts:/etc/hosts
-     - ./docker/mongod.conf:/etc/mongod.conf
     ports:
      - 8888:80
      - 27111:27017

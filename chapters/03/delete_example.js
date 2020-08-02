@@ -1,33 +1,21 @@
 // you only need these 2 commands if running the script externally
 conn = new Mongo();
-db = conn.getDB("sweetscomplete");
+db = conn.getDB("learn");
 
-// NOTE: this command only works when in the shell
-use sweetscomplete;
+// load the "learn" database
+load("/repo/sample_data/learn_insert.js");
 
-// define an array of EU country codes
-eu = [  "AL", "AD", "AM", "AT", "BY", "BE", "BA", "BG", "CH", "CY", "CZ", "DE",
-        "DK", "EE", "ES", "FO", "FI", "FR", "GB", "GE", "GI", "GR", "HU", "HR",
-        "IE", "IS", "IT", "LT", "LU", "LV", "MC", "MK", "MT", "NO", "NL", "PL",
-        "PT", "RO", "RU", "SE", "SI", "SK", "SM", "TR", "UA", "VA"
-];
+// browse
+db.chapters.find();
 
-// define a filter which locates "ERROR" products in EU countries
-filter = {
-    "CustomerInfo.Address.country" : { $in : eu },
-    "ProductInfo.MainProductInfo.skuNumber":"ERROR"
-};
+// look for chapter 3
+db.chapters.find({"chapterNumber":3});
 
-// create a "projection" for the "find()" command only
-projection = {
-    "CustomerInfo.Address.country" : 1,
-    "ProductInfo.MainProductInfo.skuNumber" : 1
-    ,"_id":0
-};
+// delete by ID (make sure you enter an ID in place of "PUT ID HERE")
+db.chapters.deleteOne({"_id":"PUT ID HERE"});
 
-// run a "find()" command to make sure the filter affects the right countries
-db.purchases.find(filter,projection);
-db.purchases.find(filter,projection).count();
+// look again
+db.chapters.find({"chapterNumber":3});
 
-// now you can run the "deleteMany()" using the same filter
-db.purchases.deleteMany(filter);
+// delete by ObjectId (make sure you enter an ID in place of "PUT ID HERE")
+db.chapters.deleteOne({"_id":ObjectId("PUT ID HERE")});

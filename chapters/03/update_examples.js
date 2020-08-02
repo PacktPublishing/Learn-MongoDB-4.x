@@ -6,18 +6,16 @@ db = conn.getDB("sweetscomplete");
 use sweetscomplete;
 
 // first: confirm customer exists at this email address:
-db.customers.find(
-    { "PrimaryContactInfo.email" : "jcole@Tata.com" },
-    { "PrimaryContactInfo" : 1 }
-).pretty();
+db.customers.findOne({ "email" : "omann137@Chunghwa.com" });
 
-// change customer's email address
+// issue the update, as follows:
 db.customers.updateOne(
-    {"PrimaryContactInfo.email" : "jcole@Tata.com"},
-    { $set: {
-        "PrimaryContactInfo.email" : "jesica.cole@infosys.com",
-        "PrimaryContactInfo.phoneNumber" : "+44-222-333-4444" }
-    }
+	{"email" : "omann137@Chunghwa.com"},
+	{ $set: {
+		"email" : "ola.mann22@somenet.com",
+		"phoneNumber" : "+94-111-222-3333" 
+		}
+	}
 );
 
 // get a list where "buildingName" is NULL; make a note of the 1st customer key
@@ -39,50 +37,3 @@ db.customers.findOne(
 db.customers.find({"buildingName":{"$type":"null"}}).count();
 // update buildingName to "" where "buildingName" is NULL
 db.customers.updateMany({"buildingName":{"$type":"null"}},{"$set":{"buildingName":""}});
-
-// define the "Error" product JavaScript var
-error_product =
-{
-    "productKey": "error",
-    "productPhoto": "",
-    "MainProductInfo": {
-        "skuNumber": "ERROR",
-        "category": "error",
-        "title": "Error",
-        "description": "Error",
-        "price": "0.00"
-    },
-    "InventoryInfo": {
-        "unit": "error",
-        "costPerUnit": "0.00",
-        "numberOfUnitsOnHand": 0
-    }
-};
-
-// insert into "products"
-db.products.insertOne(error_product);
-
-// create "Error" product info JavaScript var
-error_main_product_info =
-{
-    "skuNumber": "ERROR",
-    "category": "error",
-    "title": "Error",
-    "description": "Error",
-    "price": "0.00"
-};
-
-// count purchases where product info is null
-db.purchases.find({"ProductInfo.MainProductInfo":null}).count();
-
-// set missing "MainProductInfo" to "error_product" JavaScript variable
-db.purchases.updateMany(
-    { "ProductInfo.MainProductInfo" : null },
-    { $set : { "ProductInfo.MainProductInfo" : error_main_product_info } }
-);
-
-// confirm that the "null"s are gone
-db.purchases.find({"ProductInfo.MainProductInfo":null}).count();
-
-// confirm the number of "ERROR" sku numbers
-db.purchases.find({"ProductInfo.MainProductInfo.skuNumber":"ERROR"}).count();

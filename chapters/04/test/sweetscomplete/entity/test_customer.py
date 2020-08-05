@@ -84,11 +84,6 @@ class TestCustomer(unittest.TestCase) :
         actual   = self.customerFromDict.get('skuNumber')
         self.assertEqual(expected, actual)
 
-    def test_customer_from_dict_to_json(self) :
-        expected = json.loads(self.testJson)
-        actual   = json.loads(self.customerFromDict.toJson())
-        self.assertEqual(expected, actual)
-
     def test_customer_from_json(self) :
         expected = '00000000'
         actual   = self.customerFromJson.getKey()

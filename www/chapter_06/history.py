@@ -41,7 +41,7 @@ if 'page' in info :
 else :
     pageNum = 0
 
-response.addInsert('%message%', 'You are currenty viewing page: ' + str(pageNum))
+response.addInsert('%message%', 'You are currently viewing page: ' + str(pageNum))
 
 # output
 if cust :

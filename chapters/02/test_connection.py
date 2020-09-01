@@ -12,7 +12,7 @@ from pymongo import MongoClient
 
 # set up client
 # NOTE: assumes you have the docker container described in this chapter up and running
-client = MongoClient('learning.mongodb.local:27017')
+client = MongoClient('localhost')
 
 # create point to database: "test"
 test_db = client.test

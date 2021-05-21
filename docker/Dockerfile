@@ -9,5 +9,5 @@ COPY ./mongod.conf /etc/mongod.conf
 COPY ./init.sh /tmp/init.sh
 COPY ./run_services.sh /tmp/run_services.sh
 RUN chmod +x /tmp/*.sh
-RUN /tmp/init.sh
-CMD /tmp/run_services.sh
+RUN ./tmp/init.sh
+CMD ["/tmp/run_services.sh"]
